@@ -1,0 +1,451 @@
+# md5sum id for alignment: 480514ca86d74f036564e675e08b7a9a
+# Clustering seq id value: 0.27
+# Number of clusters: 2
+# Blast queries alignment:
+>BLAST_QUERY_1
+---------------------------MA-------------------------------------------------A-KVEIYTTPTUPYCIRAKALLDKKGVA-FTEIDV-DGD-PEARQEMIERA-NGRRTVPQIFI--GD-QHVGGCDDLYALERAGKLDPL----LA----------------------------------AA
+>BLAST_QUERY_2
+---------------------------MKNLAAYLAFILAMTAACPHQAP-------AKQ-------PRTPQLAYPSSP-SIVIFVAEGUPYCTKAESYFAEKGIP-YESRDI-QKS-HQAYREWHEHY-GG-EIVPMIVLDGGK-KQIDDSDDIPAIKRALADIRI----TSRN------------------------------GKKP
+>BLAST_QUERY_MASTER
+---------------------------MANLIAYLAFILAMTAACPHQAN-------SIL-------GRHPQLPESIMA-KVEIYTTPTUPYCIRAKALLDKKGVA-FTEIDV-DGD-PEARQEMIERA-NGRRTVPQIFIDGGD-QHVGGCDDLYALERAGKLDPL----LADN------------------------------GGAA
+# Cluster alignment n.1:
+>gi|218440470|ref|YP_002378799.1| glutaredoxin 3 [Cyanothece sp. PCC 7424] 5.69313e-33
+---------------------------MLNLI-N-------SVL-------GRHPERIKA-NVEIYTWQTCPYCIRAKFLLWWKGVN-FTEYKI-DGD-NQARQAMAERA-NGRRTVPQIFI-NN-QHIGGCDDLYELDTKGQLDPL----LTQNPNE--------------------------VVGIG
+>gi|218440470|ref|YP_002378799.1|_1 glutaredoxin 3 [Cyanothece sp. PCC 7424] 5.69313e-33 # ARTIFICIAL_U
+---------------------------MLNLI-N-------SVL-------GRHPERIKA-NVEIYTWQTUPYCIRAKFLLWWKGVN-FTEYKI-DGD-NQARQAMAERA-NGRRTVPQIFI-NN-QHIGGCDDLYELDTKGQLDPL----LTQNPNE--------------------------VVGIG
+>gi|159028686|emb|CAO88157.1| unnamed protein product [Microcystis aeruginosa PCC 7806] 1.47468e-30
+---------------------------MLNLF-N-------SLF-------GRYNENIKA-NVEIYTWATCPYCIRAKWLLGWKGVK-YTEYKI-DGD-ESARQAMAERS-NGKRSVPQIFI-NN-EHIGGCDDLYALDDQKKLDNL----LAKC-------------------------------GTI
+>gi|284051052|ref|ZP_06381262.1| glutaredoxin 3 [Arthrospira platensis str. Paraca] 2.35232e-31
+---------------------------MLDLL-N-------HIL-------GRNPEKFKA-QVEVYSWQTCPYCIRAKLLLWWKGVD-YIDYQI-DGD-NNAREAMAQRA-NGRRTVPQIFI-NN-QHIGGCDDLYQLDSEGKLEPL----LIP--------------------------------PLS
+>gi|170078672|ref|YP_001735310.1| glutaredoxin [Synechococcus sp. PCC 7002] 2.68984e-29
+---------------------------MFNCL-K-------SLF-------GKKATGIHA-KVEIYTWRTCPYCIAAKILLFFKGVH-FTEYKI-DGD-EIARKKMAERA-NGKRTVPQIFI-NN-AHIGGCTDLFALEQKGELNVL----LH-----------------------------------Q
+>gi|72383383|ref|YP_292738.1| glutaredoxin, GrxC [Prochlorococcus marinus str. NATL2A] 1.55039e-30
+---------------------------MNRSI----------------------PDSGIT-TVEIYTWRFCPFCLRAKALLNEKGVQ-FTEYSI-DGD-DGARTKMSERA-GGRRTVPQIFI-NG-KSIGGCDELYELERNNELNEL----IG---------------------------------IRN
+>gi|182680212|ref|YP_001834358.1| glutaredoxin 3 [Beijerinckia indica subsp. indica ATCC 9039] 1.12945e-29
+---------------------------MSE----------------------------LP-EITIYTTQTCPYCRRAKELLTKKNLP-FTEISV-DGD-FEARERMTERA-NGRSTVPQIFF-GD-KHIGGCDDLYELHYDGKLDLL----LADLA----------------------------RTPTD
+>gi|86136800|ref|ZP_01055378.1| glutaredoxin [Roseobacter sp. MED193] 1.44944e-32
+---------------------------MAQNI-D-----------------ITQLETRMK-SVEIYTSPLCGFCHAAKRLLNQKGVE-FSEVNV-LTN-PGRKQEMIQRA-NGGYTVPQIFI-GD-THVGGCDDLYALEQAGKLDSL----LA-----------------------------------A
+>gi|87300850|ref|ZP_01083692.1| Glutaredoxin [Synechococcus sp. WH 5701] 1.6853e-30
+---------------------------MNT----------------------------PA-KVEIYTWRFCPFCIRAKALLDRKGVA-YEEYAI-DGD-QAARGAMAQRA-DGRSSLPQIFI-ND-QGIGGCDELHSLERAGRLDPL----LQ----------------------------------GA
+>gi|254417342|ref|ZP_05031085.1| glutaredoxin 3 [Microcoleus chthonoplastes PCC 7420] 1.62998e-30
+---------------------------ME------------------------------P-KVEIYTWSRCPYCMRAKGLLNEKGIN-FTEYCI-DGD-EQAREQMAQRA-NGRRSLPQIFI-ND-HHIGGCDDLYGLELQGELDTL----LQDGA-----------------------------GASH
+>gi|158335405|ref|YP_001516577.1| glutaredoxin 3 [Acaryochloris marina MBIC11017] 4.66268e-31
+---------------------------M-------------------------------A-NVEIYTWSTCPFCRRAKHLLDQKGVT-YTEYVL-DGD-ETARDAMVARGTQGRRSVPQIFI-ND-QHIGGSDALYDLEQQGKLDGL----LNSSLAG---------------ATPLKPYQRGRNISGT
+>gi|146337713|ref|YP_001202761.1| glutaredoxin 3 [Bradyrhizobium sp. ORS278] 7.50646e-29
+---------------------------MT------------------------------A-AIEIYTRPGCGYCTAAKSLLTRKNVP-FTEYDA-GKD-PNVRQQMYDRV-GPGSTFPQIFI-GK-THIGGCDDLYALDREGRLDAM----LAGD------------------------------KATS
+>gi|209883248|ref|YP_002287105.1| glutaredoxin 3 [Oligotropha carboxidovorans OM5] 2.37272e-30
+---------------------------MS------------------------------A-AVEIYTRPGCGYCSAAKSLLAQKQVA-FTEFDA-SKN-PDFRQEMLARA-NGGMTFPQIFI-DG-FHVGGCDDLYALERAGRLDPL----LNGQ------------------------------KEPT
+>gi|83644209|ref|YP_432644.1| GrxC family glutaredoxin [Hahella chejuensis KCTC 2396] 4.39942e-30
+---------------------------MAQ----------------------------FK-PVTIYTTEFCPYCIRAKRLLEAKGAS-FEEIKV-DFN-AALRQEMMQKS--GRRTVPQIWV-GE-EHVGGCDELYGLERAGTLDAL----LQSGASD-------------------------ESVSPS
+>gi|17231352|ref|NP_487900.1| glutaredoxin [Nostoc sp. PCC 7120] 4.6226e-32
+---------------------------MA------------------------------A-TVEIYTWRTCPFCIRAKNLLNNKGVE-FVEYSI-DGD-EEARDKMAQRA-NGRRSLPQIFI-ND-RHVGGCDDIHALERQGQLDEL----LASS-------------------------------TSL
+>gi|282901629|ref|ZP_06309547.1| Glutaredoxin, GrxC [Cylindrospermopsis raciborskii CS-505] 2.78113e-29
+---------------------------MT------------------------------A-KVEIYTWSACPFCISAKGLLTSKGVQ-FTEYKI-DGN-EEARRKMAIRA-NGKRSVPQIFI-ND-VHIGGCDDIHDLNRSGGLDPL----LQN--------------------------------SGD
+>gi|172035407|ref|YP_001801908.1| glutaredoxin [Cyanothece sp. ATCC 51142] 1.01276e-31
+---------------------------MA------------------------------A-NVEIYTWSTCPFCLRAKALLVKKGVD-FTEYCI-DGD-EDARDEMAQRA-NGKRSVPQIFI-ND-RHVGGCDELYDLDSTGELDSL----LEN--------------------------------SAA
+>gi|254453988|ref|ZP_05067425.1| glutaredoxin 3 [Octadecabacter antarcticus 238] 1.6155e-32
+---------------------------MTP----------------------------MA-TVEIYTTPICGFCHRAKHLLSSKGVS-YSEVNV-MLH-PSRRAEMTQRA-NGGRTVPQIFI-GG-EHIGGSDELSALERAGKLDTL----LK-----------------------------------A
+>gi|119385313|ref|YP_916369.1| glutaredoxin 3 [Paracoccus denitrificans PD1222] 1.21647e-32
+---------------------------M------------------------------MA-KIEIYTTPTCPYCIAAKSLLQKKGIT-YEETDV-SCD-PQLRIAMTQRA-GGRRTVPQIFI-DG-QHVGGSDDLHALEHRGKLDGL----LG---------------------------------LTA
+>gi|110635334|ref|YP_675542.1| glutaredoxin 3 [Mesorhizobium sp. BNC1] 3.69232e-30
+---------------------------M-------------------------------A-DVTIYTRMGCGYCVAAKRLLERKGIA-YTEQDA-SFS-PELRKEMIGRA-NGRSTFPQIFI-GN-IHVGGSDDLHALEREGRLDAL----LEERD---------------------------IVGSSR
+>gi|148553482|ref|YP_001261064.1| glutaredoxin 3 [Sphingomonas wittichii RW1] 9.87728e-32
+---------------------------MDR----------------------------MP-KVEIYTKAFCPYCSRAKALLETKGVG-FEEYDI-SMG-GPKRAEMIERA-RGGSTVPQIFI-DD-RHIGGCDDMFALDRQGKLDPL----L-----------------------------------AA
+>gi|87200029|ref|YP_497286.1| glutaredoxin GrxC [Novosphingobium aromaticivorans DSM 12444] 1.29076e-29
+---------------------------MPN----------------------------MP-KVEMYTKWGCPYCFRAKQLLDGKGVS-YEEIDV-TMG-GPKKTEMLERA-PGHTTVPSIFI-DG-LHVGGSDDLAALNAQGKLDMM----L-----------------------------------GL
+>gi|170076910|ref|YP_001733548.1| GrxC family glutaredoxin [Synechococcus sp. PCC 7002] 1.63045e-29
+---------------------------M------------------------------AA-TVEIYTWSTCPFCIRAKHLLDSKQVE-YTEYCI-DGD-RQAREAMTERA-NGRSSLPQVFI-ND-QHVGGCDDLHELEYQGKLDDL----LMQ---------------------------------AA
+>gi|220910183|ref|YP_002485494.1| glutaredoxin 3 [Cyanothece sp. PCC 7425] 4.55005e-29
+---------------------------MA------------------------------A-KVEIYTWATCPFCIRAKRLLDQKGVD-YIEYGI-DGD-EPARRVMAQRA-GGRRTLPQIFI-DD-RPVGGCDDIHRLDAKGELDRL----LQ----------------------------------LN
+>gi|37523252|ref|NP_926629.1| glutaredoxin [Gloeobacter violaceus PCC 7421] 1.81567e-32
+---------------------------MN------------------------------P-KVEIYTWQFCPFCIRAKALLKQKSVA-FSEYAI-DGD-EAARSAMAERA-DGRRSVPQIFI-DG-KHIGGCDDLYALDRSGQLDPL----LV----------------------------------AS
+>gi|158340004|ref|YP_001521174.1| glutaredoxin 3 [Acaryochloris marina MBIC11017] 2.99628e-31
+---------------------------M-------------------------------A-NIEIYTWSTCPFCRRAKQLLDQKGAT-YTEYQI-DGD-EAARDQMVARGTNGRRSVPQIFI-ND-QHIGGSDDLYALERQGALDKL----LGST------------------------------EVLV
+>gi|86359346|ref|YP_471238.1| glutaredoxin protein [Rhizobium etli CFN 42] 1.7713e-31
+MQGLSPSL-------YDRNTRHPSGDIM-------------------------------V-PVTIYTRQFCGYCSRAKSLLEEKGVD-YVEHDA-TYS-ADLRQEMIGKS-NGRTTFPQIFI-GT-EHVGGCDDLFALDRAGKLDPM----LA-----------------------------------A
+>gi|163759884|ref|ZP_02166968.1| putative glutaredoxin [Hoeflea phototrophica DFL-43] 6.62147e-30
+MEI-----------------------MM-------------------------------A-DVTLYTRQFCGFCTAAKRLLDSKNVA-YTEHDA-TFS-PELKQEMIGKA-NGRATFPQIFI-DG-LHVGGCDELHALEHAGKLDPL----LE----------------------------------GA
+>gi|239832954|ref|ZP_04681283.1| glutaredoxin 3 [Ochrobactrum intermedium LMG 3301] 2.04183e-30
+MKSFGASSGHRCRLYSG---QR-MEFFM-------------------------------V-DVTIYTRPGCPYCTMAKELLTRKGVE-FNEINA-GAT-PELRAEMQARS--GRNTFPQIFV-GS-FHVGGCDDLHALEDQGKLDGL----LET-------------------------------GQLN
+>gi|144900148|emb|CAM77012.1| Glutaredoxin and related proteins [Magnetospirillum gryphiswaldense MSR-1] 4.11058e-34
+---------------------------M-------------------------------A-QVEIYTTQTCPYCIRAKRLLTTKGVA-FQEYDV-SND-PELRSAMTARA-HGGRTVPQIFI-NG-EHVGGCDDLHSLDGAGELDVL----LAK--------------------------------ESA
+>gi|85374117|ref|YP_458179.1| glutaredoxin [Erythrobacter litoralis HTCC2594] 2.0942e-29
+---------------------------MSE-----------------------------P-KVDIYTKFGCGYCVRAKRLLDEKGVD-YEEFDI-TMG-GPKRDEMRERA-PGAMTVPQIFI-GD-THVGGSDELHALEREGKLDPL----L-----------------------------------AG
+>gi|254472205|ref|ZP_05085605.1| glutaredoxin 3 [Pseudovibrio sp. JE062] 2.71081e-31
+---------------------------M-------------------------------A-QVTIYTRDMCGYCARAKRLLDEKGVD-YKEFNY-SED-PTIRKEMISKA-NGANTFPQIFI-GS-EHIGGCDDLFALERRGHLDGL----LSA---------------------------------DI
+>gi|33864327|ref|NP_895887.1| glutaredoxin [Prochlorococcus marinus str. MIT 9313] 4.66538e-29
+---------------------------M-------------------------------A-KVEIYTWQSCPFCLRAKALLDRKGVS-YQEHAI-DGD-QAARAVMASRA-GGKNTLPQIFI-DD-LSIGGCDELHALEGAQKLDGL----LQG---------------------------------KV
+>gi|113955238|ref|YP_731846.1| glutaredoxin 3 [Synechococcus sp. CC9311] 3.91213e-32
+---------------------------M-------------------------------A-KVEIYTWSTCPFCVRAKGLLDRKGVA-YSEVSV-DGD-EPGRDAMAARG-NGKRSVPQIFI-ND-QHVGGCDELHGLERAGKLDGL----LAG---------------------------------QA
+>gi|284050798|ref|ZP_06381008.1| glutaredoxin [Arthrospira platensis str. Paraca] 9.87728e-32
+---------------------------MT------------------------------N-SIEIYTWSSCPFCLRAKALLKRKGWE-FTEYVI-DGD-EEARDRMAVKA-NGRRSVPQVFI-NG-RHIGGCDDLHALEAQGQLDSL----LS-----------------------------------A
+>gi|162147688|ref|YP_001602149.1| glutaredoxin-3 [Gluconacetobacter diazotrophicus PAl 5] 4.21966e-30
+MITG----------------RY-SRIRMP--------------------------------RIEIYTQPGCPYCVRALRLLEQKGTA-FTEIRA-LHG-TAERAEARERS-GGRTTVPQIFI-DG-RHIGGCDDIMALDRAGKLDPL----LH----------------------------------AA
+>gi|158338671|ref|YP_001519848.1| glutaredoxin 3 [Acaryochloris marina MBIC11017] 3.34053e-30
+---------------------------M------------------------------TA-KVEIYTWAACPFCIQAKQLLDSKNIN-FTEYGI-DGD-EMARSEMAERA-FGRRSLPQIFI-ND-EHIGGCDDLYDLEGQGKLDPL----LQ-----------------------------------T
+>gi|77359334|ref|YP_338909.1| glutaredoxin [Pseudoalteromonas haloplanktis TAC125] 1.21753e-29
+---------------------------MS--------------------------------NVVLYTKAYCPFCQRARALLDSKGVQ-YTNFDI-GVQ-PELRDEMIAKA-GGASTVPQIFI-ND-EHIGGCDDMMAIEAQGQLDKK----LNA-------------------------------TLNA
+>gi|83859692|ref|ZP_00953212.1| glutaredoxin 3 [Oceanicaulis alexandrii HTCC2633] 1.3684e-29
+---------------------------MA--------------------------------AVTIYTRPMCPYCVRAVSLLKKKGVS-FDEIDA-GFD-VKKKKEMVDRA-NGARTFPQIFI-GD-THVGGCDEMMAMENAGKLDDL----LRN-------------------------------EGAL
+>gi|254516072|ref|ZP_05128132.1| glutaredoxin 3 [gamma proteobacterium NOR5-3] 6.67888e-29
+---------------------------MS------------------------------A-EVTLYSTRFCPYCVAAKRLLDAKGVK-YVDIPV-DGD-PQLRQEMSKRA--GQRTVPQIWI-GD-EHVGGYTDLAALEQRGLLDGL----LSAA-------------------------------PNS
+>gi|170746494|ref|YP_001752754.1| glutaredoxin 3 [Methylobacterium radiotolerans JCM 2831] 2.02487e-30
+---------------------------MQ--------------------------------PVTIYTTAWCPYCSAAKSLLKEKGAA-FQEIDV-ERV-QGARTAMVERA-GGRTSVPQIFI-GA-THVGGCDDLYALDRAGKLDPL----LKDT-------------------------------ADA
+>gi|83592077|ref|YP_425829.1| glutaredoxin GrxC [Rhodospirillum rubrum ATCC 11170] 4.50963e-31
+---------------------------MV--------------------------------AVEIFTTPSCPYCRRAKALLGDKGVA-YREIDV-SGD-PRLREEMTRRA-GGRSTVPQIFI-DG-RALGGCDDIHALDRLGKLDGL----LSG--------------------------------SAP
+>gi|15966371|ref|NP_386724.1| glutaredoxin 3 protein [Sinorhizobium meliloti 1021] 6.14245e-30
+MET------------------------M-------------------------------A-SVVIYTRQFCGYCTRAKKLLESKGVD-FTEYDA-TYA-PELRQEMIEKS-RGGRTFPQIII-ND-VPVGGCDDLHALDRAGKLDDL----LA-----------------------------------A
+>gi|17986468|ref|NP_539102.1| glutaredoxin [Brucella melitensis 16M] 2.99715e-30
+MEF-----------------------LM-------------------------------V-DVIIYTRPGCPYCARAKALLARKGAE-FNEIDA-SAT-PELRAEMQERS--GRNTFPQIFI-GS-VHVGGCDDLYALEDEGKLDSL----LKT-------------------------------GKLI
+>gi|33239656|ref|NP_874598.1| glutaredoxin [Prochlorococcus marinus subsp. marinus str. CCMP1375] 3.63227e-29
+---------------------------MA--------------------------------KVEIYTWQYCPFCIRAKALLDLKKID-YDEYPI-DGN-QAEREKMSIRA-KGKTTVPQIFI-NN-QSVGGCDELYALEESNQLDNL----INQ---------------------------------NK
+>gi|209965932|ref|YP_002298847.1| glutaredoxin 3 [Rhodospirillum centenum SW] 2.23746e-31
+---------------------------MP--------------------------------KVEIYTSPFCPYCVRAKRLLDAKGVA-YEEIDV-MEQ-PGRRAEMTRRA-EGRTTVPQVFV-DD-RGLGGCDDIHALDREGRLDPL----LGL---------------------------------AG
+>gi|254423240|ref|ZP_05036958.1| glutaredoxin 3 [Synechococcus sp. PCC 7335] 3.48385e-29
+---------------------------MQ------------------------------P-KIEIYTWSRCPFCIRAKSLLDRKGVE-YTEYCI-DGD-EEARSKMAERA--GRRSLPQIFV-DE-RHIGGCDDIHALERKGKLDSL----LK----------------------------------AA
+>gi|239993563|ref|ZP_04714087.1| glutaredoxin 3 GrxC [Alteromonas macleodii ATCC 27126] 1.22738e-30
+---------------------------MS--------------------------------KVELYTKGHCPYCHRAKALLTQKGVE-FIEYPI-DVK-PELRDEMIERA-NGGWTVPQIFI-DD-QHVGGCDDMMALEAQSKLNPM----LG----------------------------------LA
+>gi|88858427|ref|ZP_01133069.1| glutaredoxin 3 GrxC [Pseudoalteromonas tunicata D2] 1.56292e-31
+---------------------------MA------------------------------A-TVVIYTKDYCPYCIRAKALLSSKGVP-FTEFDI-GKQ-PELRDEMVAKA-NGGYTVPQIFI-GD-QHIGGCDDMMALDSQGKLDTL----L------------------------------------K
+>gi|148243349|ref|YP_001228506.1| glutaredoxin [Synechococcus sp. RCC307] 2.18215e-31
+---------------------------MA------------------------------A-SVEIYTWRACPFCIRAKDLLSRKGVS-YTDHAI-DGD-EAARDQMATKT-GGRRSVPQVFI-NG-QHVGGCDDLYALERSGQLDGL----L------------------------------------A
+>gi|114800009|ref|YP_761844.1| glutaredoxin 3 [Hyphomonas neptunium ATCC 15444] 1.52429e-31
+---------------------------MA--------------------------------KVTIYTRAFCPYCTRALQVLKDKGVE-LNEIDA-GMD-PALREEMVQRS-NGGRTFPQIFV-GE-THIGGCDDMLALDRSGKLDPM----LA----------------------------------SV
+>gi|114769744|ref|ZP_01447354.1| glutaredoxin [alpha proteobacterium HTCC2255] 4.98598e-30
+---------------------------M-------------------------------N-KIEIYTGNFCGFCTAAKRLLNKKGAN-FSEINI-HDN-VEKRAEMIQRS-NGGRTVPQVFI-ND-THVGGCDDLYDLENMGHLDKL----LI-----------------------------------A
+>gi|254503834|ref|ZP_05115985.1| glutaredoxin 3 [Labrenzia alexandrii DFL-11] 8.42924e-32
+---------------------------M-------------------------------S-DVTIYTRQLCGFCTAAKRLLEKKGVS-FTEHDA-TFD-PKLRQEMVQKA-NGRATFPQIFI-GS-KHVGGCDDLHDLERAGKLDQL----LA-----------------------------------S
+>gi|114778950|ref|ZP_01453741.1| Glutaredoxin [Mariprofundus ferrooxydans PV-1] 1.86224e-31
+---------------------------M-------------------------------N-KVEVYSGDFCPYCVRAKSLLKKKGVD-FTEYNV-QKE-SDKRIEMLDRS-NGARTIPQIFI-ND-RHVGGCDELYALEKRGELDSW----LN-----------------------------------A
+>gi|258544984|ref|ZP_05705218.1| glutaredoxin 3 [Cardiobacterium hominis ATCC 15826] 4.07997e-31
+---------------------------M-------------------------------Q-AVTMYYKPTCPYCQRAHQLLTAKGVA-YEGIDI-SRE-PERREEMIARA-NGRKTVPQIFI-GD-THVGGCDDLHALEAAGKLDAL----LA-----------------------------------G
+>gi|84514888|ref|ZP_01002251.1| glutaredoxin [Loktanella vestfoldensis SKA53] 1.11942e-31
+---------------------------M-------------------------------Q-TIEIYTKPTCGFCHMAKRVLTAKGVS-FTEVNI-TAQ-PEKRAEMIQRA-KGGSTVPQIFI-GG-KHIGGCDDLMALDRQGKLDGL----L-----------------------------------SA
+>gi|254420112|ref|ZP_05033836.1| glutaredoxin 3 [Brevundimonas sp. BAL3] 2.53724e-29
+---------------------------M-------------------------------A-DVVIYTKPGCPYCYSAMALLKKKGAD-YTEIVA-SND-PAKKAEMVEKS-GGRMTFPQIFI-AG-NHVGGSDDIHALDREGKLDPL----L-----------------------------------AA
+>gi|260576132|ref|ZP_05844125.1| glutaredoxin 3 [Rhodobacter sp. SW2] 4.3616e-31
+---------------------------M-------------------------------K-TVEIYTTPTCPYCHAAKRLLASKGVA-FKEIDV-SRD-YALREAMIARA-HGSRTVPQIFI-GG-VHVGGSDDIHDLDDEGRLDPM----L-----------------------------------AG
+>gi|15891427|ref|NP_357099.1| glutaredoxin [Agrobacterium tumefaciens str. C58] 9.79805e-31
+MTLSCV---------LPHVC--EALNNM-------------------------------A-PVTIYTRDFCGYCARAKALLDMKGVD-YAEYNA-TTT-PEYRQEMIEKS--GGTTFPQIFI-NG-QHVGGCDDLHALERAGKLDAM----LA-----------------------------------G
+>gi|159046047|ref|YP_001534841.1| glutaredoxin 3 [Dinoroseobacter shibae DFL 12] 9.64149e-29
+---------------------------MQ--------------------------------PVEIYTSPLCGYCHAAKKLLSQKGVS-FAETDV-WRA-PQKKPEMIERA-GGRTSVPQIFI-GA-THVGGCDELYALERAGKLDAL----LA-----------------------------------G
+>gi|117924702|ref|YP_865319.1| glutaredoxin 3 [Magnetococcus sp. MC-1] 7.62614e-32
+---------------------------MA--------------------------------DITIYSTTICPFCVRAKQLFKKKGVD-FTEINL-DKQ-PDRRDEMLAKS-GGRRTVPQIFI-GD-RHVGGCDDLYELELDGELDPL----LG-----------------------------------L
+>gi|114570813|ref|YP_757493.1| glutaredoxin 3 [Maricaulis maris MCS10] 9.24218e-31
+---------------------------MT--------------------------------DITIYTRPMCGYCARAVSLLKQKGVA-FTEIDA-GFD-QAKRQEMIQRS-NGGRTFPQIFI-GD-MHVGGCDDLMALERGNKLDAL----LQ-----------------------------------A
+>gi|154252189|ref|YP_001413013.1| glutaredoxin 3 [Parvibaculum lavamentivorans DS-1] 1.14746e-32
+---------------------------MA--------------------------------DVTIYTTMMCPYCHRAKGLLQKKGVS-FTEVDV-GMD-ADKRQEMMKRA-HGSHTVPQIFI-GD-KHVGGCDDLYALDHAGKLDPM----LA-----------------------------------A
+>gi|197104235|ref|YP_002129612.1| glutaredoxin 3 [Phenylobacterium zucineum HLK1] 2.66672e-30
+---------------------------M-------------------------------A-KVTIYTKPYCPYCIRAISLLEQKGVD-FTEIEA-AFD-PEKKAEMVQRS--GRMTFPQIFI-GE-RHIGGCDDMIALEREGKLDPL----LQ----------------------------------AA
+>gi|158425920|ref|YP_001527212.1| glutaredoxin [Azorhizobium caulinodans ORS 571] 1.69942e-30
+---------------------------MK--------------------------------SIVIYTKSWCSYCHAAKELLRRKGWT-FTEIDV-TTD-PAGQQEMSKKA-GGRTSVPQIFI-GD-THVGGCDDLYALEDAGRLDAL----M-----------------------------------AA
+>gi|262277535|ref|ZP_06055328.1| glutaredoxin 3 [alpha proteobacterium HIMB114] 4.78364e-29
+---------------------------MS--------------------------------KVKIYTTPYCPFCIRAKRLLIGKNVD-FEEIDL-SEE-PEKFDEMSKKS-NGARTVPQIFV-DD-THIGDCDYIHELDNKGKLDKI----L-----------------------------------GI
+>gi|115375821|ref|ZP_01463073.1| glutaredoxin 3 [Stigmatella aurantiaca DW4/3-1] 1.24839e-29
+---------------------------MK--------------------------------PVKIYTTTYCGFCVRAKDLLKRKGVN-YEELDV-TGN-DEMRARLVEMS-GGQRTVPQIFI-GD-THVGGYTDLAQLDRDGQLEPM----L-----------------------------------QG
+>gi|217979789|ref|YP_002363936.1| glutaredoxin 3 [Methylocella silvestris BL2] 1.25885e-29
+---------------------------MA--------------------------------QITIYTTSTCPYCIRAKALLEKKKLE-FTEISV-DGD-PKLRSELAERT--GRSSVPQVFI-GE-SHVGGCDDLYELHYDGKLEQL----IAD--------------------------------HAQ
+>gi|254429091|ref|ZP_05042798.1| glutaredoxin 3 [Alcanivorax sp. DG881] 9.71664e-31
+---------------------------MA--------------------------------KVELYTTAWCPFCVRAKQLLNSKNVA-FEDTDV-DRE-PQQRAVMMQRG--GARTVPQIFI-ND-HAIGGCDELFALERAGELDAL----LGA---------------------------------GQ
+>gi|146309258|ref|YP_001189723.1| glutaredoxin 3 [Pseudomonas mendocina ymp] 1.11942e-31
+---------------------------MA--------------------------------DVVIYSSDWCPYCIRAKQLLASKGVD-YQEIRV-DGQ-PAVRAEMTRKA--GRTSVPQIWI-GS-THVGGCDDLYALERAGKLDAL----LQS---------------------------------PA
+>gi|255319395|ref|ZP_05360611.1| glutaredoxin 3 [Acinetobacter radioresistens SK82] 7.13992e-29
+---------------------------MA------------------------------A-EVTIYSTTFCPYCVRAKQLLERKGVA-YKEINL-SNEAPEVRVELMQRT--NHRTVPQIFI-KD-QFIGGFDQLYALEREGKLDSL----L------------------------------------A
+>gi|89094926|ref|ZP_01167857.1| glutaredoxin [Oceanospirillum sp. MED92] 8.86968e-29
+---------------------------MQ--------------------------------DVTIYTTAWCPFCIRAKMLLDHKQIP-YSEIKV-DGD-PAKRQEMTKLS--GGHTVPQIFI-GE-TPIGGCDDMFALERQGKLDEM----LN----------------------------------AS
+>gi|254293168|ref|YP_003059191.1| glutaredoxin 3 [Hirschia baltica ATCC 49814] 3.09887e-30
+---------------------------MA--------------------------------KVTIYTRMMCPYCTRAVSLLKKKGVD-FEEIDA-GMD-AAKKQEMIKRS-NGGATFPQIFI-GN-EHIGGCDDMMALESKGALDVM----L------------------------------------G
+>gi|222149921|ref|YP_002550878.1| glutaredoxin 3 [Agrobacterium vitis S4] 1.32348e-29
+---------------------------M-------------------------------A-SVIIYTRKYCEYCARAKALLTTKGVA-FTEVDA-TGN-AALRQEMVDKS--GRNTFPQIFI-DN-THVGGCDDLHALERAGKLDPM----LA-----------------------------------A
+>gi|146284390|ref|YP_001174543.1| glutaredoxin [Pseudomonas stutzeri A1501] 6.89755e-33
+---------------------------M-------------------------------P-NVVIYTTAWCPFCIRAKALLDRKGVA-YEEIPV-DGN-PTLRAEMASKA--GRTSVPQIWI-GD-KHVGGCDELHALERAGRLDPL----LQ-----------------------------------A
+>gi|270157810|ref|ZP_06186467.1| glutaredoxin 3 [Legionella longbeachae D-4968] 5.24346e-29
+---------------------------M-------------------------------A-EIIMYSTGYCPYCTRARELFKQKNTS-FTDIRV-DLN-PELREEMITKS--GRHTVPQIFI-DG-QHIGGCDELYALDAQGKLDQL----LR-----------------------------------G
+>gi|159902738|ref|YP_001550082.1| glutaredoxin [Prochlorococcus marinus str. MIT 9211] 5.41827e-31
+---------------------------MA--------------------------------QVEIYTWQFCPFCIRAKNLLNKKGVD-YKEYPI-DGD-PEGRLKMSERA-GGRTTVPQIFI-NE-KGIGGCDELYALEDSHQLDSL----L------------------------------------N
+>gi|114770919|ref|ZP_01448387.1| glutaredoxin 3 GrxC [alpha proteobacterium HTCC2255] 6.19392e-30
+---------------------------MA--------------------------------TVELYTKAFCPFCKHAIALLKKKGVE-FSNIDI-QVH-PELRDTMIARA-NGASTVPQIFI-ND-QHIGGCDDLFALESAGKLDAL----L------------------------------------A
+>gi|254839155|pdb|2KLX|A Chain A, Solution Structure Of Glutaredoxin From Bartonella Henselae Str. Houston 2.51616e-29
+GPG-----------------------SM-------------------------------K-EIILYTRPNCPYCKRARDLLDKKGVK-YTDIDA---S-TSLRQEMVQRA-NGRNTFPQIFI-GD-YHVGGCDDLYALENKGKLDSL----LQD---------------------------------VH
+>gi|163792771|ref|ZP_02186748.1| glutaredoxin [alpha proteobacterium BAL199] 1.94269e-29
+----------------------------------------------------------MAKKIEIYTTMFCPFCHRAKALLKNKGVA-FTEYDV-GGS-SDERARMRERA-DGRHTVPQIFI-DG-VGIGGSDELAALDRQGKLDPM----LG---------------------------------LTA
+>gi|83310705|ref|YP_420969.1| glutaredoxin-like protein [Magnetospirillum magneticum AMB-1] 1.77182e-30
+----------------------------------------------------------MA-EIEIYTTDVCPYCVKAKKLFAKKGVA-YTEINV-STD-DGLRQYMTNRA-GGRRSVPQIFI-DG-VHVGGCDDLYALDKDGKLDPM----LA---------------------------------GVQ
+>gi|258637614|ref|ZP_05730363.1| glutaredoxin 3 [Pantoea sp. At-9b] 6.29814e-30
+---------------------------MA--------------------------------NVEIYTKATCPYCHRAKALLNQKGVT-FQELPI-DGD-AVKREEMIQRS--GRTTVPQIFI-DA-QHIGGCDDLFALDGRQGLDPL----LQ-----------------------------------A
+>gi|56694998|ref|YP_165344.1| glutaredoxin [Ruegeria pomeroyi DSS-3] 2.12697e-33
+----------------------------------------------------------MK-PVEIYTSPLCGYCHAAKRLLDQKGIA-FTEIDV-LTN-PKRKPEMIQRA-GGRRTVPQIFI-DG-QHVGGCDDLYALEQDGKLDPM----LA----------------------------------SR
+>gi|89052787|ref|YP_508238.1| glutaredoxin GrxC [Jannaschia sp. CCS1] 1.61644e-30
+----------------------------------------------------------MA-IVTLYTSPLCGFCHAAKRMLTDKGVS-YAEIDV-AAD-PSKRQEMMSRA-NGRHTVPQIFI-GD-AHVGGYDDMAALERTGKLDPM----LS----------------------------------AD
+>gi|283823111|ref|ZP_06349912.1| glutaredoxin 3 [Rhodomicrobium vannielii ATCC 17100] 1.3684e-29
+---------------------------MQ--------------------------------PVTIYTTPSCPYCRRAKALLGRKGVA-FDEIDV-S-D-RAKRAAMSDLV-GGRTSVPQIFI-GS-RHIGGCDDLHALDAKGELDPL----LQ-----------------------------------S
+>gi|119475546|ref|ZP_01615899.1| glutaredoxin 3 [marine gamma proteobacterium HTCC2143] 2.23811e-30
+---------------------------MA--------------------------------DVQIYTTRFCPFCIRAKQLLDKKNVP-YNEISV-DGR-PELRSEMNSRS--GRHTVPQIWI-GD-QHIGGNDELWALDRNGNLDDL----LG-----------------------------------A
+>gi|103487274|ref|YP_616835.1| glutaredoxin GrxC [Sphingopyxis alaskensis RB2256] 1.5125e-29
+----------------------------------------------------------MA-RIEVYTKAFCPYCTRAKRLLDGKGAD-FSEIDV-TMD-RAGFDAMVARA-GGRRTVPQVFI-DD-RHVGGSDELAALDAKGELDAL----IG----------------------------------RA
+>gi|87120398|ref|ZP_01076293.1| Glutaredoxin [Marinomonas sp. MED121] 6.04255e-29
+---------------------------MS--------------------------------QVTIYSSDYCPFCIRAKQLLTMKQVE-FNEINV-DGQ-SALRREMTEKS--GRTSVPQIWI-QE-HHVGGCDELFALERSGKLDAL----LS-----------------------------------Q
+>gi|241774046|ref|ZP_04771386.1| glutaredoxin 3 [Asticcacaulis excentricus CB 48] 9.09186e-30
+---------------------------MP--------------------------------NIEIYTKPYCPYCERAKALLDSKGAP-YQEIVA-SND-PELRKEMNERS--GRATYPQIFI-DG-LHVGGCDDLVSLDSRGGLDPL----L-----------------------------------AS
+>gi|126730066|ref|ZP_01745878.1| Glutaredoxin, GrxC [Sagittula stellata E-37] 3.87962e-32
+----------------------------------------------------------MQ-NVEIYSSPLCGYCHAAKRLLTSKGVA-FHEINV-LEE-PARRSEMMDRA-HGRHTVPQIFV-GD-THVGGYDDLAALEREGKLDPL----LA-----------------------------------G
+>gi|114762235|ref|ZP_01441703.1| glutaredoxin [Roseovarius sp. HTCC2601] 1.05591e-31
+----------------------------------------------------------MP-AIEIYTTPICGFCHAAKRLLTQKNAE-FTEIDV-MQE-PKRRSEMTQRA-NGGRTVPQIFI-GE-THVGGCDELYALERAGKLDAL----LA-----------------------------------G
+>gi|126724617|ref|ZP_01740460.1| Glutaredoxin, GrxC [Rhodobacterales bacterium HTCC2150] 1.13825e-31
+----------------------------------------------------------MQ-QVEIYTTQLCGFCHRAKGLLKSKGVS-FTEYDV-SRD-AAKRQEMMQRA-KGGRTVPQIFI-GG-KHVGGSDELAALERGGKLDKI----L-----------------------------------KG
+>gi|94496925|ref|ZP_01303499.1| Glutaredoxin, GrxC [Sphingomonas sp. SKA58] 8.08481e-32
+----------------------------------------------------------MA-KVEIYTKAWCGYCARAKALLGDKGVA-FDEYDI-SMG-GPTRDEMLKRA-PGQTTVPQIFI-DG-QHIGGSDDLAALNRAGKLDAM----L-----------------------------------GQ
+>gi|29654811|ref|NP_820503.1| glutaredoxin [Coxiella burnetii RSA 493] 3.57112e-30
+----------------------------------------------------------MA-KIEIYTTARCPYCVRAKALLDRKGLD-YMEIRI-DEA-PEKRDEMLSRS-EGRRTVPQIFI-NG-RGIGGFDELWELEQSKKLDEL----L-----------------------------------KT
+>gi|33860739|ref|NP_892300.1| glutaredoxin [Prochlorococcus marinus subsp. pastoris str. CCMP1986] 5.93911e-31
+----------------------------------------------------------MS-KVEIYTWRFCPFCIRAKSLLEKKNIT-FTEHKI-DGD-DNARELMMERA-NGKRTVPQIFI-DD-KSIGGCDELYELEKEDKLDLL----L------------------------------------N
+>gi|58617580|ref|YP_196779.1| glutaredoxin [Ehrlichia ruminantium str. Gardel] 7.2005e-50
+---------------------------MTFIK-FLY--LLSSITMISTNTWLNIIGYAVT-KVIIYTKDFCSYCTKAKALFNRKNIP-FEEINI-TGN-STLKDEMIQKS-NGMKTLPQIFI-ND-VHIGGCDDLYRLYESGQLK-------------------------------------------L
+>gi|224826223|ref|ZP_03699325.1| glutaredoxin 3 [Lutiella nitroferrum 2002] 5.94255e-29
+----------------------------------------------------------MK-PVTMYTTAVCPYCIRAKQLLARKGVAGITEIRV-DLE-PAEREKMMSRT--GRRTVPQIYI-GD-SHVGGFDDLAALEHAGKLDVL----LA-----------------------------------D
+>gi|84500736|ref|ZP_00998985.1| glutaredoxin [Oceanicola batsensis HTCC2597] 2.43286e-30
+----------------------------------------------------------MK-PVEIYTTPICGFCSAAKRLLDGKGVD-YREIDV-MRD-REKKQEMMQRA--GRHTVPQIFI-DG-QHVGGCDELYELERAGKLDPM----LT-----------------------------------A
+>gi|56551649|ref|YP_162488.1| glutaredoxin 3 [Zymomonas mobilis subsp. mobilis ZM4] 5.33015e-30
+----------------------------------------------------------MA-HIEIYTTRVCPYCKRAKALFAEKGVS-FDEYDV-TDD-SAKRTEMIKRS--GGRTVPQIFI-DD-KHIGGCDDLVKLNSEGKLDPL----L-----------------------------------AK
+>gi|73667467|ref|YP_303483.1| glutaredoxin [Ehrlichia canis str. Jake] 2.53503e-32
+---------------------------M-------------------------------T-KVIIYTKDPCPYCTKAKALFNKKNIL-FKEIDV-TNN-STLLEEMIQKS-NGMRTLPQIFI-ND-QHIGGCDDLYRLYESGKLE-------------------------------------------L
+>gi|56417123|ref|YP_154197.1| glutaredoxin 3 [Anaplasma marginale str. St. Maries] 6.61955e-31
+---------------------------M-------------------------------R-EVLIYTKVPCPYCTRAKALFNKKNVP-FKEIDI-TDN-PEAMREMVERS--GRRTVPQIFI-DG-KSIGGCDDLYALYESGELE-------------------------------------------L
+>Glutaredoxin__Pelotomaculum_thermopropionicum_SI Glutaredoxin, YP_001211623.1, [Se user]; [Pelotomaculum thermopropionicum SI (Bacteria/Firmicutes/Clostridia)]
+---------------------------MSRRAA-YFFLLLQTIR-------EKRRAD-MERNITVYTTPTUPHCSHVKEFLSQKGIS-YRELNV-AED-EKAREEMLKKT--GRLAVPTITV-GN-KVVVGFNR-------SELEKL----------------------------------------LS
+>Glutaredoxin__Alkaliphilus_metalliredigens_QYMF_0 Glutaredoxin, YP_001320897.1, [Se user]; [Alkaliphilus metalliredigens QYMF (Bacteria/Firmicutes/Clostridia)]
+---------------------------MK--------------------------------KVIVFTSKTUPHCRTAKEFLLSRGIM-FEEKDV-NED-PMAGAEFSRR---KLQGVPAFLI-GD-EVVVGLDK-------QRIEALLDYIVSNCEKCNVRMRIPKNKGRIRVTCPHC---SSQFIKST
+>Glutaredoxin__Moorella_thermoacetica_ATCC_39073 Glutaredoxin, YP_430628.1, [Se user]; [Moorella thermoacetica ATCC 39073 (Bacteria/Firmicutes/Clostridia)]
+---------------------------MP------------------------------EDNVIVYTTPTUPSCATVKEYLSRHGVD-YEEKDI-TTD-EQAREEMYRRT--GQTAVPTLVV-NG-QVMVGFDE-------TRLQKI----------------------------------------LH
+>Glutaredoxin__Pelotomaculum_thermopropionicum_SI_0 Glutaredoxin, YP_001212939.1, [Se user]; [Pelotomaculum thermopropionicum SI (Bacteria/Firmicutes/Clostridia)]
+---------------------------M-------------------------------HDNVTVYTTLTUPHCSHVKEFLSQKGIH-YKEFNV-ADD-ERARDEMVRKT--GRLAVPTITV-GN-QVVVGFNR-------NELEKL----------------------------------------LS
+>Glutaredoxin__Alkaliphilus_oremlandii_OhILAs Glutaredoxin, YP_001513661.1, [Se user]; [Alkaliphilus oremlandii OhILAs (Bacteria/Firmicutes/Clostridia)]
+---------------------------MA-------------------------------KEVIVYTSNTUPHCFTVKEFLSENNVE-FTEKNI-QTD-AAARKELMKK---GIMAVPVIQI-DE-EVVVGFDR-------DKIEEL----------------------------------------LG
+>Glutaredoxin__Alkaliphilus_metalliredigens_QYMF Glutaredoxin, YP_001319052.1, [Se user]; [Alkaliphilus metalliredigens QYMF (Bacteria/Firmicutes/Clostridia)]
+---------------------------MA-------------------------------KEIIVYTSNTUPHCHTAKEFLSEKGVE-FTEKNV-QED-PSARKELMKH---KIMAVPVIQI-DG-EMIVGFDP-------DKIEG-----------------------------------------ML
+>Distant_Candidatus_Desulfococcus_oleovorans_Hxd3 Distant Glutaredoxin homolog, YP_001530714.1, [Se user]; [Candidatus Desulfococcus oleovorans Hxd3 (Bacteria/Proteobacteria/delta)]
+---------------------------MD------------------------------R-TVIIYGKHTUPFTRLAREAYAASGRT-VDYRDVAQGS-PDTLDAMLTLS-GGNRKIPVIV-DEG-RVIIGFQ-----------------------------------------------------GRG
+>Distant_Anaeromyxobacter_sp._Fw109-5 Distant Glutaredoxin homolog, YP_001379442.1, [Se user]; [Anaeromyxobacter sp. Fw109-5 (Bacteria/Proteobacteria/delta)]
+---------------------------MS------------------------------R-GVEIYGKHGUPYTNAAREDLGARGVE-FTYHDV-KAD-PAAMKRFLALS-GGERRVPLVV-DDQGRVSIGF------------------------------------------------------GGS
+>BLAST_QUERY_1
+---------------------------MA------------------------------A-KVEIYTTPTUPYCIRAKALLDKKGVA-FTEIDV-DGD-PEARQEMIERA-NGRRTVPQIFI-GD-QHVGGCDDLYALERAGKLDPL----LA----------------------------------AA
+# Cluster alignment n.2:
+>Glutaredoxin__Geobacter_lovleyi_SZ Glutaredoxin, YP_001952473.1, [Se user]; [Geobacter lovleyi SZ (Bacteria/Proteobacteria/delta)]
+MKNLLLYLLFILAMTAFCPHQAEAVQPRTPQLLYPSSKRIVIFVADGUGYCTKAESYFATRNIPFESRDIQKSHQFYREWHDHFNGDIVPLIVFD-NGRQVVDSFDPRAIKRALKVIGITSRNGKKP
+>Glutaredoxin__Geobacter_sulfurreducens_PCA Glutaredoxin, NP_954204.1, [Se user]; [Geobacter sulfurreducens PCA (Bacteria/Proteobacteria/delta)]
+MLVLAATVA----LTPALLHSAPDKPGRT---AESRNPSVVIFVGEGUPYCDEVERFFTEKGIPYTCRDIRRDRAAFREWRERYGGEIVPMVVLDGGKKVIDGCD-IPAIERALADIRS-----SRP
+>BLAST_QUERY_2
+MKNLAAYLAFILAMTAACPHQAPAKQPRTPQLAYPSSPSIVIFVAEGUPYCTKAESYFAEKGIPYESRDIQKSHQAYREWHEHYGGEIVPMIVLDGGKKQIDDSDDIPAIKRALADIRITSRNGKKP
+# Average weighted sequence identity with coverage: 0.724554818773 +- 0.116421236623
+# Average weighted sequence identity without coverage: 0.731835351822 +- 0.106293569722
+# Conservation map: [
+{'-': 0.92792792792792789, 'M': 0.063063063063063057, 'G': 0.0090090090090090089},  #1
+{'E': 0.027027027027027029, 'I': 0.0090090090090090089, 'K': 0.0090090090090090089, '-': 0.92792792792792789, 'Q': 0.0090090090090090089, 'P': 0.0090090090090090089, 'T': 0.0090090090090090089},  #2
+{'G': 0.018018018018018018, 'F': 0.0090090090090090089, 'I': 0.0090090090090090089, '-': 0.92792792792792789, 'L': 0.0090090090090090089, 'S': 0.0090090090090090089, 'T': 0.018018018018018018},  #3
+{'S': 0.0090090090090090089, '-': 0.963963963963964, 'L': 0.0090090090090090089, 'G': 0.0090090090090090089, 'F': 0.0090090090090090089},  #4
+{'S': 0.0090090090090090089, '-': 0.97297297297297303, 'C': 0.0090090090090090089, 'G': 0.0090090090090090089},  #5
+{'A': 0.0090090090090090089, 'P': 0.0090090090090090089, '-': 0.97297297297297303, 'V': 0.0090090090090090089},  #6
+{'S': 0.018018018018018018, '-': 0.98198198198198194},  #7
+{'S': 0.0090090090090090089, '-': 0.98198198198198194, 'L': 0.0090090090090090089},  #8
+{'-': 0.99099099099099097, 'G': 0.0090090090090090089},  #9
+{'H': 0.0090090090090090089, '-': 0.99099099099099097},  #10
+{'R': 0.0090090090090090089, '-': 0.99099099099099097},  #11
+{'C': 0.0090090090090090089, '-': 0.99099099099099097},  #12
+{'R': 0.0090090090090090089, '-': 0.99099099099099097},  #13
+{'-': 0.99099099099099097, 'L': 0.0090090090090090089},  #14
+{'Y': 0.0090090090090090089, '-': 0.99099099099099097},  #15
+{'Y': 0.0090090090090090089, 'S': 0.0090090090090090089, '-': 0.97297297297297303, 'L': 0.0090090090090090089},  #16
+{'P': 0.0090090090090090089, '-': 0.97297297297297303, 'D': 0.0090090090090090089, 'G': 0.0090090090090090089},  #17
+{'H': 0.0090090090090090089, 'R': 0.0090090090090090089, '-': 0.98198198198198194},  #18
+{'N': 0.0090090090090090089, '-': 0.98198198198198194, 'V': 0.0090090090090090089},  #19
+{'C': 0.0090090090090090089, '-': 0.98198198198198194, 'T': 0.0090090090090090089},  #20
+{'Q': 0.0090090090090090089, 'R': 0.018018018018018018, '-': 0.97297297297297303},  #21
+{'Y': 0.0090090090090090089, 'H': 0.0090090090090090089, 'R': 0.0090090090090090089, '-': 0.97297297297297303},  #22
+{'P': 0.0090090090090090089, '-': 0.98198198198198194, 'E': 0.0090090090090090089},  #23
+{'A': 0.0090090090090090089, '-': 0.963963963963964, 'S': 0.018018018018018018, 'M': 0.0090090090090090089},  #24
+{'-': 0.963963963963964, 'R': 0.0090090090090090089, 'E': 0.0090090090090090089, 'L': 0.0090090090090090089, 'G': 0.0090090090090090089},  #25
+{'I': 0.0090090090090090089, 'F': 0.0090090090090090089, '-': 0.963963963963964, 'D': 0.0090090090090090089, 'N': 0.0090090090090090089},  #26
+{'F': 0.0090090090090090089, 'I': 0.0090090090090090089, '-': 0.93693693693693691, 'M': 0.0090090090090090089, 'L': 0.0090090090090090089, 'N': 0.0090090090090090089, 'S': 0.0090090090090090089, 'R': 0.0090090090090090089},  #27
+{'M': 0.87387387387387383, '-': 0.12612612612612611},  #28
+{'A': 0.2072072072072072, 'E': 0.0090090090090090089, 'D': 0.018018018018018018, 'F': 0.0090090090090090089, 'K': 0.036036036036036036, '-': 0.40540540540540543, 'L': 0.045045045045045043, 'N': 0.027027027027027029, 'Q': 0.045045045045045043, 'P': 0.045045045045045043, 'S': 0.090090090090090086, 'T': 0.054054054054054057, 'V': 0.0090090090090090089},  #29
+{'E': 0.018018018018018018, 'D': 0.0090090090090090089, 'F': 0.0090090090090090089, '-': 0.83783783783783783, 'N': 0.054054054054054057, 'Q': 0.018018018018018018, 'P': 0.0090090090090090089, 'R': 0.027027027027027029, 'T': 0.0090090090090090089, 'V': 0.0090090090090090089},  #30
+{'C': 0.0090090090090090089, 'I': 0.0090090090090090089, '-': 0.90090090090090091, 'L': 0.054054054054054057, 'N': 0.0090090090090090089, 'S': 0.0090090090090090089, 'R': 0.0090090090090090089},  #31
+{'A': 0.018018018018018018, 'F': 0.0090090090090090089, 'I': 0.036036036036036036, 'K': 0.0090090090090090089, '-': 0.90090090090090091, 'L': 0.027027027027027029},  #32
+{'A': 0.018018018018018018, '-': 0.97297297297297303, 'L': 0.0090090090090090089},  #33
+{'Y': 0.0090090090090090089, '-': 0.98198198198198194, 'T': 0.0090090090090090089},  #34
+{'-': 0.98198198198198194, 'L': 0.0090090090090090089, 'V': 0.0090090090090090089},  #35
+{'A': 0.0090090090090090089, '-': 0.98198198198198194, 'L': 0.0090090090090090089},  #36
+{'-': 0.99099099099099097, 'F': 0.0090090090090090089},  #37
+{'I': 0.0090090090090090089, '-': 0.99099099099099097},  #38
+{'-': 0.99099099099099097, 'L': 0.0090090090090090089},  #39
+{'A': 0.0090090090090090089, '-': 0.99099099099099097},  #40
+{'-': 0.98198198198198194, 'M': 0.0090090090090090089, 'L': 0.0090090090090090089},  #41
+{'-': 0.98198198198198194, 'T': 0.018018018018018018},  #42
+{'A': 0.0090090090090090089, 'P': 0.0090090090090090089, '-': 0.98198198198198194},  #43
+{'A': 0.0090090090090090089, '-': 0.98198198198198194, 'F': 0.0090090090090090089},  #44
+{'C': 0.0090090090090090089, '-': 0.98198198198198194, 'L': 0.0090090090090090089},  #45
+{'P': 0.0090090090090090089, '-': 0.98198198198198194, 'L': 0.0090090090090090089},  #46
+{'H': 0.018018018018018018, '-': 0.98198198198198194},  #47
+{'Q': 0.0090090090090090089, 'S': 0.0090090090090090089, '-': 0.98198198198198194},  #48
+{'A': 0.018018018018018018, '-': 0.98198198198198194},  #49
+{'E': 0.0090090090090090089, 'D': 0.0090090090090090089, 'F': 0.0090090090090090089, 'K': 0.0090090090090090089, '-': 0.91891891891891897, 'N': 0.036036036036036036, 'P': 0.0090090090090090089},  #50
+{'Y': 0.0090090090090090089, '-': 0.98198198198198194, 'L': 0.0090090090090090089},  #51
+{'Y': 0.0090090090090090089, '-': 0.98198198198198194, 'F': 0.0090090090090090089},  #52
+{'-': 0.99099099099099097, 'F': 0.0090090090090090089},  #53
+{'-': 0.99099099099099097, 'L': 0.0090090090090090089},  #54
+{'-': 0.98198198198198194, 'L': 0.018018018018018018},  #55
+{'-': 0.98198198198198194, 'L': 0.018018018018018018},  #56
+{'Q': 0.0090090090090090089, 'S': 0.0090090090090090089, '-': 0.98198198198198194},  #57
+{'A': 0.0090090090090090089, 'D': 0.0090090090090090089, 'H': 0.0090090090090090089, '-': 0.91891891891891897, 'S': 0.045045045045045043, 'T': 0.0090090090090090089},  #58
+{'I': 0.027027027027027029, 'K': 0.0090090090090090089, '-': 0.91891891891891897, 'L': 0.018018018018018018, 'V': 0.027027027027027029},  #59
+{'F': 0.018018018018018018, '-': 0.91891891891891897, 'L': 0.027027027027027029, 'Q': 0.0090090090090090089, 'P': 0.0090090090090090089, 'R': 0.0090090090090090089, 'T': 0.0090090090090090089},  #60
+{'-': 0.99099099099099097, 'M': 0.0090090090090090089},  #61
+{'I': 0.0090090090090090089, '-': 0.99099099099099097},  #62
+{'S': 0.0090090090090090089, '-': 0.99099099099099097},  #63
+{'-': 0.99099099099099097, 'T': 0.0090090090090090089},  #64
+{'-': 0.99099099099099097, 'N': 0.0090090090090090089},  #65
+{'-': 0.99099099099099097, 'T': 0.0090090090090090089},  #66
+{'-': 0.99099099099099097, 'W': 0.0090090090090090089},  #67
+{'E': 0.0090090090090090089, 'G': 0.054054054054054057, 'I': 0.0090090090090090089, '-': 0.90990990990990994, 'L': 0.0090090090090090089, 'P': 0.0090090090090090089},  #68
+{'K': 0.018018018018018018, 'R': 0.054054054054054057, '-': 0.90990990990990994, 'T': 0.0090090090090090089, 'N': 0.0090090090090090089},  #69
+{'I': 0.0090090090090090089, 'H': 0.018018018018018018, 'K': 0.0090090090090090089, '-': 0.90990990990990994, 'N': 0.0090090090090090089, 'Q': 0.0090090090090090089, 'R': 0.0090090090090090089, 'T': 0.018018018018018018, 'Y': 0.0090090090090090089},  #70
+{'P': 0.0090090090090090089, '-': 0.99099099099099097},  #71
+{'Q': 0.0090090090090090089, '-': 0.99099099099099097},  #72
+{'-': 0.99099099099099097, 'L': 0.0090090090090090089},  #73
+{'A': 0.018018018018018018, 'I': 0.0090090090090090089, '-': 0.90090090090090091, 'L': 0.018018018018018018, 'N': 0.0090090090090090089, 'P': 0.036036036036036036, 'R': 0.0090090090090090089},  #74
+{'A': 0.0090090090090090089, 'E': 0.054054054054054057, 'D': 0.0090090090090090089, 'G': 0.0090090090090090089, '-': 0.90090090090090091, 'T': 0.0090090090090090089, 'Y': 0.0090090090090090089},  #75
+{'D': 0.0090090090090090089, 'G': 0.0090090090090090089, 'K': 0.0090090090090090089, '-': 0.90090090090090091, 'N': 0.0090090090090090089, 'P': 0.0090090090090090089, 'S': 0.018018018018018018, 'R': 0.018018018018018018, 'T': 0.0090090090090090089, 'Y': 0.0090090090090090089},  #76
+{'A': 0.0090090090090090089, 'G': 0.0090090090090090089, 'F': 0.0090090090090090089, 'I': 0.036036036036036036, '-': 0.90990990990990994, 'S': 0.0090090090090090089, 'R': 0.018018018018018018},  #77
+{'A': 0.0090090090090090089, 'M': 0.18018018018018017, 'F': 0.0090090090090090089, 'I': 0.0090090090090090089, 'H': 0.0090090090090090089, 'K': 0.036036036036036036, '-': 0.69369369369369371, 'L': 0.0090090090090090089, 'N': 0.0090090090090090089, 'P': 0.0090090090090090089, 'S': 0.0090090090090090089, 'T': 0.0090090090090090089, 'V': 0.0090090090090090089},  #78
+{'A': 0.36936936936936937, 'E': 0.018018018018018018, 'H': 0.0090090090090090089, 'K': 0.072072072072072071, '-': 0.27927927927927926, 'N': 0.027027027027027029, 'Q': 0.036036036036036036, 'P': 0.090090090090090086, 'S': 0.018018018018018018, 'R': 0.027027027027027029, 'T': 0.027027027027027029, 'V': 0.027027027027027029},  #79
+{'K': 0.027027027027027029, 'R': 0.0090090090090090089, '-': 0.94594594594594594, 'D': 0.018018018018018018},  #80
+{'A': 0.054054054054054057, 'E': 0.081081081081081086, 'D': 0.10810810810810811, 'G': 0.0090090090090090089, 'I': 0.0090090090090090089, 'H': 0.0090090090090090089, 'K': 0.27927927927927926, 'N': 0.12612612612612611, 'Q': 0.063063063063063057, 'P': 0.090090090090090086, 'S': 0.063063063063063057, 'R': 0.027027027027027029, 'T': 0.081081081081081086},  #81
+{'I': 0.22522522522522523, 'V': 0.77477477477477474},  #82
+{'E': 0.52252252252252251, 'D': 0.0090090090090090089, 'I': 0.0990990990990991, 'K': 0.018018018018018018, 'L': 0.0090090090090090089, 'Q': 0.0090090090090090089, 'T': 0.25225225225225223, 'V': 0.081081081081081086},  #83
+{'I': 0.81081081081081086, 'M': 0.036036036036036036, 'L': 0.072072072072072071, 'V': 0.081081081081081086},  #84
+{'Y': 0.963963963963964, 'F': 0.036036036036036036},  #85
+{'Y': 0.0090090090090090089, 'S': 0.081081081081081086, 'T': 0.87387387387387383, 'G': 0.018018018018018018, 'V': 0.018018018018018018},  #86
+{'A': 0.0090090090090090089, 'G': 0.027027027027027029, 'K': 0.1891891891891892, 'Q': 0.0090090090090090089, 'S': 0.0990990990990991, 'R': 0.15315315315315314, 'T': 0.28828828828828829, 'W': 0.22522522522522523},  #87
+{'A': 0.14414414414414414, 'E': 0.018018018018018018, 'D': 0.090090090090090086, 'G': 0.018018018018018018, 'F': 0.0090090090090090089, 'H': 0.018018018018018018, 'K': 0.018018018018018018, 'M': 0.036036036036036036, 'L': 0.0090090090090090089, 'N': 0.027027027027027029, 'Q': 0.12612612612612611, 'P': 0.26126126126126126, 'S': 0.0990990990990991, 'R': 0.081081081081081086, 'T': 0.027027027027027029, 'W': 0.0090090090090090089, 'V': 0.0090090090090090089},  #88
+{'A': 0.027027027027027029, 'G': 0.10810810810810811, 'F': 0.1981981981981982, 'I': 0.036036036036036036, 'H': 0.0090090090090090089, 'M': 0.045045045045045043, 'L': 0.063063063063063057, 'N': 0.0090090090090090089, 'P': 0.018018018018018018, 'S': 0.036036036036036036, 'R': 0.027027027027027029, 'T': 0.24324324324324326, 'W': 0.063063063063063057, 'V': 0.027027027027027029, 'Y': 0.090090090090090086},  #89
+{'C': 0.90090090090090091, 'U': 0.0990990990990991},  #90
+{'P': 0.74774774774774777, 'S': 0.018018018018018018, 'E': 0.0090090090090090089, 'G': 0.22522522522522523},  #91
+{'Y': 0.57657657657657657, 'H': 0.045045045045045043, 'S': 0.0090090090090090089, 'F': 0.36936936936936937},  #92
+{'C': 0.98198198198198194, 'T': 0.018018018018018018},  #93
+{'A': 0.063063063063063057, 'E': 0.0090090090090090089, 'D': 0.0090090090090090089, 'F': 0.018018018018018018, 'I': 0.27027027027027029, 'H': 0.14414414414414414, 'K': 0.027027027027027029, 'M': 0.0090090090090090089, 'L': 0.036036036036036036, 'N': 0.0090090090090090089, 'Q': 0.018018018018018018, 'S': 0.063063063063063057, 'R': 0.063063063063063057, 'T': 0.12612612612612611, 'V': 0.12612612612612611, 'Y': 0.0090090090090090089},  #94
+{'A': 0.18018018018018017, 'E': 0.0090090090090090089, 'H': 0.027027027027027029, 'K': 0.036036036036036036, 'M': 0.018018018018018018, 'L': 0.0090090090090090089, 'Q': 0.0090090090090090089, 'S': 0.018018018018018018, 'R': 0.65765765765765771, 'T': 0.036036036036036036},  #95
+{'A': 0.95495495495495497, 'V': 0.045045045045045043},  #96
+{'E': 0.018018018018018018, 'I': 0.018018018018018018, 'H': 0.0090090090090090089, 'K': 0.85585585585585588, 'M': 0.0090090090090090089, 'L': 0.018018018018018018, 'R': 0.045045045045045043, 'V': 0.027027027027027029},  #97
+{'A': 0.26126126126126126, 'E': 0.10810810810810811, 'D': 0.027027027027027029, 'G': 0.045045045045045043, 'F': 0.018018018018018018, 'I': 0.0090090090090090089, 'H': 0.027027027027027029, 'K': 0.027027027027027029, 'M': 0.0090090090090090089, 'L': 0.0090090090090090089, 'N': 0.018018018018018018, 'Q': 0.10810810810810811, 'S': 0.11711711711711711, 'R': 0.2072072072072072, 'W': 0.0090090090090090089},  #98
+{'A': 0.0090090090090090089, 'D': 0.0090090090090090089, 'F': 0.054054054054054057, 'M': 0.0090090090090090089, 'L': 0.88288288288288286, 'V': 0.018018018018018018, 'Y': 0.018018018018018018},  #99
+{'Y': 0.0090090090090090089, 'L': 0.90990990990990994, 'F': 0.081081081081081086},  #100
+{'A': 0.081081081081081086, 'E': 0.0990990990990991, 'D': 0.24324324324324326, 'G': 0.045045045045045043, 'F': 0.0090090090090090089, 'I': 0.0090090090090090089, 'K': 0.13513513513513514, 'L': 0.0090090090090090089, 'N': 0.0990990990990991, 'Q': 0.018018018018018018, 'S': 0.081081081081081086, 'R': 0.0090090090090090089, 'T': 0.12612612612612611, 'W': 0.027027027027027029, 'V': 0.0090090090090090089},  #101
+{'A': 0.063063063063063057, 'E': 0.090090090090090086, 'D': 0.036036036036036036, 'G': 0.036036036036036036, 'F': 0.0090090090090090089, 'H': 0.0090090090090090089, 'K': 0.18018018018018017, 'M': 0.018018018018018018, 'L': 0.0090090090090090089, 'N': 0.018018018018018018, 'Q': 0.15315315315315314, 'S': 0.13513513513513514, 'R': 0.17117117117117117, 'T': 0.036036036036036036, 'W': 0.036036036036036036},  #102
+{'H': 0.0090090090090090089, 'K': 0.94594594594594594, 'R': 0.027027027027027029, 'S': 0.0090090090090090089, 'N': 0.0090090090090090089},  #103
+{'Q': 0.036036036036036036, 'S': 0.0090090090090090089, 'K': 0.018018018018018018, 'G': 0.80180180180180183, 'N': 0.13513513513513514},  #104
+{'A': 0.081081081081081086, 'I': 0.13513513513513514, 'L': 0.027027027027027029, 'R': 0.0090090090090090089, 'T': 0.018018018018018018, 'W': 0.018018018018018018, 'V': 0.71171171171171166},  #105
+{'A': 0.22522522522522523, 'E': 0.14414414414414414, 'D': 0.1891891891891892, 'G': 0.0090090090090090089, 'H': 0.018018018018018018, 'K': 0.027027027027027029, 'M': 0.0090090090090090089, 'L': 0.0090090090090090089, 'N': 0.054054054054054057, 'Q': 0.027027027027027029, 'P': 0.090090090090090086, 'S': 0.13513513513513514, 'T': 0.063063063063063057},  #106
+{'-': 0.99099099099099097, 'G': 0.0090090090090090089},  #107
+{'Y': 0.3963963963963964, 'I': 0.0090090090090090089, 'F': 0.57657657657657657, 'L': 0.0090090090090090089, 'V': 0.0090090090090090089},  #108
+{'A': 0.027027027027027029, 'E': 0.15315315315315314, 'D': 0.054054054054054057, 'I': 0.027027027027027029, 'H': 0.0090090090090090089, 'K': 0.063063063063063057, 'M': 0.0090090090090090089, 'N': 0.045045045045045043, 'Q': 0.054054054054054057, 'S': 0.072072072072072071, 'R': 0.027027027027027029, 'T': 0.43243243243243246, 'V': 0.027027027027027029},  #109
+{'C': 0.0090090090090090089, 'E': 0.88288288288288286, 'D': 0.054054054054054057, 'G': 0.0090090090090090089, 'N': 0.018018018018018018, 'S': 0.0090090090090090089, 'Y': 0.018018018018018018},  #110
+{'F': 0.054054054054054057, 'I': 0.4144144144144144, 'H': 0.063063063063063057, 'K': 0.036036036036036036, 'L': 0.027027027027027029, 'Q': 0.0090090090090090089, 'R': 0.027027027027027029, 'T': 0.027027027027027029, 'V': 0.054054054054054057, 'Y': 0.28828828828828829},  #111
+{'A': 0.036036036036036036, 'C': 0.036036036036036036, 'E': 0.0090090090090090089, 'D': 0.45945945945945948, 'G': 0.018018018018018018, 'K': 0.072072072072072071, 'N': 0.16216216216216217, 'Q': 0.018018018018018018, 'P': 0.054054054054054057, 'S': 0.054054054054054057, 'R': 0.045045045045045043, 'V': 0.036036036036036036},  #112
+{'I': 0.36936936936936937, 'A': 0.18018018018018017, 'Y': 0.0090090090090090089, 'L': 0.036036036036036036, 'V': 0.40540540540540543},  #113
+{'A': 0.0090090090090090089, '-': 0.99099099099099097},  #114
+{'A': 0.036036036036036036, 'M': 0.036036036036036036, 'E': 0.0090090090090090089, 'D': 0.36936936936936937, 'G': 0.090090090090090086, 'H': 0.0090090090090090089, 'K': 0.0090090090090090089, '-': 0.0090090090090090089, 'L': 0.036036036036036036, 'N': 0.0090090090090090089, 'Q': 0.054054054054054057, 'S': 0.16216216216216217, 'R': 0.0090090090090090089, 'T': 0.15315315315315314, 'W': 0.0090090090090090089},  #115
+{'A': 0.045045045045045043, 'M': 0.072072072072072071, 'C': 0.0090090090090090089, 'E': 0.072072072072072071, 'D': 0.036036036036036036, 'G': 0.36036036036036034, 'F': 0.063063063063063057, 'H': 0.0090090090090090089, 'K': 0.054054054054054057, '-': 0.018018018018018018, 'L': 0.027027027027027029, 'N': 0.045045045045045043, 'Q': 0.0090090090090090089, 'R': 0.072072072072072071, 'T': 0.063063063063063057, 'V': 0.027027027027027029, 'Y': 0.018018018018018018},  #116
+{'A': 0.027027027027027029, 'E': 0.072072072072072071, 'D': 0.53153153153153154, 'G': 0.045045045045045043, 'H': 0.018018018018018018, 'K': 0.0090090090090090089, 'N': 0.12612612612612611, 'Q': 0.063063063063063057, 'S': 0.063063063063063057, 'R': 0.0090090090090090089, 'T': 0.027027027027027029, 'V': 0.0090090090090090089},  #117
+{'A': 0.0090090090090090089, '-': 0.99099099099099097},  #118
+{'A': 0.072072072072072071, 'E': 0.16216216216216217, 'D': 0.036036036036036036, 'G': 0.036036036036036036, 'F': 0.0090090090090090089, 'H': 0.0090090090090090089, 'N': 0.027027027027027029, 'Q': 0.045045045045045043, 'P': 0.45945945945945948, 'S': 0.054054054054054057, 'R': 0.045045045045045043, 'T': 0.018018018018018018, 'V': 0.018018018018018018, 'Y': 0.0090090090090090089},  #119
+{'A': 0.24324324324324326, 'E': 0.27027027027027029, 'D': 0.072072072072072071, 'G': 0.045045045045045043, 'I': 0.0090090090090090089, 'K': 0.054054054054054057, 'M': 0.018018018018018018, 'N': 0.027027027027027029, 'Q': 0.090090090090090086, 'P': 0.054054054054054057, 'S': 0.045045045045045043, 'R': 0.018018018018018018, 'T': 0.045045045045045043, 'V': 0.0090090090090090089},  #120
+{'A': 0.29729729729729731, 'E': 0.036036036036036036, 'G': 0.036036036036036036, 'F': 0.018018018018018018, 'I': 0.0090090090090090089, 'K': 0.1981981981981982, 'M': 0.0090090090090090089, 'L': 0.26126126126126126, 'Q': 0.0090090090090090089, 'R': 0.072072072072072071, 'T': 0.018018018018018018, 'V': 0.027027027027027029, 'Y': 0.0090090090090090089},  #121
+{'G': 0.0090090090090090089, 'F': 0.027027027027027029, 'K': 0.0990990990990991, 'M': 0.018018018018018018, 'L': 0.018018018018018018, 'Q': 0.0090090090090090089, 'R': 0.81081081081081086, 'Y': 0.0090090090090090089},  #122
+{'A': 0.16216216216216217, 'E': 0.14414414414414414, 'D': 0.18018018018018017, 'G': 0.0090090090090090089, 'I': 0.018018018018018018, 'K': 0.072072072072072071, 'L': 0.0090090090090090089, 'Q': 0.21621621621621623, 'P': 0.018018018018018018, 'S': 0.072072072072072071, 'R': 0.054054054054054057, 'T': 0.036036036036036036, 'V': 0.0090090090090090089},  #123
+{'A': 0.14414414414414414, 'E': 0.64864864864864868, 'K': 0.072072072072072071, 'L': 0.0090090090090090089, 'Q': 0.036036036036036036, 'R': 0.045045045045045043, 'T': 0.0090090090090090089, 'V': 0.027027027027027029, 'Y': 0.0090090090090090089},  #124
+{'A': 0.0090090090090090089, 'M': 0.90990990990990994, 'L': 0.045045045045045043, 'W': 0.018018018018018018, 'F': 0.018018018018018018},  #125
+{'A': 0.18018018018018017, 'I': 0.21621621621621623, 'H': 0.0090090090090090089, 'M': 0.10810810810810811, 'L': 0.081081081081081086, 'N': 0.018018018018018018, 'Q': 0.018018018018018018, 'S': 0.072072072072072071, 'R': 0.036036036036036036, 'T': 0.10810810810810811, 'V': 0.13513513513513514, 'Y': 0.018018018018018018},  #126
+{'A': 0.12612612612612611, 'E': 0.27027027027027029, 'D': 0.063063063063063057, 'G': 0.027027027027027029, 'I': 0.018018018018018018, 'K': 0.0990990990990991, 'N': 0.0090090090090090089, 'Q': 0.23423423423423423, 'S': 0.063063063063063057, 'R': 0.054054054054054057, 'T': 0.027027027027027029, 'V': 0.0090090090090090089},  #127
+{'H': 0.018018018018018018, 'K': 0.22522522522522523, 'R': 0.71171171171171166, 'M': 0.0090090090090090089, 'L': 0.036036036036036036},  #128
+{'A': 0.5495495495495496, 'G': 0.036036036036036036, 'F': 0.0090090090090090089, '-': 0.027027027027027029, 'S': 0.28828828828828829, 'T': 0.063063063063063057, 'V': 0.018018018018018018, 'Y': 0.0090090090090090089},  #129
+{'-': 0.98198198198198194, 'T': 0.018018018018018018},  #130
+{'E': 0.018018018018018018, 'D': 0.027027027027027029, 'G': 0.2072072072072072, 'F': 0.0090090090090090089, 'H': 0.036036036036036036, 'K': 0.027027027027027029, '-': 0.26126126126126126, 'N': 0.36036036036036034, 'Q': 0.0090090090090090089, 'P': 0.027027027027027029, 'R': 0.018018018018018018},  #131
+{'P': 0.0090090090090090089, 'K': 0.018018018018018018, 'G': 0.963963963963964, 'N': 0.0090090090090090089},  #132
+{'A': 0.072072072072072071, 'E': 0.0090090090090090089, 'G': 0.17117117117117117, 'I': 0.018018018018018018, 'H': 0.018018018018018018, 'K': 0.072072072072072071, '-': 0.018018018018018018, 'M': 0.018018018018018018, 'L': 0.0090090090090090089, 'N': 0.0090090090090090089, 'Q': 0.036036036036036036, 'S': 0.018018018018018018, 'R': 0.53153153153153154},  #133
+{'A': 0.036036036036036036, 'E': 0.0090090090090090089, 'D': 0.0090090090090090089, 'H': 0.072072072072072071, 'K': 0.018018018018018018, 'M': 0.054054054054054057, 'L': 0.018018018018018018, 'N': 0.054054054054054057, 'Q': 0.0090090090090090089, 'S': 0.0990990990990991, 'R': 0.44144144144144143, 'T': 0.15315315315315314, 'W': 0.0090090090090090089, 'Y': 0.018018018018018018},  #134
+{'A': 0.045045045045045043, 'G': 0.0090090090090090089, 'I': 0.018018018018018018, 'K': 0.0090090090090090089, 'S': 0.21621621621621623, 'R': 0.0090090090090090089, 'T': 0.69369369369369371},  #135
+{'I': 0.018018018018018018, 'Y': 0.0090090090090090089, 'V': 0.71171171171171166, 'L': 0.090090090090090086, 'F': 0.17117117117117117},  #136
+{'P': 1.0},  #137
+{'A': 0.0090090090090090089, 'M': 0.0090090090090090089, 'L': 0.018018018018018018, 'Q': 0.90090090090090091, 'S': 0.0090090090090090089, 'T': 0.027027027027027029, 'V': 0.027027027027027029},  #138
+{'I': 0.90090090090090091, 'V': 0.081081081081081086, 'L': 0.0090090090090090089, 'F': 0.0090090090090090089},  #139
+{'F': 0.83783783783783783, 'I': 0.0090090090090090089, 'L': 0.0090090090090090089, 'Q': 0.018018018018018018, 'T': 0.018018018018018018, 'W': 0.054054054054054057, 'V': 0.045045045045045043, 'Y': 0.0090090090090090089},  #140
+{'I': 0.86486486486486491, 'F': 0.018018018018018018, '-': 0.018018018018018018, 'L': 0.0090090090090090089, 'V': 0.090090090090090086},  #141
+{'-': 0.963963963963964, 'D': 0.036036036036036036},  #142
+{'-': 0.99099099099099097, 'G': 0.0090090090090090089},  #143
+{'A': 0.0090090090090090089, 'E': 0.0090090090090090089, 'D': 0.27027027027027029, 'G': 0.3963963963963964, 'K': 0.0090090090090090089, 'N': 0.29729729729729731, 'Q': 0.0090090090090090089},  #144
+{'A': 0.027027027027027029, 'E': 0.090090090090090086, 'D': 0.42342342342342343, 'G': 0.27027027027027029, 'K': 0.018018018018018018, 'N': 0.0990990990990991, 'Q': 0.0090090090090090089, 'S': 0.054054054054054057, 'T': 0.0090090090090090089},  #145
+{'-': 0.99099099099099097, 'G': 0.0090090090090090089},  #146
+{'A': 0.018018018018018018, 'E': 0.11711711711711711, 'F': 0.018018018018018018, 'I': 0.0090090090090090089, 'H': 0.027027027027027029, 'K': 0.12612612612612611, 'M': 0.0090090090090090089, 'L': 0.036036036036036036, 'N': 0.0090090090090090089, 'Q': 0.22522522522522523, 'S': 0.018018018018018018, 'R': 0.16216216216216217, 'T': 0.15315315315315314, 'V': 0.063063063063063057, 'Y': 0.0090090090090090089},  #147
+{'A': 0.018018018018018018, 'G': 0.045045045045045043, 'F': 0.0090090090090090089, 'H': 0.76576576576576572, 'M': 0.0090090090090090089, 'Q': 0.0090090090090090089, 'P': 0.027027027027027029, 'S': 0.045045045045045043, 'V': 0.072072072072072071},  #148
+{'I': 0.44144144144144143, 'S': 0.0090090090090090089, 'M': 0.0090090090090090089, 'L': 0.018018018018018018, 'V': 0.52252252252252251},  #149
+{'I': 0.018018018018018018, 'D': 0.0090090090090090089, 'G': 0.90990990990990994, 'V': 0.063063063063063057},  #150
+{'D': 0.018018018018018018, 'G': 0.98198198198198194},  #151
+{'C': 0.72972972972972971, 'F': 0.090090090090090086, 'L': 0.0090090090090090089, 'N': 0.0090090090090090089, 'S': 0.12612612612612611, 'Y': 0.036036036036036036},  #152
+{'D': 0.92792792792792789, 'F': 0.0090090090090090089, '-': 0.0090090090090090089, 'N': 0.018018018018018018, 'Q': 0.0090090090090090089, 'T': 0.027027027027027029},  #153
+{'A': 0.0090090090090090089, 'E': 0.24324324324324326, 'D': 0.65765765765765771, 'K': 0.0090090090090090089, '-': 0.027027027027027029, 'Q': 0.0090090090090090089, 'P': 0.0090090090090090089, 'R': 0.027027027027027029, 'Y': 0.0090090090090090089},  #154
+{'I': 0.0990990990990991, 'P': 0.0090090090090090089, 'M': 0.090090090090090086, '-': 0.072072072072072071, 'L': 0.72972972972972971},  #155
+{'A': 0.090090090090090086, 'F': 0.081081081081081086, 'I': 0.0090090090090090089, '-': 0.072072072072072071, 'V': 0.018018018018018018, 'M': 0.072072072072072071, 'L': 0.0090090090090090089, 'P': 0.0090090090090090089, 'S': 0.0090090090090090089, 'R': 0.0090090090090090089, 'W': 0.018018018018018018, 'H': 0.24324324324324326, 'Y': 0.36036036036036034},  #156
+{'A': 0.65765765765765771, 'E': 0.0990990990990991, 'D': 0.063063063063063057, 'G': 0.027027027027027029, 'K': 0.0090090090090090089, '-': 0.072072072072072071, 'Q': 0.018018018018018018, 'S': 0.027027027027027029, 'R': 0.027027027027027029},  #157
+{'I': 0.027027027027027029, 'M': 0.0090090090090090089, '-': 0.072072072072072071, 'L': 0.89189189189189189},  #158
+{'E': 0.5495495495495496, 'D': 0.28828828828828829, 'H': 0.018018018018018018, 'K': 0.0090090090090090089, '-': 0.072072072072072071, 'N': 0.036036036036036036, 'Y': 0.027027027027027029},  #159
+{'A': 0.081081081081081086, 'E': 0.036036036036036036, 'D': 0.054054054054054057, 'G': 0.036036036036036036, 'H': 0.036036036036036036, 'K': 0.027027027027027029, '-': 0.072072072072072071, 'L': 0.018018018018018018, 'N': 0.036036036036036036, 'Q': 0.054054054054054057, 'S': 0.063063063063063057, 'R': 0.44144144144144143, 'T': 0.018018018018018018, 'Y': 0.027027027027027029},  #160
+{'A': 0.27927927927927926, 'E': 0.11711711711711711, 'D': 0.054054054054054057, 'G': 0.018018018018018018, 'M': 0.0090090090090090089, 'K': 0.090090090090090086, '-': 0.072072072072072071, 'L': 0.0090090090090090089, 'N': 0.018018018018018018, 'Q': 0.16216216216216217, 'S': 0.0990990990990991, 'R': 0.054054054054054057, 'T': 0.018018018018018018},  #161
+{'D': 0.027027027027027029, 'G': 0.81981981981981977, 'H': 0.0090090090090090089, 'K': 0.018018018018018018, '-': 0.018018018018018018, 'L': 0.018018018018018018, 'N': 0.036036036036036036, 'Q': 0.027027027027027029, 'S': 0.018018018018018018, 'T': 0.0090090090090090089},  #162
+{'A': 0.027027027027027029, 'E': 0.12612612612612611, 'G': 0.027027027027027029, 'H': 0.018018018018018018, 'K': 0.56756756756756754, '-': 0.018018018018018018, 'L': 0.0090090090090090089, 'N': 0.0090090090090090089, 'Q': 0.0990990990990991, 'R': 0.090090090090090086, 'T': 0.0090090090090090089},  #163
+{'I': 0.027027027027027029, 'V': 0.0090090090090090089, '-': 0.018018018018018018, 'L': 0.93693693693693691, 'D': 0.0090090090090090089},  #164
+{'E': 0.090090090090090086, 'D': 0.8288288288288288, 'I': 0.018018018018018018, 'K': 0.0090090090090090089, '-': 0.018018018018018018, 'N': 0.027027027027027029, 'Q': 0.0090090090090090089},  #165
+{'A': 0.14414414414414414, 'E': 0.045045045045045043, 'D': 0.036036036036036036, 'G': 0.10810810810810811, 'M': 0.0090090090090090089, 'K': 0.072072072072072071, '-': 0.045045045045045043, 'L': 0.018018018018018018, 'N': 0.018018018018018018, 'Q': 0.027027027027027029, 'P': 0.31531531531531531, 'S': 0.081081081081081086, 'R': 0.018018018018018018, 'T': 0.027027027027027029, 'V': 0.036036036036036036},  #166
+{'I': 0.036036036036036036, '-': 0.054054054054054057, 'K': 0.0090090090090090089, 'M': 0.16216216216216217, 'L': 0.72072072072072069, 'S': 0.0090090090090090089, 'W': 0.0090090090090090089},  #167
+{'-': 0.99099099099099097, 'L': 0.0090090090090090089},  #168
+{'-': 0.99099099099099097, 'D': 0.0090090090090090089},  #169
+{'Y': 0.0090090090090090089, '-': 0.99099099099099097},  #170
+{'I': 0.0090090090090090089, '-': 0.99099099099099097},  #171
+{'I': 0.036036036036036036, 'M': 0.0090090090090090089, '-': 0.0990990990990991, 'L': 0.83783783783783783, 'T': 0.0090090090090090089, 'V': 0.0090090090090090089},  #172
+{'A': 0.1981981981981982, 'E': 0.036036036036036036, 'G': 0.090090090090090086, 'I': 0.018018018018018018, 'H': 0.018018018018018018, 'K': 0.036036036036036036, '-': 0.28828828828828829, 'M': 0.0090090090090090089, 'N': 0.054054054054054057, 'Q': 0.12612612612612611, 'S': 0.072072072072072071, 'R': 0.018018018018018018, 'T': 0.027027027027027029, 'V': 0.0090090090090090089},  #173
+{'A': 0.036036036036036036, 'E': 0.0090090090090090089, 'D': 0.045045045045045043, 'G': 0.045045045045045043, 'K': 0.018018018018018018, '-': 0.68468468468468469, 'L': 0.0090090090090090089, 'N': 0.036036036036036036, 'Q': 0.036036036036036036, 'P': 0.0090090090090090089, 'S': 0.045045045045045043, 'R': 0.0090090090090090089, 'T': 0.018018018018018018},  #174
+{'A': 0.0090090090090090089, 'C': 0.018018018018018018, 'D': 0.0090090090090090089, 'G': 0.018018018018018018, '-': 0.85585585585585588, 'L': 0.0090090090090090089, 'N': 0.027027027027027029, 'Q': 0.0090090090090090089, 'S': 0.018018018018018018, 'R': 0.0090090090090090089, 'T': 0.018018018018018018},  #175
+{'A': 0.027027027027027029, 'E': 0.0090090090090090089, 'D': 0.0090090090090090089, '-': 0.92792792792792789, 'L': 0.0090090090090090089, 'P': 0.018018018018018018},  #176
+{'A': 0.0090090090090090089, 'S': 0.0090090090090090089, '-': 0.95495495495495497, 'K': 0.0090090090090090089, 'N': 0.018018018018018018},  #177
+{'E': 0.018018018018018018, 'C': 0.0090090090090090089, '-': 0.95495495495495497, 'D': 0.0090090090090090089, 'G': 0.0090090090090090089},  #178
+{'-': 0.99099099099099097, 'N': 0.0090090090090090089},  #179
+{'-': 0.99099099099099097, 'V': 0.0090090090090090089},  #180
+{'R': 0.0090090090090090089, '-': 0.99099099099099097},  #181
+{'-': 0.99099099099099097, 'M': 0.0090090090090090089},  #182
+{'R': 0.0090090090090090089, '-': 0.99099099099099097},  #183
+{'I': 0.0090090090090090089, '-': 0.99099099099099097},  #184
+{'P': 0.0090090090090090089, '-': 0.99099099099099097},  #185
+{'K': 0.0090090090090090089, '-': 0.99099099099099097},  #186
+{'-': 0.99099099099099097, 'N': 0.0090090090090090089},  #187
+{'K': 0.0090090090090090089, '-': 0.99099099099099097},  #188
+{'-': 0.99099099099099097, 'G': 0.0090090090090090089},  #189
+{'R': 0.0090090090090090089, '-': 0.99099099099099097},  #190
+{'I': 0.0090090090090090089, '-': 0.99099099099099097},  #191
+{'R': 0.0090090090090090089, '-': 0.99099099099099097},  #192
+{'-': 0.99099099099099097, 'V': 0.0090090090090090089},  #193
+{'A': 0.0090090090090090089, '-': 0.98198198198198194, 'T': 0.0090090090090090089},  #194
+{'C': 0.0090090090090090089, '-': 0.98198198198198194, 'T': 0.0090090090090090089},  #195
+{'P': 0.018018018018018018, '-': 0.98198198198198194},  #196
+{'H': 0.0090090090090090089, '-': 0.98198198198198194, 'L': 0.0090090090090090089},  #197
+{'K': 0.0090090090090090089, '-': 0.98198198198198194, 'C': 0.0090090090090090089},  #198
+{'P': 0.0090090090090090089, '-': 0.99099099099099097},  #199
+{'Y': 0.0090090090090090089, '-': 0.99099099099099097},  #200
+{'Q': 0.0090090090090090089, '-': 0.99099099099099097},  #201
+{'S': 0.0090090090090090089, 'R': 0.0090090090090090089, '-': 0.98198198198198194},  #202
+{'S': 0.0090090090090090089, '-': 0.98198198198198194, 'G': 0.0090090090090090089},  #203
+{'I': 0.0090090090090090089, '-': 0.963963963963964, 'R': 0.0090090090090090089, 'E': 0.0090090090090090089, 'Q': 0.0090090090090090089},  #204
+{'F': 0.0090090090090090089, '-': 0.93693693693693691, 'N': 0.0090090090090090089, 'S': 0.0090090090090090089, 'R': 0.0090090090090090089, 'V': 0.027027027027027029},  #205
+{'E': 0.018018018018018018, 'G': 0.045045045045045043, 'I': 0.018018018018018018, 'K': 0.018018018018018018, '-': 0.85585585585585588, 'T': 0.018018018018018018, 'V': 0.027027027027027029},  #206
+{'A': 0.027027027027027029, 'E': 0.018018018018018018, 'G': 0.063063063063063057, 'I': 0.0090090090090090089, 'H': 0.0090090090090090089, 'K': 0.027027027027027029, '-': 0.70270270270270274, 'L': 0.027027027027027029, 'Q': 0.0090090090090090089, 'P': 0.027027027027027029, 'S': 0.063063063063063057, 'T': 0.0090090090090090089, 'V': 0.0090090090090090089},  #207
+{'A': 0.17117117117117117, 'D': 0.018018018018018018, 'G': 0.081081081081081086, 'I': 0.018018018018018018, '-': 0.33333333333333331, 'K': 0.036036036036036036, 'M': 0.0090090090090090089, 'L': 0.090090090090090086, 'N': 0.027027027027027029, 'Q': 0.018018018018018018, 'P': 0.027027027027027029, 'S': 0.072072072072072071, 'R': 0.036036036036036036, 'T': 0.045045045045045043, 'V': 0.018018018018018018},  #208
+{'A': 0.33333333333333331, 'D': 0.036036036036036036, 'G': 0.14414414414414414, 'I': 0.036036036036036036, 'H': 0.027027027027027029, 'K': 0.027027027027027029, 'L': 0.072072072072072071, 'N': 0.045045045045045043, 'Q': 0.054054054054054057, 'P': 0.027027027027027029, 'S': 0.10810810810810811, 'R': 0.018018018018018018, 'T': 0.045045045045045043, 'V': 0.027027027027027029},  #209
+]

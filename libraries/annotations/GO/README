@@ -1,0 +1,5 @@
+###  README --- /home/francisco/toolbox/utils/annotations/GO/
+
+apt-get install python-numpy python-setuptools
+easy_install networkx
+

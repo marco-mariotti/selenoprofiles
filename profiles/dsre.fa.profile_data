@@ -1,0 +1,454 @@
+# md5sum id for alignment: 2e55bf7898e51baea1ec1bc127173e6f
+# Clustering seq id value: 0.27
+# Number of clusters: 2
+# Blast queries alignment:
+>BLAST_QUERY_1
+MQ----------------------------K-YLILVNGPPY-GSQAAFNALRF--AKALLE--K-GH-------------E-IVRVFFYQDGVLN------ANALQKPA---SDE--------F--NLVQ---------------AW-----QELAQ--A---H-GVELVVUVAAALRRGIVDEQE-AKRNGLSQANLAEGFELSGLGELAEAT-LTADRV---IT----F
+>BLAST_QUERY_2
+MKYI----------------------------LAILFTHPPH-GSASSREGLDALLAASALC--Q-EE-------------E--IQILFLSDGVYQ------LLANQQPA---EILQ-------K--DYIA---------------TF-----KIIPL--Y---D-IEKCYLUQSSLAARKLEEACE-----------IFSDIRICSKKEMSAKI-QQAEKV---LT----F
+>BLAST_QUERY_MASTER
+MKKS--------------------------K-YLILVNGPPY-GSQSAFNALRFLLAKALLE--K-GH-------------E-IVRVFFYQDGVLN------ANALQKPA---SDEQ-------F--NLVQ---------------AW-----QELAQ--A---H-GVELVVUVAAALRRGIVDEQE-AKRNGLSQANLAEGFELSGLGELAEAT-LTADRV---IT----F
+# Cluster alignment n.1:
+>gi|120554439|ref|YP_958790.1| DsrE family protein [Marinobacter aquaeolei VT8] 1.3659e-38
+MPQS-------------------------LS-YTLVITGAPW-ATQAPQTALSLAQALLR--A-GH-------------R-IDRVFLYGDGVHL------ASALSAPP---SDE--------Q--HWPR---------------LW-----SEFLS--G---N-NITAVACIASALRRGIVDETE-QARYELTASNLRAPFEIAGLGEWVEGN-LKSDRV---LYFHGAH
+>gi|119774916|ref|YP_927656.1|_1 DsrE-related protein [Shewanella amazonensis SB2B] 3.04114e-40 # ARTIFICIAL_U
+MAHF---------------EGHF---FI-MSTFILQVSGKAY-GSAAPVHALRFAKAAID--E-GH-------------H-ILQVFFYQDGVFN------ASSLGSPA---SDE--------F--NVYQ---------------AW-----QKLAK--L---H-NVELVNUVSCALRRGMVAKEE-AETQGLSHWNVDEHFTNGGLGELVSGI-AKADRL---IC----F
+>gi|119774916|ref|YP_927656.1| DsrE-related protein [Shewanella amazonensis SB2B] 3.04114e-40
+MAHF---------------EGHF---FI-MSTFILQVSGKAY-GSAAPVHALRFAKAAID--E-GH-------------H-ILQVFFYQDGVFN------ASSLGSPA---SDE--------F--NVYQ---------------AW-----QKLAK--L---H-NVELVNCVSAALRRGMVAKEE-AETQGLSHWNVDEHFTNGGLGELVSGI-AKADRL---IC----F
+>gi|91793164|ref|YP_562815.1| DsrE-like protein [Shewanella denitrificans OS217] 3.81066e-39
+MAFF---------------ERH----KV-MSQFLIQVNGGAY-GSTGSFRALKFCQSALA--Q-GH-------------T-IVGVFFYQDGVYN------SNALLTPA---SDE--------F--DIHT---------------AW-----QALSE--A---H-QITLTNCVSAAWRRGILSPQD-ALDNAKPQWNAATSFTMGGLGELVAGI-EQAERL---VC----F
+>gi|90109176|pdb|2D1P|A Chain A, Crystal Structure Of Heterohexameric Tusbcd Proteins, Which Are Crucial For The Trna Modification 8.18684e-49
+MRGSHHHH---------HHG--------SMR-FAIVVTGPAY-GTQQASSAFQFAQALIA--D-GH-------------E-LSSVFFYREGVYN------ANQLTSPA---SDE--------F--DLVR---------------AW-----QQLNA--Q---H-GVALNICVAAALRRGVVDETE-AGRLGLASSNLQQGFTLSGLGALAEAS-LTCDRV---VQ----F
+>gi|260774589|ref|ZP_05883501.1| tRNA 5-methylaminomethyl-2-thiouridine synthase TusD [Vibrio metschnikovii CIP 69.14] 8.0607e-45
+MSQS---------------ST-------PLT-YALLVTGPAY-GTQSARNAYLFAQSVLE--K-GH-------------S-IKRIFFYQEGVLN------GSGLTLPA---NDE--------F--DLVK---------------AW-----QTMAT--K---H-QIRLETCVAAALRRGIVSQSE-AEQHQLSTSSLAMGVTQAGLGALAEAL-LTEDRV---VQ----F
+>gi|268592207|ref|ZP_06126428.1| sulfur transfer complex subunit TusD [Providencia rettgeri DSM 1131] 5.96582e-47
+MSNT---------------N--------SLT-YCLVVTGPAY-GTQQAASAYQFAKALLE--E-GH-------------I-LKTLFFYREGVFN------ANQLTSPA---TDE--------F--NLVS---------------AW-----QELAK--Q---S-GCEMHICVSAALRRGVVDQEQ-AQTLSLPTANLAEGFIMSGLGSLAEAM-ITTDRT---IQ----F
+>gi|119947046|ref|YP_944726.1| intracellular sulfur oxidation protein of DsrE family protein [Psychromonas ingrahamii 37] 6.49247e-43
+MEQQ------------------------KIK-FSIVVSGAPY-GTESGSSAYQFCAAAIS--A-GH-------------Q-IAGVFFYQEGVLN------ASQLVSPA---SDE--------I--NLPT---------------LW-----AALAG--E---Y-QFPLEVCVSAALRRGIINQQE-AVQLGLTQFNLQAPFVLSGLGQLAELS-ANCDRL---VQ----F
+>gi|284009031|emb|CBA75977.1| intracellular sulfur oxidation protein [Arsenophonus nasoniae] 7.16995e-46
+MNKS-------------------------LT-YCLLVTGPAY-GTQQATNAWRFANALIM--E-GH-------------I-LKTVFFYREGVYN------GNQLISPA---SDE--------F--NLLM---------------GW-----KTLAQ--Q---T-GCQLNICVAAALRRGIIDETE-AKNSGLPCANLDKDFVLSGLGSLAEAM-LICDRT---VQ----F
+>gi|238897324|ref|YP_002923001.1| tRNA 2-thiouridine synthesizing sulfurtransferase D [Candidatus Hamiltonella defensa 5AT (Acyrthosiphon pisum)] 3.03849e-43
+MKK--------------------------LS-YCLLVTGPPY-GTEQASSAYQFAKALLD--T-KH-------------R-LISIFFYQDGVFN------ANRFVTPA---SDE--------F--DLVR---------------AW-----HQLAL--D---H-HIMLNVCISAASRRGVGCLQQEQIQSYSSSYNLQNGFTLSGLTALVEAL-LTCDRV---IQ----F
+>gi|260774645|ref|ZP_05883552.1| tRNA 5-methylaminomethyl-2-thiouridine synthase TusD [Vibrio coralliilyticus ATCC BAA-450] 2.24882e-45
+MSA--------------------------LS-YTLVVNGSVY-GSQSARTAYQFARSLIN--K-GH-------------Q-LVSVFFYQDGVTN------GTALSVPA---NDE--------F--DLVK---------------AW-----QSLAL--E---H-AVRLETCVAAALRRGVVSQDE-AKQHSLMQSNLADGFHQAGLGSLAEAM-LTQDRV---VQ----F
+>gi|229526980|ref|ZP_04416376.1| tRNA 5-methylaminomethyl-2-thiouridine synthase TusD [Vibrio cholerae 12129(1)] 7.6671e-45
+MKP--------------------------LT-YTLVVNGPQY-GTQSARNAYLFAKALIE--K-GH-------------I-LKSVFFYQDGVLN------GSATHVPA---NDE--------F--NLLQ---------------GW-----QSLAQ--S---H-QVQLETCVAAALRRGVVSEQE-ASQHGLASHNLATHFTQAGLGSLAQAL-LEQDRV---VQ----F
+>gi|253987818|ref|YP_003039174.1| sulfurtransferase tusd [Photorhabdus asymbiotica] 2.2282e-48
+MPS--------------------------LS-YCLLVTGPAY-GTQQASSAYQFAQTLIA--M-GH-------------K-LNTVFFYREGVYN------GNQLTAPA---SDE--------F--NLVS---------------AW-----QMMAT--E---H-QFGMHICVAAALRRGVLDTQQ-ANELNLPVANLAEGFELSGLGTLAEAM-LTCDRV---VQ----F
+>gi|145297382|ref|YP_001140223.1| intracellular sulfur oxidation protein DsrE [Aeromonas salmonicida subsp. salmonicida A449] 5.44896e-43
+MS---------------------------LS-FALLVTGPAY-GTQSASTAYRFALSLIE--Q-GH-------------R-LSHLFFYQDGVCN------GNELHAPA---SDE--------S--NLVA---------------LW-----RELAI--G---Q-GIRIDVCVAAAMRRGVLDETE-AKGAGKVQFNLQAPFCLSGLGQLAEAS-LTADRF---VQ----F
+>gi|256822793|ref|YP_003146756.1| sulfur relay protein TusD/DsrE [Kangiella koreensis DSM 16069] 1.22372e-43
+MA----------------------------T-YSLLVTASPY-SSQGQLSAIQFAKTLLE--Q-GH-------------E-LMRVFFYADGVLV------ASRLHAPP---ADE--------I--NLTK---------------AW-----AKLAI--E---K-DIELIACVTAANKRGIVNVAE-AERNALTGNNLDPAFEISGLGQLTEAM-LNSDRL---VTF---G
+>gi|148547075|ref|YP_001267177.1| sulfur transfer complex subunit TusD [Pseudomonas putida F1] 3.59134e-42
+MLYH---------------GTIPLH-ELAMK-FAIAVFSPA--HAPSSRRALRFAEAVLA--G-GH-------------E-IARLFFYQDGVHS------ASANVVAP---QDE--------L--DVAG---------------QW-----RTFIQ--T---H-QLDAVVCIAAALRRGVLDEAE-ANRYQRPAVNLPKPWELSGLGQLHEAA-QVADRL---VCF-GGD
+>gi|237809519|ref|YP_002893959.1| sulfur relay protein TusD/DsrE [Tolumonas auensis DSM 9187] 9.21728e-43
+MP----------------------------VNFALLVTGSVY-GSQQSGSAYLFAQALLA--K-GH-------------A-ISGVFFYQDGVTN------ANYLTAPA---SDE--------Y--DLHA---------------LW-----CELAD--K---H-YVTLHTCIAAAQRRGILDAVT-AKEAGKDTFNVHAPFLLSGLGQLAEML-LTADRV---VR----F
+>gi|113970309|ref|YP_734102.1| DsrE family protein [Shewanella sp. MR-4] 4.10189e-44
+MM----------------------------SKFIIQVNGPAY-GTSASVNALRFTQASLQ--S-GH-------------E-IVCVFFYQDGVYN------STDFNLPA---SDE--------Y--DVVK---------------AW-----KQLAA--E---H-QVSLVNCVSAALRRGIVSQQE-AQENGLSHWNVEHSFIMGGLGELVTGI-ESADRL---IC----F
+>gi|238921450|ref|YP_002934965.1| sulfurtransferase TusD, putative [Edwardsiella ictaluri 93-146] 6.43106e-47
+M----------------------------LS-YSLVVNGPPY-GTQAASSAYQFALALLA--A-GH-------------T-LHSVFFYREGVLN------ANQLTQPA---ADE--------F--DLVR---------------AW-----QKLSQ--Q---H-GVTLNVCVAAALRRGVVSAEA-AERQGVTSGNLQPGFTLSGLGALAEAM-LVCDRT---MQ----F
+>gi|261823243|ref|YP_003261349.1| sulfur relay protein TusD/DsrE [Pectobacterium wasabiae WPP163] 5.0489e-47
+M----------------------------LS-YCLLVTGPAY-GTQQASSALQFAQALLA--E-GH-------------T-LKSVFFYREGVLN------ANQLTSPA---NDE--------F--DLVR---------------GW-----QQLGS--K---H-QVALNVCVAAALRRGVADAQQ-AAQLGLVGANLQPGFILSGLGELAQSV-LTCDRV---IQ----F
+>gi|152997253|ref|YP_001342088.1| DsrE family protein [Marinomonas sp. MWYL1] 2.7985e-39
+MQ------------------------------YTLLITGSPY-QSKACHTALRFIRAALN--KYPD-------------S-IKGVFFYEDAVLI------GNQTAQPP---RDE--------V--NLTK---------------AW-----QDIAE--Q---H-KIPLYLCIAAAVRRGIINESE-SRRYELEQHTLAEHFQLEGLGTLVDLM-NTTNKI---IQF---R
+>gi|114562978|ref|YP_750491.1| DsrE family protein [Shewanella frigidimarina NCIMB 400] 2.42771e-40
+M-----------------------------SKFIIQVNGSVY-GSTASFRALSFCQSALA--N-GH-------------Q-IINVFFYQDGVTN------SNALTCPA---SDE--------I--DMHS---------------NW-----QSLSS--E---H-SISLTNCVSAALRRGVLSPQD-ATENGKLQWNSSDAFTMGGLGELVVGI-EQADRL---IS----F
+>gi|209693913|ref|YP_002261841.1| sulfur transfer complex subunit TusD [Aliivibrio salmonicida LFI1238] 1.79522e-45
+MSL---------------------------T-YGIVVNGSAY-GTQASRQAYQFSKALIE--Q-GH-------------T-LKKVFFYQDGVLN------ASALILPA---NDE--------V--NITQ---------------AW-----QQLAS--E---H-SIELETCVAAALRRGVIGEEE-ANQHKLSQHNLASGFQQAGLGGLATAL-LRYDRV---IQ----F
+>gi|197286627|ref|YP_002152499.1| intracellular sulfur oxidation protein [Proteus mirabilis HI4320] 4.27291e-47
+MNL---------------------------T-YCLLVTGPHY-GTEQASSAYLFAKALLE--K-GH-------------H-IAQVFFYREGVSN------ANQLVSPA---SDE--------F--DLPK---------------AW-----IALAS--R---Y-NIPLQVCVAAALRRGVVDEQQ-AKEQGLLSSNMATKFELSGLGALAQAM-LTCDRV---VQ----F
+>gi|167624006|ref|YP_001674300.1| DsrE family protein [Shewanella halifaxensis HAW-EB4] 1.93915e-38
+MS-----------------------------KFIIQVNSPAY-GSSSSYSAYRFAKAAID--N-GH-------------M-IEKVFFYQDGVLN------TNSLNSPA---SDE--------F--DLKQ---------------AW-----VDLHD--N---H-GVALINCVSAALRRGVLSESE-AKENQQLHWNMQAPFIMGGLGELVTGI-ETADRL---IC----F
+>gi|127512943|ref|YP_001094140.1| DsrE family protein [Shewanella loihica PV-4] 4.35238e-41
+MS-----------------------------KLIIQVNQAGY-GQGSSYQALQFTKAAID--A-GH-------------E-VVKVFFYQDGVLS------TNHLQSPA---SDE--------F--ALYQ---------------AW-----RELGQ--T---H-QVPLVNCVSAALRRGVLSAAE-SAENQLQHWNLEPPFQMGGLGELVTGI-EQADRV---IC----F
+>gi|109898767|ref|YP_662022.1| DsrE-like protein [Pseudoalteromonas atlantica T6c] 8.29754e-37
+MA-----------------------------SFCLLVTHAPF-EQQHAFTAYRFACSVLA--L-GH-------------E-IKGVFFYQAGVQN------ANGYQAGH---SDE--------F--NVHQ---------------AW-----IELGT--Q---H-RIPLNVCVTAANRRGVINAQD-AKDNDQHGFNLTEPFIEVGLGDLVELC-QVSDKV---IQ----F
+>gi|170726820|ref|YP_001760846.1| sulfur relay protein TusD/DsrE [Shewanella woodyi ATCC 51908] 3.77243e-45
+MS-----------------------------KFIIQVNGPVY-GSSASYSAYQFTQAALA--A-GH-------------E-INCVFFYQDGVLN------TSSLNSPA---SDE--------F--DLTR---------------AW-----ISLNQ--K---Y-SVRLVNCVSAALRRGVISKTE-ADESKLPHWNMQSPFEMGGLGELVVGI-EKTDRL---VS----F
+>gi|257455434|ref|ZP_05620669.1| sulfur relay protein TusD/DsrE [Enhydrobacter aerosaccus SK60] 5.71503e-28
+MPNT---------------ST-------LDTPIVMLMTHAP--SHPLTKRALECAQSLCA--N-DSKTT--VEQNSLTTT-DFKIFLYSDAVML------ANRLIWLP---EDI--------E--NMAK---------------NW-----QHFAM--S---H-DITIQVCVSAALARGVTDADN-ATRHQLQGDNLADGFELVGLGELAMHL-HRAKTV---YQ----F
+>gi|259910007|ref|YP_002650363.1| Sulfurtransferase TusD (TRNA 2-thiouridine synthesizing protein D) [Erwinia pyrifoliae Ep1/96] 2.51011e-40
+M-----------------------------R-FCLMVTGPAF-GTQHASSAWLFARELLA--Q-GY-------------T-LESVFFYREGVLN------ASELNAPA---SDE--------V--DLTR---------------NW-----QQLHQ--Q---H-GVALNICVAAALRRGVSDEQE-AANLGLAAANLARGFQFTGLGALAEAA-LSCDRL---VQ----F
+>gi|219682433|ref|YP_002468817.1| sulfur transfer protein complex, TusD subunit (YheN) [Buchnera aphidicola str. Tuc7 (Acyrthosiphon pisum)] 1.29694e-44
+MN------------------------------YTILVTGPPY-GTQNSSTAFLFCQSLLK--T-KH-------------I-LHSVFFYCDGVLN------ANNMTTPA---IDE--------F--NLIN---------------AW-----QGLNK--K---H-QVKLYVCNSAALRRGVIEDEK-LLNMNVKKGNLALSFQLSGLIELAKSI-KICDRI---IQ----F
+>gi|192359860|ref|YP_001982144.1| dsrE protein [Cellvibrio japonicus Ueda107] 9.92746e-46
+-----------------------------MARFSIAVYAPPQ-TNQTSFSAWQFAQSVLA--Q-GH-------------E-LYRVFFYMDGVHN------ADSVITPP---QGE--------P--NLVT---------------QW-----QTLAQ--N---H-GTDLVVCIAAALRRGVLNEEE-AKRYRKHNHNLAEGFSLSGLGQLVEAI-ALSDRL---IVF--GN
+>gi|118602840|ref|YP_904055.1| DsrE family protein [Candidatus Ruthia magnifica str. Cm (Calyptogena magnifica)] 2.76473e-53
+-----------------------------MK-ISIQINEGPY-QHQASDTAYQFAKAAIE--K-GH-------------E-IFRVFFYHDGVNN------ASRFTLPP---QDD--------R--NVVN---------------QW-----AELDI--KNTDG-EPELVVCIAAALRRGMLDESE-ASKNGIDGNNIHPAFRISGLGQLIEAG-IRSDRL---VIF--GD
+>gi|89095306|ref|ZP_01168225.1| DsrE-like protein [Oceanospirillum sp. MED92] 5.78171e-40
+-----------------------------MK-FSIVIQSSPF-TSQSSSTALRFARTLIT--E-GH-------------E-LFRVFFYSDAVLT------ANALISPP---QDE--------Q--SLPV---------------EW-----QALAS--E---H-NLDLVVCIAAAVKRGVLDTNE-QKRYEKNAQNLENRFELSGLGQLAEAI-AVSDRV---VTF--GG
+>gi|283821449|ref|ZP_06348261.1| sulfur relay protein TusD/DsrE [Rhodomicrobium vannielii ATCC 17100] 1.43099e-51
+-----------------------------MQ-LAIVVNEGPY-THQASDTAYHFTKAALE--K-GH-------------G-ITRVFFYHDGVNN------GTRLTVPP---QDD--------R--NLQK---------------LW-----SELGE--K---H-GLDLVVCIAAAQRRGILDADE-ARRHGKDASNIAPGFRISGLGQLIEAG-IDADRL---VVF--GD
+>gi|119478179|ref|ZP_01618235.1| uncharacterized conserved protein involved in intracellular sulfur reduction [marine gamma proteobacterium HTCC2143] 4.27539e-45
+-----------------------------MK-FSILVLGSPY-SNQSVNTALRFAKAVVA--S-EH-------------S-LYRVFFYHDAVQC------GNALVTPP---QDD--------V--DIPA---------------EW-----QQISE--T---D-TAELIVCIASALKRGVLDTTE-AERYEKDSSNLADEFIISGLGQMVDAT-IHSDRV---ITF--GP
+>gi|260913295|ref|ZP_05919776.1| intracellular sulfur oxidation protein DsrE [Pasteurella dagmatis ATCC 43325] 9.45366e-42
+MR------------------------------YVLCVKQPIY-GKQGSFLAYQFAKTLLA--Q-GH-------------Q-LNQVFFFQDGVTH------GNVLVYPA---NDE--------F--NLQK---------------AW-----QELAQ--I---Y-QFPLHLCVAAAQRRGIVDKLT-SAD--RKSENLAPHFVLAGLGEFTKAA-LEADRV---IT----L
+>gi|53733093|ref|ZP_00155568.2| COG1553: Uncharacterized conserved protein involved in intracellular sulfur reduction [Haemophilus influenzae R2846] 9.85354e-43
+MR------------------------------YIIAVKSPIY-GKQGAFLAYQFANALIK--K-GH-------------E-ISQIFFFQDGVSN------GNALVYPA---NDE--------V--NLQK---------------HW-----QMFSI--T---H-NVPLHLCVAASQRRGVVDNLT-TPT--TAHYNLAEGFIIAGLGEFIAAS-LNADRV---IT----L
+>gi|93006002|ref|YP_580439.1| DsrE-like protein [Psychrobacter cryohalolentis K5] 3.99442e-26
+MTLS---------------------------TPLLLITADP--SHPLAYMALRYARAYLQ--N-ASLADNAPNSADHENS-VLNIFFYADAAHT------ANRLRWQS---ADQ--------S--NITQ---------------EW-----QAMAA--Q---Y-NLVLPVCVSTALSRGISDTDN-SSRHQLETENLATGFKLVGLSELAMMM-QGDCRL---LQ----F
+>gi|94498860|ref|ZP_01305398.1| uncharacterized conserved protein involved in intracellular sulfur reduction [Oceanobacter sp. RED65] 5.44738e-44
+-----------------------------MK-FSILVMASPY-SSQGALQALEFAKSCLK--Q-KH-------------E-IYRIFFYHDGVHN------GSALQAPQ---QDE--------V--NLQA---------------QW-----SELQQ--E---Y-NLDLVTCIAAALKRGVINQEE-AKRYQKPASNLSDGFELSGLGQLLDAQ-INSDQV---VTF---A
+>gi|239995736|ref|ZP_04716260.1| sulfur relay protein TusB/DsrE [Alteromonas macleodii ATCC 27126] 1.77063e-35
+-----------------------------MAEYSVLITSSPF-QGDTALRALSFAQGVID--N-GD-------------V-INNVFFYSEGVHH------TNNLMLKT---GDE--------L--FVLD---------------SW-----KTLAT--E---H-NVKLLVCITAAVKRGIVSELE-AKENGLSQANLTTPFEQAGLGEFFTAL-HDCNRL---VQ----F
+>gi|32033471|ref|ZP_00133815.1| COG1553: Uncharacterized conserved protein involved in intracellular sulfur reduction [Actinobacillus pleuropneumoniae serovar 1 str. 4074] 7.87056e-41
+MD------------------------------YVLAVKSPVY-GDQGAYLAYQVAESLLA--S-EH-------------N-IKQVFFFQDGVGN------ANALVNPA---SDE--------I--NLVE---------------KW-----QELAK--L---H-DLPLHLCISAAQRRGVVDNQT-SK---IQQSNLADGFILAGLGEFSQAV-LKADRL---LT----F
+>gi|148652784|ref|YP_001279877.1| DsrE family protein [Psychrobacter sp. PRwf-1] 1.76102e-25
+MTTT----------------------------TLLLITADP--SQPIAWHAYRYAKAFMQ--H-TQEA------DTVSPA-KLAIFFYADAANT------ANALRWQS---ADR--------A--DLTQ---------------LW-----SQFSA--A---Y-QQRLPVCVSTALTRGVTDEDN-AARHRLQTNNLAAGFELVGLGELAEQM-ALATKV---IR----F
+>gi|251793719|ref|YP_003008449.1| sulfur relay protein TusD/DsrE [Aggregatibacter aphrophilus NJ8700] 1.9554e-38
+MD------------------------------YVLVVKQPVY-GSQGAFLAYQLAQELVQ--K--H-------------R-ICQIFFYQEGISN------GNALVYPA---NDE--------F--NLVN---------------AW-----QDFAR--R---H-NVPLHLCVAAAQRRGVVDEAS-AAD--KSAVNLANVFQLAGLGEFSQAL-LRADRV---IT----L
+>gi|226944886|ref|YP_002799959.1| dissimilatory sulfite reductase, DsrE-like protein [Azotobacter vinelandii DJ] 1.84286e-41
+-----------------------------MK-FAIALFSPP--HAPSSRRALRFAEAVLA--G-GH-------------E-INRLFFYRDGVYN------AADSIVTP---QDE--------S--DLPA---------------QW-----RAFVE--R---H-ALDAVVCVAAALRRGVLDSRE-AQRYGRVAVVPTPPWELSGLGQLHEAA-QSADRL---VCF-GGD
+>gi|88705124|ref|ZP_01102836.1| DsrE-like protein [Congregibacter litoralis KT71] 1.51324e-30
+-----------------------------MR-YALLVLSPPD-SGSSSRQALEFAKALGR--A-KH-------------N-VASVFFFDAGALT------ALTACESS---ADE--------E--DLRK---------------EW-----QALGE--D---G-GIPLFACVASAQRFGVGDGRN-LEE------RCLPGFAIAGLGELIEAS-SIADRL---MTF--GD
+>gi|254514422|ref|ZP_05126483.1| sulfur relay protein TusD/DsrE [gamma proteobacterium NOR5-3] 7.96185e-30
+-----------------------------MR-YTLLVLTPPD-SGASARHALEFAKAVCL--A-GH-------------D-VACVFFYDAGVLT------ALSQCEAA---ADE--------S--DLRE---------------GW-----QDFAQ--T---T-GTPLVACVASVARFGLGDGRE-LHE------RCLPQFTIAGLGELIEAS-SDSQRF---LTF--AD
+>gi|239787657|emb|CAX84124.1| DsrE family protein [uncultured bacterium] 2.38954e-38
+MIGP---------------RE----DGGTMK-LAVCIYEGPY-NHEASDSAYNFIQAALR--K-GH-------------E-IRGIFFYHDGVYN------VTKLMEPP---QDD--------R--HIAN---------------RW-----SELGG------Q-GIDIVVCIAAAKRRGIVDD------------VLVPNVRISGLGQLTMMA-IEADRM---VVF--GD
+>gi|110834160|ref|YP_693019.1| DsrE/DsrF-like family protein [Alcanivorax borkumensis SK2] 1.26626e-17
+M-----------------------------R-FSLLVNAAA--ESAAALTALHTAQALHNPSS-DH-------------Q-LYCLFLYRDAVHL------ANRHAWTG--DAEQ--------A--SAAQ---------------QW-----QQWIA--S---Q-SVEAMVCVGAAQRRGVVDSNA-A-------TTLAEGFSLAGLGQWADAL-INSDRV---IQF---G
+>gi|71280004|ref|YP_269069.1| putative sulfur oxidation protein DsrE [Colwellia psychrerythraea 34H] 1.33639e-27
+MK-----------------------------TLAVVVTTPPY-SH-LTITALTYVETALA--A-GI-------------N-VIGVFFYQDGAMH------ANENISIA---SDE--------Y--QAIA---------------HW-----QRLNQ--Q---Y-QLPLHICITAAEMRGIACDSI-------DNEQINEAFTVSGLGELVELT-TKATRL---VQ----F
+>gi|53804573|ref|YP_113793.1| intracellular sulfur oxidation protein DsrE [Methylococcus capsulatus str. Bath] 3.75303e-34
+-----------------------------MK-FVIQIDASPH-EAQAANTAYQFIKAALA--N-GH-------------H-ILLVFFYYDGVCN------AQVSSFAG---KD------------DLSG---------------RW-----SALAR--E---H-GLDLVLCVSAAQRRGLVSAEG-K-----DQGLLAPGFRIGGLGQWVDAC-LKADRI---LTF--TS
+>gi|94677052|ref|YP_588924.1| intracellular sulfur reduction protein DsrE [Baumannia cicadellinicola str. Hc (Homalodisca coagulata)] 3.11732e-41
+-----------------------------------MITGPAY-GNQRASSALQFAQALLN--Y-GH-------------Y-IKTIFFYQDGVYN------ANKFITPA---SDE--------K--NLLL---------------AW-----EKLAI--Q---H-KVSLHICITAALRRGIIDDQQ-ARELNLSGFNLHSTFKISSLSYFGQAV-LHCDRL---IQ----F
+>gi|238797245|ref|ZP_04640746.1| Sulfurtransferase tusD [Yersinia mollaretii ATCC 43969] 4.2411e-44
+-----------------------------------MVTGPAY-GTQQASSAYQFAQTLVN--S-GH-------------N-LVSIFFYREGVLN------ANQLTAPA---SDE--------F--DLVR---------------AW-----QQLAT--E---H-AVALNVCVAAALRRGVTDQHE-AEQLNLAAANLQPGFTLSGLGALAEAA-LTCDRM---VQ----F
+>gi|222100571|ref|YP_002535139.1| DsrE family protein [Thermotoga neapolitana DSM 4359] 1.66234e-28
+MEDRNETSRGGK-----------------TMKIGIQVMVPPY-TYEDLDTAIKIAEAAME--K-GH---------------EVTLFLFADSVIC------TNKNIKPI--K-ID--------R--NIPQ---------------KL-----VELMQ--K---G-NFEVHICGICMDYRGITTDM------------IIEGSKPSGLPELANLI-ATCDRF---INL--MA
+>gi|219871674|ref|YP_002476049.1| sulfurtransferase TusD-like protein involved in intracellular sulfur reduction [Haemophilus parasuis SH0165] 1.41266e-37
+MR------------------------------YVLAVKHGVY-GSQGAYLAYQVAQALLD--Q-GH-------------R-IEQIFFFQDGVSN------ANQLIDPA---SDE--------L--NLVE---------------AW-----KTLAQ--S---H-RLSLHLCIAAAQRRGIVEQ------------NLAEGFTLAGLGEFSQAV-FTADRL---LT----I
+>gi|257465044|ref|ZP_05629415.1| sulfur transfer complex subunit TusD [Actinobacillus minor 202] 3.25578e-35
+MQ------------------------------YVLAIKSEGF-GAQGATLAYQFAEQLLL--S-GH-------------E-ISQIFFFQQGIHN------ANKWISPA---SDE--------L--NLLE---------------KW-----QSLAK--T---H-RLSLHLCISAAQRRGVVEQ------------NLAEPFVLAGLGEFSHAV-LKADRL---LT----F
+>gi|194337335|ref|YP_002019129.1| sulfur relay protein TusD/DsrE [Pelodictyon phaeoclathratiforme BU-1] 2.99168e-39
+-----------------------------MK-IGILLKEGPY-NHQASDTAYKFAAAAIK--K-GH-------------T-VDAVFLYNDGVTN------VTKLMDPP---QDD--------R--NIAA---------------RW-----SALSL--E---H-GVEILACIAASKRRGINDD------------LLIKGGLITGLGTLTDIA-IRNDRL---VTF--GD
+>gi|144898942|emb|CAM75806.1| Intracellular sulfur oxidation protein [Magnetospirillum gryphiswaldense MSR-1] 1.06066e-47
+-----------------------------MK-FGILVNEGPY-NHQASDSAYRFAKAALD--K-GH-------------E-IYRVFFYYDGVLN------ATKHSEPP---SDD--------R--NVIK---------------NW-----QKLAE--D---H-KVDLVVCVAAGLRRGIVED------------SLAPGFRISGLGQLIEAG-IQADRM---VTF--GD
+>gi|261496486|ref|ZP_05992866.1| DsrE family protein [Mannheimia haemolytica serotype A2 str. OVINE] 1.1423e-27
+MFRV-------FRGKTMSNS---------VQKLLFIINSAPY-GNETFFSALRLALQIQE--Q-HK------------ANTEIKLFLMSDAVTA------GLAKQNP---A-EG--------Y--HIQQ---------------ML-----EIL-T--A---Q-GANVKLCKTCTNARGITDLP------------LADGVEIGTLIELADWT-IQADKV---LN----F
+>gi|260768569|ref|ZP_05877503.1| DsrE-like protein [Vibrio furnissii CIP 102972] 3.61594e-24
+MQS---------------------------QNIVMTLSGSPY-GSEALFNALRLAIALKE--Q-DD------------HTVNLKLFLMSDSVFG------ALKGQVTP--D-FS--------Y--NIGQ---------------ML-----EVL-L--A---Q-KVSVLLCKTCISARGVAMSQ------------VIDDVAIGTMADLSQWV-LWADKV---IA----M
+>gi|83589298|ref|YP_429307.1| DsrE-like protein [Moorella thermoacetica ATCC 39073] 3.83454e-23
+MA-----------------------------QLCLVVQTGPY-TYQNLDTAYGLARAALA--K-GH---------------GVSLFLYIDGVVA------ANKNIDAP----GE--------R--NIAA---------------ML-----QELA---A---A-GVRIASCGACSKFRGITDEM------------YIDGAEMGSLVDMADMI-QEADVL---INF--GF
+>gi|149194145|ref|ZP_01871243.1| DsrE-like protein [Caminibacter mediatlanticus TB-2] 5.09234e-23
+MK------------------------------FLFIFNHQPYDGSDLTWNGLRLAKNLHN--R-GH-------------D--VRIFLISDSIDL------ARDCIKKP--ENYD--------N--DLVA---------------ML-----KEM-Y--N---N-GVKLKVCGICQARCGIYKNEP-----------YFDEKIKATMNDLANWC-EEADKI---IT----F
+>gi|237748393|ref|ZP_04578873.1| DsrE/DsrF-like family protein [Oxalobacter formigenes OXCC13] 3.67253e-28
+MK------------------------------VLIIFNREPYDMTDVSWNGLRLARTLLK--N-GH-------------D--IRIFLMNDAVDM------ARDVCKPP--QGYD--------Q--DLVK---------------ML-----KEL-I--A---D-GATVRVCGTCMARCGIHANQP-----------YFDGAEKSTMQALSEWV-IDSDKV---LT----F
+>gi|117924410|ref|YP_865027.1| DsrE family protein [Magnetococcus sp. MC-1] 2.61156e-24
+MT------------------------------ILILFNQEPYNGSDLTWNGLRLAASLLD--A-EQ-------------E--VRIFIMNDAVDM------ARDACKPA--EGYD--------Q--DVVA---------------LL-----KKL-I--A---R-GVAVKVCGTCMTRCGIHKNQP-----------YFDGAEQSTMAALAQWV-VSSDRV---IT----F
+>gi|169633315|ref|YP_001707051.1| putative intracellular sulfur oxidation protein (DsrE-like) [Acinetobacter baumannii SDF] 1.71676e-32
+MST------------------------------LLLITSAP--TSIHAWHALGLAQALKS--K-N--------------E-DFRVFFYQDGVQV------ANDFQWVP---DDQ--------R--NLTH---------------EW-----QKLA----------IGLPVCVSAALARGITDAKN-ASRHQLSHHNLANNFELVGLGELADAV-QSASRL---LQ----F
+>gi|284006433|emb|CBA71674.1| cytoplasmic sulphur reductase [Arsenophonus nasoniae] 1.88506e-26
+MMQE-------------------------KKLFLIIANGAAY-GDENLFNALRLAIAVKE--Q-AA-------------TTQMKIFLMSDAVVA------GLINQKP---V-EG--------Y--NLKQ---------------ML-----EIL-L--A---Q-QVEIKLCKTCTDARGITELP------------LIKGITIGTLIDLAEWT-LASNKV---LT----F
+>gi|226938937|ref|YP_002794008.1| DsrE family protein [Laribacter hongkongensis HLHK9] 7.29645e-20
+MK-----------------------------RFLFIINASPY-GEERFLSAVRLALMLTD--P-EQ------------EPVALQVFLMSDAVVA------GLAGQETG--G-TA--------Q--NLGV---------------ML-----AEL-V--E---A-GAEVRLCRTCLASRGLLDAQ------------FVAGAEIGNLGQLAAWT-RAADQV---LT----F
+>gi|114319786|ref|YP_741469.1| DsrE family protein [Alkalilimnicola ehrlichii MLHE-1] 1.16119e-28
+MH------------------------------YLILINDPPY-GTERVFNGLRLAHALLK--K-AD------------D-NRVDVFLMADAVVG------ANAGQKTP--D-GF--------Y--NVER---------------ML-----RRVLA--G---D-RGRVLLCGTCMDARGMSDDD------------TMDGPRRSTMDELAQIT-ADADKV---IV----F
+>gi|116749090|ref|YP_845777.1| DsrE family protein [Syntrophobacter fumaroxidans MPOB] 4.98859e-11
+MQ-----------------------------KMLFIISKGFE-KSGGATRAFQFASIAAE--Q-GN-------------P--VEVFLIDDAIHW------AQLGMAEGIRSSTG--------E--SMKE---------------LL-----DSL-V--A---H-KSPIHVCKACADKRLISPDE------------LIKGAQISGAQVLVKMMTSPEYKV---VT----F
+>gi|71907450|ref|YP_285037.1| DsrE-like protein [Dechloromonas aromatica RCB] 5.72332e-23
+MQ-----------------------------SILIIIHAPPY-GSERCLSALRLATALAG--R-DD------------K-PELSIFLMSDATVV------GLPNQVDG----AG--------N--GLQG---------------MV-----EQLV---A---A-GVTIKLCRTCALARGLGELP------------LIPGTSIGTLIELAEYT-VRADKV---IT----F
+>gi|160877262|ref|YP_001556578.1| DsrE family protein [Shewanella baltica OS195] 8.53256e-27
+MQS-----------------------------ILIVAHASPY-GTEKLFNSLRIALALKD--Q-DE------------QVVDLKLFLMSDAVFG------ALKNQTTP--D-LS--------Y--NLQQ---------------MF-----EIL-S--A---Q-QVPILLCKTCAQARGVTAEM------------IIEGAHIGTLQDLTRWT-LAADKV---MH----I
+>gi|157377330|ref|YP_001475930.1| DsrE family protein [Shewanella sediminis HAW-EB3] 6.10953e-28
+MQN-----------------------------ILIVAHESPY-GSEKLFNALRIAIALKE--Q-ET------------EVINLKIFLMSDAVYG------AVKNQVTP--D-LS--------Y--NIQQ---------------ML-----DIL-I--A---Q-SVPVSLCKTCTNGRGVSQEM------------LIEGANIGTLGKLTQWT-LDATKI---MH----I
+>gi|280956694|ref|ZP_06231353.1| DsrE family protein [Desulfovibrio aespoeensis Aspo-2] 2.80075e-13
+MS-----------------------------KYQFIISAGPE-NPVRATRSVMFATKAVD--D-GH-------------E--VSLFLVDDAVYL------TNPALTEHVRAATG--------D--TLMQ---------------YL-----QVI-L--D---Q-NIEVMVCLPCAKARGINESA------------LPSHWRLAKGIEVIRR-NEDGWNT---WT----F
+>gi|254457220|ref|ZP_05070648.1| DsrE family protein [Campylobacterales bacterium GD 1] 6.49456e-22
+MT------------------------------TI-ILNHQPYDGTDITWNALRLAKTLFK--S-GE-------------K--VNLFLMNDAVDL------ARDKTTKP--DSYD--------Y--DLVE---------------ML-----KKM-Y--A---N-GVSLQVCGTCNARCGIFKNEP-----------YFDEKVTSTMQVLADWV-IESDKV---IS----F
+>gi|268680513|ref|YP_003304944.1| DsrE family protein [Sulfurospirillum deleyianum DSM 6946] 1.93452e-23
+MI------------------------------LF-IFNNQPYDGGDKTYNALRLAKSLHV--K-GE-------------K--VKIFLMSDAVDM------AREATQKP--DFYD--------Y--DLVA---------------ML-----KEL-F--M---D-GIALGVCGTCMTRCGIHKNQP-----------YFDENIKGTMGMLTEWS-IEAEKI---LT----F
+>gi|89899275|ref|YP_521746.1| DsrE-like protein [Rhodoferax ferrireducens T118] 2.93715e-25
+MV-----------------------------KYLFILNDPPY-GTERSYNGLRLARSLLK--A-GD------------A--EVKLFLIGDAAAC------AKAGQKVP--Q-GY--------Y--NLGD---------------ML-----GMI-E--R---A-GGAIGVCGSCIDARGISETD------------LVKGASRSSMDELAAWT-QWSDKV---LV----F
+>gi|52425074|ref|YP_088211.1| DsrE protein [Mannheimia succiniciproducens MBEL55E] 3.61594e-24
+MQ-----------------------------KLLFILNESPY-GTEKTFNGLRHAVNLLE--E-HG------------KEVEVKVFCFSDAVLA------GLSGQNP---N-DG--------P--NVQQ---------------TL-----EVL-A--G---L-GAEVKLCTSCTKARGITQLP------------LVKGVSLGTLDDVSDWT-LWADKV---IN----F
+>gi|157964049|ref|YP_001504083.1| DsrE family protein [Shewanella pealeana ATCC 700345] 1.60917e-25
+MQ-----------------------------HVLIIVNDAPY-GSEKLFNALRLAIQLNE--Q-DY------------SPAKVSIFLLSDAVTA------VLPNQKP---A-EG--------Y--NIQQ---------------ML-----EIV-I--A---Q-KTQVKFCSSCMYARGLTDLK------------VVEGCEMATMDDLAQWV-LVADKT---IS----F
+>gi|261868105|ref|YP_003256027.1| DsrE protein [Aggregatibacter actinomycetemcomitans D11S-1] 1.84006e-23
+MQ-----------------------------KILFILNDSPY-GGEKTFNGLRFAINLQE--D-HG------------KEVDIKLFCFFDSILS------GLAGQNP---N-EG--------S--NVQQ---------------LM-----DIL-I--A---Q-GAEVKLCTSCVKARGLLNAK------------LIDGVTLGTLADVSDWT-LWADKV---IS----F
+>gi|260598205|ref|YP_003210776.1| Protein ychN [Cronobacter turicensis] 5.21083e-30
+M-----------------------------QKIVIIANGAAY-GSESLFNSLRLAIALRD--Q-PQ-------------APALKLFLMSDAVTA------GLRGQKP---A-EG--------Y--NVQQ---------------ML-----EIL-T--A---Q-NVPVKLCKTCADGRGVSALP------------LIEGVEIGTLVELAQWT-LEADKV---LT----F
+>gi|197284046|ref|YP_002149918.1| cytoplasmic sulphur reductase [Proteus mirabilis HI4320] 3.05665e-28
+M-----------------------------SKVLVIANGAAY-GNESLFNALRLSITLKE--Q-HP-------------ETQLNIFLMSDAVTG------ALAHQQP---K-EG--------Y--NLQQ---------------ML-----EIL-T--A---Q-NVPVKLCKTCTDTRGISELP------------LVDGAELGTLVDLAQWT-LDADKI---LT----F
+>gi|219850132|ref|YP_002464565.1| DsrE family protein [Chloroflexus aggregans DSM 9485] 8.59906e-29
+MK------------------------------ALFILNDAPY-GSEKAYNALRMAMALQK--D-YP------------D-VEVRVFLMADAVTC------ALPNQTTP--Q-GY--------Y--NIER---------------ML-----KAV-I--S---K-GGQVKACGTCSEARGIKGLA------------LLDGVEISTMSQLVQWT-VEADKV---LV----F
+>gi|127514768|ref|YP_001095965.1| DsrE family protein [Shewanella loihica PV-4] 1.96956e-22
+MQ-----------------------------QVLIVVNDAPY-GSEKLFNALRLAIQLNE--Q-IP------------TP-KVKLFLLSDAVTG------VLPRQQP---G-EG--------Y--NLQQ---------------ML-----EII-L--A---Q-GAEVKYCTSCVQARGLNDLS------------AIEGCVKATMDDLALWL-LQSDKV---IN----F
+>gi|91789776|ref|YP_550728.1| DsrE-like protein [Polaromonas sp. JS666] 1.7497e-24
+MN------------------------------TLLILNDAPY-GSERTYNGARLAGALAR--Q-PG------------N--EVRVFLIGDAVPT------AHRLQKVP--T-GF--------Y--NLEV---------------ML-----GSV-V--S---H-AGVIGVCGTCMDARGISVDD------------LIQGSHRSSLDELTQWT-TWADKV---LV----F
+>gi|153006113|ref|YP_001380438.1| DsrE family protein [Anaeromyxobacter sp. Fw109-5] 1.01666e-26
+MK------------------------------FLIILNDPPY-GTERSYNGLRLAGNLVT--K-HE------------Q-AEVDVFLMGDAVSC------AKSGQTTP--N-GY--------Y--NLER---------------ML-----KPVL---R---R--GRVLLCGSCMEARGLKEAE------------MAEGARRSTLDELAQLT-VAADKV---IV----F
+>gi|217966913|ref|YP_002352419.1| DsrE family protein [Dictyoglomus turgidum DSM 6724] 4.33503e-26
+------------------------------MYIVIQVNVPPY-TYEDLDTAIHLAEAALK--R-GH---------------KVSIFLFADSVLS------INSKVKPL--R-VD--------R--NIPL---------------KM-----KELS---E---K-GVEIHICGLCAEYRGISSEN------------AVEGPKFSGVPEMASLI-FNADRY---VNL--MP
+>gi|167836169|ref|ZP_02463052.1| DsrE-like protein [Burkholderia thailandensis MSMB43] 2.32364e-24
+MK------------------------------TLLILNDAPY-GTERAYNGVRLAGALSR--G-G-------------H--EVRIFLVGDAVAA------AHKGQKVP--A-GF--------Y--NLEV---------------ML-----GAV-I--R---S-GGAVGVCGTCMNARGLAVDD------------LVAGAHRSSMDELAEWS-VWADKA---LV----F
+>gi|120601932|ref|YP_966332.1| DsrE family protein [Desulfovibrio vulgaris subsp. vulgaris DP4] 2.29537e-12
+MR-----------------------------KFLFVLSRGPE-DPTRAVRCFQFAKIAAE--K-GH-------------E--VTVFLVDDAVYF------ANLGMAERVKCPTG--------D--ELLP---------------YL-----KVL-Q--E-----KGKILVCKPCAATRMIGEDD------------LPGGFAISTGVTLIDL-AEDA-KV---FS----F
+>gi|196156909|ref|YP_002126398.1| sulfur relay protein TusB/DsrE [Alteromonas macleodii 'Deep ecotype'] 2.61266e-17
+-----------------------------MYSS------------ASQPSVLQTNKVLR---N-TY-------------M-LLAMTLAFSAVCAGIAMAVGVQFDVET---GDE--------L--FAYD---------------GW-----KALAA--D---H-NVNLMVCITAAVKRGIVSEME-AKENGIAQANLTTPFEQAGLGEFFTAL-HECNRL---VQ----F
+>gi|169830381|ref|YP_001716363.1| DsrE family protein [Candidatus Desulforudis audaxviator MP104C] 2.6199e-13
+MW-----------------------------R-NIGIVVQTAD-AEQAWSAFRLANRALD--E-GH-------------E--VRVFLLSQGVLA------GDLGEEPC-----------------NVNK---------------QM-----RIF-I--A---N-DGQLWACGKCLALHE---KE------------AGELCPFGGLKDLLELV-EWADKL---LT----F
+>gi|254281936|ref|ZP_04956904.1| DsrE/DsrF-like family protein [gamma proteobacterium NOR51-B] 4.12933e-21
+M-----------------------------I-MTLVVQAGPE-QGQAPQRALAFARAAID--A-GH-------------Q-LHCVFFYRGGVEV------SGSEADAP------------------------------------EW-----GALHS--E---T-GTPLLLCSSSAETYGLSGDR---------------HFAIAGLGTLIEAG-VHSARV---VTF---A
+>gi|254480608|ref|ZP_05093855.1| sulfur relay protein TusD/DsrE [marine gamma proteobacterium HTCC2148] 2.5605e-29
+-----------------------------MN-YTLLVLSSPT-SGHSAQTAAKFAHSVIA--R-GH-------------S-IERIFFLDEGTTN------GSRAAVFP---QDE--------A--DKLQ---------------PW-----TLLAD--E---H-GVELVLCIASALKHGMLDETE-ADRYARAGATVHPAFIISGWA----------------------N
+>gi|182416260|ref|YP_001821326.1| DsrE family protein [Opitutus terrae PB90-1] 3.88391e-11
+MK-----------------------------L-GIILSQ-T-E-PETVFNALRLANYALK--Q-GD-------------S--VKIFLMGKGVAL------DQIDDARF-----------------AVRE---------------QA-----QAV-L--A---A-GGQFLACGTCLKLRA---SE------------GSEICPLSTLKDLYEVV-RDSDRV---LS----F
+>gi|153217720|ref|ZP_01951401.1| sulfurtransferase TusD [Vibrio cholerae 1587] 2.63531e-16
+MMRS---------------E--------TTH-LHLVVNGPQY-GTQSARNAYLFAKALIE--K-GH-------------I-LKSVFFYQDGVLN------GSATHVPA---NDE--------F--NCYK---------------VG-----NLLLNLIK---Y-NLKLV---------------------------------------------LQQRCA---VV----L
+>gi|188496142|ref|ZP_03003412.1| protein YchN [Escherichia coli 53638] 2.66244e-15
+M-----------------------------QKIVIVANGAPY-GSESLFNSLRLAIALRE--Q-ES-------------NLDLRLFLMSDAVTA------GLRGQKP---G-EG--------Y--NIQQ---------------ML-----EIL-------------------------------------------------------------TAQNL---HF----R
+>gi|153878807|ref|ZP_02004690.1| Protein involved in sulfur oxidation DsrE [Beggiatoa sp. PS] 2.71599e-28
+-----------------------------M----------------------------------------------------------------------------PP---QDD--------R--NIVN---------------RW-----SELAK--E---H-SLDLVVCIAAAQRRGLLDENE-AKRQGKDANNIAEGFRISGLGQLIEAG-IQSERL---VVF--GD
+>gi|270633691|ref|ZP_06222022.1| Intracellular sulfur oxidation protein dsrE [Haemophilus influenzae HK1212] 1.12518e-16
+MR------------------------------YVIAVKSPIY-GKQGAFLAYQFADALIK--K-RH-------------E-ISQIFFFQDGVSN------GNALVYPA---NDE-------------------------------------------------------------------------------------------------------------------V
+>gi|206602512|gb|EDZ38993.1| Hypothetical protein CGL2_11276161 [Leptospirillum sp. Group II '5-way CG'] 9.80035e-13
+MLTE---------------ETEDVPSHRVRK-VTIVLSTGSY-LREAPTTVLRLVEKLLE--R-GI-------------E-V-NVWAFEEAVTL------TNRDQIEH--S-EP--------P--SLRKVIGDKHAFVGKFIDQLL-----RAGLH--T---S-KLNWVTCVLCAQERGVEHHQ-------------MNGVIIGTLGDLWKFV-QSADQV---IAIPTYR
+>gi|126658498|ref|ZP_01729646.1| iron-sulfur binding domain protein [Cyanothece sp. CCY0110] 2.47366e-13
+MSKT---------------------------VLSFLLMDGPF-EQARTTTAFRMIDAALE--K-GY-------------D--VKVFTYEGGVSL------AFAHQKPH---ANSVHGRTFDEENHPLTK---------------DWITALFDKAKN--K---GCELEWVNCGLCVDERGVNDAVE--------------GCRRGAPKDFWEWS-KEANGTLVIGT----K
+>BLAST_QUERY_1
+MQ----------------------------K-YLILVNGPPY-GSQAAFNALRFAKALLE--K-GH-------------E-IVRVFFYQDGVLN------ANALQKPA---SDE--------F--NLVQ---------------AW-----QELAQ--A---H-GVELVVUVAAALRRGIVDEQE-AKRNGLSQANLAEGFELSGLGELAEAT-LTADRV---IT----F
+# Cluster alignment n.2:
+>gi|257465043|ref|ZP_05629414.1| possible sulfur oxidation protein DsrF [Actinobacillus minor 202] 5.99375e-11
+MKYKLAILFTHPPFGSASSREGLDALLAASAFCQEEEILILFLNDGVFNLLKNQQPAEILQKDHIATFKLIELYDLTECFVCQESVAARKLENAEWIFSDIRWCSRDEMFAKLQQAEKVLTF
+>gi|268592206|ref|ZP_06126427.1| sulfur relay protein TusC [Providencia rettgeri DSM 1131] 4.94714e-11
+MKKI-AFVFTTMPHGNASGREGLDALLATSAL--TEDIQVFFLSDGVYQLLANQHPAEVLARDYIVTFKILPLYDIEKVYLCGSSLQERGLGEHCEWVLTPTILSKKEVSAKIAECDVVLNF
+>BLAST_QUERY_2
+MKYILAILFTHPPHGSASSREGLDALLAASALCQEEEIQILFLSDGVYQLLANQQPAEILQKDYIATFKIIPLYDIEKCYLUQSSLAARKLEEACEIFSDIRICSKKEMSAKIQQAEKVLTF
+# Average weighted sequence identity with coverage: 0.51012028626 +- 0.105775846728
+# Average weighted sequence identity without coverage: 0.527315542318 +- 0.0930256537562
+# Conservation map: [
+{'M': 0.81188118811881194, '-': 0.18811881188118812},  #1
+{'A': 0.059405940594059403, 'E': 0.019801980198019802, 'D': 0.019801980198019802, 'F': 0.0099009900990099011, 'I': 0.019801980198019802, 'M': 0.029702970297029702, 'K': 0.11881188118811881, '-': 0.27722772277227725, 'L': 0.019801980198019802, 'N': 0.039603960396039604, 'Q': 0.10891089108910891, 'P': 0.039603960396039604, 'S': 0.10891089108910891, 'R': 0.059405940594059403, 'T': 0.039603960396039604, 'W': 0.0099009900990099011, 'V': 0.0099009900990099011, 'H': 0.0099009900990099011},  #2
+{'A': 0.0099009900990099011, 'D': 0.0099009900990099011, 'G': 0.019801980198019802, 'F': 0.0099009900990099011, 'H': 0.019801980198019802, 'K': 0.039603960396039604, '-': 0.68316831683168322, 'L': 0.029702970297029702, 'N': 0.029702970297029702, 'Q': 0.039603960396039604, 'P': 0.0099009900990099011, 'S': 0.029702970297029702, 'R': 0.019801980198019802, 'T': 0.029702970297029702, 'Y': 0.019801980198019802},  #3
+{'E': 0.019801980198019802, 'F': 0.029702970297029702, 'I': 0.0099009900990099011, 'H': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.78217821782178221, 'Q': 0.0099009900990099011, 'P': 0.0099009900990099011, 'S': 0.059405940594059403, 'R': 0.0099009900990099011, 'T': 0.039603960396039604, 'V': 0.0099009900990099011},  #4
+{'H': 0.0099009900990099011, '-': 0.98019801980198018, 'N': 0.0099009900990099011},  #5
+{'H': 0.0099009900990099011, '-': 0.98019801980198018, 'E': 0.0099009900990099011},  #6
+{'H': 0.0099009900990099011, '-': 0.98019801980198018, 'T': 0.0099009900990099011},  #7
+{'H': 0.0099009900990099011, 'S': 0.0099009900990099011, '-': 0.98019801980198018},  #8
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #9
+{'-': 0.99009900990099009, 'G': 0.0099009900990099011},  #10
+{'-': 0.99009900990099009, 'G': 0.0099009900990099011},  #11
+{'K': 0.0099009900990099011, '-': 0.98019801980198018, 'F': 0.0099009900990099011},  #12
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #13
+{'-': 0.99009900990099009, 'G': 0.0099009900990099011},  #14
+{'K': 0.0099009900990099011, '-': 0.99009900990099009},  #15
+{'-': 0.99009900990099009, 'T': 0.0099009900990099011},  #16
+{'-': 0.99009900990099009, 'M': 0.0099009900990099011},  #17
+{'H': 0.0099009900990099011, 'S': 0.0099009900990099011, '-': 0.98019801980198018},  #18
+{'H': 0.0099009900990099011, '-': 0.98019801980198018, 'N': 0.0099009900990099011},  #19
+{'E': 0.049504950495049507, 'G': 0.019801980198019802, '-': 0.88118811881188119, 'N': 0.0099009900990099011, 'S': 0.029702970297029702, 'R': 0.0099009900990099011},  #20
+{'-': 0.92079207920792083, 'R': 0.0099009900990099011, 'E': 0.0099009900990099011, 'T': 0.039603960396039604, 'G': 0.019801980198019802},  #21
+{'I': 0.0099009900990099011, 'H': 0.029702970297029702, '-': 0.95049504950495045, 'E': 0.0099009900990099011},  #22
+{'P': 0.0099009900990099011, '-': 0.96039603960396036, 'D': 0.0099009900990099011, 'F': 0.019801980198019802},  #23
+{'-': 0.98019801980198018, 'L': 0.0099009900990099011, 'V': 0.0099009900990099011},  #24
+{'H': 0.0099009900990099011, '-': 0.98019801980198018, 'P': 0.0099009900990099011},  #25
+{'S': 0.0099009900990099011, '-': 0.98019801980198018, 'D': 0.0099009900990099011},  #26
+{'E': 0.0099009900990099011, 'G': 0.0099009900990099011, 'F': 0.019801980198019802, 'H': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.94059405940594054},  #27
+{'G': 0.0099009900990099011, 'I': 0.019801980198019802, '-': 0.94059405940594054, 'L': 0.0099009900990099011, 'R': 0.0099009900990099011, 'V': 0.0099009900990099011},  #28
+{'A': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.91089108910891092, 'L': 0.0099009900990099011, 'P': 0.0099009900990099011, 'S': 0.019801980198019802, 'T': 0.019801980198019802, 'V': 0.0099009900990099011},  #29
+{'D': 0.0099009900990099011, 'I': 0.0099009900990099011, 'M': 0.21782178217821782, 'K': 0.0099009900990099011, '-': 0.60396039603960394, 'L': 0.10891089108910891, 'R': 0.0099009900990099011, 'T': 0.019801980198019802, 'V': 0.0099009900990099011},  #30
+{'A': 0.019801980198019802, 'I': 0.0099009900990099011, 'M': 0.019801980198019802, 'K': 0.12871287128712872, 'V': 0.0099009900990099011, '-': 0.47524752475247523, 'N': 0.0099009900990099011, 'Q': 0.049504950495049507, 'S': 0.12871287128712872, 'R': 0.049504950495049507, 'T': 0.079207920792079209, 'H': 0.0099009900990099011, 'Y': 0.0099009900990099011},  #31
+{'E': 0.0099009900990099011, 'H': 0.0099009900990099011, 'K': 0.15841584158415842, '-': 0.62376237623762376, 'L': 0.019801980198019802, 'N': 0.019801980198019802, 'Q': 0.029702970297029702, 'P': 0.0099009900990099011, 'S': 0.029702970297029702, 'R': 0.029702970297029702, 'T': 0.039603960396039604, 'V': 0.0099009900990099011, 'Y': 0.0099009900990099011},  #32
+{'A': 0.0099009900990099011, 'F': 0.26732673267326734, 'I': 0.12871287128712872, 'M': 0.019801980198019802, '-': 0.069306930693069313, 'L': 0.10891089108910891, 'P': 0.0099009900990099011, 'S': 0.0099009900990099011, 'T': 0.039603960396039604, 'V': 0.049504950495049507, 'Y': 0.28712871287128711},  #33
+{'A': 0.11881188118811881, 'C': 0.089108910891089105, 'G': 0.049504950495049507, 'F': 0.0099009900990099011, 'I': 0.089108910891089105, 'H': 0.0099009900990099011, '-': 0.039603960396039604, 'L': 0.25742574257425743, 'N': 0.0099009900990099011, 'Q': 0.0099009900990099011, 'S': 0.10891089108910891, 'T': 0.089108910891089105, 'V': 0.11881188118811881},  #34
+{'F': 0.11881188118811881, 'I': 0.40594059405940597, 'M': 0.019801980198019802, '-': 0.059405940594059403, 'L': 0.35643564356435642, 'V': 0.039603960396039604},  #35
+{'A': 0.079207920792079209, 'C': 0.019801980198019802, 'G': 0.0099009900990099011, 'I': 0.20792079207920791, 'M': 0.029702970297029702, '-': 0.019801980198019802, 'L': 0.28712871287128711, 'Q': 0.11881188118811881, 'T': 0.0099009900990099011, 'V': 0.21782178217821782},  #36
+{'A': 0.059405940594059403, 'F': 0.059405940594059403, 'I': 0.18811881188118812, '-': 0.019801980198019802, 'M': 0.0099009900990099011, 'L': 0.14851485148514851, 'V': 0.51485148514851486},  #37
+{'D': 0.0099009900990099011, 'F': 0.019801980198019802, 'H': 0.029702970297029702, 'K': 0.079207920792079209, '-': 0.019801980198019802, 'M': 0.029702970297029702, 'L': 0.039603960396039604, 'N': 0.36633663366336633, 'Q': 0.029702970297029702, 'S': 0.089108910891089105, 'T': 0.25742574257425743, 'V': 0.0099009900990099011, 'Y': 0.019801980198019802},  #38
+{'A': 0.11881188118811881, 'E': 0.069306930693069313, 'D': 0.099009900990099015, 'G': 0.33663366336633666, 'H': 0.059405940594059403, 'K': 0.0099009900990099011, '-': 0.019801980198019802, 'N': 0.0099009900990099011, 'Q': 0.049504950495049507, 'S': 0.12871287128712872, 'R': 0.019801980198019802, 'T': 0.049504950495049507, 'V': 0.029702970297029702},  #39
+{'A': 0.16831683168316833, 'E': 0.029702970297029702, 'D': 0.019801980198019802, 'G': 0.13861386138613863, 'M': 0.0099009900990099011, 'K': 0.019801980198019802, '-': 0.029702970297029702, 'Q': 0.039603960396039604, 'P': 0.36633663366336633, 'S': 0.17821782178217821},  #40
+{'A': 0.20792079207920791, 'G': 0.019801980198019802, 'F': 0.0099009900990099011, 'I': 0.029702970297029702, 'H': 0.0099009900990099011, '-': 0.019801980198019802, 'Q': 0.019801980198019802, 'P': 0.58415841584158412, 'S': 0.0099009900990099011, 'T': 0.019801980198019802, 'V': 0.069306930693069313},  #41
+{'A': 0.0099009900990099011, 'E': 0.039603960396039604, 'D': 0.019801980198019802, 'F': 0.069306930693069313, 'H': 0.019801980198019802, '-': 0.099009900990099015, 'Q': 0.0099009900990099011, 'T': 0.0099009900990099011, 'W': 0.0099009900990099011, 'Y': 0.71287128712871284},  #42
+{'-': 0.93069306930693074, 'E': 0.0099009900990099011, 'D': 0.049504950495049507, 'N': 0.0099009900990099011},  #43
+{'A': 0.0099009900990099011, 'M': 0.0099009900990099011, 'E': 0.039603960396039604, 'D': 0.0099009900990099011, 'G': 0.60396039603960394, 'H': 0.019801980198019802, 'K': 0.0099009900990099011, '-': 0.039603960396039604, 'L': 0.0099009900990099011, 'N': 0.039603960396039604, 'Q': 0.039603960396039604, 'S': 0.099009900990099015, 'T': 0.069306930693069313},  #44
+{'A': 0.049504950495049507, 'E': 0.0099009900990099011, 'D': 0.019801980198019802, 'G': 0.069306930693069313, 'H': 0.079207920792079209, 'K': 0.029702970297029702, '-': 0.019801980198019802, 'N': 0.059405940594059403, 'Q': 0.039603960396039604, 'P': 0.029702970297029702, 'S': 0.28712871287128711, 'R': 0.0099009900990099011, 'T': 0.26732673267326734, 'Y': 0.029702970297029702},  #45
+{'A': 0.079207920792079209, 'E': 0.28712871287128711, 'D': 0.059405940594059403, 'G': 0.019801980198019802, 'I': 0.0099009900990099011, 'H': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.019801980198019802, 'Q': 0.37623762376237624, 'P': 0.049504950495049507, 'S': 0.039603960396039604, 'T': 0.029702970297029702, 'V': 0.0099009900990099011},  #46
+{'A': 0.18811881188118812, 'D': 0.019801980198019802, 'G': 0.10891089108910891, 'I': 0.019801980198019802, 'H': 0.029702970297029702, 'K': 0.079207920792079209, '-': 0.0099009900990099011, 'L': 0.049504950495049507, 'N': 0.029702970297029702, 'Q': 0.099009900990099015, 'S': 0.20792079207920791, 'R': 0.10891089108910891, 'T': 0.039603960396039604, 'V': 0.0099009900990099011},  #47
+{'A': 0.37623762376237624, 'C': 0.019801980198019802, 'G': 0.019801980198019802, 'F': 0.019801980198019802, '-': 0.0099009900990099011, 'L': 0.11881188118811881, 'Q': 0.019801980198019802, 'P': 0.049504950495049507, 'S': 0.23762376237623761, 'T': 0.099009900990099015, 'V': 0.029702970297029702},  #48
+{'A': 0.0099009900990099011, 'D': 0.079207920792079209, 'G': 0.0099009900990099011, 'F': 0.21782178217821782, 'I': 0.0099009900990099011, 'H': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.0099009900990099011, 'L': 0.059405940594059403, 'N': 0.019801980198019802, 'Q': 0.029702970297029702, 'P': 0.0099009900990099011, 'S': 0.12871287128712872, 'R': 0.10891089108910891, 'T': 0.059405940594059403, 'W': 0.069306930693069313, 'V': 0.039603960396039604, 'Y': 0.11881188118811881},  #49
+{'E': 0.019801980198019802, 'H': 0.049504950495049507, '-': 0.0099009900990099011, 'M': 0.0099009900990099011, 'L': 0.069306930693069313, 'N': 0.27722772277227725, 'Q': 0.039603960396039604, 'S': 0.22772277227722773, 'R': 0.099009900990099015, 'T': 0.19801980198019803},  #50
+{'A': 0.80198019801980203, 'C': 0.0099009900990099011, 'G': 0.11881188118811881, '-': 0.0099009900990099011, 'S': 0.039603960396039604, 'V': 0.019801980198019802},  #51
+{'A': 0.019801980198019802, 'F': 0.059405940594059403, 'I': 0.029702970297029702, '-': 0.0099009900990099011, 'L': 0.50495049504950495, 'W': 0.029702970297029702, 'V': 0.029702970297029702, 'Y': 0.31683168316831684},  #52
+{'A': 0.0099009900990099011, 'M': 0.0099009900990099011, 'E': 0.039603960396039604, 'D': 0.019801980198019802, 'G': 0.019801980198019802, 'H': 0.029702970297029702, 'K': 0.039603960396039604, '-': 0.0099009900990099011, 'L': 0.069306930693069313, 'N': 0.0099009900990099011, 'Q': 0.26732673267326734, 'S': 0.029702970297029702, 'R': 0.43564356435643564, 'T': 0.0099009900990099011},  #53
+{'A': 0.019801980198019802, 'M': 0.019801980198019802, 'C': 0.0099009900990099011, 'F': 0.5544554455445545, 'I': 0.029702970297029702, 'H': 0.0099009900990099011, '-': 0.0099009900990099011, 'L': 0.27722772277227725, 'T': 0.019801980198019802, 'V': 0.019801980198019802, 'Y': 0.029702970297029702},  #54
+{'-': 0.98019801980198018, 'L': 0.019801980198019802},  #55
+{'-': 0.98019801980198018, 'L': 0.019801980198019802},  #56
+{'A': 0.82178217821782173, 'C': 0.039603960396039604, 'I': 0.039603960396039604, '-': 0.0099009900990099011, 'N': 0.0099009900990099011, 'S': 0.019801980198019802, 'T': 0.039603960396039604, 'V': 0.019801980198019802},  #57
+{'A': 0.039603960396039604, 'M': 0.0099009900990099011, 'C': 0.0099009900990099011, 'E': 0.079207920792079209, 'D': 0.019801980198019802, 'G': 0.029702970297029702, 'I': 0.089108910891089105, 'H': 0.019801980198019802, 'K': 0.25742574257425743, '-': 0.0099009900990099011, 'L': 0.049504950495049507, 'N': 0.039603960396039604, 'Q': 0.20792079207920791, 'S': 0.0099009900990099011, 'R': 0.089108910891089105, 'T': 0.029702970297029702, 'V': 0.0099009900990099011},  #58
+{'A': 0.54455445544554459, 'E': 0.019801980198019802, 'G': 0.0099009900990099011, 'I': 0.019801980198019802, 'M': 0.0099009900990099011, 'K': 0.019801980198019802, '-': 0.0099009900990099011, 'N': 0.039603960396039604, 'Q': 0.039603960396039604, 'S': 0.16831683168316833, 'R': 0.0099009900990099011, 'T': 0.089108910891089105, 'V': 0.0099009900990099011, 'Y': 0.0099009900990099011},  #59
+{'A': 0.27722772277227725, 'C': 0.0099009900990099011, 'F': 0.0099009900990099011, 'I': 0.0099009900990099011, '-': 0.0099009900990099011, 'L': 0.5643564356435643, 'S': 0.0099009900990099011, 'V': 0.099009900990099015, 'Y': 0.0099009900990099011},  #60
+{'A': 0.039603960396039604, 'M': 0.019801980198019802, 'C': 0.019801980198019802, 'G': 0.0099009900990099011, 'F': 0.019801980198019802, 'I': 0.20792079207920791, 'H': 0.029702970297029702, 'K': 0.059405940594059403, '-': 0.0099009900990099011, 'L': 0.43564356435643564, 'N': 0.019801980198019802, 'Q': 0.029702970297029702, 'S': 0.0099009900990099011, 'R': 0.029702970297029702, 'T': 0.0099009900990099011, 'V': 0.049504950495049507},  #61
+{'A': 0.20792079207920791, 'C': 0.0099009900990099011, 'E': 0.24752475247524752, 'D': 0.14851485148514851, 'G': 0.0099009900990099011, 'M': 0.0099009900990099011, 'K': 0.11881188118811881, '-': 0.029702970297029702, 'L': 0.019801980198019802, 'N': 0.059405940594059403, 'Q': 0.039603960396039604, 'S': 0.019801980198019802, 'R': 0.049504950495049507, 'T': 0.019801980198019802, 'V': 0.0099009900990099011},  #62
+{'P': 0.0099009900990099011, '-': 0.99009900990099009},  #63
+{'S': 0.0099009900990099011, '-': 0.99009900990099009},  #64
+{'A': 0.10891089108910891, 'M': 0.0099009900990099011, 'E': 0.079207920792079209, 'D': 0.039603960396039604, 'G': 0.029702970297029702, 'H': 0.0099009900990099011, 'K': 0.22772277227722773, '-': 0.019801980198019802, 'L': 0.0099009900990099011, 'N': 0.079207920792079209, 'Q': 0.22772277227722773, 'P': 0.0099009900990099011, 'S': 0.069306930693069313, 'R': 0.049504950495049507, 'T': 0.019801980198019802, 'Y': 0.0099009900990099011},  #65
+{'Y': 0.0099009900990099011, '-': 0.99009900990099009},  #66
+{'A': 0.029702970297029702, 'E': 0.069306930693069313, 'D': 0.059405940594059403, 'G': 0.63366336633663367, 'I': 0.0099009900990099011, 'H': 0.049504950495049507, 'K': 0.039603960396039604, '-': 0.019801980198019802, 'N': 0.0099009900990099011, 'P': 0.029702970297029702, 'R': 0.0099009900990099011, 'T': 0.029702970297029702, 'Y': 0.0099009900990099011},  #67
+{'A': 0.0099009900990099011, 'E': 0.059405940594059403, 'D': 0.069306930693069313, 'G': 0.029702970297029702, 'I': 0.019801980198019802, 'H': 0.61386138613861385, 'K': 0.0099009900990099011, '-': 0.029702970297029702, 'N': 0.0099009900990099011, 'Q': 0.039603960396039604, 'P': 0.029702970297029702, 'S': 0.029702970297029702, 'T': 0.0099009900990099011, 'Y': 0.039603960396039604},  #68
+{'-': 0.97029702970297027, 'K': 0.0099009900990099011, 'E': 0.0099009900990099011, 'L': 0.0099009900990099011},  #69
+{'A': 0.019801980198019802, '-': 0.97029702970297027, 'T': 0.0099009900990099011},  #70
+{'-': 0.98019801980198018, 'T': 0.0099009900990099011, 'D': 0.0099009900990099011},  #71
+{'-': 0.99009900990099009, 'N': 0.0099009900990099011},  #72
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #73
+{'P': 0.0099009900990099011, '-': 0.98019801980198018, 'V': 0.0099009900990099011},  #74
+{'-': 0.98019801980198018, 'E': 0.0099009900990099011, 'N': 0.0099009900990099011},  #75
+{'Q': 0.0099009900990099011, 'S': 0.0099009900990099011, '-': 0.98019801980198018},  #76
+{'A': 0.0099009900990099011, '-': 0.97029702970297027, 'D': 0.0099009900990099011, 'N': 0.0099009900990099011},  #77
+{'S': 0.0099009900990099011, '-': 0.97029702970297027, 'D': 0.0099009900990099011, 'T': 0.0099009900990099011},  #78
+{'H': 0.0099009900990099011, '-': 0.97029702970297027, 'L': 0.0099009900990099011, 'V': 0.0099009900990099011},  #79
+{'-': 0.97029702970297027, 'S': 0.0099009900990099011, 'E': 0.0099009900990099011, 'T': 0.0099009900990099011},  #80
+{'A': 0.019801980198019802, 'E': 0.019801980198019802, 'D': 0.019801980198019802, 'H': 0.019801980198019802, 'K': 0.029702970297029702, '-': 0.81188118811881194, 'N': 0.019801980198019802, 'Q': 0.019801980198019802, 'P': 0.0099009900990099011, 'S': 0.0099009900990099011, 'T': 0.019801980198019802},  #81
+{'A': 0.029702970297029702, 'M': 0.019801980198019802, 'E': 0.26732673267326734, 'D': 0.049504950495049507, 'G': 0.0099009900990099011, 'I': 0.049504950495049507, 'H': 0.039603960396039604, 'K': 0.029702970297029702, '-': 0.10891089108910891, 'N': 0.059405940594059403, 'Q': 0.059405940594059403, 'P': 0.039603960396039604, 'S': 0.059405940594059403, 'R': 0.049504950495049507, 'T': 0.089108910891089105, 'V': 0.029702970297029702, 'Y': 0.0099009900990099011},  #82
+{'A': 0.019801980198019802, 'I': 0.0099009900990099011, '-': 0.84158415841584155, 'L': 0.0099009900990099011, 'N': 0.0099009900990099011, 'P': 0.019801980198019802, 'T': 0.029702970297029702, 'V': 0.059405940594059403},  #83
+{'A': 0.019801980198019802, 'E': 0.089108910891089105, 'D': 0.049504950495049507, 'G': 0.0099009900990099011, 'I': 0.30693069306930693, 'K': 0.039603960396039604, '-': 0.13861386138613863, 'L': 0.22772277227722773, 'N': 0.019801980198019802, 'Q': 0.019801980198019802, 'R': 0.0099009900990099011, 'V': 0.069306930693069313},  #84
+{'A': 0.049504950495049507, 'M': 0.019801980198019802, 'C': 0.0099009900990099011, 'E': 0.039603960396039604, 'D': 0.019801980198019802, 'F': 0.039603960396039604, 'I': 0.079207920792079209, 'H': 0.029702970297029702, 'K': 0.10891089108910891, '-': 0.019801980198019802, 'L': 0.13861386138613863, 'N': 0.049504950495049507, 'S': 0.059405940594059403, 'R': 0.0099009900990099011, 'T': 0.0099009900990099011, 'V': 0.26732673267326734, 'Y': 0.049504950495049507},  #85
+{'A': 0.029702970297029702, 'C': 0.049504950495049507, 'E': 0.0099009900990099011, 'D': 0.019801980198019802, 'G': 0.069306930693069313, 'H': 0.0099009900990099011, 'K': 0.16831683168316833, '-': 0.0099009900990099011, 'L': 0.019801980198019802, 'N': 0.059405940594059403, 'Q': 0.11881188118811881, 'S': 0.15841584158415842, 'R': 0.21782178217821782, 'T': 0.059405940594059403},  #86
+{'I': 0.27722772277227725, 'M': 0.0099009900990099011, '-': 0.0099009900990099011, 'L': 0.16831683168316833, 'V': 0.53465346534653468},  #87
+{'F': 0.96039603960396036, '-': 0.0099009900990099011, 'T': 0.0099009900990099011, 'W': 0.0099009900990099011, 'L': 0.0099009900990099011},  #88
+{'A': 0.0099009900990099011, 'C': 0.019801980198019802, 'F': 0.59405940594059403, 'I': 0.0099009900990099011, '-': 0.0099009900990099011, 'L': 0.34653465346534651, 'T': 0.0099009900990099011},  #89
+{'A': 0.0099009900990099011, 'F': 0.11881188118811881, 'I': 0.039603960396039604, '-': 0.0099009900990099011, 'M': 0.17821782178217821, 'L': 0.059405940594059403, 'V': 0.029702970297029702, 'Y': 0.5544554455445545},  #90
+{'A': 0.069306930693069313, 'M': 0.0099009900990099011, 'C': 0.0099009900990099011, 'E': 0.029702970297029702, 'D': 0.059405940594059403, 'G': 0.059405940594059403, 'F': 0.019801980198019802, 'I': 0.0099009900990099011, 'H': 0.049504950495049507, '-': 0.0099009900990099011, 'N': 0.049504950495049507, 'Q': 0.28712871287128711, 'S': 0.19801980198019803, 'R': 0.11881188118811881, 'Y': 0.019801980198019802},  #91
+{'A': 0.029702970297029702, 'E': 0.14851485148514851, 'D': 0.75247524752475248, 'G': 0.019801980198019802, 'K': 0.0099009900990099011, '-': 0.0099009900990099011, 'Q': 0.019801980198019802, 'S': 0.0099009900990099011},  #92
+{'A': 0.33663366336633666, 'S': 0.049504950495049507, '-': 0.0099009900990099011, 'G': 0.60396039603960394},  #93
+{'A': 0.049504950495049507, 'I': 0.049504950495049507, '-': 0.0099009900990099011, 'T': 0.019801980198019802, 'V': 0.87128712871287128},  #94
+{'A': 0.029702970297029702, 'M': 0.019801980198019802, 'C': 0.029702970297029702, 'E': 0.0099009900990099011, 'D': 0.049504950495049507, 'G': 0.0099009900990099011, 'F': 0.069306930693069313, 'I': 0.0099009900990099011, 'H': 0.089108910891089105, '-': 0.0099009900990099011, 'L': 0.22772277227722773, 'N': 0.029702970297029702, 'Q': 0.029702970297029702, 'P': 0.0099009900990099011, 'S': 0.069306930693069313, 'T': 0.13861386138613863, 'V': 0.049504950495049507, 'Y': 0.11881188118811881},  #95
+{'A': 0.10891089108910891, 'M': 0.029702970297029702, 'C': 0.049504950495049507, 'G': 0.059405940594059403, 'F': 0.0099009900990099011, 'I': 0.0099009900990099011, 'H': 0.029702970297029702, '-': 0.0099009900990099011, 'L': 0.089108910891089105, 'N': 0.44554455445544555, 'Q': 0.0099009900990099011, 'S': 0.039603960396039604, 'T': 0.059405940594059403, 'W': 0.0099009900990099011, 'V': 0.039603960396039604},  #96
+{'-': 0.99009900990099009, 'G': 0.0099009900990099011},  #97
+{'I': 0.0099009900990099011, '-': 0.99009900990099009},  #98
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #99
+{'-': 0.99009900990099009, 'M': 0.0099009900990099011},  #100
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #101
+{'-': 0.99009900990099009, 'V': 0.0099009900990099011},  #102
+{'A': 0.54455445544554459, 'D': 0.0099009900990099011, 'G': 0.25742574257425743, 'I': 0.0099009900990099011, '-': 0.0099009900990099011, 'L': 0.019801980198019802, 'S': 0.039603960396039604, 'T': 0.069306930693069313, 'V': 0.039603960396039604},  #103
+{'A': 0.0099009900990099011, 'D': 0.019801980198019802, 'G': 0.0099009900990099011, 'F': 0.0099009900990099011, 'H': 0.019801980198019802, 'K': 0.019801980198019802, '-': 0.0099009900990099011, 'L': 0.17821782178217821, 'N': 0.41584158415841582, 'Q': 0.029702970297029702, 'S': 0.14851485148514851, 'R': 0.049504950495049507, 'T': 0.059405940594059403, 'V': 0.019801980198019802},  #104
+{'A': 0.23762376237623761, 'E': 0.039603960396039604, 'D': 0.069306930693069313, 'G': 0.019801980198019802, 'I': 0.019801980198019802, 'H': 0.0099009900990099011, 'K': 0.11881188118811881, '-': 0.0099009900990099011, 'L': 0.029702970297029702, 'N': 0.019801980198019802, 'Q': 0.11881188118811881, 'P': 0.049504950495049507, 'S': 0.099009900990099015, 'R': 0.11881188118811881, 'T': 0.0099009900990099011, 'V': 0.019801980198019802, 'Y': 0.0099009900990099011},  #105
+{'A': 0.049504950495049507, 'M': 0.0099009900990099011, 'C': 0.0099009900990099011, 'E': 0.0099009900990099011, 'D': 0.019801980198019802, 'G': 0.12871287128712872, 'F': 0.059405940594059403, 'H': 0.039603960396039604, 'K': 0.029702970297029702, '-': 0.0099009900990099011, 'L': 0.40594059405940597, 'N': 0.11881188118811881, 'Q': 0.0099009900990099011, 'S': 0.019801980198019802, 'R': 0.0099009900990099011, 'T': 0.029702970297029702, 'W': 0.0099009900990099011, 'V': 0.019801980198019802, 'Y': 0.0099009900990099011},  #106
+{'A': 0.039603960396039604, 'M': 0.049504950495049507, 'C': 0.039603960396039604, 'E': 0.0099009900990099011, 'D': 0.019801980198019802, 'G': 0.019801980198019802, 'I': 0.12871287128712872, 'H': 0.039603960396039604, '-': 0.0099009900990099011, 'L': 0.019801980198019802, 'N': 0.039603960396039604, 'Q': 0.27722772277227725, 'S': 0.039603960396039604, 'R': 0.019801980198019802, 'T': 0.13861386138613863, 'V': 0.10891089108910891},  #107
+{'A': 0.11881188118811881, 'C': 0.0099009900990099011, 'E': 0.059405940594059403, 'D': 0.039603960396039604, 'F': 0.0099009900990099011, 'I': 0.0099009900990099011, 'H': 0.0099009900990099011, 'K': 0.13861386138613863, '-': 0.0099009900990099011, 'L': 0.049504950495049507, 'N': 0.039603960396039604, 'Q': 0.059405940594059403, 'S': 0.13861386138613863, 'T': 0.10891089108910891, 'W': 0.049504950495049507, 'V': 0.10891089108910891, 'Y': 0.039603960396039604},  #108
+{'A': 0.049504950495049507, 'E': 0.049504950495049507, 'D': 0.0099009900990099011, 'G': 0.0099009900990099011, 'F': 0.0099009900990099011, 'I': 0.0099009900990099011, 'K': 0.039603960396039604, 'L': 0.0099009900990099011, 'Q': 0.019801980198019802, 'P': 0.64356435643564358, 'S': 0.0099009900990099011, 'R': 0.0099009900990099011, 'T': 0.089108910891089105, 'V': 0.039603960396039604},  #109
+{'A': 0.39603960396039606, 'C': 0.0099009900990099011, 'G': 0.049504950495049507, 'F': 0.0099009900990099011, 'I': 0.0099009900990099011, 'H': 0.039603960396039604, '-': 0.089108910891089105, 'L': 0.0099009900990099011, 'Q': 0.0099009900990099011, 'P': 0.31683168316831684, 'S': 0.029702970297029702, 'R': 0.0099009900990099011, 'T': 0.019801980198019802},  #110
+{'I': 0.0099009900990099011, '-': 0.97029702970297027, 'V': 0.019801980198019802},  #111
+{'K': 0.0099009900990099011, 'R': 0.019801980198019802, '-': 0.97029702970297027},  #112
+{'A': 0.049504950495049507, 'C': 0.0099009900990099011, 'E': 0.019801980198019802, 'D': 0.069306930693069313, 'G': 0.029702970297029702, 'K': 0.019801980198019802, '-': 0.69306930693069302, 'N': 0.029702970297029702, 'Q': 0.029702970297029702, 'S': 0.019801980198019802, 'R': 0.0099009900990099011, 'T': 0.0099009900990099011, 'V': 0.0099009900990099011},  #113
+{'A': 0.089108910891089105, 'E': 0.029702970297029702, 'D': 0.0099009900990099011, 'G': 0.039603960396039604, 'F': 0.0099009900990099011, 'I': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.26732673267326734, 'N': 0.10891089108910891, 'Q': 0.11881188118811881, 'P': 0.0099009900990099011, 'S': 0.27722772277227725, 'R': 0.0099009900990099011, 'T': 0.0099009900990099011},  #114
+{'A': 0.0099009900990099011, 'E': 0.099009900990099015, 'D': 0.61386138613861385, 'G': 0.079207920792079209, 'F': 0.0099009900990099011, 'I': 0.019801980198019802, '-': 0.029702970297029702, 'L': 0.019801980198019802, 'N': 0.0099009900990099011, 'T': 0.039603960396039604, 'V': 0.019801980198019802, 'Y': 0.049504950495049507},  #115
+{'A': 0.0099009900990099011, 'E': 0.50495049504950495, 'D': 0.13861386138613863, 'G': 0.12871287128712872, 'F': 0.029702970297029702, 'I': 0.0099009900990099011, '-': 0.039603960396039604, 'L': 0.019801980198019802, 'Q': 0.029702970297029702, 'P': 0.0099009900990099011, 'S': 0.039603960396039604, 'R': 0.0099009900990099011, 'Y': 0.029702970297029702},  #116
+{'Q': 0.0099009900990099011, 'A': 0.0099009900990099011, '-': 0.97029702970297027, 'V': 0.0099009900990099011},  #117
+{'H': 0.0099009900990099011, '-': 0.99009900990099009},  #118
+{'-': 0.99009900990099009, 'G': 0.0099009900990099011},  #119
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #120
+{'-': 0.99009900990099009, 'T': 0.0099009900990099011},  #121
+{'-': 0.99009900990099009, 'F': 0.0099009900990099011},  #122
+{'-': 0.99009900990099009, 'D': 0.0099009900990099011},  #123
+{'-': 0.99009900990099009, 'E': 0.0099009900990099011},  #124
+{'A': 0.029702970297029702, 'E': 0.039603960396039604, 'D': 0.019801980198019802, 'F': 0.22772277227722773, 'I': 0.039603960396039604, 'K': 0.019801980198019802, '-': 0.049504950495049507, 'L': 0.049504950495049507, 'N': 0.019801980198019802, 'Q': 0.049504950495049507, 'P': 0.029702970297029702, 'S': 0.049504950495049507, 'R': 0.10891089108910891, 'V': 0.059405940594059403, 'Y': 0.20792079207920791},  #125
+{'-': 0.99009900990099009, 'N': 0.0099009900990099011},  #126
+{'H': 0.0099009900990099011, '-': 0.99009900990099009},  #127
+{'A': 0.019801980198019802, 'E': 0.0099009900990099011, 'D': 0.29702970297029702, 'G': 0.0099009900990099011, 'F': 0.019801980198019802, 'H': 0.029702970297029702, '-': 0.019801980198019802, 'N': 0.52475247524752477, 'Q': 0.0099009900990099011, 'P': 0.0099009900990099011, 'S': 0.039603960396039604, 'T': 0.0099009900990099011},  #128
+{'A': 0.029702970297029702, 'M': 0.029702970297029702, 'C': 0.0099009900990099011, 'I': 0.15841584158415842, 'H': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.019801980198019802, 'L': 0.5643564356435643, 'W': 0.0099009900990099011, 'V': 0.14851485148514851, 'Y': 0.0099009900990099011},  #129
+{'A': 0.059405940594059403, 'M': 0.0099009900990099011, 'E': 0.049504950495049507, 'G': 0.029702970297029702, 'I': 0.049504950495049507, 'H': 0.039603960396039604, 'K': 0.029702970297029702, '-': 0.019801980198019802, 'L': 0.069306930693069313, 'N': 0.0099009900990099011, 'Q': 0.14851485148514851, 'P': 0.079207920792079209, 'S': 0.0099009900990099011, 'R': 0.039603960396039604, 'T': 0.089108910891089105, 'V': 0.21782178217821782, 'Y': 0.049504950495049507},  #130
+{'A': 0.11881188118811881, 'M': 0.0099009900990099011, 'E': 0.069306930693069313, 'D': 0.029702970297029702, 'G': 0.029702970297029702, 'H': 0.0099009900990099011, 'K': 0.16831683168316833, '-': 0.019801980198019802, 'L': 0.019801980198019802, 'N': 0.049504950495049507, 'Q': 0.24752475247524752, 'P': 0.0099009900990099011, 'S': 0.029702970297029702, 'R': 0.10891089108910891, 'T': 0.029702970297029702, 'V': 0.049504950495049507},  #131
+{'-': 0.99009900990099009, 'V': 0.0099009900990099011},  #132
+{'I': 0.0099009900990099011, '-': 0.99009900990099009},  #133
+{'-': 0.99009900990099009, 'G': 0.0099009900990099011},  #134
+{'-': 0.99009900990099009, 'D': 0.0099009900990099011},  #135
+{'K': 0.0099009900990099011, '-': 0.99009900990099009},  #136
+{'H': 0.0099009900990099011, '-': 0.99009900990099009},  #137
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #138
+{'-': 0.99009900990099009, 'F': 0.0099009900990099011},  #139
+{'-': 0.99009900990099009, 'V': 0.0099009900990099011},  #140
+{'-': 0.99009900990099009, 'G': 0.0099009900990099011},  #141
+{'K': 0.0099009900990099011, '-': 0.99009900990099009},  #142
+{'-': 0.99009900990099009, 'F': 0.0099009900990099011},  #143
+{'I': 0.0099009900990099011, '-': 0.99009900990099009},  #144
+{'-': 0.99009900990099009, 'D': 0.0099009900990099011},  #145
+{'Q': 0.0099009900990099011, '-': 0.99009900990099009},  #146
+{'A': 0.24752475247524752, 'M': 0.22772277227722773, 'E': 0.059405940594059403, 'D': 0.0099009900990099011, 'G': 0.049504950495049507, 'H': 0.019801980198019802, 'K': 0.039603960396039604, '-': 0.0099009900990099011, 'L': 0.099009900990099015, 'N': 0.039603960396039604, 'Q': 0.079207920792079209, 'P': 0.0099009900990099011, 'S': 0.0099009900990099011, 'R': 0.039603960396039604, 'T': 0.029702970297029702, 'V': 0.0099009900990099011, 'Y': 0.019801980198019802},  #147
+{'A': 0.0099009900990099011, 'G': 0.0099009900990099011, 'F': 0.029702970297029702, '-': 0.0099009900990099011, 'M': 0.029702970297029702, 'L': 0.27722772277227725, 'W': 0.62376237623762376, 'V': 0.0099009900990099011},  #148
+{'I': 0.0099009900990099011, '-': 0.99009900990099009},  #149
+{'-': 0.99009900990099009, 'T': 0.0099009900990099011},  #150
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #151
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #152
+{'-': 0.99009900990099009, 'F': 0.0099009900990099011},  #153
+{'A': 0.039603960396039604, 'C': 0.0099009900990099011, 'E': 0.11881188118811881, 'D': 0.039603960396039604, 'G': 0.039603960396039604, 'I': 0.029702970297029702, 'H': 0.0099009900990099011, 'K': 0.15841584158415842, '-': 0.0099009900990099011, 'N': 0.0099009900990099011, 'Q': 0.35643564356435642, 'S': 0.079207920792079209, 'R': 0.069306930693069313, 'T': 0.0099009900990099011, 'V': 0.019801980198019802},  #154
+{'A': 0.14851485148514851, 'M': 0.029702970297029702, 'E': 0.19801980198019803, 'D': 0.039603960396039604, 'G': 0.0099009900990099011, 'I': 0.11881188118811881, 'H': 0.0099009900990099011, 'K': 0.099009900990099015, '-': 0.0099009900990099011, 'L': 0.029702970297029702, 'Q': 0.10891089108910891, 'P': 0.0099009900990099011, 'S': 0.069306930693069313, 'R': 0.019801980198019802, 'T': 0.059405940594059403, 'V': 0.039603960396039604},  #155
+{'A': 0.0099009900990099011, 'G': 0.0099009900990099011, 'F': 0.089108910891089105, 'I': 0.059405940594059403, '-': 0.0099009900990099011, 'M': 0.049504950495049507, 'L': 0.69306930693069302, 'W': 0.0099009900990099011, 'V': 0.069306930693069313},  #156
+{'A': 0.36633663366336633, 'M': 0.0099009900990099011, 'E': 0.0099009900990099011, 'D': 0.0099009900990099011, 'G': 0.059405940594059403, 'I': 0.019801980198019802, 'H': 0.029702970297029702, 'K': 0.0099009900990099011, '-': 0.27722772277227725, 'L': 0.049504950495049507, 'N': 0.039603960396039604, 'Q': 0.0099009900990099011, 'P': 0.0099009900990099011, 'S': 0.079207920792079209, 'V': 0.019801980198019802},  #157
+{'A': 0.079207920792079209, 'M': 0.0099009900990099011, 'E': 0.079207920792079209, 'D': 0.029702970297029702, 'G': 0.019801980198019802, 'F': 0.0099009900990099011, 'I': 0.12871287128712872, 'H': 0.0099009900990099011, 'K': 0.069306930693069313, '-': 0.069306930693069313, 'L': 0.099009900990099015, 'N': 0.019801980198019802, 'Q': 0.14851485148514851, 'S': 0.079207920792079209, 'R': 0.019801980198019802, 'T': 0.079207920792079209, 'V': 0.029702970297029702, 'Y': 0.019801980198019802},  #158
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #159
+{'I': 0.0099009900990099011, '-': 0.99009900990099009},  #160
+{'A': 0.19801980198019803, 'E': 0.18811881188118812, 'D': 0.049504950495049507, 'G': 0.039603960396039604, 'I': 0.0099009900990099011, '-': 0.039603960396039604, 'K': 0.099009900990099015, 'M': 0.0099009900990099011, 'L': 0.029702970297029702, 'N': 0.029702970297029702, 'Q': 0.099009900990099015, 'S': 0.059405940594059403, 'R': 0.059405940594059403, 'T': 0.069306930693069313, 'Y': 0.019801980198019802},  #161
+{'-': 0.99009900990099009, 'N': 0.0099009900990099011},  #162
+{'-': 0.99009900990099009, 'T': 0.0099009900990099011},  #163
+{'-': 0.99009900990099009, 'D': 0.0099009900990099011},  #164
+{'A': 0.049504950495049507, 'D': 0.059405940594059403, 'G': 0.039603960396039604, 'H': 0.42574257425742573, 'K': 0.029702970297029702, '-': 0.039603960396039604, 'L': 0.0099009900990099011, 'N': 0.039603960396039604, 'Q': 0.13861386138613863, 'S': 0.029702970297029702, 'R': 0.019801980198019802, 'T': 0.029702970297029702, 'Y': 0.089108910891089105},  #165
+{'C': 0.0099009900990099011, '-': 0.99009900990099009},  #166
+{'A': 0.039603960396039604, 'E': 0.019801980198019802, 'D': 0.039603960396039604, 'G': 0.32673267326732675, 'I': 0.0099009900990099011, 'H': 0.0099009900990099011, 'K': 0.079207920792079209, '-': 0.039603960396039604, 'L': 0.0099009900990099011, 'N': 0.15841584158415842, 'Q': 0.14851485148514851, 'S': 0.059405940594059403, 'R': 0.039603960396039604, 'T': 0.0099009900990099011, 'Y': 0.0099009900990099011},  #167
+{'A': 0.069306930693069313, 'C': 0.019801980198019802, 'E': 0.0099009900990099011, 'G': 0.089108910891089105, 'F': 0.039603960396039604, 'I': 0.16831683168316833, '-': 0.019801980198019802, 'L': 0.14851485148514851, 'Q': 0.0099009900990099011, 'P': 0.0099009900990099011, 'S': 0.0099009900990099011, 'T': 0.049504950495049507, 'V': 0.35643564356435642},  #168
+{'A': 0.089108910891089105, 'E': 0.19801980198019803, 'D': 0.099009900990099015, 'G': 0.019801980198019802, 'M': 0.0099009900990099011, 'K': 0.059405940594059403, '-': 0.019801980198019802, 'N': 0.029702970297029702, 'Q': 0.059405940594059403, 'P': 0.17821782178217821, 'S': 0.069306930693069313, 'R': 0.079207920792079209, 'T': 0.069306930693069313, 'V': 0.019801980198019802},  #169
+{'A': 0.039603960396039604, 'C': 0.0099009900990099011, 'F': 0.0099009900990099011, 'I': 0.12871287128712872, 'M': 0.019801980198019802, '-': 0.019801980198019802, 'L': 0.5643564356435643, 'W': 0.019801980198019802, 'V': 0.18811881188118812},  #170
+{'A': 0.0099009900990099011, 'M': 0.029702970297029702, 'E': 0.049504950495049507, 'D': 0.0099009900990099011, 'G': 0.039603960396039604, 'F': 0.019801980198019802, 'I': 0.029702970297029702, 'H': 0.13861386138613863, 'K': 0.11881188118811881, '-': 0.019801980198019802, 'L': 0.089108910891089105, 'N': 0.079207920792079209, 'Q': 0.029702970297029702, 'P': 0.029702970297029702, 'S': 0.0099009900990099011, 'R': 0.019801980198019802, 'T': 0.019801980198019802, 'W': 0.0099009900990099011, 'V': 0.21782178217821782, 'Y': 0.029702970297029702},  #171
+{'A': 0.079207920792079209, 'F': 0.0099009900990099011, 'I': 0.089108910891089105, '-': 0.029702970297029702, 'L': 0.23762376237623761, 'N': 0.089108910891089105, 'S': 0.0099009900990099011, 'T': 0.069306930693069313, 'V': 0.37623762376237624, 'Y': 0.0099009900990099011},  #172
+{'U': 0.0099009900990099011, 'C': 0.96039603960396036, '-': 0.029702970297029702},  #173
+{'G': 0.17821782178217821, 'I': 0.21782178217821782, 'K': 0.089108910891089105, '-': 0.029702970297029702, 'L': 0.0099009900990099011, 'N': 0.0099009900990099011, 'Q': 0.0099009900990099011, 'S': 0.019801980198019802, 'R': 0.019801980198019802, 'T': 0.029702970297029702, 'V': 0.38613861386138615},  #174
+{'A': 0.36633663366336633, 'E': 0.0099009900990099011, 'G': 0.0099009900990099011, 'I': 0.019801980198019802, 'K': 0.0099009900990099011, '-': 0.029702970297029702, 'L': 0.029702970297029702, 'P': 0.019801980198019802, 'S': 0.26732673267326734, 'T': 0.23762376237623761},  #175
+{'A': 0.52475247524752477, 'S': 0.079207920792079209, '-': 0.029702970297029702, 'C': 0.34653465346534651, 'T': 0.019801980198019802},  #176
+{'A': 0.65346534653465349, 'G': 0.0099009900990099011, 'I': 0.019801980198019802, '-': 0.029702970297029702, 'M': 0.089108910891089105, 'L': 0.039603960396039604, 'N': 0.0099009900990099011, 'Q': 0.0099009900990099011, 'S': 0.039603960396039604, 'T': 0.049504950495049507, 'V': 0.049504950495049507},  #177
+{'A': 0.079207920792079209, 'E': 0.049504950495049507, 'D': 0.089108910891089105, 'M': 0.0099009900990099011, 'K': 0.069306930693069313, '-': 0.029702970297029702, 'L': 0.36633663366336633, 'N': 0.049504950495049507, 'Q': 0.15841584158415842, 'S': 0.019801980198019802, 'T': 0.019801980198019802, 'W': 0.0099009900990099011, 'V': 0.039603960396039604, 'Y': 0.0099009900990099011},  #178
+{'A': 0.18811881188118812, 'E': 0.029702970297029702, 'G': 0.019801980198019802, 'F': 0.0099009900990099011, 'M': 0.0099009900990099011, 'K': 0.079207920792079209, '-': 0.029702970297029702, 'L': 0.019801980198019802, 'S': 0.019801980198019802, 'R': 0.53465346534653468, 'T': 0.039603960396039604, 'Y': 0.019801980198019802},  #179
+{'C': 0.049504950495049507, 'F': 0.019801980198019802, 'H': 0.019801980198019802, '-': 0.029702970297029702, 'R': 0.87128712871287128, 'Y': 0.0099009900990099011},  #180
+{'A': 0.0099009900990099011, 'E': 0.0099009900990099011, 'G': 0.92079207920792083, 'M': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.029702970297029702, 'L': 0.0099009900990099011},  #181
+{'I': 0.38613861386138615, 'M': 0.049504950495049507, '-': 0.049504950495049507, 'L': 0.12871287128712872, 'V': 0.38613861386138615},  #182
+{'A': 0.039603960396039604, 'E': 0.019801980198019802, 'G': 0.059405940594059403, 'F': 0.0099009900990099011, 'I': 0.089108910891089105, 'H': 0.029702970297029702, 'K': 0.019801980198019802, '-': 0.049504950495049507, 'L': 0.17821782178217821, 'N': 0.039603960396039604, 'S': 0.10891089108910891, 'T': 0.10891089108910891, 'V': 0.23762376237623761, 'Y': 0.0099009900990099011},  #183
+{'A': 0.049504950495049507, 'M': 0.0099009900990099011, 'C': 0.019801980198019802, 'E': 0.11881188118811881, 'D': 0.39603960396039606, 'G': 0.029702970297029702, 'H': 0.0099009900990099011, 'K': 0.039603960396039604, '-': 0.049504950495049507, 'N': 0.079207920792079209, 'Q': 0.019801980198019802, 'P': 0.0099009900990099011, 'S': 0.13861386138613863, 'T': 0.0099009900990099011, 'V': 0.019801980198019802},  #184
+{'A': 0.13861386138613863, 'E': 0.22772277227722773, 'D': 0.12871287128712872, 'G': 0.019801980198019802, 'H': 0.019801980198019802, 'K': 0.049504950495049507, '-': 0.029702970297029702, 'L': 0.099009900990099015, 'N': 0.069306930693069313, 'Q': 0.089108910891089105, 'P': 0.019801980198019802, 'S': 0.049504950495049507, 'T': 0.049504950495049507, 'V': 0.0099009900990099011},  #185
+{'A': 0.059405940594059403, 'C': 0.0099009900990099011, 'E': 0.15841584158415842, 'D': 0.099009900990099015, 'H': 0.0099009900990099011, 'K': 0.029702970297029702, '-': 0.079207920792079209, 'M': 0.049504950495049507, 'L': 0.029702970297029702, 'N': 0.039603960396039604, 'Q': 0.18811881188118812, 'P': 0.059405940594059403, 'S': 0.059405940594059403, 'R': 0.039603960396039604, 'T': 0.069306930693069313, 'V': 0.019801980198019802},  #186
+{'A': 0.019801980198019802, 'E': 0.33663366336633666, 'D': 0.029702970297029702, 'G': 0.0099009900990099011, 'I': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.36633663366336633, 'N': 0.049504950495049507, 'Q': 0.059405940594059403, 'P': 0.049504950495049507, 'S': 0.0099009900990099011, 'T': 0.039603960396039604, 'W': 0.0099009900990099011},  #187
+{'-': 0.99009900990099009, 'E': 0.0099009900990099011},  #188
+{'A': 0.41584158415841582, 'K': 0.0099009900990099011, '-': 0.45544554455445546, 'L': 0.029702970297029702, 'Q': 0.029702970297029702, 'S': 0.049504950495049507, 'T': 0.0099009900990099011},  #189
+{'A': 0.069306930693069313, 'E': 0.079207920792079209, 'D': 0.019801980198019802, 'G': 0.0099009900990099011, 'I': 0.0099009900990099011, 'H': 0.0099009900990099011, 'K': 0.13861386138613863, '-': 0.47524752475247523, 'L': 0.019801980198019802, 'N': 0.029702970297029702, 'Q': 0.029702970297029702, 'P': 0.0099009900990099011, 'S': 0.039603960396039604, 'R': 0.029702970297029702, 'T': 0.019801980198019802, 'V': 0.0099009900990099011},  #190
+{'E': 0.12871287128712872, 'D': 0.039603960396039604, 'G': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.48514851485148514, 'N': 0.029702970297029702, 'Q': 0.079207920792079209, 'R': 0.17821782178217821, 'T': 0.039603960396039604},  #191
+{'A': 0.019801980198019802, 'H': 0.089108910891089105, '-': 0.53465346534653468, 'M': 0.0099009900990099011, 'L': 0.079207920792079209, 'N': 0.099009900990099015, 'Q': 0.049504950495049507, 'S': 0.029702970297029702, 'Y': 0.089108910891089105},  #192
+{'A': 0.029702970297029702, 'E': 0.039603960396039604, 'D': 0.0099009900990099011, 'G': 0.19801980198019803, 'K': 0.019801980198019802, '-': 0.53465346534653468, 'N': 0.039603960396039604, 'Q': 0.079207920792079209, 'S': 0.019801980198019802, 'R': 0.019801980198019802, 'Y': 0.0099009900990099011},  #193
+{'I': 0.029702970297029702, 'K': 0.10891089108910891, '-': 0.49504950495049505, 'L': 0.26732673267326734, 'Q': 0.019801980198019802, 'S': 0.0099009900990099011, 'R': 0.039603960396039604, 'T': 0.0099009900990099011, 'V': 0.019801980198019802},  #194
+{'A': 0.069306930693069313, 'M': 0.0099009900990099011, 'E': 0.019801980198019802, 'D': 0.069306930693069313, 'H': 0.019801980198019802, 'K': 0.019801980198019802, '-': 0.47524752475247523, 'L': 0.029702970297029702, 'N': 0.0099009900990099011, 'Q': 0.039603960396039604, 'P': 0.069306930693069313, 'S': 0.099009900990099015, 'T': 0.039603960396039604, 'V': 0.029702970297029702},  #195
+{'A': 0.099009900990099015, 'C': 0.0099009900990099011, 'G': 0.069306930693069313, 'H': 0.079207920792079209, 'K': 0.0099009900990099011, '-': 0.47524752475247523, 'N': 0.019801980198019802, 'Q': 0.10891089108910891, 'S': 0.069306930693069313, 'T': 0.049504950495049507, 'V': 0.0099009900990099011},  #196
+{'A': 0.089108910891089105, 'E': 0.029702970297029702, 'D': 0.0099009900990099011, 'G': 0.029702970297029702, 'F': 0.049504950495049507, 'H': 0.049504950495049507, '-': 0.46534653465346537, 'N': 0.039603960396039604, 'Q': 0.0099009900990099011, 'S': 0.089108910891089105, 'T': 0.0099009900990099011, 'W': 0.079207920792079209, 'V': 0.029702970297029702, 'Y': 0.019801980198019802},  #197
+{'-': 0.39603960396039606, 'L': 0.019801980198019802, 'N': 0.48514851485148514, 'Q': 0.0099009900990099011, 'S': 0.019801980198019802, 'R': 0.019801980198019802, 'T': 0.029702970297029702, 'V': 0.019801980198019802},  #198
+{'A': 0.039603960396039604, 'C': 0.019801980198019802, 'G': 0.0099009900990099011, 'F': 0.0099009900990099011, 'I': 0.069306930693069313, 'M': 0.039603960396039604, '-': 0.059405940594059403, 'L': 0.58415841584158412, 'P': 0.0099009900990099011, 'S': 0.0099009900990099011, 'T': 0.0099009900990099011, 'W': 0.0099009900990099011, 'V': 0.069306930693069313, 'Y': 0.059405940594059403},  #199
+{'A': 0.29702970297029702, 'M': 0.019801980198019802, 'E': 0.029702970297029702, 'D': 0.039603960396039604, 'G': 0.0099009900990099011, 'F': 0.059405940594059403, 'I': 0.12871287128712872, 'H': 0.039603960396039604, '-': 0.049504950495049507, 'L': 0.029702970297029702, 'N': 0.0099009900990099011, 'Q': 0.089108910891089105, 'P': 0.029702970297029702, 'S': 0.029702970297029702, 'R': 0.0099009900990099011, 'T': 0.039603960396039604, 'V': 0.089108910891089105},  #200
+{'A': 0.079207920792079209, 'M': 0.0099009900990099011, 'E': 0.22772277227722773, 'D': 0.17821782178217821, 'G': 0.0099009900990099011, 'H': 0.0099009900990099011, 'K': 0.069306930693069313, '-': 0.049504950495049507, 'L': 0.019801980198019802, 'N': 0.049504950495049507, 'Q': 0.019801980198019802, 'P': 0.15841584158415842, 'S': 0.049504950495049507, 'R': 0.0099009900990099011, 'T': 0.059405940594059403},  #201
+{'A': 0.049504950495049507, 'E': 0.039603960396039604, 'D': 0.029702970297029702, 'G': 0.52475247524752477, 'I': 0.0099009900990099011, 'H': 0.069306930693069313, 'K': 0.0099009900990099011, '-': 0.029702970297029702, 'L': 0.0099009900990099011, 'N': 0.019801980198019802, 'Q': 0.0099009900990099011, 'P': 0.12871287128712872, 'S': 0.029702970297029702, 'R': 0.0099009900990099011, 'T': 0.019801980198019802, 'V': 0.0099009900990099011},  #202
+{'A': 0.10891089108910891, 'C': 0.049504950495049507, 'G': 0.0099009900990099011, 'F': 0.57425742574257421, 'I': 0.019801980198019802, 'K': 0.019801980198019802, '-': 0.029702970297029702, 'N': 0.0099009900990099011, 'P': 0.029702970297029702, 'S': 0.019801980198019802, 'T': 0.0099009900990099011, 'W': 0.029702970297029702, 'V': 0.089108910891089105},  #203
+{'A': 0.039603960396039604, 'C': 0.0099009900990099011, 'E': 0.22772277227722773, 'I': 0.11881188118811881, 'H': 0.039603960396039604, 'K': 0.039603960396039604, '-': 0.029702970297029702, 'L': 0.019801980198019802, 'N': 0.0099009900990099011, 'Q': 0.069306930693069313, 'P': 0.019801980198019802, 'S': 0.049504950495049507, 'R': 0.10891089108910891, 'T': 0.15841584158415842, 'V': 0.059405940594059403},  #204
+{'E': 0.0099009900990099011, 'F': 0.029702970297029702, 'I': 0.28712871287128711, 'M': 0.089108910891089105, 'K': 0.039603960396039604, '-': 0.029702970297029702, 'L': 0.32673267326732675, 'N': 0.019801980198019802, 'Q': 0.069306930693069313, 'P': 0.0099009900990099011, 'R': 0.059405940594059403, 'T': 0.0099009900990099011, 'W': 0.0099009900990099011, 'V': 0.0099009900990099011},  #205
+{'A': 0.20792079207920791, 'C': 0.0099009900990099011, 'E': 0.0099009900990099011, 'G': 0.24752475247524752, '-': 0.029702970297029702, 'L': 0.0099009900990099011, 'S': 0.41584158415841582, 'T': 0.019801980198019802, 'V': 0.049504950495049507},  #206
+{'A': 0.0099009900990099011, 'G': 0.64356435643564358, 'K': 0.0099009900990099011, '-': 0.029702970297029702, 'N': 0.0099009900990099011, 'S': 0.069306930693069313, 'T': 0.22772277227722773},  #207
+{'A': 0.0099009900990099011, 'G': 0.019801980198019802, '-': 0.029702970297029702, 'K': 0.0099009900990099011, 'M': 0.11881188118811881, 'L': 0.7722772277227723, 'P': 0.0099009900990099011, 'R': 0.0099009900990099011, 'W': 0.0099009900990099011, 'V': 0.0099009900990099011},  #208
+{'A': 0.039603960396039604, 'D': 0.089108910891089105, 'G': 0.60396039603960394, 'I': 0.049504950495049507, 'K': 0.039603960396039604, '-': 0.029702970297029702, 'N': 0.0099009900990099011, 'Q': 0.039603960396039604, 'P': 0.019801980198019802, 'S': 0.029702970297029702, 'T': 0.0099009900990099011, 'V': 0.039603960396039604},  #209
+{'A': 0.089108910891089105, 'E': 0.38613861386138615, 'D': 0.14851485148514851, 'G': 0.0099009900990099011, 'M': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.039603960396039604, 'Q': 0.18811881188118812, 'S': 0.039603960396039604, 'T': 0.049504950495049507, 'V': 0.019801980198019802, 'Y': 0.0099009900990099011},  #210
+{'F': 0.099009900990099015, 'M': 0.039603960396039604, '-': 0.039603960396039604, 'L': 0.75247524752475248, 'W': 0.029702970297029702, 'V': 0.039603960396039604},  #211
+{'A': 0.40594059405940597, 'G': 0.0099009900990099011, 'F': 0.029702970297029702, 'I': 0.099009900990099015, 'H': 0.019801980198019802, '-': 0.039603960396039604, 'L': 0.019801980198019802, 'S': 0.089108910891089105, 'T': 0.079207920792079209, 'W': 0.019801980198019802, 'V': 0.17821782178217821, 'Y': 0.0099009900990099011},  #212
+{'A': 0.059405940594059403, 'M': 0.029702970297029702, 'E': 0.36633663366336633, 'D': 0.12871287128712872, 'H': 0.0099009900990099011, 'K': 0.039603960396039604, '-': 0.039603960396039604, 'L': 0.0099009900990099011, 'N': 0.019801980198019802, 'Q': 0.16831683168316833, 'S': 0.029702970297029702, 'R': 0.019801980198019802, 'T': 0.059405940594059403, 'V': 0.019801980198019802},  #213
+{'A': 0.39603960396039606, 'M': 0.049504950495049507, 'G': 0.089108910891089105, 'F': 0.0099009900990099011, 'I': 0.019801980198019802, 'H': 0.0099009900990099011, 'K': 0.019801980198019802, '-': 0.039603960396039604, 'L': 0.089108910891089105, 'Q': 0.0099009900990099011, 'S': 0.019801980198019802, 'R': 0.0099009900990099011, 'W': 0.21782178217821782, 'V': 0.0099009900990099011, 'Y': 0.0099009900990099011},  #214
+{'A': 0.069306930693069313, 'C': 0.029702970297029702, 'G': 0.049504950495049507, 'I': 0.14851485148514851, 'M': 0.10891089108910891, '-': 0.059405940594059403, 'L': 0.11881188118811881, 'N': 0.0099009900990099011, 'Q': 0.0099009900990099011, 'S': 0.089108910891089105, 'T': 0.16831683168316833, 'V': 0.13861386138613863},  #215
+{'A': 0.0099009900990099011, '-': 0.97029702970297027, 'T': 0.0099009900990099011, 'N': 0.0099009900990099011},  #216
+{'A': 0.089108910891089105, 'E': 0.099009900990099015, 'F': 0.019801980198019802, 'I': 0.13861386138613863, 'H': 0.029702970297029702, 'K': 0.019801980198019802, '-': 0.029702970297029702, 'L': 0.34653465346534651, 'N': 0.0099009900990099011, 'Q': 0.089108910891089105, 'S': 0.029702970297029702, 'R': 0.019801980198019802, 'T': 0.019801980198019802, 'V': 0.059405940594059403},  #217
+{'A': 0.039603960396039604, 'E': 0.11881188118811881, 'D': 0.099009900990099015, 'G': 0.0099009900990099011, 'I': 0.029702970297029702, 'H': 0.029702970297029702, 'K': 0.079207920792079209, '-': 0.019801980198019802, 'L': 0.019801980198019802, 'N': 0.059405940594059403, 'Q': 0.089108910891089105, 'P': 0.0099009900990099011, 'S': 0.059405940594059403, 'R': 0.059405940594059403, 'T': 0.15841584158415842, 'W': 0.069306930693069313, 'V': 0.049504950495049507},  #218
+{'A': 0.51485148514851486, 'C': 0.15841584158415842, 'E': 0.019801980198019802, 'D': 0.0099009900990099011, 'G': 0.0099009900990099011, '-': 0.019801980198019802, 'N': 0.0099009900990099011, 'Q': 0.029702970297029702, 'S': 0.18811881188118812, 'T': 0.029702970297029702, 'Y': 0.0099009900990099011},  #219
+{'A': 0.0099009900990099011, 'C': 0.0099009900990099011, 'E': 0.039603960396039604, 'D': 0.76237623762376239, 'K': 0.0099009900990099011, '-': 0.029702970297029702, 'N': 0.049504950495049507, 'Q': 0.019801980198019802, 'S': 0.0099009900990099011, 'R': 0.0099009900990099011, 'T': 0.029702970297029702, 'W': 0.0099009900990099011, 'Y': 0.0099009900990099011},  #220
+{'C': 0.0099009900990099011, 'G': 0.0099009900990099011, 'K': 0.28712871287128711, '-': 0.019801980198019802, 'N': 0.019801980198019802, 'Q': 0.029702970297029702, 'R': 0.59405940594059403, 'T': 0.0099009900990099011, 'V': 0.019801980198019802},  #221
+{'A': 0.019801980198019802, 'F': 0.029702970297029702, 'I': 0.069306930693069313, '-': 0.019801980198019802, 'M': 0.029702970297029702, 'L': 0.29702970297029702, 'T': 0.059405940594059403, 'V': 0.46534653465346537, 'Y': 0.0099009900990099011},  #222
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #223
+{'-': 0.99009900990099009, 'V': 0.0099009900990099011},  #224
+{'I': 0.0099009900990099011, '-': 0.99009900990099009},  #225
+{'G': 0.0099009900990099011, 'F': 0.0099009900990099011, 'I': 0.34653465346534651, 'H': 0.0099009900990099011, '-': 0.019801980198019802, 'M': 0.039603960396039604, 'L': 0.22772277227722773, 'W': 0.0099009900990099011, 'V': 0.31683168316831684, 'Y': 0.0099009900990099011},  #226
+{'A': 0.019801980198019802, 'C': 0.079207920792079209, 'F': 0.0099009900990099011, 'I': 0.0099009900990099011, 'H': 0.019801980198019802, '-': 0.019801980198019802, 'N': 0.069306930693069313, 'Q': 0.26732673267326734, 'S': 0.069306930693069313, 'R': 0.019801980198019802, 'T': 0.29702970297029702, 'V': 0.10891089108910891, 'Y': 0.0099009900990099011},  #227
+{'I': 0.0099009900990099011, '-': 0.76237623762376239, 'L': 0.019801980198019802, 'F': 0.20792079207920791},  #228
+{'H': 0.0099009900990099011, '-': 0.98019801980198018, 'P': 0.0099009900990099011},  #229
+{'-': 0.96039603960396036, 'T': 0.0099009900990099011, 'G': 0.029702970297029702},  #230
+{'A': 0.019801980198019802, 'G': 0.12871287128712872, '-': 0.81188118811881194, 'M': 0.019801980198019802, 'T': 0.0099009900990099011, 'Y': 0.0099009900990099011},  #231
+{'A': 0.029702970297029702, 'D': 0.099009900990099015, 'G': 0.029702970297029702, 'F': 0.65346534653465349, 'I': 0.029702970297029702, 'H': 0.0099009900990099011, 'K': 0.0099009900990099011, 'M': 0.0099009900990099011, 'L': 0.039603960396039604, 'N': 0.019801980198019802, 'P': 0.019801980198019802, 'S': 0.0099009900990099011, 'R': 0.029702970297029702, 'V': 0.0099009900990099011},  #232
+]

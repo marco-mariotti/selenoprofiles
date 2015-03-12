@@ -1,0 +1,205 @@
+# md5sum id for alignment: e8cecbe1b1175cde8fc126ccb181e9da
+# Clustering seq id value: 0.27
+# Number of clusters: 2
+# Blast queries alignment:
+>BLAST_QUERY_1
+M----VYI--------SN-GQVL-DSRSRSPWRLSFITDFFWGIVDFIVLFFQTLVQPDLTK-RGRGSSSSYS-----RYS---DG---------------------------RGPPGPP---RRRMGRINHL-GGGPSPPPMAGGG--UGR-
+>BLAST_QUERY_2
+M----AYPWSHFRCSIAR-HRAT-AADAHRPFS---LSAACWHALDVADAFVRTLLIEGYAEAYARRTTGLAR-----AST---AS---------------------------RAAARRAGRGAAVRGFAN--VRTIDHAAPTAGG---UGR-
+>BLAST_QUERY_MASTER
+M----VYIWSHFRCSISN-GQVL-DSRSRSPWRLSFLTDFFWGIVDFIVLFFQTLVQPDLTKQRGRGSSSSYS-----RYS---DG---------------------------RGPPGPPAGGRRRMGRINHLVGGGPSPPPMAGGG--UGR-
+# Cluster alignment n.1:
+>SelK_Strongylocentrotus_purpuratus [Se user]; [Strongylocentrotus purpuratus (Eukaryota/Metazoa/Coelomata/Others)]
+M----PYLSQSGQVM-DSR--SPWRLSYIPELFWGAVNFISLFFRTMFSPQLTN-RGSGYTSDYRQGLTGNSS---NG---------------------------RGPGGPPAPPRRRMGGFGG-RGSGPAPPPAAGGG--UGR-
+>SelK_Leishmania_infantum_JPCM5 [Se user]; [Leishmania infantum JPCM5 (Eukaryota/Kinetoplastida)]
+M----AYIHN-GRVV-EKK---PFT---VRGFLLALWTALSLFAQTLFTTEPMAQVVEEHQHPAPRA-ANAAA---DGGGILGSLRAMLNRRGGGGQALGG----GGNSGWAAAVNRRGGNVHTL----PKAPISGGCASGUGR-
+>gi|213511230|ref|NP_001134373.1| MODIFIED Selenoprotein K [Salmo salar] gi|209732770|gb|ACI67254.1| Selenoprotein K [Salmo salar] gi|223646274|gb|ACN09895.1| Selenoprotein K [Salmo salar] gi|223672121|gb|ACN12242.1| Selenoprotein K [Salmo salar]
+M----VYVAN-GQVL-DNRSQSPWRMSFLTDLFWGAVEFIGLFFQSLVQPDLTK-RGNSGS-SSA-----GYS---DG---------------------------RGPPGPP-GGRRRMGRINH--GGGPSAPPMGGGG--UGR-
+>gi|70906483|ref|NP_001020612.1| selenoprotein K [Gallus gallus]
+M----VYISN-GQVL-DNRSRAPWSLSAITDFFWSIADFVVMFFQSIIQPDLRR-RGYTSS-SYL-----GQS---DG---------------------------RGPPGNP---RRRMGRINHW-GGGPSPPPMAGGG--UGR-
+>gi|207444688|ref|NP_001087951.2| selenoprotein K [Xenopus laevis] gi|190358770|sp|Q641S4.3|SELK_XENLA RecName: Full=Selenoprotein K_ Short=SelK
+M----VYISN-GQVL-DGQSRSPWRLSFLTDMFWGITDFVVMFFQSIIHPNVTR-RGCQNSSSST-----RYD---DG---------------------------RGPPGHP----RRMGRINH--GSGPSAPPMAGGG-GUGR-
+>gi|149616291|ref|XP_001506545.1| MODIFIED PREDICTED: similar to LOC494630 protein [Ornithorhynchus anatinus]
+M----VYISN-GHVL-NGQNRSLWSLSFIKDFFWGILDFIIMFFKSMIHPNVKR-GCRNS-SSDS-----KYD---DG---------------------------RGPPGYP---RRGMGRINH--SNGPSPPPMAGGG--UGR-
+>gi|51859039|gb|AAH81491.1| MODIFIED Zgc:103591 [Danio rerio] gi|197246989|gb|AAI64434.1| Unknown (protein for MGC:191609) [Danio rerio]
+M----VYVSN-GQVL-DSRSRSPWSLSFLTDFFWGAVEFIGLFFQTLVQPDLSK-DGNNSA-S-S-----RFS---DG---------------------------RGPPGFP--GRRRMGRINH--GAGPTPPPMGGGG--UGR-
+>gi|87047634|gb|ABD18450.1| MODIFIED selenoprotein K [Sus scrofa]
+M----VYISN-GQAL-DSRSQSPWRLSFITDFFWGIAEFVVLFFRTLLQQDVKKRRGYGGS-SDS-----RYD---DG---------------------------RGPPGNP---PRRMGRINHL--RGPNPPPMAGG---UGR-
+>gi|215491294|gb|EEC00935.1| selenoprotein K, putative [Ixodes scapularis]
+M----PYINERGEIL-ESK--PLWRVGTLTEFFQGLARMITLFFQTLFMLDNSN-NSRSSGSRYG----GSGS---SG---------------------------RRPPGP--PPRRRMGGFGSSVDSGTMSCPM--PGGGUG--
+>gi|198427212|ref|XP_002128715.1| MODIFIED PREDICTED: similar to selenoprotein K [Ciona intestinalis]
+M----VYVSA-GGIQ-SQR--SMWRVSFISESFWGLINFIVLFFKTMVQPDLTK-HGRGLQSNYS-----AKP---NG-------------------------------GDDSGPRRRMGGFK--RSTGPSPPPAAGGG--UGR-
+>gi|159482086|ref|XP_001699104.1| selenoprotein K1 [Chlamydomonas reinhardtii] gi|23452032|gb|AAN32902.1| selenoprotein SelK1 [Chlamydomonas reinhardtii] gi|158273167|gb|EDO98959.1| selenoprotein K1 [Chlamydomonas reinhardtii]
+M----PYISR-TGTVQERR--SPWRLSIVVEFFMGVWGAISTFFMTMVSPQAHEAYLK-------QQ-VKKKD---PPR-TTGGP---------------------RIA--------GLDNIGGG--GGSHLTPGCA-GGGUG--
+>SelK_Trypanosoma_cruzi [Se user]; [Trypanosoma cruzi (Eukaryota/Kinetoplastida)]
+M----PYVAN-GRVV-DSK---PFS---LVDFFLSILRLMWLFFATLVSSEPVSQHVQEY-----RS-TTRIV------------------------PFGG----GRSVGHA----PRGPNIHGL----PKGSLTGGCATGUG--
+>SelK_Trypanosoma_brucei [Se user]; [Trypanosoma brucei (Eukaryota/Kinetoplastida)]
+M----VYIEN-GRIV-EQR---GFS---LVDTFFSIVDGVCLFFQTMFSSEPPQQVVERP---VLRG-RR-------------------------GYIFGG----RRPADDH----PR-SNVHTL----PKESLTGGCASGUG--
+>gi|187608840|sp|Q55EX3.2|SELK_DICDI RecName: Full=Selenoprotein K homolog
+MPPKPTYVSG-GSVT-QT-GRSKWRLSYIPEFIWGILNQITFFFSTLIGGTVEPR-RRPNNQGGG-----RRLAGFDGNG---------NV--TGGSGVGGSGPSKGPDNGS---NNRRGDMKNI----LACNSASGS---UGPK
+>BLAST_QUERY_1
+M----VYISN-GQVL-DSRSRSPWRLSFITDFFWGIVDFIVLFFQTLVQPDLTK-RGRGSSSSYS-----RYS---DG---------------------------RGPPGPP---RRRMGRINHL-GGGPSPPPMAGGG--UGR-
+# Cluster alignment n.2:
+>SelK_Ostreococcus_tauri [Se user]; [Ostreococcus tauri (Eukaryota/Viridiplantae/Chlorophyta)]
+MTHPWSHFRCSIDRHRATPDDAHGPFSLSGACWHLVDVADAFVRTLVIDGYAETYARGTNGLSRASTASRAPVRRPGGGGDVRGFANVRTIDHSAPVGGGUGR
+>SelK_Ostreococcus_lucimarinus [Se user]; [Ostreococcus lucimarinus (Eukaryota/Viridiplantae/Chlorophyta)]
+MAYV--------ARDGAVAA---RPFSLVAALWGALDVVDAFFRTLLVEGHADAYARRTT-TARATTPGRVAATTA-RGAAVRGFANVRTIDHAAPTAGGUGR
+>BLAST_QUERY_2
+MAYPWSHFRCSIARHRATAADAHRPFSLSAACWHALDVADAFVRTLLIEGYAEAYARRTTGLARASTASRAAARRAGRGAAVRGFANVRTIDHAAPTAGGUGR
+# Average weighted sequence identity with coverage: 0.553142173428 +- 0.134513342689
+# Average weighted sequence identity without coverage: 0.575228987383 +- 0.126959185053
+# Conservation map: [
+{'M': 1.0},  #1
+{'P': 0.0625, '-': 0.9375},  #2
+{'P': 0.0625, '-': 0.9375},  #3
+{'K': 0.0625, '-': 0.9375},  #4
+{'P': 0.0625, '-': 0.9375},  #5
+{'A': 0.125, 'P': 0.25, 'T': 0.125, 'V': 0.5},  #6
+{'Y': 0.9375, 'H': 0.0625},  #7
+{'I': 0.5, 'P': 0.0625, 'L': 0.0625, 'V': 0.375},  #8
+{'-': 0.9375, 'W': 0.0625},  #9
+{'S': 0.0625, '-': 0.9375},  #10
+{'H': 0.0625, '-': 0.9375},  #11
+{'-': 0.9375, 'F': 0.0625},  #12
+{'R': 0.0625, '-': 0.9375},  #13
+{'C': 0.0625, '-': 0.9375},  #14
+{'S': 0.0625, '-': 0.9375},  #15
+{'I': 0.0625, '-': 0.9375},  #16
+{'A': 0.1875, 'E': 0.0625, 'D': 0.0625, 'H': 0.0625, 'N': 0.0625, 'S': 0.5625},  #17
+{'A': 0.0625, 'E': 0.0625, 'G': 0.0625, 'N': 0.5625, 'Q': 0.0625, 'R': 0.1875},  #18
+{'S': 0.0625, 'R': 0.0625, '-': 0.875},  #19
+{'H': 0.0625, 'D': 0.0625, 'G': 0.8125, 'T': 0.0625},  #20
+{'E': 0.0625, 'G': 0.1875, 'H': 0.0625, 'Q': 0.375, 'S': 0.0625, 'R': 0.25},  #21
+{'A': 0.1875, 'I': 0.1875, 'T': 0.0625, 'V': 0.5625},  #22
+{'Q': 0.0625, 'V': 0.3125, 'M': 0.0625, 'T': 0.125, 'L': 0.4375},  #23
+{'Q': 0.0625, '-': 0.9375},  #24
+{'A': 0.0625, 'E': 0.25, 'D': 0.4375, 'N': 0.0625, 'Q': 0.0625, 'P': 0.0625, 'S': 0.0625},  #25
+{'A': 0.0625, 'D': 0.0625, 'G': 0.125, 'K': 0.0625, 'N': 0.125, 'Q': 0.125, 'S': 0.3125, 'R': 0.0625, 'T': 0.0625},  #26
+{'Q': 0.125, 'K': 0.1875, 'R': 0.5, '-': 0.125, 'D': 0.0625},  #27
+{'A': 0.0625, 'S': 0.3125, '-': 0.5, 'G': 0.0625, 'N': 0.0625},  #28
+{'Q': 0.125, 'H': 0.0625, 'R': 0.3125, '-': 0.5},  #29
+{'A': 0.0625, 'G': 0.0625, '-': 0.1875, 'P': 0.0625, 'S': 0.5625, 'R': 0.0625},  #30
+{'P': 0.6875, 'K': 0.0625, 'M': 0.0625, 'L': 0.125, 'G': 0.0625},  #31
+{'W': 0.6875, 'F': 0.3125},  #32
+{'S': 0.4375, 'R': 0.5, 'T': 0.0625},  #33
+{'-': 0.3125, 'M': 0.0625, 'L': 0.5, 'V': 0.125},  #34
+{'S': 0.625, '-': 0.3125, 'G': 0.0625},  #35
+{'A': 0.0625, 'F': 0.375, 'I': 0.0625, '-': 0.3125, 'T': 0.0625, 'Y': 0.125},  #36
+{'I': 0.375, 'L': 0.5, 'V': 0.125},  #37
+{'K': 0.0625, 'P': 0.125, 'S': 0.125, 'R': 0.0625, 'T': 0.375, 'V': 0.25},  #38
+{'A': 0.0625, 'E': 0.3125, 'D': 0.5, 'G': 0.125},  #39
+{'A': 0.125, 'F': 0.5625, 'M': 0.0625, 'L': 0.125, 'S': 0.0625, 'T': 0.0625},  #40
+{'I': 0.0625, 'C': 0.0625, 'L': 0.125, 'F': 0.75},  #41
+{'Q': 0.0625, 'M': 0.0625, 'L': 0.125, 'W': 0.6875, 'F': 0.0625},  #42
+{'A': 0.0625, 'H': 0.0625, 'S': 0.1875, 'G': 0.6875},  #43
+{'A': 0.25, 'I': 0.4375, 'L': 0.25, 'V': 0.0625},  #44
+{'A': 0.1875, 'I': 0.0625, 'L': 0.25, 'T': 0.0625, 'W': 0.125, 'V': 0.3125},  #45
+{'E': 0.1875, 'D': 0.375, 'G': 0.0625, 'N': 0.1875, 'R': 0.125, 'T': 0.0625},  #46
+{'A': 0.125, 'G': 0.0625, 'F': 0.5, 'M': 0.0625, 'L': 0.0625, 'Q': 0.0625, 'V': 0.125},  #47
+{'I': 0.5, 'A': 0.0625, 'M': 0.0625, 'L': 0.0625, 'V': 0.3125},  #48
+{'C': 0.0625, 'D': 0.125, 'G': 0.125, 'I': 0.0625, 'S': 0.1875, 'T': 0.125, 'W': 0.0625, 'V': 0.25},  #49
+{'A': 0.125, 'F': 0.0625, 'M': 0.1875, 'L': 0.5625, 'T': 0.0625},  #50
+{'F': 1.0},  #51
+{'A': 0.0625, 'F': 0.875, 'V': 0.0625},  #52
+{'A': 0.0625, 'K': 0.125, 'M': 0.0625, 'Q': 0.4375, 'S': 0.0625, 'R': 0.25},  #53
+{'S': 0.25, 'T': 0.75},  #54
+{'I': 0.125, 'M': 0.3125, 'L': 0.5625},  #55
+{'I': 0.25, 'F': 0.25, 'L': 0.125, 'V': 0.375},  #56
+{'G': 0.0625, 'I': 0.0625, 'H': 0.125, 'M': 0.0625, 'Q': 0.3125, 'S': 0.25, 'T': 0.0625, 'V': 0.0625},  #57
+{'E': 0.0625, 'D': 0.0625, 'G': 0.0625, 'L': 0.0625, 'Q': 0.0625, 'P': 0.5, 'S': 0.125, 'T': 0.0625},  #58
+{'E': 0.1875, 'D': 0.375, 'G': 0.125, 'N': 0.125, 'Q': 0.125, 'T': 0.0625},  #59
+{'A': 0.0625, 'H': 0.0625, 'L': 0.3125, 'N': 0.0625, 'P': 0.1875, 'V': 0.25, 'Y': 0.0625},  #60
+{'A': 0.125, 'E': 0.0625, 'H': 0.0625, 'K': 0.125, 'M': 0.0625, 'P': 0.0625, 'S': 0.125, 'R': 0.0625, 'T': 0.25, 'V': 0.0625},  #61
+{'A': 0.0625, 'E': 0.125, 'D': 0.0625, 'K': 0.25, 'N': 0.125, 'Q': 0.0625, 'P': 0.0625, 'S': 0.0625, 'R': 0.1875},  #62
+{'Q': 0.1875, 'A': 0.125, 'R': 0.125, '-': 0.5, 'T': 0.0625},  #63
+{'D': 0.0625, 'G': 0.0625, 'H': 0.125, '-': 0.0625, 'N': 0.0625, 'R': 0.3125, 'V': 0.125, 'Y': 0.1875},  #64
+{'A': 0.125, 'C': 0.0625, 'G': 0.4375, 'L': 0.0625, 'S': 0.0625, 'R': 0.0625, 'V': 0.1875},  #65
+{'C': 0.0625, 'E': 0.125, 'K': 0.0625, 'N': 0.125, 'Q': 0.0625, 'S': 0.0625, 'R': 0.375, 'Y': 0.125},  #66
+{'E': 0.125, 'G': 0.25, '-': 0.0625, 'N': 0.125, 'Q': 0.0625, 'P': 0.0625, 'S': 0.125, 'R': 0.125, 'T': 0.0625},  #67
+{'G': 0.125, 'H': 0.0625, '-': 0.0625, 'L': 0.0625, 'N': 0.125, 'P': 0.0625, 'S': 0.25, 'T': 0.125, 'Y': 0.125},  #68
+{'A': 0.0625, 'G': 0.0625, '-': 0.25, 'N': 0.125, 'Q': 0.125, 'S': 0.25, 'T': 0.125},  #69
+{'Q': 0.0625, 'H': 0.0625, 'S': 0.3125, '-': 0.5, 'G': 0.0625},  #70
+{'D': 0.0625, 'G': 0.0625, '-': 0.1875, 'L': 0.0625, 'N': 0.0625, 'P': 0.0625, 'S': 0.375, 'R': 0.0625, 'T': 0.0625},  #71
+{'A': 0.125, 'D': 0.125, 'G': 0.0625, '-': 0.1875, 'S': 0.1875, 'V': 0.0625, 'Y': 0.25},  #72
+{'A': 0.0625, 'G': 0.125, '-': 0.125, 'L': 0.125, 'P': 0.0625, 'S': 0.25, 'R': 0.1875, 'T': 0.0625},  #73
+{'Q': 0.125, 'R': 0.1875, '-': 0.6875},  #74
+{'A': 0.0625, 'Q': 0.0625, 'S': 0.0625, '-': 0.6875, 'G': 0.125},  #75
+{'-': 0.9375, 'L': 0.0625},  #76
+{'A': 0.0625, 'R': 0.0625, '-': 0.6875, 'T': 0.125, 'V': 0.0625},  #77
+{'G': 0.125, 'K': 0.0625, '-': 0.625, 'N': 0.0625, 'R': 0.0625, 'T': 0.0625},  #78
+{'A': 0.25, 'G': 0.125, 'K': 0.125, '-': 0.0625, 'N': 0.0625, 'S': 0.0625, 'R': 0.3125},  #79
+{'A': 0.0625, 'G': 0.0625, 'F': 0.0625, 'I': 0.0625, 'K': 0.125, '-': 0.0625, 'Q': 0.0625, 'S': 0.125, 'R': 0.0625, 'T': 0.0625, 'Y': 0.25},  #80
+{'A': 0.0625, 'D': 0.25, '-': 0.0625, 'L': 0.0625, 'P': 0.0625, 'S': 0.3125, 'T': 0.125, 'V': 0.0625},  #81
+{'A': 0.0625, '-': 0.9375},  #82
+{'-': 0.9375, 'G': 0.0625},  #83
+{'-': 0.9375, 'F': 0.0625},  #84
+{'A': 0.0625, 'D': 0.5, '-': 0.125, 'N': 0.125, 'P': 0.125, 'S': 0.0625},  #85
+{'P': 0.0625, 'S': 0.0625, '-': 0.125, 'G': 0.75},  #86
+{'R': 0.0625, '-': 0.8125, 'G': 0.0625, 'N': 0.0625},  #87
+{'-': 0.875, 'G': 0.125},  #88
+{'I': 0.0625, '-': 0.875, 'T': 0.0625},  #89
+{'-': 0.875, 'L': 0.0625, 'T': 0.0625},  #90
+{'-': 0.875, 'G': 0.125},  #91
+{'S': 0.0625, '-': 0.875, 'G': 0.0625},  #92
+{'P': 0.0625, '-': 0.875, 'L': 0.0625},  #93
+{'R': 0.0625, '-': 0.9375},  #94
+{'A': 0.0625, '-': 0.9375},  #95
+{'-': 0.9375, 'M': 0.0625},  #96
+{'-': 0.9375, 'L': 0.0625},  #97
+{'-': 0.875, 'N': 0.125},  #98
+{'R': 0.0625, '-': 0.875, 'V': 0.0625},  #99
+{'R': 0.0625, '-': 0.9375},  #100
+{'-': 0.9375, 'G': 0.0625},  #101
+{'-': 0.875, 'T': 0.0625, 'G': 0.0625},  #102
+{'-': 0.875, 'G': 0.125},  #103
+{'-': 0.8125, 'G': 0.1875},  #104
+{'Q': 0.0625, 'Y': 0.0625, 'S': 0.0625, '-': 0.8125},  #105
+{'A': 0.0625, 'P': 0.0625, '-': 0.75, 'G': 0.0625, 'I': 0.0625},  #106
+{'V': 0.0625, '-': 0.75, 'L': 0.0625, 'F': 0.125},  #107
+{'-': 0.75, 'G': 0.25},  #108
+{'-': 0.75, 'G': 0.25},  #109
+{'S': 0.0625, '-': 0.9375},  #110
+{'-': 0.9375, 'G': 0.0625},  #111
+{'P': 0.0625, '-': 0.9375},  #112
+{'S': 0.0625, '-': 0.9375},  #113
+{'K': 0.0625, 'R': 0.6875, '-': 0.125, 'G': 0.125},  #114
+{'A': 0.0625, 'R': 0.25, '-': 0.0625, 'G': 0.5625, 'V': 0.0625},  #115
+{'A': 0.0625, 'I': 0.0625, '-': 0.0625, 'N': 0.0625, 'P': 0.6875, 'S': 0.0625},  #116
+{'A': 0.1875, 'D': 0.0625, 'G': 0.0625, '-': 0.0625, 'P': 0.4375, 'S': 0.0625, 'V': 0.125},  #117
+{'D': 0.0625, 'G': 0.6875, '-': 0.0625, 'N': 0.0625, 'R': 0.0625, 'T': 0.0625},  #118
+{'D': 0.125, 'G': 0.0625, 'F': 0.0625, 'H': 0.125, '-': 0.0625, 'N': 0.125, 'P': 0.1875, 'R': 0.0625, 'T': 0.0625, 'W': 0.0625, 'Y': 0.0625},  #119
+{'A': 0.1875, 'D': 0.0625, 'H': 0.0625, '-': 0.125, 'P': 0.5, 'S': 0.0625},  #120
+{'A': 0.125, 'S': 0.0625, '-': 0.75, 'G': 0.0625},  #121
+{'A': 0.0625, 'P': 0.125, 'R': 0.0625, '-': 0.5625, 'G': 0.1875},  #122
+{'P': 0.1875, '-': 0.5, 'G': 0.25, 'V': 0.0625},  #123
+{'A': 0.0625, 'G': 0.0625, '-': 0.25, 'N': 0.125, 'P': 0.0625, 'R': 0.4375},  #124
+{'A': 0.0625, 'D': 0.0625, '-': 0.0625, 'N': 0.0625, 'P': 0.125, 'R': 0.625},  #125
+{'R': 0.75, 'G': 0.125, 'V': 0.125},  #126
+{'M': 0.5625, 'R': 0.1875, '-': 0.0625, 'L': 0.0625, 'G': 0.125},  #127
+{'P': 0.0625, 'S': 0.0625, 'D': 0.0625, 'G': 0.8125},  #128
+{'N': 0.25, 'R': 0.375, 'D': 0.0625, 'G': 0.1875, 'F': 0.125},  #129
+{'I': 0.5, 'A': 0.125, 'F': 0.1875, 'M': 0.0625, 'V': 0.125},  #130
+{'H': 0.1875, 'K': 0.125, 'G': 0.1875, 'N': 0.5},  #131
+{'G': 0.1875, 'H': 0.375, '-': 0.1875, 'N': 0.0625, 'S': 0.0625, 'T': 0.125},  #132
+{'G': 0.0625, 'I': 0.0625, '-': 0.5, 'L': 0.25, 'S': 0.0625, 'W': 0.0625},  #133
+{'R': 0.125, '-': 0.6875, 'V': 0.1875},  #134
+{'S': 0.125, 'R': 0.125, '-': 0.375, 'D': 0.0625, 'G': 0.3125},  #135
+{'A': 0.0625, 'G': 0.1875, '-': 0.25, 'N': 0.0625, 'S': 0.1875, 'R': 0.0625, 'T': 0.1875},  #136
+{'I': 0.125, '-': 0.25, 'G': 0.625},  #137
+{'P': 0.6875, 'S': 0.0625, 'L': 0.0625, 'D': 0.125, 'T': 0.0625},  #138
+{'A': 0.125, 'H': 0.1875, 'K': 0.1875, 'M': 0.0625, 'N': 0.0625, 'S': 0.3125, 'T': 0.0625},  #139
+{'A': 0.25, 'C': 0.0625, 'E': 0.0625, 'G': 0.0625, 'L': 0.0625, 'P': 0.375, 'S': 0.125},  #140
+{'A': 0.125, 'C': 0.0625, 'N': 0.0625, 'P': 0.5625, 'S': 0.125, 'T': 0.0625},  #141
+{'I': 0.0625, 'P': 0.75, 'S': 0.0625, 'L': 0.125},  #142
+{'A': 0.1875, 'G': 0.0625, 'M': 0.4375, 'S': 0.0625, 'T': 0.1875, 'V': 0.0625},  #143
+{'A': 0.4375, 'S': 0.0625, '-': 0.0625, 'C': 0.0625, 'G': 0.375},  #144
+{'A': 0.0625, '-': 0.0625, 'G': 0.875},  #145
+{'P': 0.0625, 'C': 0.1875, '-': 0.0625, 'S': 0.0625, 'G': 0.625},  #146
+{'A': 0.1875, '-': 0.25, 'G': 0.5625},  #147
+{'S': 0.125, '-': 0.6875, 'T': 0.0625, 'G': 0.125},  #148
+{'-': 0.625, 'G': 0.375},  #149
+{'U': 1.0},  #150
+{'G': 1.0},  #151
+{'P': 0.0625, 'R': 0.6875, '-': 0.25},  #152
+{'K': 0.0625, '-': 0.9375},  #153
+]

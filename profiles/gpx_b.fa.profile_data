@@ -1,0 +1,642 @@
+# md5sum id for alignment: 74bc8b894a13c6bab3c8c2caa13238ac
+# Clustering seq id value: 0.27
+# Number of clusters: 1
+# Blast queries alignment:
+>BLAST_QUERY_1
+MSKLLLL----------------------------------------------------------------------------------------------------------------------------------------------------------L-L------------------------------------AA--AA-AACP---SLYDFEARTLD--GEPVSL-AQYAGKVLLVVNTASKUGFTPQYEGLEALYQRYKDRGLVVLGFPCNQFGGQEPGSEEEIAEFCSLNYGVTFPMFAKIDVNGADAHPLYRYLKEEAPGLLGTEAIKWNFTKFLVDRDGKVVARFAPTTKPEDPELVAAIE----------------------------------------KAL-------AL
+>BLAST_QUERY_MASTER
+MSKLLLL----------------------------------------------------------------------------------------------------------------------------------------------------------L-L------------------------------------AA--AA-AACP---SLYDFEARTLD--GEPVSL-AQYAGKVLLVVNTASKUGFTPQYEGLEALYQRYKDRGLVVLGFPCNQFGGQEPGSEEEIAEFCSLNYGVTFPMFAKIDVNGADAHPLYRYLKEEAPGLLGTEAIKWNFTKFLVDRDGKVVARFAPTTKPEDPELVAAIE----------------------------------------KAL-------AL
+# Cluster alignment n.1:
+>gi|149178176|ref|ZP_01856770.1| glutathione peroxidase [Planctomyces maris DSM 8797] 3.65347e-58
+MRNLKSLT---------------------------------------------------------------------------------------------------------------------------------------------------------M-LAGLLALT--------------------CSMS----LAGQTDK-KSVP---PVLNHTVKTLE--GKEVDL-SKYKDKVLLIVNTASKCGATPQYKDLQSLHEKYKDQGLVVLGFPCNQFGAQEPGSASQISEFCSKNYGVTFDMFSKIDVNGDNADALYQYLTSKSTNPKTAGPVKWNFEKFLISRDGQIAARFRTRINPQSEEVTTAIE----------------------------------------SEL------KKK
+>gi|83748506|ref|ZP_00945527.1| Glutathione peroxidase [Ralstonia solanacearum UW551] 1.35361e-58
+MSSPFIAPP---------------------------------TL----------------------------------------------ARARDRLT-------------------------R----RHA------AG-----VLRRH--H-----L-LIIVI-AIVIAIIALLLPRTGHAA---VGTQAAPSP----AAA--TA-GKCP---TALDFRVKRLQD-DAPQDL-CQYAGRVVLVVNTASYCGYTYQYEGLEALYAKYRDKGLTVLGFPSNDFE-QEPGSGKQIASFCYNTYGVKFPMFSKTSVVGAAASPLYHWLTQQT-GQ----PPKWNFHKYLLDRSGRVVAVYPSRIEPSDPAIVNRID----------------------------------------TLLAE---PAPR
+>gi|254379530|ref|ZP_04994951.1|_1 glutathione peroxidase [Streptomyces sp. SPB74] 5.73301e-58 # ARTIFICIAL_U
+MLPARAGC---------------------------------------------------------------------------------------------------------------------------------------------------------V-K--APGTA---------------------RRGR---RGR--SY-DAVM---TVHDVEISSLQ--GGPARL-DQYRGTTVLVVNVASRUGLTPQYEGLERLQETYRDRGFTVLGVPCNQFMGQEPGSAEEIAEFCSATYGVSFPMTEKTDVNGENRHPLYRELVDVADAEGHSGDIRWNFEKFLVGPDGAVVARFAPPTEPEAPEVVAAIE----------------------------------------KTLT------PA
+>gi|254379530|ref|ZP_04994951.1| glutathione peroxidase [Streptomyces sp. SPB74] 5.73301e-58
+MLPARAGC---------------------------------------------------------------------------------------------------------------------------------------------------------V-K--APGTA---------------------RRGR---RGR--SY-DAVM---TVHDVEISSLQ--GGPARL-DQYRGTTVLVVNVASRCGLTPQYEGLERLQETYRDRGFTVLGVPCNQFMGQEPGSAEEIAEFCSATYGVSFPMTEKTDVNGENRHPLYRELVDVADAEGHSGDIRWNFEKFLVGPDGAVVARFAPPTEPEAPEVVAAIE----------------------------------------KTLT------PA
+>gi|121596308|ref|YP_988204.1| glutathione peroxidase [Acidovorax sp. JS42] 1.90518e-59
+MVQWRRVRA---------------------------------FC-----------------------------------------------------P-------------------------P----RHP------C------TMPR---L----TLPLLLCA-TLLGPAAQ-AA---D-----------VAAT----PAV--DA-QACP---ALLQHTVPRLQD-EAPQAL-CQYAGKVLLVVNTASYCGFTGQYQGLEELYARYRDQGLVVLGFPSNDFA-QETGSNTEIAQFCENTFGVRFPMFAKSHVKGGEALPLYRQLAAASAGQ----TPRWNFHKYLVSRSGKVVGSYGSSVEPHSKALIQAIE----------------------------------------QQLA-----APR
+>gi|83312726|ref|YP_422990.1| phospholipid hydroperoxide glutathione peroxidase [Magnetospirillum magneticum AMB-1] 6.8329e-57
+MGLLHHLQE---------------------------------STEVL--------------------------------------------------------------------------------------------------MHR---FLPANPLGSFVAS-MVATIG----------------------LA----GSL--AA-ATPNDRLDWASVPLPAIN--GGQLPP-ASLKGKVVLVVNTASQCGFTPQYQGLEALWRRYRERGLVVLGVPSNDFGAQEPGSNTEVASFCEINYGVDFPLLEKQAVTGAGAHPFYRWAAERT-GPL--GVPRWNFHKILVGRDGGMVDWFASTTAPDAERLRAAID----------------------------------------KAL-------SP
+>gi|257095495|ref|YP_003169136.1| glutathione peroxidase [Candidatus Accumulibacter phosphatis clade IIA str. UW-1] 7.93099e-61
+MSHLLALSF---------------------------------AD--------------------------------------------AAPTLQNACPRLASLVDRNLARSIAKELDTASSAPARRSTRHVLDSPQAPGLT---RLRS---L----LLP-AVVL-SVVFVL----------------------AS----PAL--AA-DSCP---ALLNHSFPSLQD-QKPQSL-CQWQGKVLLVVNTASYCGFTSQYDGLEKLYARLRDRGLVVVGFPSNDFGDQEPGSNKEIAEFCRLTYGVQFPMFAKATVVGKNASPLYAQLAKAS-GD----APQWNFHKYLIDRSGTRVLSFGSRVKPDDRELVARID----------------------------------------EFL-------GK
+>gi|212639157|ref|YP_002315677.1| Glutathione peroxidase [Anoxybacillus flavithermus WK1] 1.06177e-61
+MSESKHHL---------------------------------------------------------------------------------------------------------------------------------------------------------CRK--NDSYV-----------------------T----IAL--KE-ECEM---NIYDFHVRTIR--GEEQSL-AQYKGKVLLIVNTASKCGLTPQYEQLQQLYDKYKEQGLVVLGFPCNQFGNQEPGSEEDISQFCQLNYGVTFPMFAKVDVNGPNAHPLFVYLTEQAPGMLGTKAVKWNFTKFLVDRNGQVVARFAPTTKPFE--LEQHIE----------------------------------------ALLR---ETVSR
+>gi|73539748|ref|YP_294268.1| glutathione peroxidase [Ralstonia eutropha JMP134] 5.86981e-63
+MNRRQTAFA---------------------------------AS-----------------------------------------------------------------------------------------------------VRR---A-----M-FATAL-ALAAASAA-LLPHPARAA-----DKPAAMP----AAA--PA-GNCP---ASLNFQFPRLQD-EAPQNL-CQYAGKVVLVVNTASYCGFTPQYEGLEALYSKYRDRGLVVLGFPSNDFS-QEPGSSKEIADFCYNTYGVKFPMLGKSHVRGGDVNPMYALLAKET-GT----APKWNFYKYLIDRSGNVVGSYNSMTKPDDKQFVAKIE----------------------------------------QLLS-----SPR
+>gi|260219807|emb|CBA26710.1| Glutathione peroxidase [Curvibacter putative symbiont of Hydra magnipapillata] 9.61999e-57
+MFPALACQ---------------------------------------------------------------------------------------------------------------------------------------------------------HKLFTQLVWL-----------------------RLE--FAH--RG-VFMT---RVYDFEAQTIQ--GKTVSL-KEFEGKAMLIVNTASACGFTPQFAGLEDLHKEYGDRGLVVLGFPCNQFGAQDSGSNDEISSFCQLNYGVSFPMMAKIEVNGSDAHPLYQWLVKEAPGLLGIKAIKWNFTKFLIGKDGQVLKRYAPTDTPAS--LAKDIE----------------------------------------AAL-------HP
+>gi|91790488|ref|YP_551440.1| glutathione peroxidase [Polaromonas sp. JS666] 3.06715e-57
+MHNLWTPLS---------------------------------RP-----------------------------------------------------------------------------------------------------LPR---I------ALLTGL-ALSTIAAN-SA---APA----P-SASVAGS----VAA--DA-SACP---GLLQHNFLRLQD-EKPQSL-CQYQGKVVVAVNTASFCGFTSQYQGLEELYAKYKDRGLVVLGFPSNDFS-QETGSNKEIADFCENTFGVKFPMFAKTSVSGKDANPLFRQLAAKT-GT----TPRWNFYKYVIARDGTSVASFNSLTAPGSRQFVKEIE----------------------------------------KQLA------RP
+>gi|71736482|ref|YP_275772.1| glutathione peroxidase family protein [Pseudomonas syringae pv. phaseolicola 1448A] 1.42268e-59
+MACAARRC--------------------------------------------------------------------------------------------------------------------------------------------------------RLTS--VLTFR-----------------------S-SHRLVL--RPLLMSE---NLLSIPVTTIK--GEQKTL-ADYAGKAVLVVNTASKCGFTPQYKGLEKLWLDYKDKGLVVLGFPCNQFGKQEPGDEGAISGFCELNYGVSFPLFKKIDVNGAQAHPLFVQLKQQAPGLLGTERIKWNFTKFLIGRNGALVKRFAPLTKPEE--LTGEIE----------------------------------------ALL--------R
+>gi|254524003|ref|ZP_05136058.1| glutathione peroxidase [Stenotrophomonas sp. SKA14] 1.16484e-58
+MNGYRGLFL---------------------------------MP-----------------------------------------------------------------------------------------------------LSTVSPR----RMRGLSLL-ALIVAG-----------------------V----AGS--AS-ALAA---DLLDLEYRPLASK-QQVNLQQRYHGQVLLVVNTASKCGYTPQYEGLEALQKRYAGRGFAVLGFPSNDFKGQEPGDEKQIQDFCTLTYGVKFPMFEKVHVVGAEATPLYQRLTAAT-GV----APGWNFHKYLVGRDGKVIAQFASKVTPDDPQLTAAID----------------------------------------KALAA---AATH
+>gi|270492931|ref|ZP_06209989.1| glutathione peroxidase [Acidovorax avenae subsp. avenae ATCC 19860] 8.8499e-57
+MPRLTAP--------------------------------------------------------------------------------------------------------------------------------------------------------LILAL-AAWAAALP-AA---AQT----P-PA-APAG----PAP--SA-AACP---AVLRHTMPRLQD-EAPQDL-CQYKGQVLLVVNTASYCGFTGQYEGLEALHARYKTQGFAVLGFPSNDFA-QETGSNAQIADFCSNTFGVRFPMFAKSSVKGGGASPLYRELAAQA-GE----APRWNFHKYLLDRNGKVVASFGSSVAPDDPKIVRAIE----------------------------------------QQVK-----LLR
+>gi|145590149|ref|YP_001156746.1| glutathione peroxidase [Polynucleobacter necessarius subsp. asymbioticus QLW-P1DMWA-1] 3.62312e-58
+MIRKILAKL---------------------------------AY--------------------------------------------F-----------------------------------------------------------------------ACSF-LILGVA----------------------ME----GAI--AA-PACS---PLLSHTFLRLQD-EAPQNL-CQYQGKVILVVNTASFCGFTSQYEGLEKIYAKYKDRGFVVLGFPSNDFGQQEPGSNKEIADFCKNTYDVKFPMFAKSVVSGNNPNPLFKMLIAKT-GT----TPKWNFYKYLINRNGEVVNSFNSMTKPTSPNVTNEIE----------------------------------------KLLEE----KPQ
+>gi|89074375|ref|ZP_01160857.1| putative ABC transporter [Photobacterium sp. SKA34] 3.17125e-57
+MQVISNNRF----------------------------------------------------------------------------------------------------------------------------------------ILR---------LILLVSS-ILFTSL----------------------VT----TFA--NA-SSCP---TLYQAPLKKLNS-DEYYDFCKQLTGKVVLVVNTASQCGFTPQFKQLEELYKTYKDSGLVVIGFPSNDFK-QDRGSDQQTANICYSNYGVTFPMITKTSVKGSKANPLYKHLIAQS-GK----SVGWNFQKYLLNKQGQVVGVFPSRLSPTSNEMVAAIK----------------------------------------QQL-------NM
+>gi|241764382|ref|ZP_04762408.1| glutathione peroxidase [Acidovorax delafieldii 2AN] 1.47097e-59
+MMLSISRPG--------------------------------PWA-----------------------------------------------------------------------------------------------------MLR---A------AAWAAL--FTTCTAV--------------------------HAG--DA-PPCP---ATLQHTFDRLQD-EKPQSL-CQYSGKVVLIVNTASYCGFTGQYKGLEDLYARYKDKGLVVLGFPSNDFA-QESGSNQQIADFCENTFGVKFPMFAKSSVTGAQASPLYRQLAQLA-GG----APRWNFHKYLLGRDGRLVGSYSSRTAPDNPSVVRAIE----------------------------------------QQLAV---SAGH
+>gi|58581687|ref|YP_200703.1| ABC transporter vitamin B12 uptake permease [Xanthomonas oryzae pv. oryzae KACC10331] 1.7376e-60
+MRWITGVVLNYNTDTQAVNCLSSPTDGTPSPVRRLNYRRALLM-----------------------------------------------------------------------------------------------------------------LLNRLLVI-V-FIGF-----------------------F----AKS--AF-AAGT---PVLDVDYRPLAGK-TPINLNLTYGGKVVMVVNTASKCGYTPQYEGLEALNQRFASRGFTLLGFPSNDFHGQEPGSEKQIQEFCTLTYGVKFPMFEKVHVLGAEATPLYQRLTQAT-GV----APGWNFHKYLIGRDGRVVAQFPSKIKPDDPSVLAAIE----------------------------------------RELK----APSR
+>gi|239818123|ref|YP_002947033.1| Peroxiredoxin [Variovorax paradoxus S110] 6.43965e-60
+MRIPAA---------------------------------------------------------------------------------------------------------------------------------------------------------LAACL--LAAGTAV-AQ---APSPNSSP-SPTAAPA----DGT--AA-AACP---STLQHTFPRLQD-EKPQSL-CQYAGKVVLVVNTASFCGFTPQYKGLEALDSKYRARGLVVLGFPSNDFA-QESGSNKEIADFCESTFGVKFPMFAKSSVRGANANPLFKQLALAS-GT----TPKWNFYKYLIGRDGKVVQAWSSMTAPDESAFVKVIE----------------------------------------SQLA-----AGG
+>gi|116626290|ref|YP_828446.1| glutathione peroxidase [Solibacter usitatus Ellin6076] 6.65627e-61
+MMKMMLLG---------------------------------------------------------------------------------------------------------------------------------------------------------M-A-----MG-----------------------------A---MA-FGAS---SVYDFTLNSID--GAPTPL-STFKGKVVLLVNVASKCGFTPQYAGLEKLYEKYKDQGLVLVGVPANNFGAQEPGSNEEIKTFCSRNYNVTFPMMSKVSVKGADKTPLYQYLTDASANPKTAGEIKWNFTKFLIDKKGNVINRFESAVTPESADMLKAIE----------------------------------------AAL-------AQ
+>gi|223936517|ref|ZP_03628428.1| Peroxiredoxin [bacterium Ellin514] 1.72366e-59
+MRFTFLLL---------------------------------------------------------------------------------------------------------------------------------------------------------A-L--LFFGV-----------------------------VV--SA-QAQS---SLYDIPLKDID--GKDTSL-KAYKGKVVLIVNVASRCGFTPQYEGLEATYKKYEEKGFVILGFPCNDFGFQEPGTAEEIKKFCSSKYSVTFPLFEKLHVKGPEQHPLYAALTGKASPV--PGEVKWNFGKFLISKEGKILQRYDSKVKPDSTELTTAIE----------------------------------------SALA------AK
+>gi|15838205|ref|NP_298893.1| ABC transporter vitamin B12 uptake permease [Xylella fastidiosa 9a5c] 1.06269e-58
+MNMLNVLRF------------------------------------------------------------------------------------------------------------------------------------------------------PVLAL-ALALAF-----------------------V----SSG--VL-ADAG---SLLDLDYRPLAGK-ETVNLQRLYGGKVLLVVNTASKCGFTPQYEGLEALHQKLSPLGFAVLGFPSNDFKGQEPGDEQQIQKFCTLTYGVKFPMFQKVHVKGDEVTPLYQRLTQTT-GV----APGWNFHKYLIARDGHVVAQFDSRTRPDDPILLEAIK----------------------------------------RELAK-PVQVAH
+>gi|124265430|ref|YP_001019434.1| putative glutathione peroxidase transmembrane protein [Methylibium petroleiphilum PM1] 5.01364e-60
+MPTLATRSA---------------------------------SA-----------------------------------------TLSP----------------------------------R----RRP-------------WLGR---S----ALR-RLAI-AAL-LC----------------------IV----GSG--AQ-AACP---PLLDRSFPRLQD-EKPQNL-CQYAGKVVVVVNTASYCGFTSQYKGLEALHARYQSRGLVVLGFPSNDFGSQEPGSNQDIAAFCENTFGVRFPMFAKSSVKGSARNPLYADLAQRTG-K----TPAWNFHKYLIGRDGQVVLSFSSQTDPQDPVFVQEIE----------------------------------------KLV------DSQ
+>gi|171915606|ref|ZP_02931076.1| Glutathione peroxidase [Verrucomicrobium spinosum DSM 4136] 7.60031e-64
+MKKLLL-T---------------------------------------------------------------------------------------------------------------------------------------------------------A-V--LAVST-----------------------------A---FA-ADAP---SLYDIPVKDIE--GKETSL-KPYAGKVLLIVNVASQCGNTPQYQGLQDLYKKYGDKGLVVLGFPCNDFGAQEPGSNAEIKEFCSTNYKVTFPMFDKVHVKGPDQHPLFTALTGSQGAF--PGNVKWNFGKFLIGRDGKPLQRIEPGTEPDDPAVVAAIE----------------------------------------KALG-----EKG
+>gi|254445368|ref|ZP_05058844.1| glutathione peroxidase subfamily, putative [Verrucomicrobiae bacterium DG1235] 7.41888e-61
+MTKKLAFL---------------------------------------------------------------------------------------------------------------------------------------------------------L-S--FIFAS-----------------------------AM--SL-QADT---SIYDIPLVDIN--GHDTSL-AEHKGKVLLIVNVASKCGYTKQYDGLEKLYDQYKDKGVVVLGFPCNQFGGQEPGTEAEIAEFCRLTFGVSFPMYSKVDVNGPTRHPLYTYLAGDSSPF--PGKIGWNFNKFLISKDGKILHRYASKVTPLSQELTQDID----------------------------------------AAL-------KS
+>gi|283473651|emb|CBA16154.1| probable glutathione peroxidase protein [Xanthomonas albilineans] 2.07036e-60
+MKLPKH----------------------------------------------------------------------------------------------------------------------------------------------------------LFFL-V-ILAT-----------------------V----GAV--GS-AWAA---SLLDVDYRPLAGK-DAINLNKTYGGKVLLVVNTASKCGYTPQYEGLEKLQQRYAAQGFSVLGFPSNDFMGQEPGSEKQIQEFCTLTYGVKFPMFEKVHVVGNEATTLYRQLTQAT-GV----APGWNFHKYLIARDGRVVAQFPSKVTPDDPALRSAIE----------------------------------------RELKV--QSGSH
+>gi|153001550|ref|YP_001367231.1| glutathione peroxidase [Shewanella baltica OS185] 1.42227e-60
+MGCFLLVSL---------------------------------DF--RSAQSVLLHRYAVVNHSFYFLIQYDLYLVRLRNVPVKEKA-----------------------------------------------------------MKK---------LPMIF-A--MTASL----------------------MS----VGA--MA-ATCP---EYLNLEVRKLHS-EETVNLCELTQGKPVLIVNTASNCGYTPQFKALEALHENYKDKGLVVIGFPSDDFF-QEENDEKDTAKVCYINYGVTFTMLSTSAVRGSDANSVFKYLAEKT-G-----APKWNFYKYVVSGDGAVVQQFNSKVKPDSEELKQAIE----------------------------------------SV---------L
+>gi|262203964|ref|YP_003275172.1| Peroxiredoxin [Gordonia bronchialis DSM 43247] 2.25117e-59
+MPRRVGSA---------------------------------------------------------------------------------------------------------------------------------------------------------V-S--VPSGT-----------------------G----LGT-TNG-ALVT---TAYDFTATDID--GNPVDL-ERYRGHPLLIVNTASKCGFTPQYEGLEKIHREYADKGLVVLGFPCDQFAHQEPGDEEEIKNFCSLTYDVTFPMFAKVDVNGGDAHPLYQWLRQQKSGLLG-SRVKWNFTKFLVDKSGAVVGRFAPTVKPEK--MTGDID----------------------------------------KV---------L
+>gi|209964681|ref|YP_002297596.1| glutathione peroxidase, putative [Rhodospirillum centenum SW] 7.87193e-58
+MRRLALM----------------------------------------------------------------------------------------------------------------------------------------------------------LSL-LVATL-----------------------SA----GPA--AA-AATT---GAHAFSFVSID--GRPLPL-SDFAGRAVLVVNTASQCGFTPQYEGLEALWQQYRDRGLVVLGVPSNDFGGQEPGSAAEIKTFCETTFGIDFPMTEKVAVKGDTAHPFYRWAAAAK-G-----APRWNFHKYLIAPDGTLLAGFASDVRPESADLRAAIE----------------------------------------DAL-------PR
+>gi|21230956|ref|NP_636873.1| ABC transporter vitamin B12 uptake permease [Xanthomonas campestris pv. campestris str. ATCC 33913] 1.87311e-60
+MSLNR-----------------------------------------------------------------------------------------------------------------------------------------------------------LLVL-V-FAGL-----------------------F----STA--AV-AAGT---SVLDLDYRPLAGK-APINLNRSYGGKVVMVVNTASKCGFTPQYEGLEALNQRFGSRGFTVLGFPSNDFQGQEPGSEKQIQEFCTLTYGVKFPMFEKVHVLGAQATPLYQRLTRET-GV----APGWNFHKYLIGRNGHVVAQFPSKVKPDDPQVLAAIE----------------------------------------RELK----APAR
+>gi|116049239|ref|YP_791958.1| putative glutathione peroxidase [Pseudomonas aeruginosa UCBPP-PA14] 1.8018e-66
+MKPRVLL--------------------------------------------------------------------------------------------------------------------------------------------------------SALAL-AG--L------------------------P----LSG--WA-ADCP---ELLQGQLTKLRSK-ESIDLCQRYAGKPLVVVNTASHCGFTPQFKGLEALYQRYKGQGLEVLGVPSDDFK-QEAADTAETAKICYGNYGVTFAMTQPQHVRGDEAIPLFRQLAEQS-GQ----APRWNFYKYVVDRQGRVVAQFSSKTTPDDPQLQAAIE----------------------------------------KAIA-----SQP
+>gi|261856007|ref|YP_003263290.1| glutathione peroxidase [Halothiobacillus neapolitanus c2] 7.24177e-58
+MKRRQFLQT---------------------------------C-----------------------------------------------------------------------------------------------------------------------AL-GA--VS----------------------FS----LPT--WA-ASC----PLLNQTVRTLDD-DKEVNLCATYGGQVVLVVNTASYCGFTPQFKGLEKLYADYQSQGFAVLGFPSNDFA-QDPKDEKQIKDFCEMTYGVKFPMFAKTRVRKDDADPLFKTLATAAGGD----YPSWNFHKYLIGRDGKLFGSYGSTTTPAA--LQPIIE----------------------------------------KALA-----AHA
+>gi|196156997|ref|YP_002126486.1| Glutathione peroxidase [Alteromonas macleodii 'Deep ecotype'] 2.75187e-57
+MKTKGYAA-------------------------------------------------------------------------------------------------------------------------------------------------------ALLSL-SL---F-----------------------T----SLS--YA-NECP---SVLKFMKRKLNSQ-ETVNLCDEYAGKTLLVVNTASYCGYTPQFEGLEALYRNYKDKDFAVLGFPSHDFN-QEDSDEGKTAELCELTYGVKFPMFEPISVKGDDADPMYRMLKNAT-GK----APSWNFNKYLIDSSGKQITHYPSSTKPTDAAFIADIE----------------------------------------ALLK------SE
+>gi|6225469|sp|O08368.1|GPWA_PSEWI RecName: Full=Glutathione peroxidase_ Flags: Precursor 3.05317e-60
+MSIRRLA--------------------------------------------------------------------------------------------------------------------------------------------------------CSLLL-SS--L------------------------A----LPV--LA-AECP---AMLQGELPKLRAKGENIEL-CQYAGKPLVVVNTASFCGFTPQFKGLEALYQRYKDQELEVLGVPSDDFR-QESADSKETATVCYVNYGVTFAMTEPQPVSGANAIPLFKGLAEQS--R----QPRWNFFKYVVDRQGKVVASFSSLTKPDDPELIAARREGDRLATLIPSRFTALHPSGRWALSVCLPRLARRRTQFTRRAL------QEQ
+>gi|119503136|ref|ZP_01625220.1| glutathione peroxidase, putative [marine gamma proteobacterium HTCC2080] 6.23188e-58
+MNTFIRLTI--------------------------------------------------------------------------------------------------------------------------------------------------------L-----F--V----------------------AA----FSL--AA-NACP---DYLNNEMRKLSS-KETVNFCDAYAGKAMLIVNTASNCGYTPQFDGLEALHREYGDKGLVVIGFSSDDFF-QEENDEGDVAAVCYEKYDVSFPMMATSEVRGKGANPVFRGLGEAQ-G-----YPTWNFNKYVVDTQGNVVEHFGSNVGPDSQKLRGSLD----------------------------------------AALA-----SAE
+>gi|26988418|ref|NP_743843.1| glutathione peroxidase [Pseudomonas putida KT2440] 4.36932e-90
+MCVRRYPA----------------------------------------------------------------------------------------SSR--------------------------------IV------MREKRVMRAH--W----L--TVPVL-AL--LA-----------------------S----TSS--WA-ADCP---ALLQGSLPELRGK-GQVDLCERFAGKPLVVVNTASYCGFAPQFEGLEATYKEYHEQGLEMLGVPSNDFK-QEDADSEKTAKVCYANYGVTFTMTKTQAVRGKDAIPLFAELASQS--S----APKWNFYKYVVDRKGKVIGNFSSLTKPDDPAFRAAIE----------------------------------------KAIA-----SQP
+>gi|254487296|ref|ZP_05100501.1| glutathione peroxidase [Roseobacter sp. GAI101] 2.10703e-57
+MVSNNRGDG---------------------------------M-------------------------------------------------------------------------------------------------------------------RYILVL-VMGTL-------------------------------W--AA-GAWA---LPRDAQFASID--GGVLQM-SDWAGQPVLVVNTASQCGFTYQYEGLQALYDTYKDRGLIVLAVPSDDFN-QELASAEKVKEFCELNFALDLPMTEIEHVKGSDAHPFYKAVAEET-GF----VPRWNFNKVLIGADGKVVATWGSTTKPQSAEVIHQIE----------------------------------------KVL--------N
+>gi|146281744|ref|YP_001171897.1| glutathione peroxidase [Pseudomonas stutzeri A1501] 1.43336e-62
+MKLLTLI--------------------------------------------------------------------------------------------------------------------------------------------------------ALSAL-AL--P------------------------V----MPA--AA-SECP---AVLQHEMPKLRSK-DSVDLCQTFQGKALVVVNTASHCGFTPQFKGLEALYQRYKGDGLEVLGVPSDDFF-QESDDEAETAEVCYVNYGVTFTMTQTQAVRGRDATPLFRELAEQA-GQ----APRWNFYKYVVDRQGRVVAHFSSKVNPDDPRLIAAVE----------------------------------------KAL-------AR
+>gi|146306793|ref|YP_001187258.1| glutathione peroxidase [Pseudomonas mendocina ymp] 1.05662e-65
+MSLHRLA--------------------------------------------------------------------------------------------------------------------------------------------------------CSLLL-SS--L------------------------A----LPV--LA-AECP---ALLQGELPKLRAKGESVEL-CQFAGKPLVVVNTASFCGFTPQFKGLEALYQRYKDQGLEVLGVPSDDFR-QEADSSEETATVCYVNYGVTFAMTEPQPVSGGNAIPLFKGLAEQS--R----APRWNFFKYVVDRQGKVVASFSSLTKPDDPELVAAVE----------------------------------------KAIA-----SQP
+>gi|114046773|ref|YP_737323.1| glutathione peroxidase [Shewanella sp. MR-7] 2.55057e-60
+MISILVSDV---------------------------------IE--NN-E------FA------------NL------GAPNEKDI-----------------------------------------------------------MIK---------LPL---V--IFASL----------------------LS----TSA--FA-ATCP---SYLDVEVRKLHS-DEKINLCELTQGKPVLLVNTASNCGYTPQFKALEALHKEYKDKGLVVIGFPSDDFF-QEENDEKDTAKVCYINYGVTFTMLATSPVRGSDANSVFKYLGDKA-G-----SPKWNFYKYVVSGDGNTVQQFNSKVKPDSAELKQAIE----------------------------------------SV---------L
+>gi|189910169|ref|YP_001961724.1| Glutathione peroxidase [Leptospira biflexa serovar Patoc strain 'Patoc 1 (Ames)'] 1.26657e-57
+MQRKVLFA---------------------------------------------------------------------------------------------------------------------------------------------------------I-F--LFVSF-----------------------S-----LI--AG-GKKM---TFHDLKTITIQ--GKEISL-GEYKGHPVLVVNVASKCGYTPQYEGLEKLHLAYKDKGLKVVGFPSNDFGGQEPGTEAQIAEFCKLNFGVSFDLMKKTKVLGNDKDPVYQFLTENAKE---KGDVKWNFEKFLIDKNGNIVNRFPSSTKPESVELKQAIE----------------------------------------SI---------L
+>gi|109898841|ref|YP_662096.1| glutathione peroxidase [Pseudoalteromonas atlantica T6c] 1.52133e-58
+MKKLLAIT--------------------------------------------------------------------------------------------------------------------------------------------------------C--L-MF---F-----------------------C----NMA--YS-AQCP---DLLKFVKRKLNSQ-DTVNLCETYAGKTVLFVNTASYCGFTPQFKGLEALYSKYKDQGLVVLGFPSHDFN-QEDKDESKTAELCELTYGVEFPMFEAMPVRGRDADQLYRMLAKKS-GT----TVKWNFYKYLMDKNGNLVNAYASSTKPTDPAFIETVE----------------------------------------NTL-------KR
+>gi|192360876|ref|YP_001983718.1| putative glutathione peroxidase [Cellvibrio japonicus Ueda107] 3.90567e-58
+MLIKAAH-C--------------------------------------------------------------------------------------------------------------------------------------------------------YSG-LLFGAL----------------------LA----ATG--AQ-AACP---DYLQGEYRKLHS-QASVDLCELTENKPVLVVNTASHCGFTSQFKEMEAVYQKYKDKGLVVVGFASDDFK-QEDKDEEKAAEICYLNYGVTFTMLAPTHVTGDQANDLFKTLAKES-T-----EPKWNFNKYLLDKNGKLIQHFGSRVKPDAAELTSAIE----------------------------------------KV---------L
+>gi|255062722|ref|ZP_05314734.1| glutathione peroxidase [Nitrosomonas sp. AL212] 8.77128e-59
+MRILLA-------------------------------------------------------------------------------------------------------------------------------------------------------------L-I-LFSL----------------------------VNS--AL-ACNS---ALLDQNFRKLAAS-EMVNLCETYAGKVLLVVNTASKCGYTPQYEELEQLYDKYQSKGLVVLGFPSNDFMGQEPGTEAEIQDFCRLTYDVKFPMFEKTTVKKGHAHPFYVQLAELS-GT----YPTWNFQKYLIGRDGQFIVQFSPHTKPSDLAVVTAIE----------------------------------------QAL-------RQ
+>gi|148978043|ref|ZP_01814590.1| putative ABC transporter [Vibrionales bacterium SWAT-3] 9.22424e-58
+MKCSLLCST--------------------------------------------------------------------------------------------------------------------------------------------------------I-L--IT-SL----------------------TS----SIA--FA-ASCP---EILNGKQRLLNS-TEEIALCDKFQGKTLLVVNTASQCGFTPQFEQLEQLHQTYKDQDFTVIGFPSNDFR-QDKGSEEKTAKVCYLDYGVTFPMMARASLTGSNANPVFAEIQQQA-GV----TPKWNFYKFLISKEGKVVATFPSSTSPVSATLKNAIE----------------------------------------QQ---------L
+>gi|77457881|ref|YP_347386.1| glutathione peroxidase [Pseudomonas fluorescens Pf0-1] 2.77494e-73
+MLKRWCA--------------------------------------------------------------------------------------------------------------------------------------------------------VPALL-MA--L------------------------T----GLA--QA-ADCP---DLLQGSLPKLRAK-ESIDLCQRYADKPLVVINTASFCGFAPQFEGLEALNQRYKAQGLEMLGVPSNDFK-QESKDSAETAKVCYANYGVTFTMTEPQKVRGDDATHLFQVLARQS--S----APKWNFYKYVIDRQGKVIANFSSLTKPDDPEFLAAIE----------------------------------------KAIAS--QSLKP
+>gi|120553300|ref|YP_957651.1| glutathione peroxidase [Marinobacter aquaeolei VT8] 5.59129e-58
+MMRWTVLKC--------------------------------------------------------------------------------------------------------------------------------------------------------VSV-LLLLG-----------------------LT----VPA--VA-RDCP---DFLDHEQRKLHS-RDSVNLCEVAAGKPMLVVNTASRCGYTGQFEGLEALHQRYKDRGLMVVGFASDDFR-QEADSEEEAAKVCFVNFGVSFTMIAPSAVTGEQANPVFQEINRQS-Q-----PPRWNFTKYVIDGDGKVTARFPSQVRPEDARLIQALE----------------------------------------SV---------L
+>gi|114564017|ref|YP_751531.1| glutathione peroxidase [Shewanella frigidimarina NCIMB 400] 1.2662e-58
+MIKYITA----------------------------------------------------------------------------------------------------------------------------------------------------------I-G--LM--A----------------------LS----FST--VA-ANCP---DYLNVEARKLHS-TENVNLCELTQGKAVLIVNTASHCGFTPQFEALEALHKQYADKGLVVIGFPSDDFF-QEEKDEAKTADVCFINYGVTFTMVATSPVRGDEANSVFKYLDDKS-A-----APKWNFYKYVVSPDGQTVQQFSSRVKPDSEELKNAIE----------------------------------------SV---------L
+>gi|260221546|emb|CBA30218.1| Glutathione peroxidase [Curvibacter putative symbiont of Hydra magnipapillata] 1.69612e-57
+MAAQPTE-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------KT-SACP---SLWQKTFPRLQD-DKPQDL-CQYRGKVALVVNTASYCGFTSQYEGLEKVYARYQAQGLVVLGFPSNDFGQQEPGNSKQIADFCFNTYGVKFPMFAKTSVTGNAANPLFRELAQQT-GS----TPRWNFHKYLVDRQGKVVGAFLSETTPEDARLIAAIQ----------------------------------------KALK------AP
+>gi|229172855|ref|ZP_04300409.1| Glutathione peroxidase bsaA [Bacillus cereus MM3] 1.61236e-59
+MIVKRGV---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------RKM---TVYDFSAKTIT--GEDKSL-KDYEGKALLIVNVASKCGFTPQYKGLQEVYDKYKDQGLEILGFPCNQFGGQEPGTEADITSFCELNYGVNFPMFAKVDVKGDKAHPLYTYMTEQAPGLLGMKAVKWNFTKFLIGKDGKVVGRFAPQTKPMD--LEVEIE----------------------------------------KVL-------GE
+>gi|83643021|ref|YP_431456.1| glutathione peroxidase [Hahella chejuensis KCTC 2396] 1.2662e-58
+MPKILKP--------------------------------------------------------------------------------------------------------------------------------------------------------TLLSL-LL---C-----------------------Q----SAS--TL-AGCP---ALLDGEVKKLHTS-QTINLCERFVGKPLVIVNTASYCGFTPQFKGLEAMYKRYQEKGLEVIGMPSDDFN-QEDDDAEKTAEVCFVNYGVTFTMTDAHPVKGPNAHPLFRNLAEQT-GQ----PPQWNFHKYVVDKEGRVVAAFPSRTTPEDADFIAAVE----------------------------------------SV---------L
+>gi|160896338|ref|YP_001561920.1| glutathione peroxidase [Delftia acidovorans SPH-1] 8.70344e-57
+MNDTAA----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------APR---SAYDFEATSIT--GQAVPL-SDYRGKVLLIVNTASACGFTPQYAGLQALHEQYGERGLVMLGFPCNQFGSQEKGSESEIASFCDLNFGVRFPLMGKIDVNGANAHPLYRWLTAEAPGVLGTKAIKWNFTKFLVGRDGQVIRRYAPQDAPAK--LSTDIE----------------------------------------AAL-------AL
+>gi|220911474|ref|YP_002486783.1| Glutathione peroxidase [Arthrobacter chlorophenolicus A6] 6.49925e-57
+MDNYLRTQ---------------------------------------------------------------------------------------------------------------------------------------------------------R-----------------------------------------------VA---PLYPIHLTLND--GTTTEF-ARFKGNVVLVVNVASNCGFTQQYAGLEALYGKFRDRGFEILGVPCNQFAGQEPGSDSEIAEFCERNFGVTFPLTAKADVRGKNQHPLYAELTKFKTGIL-PGLVKWNFEKFLVNRDGDVVARFAPTVEPDSAEVIDAIE----------------------------------------KAL--------G
+>gi|268679958|ref|YP_003304389.1| Peroxiredoxin [Sulfurospirillum deleyianum DSM 6946] 5.58805e-60
+MFALTL------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FA-GDKM---SLYDFEVTTIE--GKKTTL-EAYKGKVLLIVNVASKCGFTYQYEGLEKLYKTYKDKGFVVLGFPCNQFSEQEPGNEEEIKNFCSLTYDVTFPMFSKIDVNGAKAHPLYVYLKKEQSGFLGSEGIKWNFTKFLVDKNGHVLERFAPTTKPES--LEETIK----------------------------------------GL---------L
+>gi|88860985|ref|ZP_01135620.1| glutathione peroxidase precursor [Pseudoalteromonas tunicata D2] 2.68307e-58
+MLKALL-----------------------------------------------------------------------------------------------------------------------------------------------------------L-S--LT--V----------------------LS----ANA--LA-SECD---DFTNVEMKKLRS-DKTINLCQ-FKDKPLLIINTASNCGFTPQFKGLEAIHKKYKDQGLVVLGFPSDDFF-QEEDDEKDTAKVCFINYGVTFNMFAPISVRGKNADPIFKHLAEQT-S-----SPKWNFYKYIVSKDRKTVLKFNSKTTPEDADFIKAIE----------------------------------------ES---------L
+>gi|242373598|ref|ZP_04819172.1| glutathione peroxidase [Staphylococcus epidermidis M23864:W1] 4.77297e-57
+MLNLKYIE---------------------------------------------------------------------------------------------------------------------------------------------------------R-V-------------------------------------------INME---TIYDFVVQKNN--GENYKL-EQYKGDVMLIVNTASECGFTPQFEGLQKLYDEYKDKGFVILGFPCNQFGGQEPGSGEEAAQNCKINYGVTFPIHEKVDVKGENQHPLFRYLTDAAKGMLN-EKIKWNFTKFLVDREGNVVKRFSPQKKPDQ--IKSEIE----------------------------------------KL---------L
+>gi|257055469|ref|YP_003133301.1| glutathione peroxidase [Saccharomonospora viridis DSM 43017] 2.94183e-57
+MTQ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------T---ALTDIGLHTLA--GEPATL-GGLGAKVLLVVNVASKCGLTPQYEGLERLHRRYVDRGFTVVGFPCNQFAGQEPGSEEEIARFCSTTYGVSFPMFTKIEVNGPNRHPVYAELTRHPDADGEAGDVQWNFEKFLIDDRGRVLARFRPRTEPESAEIIEAVE----------------------------------------TALA------RA
+>gi|168705079|ref|ZP_02737356.1| Glutathione peroxidase [Gemmata obscuriglobus UQM 2246] 5.97551e-59
+MSTT-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------AA---SVYDISVKAID--GQQTTL-EQYRGKVLLVVNVASKCGFTGQYKGLEELQRKYKDRGLVVLGFPCNQFMGQEPGNEEEIKSFCSLKYDVTFPMFAKVDVNGGAAHPLYQHLKDAARGTLGTRGIKWNFTKFLVDRNGNVVSRRGPTTTPQQ--LEAEIE----------------------------------------KLL--------G
+>gi|83591360|ref|YP_425112.1| glutathione peroxidase [Rhodospirillum rubrum ATCC 11170] 2.10703e-57
+MS--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------PLYDIEVTTLD--GAPQTL-ADYAGKVLLIVNVASKCGFTPQYKGLEALQRRYRDRGFCVLGFPCNQFGHQEPGDAGEIKSFCTLTYDVSFPMFAKIDVNGPDAHPLYRLLKAEAKGLLGSEAIKWNFTKFLVSADGETISRFAPTDTPES--LRARIE----------------------------------------ALLPAAQGPLGA
+>gi|124268869|ref|YP_001022873.1| glutathione peroxidase [Methylibium petroleiphilum PM1] 2.72821e-58
+MIT---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------T---TIYDFEARSID--GRTVSL-ADYRGKVLLIVNTASACGFTPQFAGLQSLWQAYGERGLAVLGFPSNEFGGQDPGSNDEIASFCQLNYGVSFPMMAKVEVNGAGAHPLYRWLTGEVKGLLGTRAIKWNFTKFLVGRDGRVLGRYAPTDKPES--LTRDIE----------------------------------------AAL-------AA
+>gi|241664088|ref|YP_002982448.1| Glutathione peroxidase [Ralstonia pickettii 12D] 2.91738e-57
+MT--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------DVYAFEADSLT--GQRVPL-SQYRGKVLLIVNTASKCGFTPQYAGLEAVYKRLHDKGLEVLGFPCNQFGKQEPGGADEIGAFCEKNYGVSFPMFGKIDVNGSNAHPLYKWLTSEKPGVLGIGAIKWNFTKFLLRRDGTVYKRYAPLTKPEE--IADDIE----------------------------------------RLLAE---PDPA
+>gi|120608953|ref|YP_968631.1| glutathione peroxidase [Acidovorax avenae subsp. citrulli AAC00-1] 4.77297e-57
+MT--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------SAYDFDALQMD--GQAVPL-RQYAGRVLLIVNTASACGFTPQFAGLQELHQRYADRGLVVLGFPCNQFGRQDPGSNGEIAAFCQRNYGVDFPMMAKIDVNGSGAPPLYRWLTAEAPGLLGTKAIKWNFTKFLIGRDGQVVRRYAPTAKPAS--LAGDIE----------------------------------------AELAR----PAP
+>gi|94311866|ref|YP_585076.1| glutathione peroxidase [Ralstonia metallidurans CH34] 3.84215e-57
+MS--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------NVYQFEANSLS--GQPQPL-ADYRGKVLLIVNTASECGFTPQYAGLQTLQASYQARGFDVLGFPCNQFGKQEPGDAEQIGAFCESRFHVTFPMFEKIDVNGADAHPLYKWLTSEKRGFLGTQAIKWNFTKFLLRRDGTVFKRYASTTKPEE--IRADIE----------------------------------------SLLAE----QPA
+>gi|226939355|ref|YP_002794428.1| Glutathione peroxidase [Laribacter hongkongensis HLHK9] 5.73135e-59
+MT--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TVYDFSATRLD--GSEQSL-ADYRGQVLLIVNTASECGFTPQYAGLESLYGQYRDQGFSVLGFPCNQFGGQEPGDSEAIGQFCSTRFHVTFPLFAKVDVNGAGAHPLYRHLVKARPGILNTEAIKWNFTKFLVGRDGEVLARYAPTTRPEE--LVADIE----------------------------------------AALEQ----PGS
+>gi|119774217|ref|YP_926957.1| glutathione peroxidase [Shewanella amazonensis SB2B] 8.00672e-57
+MT--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------DLYQFAATTIK--GEQQPL-ANYRGKVLLIVNTASKCGFTPQYQGLESLYRKYHDQGLEILGFPCNQFGAQEQGSESDIQSFCELNFGVTFPLFAKVDVNGEQAHPLFTHLKQEAPGLLGSKAIKWNFTKFLVGRDGKVRDRFAPTTDPQK--LEKDIE----------------------------------------ALLN----EAAK
+>gi|187478327|ref|YP_786351.1| glutathione peroxidase [Bordetella avium 197N] 4.93209e-59
+MT--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TFYDFSAPSLS--AESIPL-SQWRGQVVLVVNVASQCGFTPQYSGLEALYQRFGAQGFTVLGFPCNQFGRQEPGDADEIRRFCDTRYGITFPLFAKIDVNGGDAHPLFRWLKSQKPGVLGTEVIKWNFTKFLIGRDGQVLARYAPTDAPDS--LVADIE----------------------------------------KALAA----PAA
+>gi|84495598|ref|ZP_00994717.1| glutathione peroxidase-like protein [Janibacter sp. HTCC2649] 1.29792e-59
+MTD---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Q---TLSDFSATTLE--GQPQDL-SAYAGKVVLVVNTASECGFTPQFEGLEKLWQDQKDQGLVVLGFPCNQFGGQEPGEAAEIGAFCQRNYGVTFPMFDKVDVNGDDAHPLFEWLRKEKGGLLG-SKIKWNFTKFLVGRDGNVIKRYGSTTKPEA--ISGDIE----------------------------------------KAL------ATS
+>gi|257061723|ref|YP_003139611.1| Peroxiredoxin [Cyanothece sp. PCC 8802] 1.48415e-57
+MTTAQ-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------APA---SIYDLSATSIN--GTPVSL-NDYKDKVLLIVNTASQCGFTPQYKGLQALYDQYASQGLVVLGFPCNQFGQQEPGTSDQIQSFCEVNFGVSFPLFQKIDVNGSNAHPLYQYLTKAVPGILGIEAIKWNFTKFLVDRSGKVVKRYPPTTKPED--IAKDIQ----------------------------------------AL---------L
+>gi|269126054|ref|YP_003299424.1| Peroxiredoxin [Thermomonospora curvata DSM 43183] 1.16484e-58
+M---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------SVYDVEIQDLR--GGPADL-AQYRGKAMLVVNVASRCGLTPQYKGLQELHERYAERGFTVLGVPCNQFLEQEPGTHEEIAEFCSVNYGVTFPLTEKIEVNGEGRHPLYRELVDVPDATGYTGDIRWNFEKFLIGPDGSVLARFAPQTEPDDEQLVAAIE----------------------------------------RAL-------PR
+>gi|226953021|ref|ZP_03823485.1| glutathione peroxidase [Acinetobacter sp. ATCC 27244] 2.72821e-58
+MS--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------NIYQFEAELLE--GEIKAL-SDYKGKVMLIVNTASKCGFTPQFAGLEKLYEKYKSQGLEVLGFPCNQFGGQDPGTNKEIGAFCQRNYGVNFPMFAKVDVKGPEAHVIFRFLTREAKGILGSRNIKWNFTKFLVGRNGEVLGRYAPTTKPEA--LEADIE----------------------------------------KALA------KS
+>gi|256390220|ref|YP_003111784.1| Glutathione peroxidase [Catenulispora acidiphila DSM 44928] 3.97254e-57
+MS---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------LYDIPINTLD--GKPASL-KDYEGKTVLLVNVASRCGLTPQYEGLERLHERFADRGFTVVGVPCNQFGGQEPGTSEEIQEFCSATYGVTFPLTEKIDVNGDERHALYTELTKATDAEGGNGDIQWNFEKFLIGSDGTVLKRFRPRTEPEAAEVVEAIE----------------------------------------AAL-------PA
+>gi|218291561|ref|ZP_03495425.1| Glutathione peroxidase [Alicyclobacillus acidocaldarius LAA1] 8.13438e-60
+MT---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------IYDFEVEKAD--GTTMSM-REYQGKVLLIVNTASKCGFTPQYEGLQKLYELYRDRGFEVLAFPCNQFGNQEPGSNEEIQTFCSTTYRVTFPVFAKVDVNGPNAHPLFEYLKKQAKGALGSEAIKWNFTKFLVDRDGRVVKRYAPQTSPES--IREDIE----------------------------------------ACLVH--ASRGQ
+>gi|116050830|ref|YP_790347.1| putative glutathione peroxidase [Pseudomonas aeruginosa UCBPP-PA14] 7.35723e-61
+MS----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------D---SLLSIPCTTIK--GEQKTL-ADFGGKALLVVNTASKCGFTPQYQGLEALWEKYRERGLVVLGFPCNQFGKQEPGDEGEISQFCELNYGVSFPLFRKIEVNGAGAHPLFVSLKKRALGLLGSQGIKWNFTKFLIGRDGQVVKRYAPTTKPEE--LSSAIE----------------------------------------ALL--------E
+>gi|21230869|ref|NP_636786.1| glutathione peroxidase-like protein [Xanthomonas campestris pv. campestris str. ATCC 33913] 9.45805e-58
+MT--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TLSTYQFTDLD--GQPQSL-AEYAGKVVLVVNVASKCGFTPQYAGLQALWQRYRDRGLVVIGFPCDQFGHQEPGDAADIRQFCSLDYAVDFPLAAKVEVNGSGAHPLWQWLKHEKRGVLGSEAIKWNFTKFLIGRDGSVLERYAPTTKPEA--LAADIE----------------------------------------RAL-------GA
+>gi|91786101|ref|YP_547053.1| glutathione peroxidase [Polaromonas sp. JS666] 4.9763e-57
+MN--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TVYAFEARQIN--GQNIPL-SEFSGKVMLIVNTASQCGFTPQFGGLEELHKTYAGKGLAVLGFPCNQFGSQDPGSDGEIAEFCQVNYGVSFPMMSKIDVNGPAAHPLYKWLTAEAPGLLGSKSIKWNFTKFLVGKNGQVIKRYAPTDKPAE--LARDIE----------------------------------------AAL-------AA
+>gi|118578568|ref|YP_899818.1| glutathione peroxidase [Pelobacter propionicus DSM 2379] 1.41127e-58
+MP--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------CMYDFEVQTAG--GECTSL-AEYRGQVMLIVNTASKCGFTPQYKGLEALYRKYASRGFVVLGFPCNQFGAQEPGDMTEIKNFCSLTYDVTFPLFAKINVNGSDASPLFQYLKSAAKGVLGSEAIKWNFTKFLVDRHGTVVGRYAPTTTPES--LEKDIE----------------------------------------AAL-------HC
+>gi|114563929|ref|YP_751443.1| glutathione peroxidase [Shewanella frigidimarina NCIMB 400] 6.28592e-57
+MTA-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------AIYPISVKDIQ--GNDVVM-ESFKDNVLLIVNTASKCGFTPQYKALETLYQQYKDRGLVILGFPCNQFGKQEQGNEDEISQFCELNFGVTFPLFSKIEVNGSNSHPLYQHLKKSAKGLLGSESIKWNFTKFLVDKQGNVIERYAPTTKPED--LNAVIE----------------------------------------KLL--------G
+>gi|239996057|ref|ZP_04716581.1| probable glutathione peroxidase [Alteromonas macleodii ATCC 27126] 6.77613e-57
+MA---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------LYEHAITLNN--GEQTTL-EQYKGKVLLIVNTASKCGFTPQYEGLESLYKKYNDKGFEILGFPCDQFGHQEPGSDEDIAQFCSLNFGVSFPLFKKTNVNGPDANPLFDELKNEAPGLLGTKRIKWNFTKFLVNAQGKVLKRYAPTVKPEA--IEKDIA----------------------------------------KLL------SAN
+>gi|226953381|ref|ZP_03823845.1| glutathione peroxidase [Acinetobacter sp. ATCC 27244] 6.71983e-57
+MT--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TIYDFQAELLE--GEQKNL-ADYQGKVLLVVNTASQCGLTPQFEGLEKLYQDYQQQGLVILGFPCNQFANQDPSSNEEIGSFCQRNYGVSFPMFAKIDVNGTNAHPLYKYLTSEAKGILGSESIKWNFTKFLINQNGKVIKRYSPTTKPEK--IGKDIQ----------------------------------------KLL--------A
+>gi|262187596|ref|ZP_06046947.1| glutathione peroxidase [Aeromicrobium marinum DSM 15272] 8.92405e-57
+MT--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TAHDFSATAID--GTERHL-ADYRGKVLLVVNTATQCGFTPQFKGLETVYQQYVDRGLVVLGFPCDQFGGQNPGDDDETATFCEKNFGVTFPLFSEIEVNGDGAHPLYQWLKKEKGGLGP-SKIKWNFTKFLIDPDGNVVKRYGSTTKPEK--IAADIE----------------------------------------KLL-------PA
+>gi|254448242|ref|ZP_05061704.1| glutathione peroxidase [gamma proteobacterium HTCC5015] 8.07381e-57
+MS--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------EFYTLSARSLK--GADIEM-KDYQGKVTLVVNTASKCGFTPQYEGLEKLHEKYADKGLAILGFPCNQFGKQEPGGSDDISEFCQLNYGVSFPMFEKVDVNGDQAHPVFQYLKEELPGTLG-KGIKWNFTKFLLDRNGKPVKRYASTTKPEK--IEADII----------------------------------------KLL-------EA
+>gi|256824162|ref|YP_003148122.1| glutathione peroxidase [Kytococcus sedentarius DSM 20547] 1.88935e-59
+MT--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TLADFSATALD--GTDQSL-AQYAGQVALVVNTASKCGFTPQYRGLEELYQQHRDAGFVVLGFPCNQFAHQEPGSAEEIADFCSVNYGVSFPMFARVDVNGAGAHPLWRWLKQEKGG-LGVSTVKWNFTKFLVGRDGRVIRRYGPATAPAR--IGADIE----------------------------------------RAL-------AT
+>gi|186476112|ref|YP_001857582.1| glutathione peroxidase [Burkholderia phymatum STM815] 2.38657e-59
+MAD--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------KS---SIYSFSARTLD--GEPVSF-ERYNGKVMLIVNTASECGFTPQYAGLQKLHEQYAARGLQVLGFPCNQFGKQEPGDAAQIGAFCEKNYGVTFQMFDKIDVNGSDAHPLFRFLKDEAPGVLGLEAIKWNFTKFLVDRDGKVVKRYAPTTKPET--ITDDIE----------------------------------------AL---------L
+>gi|254429271|ref|ZP_05042978.1| glutathione peroxidase subfamily, putative [Alcanivorax sp. DG881] 9.86383e-57
+MG---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------IYDYSATTLS--GEEKSL-SEFQGKVLLIVNTASKCGFTPQYKGLESLYETLQPKGLEILGFPCNQFGKQEPGAADEIGAFCEKNYGVSFTMFDKVDVNGSGAHPLYDYLKKAAPGVMGSKGIKWNFTKFLVGKDGKVVKRYAPTDKPEA--IRKDIE----------------------------------------KLL-------EA
+>gi|93005524|ref|YP_579961.1| glutathione peroxidase [Psychrobacter cryohalolentis K5] 1.97041e-58
+MT--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------TIYDFNAERID--GTTKSF-SDYKDQVLLIVNTASKCGFTPQFEGLEALFQQYKDQGLMVIGFPCNQFGNQDPANNDEIGEFCQKNYGVSFPMMAKVDVNGGDAHPVFEWLKNQKGGLL-TDGIKWNFTKFLIDSKGQVIARYAPTTKPEA--LKADIE----------------------------------------QAL------AAK
+>gi|110801587|ref|YP_698192.1| glutathione peroxidase [Clostridium perfringens SM101] 6.77417e-58
+ME---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------IYDISVKDIN--GENVSL-EIYRGKVLLIVNTASKCGFTKQFDGLEELYEKYKDEGFEVLGFPCNQFKEQDPGSNSEIMNFCKLNFGVTFPMFEKIDVNGENESLLYSYLKEQKSGMFG-SKIKWNFTKFLVDREGNVIKRFSPQTTPKS--IEKDIE----------------------------------------ELL-------AK
+>gi|146308656|ref|YP_001189121.1| peroxiredoxin [Pseudomonas mendocina ymp] 1.25605e-57
+MS--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------AFHDLNLRALD--GQELPL-APYKGQVVLVVNVASKCGLTPQYAGLEKLYQQYKGNGFTVLGVPCNQFAGQEPGSEDEIREFCSLNYGVTFPLGSKLEVNGPARHPLYRLLAGEGAEF--PGDITWNFEKFLVGQDGRVLARFSPRTTPDDPALIQAIE----------------------------------------KAL-------GL
+>gi|120554689|ref|YP_959040.1| glutathione peroxidase [Marinobacter aquaeolei VT8] 6.44525e-57
+MAS---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------E---TIYSFSAKDIK--GHEVSM-DDYRGKVLLIVNTASKCGFTPQFEGLQSLHDELGERGFEVLGFPCNQFMNQDPGNDDAISQFCSLNYGVSFPMFAKIEVNGDGTHPLFRFLKREAKGLMGSEKVKWNFTKFLVNREGQVVRRYAPTAKPAD--IRADIE----------------------------------------KL---------L
+>gi|103486666|ref|YP_616227.1| glutathione peroxidase [Sphingopyxis alaskensis RB2256] 3.59301e-58
+MG---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------LYDLSAKLPG--GGTQSL-ADYRGKVLLIVNTASKCGFTPQYEGLEELYRDYRDRGFEILAFPCNQFGAQEPGDAEEIRTFCSLTYDVSFPLMAKIDVNGDDADPIFKHLKKEKTGLLG-SAIKWNFTKFLVDRDGKVVSRHAPTTRPEQ--LRKEIE----------------------------------------ELL--------G
+>gi|71906729|ref|YP_284316.1| glutathione peroxidase [Dechloromonas aromatica RCB] 1.85862e-58
+MS----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Q---TLYDFSAQRLN--GEPQDF-EAYRGKVLLIVNTASECGFTPQYTGLEELYWMFKDRGFVVLGFPCNQFGGQEPGDAEAIGQFCQTRFDVTFPLFAKVDVNGDSAHPLYTWLKHEAAGVLGTEAIKWNFTKFLIDREGKVVHRYAPATRPDE--LVEAVE----------------------------------------AQ---------L
+>gi|16125974|ref|NP_420538.1| glutathione peroxidase [Caulobacter crescentus CB15] 4.20903e-59
+MA----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------M---SIYDYSAKTLD--GQDVSL-ADYRGQVLLIVNTASKCGFTPQYEGLEALYKAHKDRGFTVLAFPCNQFGAQEPGNAEEIANFCSLTYDVSFPVMSKIDVNGADAHPLYKFLKKEQKGVLGTEAIKWNFTKFLIGKDGQVVDRFAPTVKPED--LKVAVE----------------------------------------AL---------L
+>gi|237653348|ref|YP_002889662.1| Peroxiredoxin [Thauera sp. MZ1T] 4.81296e-57
+MSS-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------PLYDLEVDRLA--GGTTTL-GEYAGKLLLIVNTASQCGLTPHYAGLEKLYQTYKDRGLVVLGFPCNQFGAQEPGSAEEIGAFCTRNYGVSFPMFAKIEVNGDGAHPLYKYLKQHAKGILGTEAIKWNFTKFLVSRDSERIERYAPTTTPEE--LVKEIE----------------------------------------GM---------L
+>gi|167581462|ref|ZP_02374336.1| glutathione peroxidase [Burkholderia thailandensis TXDOH] 5.01654e-58
+MS--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------KLYSFNAQALS--GGEVPL-EQYRGKVLLIVNTASECGFTPQYAGLQQLYDRFRERGLAVLGFPCNQFGKQEPGDASQIGAFCEKNYGVTFPMFAKIDVNGANAHPLYRYLTEEAPGILGLKAIKWNFTKFLVNREGEIVKRYAPSTKPED--IAADVE----------------------------------------KL---------L
+>gi|255331867|ref|ZP_05372881.1| Glutathione peroxidase [Geobacillus sp. Y4.1MC1] 4.00234e-60
+MM--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------SIYEFTAKTIR--GKEQSL-ADYKGKVLLIVNTASKCGFTPQYKELQELYEQYRERGLVVLSFPCNQFGNQEPGTEEEIERFCQVNYGVTFPIFAKVDVNGEQAHPLFRYLTEKAPGVFGTKAIKWNFTKFLIDRNGNVVARFAPQTKPSE--LKSEIE----------------------------------------KL---------L
+>gi|162456628|ref|YP_001618995.1| glutathione peroxidase [Sorangium cellulosum 'So ce 56'] 6.28228e-59
+M---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------SLYDFTMKTID--GQDRSL-GDYRGKVLLVVNTASECGYTPQYAGLEQLHDRLKDRGFAVLGFPSNDFGAQEPGTDAEIAAFCSTKFGVSFPMFSKIPVKGGGKHPLYAFLTQAAPA----GEVKWNFTKFLIGKDGSVIARFESSVAPDDPKLTQAID----------------------------------------RAL-------GG
+>gi|39936689|ref|NP_948965.1| putative glutathione peroxidase [Rhodopseudomonas palustris CGA009] 3.17125e-57
+MA--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------SIYDFTAKSLV--GKDVSL-KQFEGKVLLIVNTASACGFTPQYKGLEALQEKYGPRGFSVLGFPCNQFGAQEPGDEAQIAQFCSTNYGVTFPMFAKIDVNGAGAHPLYKFLKDEKGGLLG-SAIKWNFTKFLVDRSGRVVSRHAPTTTPEA--LSKEIE----------------------------------------TL---------L
+>gi|30249191|ref|NP_841261.1| glutathione peroxidase [Nitrosomonas europaea ATCC 19718] 1.30918e-58
+M---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------NIYDCGIKTMD--GQDKLL-GDYKGKVLLIVNTASKCGFTPQYQGLEDLYRRYKDRGFVVLAFPCNQFGHQEPGSESEIQQFCTTRYDVSFPVFAKIEVNGANTHPLYRYLKNEKSGVLGTKAIKWNFTKFLVDRSGHVVRRYAPADKPES--LTGDIE----------------------------------------QL---------L
+>gi|256824151|ref|YP_003148111.1| glutathione peroxidase [Kytococcus sedentarius DSM 20547] 2.28972e-58
+MST--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------LKDFNATTID--GTQQDL-GEYAGQVVLVVNTASECGLTPQYEGLEQLHQQYADRGLVVLGFPCNQFGAQEPGSDEEVAAFCQKNYGVTFPMFSKIDVNGEGQHPLFAWLKEASGD---TSDIAWNFGKFLVGRDGRTVTRIGPRTEPAE--LTEDIE----------------------------------------RAL-------GA
+>gi|229918281|ref|YP_002886927.1| Peroxiredoxin [Exiguobacterium sp. AT1b] 2.07216e-57
+M----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------IYDFEAVDMK--GQLQPL-ATYKGDVLLIVNTASKCGFTPQLEGLESLYKTYKGQGLQILGFPCNQFGHQDPGSNEEIQEFCQLNYGVSFPMFAKVDVNGKDAHPLFTYLSKEAPGLLGSKAIKWNFTKFLVDRDGNVIERFSPQTTPAE--IEDAVK----------------------------------------KL---------I
+>gi|226313471|ref|YP_002773365.1| glutathione peroxidase [Brevibacillus brevis NBRC 100599] 4.89395e-57
+MS---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------LYDIAVKTIS--GEEKTL-AAFKGHVLLIVNVASQCGLTPQYKGLQELYERYQDKGLVVLGFPCNQFAGQEPGTEEEIATFCDRNYGVTFPLFAKIDVNGPGTHPLYQYLKEHAPSEE-NPDIEWNFAKFLVDKDGRVVKRISARTQPEE--ICSDIE----------------------------------------SL---------L
+>gi|30024038|ref|NP_267520.2| glutathione peroxidase [Lactococcus lactis subsp. lactis Il1403] 2.23376e-57
+MN---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FYDFSAFKMN--GETVSM-SDFKGKVVIVVNTASKCGFTPQFEGLEKLYENYKDQGLEILGFPCNQFVNQDAGENSEINEFCQLNYGVTFPMFQKIKVNGKEAHPLYQFLKKEAKGAL-SGTIKWNFTKFLIDREGNVIERFAPKTEPKE--MEEEIQ----------------------------------------KL---------L
+>BLAST_QUERY_1
+MSKLLLL----------------------------------------------------------------------------------------------------------------------------------------------------------L-L------------------------------------AA--AA-AACP---SLYDFEARTLD--GEPVSL-AQYAGKVLLVVNTASKUGFTPQYEGLEALYQRYKDRGLVVLGFPCNQFGGQEPGSEEEIAEFCSLNYGVTFPMFAKIDVNGADAHPLYRYLKEEAPGLLGTEAIKWNFTKFLVDRDGKVVARFAPTTKPEDPELVAAIE----------------------------------------KAL-------AL
+# Average weighted sequence identity with coverage: 0.725196416064 +- 0.052136748687
+# Average weighted sequence identity without coverage: 0.729423369762 +- 0.052880990617
+# Conservation map: [
+{'M': 1.0},  #1
+{'A': 0.069306930693069313, 'M': 0.039603960396039604, 'C': 0.0099009900990099011, 'E': 0.0099009900990099011, 'D': 0.0099009900990099011, 'G': 0.039603960396039604, 'F': 0.019801980198019802, 'I': 0.049504950495049507, 'H': 0.0099009900990099011, 'K': 0.079207920792079209, '-': 0.039603960396039604, 'L': 0.059405940594059403, 'N': 0.069306930693069313, 'Q': 0.019801980198019802, 'P': 0.049504950495049507, 'S': 0.18811881188118812, 'R': 0.059405940594059403, 'T': 0.15841584158415842, 'V': 0.019801980198019802},  #2
+{'A': 0.029702970297029702, 'M': 0.0099009900990099011, 'C': 0.029702970297029702, 'E': 0.0099009900990099011, 'D': 0.029702970297029702, 'G': 0.0099009900990099011, 'F': 0.0099009900990099011, 'I': 0.039603960396039604, 'H': 0.0099009900990099011, 'K': 0.079207920792079209, '-': 0.34653465346534651, 'L': 0.059405940594059403, 'N': 0.039603960396039604, 'Q': 0.019801980198019802, 'P': 0.039603960396039604, 'S': 0.049504950495049507, 'R': 0.079207920792079209, 'T': 0.069306930693069313, 'W': 0.0099009900990099011, 'V': 0.029702970297029702},  #3
+{'A': 0.059405940594059403, 'M': 0.0099009900990099011, 'F': 0.019801980198019802, 'I': 0.039603960396039604, 'H': 0.0099009900990099011, 'K': 0.059405940594059403, '-': 0.42574257425742573, 'L': 0.13861386138613863, 'N': 0.019801980198019802, 'Q': 0.0099009900990099011, 'P': 0.029702970297029702, 'S': 0.029702970297029702, 'R': 0.069306930693069313, 'T': 0.029702970297029702, 'W': 0.019801980198019802, 'Y': 0.029702970297029702},  #4
+{'A': 0.059405940594059403, 'M': 0.0099009900990099011, 'G': 0.0099009900990099011, 'F': 0.019801980198019802, 'I': 0.039603960396039604, 'H': 0.0099009900990099011, 'K': 0.039603960396039604, '-': 0.43564356435643564, 'L': 0.11881188118811881, 'N': 0.019801980198019802, 'Q': 0.029702970297029702, 'P': 0.0099009900990099011, 'S': 0.0099009900990099011, 'R': 0.089108910891089105, 'T': 0.049504950495049507, 'W': 0.019801980198019802, 'V': 0.029702970297029702},  #5
+{'A': 0.10891089108910891, 'C': 0.0099009900990099011, 'G': 0.039603960396039604, 'F': 0.0099009900990099011, 'I': 0.0099009900990099011, 'H': 0.029702970297029702, 'K': 0.0099009900990099011, '-': 0.45544554455445546, 'L': 0.13861386138613863, 'N': 0.0099009900990099011, 'S': 0.019801980198019802, 'R': 0.049504950495049507, 'T': 0.049504950495049507, 'V': 0.029702970297029702, 'Y': 0.029702970297029702},  #6
+{'A': 0.079207920792079209, 'C': 0.019801980198019802, 'E': 0.0099009900990099011, 'G': 0.029702970297029702, 'F': 0.019801980198019802, 'I': 0.029702970297029702, 'H': 0.019801980198019802, '-': 0.52475247524752477, 'M': 0.0099009900990099011, 'L': 0.10891089108910891, 'N': 0.0099009900990099011, 'P': 0.039603960396039604, 'S': 0.019801980198019802, 'R': 0.029702970297029702, 'T': 0.0099009900990099011, 'V': 0.039603960396039604},  #7
+{'A': 0.039603960396039604, 'C': 0.029702970297029702, 'E': 0.0099009900990099011, 'D': 0.019801980198019802, 'G': 0.0099009900990099011, 'F': 0.019801980198019802, 'K': 0.019801980198019802, '-': 0.63366336633663367, 'L': 0.039603960396039604, 'Q': 0.039603960396039604, 'P': 0.019801980198019802, 'S': 0.039603960396039604, 'R': 0.029702970297029702, 'T': 0.039603960396039604, 'V': 0.0099009900990099011},  #8
+{'A': 0.029702970297029702, 'C': 0.019801980198019802, 'E': 0.0099009900990099011, 'G': 0.019801980198019802, 'F': 0.029702970297029702, 'I': 0.0099009900990099011, '-': 0.79207920792079212, 'L': 0.039603960396039604, 'P': 0.0099009900990099011, 'S': 0.0099009900990099011, 'T': 0.019801980198019802, 'V': 0.0099009900990099011},  #9
+{'-': 0.99009900990099009, 'N': 0.0099009900990099011},  #10
+{'Y': 0.0099009900990099011, '-': 0.99009900990099009},  #11
+{'-': 0.99009900990099009, 'N': 0.0099009900990099011},  #12
+{'-': 0.99009900990099009, 'T': 0.0099009900990099011},  #13
+{'-': 0.99009900990099009, 'D': 0.0099009900990099011},  #14
+{'-': 0.99009900990099009, 'T': 0.0099009900990099011},  #15
+{'Q': 0.0099009900990099011, '-': 0.99009900990099009},  #16
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #17
+{'-': 0.99009900990099009, 'V': 0.0099009900990099011},  #18
+{'-': 0.99009900990099009, 'N': 0.0099009900990099011},  #19
+{'C': 0.0099009900990099011, '-': 0.99009900990099009},  #20
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #21
+{'S': 0.0099009900990099011, '-': 0.99009900990099009},  #22
+{'S': 0.0099009900990099011, '-': 0.99009900990099009},  #23
+{'P': 0.0099009900990099011, '-': 0.99009900990099009},  #24
+{'-': 0.99009900990099009, 'T': 0.0099009900990099011},  #25
+{'-': 0.99009900990099009, 'D': 0.0099009900990099011},  #26
+{'-': 0.99009900990099009, 'G': 0.0099009900990099011},  #27
+{'-': 0.99009900990099009, 'T': 0.0099009900990099011},  #28
+{'P': 0.0099009900990099011, '-': 0.99009900990099009},  #29
+{'S': 0.0099009900990099011, '-': 0.99009900990099009},  #30
+{'P': 0.0099009900990099011, '-': 0.99009900990099009},  #31
+{'-': 0.99009900990099009, 'V': 0.0099009900990099011},  #32
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #33
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #34
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #35
+{'-': 0.99009900990099009, 'N': 0.0099009900990099011},  #36
+{'Y': 0.0099009900990099011, '-': 0.99009900990099009},  #37
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #38
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #39
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #40
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #41
+{'P': 0.0099009900990099011, '-': 0.98019801980198018, 'L': 0.0099009900990099011},  #42
+{'A': 0.029702970297029702, 'C': 0.0099009900990099011, 'D': 0.0099009900990099011, 'F': 0.0099009900990099011, 'I': 0.0099009900990099011, '-': 0.85148514851485146, 'M': 0.029702970297029702, 'S': 0.019801980198019802, 'R': 0.0099009900990099011, 'T': 0.0099009900990099011, 'W': 0.0099009900990099011},  #43
+{'A': 0.019801980198019802, 'C': 0.0099009900990099011, 'E': 0.0099009900990099011, 'D': 0.0099009900990099011, 'F': 0.0099009900990099011, '-': 0.88118811881188119, 'L': 0.0099009900990099011, 'P': 0.019801980198019802, 'S': 0.0099009900990099011, 'T': 0.0099009900990099011, 'Y': 0.0099009900990099011},  #44
+{'-': 0.99009900990099009, 'E': 0.0099009900990099011},  #45
+{'-': 0.99009900990099009, 'V': 0.0099009900990099011},  #46
+{'R': 0.0099009900990099011, '-': 0.97029702970297027, 'L': 0.0099009900990099011, 'N': 0.0099009900990099011},  #47
+{'S': 0.0099009900990099011, '-': 0.98019801980198018, 'N': 0.0099009900990099011},  #48
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #49
+{'Q': 0.0099009900990099011, '-': 0.98019801980198018, 'E': 0.0099009900990099011},  #50
+{'S': 0.0099009900990099011, '-': 0.99009900990099009},  #51
+{'-': 0.99009900990099009, 'V': 0.0099009900990099011},  #52
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #53
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #54
+{'H': 0.0099009900990099011, '-': 0.99009900990099009},  #55
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #56
+{'Y': 0.0099009900990099011, '-': 0.98019801980198018, 'F': 0.0099009900990099011},  #57
+{'A': 0.019801980198019802, '-': 0.98019801980198018},  #58
+{'-': 0.99009900990099009, 'V': 0.0099009900990099011},  #59
+{'-': 0.99009900990099009, 'V': 0.0099009900990099011},  #60
+{'-': 0.99009900990099009, 'N': 0.0099009900990099011},  #61
+{'H': 0.0099009900990099011, '-': 0.99009900990099009},  #62
+{'S': 0.0099009900990099011, '-': 0.99009900990099009},  #63
+{'-': 0.99009900990099009, 'F': 0.0099009900990099011},  #64
+{'Y': 0.0099009900990099011, '-': 0.99009900990099009},  #65
+{'-': 0.99009900990099009, 'F': 0.0099009900990099011},  #66
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #67
+{'I': 0.0099009900990099011, '-': 0.99009900990099009},  #68
+{'Q': 0.0099009900990099011, '-': 0.99009900990099009},  #69
+{'Y': 0.0099009900990099011, '-': 0.99009900990099009},  #70
+{'-': 0.98019801980198018, 'D': 0.0099009900990099011, 'N': 0.0099009900990099011},  #71
+{'-': 0.98019801980198018, 'L': 0.019801980198019802},  #72
+{'Y': 0.0099009900990099011, '-': 0.99009900990099009},  #73
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #74
+{'-': 0.99009900990099009, 'V': 0.0099009900990099011},  #75
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #76
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #77
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #78
+{'-': 0.98019801980198018, 'G': 0.0099009900990099011, 'N': 0.0099009900990099011},  #79
+{'A': 0.0099009900990099011, '-': 0.98019801980198018, 'V': 0.0099009900990099011},  #80
+{'P': 0.019801980198019802, '-': 0.98019801980198018},  #81
+{'V': 0.0099009900990099011, '-': 0.98019801980198018, 'N': 0.0099009900990099011},  #82
+{'-': 0.98019801980198018, 'K': 0.0099009900990099011, 'E': 0.0099009900990099011},  #83
+{'-': 0.98019801980198018, 'K': 0.0099009900990099011, 'E': 0.0099009900990099011},  #84
+{'K': 0.0099009900990099011, '-': 0.98019801980198018, 'D': 0.0099009900990099011},  #85
+{'A': 0.0099009900990099011, 'I': 0.0099009900990099011, '-': 0.97029702970297027, 'T': 0.0099009900990099011},  #86
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #87
+{'S': 0.0099009900990099011, '-': 0.99009900990099009},  #88
+{'A': 0.0099009900990099011, 'P': 0.0099009900990099011, '-': 0.97029702970297027, 'F': 0.0099009900990099011},  #89
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #90
+{'A': 0.0099009900990099011, 'P': 0.0099009900990099011, '-': 0.98019801980198018},  #91
+{'R': 0.0099009900990099011, '-': 0.98019801980198018, 'T': 0.0099009900990099011},  #92
+{'A': 0.0099009900990099011, '-': 0.98019801980198018, 'L': 0.0099009900990099011},  #93
+{'Q': 0.0099009900990099011, 'R': 0.0099009900990099011, '-': 0.98019801980198018},  #94
+{'-': 0.98019801980198018, 'D': 0.0099009900990099011, 'N': 0.0099009900990099011},  #95
+{'A': 0.0099009900990099011, 'R': 0.0099009900990099011, '-': 0.98019801980198018},  #96
+{'S': 0.0099009900990099011, '-': 0.97029702970297027, 'C': 0.0099009900990099011, 'L': 0.0099009900990099011},  #97
+{'P': 0.019801980198019802, 'S': 0.0099009900990099011, '-': 0.96039603960396036, 'T': 0.0099009900990099011},  #98
+{'R': 0.019801980198019802, '-': 0.98019801980198018},  #99
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #100
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #101
+{'S': 0.0099009900990099011, '-': 0.99009900990099009},  #102
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #103
+{'-': 0.99009900990099009, 'V': 0.0099009900990099011},  #104
+{'-': 0.99009900990099009, 'D': 0.0099009900990099011},  #105
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #106
+{'-': 0.99009900990099009, 'N': 0.0099009900990099011},  #107
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #108
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #109
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #110
+{'S': 0.0099009900990099011, '-': 0.99009900990099009},  #111
+{'I': 0.0099009900990099011, '-': 0.99009900990099009},  #112
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #113
+{'K': 0.0099009900990099011, '-': 0.99009900990099009},  #114
+{'-': 0.99009900990099009, 'E': 0.0099009900990099011},  #115
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #116
+{'-': 0.99009900990099009, 'D': 0.0099009900990099011},  #117
+{'-': 0.99009900990099009, 'T': 0.0099009900990099011},  #118
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #119
+{'S': 0.0099009900990099011, '-': 0.99009900990099009},  #120
+{'S': 0.0099009900990099011, '-': 0.99009900990099009},  #121
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #122
+{'P': 0.0099009900990099011, '-': 0.99009900990099009},  #123
+{'A': 0.0099009900990099011, 'P': 0.0099009900990099011, 'R': 0.019801980198019802, '-': 0.96039603960396036},  #124
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #125
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #126
+{'S': 0.0099009900990099011, '-': 0.99009900990099009},  #127
+{'-': 0.99009900990099009, 'T': 0.0099009900990099011},  #128
+{'R': 0.039603960396039604, '-': 0.96039603960396036},  #129
+{'H': 0.029702970297029702, 'R': 0.0099009900990099011, '-': 0.96039603960396036},  #130
+{'A': 0.0099009900990099011, 'P': 0.019801980198019802, '-': 0.96039603960396036, 'V': 0.0099009900990099011},  #131
+{'I': 0.0099009900990099011, '-': 0.98019801980198018, 'L': 0.0099009900990099011},  #132
+{'-': 0.98019801980198018, 'D': 0.0099009900990099011, 'V': 0.0099009900990099011},  #133
+{'S': 0.0099009900990099011, '-': 0.99009900990099009},  #134
+{'P': 0.0099009900990099011, '-': 0.99009900990099009},  #135
+{'Q': 0.0099009900990099011, '-': 0.99009900990099009},  #136
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #137
+{'A': 0.0099009900990099011, 'P': 0.0099009900990099011, 'C': 0.0099009900990099011, '-': 0.97029702970297027},  #138
+{'-': 0.98019801980198018, 'G': 0.019801980198019802},  #139
+{'-': 0.98019801980198018, 'M': 0.0099009900990099011, 'L': 0.0099009900990099011},  #140
+{'R': 0.0099009900990099011, '-': 0.98019801980198018, 'T': 0.0099009900990099011},  #141
+{'-': 0.99009900990099009, 'E': 0.0099009900990099011},  #142
+{'K': 0.0099009900990099011, '-': 0.99009900990099009},  #143
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #144
+{'R': 0.0099009900990099011, '-': 0.95049504950495045, 'T': 0.0099009900990099011, 'W': 0.0099009900990099011, 'V': 0.019801980198019802},  #145
+{'I': 0.0099009900990099011, '-': 0.87128712871287128, 'M': 0.059405940594059403, 'L': 0.049504950495049507, 'V': 0.0099009900990099011},  #146
+{'G': 0.0099009900990099011, 'I': 0.0099009900990099011, 'H': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.87128712871287128, 'L': 0.019801980198019802, 'P': 0.019801980198019802, 'S': 0.0099009900990099011, 'R': 0.039603960396039604},  #147
+{'A': 0.0099009900990099011, 'K': 0.019801980198019802, '-': 0.87128712871287128, 'S': 0.0099009900990099011, 'R': 0.079207920792079209, 'T': 0.0099009900990099011},  #148
+{'H': 0.019801980198019802, '-': 0.97029702970297027, 'V': 0.0099009900990099011},  #149
+{'S': 0.0099009900990099011, '-': 0.99009900990099009},  #150
+{'P': 0.0099009900990099011, '-': 0.99009900990099009},  #151
+{'A': 0.019801980198019802, 'F': 0.0099009900990099011, 'I': 0.0099009900990099011, 'H': 0.0099009900990099011, '-': 0.90099009900990101, 'L': 0.019801980198019802, 'S': 0.0099009900990099011, 'R': 0.0099009900990099011, 'W': 0.0099009900990099011},  #152
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #153
+{'P': 0.0099009900990099011, '-': 0.99009900990099009},  #154
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #155
+{'-': 0.99009900990099009, 'N': 0.0099009900990099011},  #156
+{'A': 0.0099009900990099011, '-': 0.93069306930693074, 'L': 0.029702970297029702, 'P': 0.0099009900990099011, 'R': 0.0099009900990099011, 'T': 0.0099009900990099011},  #157
+{'-': 0.8910891089108911, 'M': 0.019801980198019802, 'L': 0.089108910891089105},  #158
+{'A': 0.019801980198019802, 'G': 0.0099009900990099011, 'I': 0.0099009900990099011, '-': 0.88118811881188119, 'N': 0.0099009900990099011, 'P': 0.039603960396039604, 'R': 0.029702970297029702},  #159
+{'A': 0.029702970297029702, 'C': 0.019801980198019802, 'G': 0.0099009900990099011, 'F': 0.0099009900990099011, 'M': 0.0099009900990099011, '-': 0.7722772277227723, 'L': 0.069306930693069313, 'P': 0.0099009900990099011, 'S': 0.019801980198019802, 'R': 0.0099009900990099011, 'T': 0.019801980198019802, 'V': 0.0099009900990099011, 'Y': 0.0099009900990099011},  #160
+{'A': 0.049504950495049507, 'C': 0.0099009900990099011, 'F': 0.0099009900990099011, 'I': 0.039603960396039604, '-': 0.71287128712871284, 'L': 0.099009900990099015, 'P': 0.0099009900990099011, 'S': 0.019801980198019802, 'R': 0.019801980198019802, 'W': 0.0099009900990099011, 'V': 0.019801980198019802},  #161
+{'A': 0.049504950495049507, 'M': 0.019801980198019802, 'C': 0.019801980198019802, 'F': 0.019801980198019802, 'I': 0.039603960396039604, 'H': 0.0099009900990099011, '-': 0.52475247524752477, 'L': 0.16831683168316833, 'P': 0.0099009900990099011, 'S': 0.019801980198019802, 'R': 0.019801980198019802, 'T': 0.019801980198019802, 'V': 0.069306930693069313, 'Y': 0.0099009900990099011},  #162
+{'A': 0.089108910891089105, 'C': 0.019801980198019802, 'G': 0.0099009900990099011, 'F': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.67326732673267331, 'L': 0.039603960396039604, 'S': 0.069306930693069313, 'R': 0.0099009900990099011, 'T': 0.0099009900990099011, 'V': 0.059405940594059403},  #163
+{'A': 0.029702970297029702, 'G': 0.019801980198019802, 'F': 0.019801980198019802, 'I': 0.029702970297029702, 'K': 0.029702970297029702, '-': 0.50495049504950495, 'L': 0.26732673267326734, 'S': 0.059405940594059403, 'V': 0.039603960396039604},  #164
+{'A': 0.0099009900990099011, '-': 0.98019801980198018, 'F': 0.0099009900990099011},  #165
+{'A': 0.099009900990099015, 'G': 0.019801980198019802, 'I': 0.019801980198019802, '-': 0.68316831683168322, 'M': 0.029702970297029702, 'L': 0.049504950495049507, 'S': 0.039603960396039604, 'T': 0.019801980198019802, 'V': 0.039603960396039604},  #166
+{'A': 0.059405940594059403, 'G': 0.0099009900990099011, 'F': 0.029702970297029702, 'I': 0.039603960396039604, 'M': 0.019801980198019802, '-': 0.5643564356435643, 'L': 0.18811881188118812, 'N': 0.0099009900990099011, 'Q': 0.0099009900990099011, 'S': 0.019801980198019802, 'V': 0.049504950495049507},  #167
+{'A': 0.059405940594059403, 'D': 0.0099009900990099011, 'G': 0.0099009900990099011, 'F': 0.079207920792079209, 'I': 0.029702970297029702, '-': 0.61386138613861385, 'M': 0.0099009900990099011, 'L': 0.079207920792079209, 'P': 0.029702970297029702, 'S': 0.0099009900990099011, 'T': 0.039603960396039604, 'W': 0.0099009900990099011, 'V': 0.019801980198019802},  #168
+{'A': 0.069306930693069313, 'G': 0.049504950495049507, 'F': 0.039603960396039604, 'I': 0.019801980198019802, '-': 0.6633663366336634, 'L': 0.029702970297029702, 'S': 0.019801980198019802, 'T': 0.069306930693069313, 'V': 0.039603960396039604},  #169
+{'A': 0.079207920792079209, 'C': 0.0099009900990099011, 'G': 0.059405940594059403, 'F': 0.0099009900990099011, 'I': 0.019801980198019802, 'M': 0.0099009900990099011, '-': 0.5643564356435643, 'L': 0.089108910891089105, 'P': 0.019801980198019802, 'S': 0.069306930693069313, 'T': 0.019801980198019802, 'W': 0.0099009900990099011, 'V': 0.029702970297029702, 'Y': 0.0099009900990099011},  #170
+{'A': 0.079207920792079209, 'C': 0.019801980198019802, 'G': 0.029702970297029702, 'F': 0.049504950495049507, 'I': 0.0099009900990099011, '-': 0.58415841584158412, 'L': 0.089108910891089105, 'S': 0.029702970297029702, 'R': 0.0099009900990099011, 'T': 0.059405940594059403, 'V': 0.039603960396039604},  #171
+{'I': 0.0099009900990099011, 'A': 0.049504950495049507, '-': 0.93069306930693074, 'L': 0.0099009900990099011},  #172
+{'A': 0.019801980198019802, '-': 0.93069306930693074, 'N': 0.0099009900990099011, 'Q': 0.0099009900990099011, 'P': 0.0099009900990099011, 'V': 0.019801980198019802},  #173
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #174
+{'A': 0.029702970297029702, 'S': 0.0099009900990099011, '-': 0.94059405940594054, 'L': 0.019801980198019802},  #175
+{'A': 0.029702970297029702, 'Q': 0.0099009900990099011, '-': 0.94059405940594054, 'L': 0.019801980198019802},  #176
+{'P': 0.019801980198019802, '-': 0.98019801980198018},  #177
+{'H': 0.0099009900990099011, 'R': 0.0099009900990099011, '-': 0.98019801980198018},  #178
+{'P': 0.0099009900990099011, '-': 0.98019801980198018, 'T': 0.0099009900990099011},  #179
+{'A': 0.039603960396039604, '-': 0.94059405940594054, 'D': 0.0099009900990099011, 'G': 0.0099009900990099011},  #180
+{'Q': 0.0099009900990099011, 'H': 0.0099009900990099011, 'R': 0.0099009900990099011, '-': 0.95049504950495045, 'P': 0.019801980198019802},  #181
+{'A': 0.029702970297029702, 'S': 0.0099009900990099011, '-': 0.95049504950495045, 'T': 0.0099009900990099011},  #182
+{'A': 0.019801980198019802, 'P': 0.0099009900990099011, '-': 0.97029702970297027},  #183
+{'-': 0.99009900990099009, 'N': 0.0099009900990099011},  #184
+{'S': 0.0099009900990099011, '-': 0.99009900990099009},  #185
+{'S': 0.0099009900990099011, '-': 0.99009900990099009},  #186
+{'P': 0.029702970297029702, '-': 0.96039603960396036, 'V': 0.0099009900990099011},  #187
+{'-': 0.99009900990099009, 'G': 0.0099009900990099011},  #188
+{'P': 0.0099009900990099011, 'S': 0.019801980198019802, '-': 0.95049504950495045, 'T': 0.0099009900990099011, 'D': 0.0099009900990099011},  #189
+{'Q': 0.0099009900990099011, 'A': 0.019801980198019802, 'K': 0.0099009900990099011, '-': 0.95049504950495045, 'P': 0.0099009900990099011},  #190
+{'A': 0.0099009900990099011, 'P': 0.0099009900990099011, 'S': 0.0099009900990099011, '-': 0.96039603960396036, 'T': 0.0099009900990099011},  #191
+{'A': 0.039603960396039604, 'C': 0.0099009900990099011, '-': 0.93069306930693074, 'V': 0.019801980198019802},  #192
+{'A': 0.039603960396039604, 'P': 0.019801980198019802, 'S': 0.0099009900990099011, 'R': 0.019801980198019802, '-': 0.91089108910891092},  #193
+{'A': 0.039603960396039604, 'G': 0.0099009900990099011, 'F': 0.0099009900990099011, 'I': 0.0099009900990099011, 'M': 0.039603960396039604, '-': 0.76237623762376239, 'L': 0.059405940594059403, 'P': 0.0099009900990099011, 'S': 0.019801980198019802, 'R': 0.019801980198019802, 'T': 0.0099009900990099011, 'V': 0.0099009900990099011},  #194
+{'A': 0.069306930693069313, 'C': 0.0099009900990099011, 'E': 0.0099009900990099011, 'G': 0.039603960396039604, 'F': 0.019801980198019802, '-': 0.57425742574257421, 'Q': 0.0099009900990099011, 'P': 0.029702970297029702, 'S': 0.11881188118811881, 'R': 0.0099009900990099011, 'T': 0.059405940594059403, 'V': 0.049504950495049507},  #195
+{'R': 0.019801980198019802, '-': 0.97029702970297027, 'L': 0.0099009900990099011},  #196
+{'-': 0.98019801980198018, 'S': 0.0099009900990099011, 'E': 0.0099009900990099011},  #197
+{'H': 0.0099009900990099011, '-': 0.99009900990099009},  #198
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #199
+{'A': 0.059405940594059403, 'D': 0.0099009900990099011, 'G': 0.059405940594059403, 'F': 0.029702970297029702, 'I': 0.0099009900990099011, 'H': 0.0099009900990099011, '-': 0.5643564356435643, 'M': 0.0099009900990099011, 'L': 0.069306930693069313, 'N': 0.0099009900990099011, 'P': 0.029702970297029702, 'S': 0.049504950495049507, 'R': 0.019801980198019802, 'T': 0.029702970297029702, 'V': 0.039603960396039604},  #200
+{'A': 0.15841584158415842, 'G': 0.059405940594059403, 'F': 0.0099009900990099011, 'I': 0.0099009900990099011, '-': 0.51485148514851486, 'K': 0.0099009900990099011, 'M': 0.0099009900990099011, 'L': 0.029702970297029702, 'N': 0.019801980198019802, 'P': 0.059405940594059403, 'S': 0.079207920792079209, 'T': 0.019801980198019802, 'V': 0.019801980198019802},  #201
+{'A': 0.13861386138613863, 'G': 0.059405940594059403, 'I': 0.019801980198019802, 'M': 0.0099009900990099011, 'V': 0.049504950495049507, '-': 0.52475247524752477, 'L': 0.049504950495049507, 'P': 0.0099009900990099011, 'S': 0.059405940594059403, 'R': 0.019801980198019802, 'T': 0.039603960396039604, 'W': 0.0099009900990099011, 'H': 0.0099009900990099011},  #202
+{'Q': 0.0099009900990099011, '-': 0.99009900990099009},  #203
+{'-': 0.98019801980198018, 'T': 0.019801980198019802},  #204
+{'A': 0.14851485148514851, 'D': 0.039603960396039604, 'G': 0.0099009900990099011, 'F': 0.039603960396039604, 'M': 0.019801980198019802, 'K': 0.019801980198019802, '-': 0.48514851485148514, 'L': 0.029702970297029702, 'N': 0.019801980198019802, 'Q': 0.0099009900990099011, 'P': 0.0099009900990099011, 'S': 0.049504950495049507, 'R': 0.019801980198019802, 'T': 0.019801980198019802, 'W': 0.029702970297029702, 'V': 0.029702970297029702, 'Y': 0.019801980198019802},  #205
+{'A': 0.31683168316831684, 'E': 0.0099009900990099011, 'G': 0.029702970297029702, 'F': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.48514851485148514, 'L': 0.039603960396039604, 'Q': 0.019801980198019802, 'P': 0.0099009900990099011, 'S': 0.029702970297029702, 'T': 0.0099009900990099011, 'V': 0.0099009900990099011, 'Y': 0.019801980198019802},  #206
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #207
+{'A': 0.25742574257425743, 'E': 0.0099009900990099011, 'D': 0.029702970297029702, 'G': 0.049504950495049507, 'F': 0.0099009900990099011, 'I': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.47524752475247523, 'L': 0.0099009900990099011, 'N': 0.019801980198019802, 'Q': 0.029702970297029702, 'P': 0.019801980198019802, 'S': 0.049504950495049507, 'R': 0.0099009900990099011, 'V': 0.0099009900990099011},  #208
+{'A': 0.18811881188118812, 'C': 0.019801980198019802, 'E': 0.049504950495049507, 'D': 0.069306930693069313, 'G': 0.019801980198019802, 'F': 0.0099009900990099011, 'M': 0.0099009900990099011, 'K': 0.019801980198019802, '-': 0.44554455445544555, 'L': 0.019801980198019802, 'N': 0.029702970297029702, 'Q': 0.0099009900990099011, 'P': 0.0099009900990099011, 'S': 0.049504950495049507, 'R': 0.0099009900990099011, 'T': 0.029702970297029702, 'W': 0.0099009900990099011},  #209
+{'A': 0.059405940594059403, 'C': 0.29702970297029702, 'E': 0.0099009900990099011, 'D': 0.0099009900990099011, 'G': 0.019801980198019802, 'M': 0.019801980198019802, 'K': 0.039603960396039604, '-': 0.41584158415841582, 'N': 0.0099009900990099011, 'Q': 0.0099009900990099011, 'P': 0.029702970297029702, 'S': 0.0099009900990099011, 'T': 0.0099009900990099011, 'W': 0.0099009900990099011, 'V': 0.049504950495049507},  #210
+{'A': 0.059405940594059403, 'E': 0.029702970297029702, 'D': 0.019801980198019802, 'G': 0.0099009900990099011, 'M': 0.069306930693069313, '-': 0.35643564356435642, 'N': 0.0099009900990099011, 'Q': 0.019801980198019802, 'P': 0.28712871287128711, 'S': 0.049504950495049507, 'R': 0.0099009900990099011, 'T': 0.079207920792079209},  #211
+{'-': 0.99009900990099009, 'D': 0.0099009900990099011},  #212
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #213
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #214
+{'A': 0.13861386138613863, 'C': 0.0099009900990099011, 'E': 0.039603960396039604, 'D': 0.10891089108910891, 'G': 0.019801980198019802, 'K': 0.0099009900990099011, '-': 0.099009900990099015, 'L': 0.0099009900990099011, 'N': 0.049504950495049507, 'P': 0.079207920792079209, 'S': 0.22772277227722773, 'R': 0.0099009900990099011, 'T': 0.19801980198019803},  #215
+{'A': 0.059405940594059403, 'F': 0.069306930693069313, 'I': 0.19801980198019803, 'M': 0.019801980198019802, 'L': 0.38613861386138615, 'P': 0.0099009900990099011, 'S': 0.0099009900990099011, 'T': 0.019801980198019802, 'W': 0.0099009900990099011, 'V': 0.16831683168316833, 'Y': 0.049504950495049507},  #216
+{'A': 0.019801980198019802, 'H': 0.059405940594059403, 'K': 0.0099009900990099011, 'L': 0.35643564356435642, 'S': 0.019801980198019802, 'R': 0.0099009900990099011, 'T': 0.019801980198019802, 'W': 0.0099009900990099011, 'Y': 0.49504950495049505},  #217
+{'A': 0.029702970297029702, 'E': 0.019801980198019802, 'D': 0.5643564356435643, 'K': 0.019801980198019802, 'N': 0.089108910891089105, 'Q': 0.15841584158415842, 'P': 0.019801980198019802, 'S': 0.069306930693069313, 'R': 0.0099009900990099011, 'T': 0.019801980198019802},  #218
+{'A': 0.019801980198019802, 'C': 0.0099009900990099011, 'G': 0.079207920792079209, 'F': 0.38613861386138615, 'I': 0.12871287128712872, 'H': 0.10891089108910891, 'K': 0.0099009900990099011, 'L': 0.099009900990099015, 'N': 0.0099009900990099011, 'Q': 0.019801980198019802, 'R': 0.0099009900990099011, 'V': 0.089108910891089105, 'Y': 0.029702970297029702},  #219
+{'A': 0.029702970297029702, 'E': 0.27722772277227725, 'D': 0.049504950495049507, 'G': 0.019801980198019802, 'H': 0.019801980198019802, 'K': 0.019801980198019802, 'M': 0.0099009900990099011, 'N': 0.059405940594059403, 'Q': 0.049504950495049507, 'P': 0.079207920792079209, 'S': 0.22772277227722773, 'R': 0.0099009900990099011, 'T': 0.12871287128712872, 'V': 0.019801980198019802},  #220
+{'A': 0.32673267326732675, 'C': 0.0099009900990099011, 'F': 0.11881188118811881, 'I': 0.059405940594059403, 'K': 0.019801980198019802, 'M': 0.049504950495049507, 'L': 0.12871287128712872, 'Q': 0.019801980198019802, 'T': 0.0099009900990099011, 'V': 0.19801980198019803, 'Y': 0.059405940594059403},  #221
+{'A': 0.0099009900990099011, 'E': 0.039603960396039604, 'D': 0.029702970297029702, 'F': 0.0099009900990099011, 'I': 0.0099009900990099011, 'H': 0.0099009900990099011, 'K': 0.18811881188118812, 'L': 0.029702970297029702, 'N': 0.029702970297029702, 'Q': 0.059405940594059403, 'P': 0.13861386138613863, 'S': 0.019801980198019802, 'R': 0.21782178217821782, 'T': 0.17821782178217821, 'V': 0.029702970297029702},  #222
+{'A': 0.059405940594059403, 'E': 0.0099009900990099011, 'D': 0.099009900990099015, 'K': 0.19801980198019803, 'L': 0.059405940594059403, 'Q': 0.019801980198019802, 'P': 0.049504950495049507, 'S': 0.13861386138613863, 'R': 0.13861386138613863, 'T': 0.22772277227722773},  #223
+{'A': 0.019801980198019802, 'I': 0.29702970297029702, 'M': 0.039603960396039604, 'L': 0.60396039603960394, 'N': 0.029702970297029702, 'P': 0.0099009900990099011},  #224
+{'A': 0.079207920792079209, 'E': 0.059405940594059403, 'D': 0.23762376237623761, 'G': 0.019801980198019802, 'H': 0.059405940594059403, 'K': 0.059405940594059403, 'N': 0.12871287128712872, 'Q': 0.15841584158415842, 'S': 0.059405940594059403, 'R': 0.099009900990099015, 'T': 0.029702970297029702, 'V': 0.0099009900990099011},  #225
+{'A': 0.039603960396039604, 'D': 0.11881188118811881, 'G': 0.049504950495049507, '-': 0.64356435643564358, 'S': 0.13861386138613863, 'T': 0.0099009900990099011},  #226
+{'Q': 0.019801980198019802, 'K': 0.10891089108910891, '-': 0.85148514851485146, 'S': 0.019801980198019802},  #227
+{'A': 0.0099009900990099011, 'E': 0.089108910891089105, 'D': 0.059405940594059403, 'G': 0.65346534653465349, 'K': 0.0099009900990099011, '-': 0.12871287128712872, 'Q': 0.019801980198019802, 'R': 0.0099009900990099011, 'T': 0.019801980198019802},  #228
+{'A': 0.099009900990099015, 'E': 0.30693069306930693, 'D': 0.039603960396039604, 'G': 0.089108910891089105, 'H': 0.019801980198019802, 'K': 0.16831683168316833, 'N': 0.019801980198019802, 'Q': 0.14851485148514851, 'S': 0.0099009900990099011, 'R': 0.019801980198019802, 'T': 0.079207920792079209},  #229
+{'A': 0.029702970297029702, 'C': 0.0099009900990099011, 'E': 0.13861386138613863, 'D': 0.099009900990099015, 'I': 0.0099009900990099011, 'K': 0.019801980198019802, 'M': 0.0099009900990099011, 'L': 0.0099009900990099011, 'N': 0.049504950495049507, 'Q': 0.099009900990099015, 'P': 0.27722772277227725, 'S': 0.069306930693069313, 'R': 0.0099009900990099011, 'T': 0.14851485148514851, 'V': 0.0099009900990099011, 'Y': 0.0099009900990099011},  #230
+{'A': 0.049504950495049507, 'I': 0.13861386138613863, 'K': 0.089108910891089105, 'M': 0.0099009900990099011, 'L': 0.039603960396039604, 'Q': 0.23762376237623761, 'R': 0.019801980198019802, 'T': 0.099009900990099015, 'V': 0.29702970297029702, 'Y': 0.019801980198019802},  #231
+{'A': 0.029702970297029702, 'E': 0.039603960396039604, 'D': 0.14851485148514851, 'H': 0.0099009900990099011, 'K': 0.0099009900990099011, 'L': 0.0099009900990099011, 'N': 0.19801980198019803, 'Q': 0.0099009900990099011, 'P': 0.12871287128712872, 'S': 0.29702970297029702, 'R': 0.019801980198019802, 'T': 0.089108910891089105, 'V': 0.0099009900990099011},  #232
+{'P': 0.0099009900990099011, 'M': 0.059405940594059403, 'L': 0.87128712871287128, 'F': 0.059405940594059403},  #233
+{'Q': 0.019801980198019802, 'C': 0.17821782178217821, '-': 0.7722772277227723, 'N': 0.029702970297029702},  #234
+{'A': 0.23762376237623761, 'C': 0.12871287128712872, 'E': 0.18811881188118812, 'D': 0.059405940594059403, 'G': 0.059405940594059403, 'K': 0.089108910891089105, 'L': 0.0099009900990099011, 'N': 0.0099009900990099011, 'Q': 0.049504950495049507, 'S': 0.12871287128712872, 'R': 0.039603960396039604},  #235
+{'A': 0.059405940594059403, 'E': 0.10891089108910891, 'D': 0.23762376237623761, 'G': 0.0099009900990099011, 'I': 0.0099009900990099011, 'K': 0.019801980198019802, '-': 0.0099009900990099011, 'L': 0.049504950495049507, 'N': 0.0099009900990099011, 'Q': 0.26732673267326734, 'P': 0.019801980198019802, 'S': 0.029702970297029702, 'R': 0.079207920792079209, 'T': 0.079207920792079209, 'V': 0.0099009900990099011},  #236
+{'A': 0.0099009900990099011, 'F': 0.16831683168316833, 'H': 0.0099009900990099011, 'L': 0.029702970297029702, 'T': 0.039603960396039604, 'W': 0.029702970297029702, 'Y': 0.71287128712871284},  #237
+{'A': 0.25742574257425743, 'E': 0.049504950495049507, 'G': 0.069306930693069313, 'H': 0.0099009900990099011, 'K': 0.22772277227722773, 'N': 0.0099009900990099011, 'Q': 0.11881188118811881, 'S': 0.019801980198019802, 'R': 0.21782178217821782, 'T': 0.0099009900990099011, 'V': 0.0099009900990099011},  #238
+{'A': 0.0099009900990099011, 'D': 0.059405940594059403, 'G': 0.92079207920792083, 'N': 0.0099009900990099011},  #239
+{'D': 0.019801980198019802, 'H': 0.029702970297029702, 'K': 0.76237623762376239, 'N': 0.019801980198019802, 'Q': 0.11881188118811881, 'R': 0.029702970297029702, 'T': 0.019801980198019802},  #240
+{'A': 0.089108910891089105, 'P': 0.13861386138613863, 'V': 0.70297029702970293, 'T': 0.059405940594059403, 'L': 0.0099009900990099011},  #241
+{'A': 0.019801980198019802, 'I': 0.0099009900990099011, 'M': 0.089108910891089105, 'L': 0.5544554455445545, 'T': 0.0099009900990099011, 'V': 0.31683168316831684},  #242
+{'I': 0.0099009900990099011, 'M': 0.019801980198019802, 'L': 0.88118811881188119, 'V': 0.089108910891089105},  #243
+{'I': 0.45544554455445546, 'A': 0.0099009900990099011, 'V': 0.49504950495049505, 'L': 0.029702970297029702, 'F': 0.0099009900990099011},  #244
+{'I': 0.019801980198019802, 'V': 0.98019801980198018},  #245
+{'N': 1.0},  #246
+{'T': 0.81188118811881194, 'V': 0.18811881188118812},  #247
+{'A': 1.0},  #248
+{'S': 0.99009900990099009, 'T': 0.0099009900990099011},  #249
+{'A': 0.049504950495049507, 'E': 0.089108910891089105, 'F': 0.059405940594059403, 'H': 0.039603960396039604, 'K': 0.39603960396039606, 'N': 0.049504950495049507, 'Q': 0.12871287128712872, 'R': 0.059405940594059403, 'Y': 0.12871287128712872},  #250
+{'C': 0.99009900990099009, 'U': 0.0099009900990099011},  #251
+{'G': 1.0},  #252
+{'A': 0.0099009900990099011, 'Y': 0.12871287128712872, 'F': 0.74257425742574257, 'L': 0.10891089108910891, 'N': 0.0099009900990099011},  #253
+{'A': 0.019801980198019802, 'T': 0.98019801980198018},  #254
+{'G': 0.049504950495049507, 'K': 0.019801980198019802, 'Q': 0.0099009900990099011, 'P': 0.83168316831683164, 'S': 0.059405940594059403, 'Y': 0.029702970297029702},  #255
+{'Q': 0.99009900990099009, 'H': 0.0099009900990099011},  #256
+{'Y': 0.67326732673267331, 'L': 0.0099009900990099011, 'F': 0.31683168316831684},  #257
+{'A': 0.15841584158415842, 'E': 0.40594059405940597, 'D': 0.039603960396039604, 'G': 0.0099009900990099011, 'K': 0.28712871287128711, 'Q': 0.069306930693069313, 'S': 0.0099009900990099011, 'R': 0.0099009900990099011, 'T': 0.0099009900990099011},  #258
+{'Q': 0.029702970297029702, 'A': 0.039603960396039604, 'E': 0.029702970297029702, 'D': 0.0099009900990099011, 'G': 0.8910891089108911},  #259
+{'M': 0.0099009900990099011, 'L': 0.99009900990099009},  #260
+{'Q': 0.18811881188118812, 'E': 0.81188118811881194},  #261
+{'A': 0.40594059405940597, 'E': 0.13861386138613863, 'D': 0.039603960396039604, 'K': 0.20792079207920791, 'Q': 0.059405940594059403, 'S': 0.079207920792079209, 'R': 0.039603960396039604, 'T': 0.029702970297029702},  #262
+{'I': 0.029702970297029702, 'M': 0.0099009900990099011, 'L': 0.8910891089108911, 'T': 0.019801980198019802, 'V': 0.049504950495049507},  #263
+{'D': 0.0099009900990099011, 'F': 0.0099009900990099011, 'H': 0.24752475247524752, 'N': 0.029702970297029702, 'Q': 0.079207920792079209, 'W': 0.069306930693069313, 'Y': 0.5544554455445545},  #264
+{'A': 0.10891089108910891, 'E': 0.18811881188118812, 'D': 0.099009900990099015, 'G': 0.019801980198019802, 'K': 0.15841584158415842, 'L': 0.019801980198019802, 'Q': 0.25742574257425743, 'S': 0.029702970297029702, 'R': 0.10891089108910891, 'W': 0.0099009900990099011},  #265
+{'A': 0.029702970297029702, 'E': 0.069306930693069313, 'D': 0.049504950495049507, 'K': 0.25742574257425743, 'M': 0.0099009900990099011, 'L': 0.0099009900990099011, 'N': 0.029702970297029702, 'Q': 0.13861386138613863, 'S': 0.0099009900990099011, 'R': 0.29702970297029702, 'T': 0.099009900990099015},  #266
+{'Y': 0.84158415841584155, 'Q': 0.0099009900990099011, 'F': 0.069306930693069313, 'L': 0.059405940594059403, 'H': 0.019801980198019802},  #267
+{'A': 0.13861386138613863, 'E': 0.0099009900990099011, 'G': 0.089108910891089105, 'H': 0.029702970297029702, 'K': 0.41584158415841582, 'N': 0.0099009900990099011, 'Q': 0.089108910891089105, 'S': 0.0099009900990099011, 'R': 0.18811881188118812, 'V': 0.019801980198019802},  #268
+{'A': 0.069306930693069313, 'E': 0.11881188118811881, 'D': 0.62376237623762376, 'G': 0.059405940594059403, 'Q': 0.0099009900990099011, 'P': 0.029702970297029702, 'S': 0.079207920792079209, 'T': 0.0099009900990099011},  #269
+{'A': 0.0099009900990099011, 'E': 0.0099009900990099011, 'D': 0.0099009900990099011, 'K': 0.23762376237623761, 'L': 0.0099009900990099011, 'N': 0.0099009900990099011, 'Q': 0.26732673267326734, 'S': 0.0099009900990099011, 'R': 0.43564356435643564},  #270
+{'E': 0.0099009900990099011, 'D': 0.019801980198019802, 'G': 0.97029702970297027},  #271
+{'F': 0.35643564356435642, 'L': 0.63366336633663367, 'V': 0.0099009900990099011},  #272
+{'A': 0.099009900990099015, 'C': 0.0099009900990099011, 'E': 0.18811881188118812, 'D': 0.0099009900990099011, 'I': 0.0099009900990099011, 'K': 0.0099009900990099011, 'M': 0.019801980198019802, 'Q': 0.019801980198019802, 'S': 0.029702970297029702, 'T': 0.11881188118811881, 'V': 0.48514851485148514},  #273
+{'I': 0.12871287128712872, 'M': 0.029702970297029702, 'L': 0.019801980198019802, 'V': 0.82178217821782173},  #274
+{'I': 0.089108910891089105, 'L': 0.84158415841584155, 'V': 0.069306930693069313},  #275
+{'A': 0.049504950495049507, 'S': 0.0099009900990099011, 'G': 0.94059405940594054},  #276
+{'F': 0.83168316831683164, 'M': 0.0099009900990099011, 'V': 0.15841584158415842},  #277
+{'A': 0.019801980198019802, 'P': 0.97029702970297027, 'S': 0.0099009900990099011},  #278
+{'A': 0.0099009900990099011, 'C': 0.57425742574257421, 'S': 0.41584158415841582},  #279
+{'H': 0.019801980198019802, 'D': 0.16831683168316833, 'N': 0.81188118811881194},  #280
+{'Q': 0.5544554455445545, 'E': 0.0099009900990099011, 'D': 0.42574257425742573, 'N': 0.0099009900990099011},  #281
+{'F': 1.0},  #282
+{'A': 0.11881188118811881, 'E': 0.0099009900990099011, 'G': 0.52475247524752477, 'F': 0.059405940594059403, 'H': 0.0099009900990099011, 'K': 0.079207920792079209, 'M': 0.059405940594059403, 'L': 0.0099009900990099011, 'N': 0.039603960396039604, 'Q': 0.0099009900990099011, 'S': 0.029702970297029702, 'R': 0.039603960396039604, 'V': 0.0099009900990099011},  #283
+{'A': 0.12871287128712872, 'E': 0.029702970297029702, 'D': 0.0099009900990099011, 'G': 0.24752475247524752, 'F': 0.0099009900990099011, 'H': 0.069306930693069313, 'K': 0.089108910891089105, '-': 0.26732673267326734, 'N': 0.069306930693069313, 'Q': 0.029702970297029702, 'S': 0.029702970297029702, 'R': 0.019801980198019802},  #284
+{'Q': 1.0},  #285
+{'E': 0.85148514851485146, 'D': 0.13861386138613863, 'N': 0.0099009900990099011},  #286
+{'A': 0.039603960396039604, 'E': 0.049504950495049507, 'D': 0.049504950495049507, 'K': 0.019801980198019802, 'L': 0.0099009900990099011, 'Q': 0.019801980198019802, 'P': 0.71287128712871284, 'S': 0.059405940594059403, 'R': 0.0099009900990099011, 'T': 0.029702970297029702},  #287
+{'A': 0.049504950495049507, 'D': 0.049504950495049507, 'G': 0.80198019801980203, 'K': 0.049504950495049507, 'N': 0.029702970297029702, 'S': 0.019801980198019802},  #288
+{'A': 0.0099009900990099011, 'E': 0.019801980198019802, 'D': 0.31683168316831684, 'G': 0.019801980198019802, 'N': 0.069306930693069313, 'S': 0.44554455445544555, 'T': 0.11881188118811881},  #289
+{'A': 0.20792079207920791, 'E': 0.35643564356435642, 'D': 0.079207920792079209, 'G': 0.019801980198019802, 'H': 0.0099009900990099011, 'M': 0.0099009900990099011, 'N': 0.20792079207920791, 'S': 0.099009900990099015, 'T': 0.0099009900990099011},  #290
+{'A': 0.15841584158415842, 'E': 0.32673267326732675, 'D': 0.11881188118811881, 'G': 0.069306930693069313, 'K': 0.16831683168316833, 'Q': 0.039603960396039604, 'S': 0.089108910891089105, 'T': 0.029702970297029702},  #291
+{'Q': 0.17821782178217821, 'A': 0.039603960396039604, 'K': 0.079207920792079209, 'E': 0.59405940594059403, 'D': 0.10891089108910891},  #292
+{'I': 0.7722772277227723, 'A': 0.029702970297029702, 'T': 0.15841584158415842, 'V': 0.039603960396039604},  #293
+{'A': 0.49504950495049505, 'E': 0.0099009900990099011, 'G': 0.11881188118811881, 'K': 0.10891089108910891, 'M': 0.0099009900990099011, 'N': 0.0099009900990099011, 'Q': 0.11881188118811881, 'S': 0.079207920792079209, 'R': 0.039603960396039604, 'T': 0.0099009900990099011},  #294
+{'A': 0.12871287128712872, 'E': 0.24752475247524752, 'D': 0.11881188118811881, 'G': 0.0099009900990099011, 'K': 0.099009900990099015, 'N': 0.059405940594059403, 'Q': 0.11881188118811881, 'S': 0.10891089108910891, 'R': 0.029702970297029702, 'T': 0.079207920792079209},  #295
+{'I': 0.029702970297029702, 'F': 0.81188118811881194, 'V': 0.12871287128712872, 'L': 0.019801980198019802, 'N': 0.0099009900990099011},  #296
+{'C': 1.0},  #297
+{'E': 0.23762376237623761, 'D': 0.029702970297029702, 'F': 0.049504950495049507, 'K': 0.039603960396039604, 'Q': 0.14851485148514851, 'S': 0.24752475247524752, 'R': 0.029702970297029702, 'T': 0.079207920792079209, 'Y': 0.13861386138613863},  #298
+{'A': 0.049504950495049507, 'E': 0.0099009900990099011, 'G': 0.0099009900990099011, 'I': 0.059405940594059403, 'K': 0.079207920792079209, 'M': 0.0099009900990099011, 'L': 0.37623762376237624, 'N': 0.089108910891089105, 'S': 0.039603960396039604, 'R': 0.079207920792079209, 'T': 0.099009900990099015, 'V': 0.099009900990099015},  #299
+{'N': 0.5643564356435643, 'K': 0.039603960396039604, 'R': 0.049504950495049507, 'T': 0.32673267326732675, 'D': 0.019801980198019802},  #300
+{'Y': 0.7722772277227723, 'F': 0.22772277227722773},  #301
+{'A': 0.019801980198019802, 'D': 0.11881188118811881, 'G': 0.80198019801980203, 'H': 0.019801980198019802, 'K': 0.0099009900990099011, 'N': 0.0099009900990099011, 'S': 0.0099009900990099011, 'R': 0.0099009900990099011},  #302
+{'I': 0.019801980198019802, 'L': 0.0099009900990099011, 'V': 0.97029702970297027},  #303
+{'E': 0.0099009900990099011, 'D': 0.049504950495049507, 'K': 0.14851485148514851, 'N': 0.019801980198019802, 'Q': 0.0099009900990099011, 'S': 0.27722772277227725, 'R': 0.039603960396039604, 'T': 0.44554455445544555},  #304
+{'L': 0.0099009900990099011, 'F': 0.99009900990099009},  #305
+{'A': 0.029702970297029702, 'D': 0.019801980198019802, 'N': 0.0099009900990099011, 'Q': 0.0099009900990099011, 'P': 0.83168316831683164, 'T': 0.099009900990099015},  #306
+{'I': 0.019801980198019802, 'M': 0.73267326732673266, 'L': 0.21782178217821782, 'V': 0.029702970297029702},  #307
+{'A': 0.0099009900990099011, 'G': 0.0099009900990099011, 'F': 0.62376237623762376, 'I': 0.019801980198019802, 'H': 0.0099009900990099011, 'M': 0.11881188118811881, 'L': 0.049504950495049507, 'T': 0.13861386138613863, 'V': 0.0099009900990099011, 'Y': 0.0099009900990099011},  #308
+{'A': 0.45544554455445546, 'E': 0.21782178217821782, 'D': 0.049504950495049507, 'G': 0.029702970297029702, 'K': 0.039603960396039604, 'Q': 0.049504950495049507, 'S': 0.12871287128712872, 'R': 0.0099009900990099011, 'T': 0.019801980198019802},  #309
+{'A': 0.019801980198019802, 'E': 0.0099009900990099011, 'I': 0.0099009900990099011, 'K': 0.80198019801980203, 'P': 0.079207920792079209, 'R': 0.019801980198019802, 'T': 0.059405940594059403},  #310
+{'A': 0.029702970297029702, 'E': 0.0099009900990099011, 'I': 0.34653465346534651, 'H': 0.0099009900990099011, 'M': 0.0099009900990099011, 'L': 0.019801980198019802, 'Q': 0.069306930693069313, 'S': 0.11881188118811881, 'T': 0.10891089108910891, 'V': 0.27722772277227725},  #311
+{'A': 0.059405940594059403, 'E': 0.12871287128712872, 'D': 0.41584158415841582, 'H': 0.11881188118811881, 'K': 0.029702970297029702, 'N': 0.019801980198019802, 'P': 0.069306930693069313, 'S': 0.11881188118811881, 'R': 0.0099009900990099011, 'T': 0.019801980198019802, 'V': 0.0099009900990099011},  #312
+{'L': 0.0099009900990099011, 'V': 0.99009900990099009},  #313
+{'K': 0.16831683168316833, 'L': 0.029702970297029702, 'N': 0.52475247524752477, 'S': 0.039603960396039604, 'R': 0.13861386138613863, 'T': 0.059405940594059403, 'V': 0.039603960396039604},  #314
+{'K': 0.019801980198019802, 'G': 0.98019801980198018},  #315
+{'A': 0.20792079207920791, 'E': 0.089108910891089105, 'D': 0.17821782178217821, 'G': 0.099009900990099015, 'K': 0.079207920792079209, 'N': 0.039603960396039604, 'P': 0.12871287128712872, 'S': 0.14851485148514851, 'R': 0.019801980198019802, 'T': 0.0099009900990099011},  #316
+{'A': 0.059405940594059403, 'E': 0.10891089108910891, 'D': 0.26732673267326734, 'G': 0.17821782178217821, 'H': 0.0099009900990099011, 'K': 0.029702970297029702, 'N': 0.23762376237623761, 'Q': 0.079207920792079209, 'S': 0.0099009900990099011, 'T': 0.019801980198019802},  #317
+{'A': 0.76237623762376239, 'E': 0.0099009900990099011, 'K': 0.029702970297029702, 'Q': 0.049504950495049507, 'P': 0.0099009900990099011, 'S': 0.0099009900990099011, 'R': 0.079207920792079209, 'T': 0.029702970297029702, 'V': 0.019801980198019802},  #318
+{'D': 0.069306930693069313, 'I': 0.039603960396039604, 'H': 0.58415841584158412, 'L': 0.0099009900990099011, 'N': 0.14851485148514851, 'P': 0.0099009900990099011, 'S': 0.059405940594059403, 'T': 0.079207920792079209},  #319
+{'A': 0.019801980198019802, 'D': 0.0099009900990099011, 'H': 0.0099009900990099011, 'L': 0.0099009900990099011, 'Q': 0.0099009900990099011, 'P': 0.8910891089108911, 'S': 0.029702970297029702, 'T': 0.0099009900990099011, 'V': 0.0099009900990099011},  #320
+{'I': 0.029702970297029702, 'F': 0.039603960396039604, 'M': 0.019801980198019802, 'L': 0.81188118811881194, 'V': 0.099009900990099015},  #321
+{'Y': 0.58415841584158412, 'W': 0.019801980198019802, 'F': 0.39603960396039606},  #322
+{'A': 0.099009900990099015, 'E': 0.029702970297029702, 'D': 0.019801980198019802, 'H': 0.0099009900990099011, 'K': 0.19801980198019803, 'Q': 0.19801980198019803, 'S': 0.0099009900990099011, 'R': 0.31683168316831684, 'T': 0.069306930693069313, 'V': 0.049504950495049507},  #323
+{'A': 0.029702970297029702, 'E': 0.12871287128712872, 'D': 0.0099009900990099011, 'G': 0.029702970297029702, 'F': 0.079207920792079209, 'H': 0.069306930693069313, 'M': 0.029702970297029702, 'L': 0.029702970297029702, 'N': 0.0099009900990099011, 'Q': 0.089108910891089105, 'S': 0.0099009900990099011, 'R': 0.039603960396039604, 'T': 0.019801980198019802, 'W': 0.18811881188118812, 'V': 0.0099009900990099011, 'Y': 0.22772277227722773},  #324
+{'A': 0.019801980198019802, 'I': 0.019801980198019802, 'M': 0.0099009900990099011, 'L': 0.94059405940594054, 'V': 0.0099009900990099011},  #325
+{'A': 0.26732673267326734, 'D': 0.0099009900990099011, 'G': 0.019801980198019802, 'I': 0.019801980198019802, 'K': 0.29702970297029702, 'N': 0.0099009900990099011, 'Q': 0.0099009900990099011, 'S': 0.0099009900990099011, 'R': 0.019801980198019802, 'T': 0.28712871287128711, 'V': 0.049504950495049507},  #326
+{'A': 0.10891089108910891, 'E': 0.19801980198019803, 'D': 0.099009900990099015, 'G': 0.049504950495049507, 'H': 0.019801980198019802, 'K': 0.19801980198019803, 'L': 0.0099009900990099011, 'N': 0.039603960396039604, 'Q': 0.13861386138613863, 'S': 0.069306930693069313, 'R': 0.059405940594059403, 'T': 0.0099009900990099011},  #327
+{'A': 0.19801980198019803, 'E': 0.32673267326732675, 'D': 0.0099009900990099011, 'F': 0.0099009900990099011, 'H': 0.029702970297029702, 'K': 0.089108910891089105, 'L': 0.019801980198019802, 'N': 0.0099009900990099011, 'Q': 0.21782178217821782, 'S': 0.019801980198019802, 'R': 0.029702970297029702, 'T': 0.0099009900990099011, 'V': 0.029702970297029702},  #328
+{'A': 0.38613861386138615, 'G': 0.0099009900990099011, 'K': 0.14851485148514851, 'L': 0.0099009900990099011, 'Q': 0.039603960396039604, 'P': 0.019801980198019802, 'S': 0.17821782178217821, 'R': 0.0099009900990099011, 'T': 0.17821782178217821, 'V': 0.019801980198019802},  #329
+{'A': 0.039603960396039604, 'D': 0.049504950495049507, 'G': 0.089108910891089105, 'K': 0.12871287128712872, '-': 0.35643564356435642, 'L': 0.0099009900990099011, 'P': 0.20792079207920791, 'S': 0.059405940594059403, 'R': 0.029702970297029702, 'T': 0.029702970297029702},  #330
+{'A': 0.079207920792079209, 'E': 0.019801980198019802, 'D': 0.0099009900990099011, 'G': 0.76237623762376239, '-': 0.049504950495049507, 'N': 0.019801980198019802, 'Q': 0.0099009900990099011, 'P': 0.019801980198019802, 'S': 0.019801980198019802, 'T': 0.0099009900990099011},  #331
+{'A': 0.019801980198019802, 'E': 0.049504950495049507, 'D': 0.029702970297029702, 'G': 0.0099009900990099011, 'F': 0.059405940594059403, 'I': 0.069306930693069313, 'M': 0.029702970297029702, 'K': 0.029702970297029702, '-': 0.11881188118811881, 'L': 0.18811881188118812, 'Q': 0.049504950495049507, 'P': 0.029702970297029702, 'S': 0.029702970297029702, 'R': 0.019801980198019802, 'T': 0.089108910891089105, 'V': 0.17821782178217821},  #332
+{'E': 0.0099009900990099011, 'G': 0.059405940594059403, 'F': 0.019801980198019802, 'M': 0.019801980198019802, 'K': 0.019801980198019802, '-': 0.44554455445544555, 'L': 0.42574257425742573},  #333
+{'E': 0.0099009900990099011, 'G': 0.41584158415841582, 'H': 0.019801980198019802, '-': 0.49504950495049505, 'N': 0.019801980198019802, 'P': 0.0099009900990099011, 'T': 0.019801980198019802, 'Y': 0.0099009900990099011},  #334
+{'A': 0.029702970297029702, 'I': 0.029702970297029702, 'M': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.47524752475247523, 'L': 0.019801980198019802, 'N': 0.019801980198019802, 'P': 0.049504950495049507, 'S': 0.16831683168316833, 'T': 0.17821782178217821, 'V': 0.0099009900990099011},  #335
+{'E': 0.16831683168316833, 'D': 0.0099009900990099011, 'G': 0.16831683168316833, 'K': 0.13861386138613863, '-': 0.37623762376237624, 'Q': 0.019801980198019802, 'P': 0.0099009900990099011, 'S': 0.079207920792079209, 'R': 0.029702970297029702},  #336
+{'A': 0.42574257425742573, 'E': 0.039603960396039604, 'D': 0.089108910891089105, 'G': 0.059405940594059403, 'K': 0.059405940594059403, 'L': 0.0099009900990099011, 'N': 0.019801980198019802, 'Q': 0.0099009900990099011, 'P': 0.039603960396039604, 'S': 0.059405940594059403, 'R': 0.029702970297029702, 'T': 0.099009900990099015, 'V': 0.029702970297029702, 'Y': 0.029702970297029702},  #337
+{'I': 0.49504950495049505, 'P': 0.36633663366336633, 'V': 0.13861386138613863},  #338
+{'A': 0.019801980198019802, 'E': 0.0099009900990099011, 'G': 0.069306930693069313, 'K': 0.65346534653465349, 'Q': 0.039603960396039604, 'S': 0.019801980198019802, 'R': 0.15841584158415842, 'T': 0.029702970297029702},  #339
+{'W': 1.0},  #340
+{'N': 1.0},  #341
+{'F': 1.0},  #342
+{'A': 0.0099009900990099011, 'E': 0.089108910891089105, 'G': 0.029702970297029702, 'F': 0.019801980198019802, 'H': 0.15841584158415842, 'N': 0.049504950495049507, 'Q': 0.019801980198019802, 'T': 0.48514851485148514, 'Y': 0.13861386138613863},  #343
+{'K': 1.0},  #344
+{'Y': 0.35643564356435642, 'I': 0.0099009900990099011, 'F': 0.62376237623762376, 'V': 0.0099009900990099011},  #345
+{'I': 0.0099009900990099011, 'L': 0.86138613861386137, 'V': 0.12871287128712872},  #346
+{'I': 0.41584158415841582, 'M': 0.0099009900990099011, 'L': 0.079207920792079209, 'V': 0.49504950495049505},  #347
+{'A': 0.039603960396039604, 'D': 0.41584158415841582, 'G': 0.34653465346534651, 'N': 0.069306930693069313, 'S': 0.10891089108910891, 'R': 0.019801980198019802},  #348
+{'A': 0.029702970297029702, 'D': 0.0099009900990099011, 'G': 0.029702970297029702, 'K': 0.19801980198019803, 'Q': 0.019801980198019802, 'P': 0.059405940594059403, 'S': 0.029702970297029702, 'R': 0.61386138613861385, 'T': 0.0099009900990099011},  #349
+{'E': 0.089108910891089105, 'D': 0.52475247524752477, 'H': 0.0099009900990099011, 'K': 0.029702970297029702, 'N': 0.14851485148514851, 'Q': 0.099009900990099015, 'S': 0.089108910891089105, 'R': 0.0099009900990099011},  #350
+{'S': 0.0099009900990099011, 'R': 0.0099009900990099011, 'G': 0.98019801980198018},  #351
+{'A': 0.049504950495049507, 'E': 0.059405940594059403, 'D': 0.0099009900990099011, 'G': 0.0099009900990099011, 'H': 0.039603960396039604, 'K': 0.28712871287128711, 'N': 0.14851485148514851, 'Q': 0.14851485148514851, 'S': 0.029702970297029702, 'R': 0.14851485148514851, 'T': 0.069306930693069313},  #352
+{'F': 0.0099009900990099011, 'I': 0.049504950495049507, 'M': 0.0099009900990099011, 'L': 0.059405940594059403, 'Q': 0.0099009900990099011, 'P': 0.019801980198019802, 'S': 0.0099009900990099011, 'R': 0.019801980198019802, 'T': 0.049504950495049507, 'V': 0.76237623762376239},  #353
+{'A': 0.0099009900990099011, 'F': 0.019801980198019802, 'I': 0.19801980198019803, 'L': 0.15841584158415842, 'R': 0.0099009900990099011, 'T': 0.0099009900990099011, 'V': 0.58415841584158412, 'Y': 0.0099009900990099011},  #354
+{'A': 0.30693069306930693, 'E': 0.069306930693069313, 'D': 0.029702970297029702, 'G': 0.11881188118811881, 'H': 0.019801980198019802, 'K': 0.19801980198019803, 'L': 0.029702970297029702, 'N': 0.039603960396039604, 'Q': 0.069306930693069313, 'S': 0.039603960396039604, 'R': 0.049504950495049507, 'T': 0.019801980198019802, 'V': 0.0099009900990099011},  #355
+{'A': 0.039603960396039604, 'G': 0.0099009900990099011, 'H': 0.039603960396039604, 'K': 0.0099009900990099011, 'N': 0.019801980198019802, 'Q': 0.099009900990099015, 'S': 0.10891089108910891, 'R': 0.62376237623762376, 'T': 0.019801980198019802, 'W': 0.0099009900990099011, 'V': 0.019801980198019802},  #356
+{'F': 0.53465346534653468, 'I': 0.029702970297029702, 'H': 0.019801980198019802, 'R': 0.0099009900990099011, 'W': 0.019801980198019802, 'Y': 0.38613861386138615},  #357
+{'A': 0.45544554455445546, 'E': 0.029702970297029702, 'D': 0.019801980198019802, 'G': 0.11881188118811881, 'L': 0.0099009900990099011, 'N': 0.059405940594059403, 'P': 0.10891089108910891, 'S': 0.16831683168316833, 'R': 0.029702970297029702},  #358
+{'A': 0.0099009900990099011, 'P': 0.51485148514851486, 'S': 0.46534653465346537, 'T': 0.0099009900990099011},  #359
+{'A': 0.039603960396039604, 'E': 0.0099009900990099011, 'D': 0.0099009900990099011, 'G': 0.0099009900990099011, 'H': 0.0099009900990099011, 'K': 0.11881188118811881, 'M': 0.029702970297029702, 'L': 0.069306930693069313, 'N': 0.0099009900990099011, 'Q': 0.099009900990099015, 'P': 0.019801980198019802, 'S': 0.079207920792079209, 'R': 0.13861386138613863, 'T': 0.35643564356435642},  #360
+{'A': 0.019801980198019802, 'D': 0.079207920792079209, 'I': 0.029702970297029702, 'K': 0.0099009900990099011, 'L': 0.0099009900990099011, 'T': 0.63366336633663367, 'V': 0.21782178217821782},  #361
+{'A': 0.089108910891089105, 'E': 0.10891089108910891, 'D': 0.019801980198019802, 'G': 0.0099009900990099011, 'K': 0.47524752475247523, 'N': 0.019801980198019802, 'Q': 0.0099009900990099011, 'S': 0.029702970297029702, 'R': 0.059405940594059403, 'T': 0.17821782178217821},  #362
+{'P': 1.0},  #363
+{'A': 0.089108910891089105, 'E': 0.40594059405940597, 'D': 0.30693069306930693, 'G': 0.0099009900990099011, 'F': 0.0099009900990099011, 'H': 0.0099009900990099011, 'K': 0.019801980198019802, 'M': 0.0099009900990099011, 'L': 0.0099009900990099011, 'Q': 0.049504950495049507, 'S': 0.029702970297029702, 'T': 0.039603960396039604, 'V': 0.0099009900990099011},  #364
+{'A': 0.12871287128712872, 'E': 0.14851485148514851, 'D': 0.32673267326732675, 'K': 0.059405940594059403, 'N': 0.0099009900990099011, 'Q': 0.029702970297029702, 'S': 0.27722772277227725, 'R': 0.0099009900990099011, 'T': 0.0099009900990099011},  #365
+{'A': 0.13861386138613863, 'E': 0.049504950495049507, 'K': 0.019801980198019802, '-': 0.48514851485148514, 'L': 0.0099009900990099011, 'N': 0.0099009900990099011, 'Q': 0.019801980198019802, 'P': 0.21782178217821782, 'S': 0.0099009900990099011, 'R': 0.019801980198019802, 'T': 0.0099009900990099011, 'V': 0.0099009900990099011},  #366
+{'A': 0.099009900990099015, 'E': 0.18811881188118812, 'D': 0.039603960396039604, 'I': 0.0099009900990099011, 'K': 0.029702970297029702, '-': 0.48514851485148514, 'N': 0.0099009900990099011, 'Q': 0.059405940594059403, 'S': 0.019801980198019802, 'R': 0.039603960396039604, 'T': 0.0099009900990099011, 'V': 0.0099009900990099011},  #367
+{'I': 0.20792079207920791, 'V': 0.11881188118811881, 'M': 0.039603960396039604, 'L': 0.53465346534653468, 'F': 0.099009900990099015},  #368
+{'A': 0.079207920792079209, 'C': 0.0099009900990099011, 'E': 0.11881188118811881, 'G': 0.019801980198019802, 'I': 0.12871287128712872, 'K': 0.089108910891089105, 'L': 0.049504950495049507, 'N': 0.0099009900990099011, 'Q': 0.019801980198019802, 'S': 0.039603960396039604, 'R': 0.10891089108910891, 'T': 0.12871287128712872, 'V': 0.19801980198019803},  #369
+{'A': 0.34653465346534651, 'E': 0.089108910891089105, 'D': 0.039603960396039604, 'G': 0.059405940594059403, 'H': 0.0099009900990099011, 'K': 0.14851485148514851, 'N': 0.039603960396039604, 'Q': 0.099009900990099015, 'P': 0.0099009900990099011, 'S': 0.059405940594059403, 'R': 0.039603960396039604, 'T': 0.039603960396039604, 'V': 0.019801980198019802},  #370
+{'A': 0.43564356435643564, 'E': 0.11881188118811881, 'D': 0.32673267326732675, 'I': 0.0099009900990099011, 'H': 0.0099009900990099011, 'K': 0.0099009900990099011, 'Q': 0.0099009900990099011, 'S': 0.0099009900990099011, 'R': 0.029702970297029702, 'T': 0.019801980198019802, 'V': 0.019801980198019802},  #371
+{'I': 0.88118811881188119, 'R': 0.0099009900990099011, 'L': 0.019801980198019802, 'V': 0.089108910891089105},  #372
+{'A': 0.0099009900990099011, 'E': 0.81188118811881194, 'D': 0.079207920792079209, 'I': 0.0099009900990099011, 'K': 0.039603960396039604, 'Q': 0.039603960396039604, 'R': 0.0099009900990099011},  #373
+{'-': 0.99009900990099009, 'E': 0.0099009900990099011},  #374
+{'-': 0.99009900990099009, 'G': 0.0099009900990099011},  #375
+{'-': 0.99009900990099009, 'D': 0.0099009900990099011},  #376
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #377
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #378
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #379
+{'-': 0.99009900990099009, 'T': 0.0099009900990099011},  #380
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #381
+{'I': 0.0099009900990099011, '-': 0.99009900990099009},  #382
+{'P': 0.0099009900990099011, '-': 0.99009900990099009},  #383
+{'S': 0.0099009900990099011, '-': 0.99009900990099009},  #384
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #385
+{'-': 0.99009900990099009, 'F': 0.0099009900990099011},  #386
+{'-': 0.99009900990099009, 'T': 0.0099009900990099011},  #387
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #388
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #389
+{'H': 0.0099009900990099011, '-': 0.99009900990099009},  #390
+{'P': 0.0099009900990099011, '-': 0.99009900990099009},  #391
+{'S': 0.0099009900990099011, '-': 0.99009900990099009},  #392
+{'-': 0.99009900990099009, 'G': 0.0099009900990099011},  #393
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #394
+{'-': 0.99009900990099009, 'W': 0.0099009900990099011},  #395
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #396
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #397
+{'S': 0.0099009900990099011, '-': 0.99009900990099009},  #398
+{'-': 0.99009900990099009, 'V': 0.0099009900990099011},  #399
+{'C': 0.0099009900990099011, '-': 0.99009900990099009},  #400
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #401
+{'P': 0.0099009900990099011, '-': 0.99009900990099009},  #402
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #403
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #404
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #405
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #406
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #407
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #408
+{'-': 0.99009900990099009, 'T': 0.0099009900990099011},  #409
+{'Q': 0.0099009900990099011, '-': 0.99009900990099009},  #410
+{'-': 0.99009900990099009, 'F': 0.0099009900990099011},  #411
+{'-': 0.99009900990099009, 'T': 0.0099009900990099011},  #412
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #413
+{'A': 0.21782178217821782, 'E': 0.039603960396039604, 'D': 0.0099009900990099011, 'G': 0.019801980198019802, 'K': 0.36633663366336633, 'N': 0.0099009900990099011, 'Q': 0.089108910891089105, 'S': 0.10891089108910891, 'R': 0.10891089108910891, 'T': 0.029702970297029702},  #414
+{'A': 0.35643564356435642, 'C': 0.0099009900990099011, 'E': 0.059405940594059403, 'F': 0.0099009900990099011, 'I': 0.0099009900990099011, 'M': 0.0099009900990099011, 'L': 0.33663366336633666, 'Q': 0.079207920792079209, 'S': 0.0099009900990099011, 'T': 0.029702970297029702, 'V': 0.089108910891089105},  #415
+{'I': 0.039603960396039604, '-': 0.24752475247524752, 'L': 0.69306930693069302, 'V': 0.019801980198019802},  #416
+{'A': 0.19801980198019803, 'E': 0.019801980198019802, 'G': 0.0099009900990099011, 'K': 0.059405940594059403, '-': 0.64356435643564358, 'N': 0.0099009900990099011, 'P': 0.0099009900990099011, 'S': 0.0099009900990099011, 'R': 0.0099009900990099011, 'T': 0.019801980198019802, 'V': 0.0099009900990099011},  #417
+{'A': 0.029702970297029702, 'E': 0.039603960396039604, 'H': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.86138613861386137, 'Q': 0.0099009900990099011, 'S': 0.0099009900990099011, 'R': 0.0099009900990099011, 'V': 0.019801980198019802},  #418
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #419
+{'Q': 0.0099009900990099011, 'P': 0.0099009900990099011, '-': 0.98019801980198018},  #420
+{'A': 0.0099009900990099011, 'E': 0.0099009900990099011, 'G': 0.0099009900990099011, '-': 0.94059405940594054, 'Q': 0.019801980198019802, 'V': 0.0099009900990099011},  #421
+{'A': 0.029702970297029702, 'E': 0.0099009900990099011, '-': 0.87128712871287128, 'Q': 0.0099009900990099011, 'P': 0.029702970297029702, 'S': 0.039603960396039604, 'T': 0.0099009900990099011},  #422
+{'A': 0.089108910891089105, 'E': 0.0099009900990099011, 'D': 0.019801980198019802, 'G': 0.0099009900990099011, 'K': 0.019801980198019802, '-': 0.6633663366336634, 'L': 0.029702970297029702, 'Q': 0.019801980198019802, 'P': 0.049504950495049507, 'S': 0.059405940594059403, 'R': 0.0099009900990099011, 'V': 0.019801980198019802},  #423
+{'A': 0.16831683168316833, 'E': 0.029702970297029702, 'G': 0.10891089108910891, 'H': 0.029702970297029702, 'K': 0.059405940594059403, '-': 0.32673267326732675, 'L': 0.0099009900990099011, 'N': 0.0099009900990099011, 'Q': 0.029702970297029702, 'P': 0.11881188118811881, 'S': 0.059405940594059403, 'R': 0.029702970297029702, 'T': 0.019801980198019802},  #424
+{'A': 0.16831683168316833, 'C': 0.0099009900990099011, 'E': 0.039603960396039604, 'G': 0.069306930693069313, 'I': 0.0099009900990099011, 'H': 0.039603960396039604, 'K': 0.059405940594059403, 'M': 0.0099009900990099011, 'L': 0.25742574257425743, 'N': 0.019801980198019802, 'Q': 0.059405940594059403, 'P': 0.089108910891089105, 'S': 0.039603960396039604, 'R': 0.11881188118811881, 'T': 0.0099009900990099011},  #425
+]

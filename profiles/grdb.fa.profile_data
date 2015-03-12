@@ -1,0 +1,1021 @@
+# md5sum id for alignment: 7600110ea48a270e5c51f275b2adc751
+# Clustering seq id value: 0.27
+# Number of clusters: 4
+# Blast queries alignment:
+>BLAST_QUERY_1
+-----MK----------------KVVHY---------------------------INQFFAGIGGEEKADIPPEVRE-----------------------------GLV-GPGMALQ-G------------------A---LG------------------DE------------------------------------------------AEIVATVICGDSYFN--ENLEEA-KAEILEMIKKYKPDLFIAGPAFNAGRYG---------VACGTV-AKAVQEKLGIPVVTG------------------------MYPENPG--------VDMYKKDVYIVETGN-SAAGMRKALPAMAKLALKLAK----------------------------------------------GEE-----IGSPEEEGYIPRGIRVNYFAE----ERGSKRAVDMLVKKLKG--EEFETEYPMPVFD-RVE-PAPAVKDLSKAKIALVTSGGIVPKGNP-DHIESSSASKYGKYDIEGV--DDLT---SETFETAHGGYDPVY-ANEDPDRVLPVDVLRDLEKEGKIGKLHDYFYTTVGNGT--A-VANAKKFGEEIAKKLKADGVDAVILTS-U-----------------------------------------------------------------------------------------------------------------------------------------------------------------T
+>BLAST_QUERY_2
+-----MV---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------U-----------KEIE-RAGIPVVHICTVVPISLTVGANRIV-PTIAIPHPLGNPALSK-EEEKKLRRHLVEKALKALTTPVD-----------------------EQTVF--------------------------------------------------EF
+>BLAST_QUERY_3
+-----MSLT---------------I---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------VKGLQS--EIFVPITPPPVW-------TPVTKPLKDMTVALATAAGVHLKSDK-R-FNL-----AGDFTFRVIPGD-AP---SSDLMVSHGGYDNGD-VNKDINCMFPIDRLRELAKEGFIKAVAPTHIGFMGGGG--NQQKFREETGPEIAKILKEEGVDAVLLTA-U----------QRAIE-EAGIPTIIIAALPPVVRQTGTPRAVAPLVPMGANAGEPN------NVEMQTAIVKDSLEQLVKIPS-GKIVPL---------------PYEYI--------------------------------------------------AKV
+>BLAST_QUERY_4
+-----MDLV---------------VCEA---------------------------IKKDWENYLL--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------KEDLPVPRE-------------------------------------------------------------------------------------------------------------------------------------------YKIEGGLEHE-----------PVKYIEKTRSYYEA--QGFDRAYKWSDNS-AIP-WYQLSKPLSECNVTFVVTA--VPDGTI-P----KLSRQGGSFALDE------I---PETFRTDELSWDKQATHTRDRESYIPMVALQQLAAAGIIGSVSARYHFVPTEYS--Q-SNTLNSDAPAIRDACITDEVDIAILV--U----------------------------------------------------------------------------------------------------------------------------------------------------------------PL
+>BLAST_QUERY_MASTER
+-----MSKT--------------KVVHY---------------------------INQFFAGIGGEEKADIPPEVRE-----------------------------GLV-GPGMALQ-G------------------A---LG------------------DE------------------------------------------------AEIVATVICGDSYFN--ENLEEA-KAEILEMIKKYKPDLFIAGPAFNAGRYG---------VACGTV-AKAVQEKLGIPVVTG------------------------MYPENPG--------VDMYKKDVYIVETGN-SAAGMRKALPAMAKLALKLAK----------------------------------------------GEE-----IGSPEEEGYIPRGIRVNYFAE----ERGSKRAVDMLVKKLKG--EEFETEYPMPVFD-RVP-PAPAVKDLSKAKIALVTSGGIVPKGNP-DHIESSSASKYGKYDIRGVPGDDLT---SEDFETAHGGYDPVYTANEDPNRVLPVDVLRELEKEGKIGKLHDYFYTTVGNGT--AQVANAKKFGPEIAKKLKEDGVDAVILTS-U----------VKEIE-RAGIPVVHICTVVPISLTVGANRIVAPTVAIPHPLGNPALSP-EEEKKLRRKLVEKALKALTTEVD-GKIVPL---------------PEQTVF-------------------------------------------------AKT
+# Cluster alignment n.1:
+>gi|262038571|ref|ZP_06011940.1| glycine reductase, B, selenocysteine-containing [Leptotrichia goodfellowii F0264] 0.0
+-----MKK--------------YKVVHY---------------------------INQFFAGIGGEEKADHKPELRE-----------------------------GSV-GPGQALQ-E------------------A---LG------------------EE------------------------------------------------FEIVATIICGDNYFG--ENLEVA-TDTVLEMVKKYNPDVFVAGPAFNAGRYG---------VACGTV-CKAVEERLGVPSVTA------------------------EYEENPG--------VDMFRKDVIIMKTGN-SAADMRKAVKSISNIVKKLAK----------------------------------------------GEE-----ILGPAIEGYHERGIRVNYFAE----ERASERAIKMMLKKLKG--EEFETDLPMPKFD-RVDPAEPIEDIKKAKIAVVTSGGVVPTGNPDHIESSNATKYGSYSIEGM--SELS---PNDFTTIHGGYDRQFVMANPNLVVPLDVLREMEKDGEFGELYNTFFATTGTGTA-TGSAAKFGTEIGQKLIDEHVDAVILVSTUGTCTRCGATMVKGIE-KYGIPVVHMATVVPISLTIGANRIIPGVGIPYPLGDPTQGE-VDSKKIRKRMVRRALKALQTPVTEQTVFEK---DDF
+>gi|3860359|emb|CAA74651.1| glycine reductase B [Eubacterium acidaminophilum] 0.0
+-----MSK--------------IRVVHY---------------------------INQFFAGVGGEEKADIEPFIAE-----------------------------SLP-PVSQSLS-N------------------L---IK------------------DE------------------------------------------------AEVVGTVVCGDSYFG--ENLVEA-KNRILEMIKSFNPDIVVAGPAFNAGRYG---------VAAATV-TKAVQDELGIPAVTG------------------------MYIENPG--------ADMFKKYAYIISTGN-SAAAMRTALPAMAKFAMKLAK----------------------------------------------GEE-----IGGPVAEGYIERGIRFNMFKE----DRGAKRAVAMLVKKLKG--EEYETEYPMPSFD-KVEPGKAIKDMSKAKIAIVTSGGIVPKGNPDRIESSSASKYGKYDIQGI--DDLT---SEGWETAHGGHDPIYANEDADRVIPVDVLRDMEKEGVIGELHRYFYSTTGNGTA-VASSKKFAEEFTKELVADGVDAVILTSTXGTCTRCGASMVKEIE-RSGIPVVHIATVTPISLTVGANRIVPAIAIPHPLGNPALSH-EEEKALRRKIVEKALEALQTEVEEQTVFE----RNY
+>gi|42525597|ref|NP_970695.1| glycine reductase complex selenoprotein GrdB1 [Treponema denticola ATCC 35405] 4.72681e-161
+-----MIY---------------KAIHY---------------------------INQFYAGIGGESSADSGFVVLR-----------------------------DKK-GPAIGLE-G------------------L---WH------------------GK------------------------------------------------MIVTKVICCGDNYINLDRNFEEV-CRQLKKIVEEEKPDVLIAGPAFNAGRYG---------MACAKI-CDYVRSNLNLPSVTA------------------------MWHENPA--------VKIYVRNNYIISSTE-TAAGMHKTLQDLADLALKLAK----------------------------------------------KEK-----IGPARIEGYLPTGHRYNEYHK----KTGAERVVDMLLDKLNG--RPYQTEVPLRGFE-RVPPAPPIHKMNKTTIALFTTGGLVPIGNPDKLKQAFAEDFKVYDISNR--DTLP---QGVYESIHGGYDTTAASAEPNRLIPLDALRQCEAEGIIGGIYPYFGTTCGVGTN-VAVSESMGKAWARKIKEEGVGAVILTSTUGTCTRCGATICKELD-RVGIPNVHINAFTSISESVGANRIVFGGGFTAPVGNPMLPL-ERETAYRRKIVDKALEALQTEVLSPTVFTVDHDKEG
+>gi|150391323|ref|YP_001321372.1| selenoprotein B [Alkaliphilus metalliredigens QYMF] 0.0
+-----MSK--------------KRVVHY---------------------------INQFFAGIGGEEKADIKPEVRE-----------------------------GIV-GPGMALE-S------------------A---LK------------------DE------------------------------------------------IEIVATIICGDSYFN--ENVEEA-KAEVIKMVKQYKPDLFIAGPAFNAGRYG---------VACGTI-AKEVNDQLGIPVLTG------------------------MYPENPG--------ADMYKKSVYIIETGN-SAATMRKAIPAMAALALKMLK----------------------------------------------GES-----IGSPEDDKYISRGIRKNYFAE----ERGAKRAVDMLMKKLNK--EDFVTEYPMPDFD-RVEPNPAVKDLSTAKIALVTSGGIVPKHNPDRIESSSASKYGKYDISQF--KDLT---EADHETAHGGYDPTYANTDPDRVLPVDVLRDLETEGIIGKLHKYFYTTVGNGTS-VGSSKLFAAEFAKELVADGVTAVILTSTUGTCTRCGATMVKEIE-RAGIPVVHMCTIVPISLTVGANRIVPTIAIPHPLGNPALDE-KDEKSLRKKLVVKALKALTTEVDGQTVF------ED
+>gi|11065689|emb|CAC14301.1| 47 subunit of Protein B [Clostridium sticklandii] 0.0
+-----MGK--------------VKVVHY---------------------------LNQFFAGIGGEEKADTLPHIAE-----------------------------SQP-PISQQLQ-K------------------L---IE------------------ED------------------------------------------------AEIVGVVVCGDSYFN--ENLEEA-KAKVLEMIKSFNPDILIAGPAFNAGRYG---------MACGTV-VKMVQDELNLKAFTA------------------------MYEENPG--------LDVFRKEVYVIPTSD-SAAGMRKALPAVAKFATKLAK----------------------------------------------GEE-----ILSPQEDGYFARGVRVNAFVD----ERGSMRAVKMLVKKLKG--EEFETEYPMPVFD-RVAPNPAVKDITKAKIALVTSGGIVPKHNPDHIESSSASKYGRYDISSF--DKLS---EADHETAHGGYDPTYANNEPDRVLPVDVLRDLEKEGKIGELFKYFYTTVGNGTS-VANSKQFAQEFSKELLENKVDAVILTSTUGTCTRCGATMVKEIE-RAGIPVVHMCTVVPISLTVGANRIIPTIAIPHPLGNPALDA-AEEKQLRRKLVEKALKALETEVEDQTVF------ED
+>gi|205831502|sp|O86186.3|GRDF_EUBAC RecName: Full=Sarcosine reductase complex component B subunit beta_ AltName: Full=Selenoprotein PB beta 0.0
+-----MKK--------------LKVVHY---------------------------INNFFAGVGGEEKANIPPEMRE-----------------------------GAV-GPGMALA-A------------------A---LG------------------DE------------------------------------------------AEVVATVICGDSYYG--ENMDSA-RKEILEMIKDAQPDAFVAGPAFNAGRYG---------VACGSI-AKAVEEDLGIPSVTG------------------------MYVENPG--------VDMYRKDIQIIETGN-SAADLRNSMPKLAKLVMKKAK----------------------------------------------GEL-----VGPPEVEGYHMMGIRTNFFHE----KRGSERAIDMLVNKLNG--EKFETEYPMPVFD-RVPPNPAVKDMSKVKVAIVTSGGIVPHDNPDRIESSSATRYGIYDITGM--DSMS---ADDFTSIHGGYDRAFVVKDPNLVVPLDVMRDLEREGVIGELANYFVSTTGTGTS-VGNAKGFGESFSKKLIEDGVGAVILTSTUGTCTRCGATMVKEIE-RAGIPVVHLATVVPISLTIGANRIVPAIGIPHPLGDPALDA-KGDKKLRRELVMRGLKALQTEVDEQTVF------EG
+>gi|212287931|sp|P52217.2|GRDB_CLOLI RecName: Full=Glycine reductase complex component B subunit gamma_ AltName: Full=Selenoprotein PB gamma 0.0
+-----MGK--------------LRVVHY---------------------------INQFFAGIGGEEKADIAPFVAE-----------------------------ELP-PISQNLD-K------------------L---LG------------------ED------------------------------------------------AEVVATVVCGDSFFG--ENLETA-QATVLEMVKGASPDLFIAGPAFNAGRYG---------VAAGAI-TKAVQDTLGIPAVTG------------------------MYIENPG--------ADMYKKSVYVMSTAD-SAAGMRKSLPALAKFALKYAK----------------------------------------------GEE-----IGSPAEEGYIERGIRVNGFKE----DRGAKRAVAMLVKKLKG--EEFVTEYPMPVFD-NVVPGRAIVNMSKAKIAIVTSGGIVPKGNPDRIESSSASKYGKYDIDGV--DDLT---SEGWETAHGGHDPVYANEDADRVIPVDVLRDMEKEGVIGELHRYFYSTTGNGTA-VLSSKQFAKEFTQELMAAGVDAVILTSTUGTCTRCGATMVKEIE-RSGIPVVHICTVTPIALTVGANRIVPAIAIPHPLGDPALSP-AEEKALRRKIVEKSLKALETEIEEQTVF------ED
+>gi|188585113|ref|YP_001916658.1| selenoprotein B, glycine/betaine/sarcosine/D-proline reductase family [Natranaerobius thermophilus JW/NM-WN-LF] 0.0
+-----MSK---------------KIVHY---------------------------INQFFGQIGGEEKADTAPFVKE-----------------------------EPV-GPGTALN-G------------------Q---LG------------------DE------------------------------------------------GEIVATIICGDDYFS--SNTEEA-KEEIRKVLRDYDPDLVITGPAFNAGRYG---------TAAGGV-AELAATEFELPVVSG------------------------MYPENPG--------VDMYKKYAYIIETSD-SAAGMRKAAPAIAELSKKILR----------------------------------------------GEE-----LGTPKEEGYIPRGIRKNVFFE----ERGSKRGVDMLVKKLNQ--EKFDTEYPMPDFD-RVDPQPAIKDMANAKIALVTSGGIVPKGNPDGIESSSASKYGKYELKGM--DTLT---AESHETAHGGYDPTYANENPNRVLPLDAARKLEQEGRIAELHEYFYSTVGNGTS-VGNAQQYAAEIAEDLKNHGVDAVIQTSTUGTCTRCGATMVKEYE-RAGLPAVHVASIVPISKTVGANRIVPAVAIPHPLGNPKLDE-EEEFKVRKDLVDKALKALETELETQTVF------ED
+>gi|262038564|ref|ZP_06011933.1| glycine reductase, B, selenocysteine-containing [Leptotrichia goodfellowii F0264] 0.0
+-----MSK--------------IRAVHY---------------------------INQFFAGVGGEEKAHIEPELRK-----------------------------ELP-PISQQLQ-A------------------Q---LG------------------DE------------------------------------------------FEIVATVVCGDSYFN--ENLEKA-QATLLEMIKGLEPQLFIAGPAFNAGRYG---------VAAGTI-TKLIQDELHIPALTA------------------------MYIENPG--------VDMYRKDVYIVEASD-SAAGMRKVLPKLAKLATKLAK----------------------------------------------GEE-----ILSPAEEGYIPKGVRVNFFHK----ETGSKRAVDMLIKKIKG--EPFETEYPMPNFD-RVDPNPAVKDLTKATIALVTSGGIVPKGNPDHIESSSASKYGEYSIAGV--NDLT---AETFETAHGGYDPVYANEDADRVLPVDIMRELEKAGKIGKLHDKFYTTVGNGTA-VASAKGFAAEYAQKLKADGVDAVILTSTUGTCTRCGATMVKEIE-RAGIPVVHMCTVVPISLTVGANRIVPTIAIPHPLGNPKLDSIEEERKIRRKLIDKALKALTTEVDGQTVF-------E
+>gi|158319994|ref|YP_001512501.1| selenoprotein B [Alkaliphilus oremlandii OhILAs] 0.0
+-----MSK--------------KRVVHY---------------------------INQFFAGIGGEEKADIRPELRE-----------------------------GVV-GPGMALN-T------------------A---MN------------------EE------------------------------------------------AEIVATIICGDSYFN--ENLEEA-KNEIIEMVKKYNPDLFIAGPAFNAGRYG---------VACGTI-AKAVNDELEIPVLTG------------------------MYIENPG--------ADMFKKNIYIVETGN-SAAAMRKAVPAMASLAAKLLK----------------------------------------------GEA-----IGTPKEDQYIPRGIRKNYFSE----EKGATRAVNMLMKKLKG--EEFTTEYPMPDFD-RVDPNPAVQDLSKIKIAIVTSGGIVPKGNPERIESSSASKYGKYDISSF--DDLT---EADHETAHGGYDPVYANIDPDRVIPVDVLRDMEKEGVIGELHKYFYTTVGNGTS-VGNSKKFAEEFAKELIADGVQAVILTSTUGTCTRCGATMVKEIE-RAGIPVVHMCTVVPISLTVGANRIVPTVAIPHPLGNPNLEP-KEEKALRRKLVEKALEALTTEVAGQTVF-------E
+>gi|78044722|ref|YP_361190.1| glycine reductase, selenoprotein B [Carboxydothermus hydrogenoformans Z-2901] 0.0
+-----MA--------------KFRVVHY---------------------------LNQFFGQIGGEEKADTAPLKKD-----------------------------GPV-GPGTALN-G------------------A---FK------------------GE------------------------------------------------AEVVGTVICGDSYFA--ENMEEA-LKQILSMIKEYNPDLVVAGPAFNAGRYG---------TACGAV-AEAVVKNLGIPAVTG------------------------MYPENPG--------VEMYKKSVYIIATAD-SAIGMRNAIPKMAALGLKLLK----------------------------------------------KEE-----IGTPEQEGYIARGIRKNYFAE----ERGAKRAVDMLIAKIKG--ENFTTELPMPAFD-RVPPNPAIKDLSKATIALVTSGGIVPKGNPDRIESSSASKFGKYSIAGV--KDLT---SDTFETAHGGYDPVYANQDADRVLPVDVLREMEAEGKIGKLHDYYYATVGNGTS-VANAAKFGQAIAADLKASGVDAVILTSTUGTCTRCGAAMVKEIE-RAGIPVVHMCTIVPISKTVGANRIVPTVAIPHPLGNPALPA-DEEKALRRKLVEKALKALTTEVEGQTVF-------D
+>gi|206896369|ref|YP_002246593.1| glycine reductase complex component B subunit gamma (Selenoprotein PB gamma) [Coprothermobacter proteolyticus DSM 5265] 0.0
+-----ML----------------KVVHY---------------------------INQFFGQIGGEDKADTPPLVKE-----------------------------GPV-GPGLALQ-Q------------------A---LG------------------DQ------------------------------------------------GKVVATIICGDSYFN--EHVDEA-LAEVLRMVEQYQPDLFVAGPAFFAGRYG---------IACATV-CKAVQEKFGIPVVTG------------------------MYPENPG--------VDLCKKDVYVVKTGD-SAAQMKDAITKMVKLALKMVN----------------------------------------------KEE-----IGTPEEEGYIPRGIRKNYFAQ----ERGSKRAVDMLVKKLKG--EPYTTELPMPEFD-RVPPAPAVKDLSKALVALVTSGGIVPKGNPDHIESSSASKFGKYDLEGI--QALS---PETHQTAHGGYDPVYANEDPNRVLPVDVMRELEKEGKIGKLHRYYYATVGNGTP-VAKAQQYGQAIAKELKDAGVQAVILTSTUGTCTRCGATMVKELE-RAGLPTVHICTIVPISKTVGANRIVPAVAIPHPLGNPELSK-EDEKALRRKILEKALEALQTDIDTQTVFE-----WQ
+>gi|257065207|ref|YP_003144879.1| glycine reductase, selenoprotein B [Slackia heliotrinireducens DSM 20476] 0.0
+-----MEK--------------IKVLHY---------------------------INQFFAQIGGEEEADHPVEFFE-----------------------------GEVKGPGLAFM-Q------------------Q---FG------------------EE------------------------------------------------AEIVGTIVCGDGYFN--EHIDDT-LAKVLEFVDRVHPDLLIAGPAFNAGRYG---------VACGAV-ASAVQEKLGIPALTG------------------------MYIENPG--------VDMYRDKVVIASTKN-SAAGMRAAVKSMAPLALKLAR----------------------------------------------HEQ-----IGASCEDGYISQGIRVNFFEK----KRGSKRAVEMLLAKLAG--KPYTTEYPMPNFD-RVDPQPAVVDLSKATIALVTSGGIVPKGNPDLIESSSASHYGEYDITGV--DDLT---SDTYETAHGGYDPTYANDDADRVLPVDVLRDMEREGRIGKLHNKFYTTVGNGTA-VASAKAFAAEIGQKLVASGVDAVILTSTUGTCTRCGATMVKEIER-AGLPVVHICTVTPISMTVGANRIVPAVAIPHPLGNPALSA-DEEKKLRRSIVEKALNALATPVDGQVVF------KD
+>gi|269792746|ref|YP_003317650.1| selenoprotein B, glycine/betaine/sarcosine/D- proline reductase family [Thermanaerovibrio acidaminovorans DSM 6589] 0.0
+-----MAY---------------RIVHY---------------------------LNQFFGGLGGEDKADITPVKKD-----------------------------GPV-GPGAALK-A------------------A---LG------------------SE------------------------------------------------AEVVGTVICGDGYFA--EHMDEA-TDQILEMIKSFSPDGVVLGPAFNAGRYG---------TACGAV-GEAVAKRLGIPVVGG------------------------MYPENPG--------VEMYRKSFPIVRTSD-NARGIKDAVPAMARIVLKLLK----------------------------------------------GEP-----LGSPEEEGYIERGIRVNLFRD----EVGAERAVEMLVRKLKG--EQYTTEYPMPVFD-RVPPAAAIKDLKNATIALVTSGGIVPKGNPDHIEASSATKYGEYSIEGV--SSVT---AEGYATAHGGYDPTYANSDPNRVLPVDVLRQMESQGVFKRLYPYFYTTVGNGTP-VANAKRFGQEIASKLKKDGVDAVILTSTUGTCTRCGATMVKEIER-AGIPVVHVCTIVPISLTVGANRIVPAVAIPHPLGDPTKTH-EEEVAIRRRLVEAALRALQTEVSDQTVFA-----NN
+>gi|205831503|sp|O69407.3|GRDH_EUBAC RecName: Full=Betaine reductase complex component B subunit beta_ AltName: Full=Selenoprotein PB beta 2.6693e-175
+-----MK--------------K--AILY---------------------------LNQFFGQVGGEDKADYEPEIIN-----------------------------GQV-GAAMMLN-G------------------V---LE-------------------G------------------------------------------------AEVTHTIICGDNFMG--TYKDEA-VSRIMGFLEDKEFDIFLAGPAFQAGRYG---------VACGEI-CKVVKEKYNVPVVTS------------------------MHVENPG--------VQMFKKDMYVMIGGN-NAGRMRQDMSAMAKVANKIIA----------------------------------------------GEK-----IGPADEEGFFPRGKRHQHWREDG--KPASERVVDMLLKKLSG--EEFQTELPIPKSD-RVEIAAPIKDLSKATIAVVTTGGIVPVDNPDRIQSASATRWGMYDVTGL--ERLE---GGVYKTIHAGFDPAAADADPNVIVPLDALRAYEKEGKIGKVHEYFYSTVGTGTT-EAEAARMAKEIVVKLKQGGVDGVIMTSTUGTCTRCGATMVKEIE-RAGFPIVQMCNLIPVASTVGANKIVPTISIPYPLGDPSTSK-EQQWKLRYHRVGTALDALTVDVQEQTIFK----VKI
+>gi|126699968|ref|YP_001088865.1| glycine reductase complex component B gamma subunit [Clostridium difficile 630] 0.0
+-----MG--------------KLKAVHY---------------------------INQFFAGIGGEEKADTKPHVAE-----------------------------TLP-PISLQLD-K------------------L---LG------------------ED------------------------------------------------IEIVGTVVCGDSYFN--ENIDSA-SEEVLSMVKGFEPQLFIAGPAFNAGRYG---------VAAGTI-TKVVKDALNIPALTG------------------------MYVENPG--------ADMFKKDVYVVETSD-SAAGMRKALPKIAKLAVKLAN----------------------------------------------GEE-----IGTPKDEGYIARGIRVNYFHE----DRGSKRAVDMLVKKIKG--EPFETEYPMPNFD-RVDPSKAVKDLSKCKIALVTSGGIVPKGNPDRIESSSASKYGTYSIAGV--MDLT---EETYETAHGGYDPVYANLDADRVLPVDVLRDLEKEGVIGKLHETFYTTVGNGTS-VANSKKYASEIGAALVADGVDAVILTST-GTCTRCGATMVKEIE-KTGLPVVHMCTVVPISLTVGANRIVPTIAIPHPLGNPALDP-TEEKALRRGLVEKALNALTTEVDGQTVFE------K
+>gi|126699348|ref|YP_001088245.1| sarcosine reductase complex component b beta subunit [Clostridium difficile 630] 0.0
+-----MSK--------------IRVVHY---------------------------INNFFAGIGGEEKADIPPEKRA-----------------------------GVV-GPGIAFQ-S------------------Q---FN------------------DD------------------------------------------------AEIISTVICGDTYFG--ENIESA-TQELLKMIKEESPDLFIAGPAFNAGRYG---------VACGTI-CKAVEEELNIPVITG------------------------MYKENPG--------VDMFKLDLHIVSTGN-SAASLRKVVPIMTKLGLKLVR----------------------------------------------GEE-----IGPPEEEGYIMRGIRKNFFHE----LRGSERAIDMLVKKMKG--ESFETEYPMPEFD-RVTPMKPVKDLSKIKLALVTSGGIVPIDNPDKIESSSATKYGIYDLTDM--DSMS---NKEFTTIHGGYDRAYVLENPNLVVPLDVVRELEKEGVIGELVDYFITTTGTGTS-VGNSKRFGEEFSKKLLEDDVDAVILTST-GTCTRCGATMVKEIE-RAGIAVVHICTVVPISLTIGANRIVPAVGIPYPLGNPMLGE-EESKKIRKNIVLKALNALTEDIEEQTVF-------E
+>gi|153939312|ref|YP_001390608.1| glycine reductase complex component B, gamma subunit, selenocysteine-containing [Clostridium botulinum F str. Langeland] 0.0
+-----MI----------------KVVHY---------------------------INQFYAGIGGEDKADYKPEVRE-----------------------------EPV-GPGTQLN-S------------------L---FK------------------GE------------------------------------------------AEIVATVICGDSYFN--ENIDEA-KNTILEMVKKYDADLFIAGPAFNAGRYG---------VACGTI-AKEVEEKLNIKVLTA------------------------MYEENPG--------VDLYKKSLYILKTKK-SAVGMRKALPVMAKLALKMGK----------------------------------------------GEE-----IGLPEEEGYIERGIRKNYFSD----ERGSKRAVNLLVKKLKG--EEFVTEFKMPVFD-RVEPNKAVEDISKCKIAIVTSGGIVPKGNPDHIESSSASKYGKYDIEGL--MDLN---SETHETAHGGYDPNYANEDSDRVIPVDVLRKMEKEGKIGSLHRYFYSTVGNGTA-VASSKKFGNEIVNQLKGDGVDAVILTSTUGTCTRCGATLVKEIE-RGGLPVVHMCTVVPISLTVGANRIVPTIAIPHPLGNPNLDK-DREYELRYKLVEKALKALETEIDEQKVF-------E
+>gi|257065224|ref|YP_003144896.1| selenoprotein B, glycine/betaine/sarcosine/D-proline reductase family [Slackia heliotrinireducens DSM 20476] 1.98017e-169
+-----MT--------------K-KVIYY---------------------------VNQFFGGIGGEDTADFEPEIRE-----------------------------GQV-GPAVAAN-G------------------Q---LK-------------------D------------------------------------------------AEITHTIICGDNFMG--SNTEEA-LSRILGFLEDKEFDLLIAGPAFQAGRYG---------VACGNV-CKAVGEKFGVPTVTS------------------------MNVENPG--------VEMFKKDTYIMDGAN-AAAKMRKDLKNLVGFANKLLS----------------------------------------------GEP-----LQGAEIEGYFPRGIRHEIYLEDKHENTAAYRGVQMLIKKIKG--EPFQTELVVPVKD-VVEPAAPV-NLSEAVIAMITTGGIVPVDNPDRIQSASATRWGRYNIEGV--DKLPNRASGGYKTIHAGFDPAAADADPNVIMPIDAMRQLEKEGKFARLHNYFYSTVGTGTT-ESEAARMAEEMIPYLKEDGVNAIILGSTUGTCTRCGATMVKVFE-RAGFPIVHMCNLIPVSTTVGANRMVPTISIPYPLGDPNTLP-EEQWKLRYHRCGVAVDALATPVEGQTVFK----VKI
+>gi|220903399|ref|YP_002478711.1| selenoprotein B, glycine/betaine/sarcosine/D-proline reductase family [Desulfovibrio desulfuricans subsp. desulfuricans str. ATCC 27774] 0.0
+-----MAY---------------KLVHY---------------------------INQFFAGIGGEDKADVSPEVRE-----------------------------GIV-GPGMAFK-A------------------A---LG------------------DQ------------------------------------------------AEIVATFICGDNYCA--NNLDAV-AARMVETVKSFGADGLIAGPAFNAGRYG---------TACGAV-CAAVNKQLGLPVVSG------------------------MYRESPG--------VDLYRKEVTIVETAD-SARGMGKAVPAMAAVVLKLLR----------------------------------------------GEE-----IADPAAEGVFPKGIRKNMFYD----EPGAERAVRMLIKKVGG--EEFKTEYAMPIFD-RVEPRPAIADMSRATIAVVTSGGIVPEGNPDHIAASSAQNFGAYSIEGV--TDLE---KGRYLTAHGGYDQTYANQDPDRVLPIDVLRDLEKEGRIGKLYNVFYTTVGNGTS-VANSRKFGTEIGSQLKAAHVDGVILTSTUGTCTRCGATLAKAIEEAADVPVVHMCTIVPISLSIGANRIVPTVSIPHPLGNPELSA-AEEKHLRRELVLKALQALSTGVDGQTV--------F
+>gi|257064837|ref|YP_003144509.1| selenoprotein B, glycine/betaine/sarcosine/D-proline reductase family [Slackia heliotrinireducens DSM 20476] 8.97085e-167
+-----MAK---------------RAIFY---------------------------LNQFFGGIGGEDMADHAPEFRT-----------------------------ELV-GPAQGIA-S------------------A---AG------------------DD------------------------------------------------IEAVGTIICGDNFFG--QREDEA-VEFIKNVLTQQKPDIFIAGPAFNAGRYG---------FACAGA-CKAA-DELGITCVSG------------------------MYAENPG--------LEHCQSFAWVAETAN-AAAQMRKAIPAMANLVKKLSL----------------------------------------------GEE-----V-TPEDDHYFPQGRRECILVD----EIGSKRAVNMLLARLND--EPFTTELPMPSFD-VVEPAPAILDLSKATIALATSGGIVPLGNPDHLQSASAQQWNKYDISSE--DDLK---S-DFFTVHGGFDPVYCNEDADRVAPLDALRELEREGKIGKVYDYMYTTTGTGTA-VANARAFGKEIGAELKDAGVDGVILTSTUGTCTRCGATMVKEIE-RYGIPIIHMATITTISESVGANRILPTVAIPYPAGNPELPP-EEEKSLRVSMVERAVDGLATQVDGPTHF-------E
+>gi|51894004|ref|YP_076695.1| glycine reductase complex selenoprotein B [Symbiobacterium thermophilum IAM 14863] 0.0
+-----M-----------------RIVHY---------------------------LNQFFGGIGGEEHAGVRPEVRP-----------------------------GPV-GPGMALK-A------------------A---LG------------------DA------------------------------------------------GEIVATVICGDSWFN--ENLEEA-KATVLALIRQQNPDLVVAGPAFNAGRYG---------MACGAV-AEVVSKELGIPVVTG------------------------MFLENPG--------VEVYRRYAWVVETGN-SAASMRTAIPAMAALIRRLAA----------------------------------------------GQE--------PEPGTYLERGLRVNTFAA----ERGSARAVEMLVRKLKG--EPYTTEYPMPSFD-RVPPNPPVKDLSKAKIALVTSGGIVPKGNPDHIESSSASKYGKYYLGDL--DDLT---AETHQTAHGGYDPTYANADADRVLPVDVMRELEREGVIGKLHDYWYATVGNGTS-VANARAYAREIAEDLKKYEVDAVILTSTUGTCTRCGATMVKEIE-RAGIPVVHVCTVVPISLTVGANRIVPAVAIPHPLGNPALPP-DEERTLRRRLVMKALQALTTPVDGQTVF-------E
+>gi|42527622|ref|NP_972720.1| glycine reductase complex selenoprotein GrdB2 [Treponema denticola ATCC 35405] 0.0
+-----MS--------------K-VIVHY---------------------------INQFFAGKGGEDMADYKPEVID-----------------------------GTA-GPGTGIQ-G------------------A---LG------------------DA------------------------------------------------GKIVKTIICGDNFFN--EHEEEA-VAFVKKVLTDTKADLLIAGPGFNAGRYG---------MACGNA-AKV-AFELGIPAISG------------------------LYEENPG--------YDVFKAFMYTIKTGN-SAVSMREAVPAIGALAKKLLK----------------------------------------------GEQ-----ICCPEKEGLLPRGVRQNYFAE----ERGAKRAVDMLIKKIKG--EAFVTEYPMPVFD-RVPPQPPVKDITKAKIALVTSGGVVPKGNPDHIEASNASHYGEYSIAGM--AALS---SKDSETAHGGYDPTYCNANPNRVLPVDVLRDLEKEGKIGKLHDKYYTTVGNGTA-VKRAKKFAEEIVQKLVKDGVQAVILTSTUGTCTRCGATMVKEIE-RF-LPVVHIATVVPISKTVGANRIVPAVAIPHPLGDPKMND-ADEKKLRRSLVEKALKALETPISEQTV--------F
+>gi|227874414|ref|ZP_03992595.1| glycine reductase [Oribacterium sinus F0268] 6.76879e-160
+-----MQDKEKK-------MGKLKVVQY---------------------------INQFFAQVGGEDKADYPMEYHE-----------------------------GAM-GPGLAFQ-Q------------------A---FG------------------DE------------------------------------------------AEIVGTIVCGDSYFG--ENTDKV-KPEILKKVAELKPDLFIAGPAFNAGRYG---------FACATI-AAAVQEELHIPVITG------------------------MYVENPG--------ADEAKSKIYIVSTKN-SAAGMRDAVKKMAPLGLKLAR----------------------------------------------GEK-----IGSSKEEGYIPQGIRVNFFEE----KRGSKRAVEMLLAKISG--KEFTTEYPMPSFD-RVAPMPAIKDMSKATIALVTSGGIVPKGNPDHIESSNATRYGEYSLKGV--NDLT---AETYETAHGGYDPSYANQDADRVLPVDVLRDLEKEGKIGKLYDYFYTTVGNGTA-VASAKKFAEEIGAKLKKDHVDAVILTS-----------------------------------------------------------------------------------------------T
+>gi|227873373|ref|ZP_03991632.1| Sarcosine reductase [Oribacterium sinus F0268] 6.5224e-144
+-----MCKNLLIAKEGENTMG-KRIVHY---------------------------INQFFAGIGGEEKADIAPEVRK-----------------------------GAV-GPGTALQ-K------------------E---LG------------------DG------------------------------------------------YEIVATVICGDNYFG--SNIEKGVVPQLLELIKEEKPDGFIAGPAFNAGRYG---------VACGTM-AKAVQDELGIPSVTG------------------------MYVENPG--------TDMFYKDVHIIETKD-SSADMKKAAPKMANLLKKKID----------------------------------------------GSE-----ILSPAEEGYIPQGIRVNYFNE----RRGSERAVELLVKKIKG--EEIYTDYPMPVID-HVAPAAPLKDLAHAKIALITSGGVVPQGNPDHIESSNATKWGKYSIAGM--DHAD---KADFTTIHGGYDRAFVMEDPDLCIPVDALRNLQKEGVFGELTDYFITTTGTGTA-TNSAKRFAEEYIPMLKEDNVDAVVMVS-----------------------------------------------------------------------------------------------T
+>gi|282855521|ref|ZP_06264840.1| glycine reductase complex component B subunit gamma (Selenoprotein PB gamma) [Pyramidobacter piscolens W5455] 2.9448e-124
+-----MSEP-------------IRVVHY---------------------------INQFFAGMGAEDTASVGVSVRE-----------------------------EPV-GPGLGLQ-K------------------E---LG------------------DD------------------------------------------------YKIVATIICGDNTIA--EKTDEI-LAEFDKLIRKYDAQLFIAGPGFNAGRYG---------IGCGAS-TAYVTEKMKLPAVTA------------------------LYSENPG--------TDLYKDRCYILQTDN-SAAGMRQTLPKLAAFAKRLAA----------------------------------------------GSP-----IGDGKKEGYHGSGPAVEIDYS----VPASRRGVNMLLAKYHN--KPFATEVRMPNHE-EIPLPVLHKPLKEIKLALVTDGGLVPKGNPDSMVPTNSKTFNKYRIGNV--ARLD---AKDYEVSHQGYNNAFVLDDPNRLVPVDAALDLKKKGVIGELLDSYYTTAGVMTP-MEMGKKFGSEIAADLRKQDVDAVILTS-----------------------------------------------------------------------------------------------T
+>gi|227902403|ref|ZP_04020208.1| glycine reductase complex selenoprotein [Finegoldia magna ATCC 53516] 4.00845e-154
+KEVSLMD--------------KIRVVHY---------------------------INQFFAGIGGEEKADTKPFIAE-----------------------------QLP-PISAQLD-S------------------K---LG------------------DE------------------------------------------------FEVVRTVVCGDSYFG--ENMEAA-QKEVLDMIKEANPDFVVTGPAFNAGRYG---------VAAGTV-AKAVKDELNIPVLTG------------------------MYPENPG--------ADMYKKDVYIVETKN-SAAGMRDAMKKISKLGPKVAK----------------------------------------------GEE-----IGSPKEEGYIERGVRVNFFAD----KIGSQRAVEMLIKKING--EEFETEYPMPAFD-RVEPGKAIKDLSKARIALVTSGGTVPKGNPDHIESSSATKYGAYDFHGI--DDLT---SENSETAHGGYDPVYANEDGDRVTPIDVMREFEREGVIGSLHETYYTTVGNGTA-VANADAFGTEIGERLLADNVDAVVLTS-----------------------------------------------------------------------------------------------T
+>gi|3402844|emb|CAA76907.1| 47 kDa selenoprotein [Eubacterium acidaminophilum] 8.28388e-154
+-----MKK--------------LKVVHY---------------------------INNFFAGVGGEEKANIPPEMRE-----------------------------GAV-GPGMALA-A------------------A---LG------------------DE------------------------------------------------AEVVATVICGDSYYG--ENMDSA-RKEILEMIKDAQPDAFVAGPAFNAGRYG---------VACGSI-AKAVEEDLGIPSVTG------------------------MYVENPG--------VDMYRKDIQIIETGN-SAADLRNSMPKLAKLVMKKAK----------------------------------------------GEL-----VGPPEVEGYHMMGIRTNFFHE----KRGSERAIDMLVNKLNG--EKFETEYPMPVFD-RVPPNPAVKDMSKVKVAIVTSGGIVPHDNPDRIESSSATRYGIYDITGM--DSMS---ADDFTSIHGGYDRAFVVKDPNLVVPLDVMRDLEREGVIGELANYFVSTTGTGTS-VGNAKGFGESFSKKLIEDGVGAVILTS-----------------------------------------------------------------------------------------------T
+>gi|255306763|ref|ZP_05350934.1| sarcosine reductase complex component b beta subunit [Clostridium difficile ATCC 43255] 7.50768e-148
+-----MSK--------------IRVVHY---------------------------INNFFAGIGGEEKADIPPEKRA-----------------------------GVV-GPGIAFQ-S------------------Q---FN------------------DD------------------------------------------------AEIISTVICGDTYFG--ENIESA-TQELLKMIKEESPDLFIAGPAFNAGRYG---------VACGTI-CKAVEEELNIPVITG------------------------MYKENPG--------VDMFKLDLHIVSTGN-SAASLRKVVPIMTKLGLKLVR----------------------------------------------GEE-----IGPPEEEGYIMRGIRKNFFHE----LRGSERAIDMLVKKMKG--ESFETEYPMPEFD-RVTPMKPVKDLSKIKLALVTSGGIVPIDNPDKIESSSATKYGIYDLTDM--DSMS---NKEFTTIHGGYDRAYVLENPNLVVPLDVVRELEKEGVIGELVDYFITTTGTGTS-VGNSKRFGEEFSKKLLEDDVDAVILTS-----------------------------------------------------------------------------------------------T
+>gi|239626837|ref|ZP_04669868.1| sarcosine reductase complex component B subunit beta [Clostridiales bacterium 1_7_47_FAA] 1.83278e-148
+-----MAK--------------YKVVHY---------------------------INQFFAGIGGEEKADHMPEVRE-----------------------------GAV-GPGMGLR-A------------------A---LG------------------SD------------------------------------------------YEIAATVICGDNYFG--ENLDAA-TDAVIEMVKKYEPDVFVAGPAFNAGRYG---------VACGTI-CKAVEERLMIPVITG------------------------MYEENPG--------VDMFRKDLIIVGTPN-SAAGMPKVLPVMSALVKKLAE----------------------------------------------GQE-----ILGPSEEGYLERGIRVNYFAE----KRGSERAVEMLVKKLKG--EAFETDLPMPKFD-RVEPAAPIKDIKKAKIAVVTSGGIVPTGNPDHIESSNATKWGKYDITGM--ERLS---ADDFTSIHGGYDRQFAIADPNVVVPLDALRELEKEGEFGELVNYFCATTGTGTA-TASAARFGTEIGKMFVDEHVDGVILVS-----------------------------------------------------------------------------------------------T
+>gi|283797362|ref|ZP_06346515.1| glycine reductase complex selenoprotein [Clostridium sp. M62/1] 1.54615e-159
+-----MG--------------KLKFVHY---------------------------INQFFANIGGEEKADYQPEVRD-----------------------------GAV-GPGLAFN-Q------------------A---FG------------------EE------------------------------------------------AEIIATVICGDSYFN--ENVDAA-TETVLNMIKEKAPDGVICGPAFNAGRYG---------VACGTV-AAAVKEKLGLPVVTG------------------------MYKENPG--------ADMYKTKVYICPTKN-SAAGMRDAVKKMAPLALKLVK----------------------------------------------GEK-----IGSSKEDGYMPNGIRVNFFED----KPGAQRAVEMLVKKLNG--KEYETEYPMPSFD-RVAPGPAVKDMAHAKIALVTSGGIVPKGNPDHIESSSASKYGQYDIEGV--MDLT---EETYETAHGGYDPVYANQDADRVLPVDIVEEFIKEGKIGSLHKYFYTTVGNGTA-VANASKFAKEIGQKLVDDHVDAVILTS-----------------------------------------------------------------------------------------------T
+>gi|241889204|ref|ZP_04776507.1| glycine reductase, selenoprotein B [Gemella haemolysans ATCC 10379] 4.65128e-159
+-----MS--------------KIRVVHY---------------------------INQFFAGVGGEEQAHIAPELRT-----------------------------ELP-PISVQLQ-G------------------Q---LG------------------EE------------------------------------------------FEVVATVVCGDSYFN--ENLEKV-QAELLEMIKGCEPQLFIAGPAFNAGRYG---------VAAGTI-TKAVQDELGIPAVTA------------------------MYVENPG--------TDMFRKEVYILETAD-SAAGMRKALPKLAKFAAKLAK----------------------------------------------GEE-----ILSPKEEGYHERGIRVNFFSD----KRGSERAVEMLVKKIKG--EEFETEYPMPNFD-RVEPNPAVKDLSKAKIALVTSGGIVPKGNPDHIESSSASKYGEYSLEGF--TNLT---DETHETAHGGYDPVYANEDADRVLPVDVMREFVKEGKVGSLHEKFYTTVGNGTA-VASAVGFAKEYAQKLVADGVDAVILTS-----------------------------------------------------------------------------------------------T
+>gi|254975934|ref|ZP_05272406.1| glycine reductase complex component B gamma subunit [Clostridium difficile QCD-66c26] 4.57298e-160
+-----MG--------------KLKAVHY---------------------------INQFFAGIGGEEKADTKPHVAE-----------------------------TLP-PISLQLD-K------------------L---LG------------------ED------------------------------------------------IEIVGTVVCGDSYFN--ENIDSA-SEEVLSMVKGFEPQLFIAGPAFNAGRYG---------VAAGTI-TKVVKDALNIPALTG------------------------MYVENPG--------ADMFKKDVYVVETSD-SAAGMRKALPKIAKLAVKLAN----------------------------------------------GEE-----IGTPKDEGYIARGIRVNYFHE----DRGSKRAVDMLVKKIKG--EPFETEYPMPNFD-RVDPSKAVKDLSKCKIALVTSGGIVPKGNPDRIESSSASKYGTYSIAGV--MDLT---EETYETAHGGYDPVYANLDADRVLPVDVLRDLEKEGVIGKLHETFYTTVGNGTS-VANSKKYASEIGAALVADGVDAVILTS-----------------------------------------------------------------------------------------------T
+>gi|282855554|ref|ZP_06264870.1| glycine reductase complex component B subunit gamma (Selenoprotein PB gamma) [Pyramidobacter piscolens W5455] 3.75506e-149
+-----MTF---------------RIVHY---------------------------INQFYAGIGGEDMAHVPPEKRD-----------------------------GKV-GPGAALQ-A------------------E---LG------------------KD------------------------------------------------AEIVGTVICGDNYFN--EHNEEA-KKTLLEMIGSYKPDLLIAGPAFFAGRYG---------MACGDI-CAAVQDTLGIPVVTG------------------------MYPENPG--------AESFAKKVFIVKTAN-SARGIKDAAKSMASLALKLLK----------------------------------------------KET-----LGPAADENYISRGFRRVFFHE----KNGAQRGLEMLLKKMAG--EPFQTEYEMPTFK-KIEPCAPVKDLKHATIALITSGGIVPKGNPDKIRVSSAESYGRYDITGL--NDLT---PENYESIHGGYDTQWANANPDVVLPLDEMRELEKEGKIGKIYKYVYCTTGTGTA-VAWAEKFGQEIGPELKAAGVDAAILTS-----------------------------------------------------------------------------------------------T
+>gi|260654379|ref|ZP_05859869.1| glycine reductase, B [Jonquetella anthropi E3_33 E1] 4.74604e-147
+-----MTF---------------RIVHY---------------------------INQFYAGIGGEEMAHVAPEFRQ-----------------------------GKV-GPGAALQ-A------------------A---FG------------------AE------------------------------------------------AEIVGTVICGDNYFN--EHNDEA-KATILKMVSDCKPDALVAGPGFFAGRYG---------MACGDV-CVTVKEKLGIPAVTA------------------------LYPENPG--------AESFSKQVYIVKAAD-SARGMKEAAQGIARLTLKLLK----------------------------------------------KET-----LGPAAEEGYIHQGRRRVFFHE----KNGATRGLEMLLAKIEG--RPFQTEYEMPTFK-KIPPCPPVKDITKATIALITSGGIVPKGNPDKIRVSSAESFGRYDISGL--DDLT---SENYESIHGGYDTVWANADPDVVLPLDVMRELEKEGKIGKLYKYVYCTTGTGTA-VAWAEKFGQEIGPELKAAGVDAAILTS-----------------------------------------------------------------------------------------------T
+>gi|255524729|ref|ZP_05391681.1| selenoprotein B, glycine/betaine/sarcosine/D-proline reductase family [Clostridium carboxidivorans P7] 7.99341e-162
+-----ML----------------KVVHY---------------------------INQFYGGIGGEEKADVKPEIRE-----------------------------GFV-GPGMGLN-G------------------L---LKK-----------------GD------------------------------------------------AEIVATVVCGDSYYN--ENEKEA-KAAVLDMIKKYNPDLFIAGPAFNAGRYG---------VACGSI-AKEVSEKLNIPVISA------------------------MYIENPG--------VDLYKKDIYIVETKN-SAAGMRDALPKIVNLALKLAK----------------------------------------------GEE-----IGSPEEEHFIERGIRKNYFHE----ERGSKRAVDMLIKKISG--EKFVTEFKMPVFD-RVDPVAPVADVAKAKIAIVTSGGIVPKGNPDHIESSSASKFGKYDIEGI--ENLT---DETNETAHGGYDPTYANADSDRVLPVDVLRKMEKEGKIGSLHRYYYSTVGNGTA-VASAKKFGENIAKELIADGVDAVILTS-----------------------------------------------------------------------------------------------T
+>gi|282857280|ref|ZP_06266519.1| betaine reductase complex component B subunit beta (Selenoprotein PB beta) [Pyramidobacter piscolens W5455] 5.05049e-134
+-----ML--------------K--AIHY---------------------------INQFFGQVGGEDAADAKPIFHD-----------------------------DLV-GCSMMLN-Q------------------M---VK------------------PD------------------------------------------------IEVTNTIVCGDNYIT--NHTDEA-LKEIFAWLDTKKFDIFFAGPAFMAGRYG---------VGCGIM-CKAVAERYHVPVITS------------------------MNEENPG--------VEEYKSVCYIFKGGR-KATFMKDDVTAMAKFAKKIAK----------------------------------------------GEE-----LLPAAQEGYFPRGIRAEIPQPDG--RIAADRVIDMLLRKLKG--EPFQTELIIPKME-KIPPAPALKDLAHATIALVSSSGVVPVDNPDRIQSASAQKWGKYDISKL--DNLP---EGVFKTIHAGFDPAAMCHIPDRGVPVDAMRYFEKQGKIGKLYDYYYVTVGTGTT-QAFAAKFGKEIAAELHAAKVDAVVLTA-----------------------------------------------------------------------------------------------T
+>gi|182701640|ref|ZP_02955065.1| glycine reductase complex component B, gamma subunit, selenocysteine-containing [Clostridium botulinum NCTC 2916] 0.0
+-----MI----------------KVVHY---------------------------INQFYAGIGGEDKADYKPEVRE-----------------------------EPV-GPGTQLN-S------------------L---FK------------------GE------------------------------------------------AEIVATVICGDSYFN--ENIDEA-KNTILEMVKKYDADLFIAGPAFNAGRYG---------VACGTI-AKEVEEKLNIKVLTA------------------------MYEENPG--------VDLYKKSLYILKTKK-SAVGMRKALPVMAKLALKMGK----------------------------------------------GEE-----IGLPEEEGYIERGIRKNYFSE----ERGSKRAVNLLVKKLKG--EEFVTEFKMPVFD-RVEPNKAVEDISKCKIAIVTSGGIVPKGNPDHIESSSASKYGKYDIEGL--MDLN---SETHETAHGGYDPNYANEDSDRVIPVDVLRKMEKEGKIGSLHRYFYSTVGNGTA-VASSKKFGNEIVNQLKEDGVDAVILTS-----------------------------------------------------------------------------------------------T
+>gi|282857110|ref|ZP_06266356.1| glycine reductase complex component B subunit gamma (Selenoprotein PB gamma) [Pyramidobacter piscolens W5455] 2.1825e-150
+-----MT--------------Y-KVVHY---------------------------INQFFAGIGGEEKADIAPEVRE-----------------------------GVV-GPGMALK-N------------------A---FK------------------GE------------------------------------------------AEIVATIICGDSYFA--ENMDAA-SDFVVEAVKKYNADGFVAGPAFNAGRYG---------TACGAV-CKAVGEKLGIPTVSA------------------------MYVENPG--------VDLYKKYTYIVSAAD-SARGLGKAVPAMASIILRQMK----------------------------------------------GEK-----LGTPKEEGYIERGVRVNKFYD----EVGAERAVKMLISKLKG--EAFETEYAMPVFD-RVEPRPALKDVTKATIALVTSGGIVPFGNPDHIAASSAQNYGEYSIAGV--DDLK---EGEYQTAHGGYDQTYANQDPDRVLPVDVMRKLEKEHKIGKLYDYFYATVGNGTG-VANAKRFGTEIGKKLH-GKVDAVILTS-----------------------------------------------------------------------------------------------T
+>gi|95930163|ref|ZP_01312902.1| Selenoprotein B, glycine/betaine/sarcosine/D-proline reductase [Desulfuromonas acetoxidans DSM 684] 7.72928e-134
+-----MK--------------K--AVLY---------------------------INQFFAGVGGETEADFEPEIRE-----------------------------GLV-GPALELD-K------------------Q---LK-------------------N------------------------------------------------AEVTHTVICGDNFIG--SNQEEA-VKRILEGLEGIEFDIFFAGPAFQAGRYG---------SACGFI-CRAVKEKFGVETVSS------------------------MHVENPG--------VLMFKKELYIAEGGH-IAAKMRKDIKKMANIGDKLLA----------------------------------------------GET-----MLRAAAEEFFPRGIRHQFWPEEA--RPAAIRAVEMLQKKLSG--ENYQTELPIPKSD-RVEIAKPVTDLSKARIALMNTGGIVPVDNPDKIQSASATRWGKYDISGM--DRLE---SGVFKTIHAGFDPAAADADPNVIMPVDVMRAFEKEGKIGELYKDFYSTVGTGTT-EAEARRMAQEIVVHMKEAQVDAVLMVS-----------------------------------------------------------------------------------------------T
+>gi|218550322|ref|YP_002384113.1| Glycine reductase complex component B gamma subunit (Selenoprotein PB gamma) [Escherichia fergusonii ATCC 35469] 6.31562e-140
+-----MS--------------L-RILHY---------------------------LNQFFGQKGGEEAAGCPPEIHI-----------------------------GPI-GVGLQLE-K------------------L---LA------------------GE------------------------------------------------GNIIATIICGDSYFN--ENADLC-KEYVRNVLNVHQPDMVVTGPAFNAGRYG---------MACGTV-AQV-AAEMGIPVISG------------------------IYPENPG--------YELYRPWMYAVETGN-SAASMRTALPAMAALIKRFIA---------------------------------------------TGGN-----PGLPEEAGYLPRGVRINHFES----DVGAVRAVRMLMQKMKG--EPFKTEYPMPAFD-RVDPQPPVIDLSTATIALVTSGGVVPKGNPDHIESSSASRFGEYAIDDL--AALS---SGTHQTAHGGYDPVACNDDPNRVLPVDALRELEKEGKIGKLFSHYYSTVGNGTS-VANARKYGADIAMKLQKAGVSAAILTS-----------------------------------------------------------------------------------------------T
+>gi|90410194|ref|ZP_01218211.1| Hypothetical glycine reductase complex selenoprotein B [Photobacterium profundum 3TCK] 1.67593e-140
+-----MT--------------L-RVVYY---------------------------LNQFFAQKGGEEMAHIPMEVVE-----------------------------GSV-GVGSQIN-T------------------M---LK------------------DK------------------------------------------------AEVTHTIICGDSYLN--ENESLC-CHSLQEILAQLKPDLVVAGPAFNAGRYG---------MACGTV-AKV-AHEMGIKTISG------------------------MYVENPG--------YELFGQYAYMAETGN-SAASMRQAIPAMVKLINRFIE---------------------------------------------TDGE-----LGDPAEEGYMPRGIRVNYFAE----KRGATRAVDLLIAKLAG--PEFTTEYPMPVFD-RVDPQPAIGLLSQAKIALVTSGGVVPKGNPDHIESSSASKYGEYSIEGL--DTIT---CATHETAHGGYDPVACNDNPNRVLPVDVLRDMEREGVIGSLHNMFYSTVGNGTA-VAKSKEYGAEIAMKLQQAGVTAAIFTS-----------------------------------------------------------------------------------------------T
+>gi|260655173|ref|ZP_05860661.1| glycine reductase, B [Jonquetella anthropi E3_33 E1] 6.96253e-149
+-----MT--------------Y-KVVHY---------------------------INQFFAGIGGEEKADIAPEVRD-----------------------------GLV-GPGAALN-A------------------A---FK------------------GE------------------------------------------------ANIVATIICGDSHFA--ENMAAD-TKFVLDTVKKLGADAFVAGPAFNAGRYG---------TACGAV-CDAVSKELGIPVVSA------------------------MYEENPG--------VDLYKKSIYIVKAAD-SARGMGKAVPPMAAILLKQLK----------------------------------------------GEK-----LGSPAAEGYIERGIRKNKFYE----EVGAERAVRMLVKKLKG--EEFETEYKMPVFD-RVTPRPAVKDMAHATIALVTSGGIVPNGNPDHIASSSAQNYGEYDIDGV--MTLK----GAYESAHGGYDRTYANEDANRVLPVDVLRDLEKEGKIGKLYRYYYATVGNGTG-VANAKRFGTEIGQKLH-GKVDAVILTS-----------------------------------------------------------------------------------------------T
+>gi|260655837|ref|ZP_05861306.1| glycine reductase, B [Jonquetella anthropi E3_33 E1] 1.75342e-128
+-----M---------------K--AIHY---------------------------INQFFGQVGGETAADAAPSFPE-----------------------------KLI-GCSLMLN-G------------------M---MP-------------------D------------------------------------------------VEVTHTIICGDNYVT--NHTDEA-LKEIFAFLDGQEFDIFFAGPAFMAGRYG---------VGCGLV-CKAVAEKYGVPVITS------------------------MNEENPG--------VSEYRGSAYIFKGGR-KATYMKDDLTAMARFAEKIAR----------------------------------------------GEP-----LLPAAEEGYFGRGIRAEIPAA----VRADDRVIDMLLKKLAG--QPFQTELVIPKSD-VIPPARPVADLSKATVALVSSSGVVPSDNPDRIQSASAQKWGSYEIDGK--DCLP---AGEFKTIHAGFDPAAMCAVPDRGVPVDAMRYFEKQGKLGKLFHKYYVTVGTGTT-QAFAAKFGREIAKELLEAKVDAVILTS-----------------------------------------------------------------------------------------------T
+>gi|254479174|ref|ZP_05092523.1| selenoprotein B, glycine/betaine/sarcosine/D-proline reductase family [Carboxydibrachium pacificum DSM 12653] 5.09396e-162
+-----ML----------------RVVHY---------------------------LNQFFGQIGGEDKASIPPMVKE-----------------------------GPV-GPGMAFK-G------------------S---FG------------------DK------------------------------------------------AEIVATVICGDSYFN--ENIEKA-TQEILQMIERYKPDVFIAGPAFNAGRYG---------TACGTI-CKAVQDKFGIPAVTG------------------------MYPENPG--------VDLYKKHVYIIKTTD-SAAGMKNAVSKMASLALKLGF----------------------------------------------KEP-----IGAPEEEGYIPRGIRKNIFVE----ERASKRAVEMLIKKLKG--EPFTTEYPMPDFD-RVPPAKAV-NVKEALIALVTSGGIVPKGNPDHIESSSASKYGKYSIEGI--DNLT---SETHETAHGGYDPVYANEDPDRVLPVDALRELEREGKIGKLYNYYYATVGNGTS-VANAKRFAQNIAKELLEAKVQAVILTS-----------------------------------------------------------------------------------------------T
+>gi|257457012|ref|ZP_05622193.1| glycine reductase complex component B subunit gamma [Treponema vincentii ATCC 35580] 6.6437e-138
+-----MK--------------K--IVHY---------------------------INQFFAGKGGEDTADYKIEVID-----------------------------GNA-GPGMGIQ-A------------------A---LG------------------DG------------------------------------------------GKIVKTIICGDNYFN--DHTDEC-MAFIQDVLKKNEADLLIAGPGFNAGRYG---------MACGGA-AKA-AAMLGIPAITG------------------------LYEENPG--------YDVFKAFMYTVKTKN-SAADMRHAVPAIAAVAKKVLN----------------------------------------------GEA-----IDL-AADGLLPRGIRQNYFAK----ERGAKRAVDMLVQKLKG--EAFVTEYPMPVFD-RVPPHAPIADISKAVIALVTSGGVVPKGNPDHIEASSASHYGEYSIAGL--SELT---SENSETAHGGYDPTYCNANPNRVLPVDVLRDMEREHKIGKLYDLYYTTVGNGTS-VANAKRFASEIAGKLVNAGVQAVILTS-----------------------------------------------------------------------------------------------T
+>gi|169825304|ref|YP_001692915.1| glycine reductase complex selenoprotein [Finegoldia magna ATCC 29328] 3.47354e-130
+-----MK--------------K--ILYY---------------------------VNQFFGQIGGEDKADYKPHFED-----------------------------KPI-GCAQAFD-K------------------A---LV-------------------D------------------------------------------------GQVVGTIVCGDNYYN--EHKEES-DKFILDVFEKVKPDIVVAGPAFNAGRYG---------MACSGV-INLLKD-KNIPLVTG------------------------MYIENPA--------VDMCRLHSYIIETAD-SAAKMRQAIKEMATLTNKIIE----------------------------------------------GNK-----L-SPKEDNYLAQGRRVTEFSD----KIGARRAVEMLLKRFND--EEFETELPMPEFD-EVEPAAPIADMSKATIALITTGGVVPEGNPDKVQSASAQKWAKYDVSDL--DELK----GKFVTIHGGFDPVYCNAKADRVAPLDQLTRLKKEGVIGNVFKYFYTTTGTGTS-VANAKRFGKEIGQELKDANVDGVIMTS-----------------------------------------------------------------------------------------------T
+>gi|169825168|ref|YP_001692779.1| glycine reductase complex selenoprotein [Finegoldia magna ATCC 29328] 1.10427e-140
+-----MK--------------K--AIVY---------------------------INQFFAGIGGEDKADYKPEIRN-----------------------------ELV-GPASAFN-S------------------M---L--------------------D------------------------------------------------AEVTHTIICGDNYIG--SNPEEA-TEEILGFLAGLDFDLFVAGPAFQAGRYG---------VACGRI-CKAVKEKFGAKVITS------------------------MHPENPG--------VEMYRKDMVIFKGGK-SAREMKEDVKAISNYANKYLN----------------------------------------------GEE-----LGSAAEEGYFSQGIRNQYFNPEM--KPAAQRGVEMLIKKLNG--EEFVTELPIPVKD-VIEPAEPIKDLKHAKIALMTTGGIVPVDNPDRIQSASATRWGKYDVTGM--DRLK---SGEFKTIHAGFDPAAANADPNVIMPIDVLRDMEGK-VYGELHKYFYSTVGTGTT-QAEAERMSSEILKELQEANVDGVIMTS-----------------------------------------------------------------------------------------------T
+>gi|227999748|ref|ZP_04046750.1| selenoprotein B, glycine/betaine/sarcosine/D-proline reductase family [Brachyspira murdochii DSM 12563] 4.28763e-152
+-----MP--------------EYKIVHY---------------------------INQFFANIGGEEKADIAPEKRD-----------------------------GVV-GPGAGLQ-G------------------EFKKLG------------------ID------------------------------------------------AQIVGTVICGDSYFN--ENLDKA-KAEVLDMIKSFSPDLVIAGPAFNAGRYG---------TACGTV-AKMVQDELKIPAITG------------------------MYIENPG--------ADMFKKDVYIVSTKD-SAAGMRNALPVIAKLASKLLK----------------------------------------------KEE-----LGTPEAEGYIPRGIRKVLFRE----KSGAERAVDMLIQKIKG--EAFTTEYPMPDFD-RVTPGEAIKDITKAKIALVTSGGIVPSGNPDHIESSSASKYGRYSIDDM------------GETAHGGYDPTYANQDPNRVLPVDVLKDLQKEGKIGELYPYYYTTTGNGTS-VKSSKAFATEFAQTLVKDGVQAVILTS-----------------------------------------------------------------------------------------------T
+>gi|282855519|ref|ZP_06264838.1| glycine reductase complex component B subunit gamma (Selenoprotein PB gamma) [Pyramidobacter piscolens W5455] 1.68248e-69
+-----MN--------------KAEIIYS---------------------------VTEE----SGEARDN------------------------------------------------------------------------------------------------------------------------------------------------------------------------VIPFIA-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------YH----TPAPKRCLDMLLAKYYG--EKFCSEVKMPVPEEHVTPVLS-VPLAAARIMMVTDGGLVPKGNPDCLPPSNAREFHAYGFGFA--ERFK---AEEYEVSHQGYDHGDVDEDPNRLLPLDILREMTRAGEIGGVYPRFLSTTGVMMP-SETARRIGREIAVRVSACSIDAVLIVSTCGTSTRCGACIALALE-DRGIPAVQITNLTEIAWSMGVRHVEKGASVGSPVGFAGLSQ-QEERRRRRRIVCSALRRLCAD-------------FA
+>gi|14717794|gb|AAB93302.2| selenoprotein B of glycine-reductase [Eubacterium acidaminophilum] 7.10687e-107
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------LKG--EEYETEYPMPSFD-KVEPGKAIKDMSKAKIAIVTSGGIVPKGNPDRIESSSASKYGKYDIQGI--DDLT---SEGWETAHGGHDPIYANEDADRVIPVDVLRDMEKEGVIGELHRYFYSTTGNGTA-VASSKKFAEEFTKELVADGVDAVILTSTUGTCTRCGASMVKEIE-RSGIPVVHIATVTPISLTVGANRIVPAIAIPHPLGNPALSH-EEEKALRRKIVEKALEALQTEVEEQTVFE----RNY
+>gi|255257478|ref|ZP_05336914.1| selenoprotein B, glycine/betaine/sarcosine/D-proline reductase family [Thermoanaerobacterium thermosaccharolyticum DSM 571] 5.11565e-61
+-----MI----------------KAVQF---------------------------LNQVQAGYGTDEKMNMEPQSQF-----------------------------GAI-GLGMLLK-N------------------T---MMR-----------------NG------------------------------------------------GDIIGTVICGDNYFL--ENKDEA-IEKILTMIKQFNPDVVICGPALNYKRYG---------DCCGYL-AEAVIEKLNIPAFAA------------------------MSKDNTG--------TELFRKKIYIIETPNRGGIGLNDSLRKISKFAVKLAQ----------------------------------------------GQP-----IGSPEEE------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GYFP-----------------------------------------------------------------------------------------------QE
+>gi|255528738|ref|ZP_05395460.1| selenoprotein B, glycine/betaine/sarcosine/D-proline reductase family [Clostridium carboxidivorans P7] 9.49629e-57
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------G--EKFETELPIPKMD-RVPIAPAIKDLSKATIACVTTGGIVPVDNPDRIQSASATRWGRYDVSKL--DRLE---GGVFKTIHAGFDPAAADADPNVIVPLDALRAYEKEGKIGKLHEYFYSTVGTGTT-QGEAARMAREIIVHLKEANVNAVVLTS-----------------------------------------------------------------------------------------------T
+>gi|227889511|ref|ZP_04007316.1| glycine/sarcosine/betaine reductase selenoprotein B [Lactobacillus johnsonii ATCC 33200] 6.72378e-41
+-----MK-----------------TIII---------------------------LDQIQAGLGGDERSDTPLGGKK-----------------------------IAM-GSADNVE-K------------------A---LEA-----------------VN------------------------------------------------GEIIGTFYCGPKYYQ--QNKEIV-QRKFSKMAEKMEADVVIVGPTFDYHDFA---------EMAVEI-GTAITENTNIPVIGA------------------------IAKEKNQEL------IEKYKDKFPIVKMPKKGGTGLAESLDNLAKGCQILTN----------------------------------------------KGD-----IA---KF------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------KGSY-----------------------------------------------------------------------------------------------CY
+>gi|221194668|ref|ZP_03567725.1| glycine/sarcosine/betaine reductase B [Atopobium rimae ATCC 49626] 3.19424e-45
+-----MK-----------------IVMV---------------------------FDQIQAGAGIKDDHMVPLGLMK-----------------------------GAV-GPAIMME-P------------------Y---LKT-----------------YN------------------------------------------------GQVLACLYCGDGYYA--ENKQEC-LRKYCAMVEKIKPDVVMCGPAFDYLGFG---------RMAAEV-AQAIQKAGVAQAFAA------------------------LSAENEE-T------IAAFKDCVPLVKVPKKGGVGLDASLRAMCEIAHALYT----------------------------------------------GAD-----IQ---PF------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------KQTY-----------------------------------------------------------------------------------------------CF
+>gi|257870736|ref|ZP_05650389.1| glycine/sarcosine/betaine reductase selenoprotein B [Enterococcus gallinarum EG2] 2.96306e-47
+-----MK-----------------IIFL---------------------------LDQIQAGLGGKEHGDQPLGGQK-----------------------------TAI-GSVKMFE-K------------------L---LKE-----------------KN------------------------------------------------MEVLATIYCGDDYYR--KHAKES-SLKIAAMVQKLGADVLLCGPCFNYETYG---------EMAAEV-AKVVEEKVQIPAVAA------------------------MSIECQE-A------ITRFKDQVDIVKMPKKGGTGLTEAMNEMLTLCQLKAE----------------------------------------------KKD--------TTDY------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------VKEH-----------------------------------------------------------------------------------------------CY
+>gi|262039382|ref|ZP_06012694.1| glycine/sarcosine/betaine reductase B [Leptotrichia goodfellowii F0264] 2.28848e-44
+-----MR-----------------IILF---------------------------FDQIQSGTGGKEGSNVELAVEK-----------------------------GGI-GSYLMFE-E------------------Y---IKE-----------------IG------------------------------------------------GTVIATTYCSDNYFK--DNEETV-LSKMEGLVNKVKADILLCGPCFNYHNYA---------EMSSVL-ADYIQKKTECKPIVV------------------------CSEENAD-V------IEKYKNDIVMVKMPKKGGTGLRESLKNMAKVIKKVHN----------------------------------------------NEK-----LA----V------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------EDNI-----------------------------------------------------------------------------------------------YL
+>gi|260584854|ref|ZP_05852599.1| selenoprotein B, glycine/betaine/sarcosine/D-proline reductase family [Granulicatella elegans ATCC 700633] 1.18449e-42
+-----MH--------------M-RVILF---------------------------LNQIQAGYGGKERADTPLGLEK-----------------------------GGI-GSYLMYK-D------------------Y---FLK-----------------EN------------------------------------------------LQVLATVYCGPDYFA--NHKEEV-LHKIHNLILKTKAEVLFAGPCFNDESYT---------EMAANV-ASFIEHQTDCKTYVA------------------------CSKENEE-I------IQQFKEQTTMIEMPKKGAVGLNEALKDIALI----IA-----------------------------------------------HD--------QQD-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------SNRI-----------------------------------------------------------------------------------------------YR
+>gi|10802677|gb|AAG23561.1|AF244612_1 glycine reductase B [Carboxydothermus hydrogenoformans] 4.87574e-54
+-----AR---------------------------------------------------------------------------------------------------------GYRLKRG------------------L---LK------------------GE------------------------------------------------AEVVGTVFWGDSILP--ENMEEA-LKQILSMIKEYNPDLVVAVPAFNAGRYG---------TACGAV-AEAVVKNLGIPAVTG------------------------MYPENPG--------VEMYKKSVYIIATAD-SAIGMRNAIPKMAALGLKLLK----------------------------------------------KEE-----IGTPEQEGYIARGIRK-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------N
+>gi|196128970|gb|ACG70792.1| putative glycine/betaine reductase [Lactobacillus sakei] 1.56045e-14
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------AFHYEQYA---------EMCAQT-GALVTEKTDIPVVAA------------------------MSKECQS-V------IDQYRQRVDIVKMPKKGGTGLSDALKDILALCRIKAN----------------------------------------------HGD-----IS---EF------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------PSDK-----------------------------------------------------------------------------------------------IY
+>gi|188587309|ref|YP_001918854.1| Glycine/sarcosine/betaine reductase complex protein B alpha and beta subunits [Natranaerobius thermophilus JW/NM-WN-LF] 2.24706e-50
+-----MNRH--------------LE-IQGFQISELNLNSHGRTEIQGNKLLVNSNITQEVAA--------KYPELKDIKMRVFTSKDEDIEVNTMMDVIPVKTKMEDK-MGTGTTLE-LNGITVLLTGREASGKQVAE---FGSTAGKVSEKIAFNMPGCPDEEDLILNLDMIIEDGIAMTRDGPTACHRAADEIIQEIRNAIKRDINNTPPHTTTTVTEGDTP--SHQD----------------KPEVVLVKEMMGQG--GMHDNLLLPLEPCGVTGGKSVVDLGNVPVLMSPNEVKDGGIHAMTCVGPSTKETTRHYSRDPL-LHKLYEDTDLYFSGVLAVGSPQ-SNHEK-EYVAERVGMAMEKLQPDGVIVMTEGFGNNHIDFAKHIEEVGKRGFPVVGVTYAAKQGALIIGNEFMDAMVELNKSDSMFETEVLAENTLTD----WDADRAVTMLKNKLTNNTELINSEVPVPQQP-PAVWTEAPKDLSNTKVALVSAAGIHLKDQEP-FNK-----AGDNTYRKIPWD-VS---SENLMVTHGGYDHKDVRQDINCMFPIDRLNELADEGMIKGGSASHIGFMGGGGDFDAFNDSVGPEIAQQLKEAEAGAAIFTA-----------------------------------------------------------------------------------------------G
+>BLAST_QUERY_1
+-----MK----------------KVVHY---------------------------INQFFAGIGGEEKADIPPEVRE-----------------------------GLV-GPGMALQ-G------------------A---LG------------------DE------------------------------------------------AEIVATVICGDSYFN--ENLEEA-KAEILEMIKKYKPDLFIAGPAFNAGRYG---------VACGTV-AKAVQEKLGIPVVTG------------------------MYPENPG--------VDMYKKDVYIVETGN-SAAGMRKALPAMAKLALKLAK----------------------------------------------GEE-----IGSPEEEGYIPRGIRVNYFAE----ERGSKRAVDMLVKKLKG--EEFETEYPMPVFD-RVEPAPAVKDLSKAKIALVTSGGIVPKGNPDHIESSSASKYGKYDIEGV--DDLT---SETFETAHGGYDPVYANEDPDRVLPVDVLRDLEKEGKIGKLHDYFYTTVGNGTA-VANAKKFGEEIAKKLKADGVDAVILTS-U---------------------------------------------------------------------------------------------T
+# Cluster alignment n.2:
+>gi|282857281|ref|ZP_06266520.1| betaine reductase complex component B subunit beta (Selenoprotein PB beta) [Pyramidobacter piscolens W5455] 4.2004e-22
+MG-KEIE-KTGIPVVVMCNLIDVAKTVGANRMVQTVSVPYPLGDPELSAEAEWQLRTSRVEAALNALATDIA--EPTVFPSKF
+>gi|95930162|ref|ZP_01312901.1| Selenoprotein B, glycine/betaine/sarcosine/D-proline reductase [Desulfuromonas acetoxidans DSM 684] 9.83219e-24
+MV-KEVE-KAGFPVVILCNLIPVAKSVGANKIVPTISIPYPLGDPATSQEEQLKLRRHRVEVALDALAQDIE--EQTVFKVKI
+>gi|260655838|ref|ZP_05861307.1| glycine reductase, B [Jonquetella anthropi E3_33 E1] 2.1021e-21
+MA-KEIE-RAGIPVCVMCNLIDVAKTVGSNRMVQTVSVPYPLGDPGLSKEAEWKLRTSRVEAALDSLTVALD--GPKVFPSKF
+>gi|282857111|ref|ZP_06266357.1| glycine reductase complex component B subunit gamma (Selenoprotein PB gamma) [Pyramidobacter piscolens W5455] 1.62254e-22
+MV-KAIEENANVPVVHMLTIVPISLSVGANRLIPTVAIPHPLGNPALKPEEEFALRYRLVTRALKALQTPVT--EQTVFT-ED
+>gi|282855553|ref|ZP_06264869.1| glycine reductase complex component B subunit gamma (Selenoprotein PB gamma) [Pyramidobacter piscolens W5455] 2.01621e-21
+MS-REIEKAAGIPVVQIATIVPIMMTVGSNRIVPGVAIPHPVGKPELGDAEDKKARRKLLEKALEAMVTPID--KQTIFK-AL
+>gi|282855522|ref|ZP_06264841.1| glycine reductase complex component B subunit gamma (Selenoprotein PB gamma) [Pyramidobacter piscolens W5455] 1.81175e-17
+MT-KEIE-RAGIPVIHVTNLTEISKGIGSHRILRGNSVLHVFGNPKLPKEQEFKYREERLEKALDMLEEKPEAGQHTLI--EE
+>gi|283797363|ref|ZP_06346516.1| glycine reductase complex component B subunit gamma (Selenoprotein PB gamma) [Clostridium sp. M62/1] 1.02421e-26
+MV-KGIE-SYGIPVVHIATVVPISLTVGANRIVPAIAIPHPLGNPALSHEEEKEIRRKIVGKALEALQTPVD--GQTVFE-WK
+>gi|260654378|ref|ZP_05859868.1| glycine reductase, B [Jonquetella anthropi E3_33 E1] 2.28436e-22
+MS-REIEKAAGIPVVQIATIVPIMKTVGSNRIVPGIAIPHPVGSPEISPEADKKTRRRLLEKALEAMTTPIS--QQTIF--KA
+>gi|260655172|ref|ZP_05860660.1| glycine reductase, B [Jonquetella anthropi E3_33 E1] 1.08739e-21
+MV-KAIEENADVPVAHMLTIVPISLSVGANRLIPTVAIPHPLGDPTKSPEEEKKLRRHLVDKAIKALETEVT--EQTVF--ND
+>gi|227999749|ref|ZP_04046751.1| selenoprotein B, glycine/betaine/sarcosine/D-proline reductase family [Brachyspira murdochii DSM 12563] 8.95956e-28
+MV-KAIE-ATGIPVVHICTIVPISLTVGANRIVPAVAIPHPLGNPNLSKEDEKKLRRTLVERALKALTTPVD--TQTVF--ED
+>gi|255524728|ref|ZP_05391680.1| selenoprotein B, glycine/betaine/sarcosine/D-proline reductase family [Clostridium carboxidivorans P7] 1.26203e-29
+MV-KEIE-RAGLPIVHMCTVVPISLTVGANRIVPTIAIPHPLGNPSLDAKDEFELRYHLVERALKALETPVD--KQTVF--EK
+>gi|169824123|ref|YP_001691734.1| glycine reductase complex selenoprotein [Finegoldia magna ATCC 29328] 2.58592e-26
+MV-KAIE-RTGLPVVHICTVTPISLTVGANRIVPAIAIPHPLGNPALTKEEEYSLRKKIVMKALNALTTEVE--DQTVF--ED
+>gi|227873372|ref|ZP_03991631.1| selenoprotein B of glycine-reductase [Oribacterium sinus F0268] 9.43044e-24
+MV-KEIDR-AGIPVVHICTVVPISLTIGANRIVPAIGIPYPLGDPTKGEPKSYEIREALVRRALKTLTVPVT--EQTVFEEDF
+>gi|241889254|ref|ZP_04776557.1| glycine reductase, B [Gemella haemolysans ATCC 10379] 2.6507e-27
+MV-KEIE-RAGIPVVHMCTVVPISLTVGANRIVPTIAIPHPLGNPKLEADEEKKLRRGLVEKALHALTVEVD--GQTVF---E
+>gi|169825303|ref|YP_001692914.1| glycine reductase complex selenoprotein [Finegoldia magna ATCC 29328] 3.11147e-21
+MV-KEIE-RYGIPIVHMATITTISQSVGANRIVPTVAIPYPVGNPELKSR-EDGLREELVERAIKALETKVD--KPTIF--KS
+>gi|169825167|ref|YP_001692778.1| glycine reductase complex selenoprotein [Finegoldia magna ATCC 29328] 2.83943e-20
+MV-NVIE-KAGIPIVQMCNLVPVAQSVGVNKIVPTISIPYPLGDPATGKDVQWNLRHHRVEVALNALTEKIE--EPKV--YTV
+>gi|255655758|ref|ZP_05401167.1| sarcosine reductase complex component b beta subunit [Clostridium difficile QCD-23m63] 1.05078e-24
+MV-KEIER-AGIAVVHICTVVPISLTIGANRIVPAVGIPYPLGNPMLGEEESKKIRKNIVLKALNALTEAIE--EQTVF---E
+>gi|90410195|ref|ZP_01218212.1| glycine reductase complex selenoprotein [Photobacterium profundum 3TCK] 5.62494e-22
+MV-KEIE-KV-MPVVHIATVVPISKTVGANRIVPAIAIPYPLGNPAMQPEEELYNRRQIVEKSLVALQTDIS--EQTV----F
+>gi|218550321|ref|YP_002384112.1| Glycine reductase complex component B gamma subunit (Selenoprotein PB gamma) (fragment) [Escherichia fergusonii ATCC 35469] 4.64139e-23
+MV-KEIE-KV-MPVVHIATVVPISLTVGANRIVPAVAIPHPLGNPLLDGSDEQKLRRQLVEKALAALQTPVT--EQTV----F
+>gi|182701605|ref|ZP_02955051.1| glycine reductase complex component B subunit gamma [Clostridium botulinum NCTC 2916] 1.71897e-28
+M--------------HMCTVVPISLTVGANRIVPTIAIPHPLGNPNLDKEREFELRYKLVEKALKALETEID--EQKVF---E
+>BLAST_QUERY_2
+MVUKEIE-RAGIPVVHICTVVPISLTVGANRIVPTIAIPHPLGNPALSKEEEKKLRRHLVEKALKALTTPVD--EQTVF--EF
+# Cluster alignment n.3:
+>gi|222523354|ref|YP_002567824.1| D-proline reductase (dithiol) [Chloroflexus sp. Y-400-fl] 1.05839e-58
+MYRLT--G---QIFSQ----IPA------LARL----WGSAYRALNFDEIP-FTPFRKPLHEARLALITTGGVHLRDQP-P-FDM--ADPRGDPTYRRIPAT-TPLSDLTITHDYYDHSD-AERDLNILFPLDLVRTLVQRGIIGSLADCY-GFMGHIEPPHLTTLLQQTAPEVATFLKQEQVDAVLLTPAUGLCNQSVGLIARIIEAAGISTVCIVSLKPIAEQVRPPRTLHLAWPFGHPLGEPG----NRAQQLSVLHAALQALATAEP-GAIIEPGWRWRREIYTPPPDWLGEGK----------------------------------------------ERL
+>gi|205622937|sp|Q9Z4Q7.3|PRDB_CLOST RecName: Full=D-proline reductase subunit gamma_ AltName: Full=D-proline reductase 26 kDa subunit 8.35946e-67
+MSDLTV-----------------------VKGLQSEIYVPITPPPVW------TPVTKELKDMTVALVTAAGVHMKADK-R-FNL-----AGDFSFRVIPGD-ASVNDMMVSHGGYDNGD-VNKDINCMFPIDPMRTLAKEGFIKALAPINIGFMGGGG--DQKKFSEETGPEIARQLKEEGVDAVLLTAGUGTCHRSAVIVQRAIEESGIPTIIIAALPPVVRQNGTPRAVAPLVPMGANAGEPN----NPEMQKAICTDSLKQLVEIPSAGKIVPL---------------PYEYV----------------------------------------------AKV
+>gi|153933241|ref|YP_001384653.1| D-proline reductase, PrdB subunit, selenocysteine-containing [Clostridium botulinum A str. ATCC 19397] 3.31096e-67
+MSLT-I-----------------------TKGLQSEIFVPITPEPVW------TPVTKELKDMTVAIATAAGVHLKKDK-R-FNL-----AGDFTYRLIPGD-AKTSDMMVSHGGYDNSD-VNKDINAMFPIDRLRELVDAGFIKAVAPTHIGFMGGGG--NQQKFREETGPEVAKILKEEGVDAVLMTAGUGTCHRSAVLVQRAIEKAGIPTIIIAALPPVVRQTGTPRAVAPRVPMGANAGEPN----NVEMQTAIVKDTLEQLIKIPSAGKIVPL---------------PYEYI----------------------------------------------AKV
+>gi|153938100|ref|YP_001392930.1| D-proline reductase, PrdB subunit [Clostridium botulinum F str. Langeland] 4.43857e-62
+MNLT-T-----------------------AKGMKSEVYAPVTPPPVW------APLTKALKDCKVGFATAGGIHIKTQE-P-FKT-----AGDFTYRIIPSD-TPSSELMVTHGGFDNSD-INKDVNAMLPIDRLHELAKEGFIGSVSPVLIGFMGGGG--NVQKFREETGPAIAKIFKDEGVDVVLLTGGCGTCHRSATIVQRAIESVGISTIIVAALPPIAKQQGAPRIAAAHVPIGSNAGKPN----NVEMQTAILKDSLNAMTKMQNFGELIML---------------PYEYR----------------------------------------------HNV
+>gi|158319089|ref|YP_001511596.1| D-proline reductase (dithiol) [Alkaliphilus oremlandii OhILAs] 1.33345e-67
+MSLS-I-----------------------VKGLQSEIFVPITPPPVW------TPVKKELKDMTIALATAAGVHLKSDK-R-FNL-----AGDFSFREVPVESL-STDLMVSHGGYDNGD-VNKDINCMFPIDRLKELAEEGFIKAAAPVHFGFMGGGG--DQQKFQEETGPEIARRLKSEGVDAVLLTAGUGTCHRSAVIVQRAIEESGIPTIIIAALPPVVRQNGTPRAVAPLVPMGANAGAPN----DKAMQTAIVRDSLIQLVEITSAGKIVQL---------------PYEYT----------------------------------------------AKV
+>gi|126700861|ref|YP_001089758.1| proline reductase [Clostridium difficile 630] 6.95959e-66
+MSLT-T-----------------------VQGLQSEIFVPITPPPVW------TPVTKELKDMTIALATAAGVHLKSDK-R-FNL-----AGDTTFRAIPNT-ATVDEMMVSHGGYDNGD-VNKDINCMFPIDRLHELAAEGFIKGVAPMHYAFMGGGG--NQHVFTEETGPAIAAKLKEEGVDGVVMTAG-GTCHRTAVIVQRAIEEAGIPTIIIAALPPVVRQNGTPRAVAPLVPMGANAGEPH----NIEMQTHILRDTLEQLVAIPSAGKIVPL---------------PYEYK----------------------------------------------AHV
+>gi|108805011|ref|YP_644948.1| putative reductase [Rubrobacter xylanophilus DSM 9941] 6.82702e-46
+MMV-----------------------------------------------P-FVRPRKPLERCRLALVTTGGVHLPGQP-P-FDI--DDPLGDCSYREIPS---DAGELTWTHA-YHAPG-REGDLDAVFPLWTARRLVSEGRVGGLSPRHFSFMGAIH--DHGPLEEDTAPEVARKLLADGADAVLLTPSCPLCHRSVELVSSILEESGLPTVTLSM----EDGVEAPRVARVPFPYNMPLGPPG----DRELHRRVALGALGLLHGLEA-PGEV--------------------------------------------------------------------PLL
+>gi|163764434|ref|ZP_02171491.1| Alcohol dehydrogenase, zinc-binding domain protein [Bacillus selenitireducens MLS10] 2.11603e-27
+MLKQIK-HWLFKLSAN--------------------R-----TINNRDRTNAFTTPVKPMTNWNVAFLTTAGVHLKSQE-G-FDV----DAGDPSVRLIPSD-TDPDQLMITHTHYDTEE-ADKDTGAVFPLEALKKLAEEGRIGSVAKTHYGMMGYIP--ETDRLDQESIPVILKQLKKEHVDVLLLSP------------------------------------------------------------------------------------------------------------------------------------------------------------G
+>gi|150388502|ref|YP_001318551.1| D-proline reductase (dithiol) [Alkaliphilus metalliredigens QYMF] 8.0731e-42
+MTNMTV-----------------------VKGLQSEIFVPITPPPVW------TPVEKELKDMKVALVTAAGVHMKSDK-R-FNL-----AGDFSFRVVAGD-APIEDIMVSHGGYDNGD-VNKDINCMFPIDRMRELAEEGFIKAISSVNHGFMGGGG--DQTKFKEVTGPEIAKQLNEEGVDAVLLTA------------------------------------------------------------------------------------------------------------------------------------------------------------G
+>gi|227872309|ref|ZP_03990666.1| D-proline reductase (dithiol) [Oribacterium sinus F0268] 1.39902e-44
+MGNT-V-----------------------VKGMQSEIFVPVTPPPVW------APVTKPLKDMVIAIATAAGVHHKDDK-R-FNL-----AGDFTFRVIK-DTMPSSELMVSHGGYDNGD-VNKDINCMFPIDRLHELAKDGVIKGVAPVHFGFMGGGG--NQEKFKNETGPEIARQLKEEGVDAVILTA------------------------------------------------------------------------------------------------------------------------------------------------------------G
+>gi|255526905|ref|ZP_05393801.1| D-proline reductase (dithiol) [Clostridium carboxidivorans P7] 1.48359e-43
+MSKS-V-----------------------VKGLQSEVFVPITPKPVW------APVEKPLKDMVIALATAAGVHVKTDK-R-FNL-----AGDTGFRRIPGD-VNSDDLMVSHGGYDNSD-VNKDINCMFPIDRLRELAKEGYIKGVAPTHIGFMGGGG--NVKVFTEETGPEIAKILKDEGVDAVLMTA------------------------------------------------------------------------------------------------------------------------------------------------------------G
+>gi|255526896|ref|ZP_05393792.1| D-proline reductase (dithiol) [Clostridium carboxidivorans P7] 8.20419e-44
+MDLT-I-----------------------VKGLQSEIFVPITPPPVW------APVTKELKDMKVAIATAAGVHLKSDK-R-FNL-----AGDFTFRKIPGD-APSSELMVSHGGYDNGD-VNKDINCMFPIDRLKELVQEGFIKEIAPTHIGFMGGGG--NQEKFKNETGPEIARILKEEGVDAVLMTA------------------------------------------------------------------------------------------------------------------------------------------------------------G
+>gi|259501935|ref|ZP_05744837.1| D-proline reductase [Lactobacillus antri DSM 16041] 3.874e-42
+MSLL-N-----------------------IDGLQSEVFVPITPKPVF------AKVTKPLKDMKIAIVTAAGVHMKKDK-P-FNL-----AGDTSYRVVPSS-ATDDELMVSHGGYDNTD-VNKDINCMFPIDRLRELADEGFIGSLAPNFYTCMGGGG--DVKVFTEETGPAIAKKIKEENVDGVILTA------------------------------------------------------------------------------------------------------------------------------------------------------------G
+>gi|182701778|ref|ZP_02955119.1| PrdB protein [Clostridium botulinum NCTC 2916] 4.61723e-41
+MN---I-----------------------VKGLQSEIFVPITPNPVW------APVTMELKDMTVALATAAGVHLKSDK-R-FNL-----AGDFTYRLVPGD-AKTSDMMVSHGGYDNGD-VNKDINAMFPIDRLRELADAGFIKAVAKTHIGFMGGGG--NQQKFREETGPEVAKILKEEGVDAVLMTA------------------------------------------------------------------------------------------------------------------------------------------------------------G
+>gi|227872310|ref|ZP_03990667.1| possible subunit of proline reductase [Oribacterium sinus F0268] 5.02127e-12
+MLV-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------QRAIEAAGIPTIIIAALPPVVRQTGSPRAVAPLVPMGANAGEPN----NREMQYNIVKDTLEQLEEIESAGKIVPL---------------PYEYV----------------------------------------------AKV
+>gi|237795899|ref|YP_002863451.1| PrdB protein [Clostridium botulinum Ba4 str. 657] 6.83735e-12
+MQR---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------AIEEIGIPTIIIAALPPVVKQTGTPRAVAPRVPMGANAGEPN----NVEMQTAIVKDTLEQLIKIPSAGKVVPL---------------PYEYI----------------------------------------------AKV
+>gi|255526895|ref|ZP_05393791.1| D-proline reductase, PrdB subunit, selenocysteine-containing [Clostridium carboxidivorans P7] 5.83666e-11
+MQR---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------AIEEAGIPTICIAALPPVVKQTGTPRAVAPRVPMGANAGAPH----DVAMQTAIVKDSLVELTKITTAGTIVPL---------------PYEYI----------------------------------------------AKV
+>gi|33603861|ref|NP_891421.1| putative reductase [Bordetella bronchiseptica RB50] 2.93163e-55
+MNMA-AH-CQE-----PCMGTPVRYIDKTRDYYLSQGYEKPYQWAQYDDVP-FTPLGKPLSECRVTLISTSEISIVGDTHPEDETRMGIVGGTYTIPS----SLPASQLYSPSRSFDQAATTLEDVDAFFPTTHLHAAAQAGRIGGVTQRFHGVFNAYS--Q-RRTRERDAPLVLERCKEDGADVAILVPVCPVCHQTISLVSRHLEANGIPTVILAAARDIVEHVGVARVV-HT---DFPLGNPCGEPGNAAQQREILEYGFQLLERAFL-----------------------PRTTVQSPMRWSAGEAWKDLVFTPEQPWKSGETEQDWLRKKELYKKLKQEGKV
+>BLAST_QUERY_3
+MSLT-I-----------------------VKGLQSEIFVPITPPPVW------TPVTKPLKDMTVALATAAGVHLKSDK-R-FNL-----AGDFTFRVIPGD-APSSDLMVSHGGYDNGD-VNKDINCMFPIDRLRELAKEGFIKAVAPTHIGFMGGGG--NQQKFREETGPEIAKILKEEGVDAVLLTA-U----------QRAIEEAGIPTIIIAALPPVVRQTGTPRAVAPLVPMGANAGEPN----NVEMQTAIVKDSLEQLVKIPS-GKIVPL---------------PYEYI----------------------------------------------AKV
+# Cluster alignment n.4:
+>gi|119477984|ref|ZP_01618084.1| putative reductase [marine gamma proteobacterium HTCC2143] 1.12375e-24
+MDLVVCEAIKKDWENYLLKEDLPVPREYKIEGGLEHEPVKYIEKTRSYYEAQGFDRAYKWSDNSAIPWYQLSKPLSECNVTFVVTAVPDGTIPKLSRQGGSFALDEIPETFRTDELSWDKQATHTRDRESYIPMVALQQLAAAGIIGSVSARYHFVPTEYSQSNTLNSDAPAIRDACITDEVDIAILV-PL
+>BLAST_QUERY_4
+MDLVVCEAIKKDWENYLLKEDLPVPREYKIEGGLEHEPVKYIEKTRSYYEAQGFDRAYKWSDNSAIPWYQLSKPLSECNVTFVVTAVPDGTIPKLSRQGGSFALDEIPETFRTDELSWDKQATHTRDRESYIPMVALQQLAAAGIIGSVSARYHFVPTEYSQSNTLNSDAPAIRDACITDEVDIAILVUPL
+# Average weighted sequence identity with coverage: 0.418079648609 +- 0.220349172545
+# Average weighted sequence identity without coverage: 0.657955253665 +- 0.130515897918
+# Conservation map: [
+{'K': 0.01, '-': 0.98999999999999999},  #1
+{'-': 0.98999999999999999, 'E': 0.01},  #2
+{'-': 0.98999999999999999, 'V': 0.01},  #3
+{'S': 0.01, '-': 0.98999999999999999},  #4
+{'-': 0.98999999999999999, 'L': 0.01},  #5
+{'A': 0.01, 'M': 0.95999999999999996, '-': 0.029999999999999999},  #6
+{'A': 0.059999999999999998, 'C': 0.01, 'E': 0.01, 'D': 0.029999999999999999, 'G': 0.070000000000000007, 'I': 0.040000000000000001, '-': 0.059999999999999998, 'K': 0.11, 'M': 0.01, 'L': 0.059999999999999998, 'N': 0.050000000000000003, 'Q': 0.029999999999999999, 'P': 0.01, 'S': 0.19, 'R': 0.02, 'T': 0.080000000000000002, 'H': 0.01, 'V': 0.14000000000000001, 'Y': 0.01},  #7
+{'E': 0.01, 'D': 0.02, 'F': 0.02, '-': 0.57999999999999996, 'K': 0.17999999999999999, 'M': 0.01, 'L': 0.070000000000000007, 'N': 0.02, 'R': 0.040000000000000001, 'V': 0.02, 'Y': 0.029999999999999999},  #8
+{'A': 0.01, 'M': 0.01, 'H': 0.01, 'K': 0.01, '-': 0.81999999999999995, 'L': 0.029999999999999999, 'N': 0.01, 'Q': 0.01, 'P': 0.01, 'S': 0.02, 'T': 0.050000000000000003, 'V': 0.01},  #9
+{'-': 0.97999999999999998, 'E': 0.01, 'L': 0.01},  #10
+{'K': 0.01, '-': 0.97999999999999998, 'L': 0.01},  #11
+{'I': 0.01, 'K': 0.01, '-': 0.97999999999999998},  #12
+{'A': 0.01, '-': 0.98999999999999999},  #13
+{'K': 0.01, '-': 0.98999999999999999},  #14
+{'-': 0.98999999999999999, 'E': 0.01},  #15
+{'-': 0.98999999999999999, 'G': 0.01},  #16
+{'-': 0.98999999999999999, 'E': 0.01},  #17
+{'-': 0.98999999999999999, 'N': 0.01},  #18
+{'-': 0.98999999999999999, 'T': 0.01},  #19
+{'-': 0.97999999999999998, 'M': 0.02},  #20
+{'-': 0.97999999999999998, 'G': 0.02},  #21
+{'E': 0.01, 'M': 0.01, 'K': 0.17000000000000001, '-': 0.77000000000000002, 'L': 0.02, 'Y': 0.02},  #22
+{'A': 0.01, 'F': 0.01, 'I': 0.080000000000000002, 'K': 0.029999999999999999, '-': 0.76000000000000001, 'L': 0.070000000000000007, 'V': 0.01, 'Y': 0.029999999999999999},  #23
+{'E': 0.01, 'I': 0.01, 'K': 0.22, '-': 0.5, 'L': 0.01, 'R': 0.20999999999999999, 'T': 0.029999999999999999, 'V': 0.01},  #24
+{'A': 0.12, 'E': 0.01, 'F': 0.01, 'I': 0.19, 'K': 0.01, '-': 0.28999999999999998, 'L': 0.01, 'N': 0.01, 'T': 0.029999999999999999, 'V': 0.32000000000000001},  #25
+{'C': 0.01, 'I': 0.12, 'H': 0.01, '-': 0.41999999999999998, 'L': 0.029999999999999999, 'V': 0.40999999999999998},  #26
+{'E': 0.01, 'G': 0.01, 'F': 0.02, 'I': 0.02, 'H': 0.41999999999999998, '-': 0.40000000000000002, 'M': 0.01, 'L': 0.040000000000000001, 'Q': 0.02, 'V': 0.01, 'Y': 0.040000000000000001},  #27
+{'A': 0.01, 'C': 0.01, 'F': 0.029999999999999999, 'I': 0.01, '-': 0.40000000000000002, 'L': 0.01, 'Q': 0.01, 'S': 0.01, 'W': 0.01, 'V': 0.01, 'Y': 0.48999999999999999},  #28
+{'-': 0.98999999999999999, 'G': 0.01},  #29
+{'-': 0.98999999999999999, 'F': 0.01},  #30
+{'Q': 0.01, '-': 0.98999999999999999},  #31
+{'I': 0.01, '-': 0.98999999999999999},  #32
+{'S': 0.01, '-': 0.98999999999999999},  #33
+{'-': 0.98999999999999999, 'E': 0.01},  #34
+{'-': 0.98999999999999999, 'L': 0.01},  #35
+{'-': 0.98999999999999999, 'N': 0.01},  #36
+{'-': 0.98999999999999999, 'L': 0.01},  #37
+{'-': 0.98999999999999999, 'N': 0.01},  #38
+{'S': 0.01, '-': 0.98999999999999999},  #39
+{'H': 0.01, '-': 0.98999999999999999},  #40
+{'-': 0.98999999999999999, 'G': 0.01},  #41
+{'R': 0.01, '-': 0.98999999999999999},  #42
+{'-': 0.98999999999999999, 'T': 0.01},  #43
+{'-': 0.98999999999999999, 'E': 0.01},  #44
+{'I': 0.01, '-': 0.98999999999999999},  #45
+{'Q': 0.01, '-': 0.98999999999999999},  #46
+{'-': 0.98999999999999999, 'G': 0.01},  #47
+{'-': 0.98999999999999999, 'N': 0.01},  #48
+{'K': 0.01, '-': 0.98999999999999999},  #49
+{'-': 0.98999999999999999, 'L': 0.01},  #50
+{'-': 0.98999999999999999, 'L': 0.01},  #51
+{'-': 0.98999999999999999, 'V': 0.01},  #52
+{'-': 0.98999999999999999, 'N': 0.01},  #53
+{'S': 0.01, '-': 0.98999999999999999},  #54
+{'-': 0.98999999999999999, 'N': 0.01},  #55
+{'F': 0.02, 'I': 0.40000000000000002, '-': 0.40000000000000002, 'L': 0.14000000000000001, 'Q': 0.01, 'V': 0.029999999999999999},  #56
+{'E': 0.01, 'D': 0.040000000000000001, 'F': 0.01, 'K': 0.01, '-': 0.40000000000000002, 'N': 0.51000000000000001, 'T': 0.02},  #57
+{'Q': 0.53000000000000003, 'E': 0.01, 'K': 0.02, '-': 0.40000000000000002, 'N': 0.040000000000000001},  #58
+{'E': 0.02, 'D': 0.01, 'F': 0.48999999999999999, 'I': 0.059999999999999998, '-': 0.40000000000000002, 'L': 0.01, 'V': 0.01},  #59
+{'F': 0.44, '-': 0.40999999999999998, 'Q': 0.059999999999999998, 'S': 0.01, 'W': 0.01, 'V': 0.01, 'Y': 0.059999999999999998},  #60
+{'A': 0.41999999999999998, '-': 0.40999999999999998, 'S': 0.02, 'E': 0.01, 'G': 0.14000000000000001},  #61
+{'Q': 0.13, 'A': 0.01, '-': 0.40999999999999998, 'G': 0.40999999999999998, 'N': 0.040000000000000001},  #62
+{'A': 0.01, 'I': 0.33000000000000002, 'M': 0.01, 'K': 0.040000000000000001, '-': 0.44, 'L': 0.029999999999999999, 'T': 0.01, 'V': 0.10000000000000001, 'Y': 0.029999999999999999},  #63
+{'S': 0.01, '-': 0.42999999999999999, 'L': 0.01, 'G': 0.55000000000000004},  #64
+{'A': 0.01, 'G': 0.53000000000000003, 'I': 0.01, '-': 0.42999999999999999, 'L': 0.01, 'T': 0.01},  #65
+{'E': 0.5, 'K': 0.040000000000000001, '-': 0.44, 'D': 0.02},  #66
+{'A': 0.01, 'E': 0.34000000000000002, 'D': 0.17999999999999999, '-': 0.44, 'S': 0.01, 'T': 0.02},  #67
+{'A': 0.029999999999999999, 'M': 0.050000000000000003, 'E': 0.02, 'D': 0.01, 'G': 0.01, 'H': 0.02, 'K': 0.34000000000000002, '-': 0.44, 'Q': 0.01, 'S': 0.01, 'R': 0.029999999999999999, 'T': 0.029999999999999999},  #68
+{'A': 0.5, 'D': 0.01, 'G': 0.01, '-': 0.44, 'M': 0.01, 'S': 0.02, 'H': 0.01},  #69
+{'M': 0.01, 'D': 0.40999999999999998, 'G': 0.02, 'H': 0.050000000000000003, '-': 0.44, 'N': 0.050000000000000003, 'S': 0.02},  #70
+{'A': 0.02, 'C': 0.01, 'F': 0.02, 'I': 0.17000000000000001, 'H': 0.040000000000000001, 'K': 0.01, '-': 0.44, 'M': 0.01, 'Q': 0.01, 'S': 0.01, 'T': 0.089999999999999997, 'V': 0.080000000000000002, 'Y': 0.089999999999999997},  #71
+{'A': 0.11, 'E': 0.070000000000000007, 'G': 0.02, 'M': 0.01, 'K': 0.13, '-': 0.44, 'L': 0.01, 'Q': 0.01, 'P': 0.14999999999999999, 'S': 0.01, 'R': 0.02, 'T': 0.01, 'Y': 0.01},  #72
+{'F': 0.01, 'I': 0.01, '-': 0.44, 'M': 0.02, 'L': 0.050000000000000003, 'P': 0.45000000000000001, 'V': 0.02},  #73
+{'A': 0.01, 'M': 0.01, 'E': 0.34000000000000002, 'G': 0.040000000000000001, 'F': 0.040000000000000001, 'I': 0.01, 'H': 0.040000000000000001, '-': 0.44, 'L': 0.02, 'Q': 0.01, 'S': 0.02, 'V': 0.02},  #74
+{'G': 0.02, 'F': 0.059999999999999998, 'I': 0.089999999999999997, '-': 0.44, 'K': 0.059999999999999998, 'M': 0.02, 'L': 0.070000000000000007, 'S': 0.01, 'V': 0.22, 'Y': 0.01},  #75
+{'A': 0.059999999999999998, 'E': 0.029999999999999999, 'F': 0.01, 'I': 0.029999999999999999, 'H': 0.029999999999999999, 'K': 0.070000000000000007, '-': 0.44, 'M': 0.01, 'L': 0.01, 'Q': 0.02, 'P': 0.01, 'R': 0.27000000000000002, 'V': 0.01},  #76
+{'A': 0.02, 'E': 0.27000000000000002, 'D': 0.11, 'F': 0.01, 'I': 0.01, 'K': 0.070000000000000007, '-': 0.44, 'N': 0.02, 'Q': 0.01, 'P': 0.01, 'R': 0.01, 'T': 0.02},  #77
+{'I': 0.01, '-': 0.98999999999999999},  #78
+{'K': 0.01, '-': 0.98999999999999999},  #79
+{'-': 0.98999999999999999, 'M': 0.01},  #80
+{'R': 0.01, '-': 0.98999999999999999},  #81
+{'-': 0.98999999999999999, 'V': 0.01},  #82
+{'-': 0.98999999999999999, 'F': 0.01},  #83
+{'-': 0.98999999999999999, 'T': 0.01},  #84
+{'S': 0.01, '-': 0.98999999999999999},  #85
+{'K': 0.01, '-': 0.98999999999999999},  #86
+{'-': 0.98999999999999999, 'D': 0.01},  #87
+{'-': 0.98999999999999999, 'E': 0.01},  #88
+{'-': 0.98999999999999999, 'D': 0.01},  #89
+{'I': 0.01, '-': 0.98999999999999999},  #90
+{'-': 0.98999999999999999, 'E': 0.01},  #91
+{'-': 0.98999999999999999, 'V': 0.01},  #92
+{'-': 0.98999999999999999, 'N': 0.01},  #93
+{'-': 0.98999999999999999, 'T': 0.01},  #94
+{'-': 0.98999999999999999, 'M': 0.01},  #95
+{'-': 0.98999999999999999, 'M': 0.01},  #96
+{'-': 0.98999999999999999, 'D': 0.01},  #97
+{'-': 0.98999999999999999, 'V': 0.01},  #98
+{'I': 0.01, '-': 0.98999999999999999},  #99
+{'P': 0.01, '-': 0.98999999999999999},  #100
+{'-': 0.98999999999999999, 'V': 0.01},  #101
+{'K': 0.01, '-': 0.98999999999999999},  #102
+{'-': 0.98999999999999999, 'T': 0.01},  #103
+{'K': 0.01, '-': 0.98999999999999999},  #104
+{'-': 0.98999999999999999, 'M': 0.01},  #105
+{'-': 0.98999999999999999, 'E': 0.01},  #106
+{'E': 0.089999999999999997, 'D': 0.029999999999999999, 'G': 0.34999999999999998, 'I': 0.01, 'K': 0.02, '-': 0.44, 'Q': 0.01, 'S': 0.02, 'T': 0.029999999999999999},  #107
+{'A': 0.10000000000000001, 'E': 0.01, 'G': 0.02, 'F': 0.01, 'I': 0.02, 'K': 0.040000000000000001, '-': 0.44, 'L': 0.13, 'N': 0.01, 'Q': 0.029999999999999999, 'P': 0.11, 'S': 0.02, 'T': 0.01, 'V': 0.050000000000000003},  #108
+{'A': 0.02, 'I': 0.070000000000000007, 'M': 0.02, 'K': 0.01, '-': 0.45000000000000001, 'P': 0.080000000000000002, 'V': 0.34999999999999998},  #109
+{'-': 0.97999999999999998, 'K': 0.01, 'M': 0.01},  #110
+{'P': 0.080000000000000002, '-': 0.44, 'G': 0.47999999999999998},  #111
+{'A': 0.01, 'C': 0.029999999999999999, 'I': 0.070000000000000007, '-': 0.44, 'L': 0.01, 'P': 0.35999999999999999, 'S': 0.040000000000000001, 'T': 0.01, 'V': 0.029999999999999999},  #112
+{'A': 0.089999999999999997, 'G': 0.34999999999999998, '-': 0.42999999999999999, 'S': 0.10000000000000001, 'V': 0.01, 'Y': 0.02},  #113
+{'A': 0.059999999999999998, 'D': 0.01, 'I': 0.040000000000000001, '-': 0.42999999999999999, 'K': 0.01, 'M': 0.14000000000000001, 'L': 0.12, 'Q': 0.070000000000000007, 'S': 0.02, 'T': 0.070000000000000007, 'V': 0.02, 'Y': 0.01},  #114
+{'A': 0.25, 'E': 0.01, 'G': 0.080000000000000002, 'M': 0.070000000000000007, '-': 0.42999999999999999, 'L': 0.01, 'N': 0.02, 'Q': 0.10000000000000001, 'S': 0.01, 'R': 0.01, 'T': 0.01},  #115
+{'A': 0.01, 'F': 0.11, 'I': 0.040000000000000001, 'M': 0.01, '-': 0.42999999999999999, 'L': 0.38, 'V': 0.01, 'Y': 0.01},  #116
+{'A': 0.029999999999999999, 'E': 0.080000000000000002, 'D': 0.059999999999999998, 'M': 0.01, 'K': 0.080000000000000002, '-': 0.42999999999999999, 'N': 0.14000000000000001, 'Q': 0.14999999999999999, 'S': 0.01, 'R': 0.01},  #117
+{'R': 0.01, '-': 0.98999999999999999},  #118
+{'A': 0.11, 'E': 0.02, 'D': 0.01, 'G': 0.12, 'K': 0.11, '-': 0.42999999999999999, 'L': 0.01, 'N': 0.029999999999999999, 'Q': 0.050000000000000003, 'P': 0.01, 'S': 0.080000000000000002, 'T': 0.02},  #119
+{'-': 0.98999999999999999, 'N': 0.01},  #120
+{'-': 0.98999999999999999, 'G': 0.01},  #121
+{'I': 0.01, '-': 0.98999999999999999},  #122
+{'-': 0.98999999999999999, 'T': 0.01},  #123
+{'-': 0.98999999999999999, 'V': 0.01},  #124
+{'-': 0.98999999999999999, 'L': 0.01},  #125
+{'-': 0.98999999999999999, 'L': 0.01},  #126
+{'-': 0.98999999999999999, 'T': 0.01},  #127
+{'-': 0.98999999999999999, 'G': 0.01},  #128
+{'R': 0.01, '-': 0.98999999999999999},  #129
+{'-': 0.98999999999999999, 'E': 0.01},  #130
+{'A': 0.01, '-': 0.98999999999999999},  #131
+{'S': 0.01, '-': 0.98999999999999999},  #132
+{'-': 0.98999999999999999, 'G': 0.01},  #133
+{'K': 0.01, '-': 0.98999999999999999},  #134
+{'Q': 0.01, '-': 0.98999999999999999},  #135
+{'-': 0.98999999999999999, 'V': 0.01},  #136
+{'A': 0.01, '-': 0.98999999999999999},  #137
+{'A': 0.20999999999999999, 'E': 0.050000000000000003, 'M': 0.040000000000000001, 'K': 0.01, '-': 0.42999999999999999, 'L': 0.12, 'Q': 0.080000000000000002, 'S': 0.01, 'T': 0.01, 'V': 0.01, 'Y': 0.029999999999999999},  #138
+{'-': 0.98999999999999999, 'F': 0.01},  #139
+{'K': 0.01, '-': 0.98999999999999999},  #140
+{'K': 0.01, '-': 0.98999999999999999},  #141
+{'A': 0.01, 'F': 0.14000000000000001, 'I': 0.029999999999999999, '-': 0.42999999999999999, 'M': 0.029999999999999999, 'L': 0.34000000000000002, 'W': 0.01, 'V': 0.01},  #142
+{'A': 0.01, 'E': 0.029999999999999999, 'G': 0.28000000000000003, 'H': 0.01, 'K': 0.16, '-': 0.44, 'M': 0.01, 'L': 0.01, 'N': 0.029999999999999999, 'P': 0.01, 'V': 0.01},  #143
+{'A': 0.01, 'E': 0.02, 'K': 0.02, '-': 0.92000000000000004, 'S': 0.01, 'R': 0.01, 'T': 0.01},  #144
+{'-': 0.98999999999999999, 'T': 0.01},  #145
+{'A': 0.01, '-': 0.98999999999999999},  #146
+{'-': 0.98999999999999999, 'G': 0.01},  #147
+{'K': 0.01, '-': 0.98999999999999999},  #148
+{'-': 0.98999999999999999, 'V': 0.01},  #149
+{'S': 0.01, '-': 0.98999999999999999},  #150
+{'-': 0.98999999999999999, 'E': 0.01},  #151
+{'K': 0.01, '-': 0.98999999999999999},  #152
+{'I': 0.01, '-': 0.98999999999999999},  #153
+{'A': 0.01, '-': 0.98999999999999999},  #154
+{'-': 0.98999999999999999, 'F': 0.01},  #155
+{'-': 0.98999999999999999, 'N': 0.01},  #156
+{'-': 0.98999999999999999, 'M': 0.01},  #157
+{'P': 0.01, '-': 0.98999999999999999},  #158
+{'-': 0.98999999999999999, 'G': 0.01},  #159
+{'C': 0.01, '-': 0.98999999999999999},  #160
+{'P': 0.01, '-': 0.98999999999999999},  #161
+{'A': 0.01, 'E': 0.10000000000000001, 'D': 0.20999999999999999, 'G': 0.089999999999999997, 'I': 0.02, 'K': 0.02, '-': 0.48999999999999999, 'N': 0.01, 'P': 0.01, 'S': 0.02, 'V': 0.01, 'Y': 0.01},  #162
+{'A': 0.02, 'E': 0.23000000000000001, 'D': 0.17000000000000001, 'G': 0.050000000000000003, 'K': 0.029999999999999999, '-': 0.42999999999999999, 'N': 0.050000000000000003, 'Q': 0.02},  #163
+{'-': 0.98999999999999999, 'E': 0.01},  #164
+{'-': 0.98999999999999999, 'D': 0.01},  #165
+{'-': 0.98999999999999999, 'L': 0.01},  #166
+{'I': 0.01, '-': 0.98999999999999999},  #167
+{'-': 0.98999999999999999, 'L': 0.01},  #168
+{'-': 0.98999999999999999, 'N': 0.01},  #169
+{'-': 0.98999999999999999, 'L': 0.01},  #170
+{'-': 0.98999999999999999, 'D': 0.01},  #171
+{'-': 0.98999999999999999, 'M': 0.01},  #172
+{'I': 0.01, '-': 0.98999999999999999},  #173
+{'I': 0.01, '-': 0.98999999999999999},  #174
+{'-': 0.98999999999999999, 'E': 0.01},  #175
+{'-': 0.98999999999999999, 'D': 0.01},  #176
+{'-': 0.98999999999999999, 'G': 0.01},  #177
+{'I': 0.01, '-': 0.98999999999999999},  #178
+{'A': 0.01, '-': 0.98999999999999999},  #179
+{'-': 0.98999999999999999, 'M': 0.01},  #180
+{'-': 0.98999999999999999, 'T': 0.01},  #181
+{'R': 0.01, '-': 0.98999999999999999},  #182
+{'-': 0.98999999999999999, 'D': 0.01},  #183
+{'-': 0.98999999999999999, 'G': 0.01},  #184
+{'P': 0.01, '-': 0.98999999999999999},  #185
+{'-': 0.98999999999999999, 'T': 0.01},  #186
+{'A': 0.01, '-': 0.98999999999999999},  #187
+{'C': 0.01, '-': 0.98999999999999999},  #188
+{'H': 0.01, '-': 0.98999999999999999},  #189
+{'R': 0.01, '-': 0.98999999999999999},  #190
+{'A': 0.01, '-': 0.98999999999999999},  #191
+{'A': 0.01, '-': 0.98999999999999999},  #192
+{'-': 0.98999999999999999, 'D': 0.01},  #193
+{'-': 0.98999999999999999, 'E': 0.01},  #194
+{'I': 0.01, '-': 0.98999999999999999},  #195
+{'I': 0.01, '-': 0.98999999999999999},  #196
+{'Q': 0.01, '-': 0.98999999999999999},  #197
+{'-': 0.98999999999999999, 'E': 0.01},  #198
+{'I': 0.01, '-': 0.98999999999999999},  #199
+{'R': 0.01, '-': 0.98999999999999999},  #200
+{'-': 0.98999999999999999, 'N': 0.01},  #201
+{'A': 0.01, '-': 0.98999999999999999},  #202
+{'I': 0.01, '-': 0.98999999999999999},  #203
+{'K': 0.01, '-': 0.98999999999999999},  #204
+{'R': 0.01, '-': 0.98999999999999999},  #205
+{'-': 0.98999999999999999, 'D': 0.01},  #206
+{'I': 0.01, '-': 0.98999999999999999},  #207
+{'-': 0.98999999999999999, 'N': 0.01},  #208
+{'-': 0.98999999999999999, 'N': 0.01},  #209
+{'-': 0.98999999999999999, 'T': 0.01},  #210
+{'P': 0.01, '-': 0.98999999999999999},  #211
+{'A': 0.28999999999999998, 'G': 0.11, 'F': 0.040000000000000001, 'I': 0.050000000000000003, '-': 0.42999999999999999, 'M': 0.02, 'L': 0.01, 'P': 0.01, 'V': 0.01, 'Y': 0.029999999999999999},  #212
+{'E': 0.42999999999999999, 'D': 0.01, 'I': 0.01, 'H': 0.01, 'K': 0.040000000000000001, '-': 0.42999999999999999, 'N': 0.02, 'Q': 0.040000000000000001, 'T': 0.01},  #213
+{'I': 0.33000000000000002, 'A': 0.01, '-': 0.42999999999999999, 'T': 0.01, 'V': 0.22},  #214
+{'A': 0.01, 'I': 0.070000000000000007, '-': 0.42999999999999999, 'L': 0.029999999999999999, 'T': 0.089999999999999997, 'V': 0.37},  #215
+{'A': 0.27000000000000002, 'G': 0.16, 'H': 0.059999999999999998, 'K': 0.029999999999999999, '-': 0.42999999999999999, 'N': 0.01, 'S': 0.02, 'R': 0.01, 'T': 0.01},  #216
+{'C': 0.01, '-': 0.42999999999999999, 'T': 0.54000000000000004, 'V': 0.02},  #217
+{'F': 0.02, 'I': 0.23000000000000001, '-': 0.42999999999999999, 'L': 0.01, 'T': 0.01, 'V': 0.29999999999999999},  #218
+{'C': 0.01, 'F': 0.01, 'I': 0.35999999999999999, '-': 0.42999999999999999, 'T': 0.01, 'V': 0.13, 'Y': 0.050000000000000003},  #219
+{'E': 0.01, 'C': 0.55000000000000004, '-': 0.42999999999999999, 'W': 0.01},  #220
+{'S': 0.01, '-': 0.42999999999999999, 'G': 0.56000000000000005},  #221
+{'P': 0.02, '-': 0.42999999999999999, 'D': 0.55000000000000004},  #222
+{'D': 0.029999999999999999, 'G': 0.029999999999999999, 'K': 0.01, '-': 0.42999999999999999, 'N': 0.20000000000000001, 'S': 0.27000000000000002, 'T': 0.029999999999999999},  #223
+{'F': 0.059999999999999998, 'I': 0.01, 'H': 0.01, '-': 0.42999999999999999, 'P': 0.01, 'T': 0.01, 'W': 0.01, 'Y': 0.46000000000000002},  #224
+{'C': 0.01, 'F': 0.38, 'I': 0.050000000000000003, '-': 0.44, 'M': 0.02, 'L': 0.02, 'V': 0.01, 'Y': 0.070000000000000007},  #225
+{'A': 0.080000000000000002, 'G': 0.16, 'K': 0.01, '-': 0.44, 'L': 0.01, 'N': 0.23999999999999999, 'Q': 0.01, 'P': 0.01, 'S': 0.01, 'R': 0.01, 'T': 0.02},  #226
+{'S': 0.01, '-': 0.97999999999999998, 'L': 0.01},  #227
+{'H': 0.01, '-': 0.97999999999999998, 'D': 0.01},  #228
+{'E': 0.40000000000000002, 'D': 0.02, 'K': 0.01, '-': 0.42999999999999999, 'N': 0.040000000000000001, 'Q': 0.029999999999999999, 'S': 0.050000000000000003, 'R': 0.01, 'T': 0.01},  #229
+{'D': 0.01, 'H': 0.12, 'K': 0.01, '-': 0.42999999999999999, 'N': 0.40999999999999998, 'R': 0.01, 'Y': 0.01},  #230
+{'A': 0.02, 'E': 0.050000000000000003, 'F': 0.01, 'I': 0.089999999999999997, 'M': 0.080000000000000002, 'K': 0.059999999999999998, '-': 0.44, 'L': 0.11, 'N': 0.02, 'Q': 0.01, 'P': 0.01, 'T': 0.070000000000000007, 'V': 0.029999999999999999},  #231
+{'A': 0.01, 'E': 0.26000000000000001, 'D': 0.23999999999999999, 'K': 0.02, '-': 0.44, 'Q': 0.01, 'S': 0.01, 'V': 0.01},  #232
+{'A': 0.059999999999999998, 'E': 0.31, 'D': 0.01, 'I': 0.01, 'K': 0.059999999999999998, '-': 0.44, 'L': 0.02, 'S': 0.059999999999999998, 'T': 0.02, 'V': 0.01},  #233
+{'A': 0.39000000000000001, 'C': 0.040000000000000001, 'D': 0.01, 'G': 0.01, 'I': 0.01, '-': 0.44, 'S': 0.02, 'T': 0.01, 'V': 0.070000000000000007},  #234
+{'-': 0.98999999999999999, 'V': 0.01},  #235
+{'A': 0.01, 'C': 0.02, 'D': 0.01, 'I': 0.01, 'M': 0.01, 'K': 0.14000000000000001, '-': 0.44, 'L': 0.11, 'Q': 0.050000000000000003, 'S': 0.040000000000000001, 'R': 0.02, 'T': 0.089999999999999997, 'V': 0.050000000000000003},  #236
+{'A': 0.14999999999999999, 'E': 0.080000000000000002, 'D': 0.040000000000000001, 'H': 0.02, 'K': 0.11, '-': 0.44, 'L': 0.01, 'N': 0.040000000000000001, 'Q': 0.029999999999999999, 'P': 0.02, 'S': 0.029999999999999999, 'R': 0.029999999999999999},  #237
+{'A': 0.02, 'E': 0.19, 'F': 0.059999999999999998, 'K': 0.080000000000000002, '-': 0.44, 'Q': 0.050000000000000003, 'S': 0.01, 'R': 0.050000000000000003, 'T': 0.089999999999999997, 'Y': 0.01},  #238
+{'F': 0.02, 'I': 0.25, 'M': 0.02, '-': 0.42999999999999999, 'L': 0.080000000000000002, 'V': 0.19, 'Y': 0.01},  #239
+{'A': 0.01, 'C': 0.01, 'E': 0.01, 'D': 0.01, 'F': 0.02, 'I': 0.040000000000000001, 'M': 0.01, 'K': 0.029999999999999999, 'V': 0.02, '-': 0.42999999999999999, 'L': 0.34999999999999998, 'Q': 0.02, 'S': 0.01, 'R': 0.02, 'H': 0.01},  #240
+{'A': 0.050000000000000003, 'E': 0.20000000000000001, 'D': 0.059999999999999998, 'G': 0.040000000000000001, 'K': 0.10000000000000001, '-': 0.42999999999999999, 'N': 0.040000000000000001, 'Q': 0.01, 'P': 0.01, 'S': 0.040000000000000001, 'R': 0.01, 'T': 0.01},  #241
+{'A': 0.01, 'G': 0.01, 'F': 0.059999999999999998, 'I': 0.02, 'M': 0.32000000000000001, 'K': 0.01, '-': 0.42999999999999999, 'L': 0.050000000000000003, 'T': 0.02, 'W': 0.01, 'V': 0.059999999999999998},  #242
+{'A': 0.01, 'F': 0.01, 'I': 0.23000000000000001, '-': 0.42999999999999999, 'L': 0.12, 'V': 0.20000000000000001},  #243
+{'A': 0.040000000000000001, 'E': 0.089999999999999997, 'D': 0.029999999999999999, 'G': 0.01, 'K': 0.29999999999999999, '-': 0.42999999999999999, 'L': 0.01, 'N': 0.02, 'Q': 0.01, 'S': 0.01, 'R': 0.029999999999999999, 'T': 0.02},  #244
+{'E': 0.089999999999999997, 'D': 0.070000000000000007, 'G': 0.080000000000000002, 'K': 0.16, '-': 0.44, 'Q': 0.059999999999999998, 'S': 0.059999999999999998, 'R': 0.02, 'T': 0.01, 'V': 0.01},  #245
+{'A': 0.040000000000000001, 'C': 0.02, 'E': 0.040000000000000001, 'F': 0.080000000000000002, 'I': 0.02, 'H': 0.01, 'K': 0.040000000000000001, '-': 0.44, 'M': 0.01, 'L': 0.059999999999999998, 'N': 0.01, 'Q': 0.029999999999999999, 'T': 0.02, 'V': 0.029999999999999999, 'Y': 0.14999999999999999},  #246
+{'A': 0.01, 'E': 0.11, 'D': 0.050000000000000003, 'G': 0.029999999999999999, 'H': 0.01, 'K': 0.16, '-': 0.42999999999999999, 'N': 0.11, 'Q': 0.040000000000000001, 'S': 0.050000000000000003},  #247
+{'A': 0.12, 'P': 0.39000000000000001, '-': 0.42999999999999999, 'F': 0.059999999999999998},  #248
+{'Q': 0.050000000000000003, 'E': 0.02, '-': 0.42999999999999999, 'D': 0.5},  #249
+{'A': 0.040000000000000001, 'G': 0.050000000000000003, 'F': 0.01, 'I': 0.089999999999999997, '-': 0.42999999999999999, 'M': 0.01, 'L': 0.27000000000000002, 'V': 0.10000000000000001},  #250
+{'F': 0.28999999999999998, '-': 0.42999999999999999, 'L': 0.12, 'V': 0.16},  #251
+{'F': 0.040000000000000001, 'I': 0.29999999999999999, '-': 0.42999999999999999, 'M': 0.01, 'L': 0.040000000000000001, 'V': 0.17999999999999999},  #252
+{'A': 0.46000000000000002, 'C': 0.050000000000000003, '-': 0.42999999999999999, 'L': 0.01, 'T': 0.029999999999999999, 'V': 0.02},  #253
+{'K': 0.01, '-': 0.42999999999999999, 'G': 0.55000000000000004, 'V': 0.01},  #254
+{'P': 0.56000000000000005, '-': 0.42999999999999999, 'E': 0.01},  #255
+{'A': 0.48999999999999999, 'C': 0.029999999999999999, 'G': 0.040000000000000001, 'M': 0.01, '-': 0.41999999999999998, 'T': 0.01},  #256
+{'M': 0.01, '-': 0.41999999999999998, 'L': 0.01, 'F': 0.56000000000000005},  #257
+{'D': 0.02, 'G': 0.01, 'F': 0.029999999999999999, 'M': 0.02, '-': 0.41999999999999998, 'N': 0.45000000000000001, 'Q': 0.040000000000000001, 'H': 0.01},  #258
+{'A': 0.5, 'Q': 0.01, '-': 0.41999999999999998, 'D': 0.01, 'Y': 0.059999999999999998},  #259
+{'E': 0.029999999999999999, 'G': 0.51000000000000001, 'H': 0.02, 'K': 0.01, '-': 0.41999999999999998, 'L': 0.01},  #260
+{'D': 0.01, 'G': 0.01, '-': 0.42999999999999999, 'N': 0.01, 'Q': 0.01, 'S': 0.01, 'R': 0.51000000000000001, 'T': 0.01},  #261
+{'Y': 0.55000000000000004, '-': 0.42999999999999999, 'F': 0.02},  #262
+{'A': 0.029999999999999999, '-': 0.41999999999999998, 'T': 0.01, 'G': 0.54000000000000004},  #263
+{'-': 0.98999999999999999, 'M': 0.01},  #264
+{'H': 0.01, '-': 0.98999999999999999},  #265
+{'-': 0.98999999999999999, 'D': 0.01},  #266
+{'-': 0.98999999999999999, 'N': 0.01},  #267
+{'-': 0.98999999999999999, 'L': 0.01},  #268
+{'-': 0.98999999999999999, 'L': 0.01},  #269
+{'-': 0.98999999999999999, 'L': 0.01},  #270
+{'P': 0.01, '-': 0.98999999999999999},  #271
+{'-': 0.98999999999999999, 'L': 0.01},  #272
+{'E': 0.059999999999999998, 'D': 0.01, 'F': 0.02, 'I': 0.02, 'M': 0.10000000000000001, '-': 0.41999999999999998, 'S': 0.01, 'R': 0.01, 'T': 0.089999999999999997, 'V': 0.26000000000000001},  #273
+{'A': 0.46999999999999997, 'C': 0.01, 'G': 0.029999999999999999, 'M': 0.059999999999999998, '-': 0.41999999999999998, 'P': 0.01},  #274
+{'A': 0.12, 'C': 0.45000000000000001, '-': 0.41999999999999998, 'S': 0.01},  #275
+{'A': 0.089999999999999997, 'S': 0.02, '-': 0.41999999999999998, 'G': 0.46000000000000002, 'V': 0.01},  #276
+{'A': 0.10000000000000001, 'E': 0.040000000000000001, 'D': 0.02, 'G': 0.040000000000000001, 'F': 0.01, 'I': 0.01, 'K': 0.01, '-': 0.41999999999999998, 'L': 0.01, 'N': 0.029999999999999999, 'Q': 0.01, 'S': 0.029999999999999999, 'R': 0.01, 'T': 0.23000000000000001, 'V': 0.02, 'Y': 0.01},  #277
+{'A': 0.029999999999999999, 'I': 0.23000000000000001, '-': 0.41999999999999998, 'M': 0.02, 'L': 0.02, 'S': 0.01, 'T': 0.02, 'V': 0.25},  #278
+{'-': 0.98999999999999999, 'G': 0.01},  #279
+{'A': 0.26000000000000001, 'C': 0.19, 'G': 0.040000000000000001, 'I': 0.01, '-': 0.41999999999999998, 'T': 0.070000000000000007, 'V': 0.01},  #280
+{'A': 0.059999999999999998, 'E': 0.059999999999999998, 'D': 0.029999999999999999, 'K': 0.34999999999999998, '-': 0.41999999999999998, 'N': 0.01, 'Q': 0.02, 'S': 0.02, 'R': 0.01, 'T': 0.01, 'V': 0.01},  #281
+{'A': 0.34000000000000002, 'E': 0.040000000000000001, 'F': 0.01, 'M': 0.02, '-': 0.41999999999999998, 'L': 0.040000000000000001, 'S': 0.01, 'T': 0.01, 'V': 0.080000000000000002, 'Y': 0.029999999999999999},  #282
+{'A': 0.02, 'I': 0.050000000000000003, '-': 0.46000000000000002, 'L': 0.01, 'V': 0.46000000000000002},  #283
+{'A': 0.080000000000000002, 'E': 0.10000000000000001, 'G': 0.02, 'I': 0.01, 'K': 0.10000000000000001, '-': 0.41999999999999998, 'N': 0.029999999999999999, 'Q': 0.14000000000000001, 'S': 0.029999999999999999, 'R': 0.01, 'T': 0.029999999999999999, 'V': 0.029999999999999999},  #284
+{'A': 0.02, 'E': 0.27000000000000002, 'D': 0.17000000000000001, 'F': 0.01, 'H': 0.02, 'K': 0.080000000000000002, '-': 0.40000000000000002, 'P': 0.01, 'S': 0.01, 'T': 0.01},  #285
+{'A': 0.029999999999999999, 'C': 0.01, 'E': 0.17999999999999999, 'D': 0.029999999999999999, 'M': 0.01, 'K': 0.19, '-': 0.40999999999999998, 'L': 0.01, 'N': 0.040000000000000001, 'Q': 0.029999999999999999, 'R': 0.040000000000000001, 'T': 0.02},  #286
+{'G': 0.02, 'F': 0.059999999999999998, '-': 0.40000000000000002, 'K': 0.01, 'M': 0.040000000000000001, 'L': 0.39000000000000001, 'T': 0.040000000000000001, 'V': 0.01, 'Y': 0.029999999999999999},  #287
+{'M': 0.01, 'E': 0.029999999999999999, 'D': 0.02, 'G': 0.31, 'H': 0.029999999999999999, 'K': 0.02, '-': 0.40000000000000002, 'N': 0.14999999999999999, 'Q': 0.01, 'P': 0.01, 'V': 0.01},  #288
+{'A': 0.02, 'C': 0.02, 'I': 0.41999999999999998, '-': 0.39000000000000001, 'L': 0.059999999999999998, 'T': 0.01, 'V': 0.080000000000000002},  #289
+{'E': 0.01, 'K': 0.070000000000000007, '-': 0.39000000000000001, 'Q': 0.01, 'P': 0.51000000000000001, 'T': 0.01},  #290
+{'A': 0.20000000000000001, 'C': 0.01, '-': 0.39000000000000001, 'L': 0.01, 'P': 0.01, 'S': 0.050000000000000003, 'R': 0.01, 'T': 0.050000000000000003, 'V': 0.27000000000000002},  #291
+{'E': 0.01, 'F': 0.029999999999999999, 'I': 0.14999999999999999, '-': 0.40999999999999998, 'L': 0.10000000000000001, 'V': 0.28999999999999998, 'Y': 0.01},  #292
+{'A': 0.040000000000000001, 'G': 0.02, 'M': 0.01, '-': 0.41999999999999998, 'S': 0.10000000000000001, 'T': 0.39000000000000001, 'V': 0.02},  #293
+{'A': 0.17999999999999999, 'S': 0.070000000000000007, '-': 0.41999999999999998, 'G': 0.32000000000000001, 'V': 0.01},  #294
+{'P': 0.01, '-': 0.98999999999999999},  #295
+{'-': 0.98999999999999999, 'N': 0.01},  #296
+{'-': 0.98999999999999999, 'E': 0.01},  #297
+{'-': 0.98999999999999999, 'V': 0.01},  #298
+{'K': 0.01, '-': 0.98999999999999999},  #299
+{'-': 0.98999999999999999, 'D': 0.01},  #300
+{'-': 0.98999999999999999, 'G': 0.01},  #301
+{'-': 0.98999999999999999, 'G': 0.01},  #302
+{'I': 0.01, '-': 0.98999999999999999},  #303
+{'H': 0.01, '-': 0.98999999999999999},  #304
+{'A': 0.01, '-': 0.98999999999999999},  #305
+{'-': 0.98999999999999999, 'M': 0.01},  #306
+{'-': 0.98999999999999999, 'T': 0.01},  #307
+{'C': 0.01, '-': 0.98999999999999999},  #308
+{'-': 0.98999999999999999, 'V': 0.01},  #309
+{'-': 0.98999999999999999, 'G': 0.01},  #310
+{'P': 0.01, '-': 0.98999999999999999},  #311
+{'S': 0.01, '-': 0.98999999999999999},  #312
+{'-': 0.98999999999999999, 'T': 0.01},  #313
+{'K': 0.01, '-': 0.98999999999999999},  #314
+{'-': 0.98999999999999999, 'E': 0.01},  #315
+{'-': 0.98999999999999999, 'T': 0.01},  #316
+{'-': 0.98999999999999999, 'T': 0.01},  #317
+{'R': 0.01, '-': 0.98999999999999999},  #318
+{'C': 0.02, 'E': 0.01, 'I': 0.02, 'M': 0.46999999999999997, '-': 0.41999999999999998, 'L': 0.050000000000000003, 'H': 0.01},  #319
+{'A': 0.01, 'F': 0.01, 'H': 0.029999999999999999, '-': 0.41999999999999998, 'N': 0.029999999999999999, 'S': 0.059999999999999998, 'W': 0.01, 'Y': 0.42999999999999999},  #320
+{'A': 0.02, 'E': 0.11, 'I': 0.089999999999999997, 'H': 0.01, 'K': 0.070000000000000007, '-': 0.41999999999999998, 'L': 0.01, 'P': 0.12, 'S': 0.02, 'R': 0.01, 'V': 0.12},  #321
+{'E': 0.56000000000000005, 'R': 0.01, '-': 0.41999999999999998, 'D': 0.01},  #322
+{'C': 0.02, 'D': 0.01, 'K': 0.01, '-': 0.41999999999999998, 'N': 0.53000000000000003, 'S': 0.01},  #323
+{'A': 0.01, 'E': 0.02, '-': 0.41999999999999998, 'N': 0.01, 'Q': 0.02, 'P': 0.51000000000000001, 'T': 0.01},  #324
+{'A': 0.02, 'E': 0.029999999999999999, 'D': 0.01, 'G': 0.48999999999999999, '-': 0.41999999999999998, 'L': 0.01, 'Q': 0.01, 'S': 0.01},  #325
+{'-': 0.98999999999999999, 'E': 0.01},  #326
+{'A': 0.01, 'I': 0.01, '-': 0.93000000000000005, 'L': 0.02, 'T': 0.01, 'V': 0.02},  #327
+{'H': 0.01, '-': 0.98999999999999999},  #328
+{'K': 0.01, '-': 0.98999999999999999},  #329
+{'-': 0.98999999999999999, 'L': 0.01},  #330
+{'Y': 0.01, '-': 0.98999999999999999},  #331
+{'-': 0.98999999999999999, 'E': 0.01},  #332
+{'-': 0.98999999999999999, 'D': 0.01},  #333
+{'A': 0.12, 'I': 0.059999999999999998, '-': 0.41999999999999998, 'L': 0.02, 'T': 0.050000000000000003, 'V': 0.28999999999999998, 'Y': 0.040000000000000001},  #334
+{'A': 0.01, 'E': 0.14999999999999999, 'D': 0.35999999999999999, 'K': 0.01, '-': 0.41999999999999998, 'L': 0.01, 'Q': 0.02, 'S': 0.01, 'T': 0.01},  #335
+{'A': 0.01, 'M': 0.28000000000000003, 'E': 0.029999999999999999, 'I': 0.01, 'H': 0.01, 'K': 0.02, '-': 0.41999999999999998, 'L': 0.13, 'Q': 0.02, 'S': 0.02, 'R': 0.01, 'V': 0.040000000000000001},  #336
+{'Y': 0.29999999999999999, 'A': 0.01, 'C': 0.029999999999999999, '-': 0.41999999999999998, 'F': 0.23999999999999999},  #337
+{'A': 0.01, 'G': 0.01, 'F': 0.01, 'K': 0.34000000000000002, '-': 0.41999999999999998, 'Q': 0.01, 'S': 0.01, 'R': 0.17000000000000001, 'V': 0.01, 'Y': 0.01},  #338
+{'A': 0.02, 'E': 0.01, 'D': 0.050000000000000003, 'G': 0.01, 'K': 0.34999999999999998, '-': 0.41999999999999998, 'L': 0.029999999999999999, 'N': 0.01, 'Q': 0.02, 'P': 0.01, 'S': 0.040000000000000001, 'R': 0.02, 'T': 0.01},  #339
+{'C': 0.01, 'E': 0.040000000000000001, 'D': 0.17999999999999999, 'G': 0.01, 'F': 0.029999999999999999, 'H': 0.02, 'K': 0.059999999999999998, '-': 0.41999999999999998, 'N': 0.02, 'Q': 0.029999999999999999, 'S': 0.089999999999999997, 'R': 0.02, 'W': 0.01, 'V': 0.01, 'Y': 0.050000000000000003},  #340
+{'A': 0.059999999999999998, 'C': 0.02, 'F': 0.02, 'I': 0.080000000000000002, 'M': 0.050000000000000003, '-': 0.41999999999999998, 'L': 0.059999999999999998, 'N': 0.01, 'S': 0.01, 'T': 0.029999999999999999, 'V': 0.23999999999999999},  #341
+{'D': 0.02, 'F': 0.01, 'I': 0.02, 'H': 0.029999999999999999, '-': 0.41999999999999998, 'L': 0.01, 'Q': 0.02, 'P': 0.029999999999999999, 'T': 0.02, 'W': 0.02, 'V': 0.029999999999999999, 'Y': 0.37},  #342
+{'A': 0.02, 'I': 0.41999999999999998, 'M': 0.029999999999999999, '-': 0.41999999999999998, 'L': 0.01, 'T': 0.02, 'V': 0.080000000000000002},  #343
+{'A': 0.040000000000000001, 'C': 0.01, 'F': 0.029999999999999999, 'I': 0.14999999999999999, 'M': 0.040000000000000001, '-': 0.41999999999999998, 'L': 0.040000000000000001, 'V': 0.27000000000000002},  #344
+{'A': 0.02, 'E': 0.20999999999999999, 'D': 0.01, 'G': 0.02, 'I': 0.01, 'K': 0.17999999999999999, '-': 0.41999999999999998, 'Q': 0.01, 'P': 0.02, 'S': 0.089999999999999997, 'R': 0.01},  #345
+{'A': 0.040000000000000001, 'G': 0.059999999999999998, '-': 0.41999999999999998, 'M': 0.050000000000000003, 'S': 0.02, 'T': 0.40000000000000002, 'V': 0.01},  #346
+{'A': 0.12, 'D': 0.01, 'G': 0.17999999999999999, 'K': 0.10000000000000001, '-': 0.41999999999999998, 'P': 0.089999999999999997, 'S': 0.059999999999999998, 'T': 0.02},  #347
+{'E': 0.01, 'D': 0.19, 'H': 0.01, 'K': 0.089999999999999997, '-': 0.41999999999999998, 'N': 0.25, 'Q': 0.01, 'R': 0.02},  #348
+{'K': 0.059999999999999998, 'R': 0.01, '-': 0.93000000000000005},  #349
+{'A': 0.02, 'G': 0.070000000000000007, 'I': 0.01, 'K': 0.02, '-': 0.41999999999999998, 'N': 0.02, 'S': 0.42999999999999999, 'T': 0.01},  #350
+{'A': 0.5, 'S': 0.01, '-': 0.41999999999999998, 'G': 0.059999999999999998, 'N': 0.01},  #351
+{'A': 0.34999999999999998, 'G': 0.01, 'I': 0.029999999999999999, 'H': 0.01, '-': 0.41999999999999998, 'R': 0.070000000000000007, 'T': 0.059999999999999998, 'V': 0.050000000000000003},  #352
+{'A': 0.02, 'E': 0.02, 'D': 0.050000000000000003, 'G': 0.34000000000000002, 'F': 0.01, 'K': 0.029999999999999999, '-': 0.41999999999999998, 'Q': 0.02, 'S': 0.059999999999999998, 'R': 0.01, 'T': 0.01, 'Y': 0.01},  #353
+{'I': 0.02, 'M': 0.42999999999999999, 'K': 0.01, '-': 0.41999999999999998, 'L': 0.12},  #354
+{'A': 0.01, 'D': 0.01, 'G': 0.029999999999999999, 'H': 0.01, 'K': 0.089999999999999997, '-': 0.42999999999999999, 'N': 0.02, 'P': 0.01, 'S': 0.01, 'R': 0.37, 'T': 0.01},  #355
+{'A': 0.02, 'E': 0.080000000000000002, 'D': 0.11, 'H': 0.01, 'K': 0.23000000000000001, '-': 0.41999999999999998, 'N': 0.059999999999999998, 'Q': 0.040000000000000001, 'T': 0.029999999999999999},  #356
+{'A': 0.38, 'D': 0.059999999999999998, '-': 0.41999999999999998, 'S': 0.070000000000000007, 'T': 0.02, 'V': 0.040000000000000001, 'Y': 0.01},  #357
+{'A': 0.040000000000000001, 'I': 0.089999999999999997, 'M': 0.050000000000000003, '-': 0.41999999999999998, 'L': 0.23000000000000001, 'V': 0.17000000000000001},  #358
+{'A': 0.01, 'D': 0.01, 'K': 0.13, '-': 0.41999999999999998, 'N': 0.01, 'Q': 0.02, 'P': 0.33000000000000002, 'S': 0.02, 'R': 0.02, 'T': 0.029999999999999999},  #359
+{'A': 0.20000000000000001, 'E': 0.029999999999999999, 'D': 0.029999999999999999, 'G': 0.01, 'I': 0.02, 'K': 0.17999999999999999, '-': 0.41999999999999998, 'N': 0.029999999999999999, 'P': 0.01, 'S': 0.029999999999999999, 'V': 0.040000000000000001},  #360
+{'I': 0.14000000000000001, 'M': 0.33000000000000002, '-': 0.41999999999999998, 'L': 0.089999999999999997, 'R': 0.01, 'V': 0.01},  #361
+{'A': 0.41999999999999998, 'C': 0.01, 'G': 0.01, '-': 0.41999999999999998, 'L': 0.02, 'S': 0.050000000000000003, 'T': 0.02, 'V': 0.050000000000000003},  #362
+{'A': 0.12, 'E': 0.02, 'D': 0.01, 'G': 0.02, 'K': 0.22, '-': 0.41999999999999998, 'L': 0.01, 'N': 0.059999999999999998, 'P': 0.029999999999999999, 'S': 0.040000000000000001, 'R': 0.029999999999999999, 'T': 0.02},  #363
+{'G': 0.01, 'F': 0.089999999999999997, 'I': 0.070000000000000007, '-': 0.41999999999999998, 'M': 0.01, 'L': 0.34999999999999998, 'V': 0.040000000000000001, 'Y': 0.01},  #364
+{'A': 0.29999999999999999, 'C': 0.029999999999999999, 'G': 0.070000000000000007, 'I': 0.050000000000000003, '-': 0.42999999999999999, 'L': 0.02, 'S': 0.01, 'T': 0.02, 'V': 0.070000000000000007},  #365
+{'A': 0.02, 'E': 0.01, 'D': 0.01, 'M': 0.040000000000000001, 'K': 0.11, 'V': 0.029999999999999999, '-': 0.42999999999999999, 'L': 0.20999999999999999, 'N': 0.050000000000000003, 'Q': 0.02, 'P': 0.01, 'S': 0.01, 'R': 0.02, 'T': 0.02, 'H': 0.01},  #366
+{'A': 0.01, 'E': 0.01, 'I': 0.02, 'K': 0.46999999999999997, '-': 0.42999999999999999, 'L': 0.01, 'R': 0.050000000000000003},  #367
+{'F': 0.02, 'I': 0.050000000000000003, '-': 0.42999999999999999, 'K': 0.059999999999999998, 'M': 0.040000000000000001, 'L': 0.33000000000000002, 'Q': 0.02, 'V': 0.029999999999999999, 'Y': 0.02},  #368
+{'A': 0.23000000000000001, 'G': 0.029999999999999999, 'I': 0.059999999999999998, '-': 0.41999999999999998, 'V': 0.040000000000000001, 'M': 0.01, 'L': 0.17000000000000001, 'S': 0.01, 'T': 0.01, 'H': 0.01, 'Y': 0.01},  #369
+{'A': 0.059999999999999998, 'E': 0.040000000000000001, 'D': 0.01, 'F': 0.01, 'K': 0.26000000000000001, '-': 0.41999999999999998, 'L': 0.01, 'N': 0.080000000000000002, 'Q': 0.02, 'S': 0.01, 'R': 0.070000000000000007, 'T': 0.01},  #370
+{'P': 0.01, '-': 0.98999999999999999},  #371
+{'-': 0.98999999999999999, 'D': 0.01},  #372
+{'-': 0.98999999999999999, 'G': 0.01},  #373
+{'-': 0.98999999999999999, 'V': 0.01},  #374
+{'I': 0.01, '-': 0.98999999999999999},  #375
+{'-': 0.98999999999999999, 'V': 0.01},  #376
+{'-': 0.98999999999999999, 'M': 0.01},  #377
+{'-': 0.98999999999999999, 'T': 0.01},  #378
+{'-': 0.98999999999999999, 'E': 0.01},  #379
+{'-': 0.98999999999999999, 'G': 0.01},  #380
+{'-': 0.98999999999999999, 'F': 0.01},  #381
+{'-': 0.98999999999999999, 'G': 0.01},  #382
+{'-': 0.98999999999999999, 'N': 0.01},  #383
+{'-': 0.98999999999999999, 'N': 0.01},  #384
+{'H': 0.01, '-': 0.98999999999999999},  #385
+{'I': 0.01, '-': 0.98999999999999999},  #386
+{'-': 0.98999999999999999, 'D': 0.01},  #387
+{'-': 0.98999999999999999, 'F': 0.01},  #388
+{'A': 0.01, '-': 0.98999999999999999},  #389
+{'K': 0.01, '-': 0.98999999999999999},  #390
+{'H': 0.01, '-': 0.98999999999999999},  #391
+{'I': 0.01, '-': 0.98999999999999999},  #392
+{'-': 0.98999999999999999, 'E': 0.01},  #393
+{'-': 0.98999999999999999, 'E': 0.01},  #394
+{'-': 0.98999999999999999, 'V': 0.01},  #395
+{'-': 0.98999999999999999, 'G': 0.01},  #396
+{'K': 0.01, '-': 0.98999999999999999},  #397
+{'R': 0.01, '-': 0.98999999999999999},  #398
+{'-': 0.98999999999999999, 'G': 0.01},  #399
+{'-': 0.98999999999999999, 'F': 0.01},  #400
+{'P': 0.01, '-': 0.98999999999999999},  #401
+{'-': 0.98999999999999999, 'V': 0.01},  #402
+{'-': 0.98999999999999999, 'V': 0.01},  #403
+{'-': 0.98999999999999999, 'G': 0.01},  #404
+{'-': 0.98999999999999999, 'V': 0.01},  #405
+{'-': 0.98999999999999999, 'T': 0.01},  #406
+{'Y': 0.01, '-': 0.98999999999999999},  #407
+{'A': 0.01, '-': 0.98999999999999999},  #408
+{'A': 0.01, '-': 0.98999999999999999},  #409
+{'K': 0.01, '-': 0.98999999999999999},  #410
+{'Q': 0.01, '-': 0.98999999999999999},  #411
+{'-': 0.98999999999999999, 'G': 0.01},  #412
+{'A': 0.01, '-': 0.98999999999999999},  #413
+{'-': 0.98999999999999999, 'L': 0.01},  #414
+{'I': 0.01, '-': 0.98999999999999999},  #415
+{'I': 0.01, '-': 0.96999999999999997, 'T': 0.02},  #416
+{'D': 0.01, 'G': 0.42999999999999999, 'H': 0.02, 'K': 0.10000000000000001, '-': 0.42999999999999999, 'N': 0.01},  #417
+{'A': 0.01, 'E': 0.44, 'G': 0.040000000000000001, 'H': 0.01, 'K': 0.01, '-': 0.41999999999999998, 'N': 0.02, 'Q': 0.029999999999999999, 'S': 0.02},  #418
+{'A': 0.02, 'E': 0.28000000000000003, 'D': 0.050000000000000003, 'K': 0.080000000000000002, '-': 0.41999999999999998, 'L': 0.02, 'N': 0.01, 'Q': 0.02, 'P': 0.059999999999999998, 'S': 0.01, 'T': 0.029999999999999999},  #419
+{'-': 0.98999999999999999, 'F': 0.01},  #420
+{'-': 0.98999999999999999, 'M': 0.01},  #421
+{'-': 0.98999999999999999, 'D': 0.01},  #422
+{'A': 0.01, '-': 0.98999999999999999},  #423
+{'-': 0.98999999999999999, 'M': 0.01},  #424
+{'I': 0.34999999999999998, '-': 0.45000000000000001, 'M': 0.01, 'L': 0.14000000000000001, 'P': 0.01, 'V': 0.040000000000000001},  #425
+{'A': 0.029999999999999999, 'C': 0.01, 'E': 0.01, 'D': 0.01, 'G': 0.34999999999999998, '-': 0.46999999999999997, 'L': 0.089999999999999997, 'Q': 0.02, 'S': 0.01},  #426
+{'A': 0.02, 'C': 0.01, 'D': 0.029999999999999999, 'G': 0.040000000000000001, '-': 0.48999999999999999, 'L': 0.050000000000000003, 'P': 0.10000000000000001, 'S': 0.14999999999999999, 'R': 0.01, 'T': 0.10000000000000001},  #427
+{'A': 0.089999999999999997, 'G': 0.01, '-': 0.46999999999999997, 'N': 0.01, 'Q': 0.01, 'P': 0.37, 'S': 0.029999999999999999, 'T': 0.01},  #428
+{'A': 0.14000000000000001, 'C': 0.01, 'E': 0.20000000000000001, 'D': 0.01, 'K': 0.12, '-': 0.46000000000000002, 'Q': 0.02, 'S': 0.01, 'R': 0.01, 'T': 0.01, 'V': 0.01},  #429
+{'A': 0.059999999999999998, 'E': 0.29999999999999999, 'D': 0.070000000000000007, 'I': 0.029999999999999999, 'K': 0.029999999999999999, '-': 0.42999999999999999, 'Q': 0.029999999999999999, 'P': 0.02, 'S': 0.01, 'V': 0.02},  #430
+{'A': 0.01, 'E': 0.40999999999999998, 'D': 0.089999999999999997, 'G': 0.01, 'F': 0.029999999999999999, '-': 0.42999999999999999, 'V': 0.01, 'Y': 0.01},  #431
+{'E': 0.01, 'G': 0.41999999999999998, 'H': 0.02, 'K': 0.01, '-': 0.47999999999999998, 'N': 0.02, 'Q': 0.01, 'S': 0.01, 'T': 0.01, 'Y': 0.01},  #432
+{'F': 0.029999999999999999, 'M': 0.01, 'K': 0.01, '-': 0.47999999999999998, 'L': 0.02, 'V': 0.01, 'Y': 0.44},  #433
+{'M': 0.02, 'F': 0.10000000000000001, 'I': 0.28000000000000003, 'H': 0.050000000000000003, '-': 0.47999999999999998, 'L': 0.070000000000000007},  #434
+{'A': 0.059999999999999998, 'E': 0.14999999999999999, 'G': 0.02, 'H': 0.01, '-': 0.47999999999999998, 'M': 0.040000000000000001, 'P': 0.20000000000000001, 'S': 0.040000000000000001},  #435
+{'G': 0.01, '-': 0.47999999999999998, 'K': 0.02, 'M': 0.02, 'N': 0.01, 'Q': 0.070000000000000007, 'S': 0.01, 'R': 0.35999999999999999, 'T': 0.02},  #436
+{'E': 0.01, '-': 0.47999999999999998, 'G': 0.51000000000000001},  #437
+{'F': 0.01, 'I': 0.35999999999999999, 'H': 0.01, 'K': 0.01, '-': 0.47999999999999998, 'L': 0.02, 'P': 0.01, 'R': 0.029999999999999999, 'V': 0.070000000000000007},  #438
+{'A': 0.01, '-': 0.47999999999999998, 'R': 0.48999999999999999, 'E': 0.01, 'L': 0.01},  #439
+{'A': 0.029999999999999999, 'E': 0.01, 'F': 0.01, 'I': 0.01, 'H': 0.040000000000000001, 'K': 0.14999999999999999, '-': 0.47999999999999998, 'N': 0.01, 'Q': 0.02, 'R': 0.02, 'T': 0.02, 'V': 0.19, 'Y': 0.01},  #440
+{'C': 0.01, 'E': 0.059999999999999998, '-': 0.48999999999999999, 'N': 0.37, 'Q': 0.029999999999999999, 'T': 0.01, 'V': 0.029999999999999999},  #441
+{'A': 0.01, 'M': 0.02, 'E': 0.02, 'G': 0.01, 'F': 0.13, 'I': 0.059999999999999998, 'H': 0.02, 'K': 0.02, '-': 0.5, 'L': 0.02, 'N': 0.01, 'T': 0.01, 'V': 0.01, 'Y': 0.16},  #442
+{'D': 0.01, 'F': 0.40999999999999998, '-': 0.5, 'L': 0.01, 'P': 0.02, 'T': 0.01, 'W': 0.02, 'Y': 0.02},  #443
+{'A': 0.11, 'E': 0.040000000000000001, 'F': 0.01, 'H': 0.11, 'K': 0.02, '-': 0.48999999999999999, 'L': 0.02, 'N': 0.02, 'Q': 0.01, 'P': 0.01, 'S': 0.050000000000000003, 'R': 0.029999999999999999, 'V': 0.029999999999999999, 'Y': 0.050000000000000003},  #444
+{'A': 0.02, 'E': 0.28000000000000003, 'D': 0.10000000000000001, 'H': 0.01, 'K': 0.040000000000000001, '-': 0.48999999999999999, 'Q': 0.01, 'P': 0.02, 'S': 0.02, 'T': 0.01},  #445
+{'-': 0.93999999999999995, 'E': 0.02, 'D': 0.040000000000000001},  #446
+{'A': 0.01, '-': 0.94999999999999996, 'K': 0.01, 'M': 0.01, 'G': 0.02},  #447
+{'H': 0.01, '-': 0.98999999999999999},  #448
+{'-': 0.98999999999999999, 'E': 0.01},  #449
+{'E': 0.20000000000000001, 'D': 0.050000000000000003, 'K': 0.16, '-': 0.5, 'L': 0.02, 'N': 0.01, 'R': 0.029999999999999999, 'T': 0.01, 'V': 0.02},  #450
+{'I': 0.040000000000000001, 'K': 0.01, '-': 0.48999999999999999, 'N': 0.02, 'P': 0.070000000000000007, 'S': 0.01, 'R': 0.28000000000000003, 'T': 0.029999999999999999, 'W': 0.01, 'V': 0.040000000000000001},  #451
+{'A': 0.10000000000000001, '-': 0.48999999999999999, 'D': 0.01, 'G': 0.40000000000000002},  #452
+{'A': 0.23999999999999999, 'P': 0.02, 'S': 0.25, '-': 0.47999999999999998, 'D': 0.01},  #453
+{'A': 0.01, 'E': 0.14999999999999999, 'D': 0.029999999999999999, 'I': 0.01, 'M': 0.01, 'K': 0.19, '-': 0.47999999999999998, 'Q': 0.040000000000000001, 'R': 0.02, 'T': 0.029999999999999999, 'V': 0.02, 'Y': 0.01},  #454
+{'K': 0.01, 'R': 0.52000000000000002, '-': 0.46999999999999997},  #455
+{'A': 0.40000000000000002, 'C': 0.01, 'G': 0.059999999999999998, '-': 0.46999999999999997, 'V': 0.040000000000000001, 'Y': 0.02},  #456
+{'I': 0.089999999999999997, '-': 0.46999999999999997, 'L': 0.029999999999999999, 'V': 0.40999999999999998},  #457
+{'A': 0.02, 'E': 0.16, 'D': 0.22, 'K': 0.029999999999999999, '-': 0.46999999999999997, 'N': 0.050000000000000003, 'Q': 0.01, 'R': 0.029999999999999999, 'T': 0.01},  #458
+{'M': 0.46999999999999997, 'K': 0.02, '-': 0.46999999999999997, 'L': 0.040000000000000001},  #459
+{'M': 0.01, '-': 0.46999999999999997, 'L': 0.5, 'T': 0.02},  #460
+{'A': 0.01, 'I': 0.13, 'M': 0.029999999999999999, 'K': 0.01, '-': 0.34999999999999998, 'L': 0.14000000000000001, 'Q': 0.01, 'R': 0.02, 'T': 0.01, 'V': 0.28999999999999998},  #461
+{'A': 0.089999999999999997, 'D': 0.029999999999999999, 'K': 0.40999999999999998, '-': 0.34999999999999998, 'N': 0.029999999999999999, 'Q': 0.040000000000000001, 'S': 0.02, 'R': 0.029999999999999999},  #462
+{'Y': 0.02, 'K': 0.48999999999999999, 'R': 0.029999999999999999, '-': 0.34999999999999998, 'G': 0.11},  #463
+{'F': 0.01, 'I': 0.13, '-': 0.34000000000000002, 'M': 0.059999999999999998, 'L': 0.40999999999999998, 'V': 0.01, 'Y': 0.040000000000000001},  #464
+{'A': 0.040000000000000001, 'E': 0.02, 'G': 0.01, 'H': 0.01, 'K': 0.29999999999999999, '-': 0.34999999999999998, 'L': 0.01, 'N': 0.10000000000000001, 'Q': 0.10000000000000001, 'S': 0.040000000000000001, 'T': 0.01, 'Y': 0.01},  #465
+{'A': 0.01, 'D': 0.02, 'G': 0.46999999999999997, 'K': 0.01, '-': 0.34000000000000002, 'N': 0.02, 'Q': 0.01, 'S': 0.12},  #466
+{'-': 0.98999999999999999, 'N': 0.01},  #467
+{'-': 0.98999999999999999, 'T': 0.01},  #468
+{'E': 0.56000000000000005, 'K': 0.040000000000000001, '-': 0.34000000000000002, 'Q': 0.029999999999999999, 'P': 0.01, 'R': 0.02},  #469
+{'A': 0.050000000000000003, 'E': 0.19, 'D': 0.01, 'G': 0.02, 'I': 0.080000000000000002, 'K': 0.059999999999999998, '-': 0.33000000000000002, 'L': 0.01, 'N': 0.02, 'Q': 0.01, 'P': 0.16, 'S': 0.02, 'R': 0.01, 'V': 0.029999999999999999},  #470
+{'Y': 0.12, 'I': 0.02, '-': 0.33000000000000002, 'W': 0.01, 'F': 0.52000000000000002},  #471
+{'A': 0.02, 'C': 0.01, 'E': 0.20000000000000001, 'D': 0.02, 'G': 0.01, 'K': 0.02, '-': 0.33000000000000002, 'N': 0.01, 'Q': 0.080000000000000002, 'T': 0.11, 'V': 0.17999999999999999, 'Y': 0.01},  #472
+{'K': 0.01, '-': 0.33000000000000002, 'P': 0.11, 'S': 0.029999999999999999, 'R': 0.01, 'T': 0.51000000000000001},  #473
+{'A': 0.02, 'E': 0.5, 'D': 0.029999999999999999, 'I': 0.089999999999999997, '-': 0.33000000000000002, 'P': 0.01, 'V': 0.02},  #474
+{'F': 0.029999999999999999, '-': 0.33000000000000002, 'L': 0.13, 'T': 0.11, 'V': 0.040000000000000001, 'Y': 0.35999999999999999},  #475
+{'A': 0.02, 'E': 0.02, 'I': 0.01, 'K': 0.059999999999999998, '-': 0.32000000000000001, 'Q': 0.01, 'P': 0.51000000000000001, 'R': 0.02, 'T': 0.01, 'V': 0.02},  #476
+{'A': 0.01, 'E': 0.01, 'I': 0.070000000000000007, 'M': 0.44, 'K': 0.02, '-': 0.32000000000000001, 'L': 0.01, 'N': 0.01, 'P': 0.070000000000000007, 'W': 0.02, 'V': 0.02},  #477
+{'A': 0.01, '-': 0.32000000000000001, 'L': 0.01, 'N': 0.01, 'P': 0.63, 'S': 0.01, 'R': 0.01},  #478
+{'A': 0.029999999999999999, 'E': 0.040000000000000001, 'D': 0.059999999999999998, 'G': 0.01, 'I': 0.01, 'K': 0.070000000000000007, '-': 0.32000000000000001, 'N': 0.080000000000000002, 'Q': 0.02, 'S': 0.059999999999999998, 'T': 0.02, 'V': 0.28000000000000003},  #479
+{'M': 0.02, 'F': 0.44, 'I': 0.01, 'H': 0.01, 'K': 0.02, '-': 0.32000000000000001, 'N': 0.01, 'Q': 0.01, 'P': 0.01, 'S': 0.029999999999999999, 'R': 0.01, 'W': 0.10000000000000001, 'Y': 0.01},  #480
+{'E': 0.040000000000000001, 'D': 0.48999999999999999, 'K': 0.02, '-': 0.42999999999999999, 'P': 0.01, 'S': 0.01},  #481
+{'-': 0.98999999999999999, 'E': 0.01},  #482
+{'A': 0.01, 'E': 0.029999999999999999, 'D': 0.01, 'H': 0.02, 'K': 0.050000000000000003, '-': 0.42999999999999999, 'N': 0.01, 'P': 0.01, 'R': 0.39000000000000001, 'V': 0.040000000000000001},  #483
+{'I': 0.080000000000000002, 'A': 0.01, '-': 0.42999999999999999, 'T': 0.01, 'V': 0.46999999999999997},  #484
+{'A': 0.040000000000000001, 'E': 0.17000000000000001, 'D': 0.10000000000000001, '-': 0.41999999999999998, 'N': 0.01, 'P': 0.19, 'T': 0.050000000000000003, 'V': 0.02},  #485
+{'A': 0.01, '-': 0.98999999999999999},  #486
+{'F': 0.040000000000000001, 'I': 0.029999999999999999, '-': 0.41999999999999998, 'L': 0.01, 'P': 0.47999999999999998, 'W': 0.02},  #487
+{'A': 0.22, 'M': 0.029999999999999999, 'C': 0.02, 'G': 0.059999999999999998, 'H': 0.01, '-': 0.31, 'N': 0.11, 'Q': 0.050000000000000003, 'P': 0.01, 'S': 0.02, 'R': 0.029999999999999999, 'T': 0.089999999999999997, 'V': 0.029999999999999999, 'Y': 0.01},  #488
+{'A': 0.089999999999999997, 'E': 0.040000000000000001, 'K': 0.12, '-': 0.31, 'L': 0.01, 'Q': 0.01, 'P': 0.37, 'R': 0.029999999999999999, 'T': 0.01, 'V': 0.01},  #489
+{'A': 0.32000000000000001, 'F': 0.01, '-': 0.31, 'L': 0.040000000000000001, 'P': 0.20999999999999999, 'S': 0.01, 'V': 0.10000000000000001},  #490
+{'E': 0.02, 'G': 0.01, 'I': 0.20000000000000001, 'H': 0.01, 'K': 0.01, '-': 0.32000000000000001, 'L': 0.029999999999999999, 'P': 0.01, 'S': 0.01, 'R': 0.02, 'T': 0.080000000000000002, 'V': 0.28000000000000003},  #491
+{'A': 0.050000000000000003, 'E': 0.029999999999999999, 'G': 0.01, 'I': 0.01, 'H': 0.01, 'K': 0.48999999999999999, '-': 0.33000000000000002, 'M': 0.01, 'L': 0.01, 'Q': 0.01, 'T': 0.01, 'V': 0.029999999999999999},  #492
+{'A': 0.01, 'E': 0.070000000000000007, 'D': 0.46000000000000002, 'K': 0.01, '-': 0.31, 'L': 0.01, 'N': 0.029999999999999999, 'P': 0.10000000000000001},  #493
+{'I': 0.089999999999999997, 'M': 0.13, '-': 0.31, 'L': 0.44, 'V': 0.029999999999999999},  #494
+{'A': 0.070000000000000007, 'E': 0.01, 'H': 0.01, 'K': 0.17999999999999999, '-': 0.31, 'N': 0.01, 'S': 0.34000000000000002, 'T': 0.070000000000000007},  #495
+{'A': 0.01, 'E': 0.059999999999999998, 'D': 0.11, 'H': 0.059999999999999998, 'K': 0.35999999999999999, '-': 0.31, 'N': 0.040000000000000001, 'Q': 0.01, 'R': 0.02, 'T': 0.02},  #496
+{'A': 0.41999999999999998, 'C': 0.080000000000000002, 'I': 0.040000000000000001, 'M': 0.10000000000000001, '-': 0.31, 'T': 0.02, 'W': 0.01, 'V': 0.02},  #497
+{'K': 0.32000000000000001, '-': 0.31, 'L': 0.02, 'N': 0.02, 'R': 0.059999999999999998, 'T': 0.23000000000000001, 'V': 0.040000000000000001},  #498
+{'I': 0.5, '-': 0.31, 'L': 0.050000000000000003, 'V': 0.14000000000000001},  #499
+{'A': 0.65000000000000002, 'M': 0.01, '-': 0.31, 'T': 0.02, 'G': 0.01},  #500
+{'C': 0.01, 'F': 0.029999999999999999, 'I': 0.13, 'M': 0.02, '-': 0.31, 'L': 0.46000000000000002, 'V': 0.040000000000000001},  #501
+{'A': 0.089999999999999997, 'F': 0.01, 'I': 0.070000000000000007, '-': 0.31, 'M': 0.02, 'L': 0.01, 'V': 0.48999999999999999},  #502
+{'S': 0.040000000000000001, 'N': 0.01, '-': 0.31, 'T': 0.63, 'V': 0.01},  #503
+{'A': 0.12, 'S': 0.42999999999999999, '-': 0.31, 'T': 0.12, 'D': 0.02},  #504
+{'A': 0.13, 'S': 0.029999999999999999, '-': 0.31, 'G': 0.53000000000000003},  #505
+{'E': 0.01, '-': 0.32000000000000001, 'G': 0.67000000000000004},  #506
+{'I': 0.41999999999999998, 'V': 0.22, '-': 0.32000000000000001, 'L': 0.029999999999999999, 'T': 0.01},  #507
+{'H': 0.14999999999999999, 'S': 0.01, '-': 0.31, 'V': 0.53000000000000003},  #508
+{'I': 0.02, 'M': 0.029999999999999999, '-': 0.31, 'L': 0.089999999999999997, 'P': 0.53000000000000003, 'H': 0.01, 'V': 0.01},  #509
+{'E': 0.02, 'D': 0.01, 'F': 0.01, 'I': 0.029999999999999999, 'H': 0.02, 'K': 0.44, '-': 0.31, 'L': 0.01, 'N': 0.01, 'Q': 0.01, 'P': 0.01, 'S': 0.02, 'R': 0.01, 'T': 0.02, 'V': 0.070000000000000007},  #510
+{'A': 0.01, 'D': 0.14000000000000001, 'G': 0.41999999999999998, 'H': 0.02, 'K': 0.02, '-': 0.31, 'S': 0.059999999999999998, 'T': 0.02},  #511
+{'Q': 0.050000000000000003, 'N': 0.52000000000000002, '-': 0.31, 'D': 0.11, 'T': 0.01},  #512
+{'E': 0.029999999999999999, 'I': 0.01, 'K': 0.10000000000000001, '-': 0.31, 'P': 0.54000000000000004, 'T': 0.01},  #513
+{'H': 0.01, '-': 0.98999999999999999},  #514
+{'E': 0.01, 'D': 0.51000000000000001, 'G': 0.01, '-': 0.31, 'P': 0.070000000000000007, 'R': 0.089999999999999997},  #515
+{'C': 0.01, 'E': 0.01, 'G': 0.01, 'H': 0.25, 'K': 0.070000000000000007, '-': 0.46999999999999997, 'L': 0.01, 'S': 0.01, 'R': 0.16},  #516
+{'D': 0.01, 'F': 0.14999999999999999, 'I': 0.46999999999999997, '-': 0.32000000000000001, 'M': 0.01, 'L': 0.029999999999999999, 'V': 0.01},  #517
+{'A': 0.029999999999999999, 'E': 0.35999999999999999, 'D': 0.029999999999999999, 'K': 0.02, '-': 0.32000000000000001, 'N': 0.11, 'Q': 0.089999999999999997, 'P': 0.01, 'R': 0.02, 'V': 0.01},  #518
+{'A': 0.050000000000000003, 'I': 0.01, 'M': 0.01, 'K': 0.01, '-': 0.32000000000000001, 'L': 0.10000000000000001, 'Q': 0.01, 'P': 0.02, 'S': 0.41999999999999998, 'T': 0.02, 'V': 0.029999999999999999},  #519
+{'A': 0.10000000000000001, 'K': 0.01, '-': 0.46000000000000002, 'S': 0.40999999999999998, 'R': 0.01, 'T': 0.01},  #520
+{'F': 0.01, '-': 0.46000000000000002, 'M': 0.01, 'L': 0.01, 'N': 0.070000000000000007, 'S': 0.44},  #521
+{'A': 0.52000000000000002, 'S': 0.02, '-': 0.44, 'D': 0.01, 'G': 0.01},  #522
+{'E': 0.029999999999999999, 'D': 0.02, 'I': 0.01, 'K': 0.01, '-': 0.44, 'Q': 0.070000000000000007, 'S': 0.25, 'R': 0.02, 'T': 0.14999999999999999},  #523
+{'E': 0.01, 'D': 0.02, 'H': 0.029999999999999999, 'K': 0.31, '-': 0.42999999999999999, 'N': 0.029999999999999999, 'Q': 0.02, 'P': 0.02, 'S': 0.02, 'R': 0.089999999999999997, 'T': 0.01, 'V': 0.01},  #524
+{'A': 0.13, 'G': 0.02, 'F': 0.089999999999999997, '-': 0.31, 'L': 0.01, 'R': 0.01, 'W': 0.11, 'Y': 0.32000000000000001},  #525
+{'A': 0.01, 'G': 0.64000000000000001, 'H': 0.01, 'K': 0.01, '-': 0.31, 'N': 0.02},  #526
+{'A': 0.029999999999999999, 'E': 0.11, 'D': 0.14999999999999999, 'I': 0.040000000000000001, 'M': 0.01, 'K': 0.20999999999999999, '-': 0.31, 'Q': 0.01, 'S': 0.029999999999999999, 'R': 0.059999999999999998, 'T': 0.029999999999999999, 'V': 0.01},  #527
+{'C': 0.01, 'F': 0.089999999999999997, '-': 0.31, 'N': 0.01, 'P': 0.02, 'T': 0.029999999999999999, 'Y': 0.53000000000000003},  #528
+{'A': 0.02, 'E': 0.02, 'D': 0.28999999999999998, 'G': 0.02, '-': 0.31, 'N': 0.01, 'S': 0.22, 'R': 0.01, 'T': 0.089999999999999997, 'Y': 0.01},  #529
+{'F': 0.089999999999999997, 'I': 0.40000000000000002, '-': 0.31, 'L': 0.080000000000000002, 'V': 0.050000000000000003, 'Y': 0.070000000000000007},  #530
+{'A': 0.080000000000000002, 'E': 0.12, 'D': 0.059999999999999998, 'G': 0.029999999999999999, 'H': 0.01, 'K': 0.02, '-': 0.31, 'Q': 0.02, 'P': 0.01, 'S': 0.10000000000000001, 'R': 0.14999999999999999, 'T': 0.089999999999999997},  #531
+{'A': 0.01, 'E': 0.029999999999999999, 'D': 0.059999999999999998, 'G': 0.37, 'F': 0.01, 'I': 0.01, 'K': 0.040000000000000001, '-': 0.31, 'L': 0.029999999999999999, 'N': 0.02, 'Q': 0.01, 'S': 0.040000000000000001, 'R': 0.02, 'V': 0.040000000000000001},  #532
+{'A': 0.01, 'E': 0.01, 'F': 0.040000000000000001, 'I': 0.17000000000000001, 'M': 0.12, 'K': 0.01, '-': 0.33000000000000002, 'L': 0.12, 'R': 0.01, 'V': 0.17999999999999999},  #533
+{'A': 0.01, 'P': 0.13, 'K': 0.01, '-': 0.84999999999999998},  #534
+{'A': 0.01, 'G': 0.059999999999999998, '-': 0.85999999999999999, 'N': 0.01, 'S': 0.040000000000000001, 'W': 0.01, 'V': 0.01},  #535
+{'A': 0.029999999999999999, 'E': 0.050000000000000003, 'D': 0.37, 'M': 0.059999999999999998, 'K': 0.02, '-': 0.34999999999999998, 'N': 0.029999999999999999, 'Q': 0.01, 'S': 0.040000000000000001, 'T': 0.040000000000000001},  #536
+{'A': 0.029999999999999999, 'C': 0.01, 'E': 0.029999999999999999, 'D': 0.20999999999999999, 'H': 0.01, 'K': 0.02, '-': 0.46000000000000002, 'N': 0.040000000000000001, 'S': 0.070000000000000007, 'R': 0.070000000000000007, 'T': 0.050000000000000003},  #537
+{'A': 0.080000000000000002, 'F': 0.01, 'I': 0.01, 'M': 0.050000000000000003, '-': 0.34000000000000002, 'L': 0.45000000000000001, 'T': 0.029999999999999999, 'V': 0.029999999999999999},  #538
+{'E': 0.040000000000000001, 'D': 0.040000000000000001, 'I': 0.01, 'K': 0.080000000000000002, '-': 0.33000000000000002, 'N': 0.029999999999999999, 'P': 0.10000000000000001, 'S': 0.12, 'T': 0.25},  #539
+{'-': 0.98999999999999999, 'N': 0.01},  #540
+{'R': 0.01, '-': 0.98999999999999999},  #541
+{'A': 0.01, '-': 0.98999999999999999},  #542
+{'A': 0.13, 'C': 0.01, 'E': 0.080000000000000002, 'D': 0.029999999999999999, 'G': 0.02, 'I': 0.01, 'K': 0.02, '-': 0.34000000000000002, 'L': 0.01, 'N': 0.02, 'Q': 0.01, 'P': 0.050000000000000003, 'S': 0.23000000000000001, 'T': 0.02, 'V': 0.02},  #543
+{'A': 0.050000000000000003, 'E': 0.25, 'D': 0.089999999999999997, 'G': 0.14000000000000001, 'K': 0.040000000000000001, '-': 0.33000000000000002, 'N': 0.02, 'S': 0.070000000000000007, 'T': 0.01},  #544
+{'A': 0.01, 'E': 0.12, 'D': 0.17999999999999999, 'G': 0.050000000000000003, 'K': 0.01, '-': 0.32000000000000001, 'N': 0.050000000000000003, 'Q': 0.02, 'S': 0.01, 'R': 0.01, 'T': 0.17000000000000001, 'V': 0.050000000000000003},  #545
+{'G': 0.01, 'F': 0.17000000000000001, 'I': 0.01, 'H': 0.12, '-': 0.31, 'M': 0.040000000000000001, 'L': 0.11, 'N': 0.01, 'S': 0.029999999999999999, 'W': 0.029999999999999999, 'Y': 0.16},  #546
+{'A': 0.01, 'E': 0.29999999999999999, 'F': 0.01, 'M': 0.13, 'K': 0.070000000000000007, '-': 0.31, 'L': 0.01, 'Q': 0.040000000000000001, 'R': 0.01, 'T': 0.089999999999999997, 'V': 0.01, 'Y': 0.01},  #547
+{'I': 0.02, '-': 0.31, 'S': 0.080000000000000002, 'T': 0.44, 'W': 0.01, 'V': 0.14000000000000001},  #548
+{'A': 0.31, 'D': 0.01, 'I': 0.17999999999999999, '-': 0.31, 'P': 0.01, 'S': 0.12, 'T': 0.050000000000000003, 'V': 0.01},  #549
+{'H': 0.67000000000000004, 'S': 0.01, '-': 0.31, 'E': 0.01},  #550
+{'A': 0.080000000000000002, 'D': 0.01, 'G': 0.55000000000000004, '-': 0.31, 'L': 0.01, 'Q': 0.02, 'R': 0.01, 'T': 0.01},  #551
+{'Y': 0.01, 'H': 0.01, 'S': 0.02, '-': 0.32000000000000001, 'G': 0.64000000000000001},  #552
+{'Y': 0.54000000000000004, 'H': 0.029999999999999999, '-': 0.31, 'W': 0.01, 'F': 0.11},  #553
+{'H': 0.01, '-': 0.31, 'D': 0.67000000000000004, 'N': 0.01},  #554
+{'A': 0.01, 'H': 0.029999999999999999, 'K': 0.01, '-': 0.31, 'N': 0.12, 'Q': 0.029999999999999999, 'P': 0.37, 'R': 0.080000000000000002, 'T': 0.040000000000000001},  #555
+{'A': 0.14000000000000001, 'E': 0.01, 'G': 0.080000000000000002, 'I': 0.02, 'K': 0.01, '-': 0.31, 'N': 0.02, 'Q': 0.040000000000000001, 'P': 0.01, 'S': 0.050000000000000003, 'T': 0.14999999999999999, 'V': 0.16},  #556
+{'A': 0.12, 'E': 0.01, 'D': 0.14000000000000001, 'G': 0.01, 'F': 0.059999999999999998, '-': 0.31, 'W': 0.02, 'Y': 0.33000000000000002},  #557
+{'-': 0.97999999999999998, 'T': 0.02},  #558
+{'A': 0.38, 'C': 0.059999999999999998, 'I': 0.01, 'M': 0.02, 'V': 0.19, '-': 0.31, 'R': 0.01, 'T': 0.01, 'H': 0.01},  #559
+{'C': 0.02, 'E': 0.02, 'D': 0.059999999999999998, 'I': 0.01, 'M': 0.02, '-': 0.31, 'L': 0.040000000000000001, 'N': 0.46999999999999997, 'S': 0.01, 'R': 0.01, 'T': 0.01, 'V': 0.02},  #560
+{'A': 0.16, 'E': 0.17999999999999999, 'D': 0.040000000000000001, 'G': 0.01, 'I': 0.01, 'H': 0.01, 'K': 0.14000000000000001, '-': 0.31, 'L': 0.02, 'N': 0.01, 'Q': 0.070000000000000007, 'S': 0.01, 'R': 0.02, 'T': 0.01},  #561
+{'E': 0.02, 'D': 0.56000000000000005, 'I': 0.01, 'K': 0.01, '-': 0.31, 'N': 0.080000000000000002, 'V': 0.01},  #562
+{'A': 0.14999999999999999, 'G': 0.01, 'I': 0.11, '-': 0.31, 'L': 0.02, 'P': 0.33000000000000002, 'S': 0.029999999999999999, 'R': 0.01, 'T': 0.01, 'V': 0.02},  #563
+{'E': 0.01, '-': 0.31, 'D': 0.31, 'G': 0.01, 'N': 0.35999999999999999},  #564
+{'A': 0.059999999999999998, 'C': 0.089999999999999997, 'I': 0.01, '-': 0.31, 'L': 0.059999999999999998, 'S': 0.01, 'R': 0.38, 'V': 0.080000000000000002},  #565
+{'C': 0.01, 'G': 0.02, 'F': 0.01, 'I': 0.050000000000000003, '-': 0.31, 'M': 0.12, 'L': 0.040000000000000001, 'V': 0.42999999999999999, 'Y': 0.01},  #566
+{'A': 0.02, 'F': 0.14999999999999999, 'I': 0.089999999999999997, '-': 0.31, 'M': 0.029999999999999999, 'L': 0.28000000000000003, 'T': 0.01, 'V': 0.11},  #567
+{'P': 0.68999999999999995, '-': 0.31},  #568
+{'I': 0.16, 'M': 0.01, '-': 0.31, 'L': 0.17999999999999999, 'T': 0.01, 'V': 0.33000000000000002},  #569
+{'E': 0.01, 'D': 0.65000000000000002, '-': 0.31, 'T': 0.01, 'W': 0.01, 'V': 0.01},  #570
+{'A': 0.14999999999999999, 'E': 0.01, 'I': 0.029999999999999999, 'H': 0.01, '-': 0.31, 'L': 0.01, 'Q': 0.01, 'P': 0.01, 'R': 0.11, 'T': 0.01, 'V': 0.34000000000000002},  #571
+{'A': 0.029999999999999999, 'M': 0.16, '-': 0.31, 'L': 0.46000000000000002, 'V': 0.040000000000000001},  #572
+{'E': 0.01, 'H': 0.040000000000000001, 'K': 0.040000000000000001, '-': 0.31, 'L': 0.01, 'N': 0.01, 'Q': 0.01, 'R': 0.56000000000000005, 'T': 0.01},  #573
+{'A': 0.040000000000000001, 'E': 0.28000000000000003, 'D': 0.20000000000000001, 'K': 0.059999999999999998, '-': 0.31, 'N': 0.01, 'Q': 0.040000000000000001, 'R': 0.02, 'T': 0.02, 'Y': 0.02},  #574
+{'A': 0.01, 'C': 0.01, 'F': 0.059999999999999998, '-': 0.31, 'M': 0.14999999999999999, 'L': 0.44, 'Y': 0.02},  #575
+{'A': 0.13, 'E': 0.45000000000000001, 'I': 0.01, 'K': 0.02, '-': 0.31, 'Q': 0.02, 'T': 0.01, 'V': 0.050000000000000003},  #576
+{'A': 0.040000000000000001, 'E': 0.029999999999999999, 'D': 0.040000000000000001, 'G': 0.01, 'K': 0.40000000000000002, '-': 0.31, 'Q': 0.040000000000000001, 'S': 0.02, 'R': 0.10000000000000001, 'T': 0.01},  #577
+{'A': 0.059999999999999998, 'E': 0.55000000000000004, 'D': 0.02, 'K': 0.02, '-': 0.31, 'Q': 0.029999999999999999, 'R': 0.01},  #578
+{'H': 0.02, '-': 0.32000000000000001, 'G': 0.66000000000000003},  #579
+{'E': 0.029999999999999999, 'F': 0.089999999999999997, 'I': 0.040000000000000001, 'M': 0.01, 'K': 0.26000000000000001, '-': 0.31, 'R': 0.059999999999999998, 'V': 0.19, 'Y': 0.01},  #580
+{'F': 0.050000000000000003, 'I': 0.59999999999999998, '-': 0.31, 'L': 0.01, 'V': 0.02, 'Y': 0.01},  #581
+{'A': 0.02, 'K': 0.11, '-': 0.31, 'G': 0.56000000000000005},  #582
+{'A': 0.050000000000000003, 'E': 0.17999999999999999, 'G': 0.080000000000000002, 'K': 0.23000000000000001, '-': 0.31, 'N': 0.01, 'S': 0.12, 'R': 0.02},  #583
+{'A': 0.01, 'G': 0.01, 'I': 0.040000000000000001, '-': 0.31, 'L': 0.5, 'V': 0.13},  #584
+{'A': 0.13, 'F': 0.040000000000000001, 'H': 0.25, '-': 0.31, 'L': 0.01, 'S': 0.050000000000000003, 'T': 0.02, 'V': 0.029999999999999999, 'Y': 0.16},  #585
+{'A': 0.02, 'E': 0.070000000000000007, 'D': 0.14000000000000001, 'H': 0.01, 'K': 0.11, '-': 0.31, 'N': 0.089999999999999997, 'Q': 0.01, 'P': 0.14000000000000001, 'S': 0.02, 'R': 0.080000000000000002},  #586
+{'M': 0.02, 'C': 0.01, 'D': 0.01, 'I': 0.01, 'H': 0.01, 'K': 0.050000000000000003, '-': 0.31, 'L': 0.01, 'N': 0.01, 'S': 0.02, 'R': 0.040000000000000001, 'T': 0.089999999999999997, 'V': 0.050000000000000003, 'Y': 0.35999999999999999},  #587
+{'F': 0.37, 'H': 0.10000000000000001, '-': 0.31, 'M': 0.01, 'L': 0.01, 'N': 0.02, 'W': 0.01, 'V': 0.02, 'Y': 0.14999999999999999},  #588
+{'C': 0.01, 'G': 0.01, 'F': 0.040000000000000001, 'I': 0.10000000000000001, 'H': 0.029999999999999999, '-': 0.32000000000000001, 'L': 0.01, 'V': 0.02, 'Y': 0.46000000000000002},  #589
+{'A': 0.089999999999999997, 'C': 0.02, 'G': 0.13, 'F': 0.01, '-': 0.31, 'S': 0.17999999999999999, 'T': 0.23999999999999999, 'V': 0.02},  #590
+{'C': 0.01, 'F': 0.13, 'M': 0.01, '-': 0.31, 'T': 0.52000000000000002, 'V': 0.02},  #591
+{'A': 0.01, 'C': 0.01, 'F': 0.01, '-': 0.31, 'M': 0.14999999999999999, 'P': 0.01, 'T': 0.16, 'V': 0.34000000000000002},  #592
+{'-': 0.31, 'T': 0.01, 'G': 0.67000000000000004, 'N': 0.01},  #593
+{'A': 0.02, 'E': 0.01, 'G': 0.12, 'H': 0.01, '-': 0.31, 'N': 0.31, 'T': 0.17999999999999999, 'V': 0.029999999999999999, 'Y': 0.01},  #594
+{'Y': 0.02, 'I': 0.029999999999999999, 'M': 0.02, '-': 0.31, 'G': 0.62},  #595
+{'E': 0.01, 'G': 0.12, 'H': 0.01, '-': 0.31, 'M': 0.01, 'P': 0.01, 'S': 0.02, 'T': 0.51000000000000001},  #596
+{'P': 0.01, '-': 0.98999999999999999},  #597
+{'P': 0.01, '-': 0.98999999999999999},  #598
+{'A': 0.20000000000000001, 'E': 0.01, 'D': 0.059999999999999998, 'G': 0.02, 'H': 0.01, '-': 0.31, 'N': 0.080000000000000002, 'Q': 0.02, 'P': 0.040000000000000001, 'S': 0.17999999999999999, 'T': 0.070000000000000007},  #599
+{'F': 0.01, 'H': 0.01, '-': 0.84999999999999998, 'L': 0.01, 'Q': 0.080000000000000002, 'T': 0.01, 'V': 0.029999999999999999},  #600
+{'M': 0.01, 'E': 0.050000000000000003, 'D': 0.02, 'G': 0.01, 'H': 0.01, 'K': 0.029999999999999999, '-': 0.31, 'Q': 0.080000000000000002, 'S': 0.02, 'R': 0.01, 'T': 0.050000000000000003, 'V': 0.40000000000000002},  #601
+{'A': 0.37, 'E': 0.02, 'G': 0.089999999999999997, 'K': 0.10000000000000001, '-': 0.31, 'L': 0.01, 'N': 0.02, 'P': 0.01, 'S': 0.01, 'R': 0.02, 'T': 0.01, 'V': 0.029999999999999999},  #602
+{'E': 0.050000000000000003, 'F': 0.14000000000000001, 'M': 0.01, 'K': 0.02, '-': 0.31, 'L': 0.029999999999999999, 'N': 0.22, 'S': 0.14999999999999999, 'R': 0.01, 'T': 0.029999999999999999, 'W': 0.02, 'V': 0.01},  #603
+{'A': 0.34999999999999998, 'E': 0.01, 'D': 0.01, 'G': 0.01, 'K': 0.029999999999999999, '-': 0.31, 'L': 0.02, 'N': 0.01, 'Q': 0.01, 'S': 0.17000000000000001, 'R': 0.040000000000000001, 'T': 0.029999999999999999},  #604
+{'A': 0.080000000000000002, 'E': 0.14999999999999999, 'D': 0.02, 'K': 0.28999999999999998, '-': 0.31, 'N': 0.029999999999999999, 'Q': 0.040000000000000001, 'S': 0.01, 'R': 0.059999999999999998, 'V': 0.01},  #605
+{'A': 0.050000000000000003, 'E': 0.12, 'D': 0.01, 'G': 0.040000000000000001, 'K': 0.20000000000000001, '-': 0.31, 'L': 0.01, 'Q': 0.050000000000000003, 'S': 0.029999999999999999, 'R': 0.17000000000000001, 'V': 0.01},  #606
+{'D': 0.02, 'F': 0.38, 'I': 0.01, '-': 0.31, 'M': 0.059999999999999998, 'S': 0.01, 'T': 0.13, 'V': 0.01, 'Y': 0.070000000000000007},  #607
+{'A': 0.28000000000000003, 'I': 0.01, 'S': 0.01, '-': 0.31, 'G': 0.39000000000000001},  #608
+{'A': 0.059999999999999998, 'E': 0.12, 'K': 0.080000000000000002, '-': 0.31, 'N': 0.02, 'Q': 0.080000000000000002, 'P': 0.17000000000000001, 'S': 0.050000000000000003, 'R': 0.040000000000000001, 'T': 0.070000000000000007},  #609
+{'A': 0.070000000000000007, 'E': 0.55000000000000004, 'D': 0.01, '-': 0.31, 'L': 0.01, 'N': 0.02, 'S': 0.02, 'V': 0.01},  #610
+{'F': 0.11, 'I': 0.47999999999999998, '-': 0.31, 'M': 0.01, 'W': 0.01, 'V': 0.050000000000000003, 'Y': 0.029999999999999999},  #611
+{'A': 0.34000000000000002, 'G': 0.14999999999999999, 'I': 0.029999999999999999, '-': 0.31, 'L': 0.029999999999999999, 'S': 0.050000000000000003, 'R': 0.01, 'T': 0.029999999999999999, 'V': 0.050000000000000003},  #612
+{'A': 0.080000000000000002, 'E': 0.040000000000000001, 'D': 0.01, 'G': 0.01, 'M': 0.02, 'K': 0.23000000000000001, '-': 0.31, 'N': 0.02, 'Q': 0.11, 'P': 0.040000000000000001, 'S': 0.02, 'R': 0.059999999999999998, 'T': 0.01, 'V': 0.040000000000000001},  #613
+{'A': 0.029999999999999999, 'M': 0.02, 'E': 0.16, 'D': 0.040000000000000001, 'F': 0.01, 'I': 0.050000000000000003, 'H': 0.02, 'K': 0.22, '-': 0.31, 'Q': 0.080000000000000002, 'R': 0.040000000000000001, 'T': 0.01, 'Y': 0.01},  #614
+{'C': 0.02, 'F': 0.02, 'I': 0.02, '-': 0.31, 'M': 0.01, 'L': 0.60999999999999999, 'V': 0.01},  #615
+{'M': 0.01, 'I': 0.059999999999999998, 'H': 0.029999999999999999, 'K': 0.34000000000000002, '-': 0.31, 'L': 0.070000000000000007, 'N': 0.01, 'Q': 0.029999999999999999, 'S': 0.01, 'R': 0.01, 'V': 0.12},  #616
+{'A': 0.19, 'E': 0.23999999999999999, 'D': 0.080000000000000002, 'G': 0.01, 'K': 0.080000000000000002, '-': 0.33000000000000002, 'N': 0.02, 'Q': 0.029999999999999999, 'S': 0.01, 'T': 0.01},  #617
+{'A': 0.17000000000000001, 'C': 0.01, 'E': 0.16, 'D': 0.26000000000000001, 'G': 0.029999999999999999, 'H': 0.01, '-': 0.31, 'N': 0.01, 'Q': 0.01, 'S': 0.02, 'Y': 0.01},  #618
+{'E': 0.029999999999999999, 'D': 0.029999999999999999, 'G': 0.41999999999999998, 'H': 0.059999999999999998, 'K': 0.059999999999999998, '-': 0.31, 'N': 0.059999999999999998, 'Q': 0.02, 'S': 0.01},  #619
+{'A': 0.029999999999999999, 'I': 0.01, '-': 0.31, 'V': 0.65000000000000002},  #620
+{'D': 0.54000000000000004, 'G': 0.040000000000000001, '-': 0.31, 'N': 0.02, 'Q': 0.059999999999999998, 'S': 0.01, 'T': 0.02},  #621
+{'A': 0.56999999999999995, 'I': 0.01, '-': 0.31, 'G': 0.080000000000000002, 'V': 0.029999999999999999},  #622
+{'A': 0.070000000000000007, 'E': 0.01, 'G': 0.01, 'I': 0.01, 'K': 0.02, '-': 0.23999999999999999, 'L': 0.01, 'P': 0.01, 'S': 0.01, 'V': 0.60999999999999999},  #623
+{'D': 0.01, 'G': 0.01, 'I': 0.51000000000000001, 'K': 0.01, '-': 0.23999999999999999, 'L': 0.13, 'N': 0.01, 'Q': 0.01, 'S': 0.01, 'V': 0.050000000000000003, 'Y': 0.01},  #624
+{'E': 0.01, 'D': 0.01, 'F': 0.029999999999999999, 'I': 0.01, 'M': 0.10000000000000001, '-': 0.23999999999999999, 'L': 0.55000000000000004, 'N': 0.01, 'Q': 0.01, 'S': 0.01, 'R': 0.01, 'T': 0.01},  #625
+{'G': 0.01, 'I': 0.02, 'H': 0.01, 'K': 0.01, '-': 0.23999999999999999, 'P': 0.01, 'S': 0.01, 'T': 0.59999999999999998, 'V': 0.070000000000000007, 'Y': 0.02},  #626
+{'A': 0.12, 'P': 0.040000000000000001, 'S': 0.51000000000000001, '-': 0.32000000000000001, 'G': 0.01},  #627
+{'A': 0.01, 'G': 0.050000000000000003, '-': 0.67000000000000004, 'S': 0.01, 'T': 0.25, 'V': 0.01},  #628
+{'X': 0.01, 'C': 0.040000000000000001, '-': 0.69999999999999996, 'U': 0.25},  #629
+{'P': 0.02, '-': 0.67000000000000004, 'G': 0.31},  #630
+{'V': 0.01, '-': 0.67000000000000004, 'T': 0.29999999999999999, 'L': 0.02},  #631
+{'C': 0.32000000000000001, '-': 0.67000000000000004, 'S': 0.01},  #632
+{'H': 0.070000000000000007, '-': 0.67000000000000004, 'T': 0.25, 'N': 0.01},  #633
+{'Q': 0.02, 'R': 0.31, '-': 0.67000000000000004},  #634
+{'S': 0.059999999999999998, '-': 0.67000000000000004, 'C': 0.25, 'T': 0.02},  #635
+{'I': 0.01, 'A': 0.050000000000000003, '-': 0.67000000000000004, 'G': 0.25, 'V': 0.02},  #636
+{'A': 0.25, 'E': 0.01, 'G': 0.01, '-': 0.67000000000000004, 'S': 0.01, 'T': 0.01, 'V': 0.040000000000000001},  #637
+{'A': 0.01, 'C': 0.01, 'I': 0.040000000000000001, '-': 0.67000000000000004, 'L': 0.040000000000000001, 'S': 0.02, 'T': 0.20999999999999999},  #638
+{'I': 0.029999999999999999, 'M': 0.20999999999999999, '-': 0.67000000000000004, 'L': 0.02, 'V': 0.070000000000000007},  #639
+{'A': 0.029999999999999999, 'C': 0.01, '-': 0.66000000000000003, 'Q': 0.059999999999999998, 'S': 0.02, 'V': 0.22},  #640
+{'K': 0.40000000000000002, '-': 0.46999999999999997, 'L': 0.01, 'N': 0.01, 'S': 0.01, 'R': 0.10000000000000001},  #641
+{'A': 0.14000000000000001, 'E': 0.34000000000000002, 'G': 0.02, 'I': 0.02, 'H': 0.01, '-': 0.45000000000000001, 'V': 0.02},  #642
+{'F': 0.01, 'I': 0.46999999999999997, '-': 0.45000000000000001, 'L': 0.050000000000000003, 'V': 0.01, 'Y': 0.01},  #643
+{'E': 0.53000000000000003, '-': 0.45000000000000001, 'D': 0.02},  #644
+{'-': 0.91000000000000003, 'K': 0.02, 'R': 0.040000000000000001, 'E': 0.029999999999999999},  #645
+{'A': 0.070000000000000007, 'E': 0.059999999999999998, 'D': 0.01, 'K': 0.080000000000000002, '-': 0.48999999999999999, 'N': 0.02, 'S': 0.02, 'R': 0.25},  #646
+{'A': 0.32000000000000001, 'G': 0.01, 'F': 0.01, 'I': 0.01, '-': 0.45000000000000001, 'N': 0.01, 'S': 0.059999999999999998, 'R': 0.01, 'T': 0.040000000000000001, 'V': 0.040000000000000001, 'Y': 0.040000000000000001},  #647
+{'-': 0.47999999999999998, 'D': 0.02, 'G': 0.48999999999999999, 'N': 0.01},  #648
+{'F': 0.029999999999999999, 'I': 0.38, '-': 0.45000000000000001, 'M': 0.02, 'L': 0.089999999999999997, 'V': 0.029999999999999999},  #649
+{'A': 0.02, 'P': 0.51000000000000001, 'S': 0.02, '-': 0.45000000000000001},  #650
+{'A': 0.02, 'I': 0.059999999999999998, '-': 0.45000000000000001, 'N': 0.01, 'T': 0.12, 'V': 0.34000000000000002},  #651
+{'I': 0.10000000000000001, 'A': 0.01, 'C': 0.01, '-': 0.45000000000000001, 'V': 0.42999999999999999},  #652
+{'C': 0.02, 'I': 0.089999999999999997, 'H': 0.37, '-': 0.44, 'Q': 0.050000000000000003, 'T': 0.01, 'V': 0.02},  #653
+{'I': 0.26000000000000001, 'M': 0.20999999999999999, '-': 0.44, 'L': 0.040000000000000001, 'V': 0.050000000000000003},  #654
+{'A': 0.22, 'C': 0.27000000000000002, '-': 0.44, 'L': 0.02, 'N': 0.01, 'S': 0.01, 'T': 0.02, 'V': 0.01},  #655
+{'A': 0.10000000000000001, '-': 0.44, 'M': 0.01, 'N': 0.080000000000000002, 'S': 0.02, 'T': 0.34999999999999998},  #656
+{'A': 0.01, 'F': 0.01, 'I': 0.13, '-': 0.45000000000000001, 'L': 0.17000000000000001, 'V': 0.23000000000000001},  #657
+{'I': 0.050000000000000003, 'K': 0.01, '-': 0.45000000000000001, 'P': 0.080000000000000002, 'R': 0.01, 'T': 0.10000000000000001, 'V': 0.29999999999999999},  #658
+{'E': 0.02, 'D': 0.029999999999999999, '-': 0.45000000000000001, 'P': 0.46999999999999997, 'S': 0.01, 'T': 0.02},  #659
+{'I': 0.41999999999999998, '-': 0.45000000000000001, 'V': 0.13},  #660
+{'A': 0.089999999999999997, 'E': 0.01, '-': 0.44, 'M': 0.02, 'S': 0.35999999999999999, 'V': 0.080000000000000002},  #661
+{'E': 0.040000000000000001, 'D': 0.01, 'M': 0.02, 'K': 0.13, '-': 0.44, 'L': 0.26000000000000001, 'Q': 0.02, 'S': 0.01, 'R': 0.050000000000000003, 'T': 0.01, 'W': 0.01},  #662
+{'G': 0.02, 'H': 0.01, '-': 0.44, 'Q': 0.089999999999999997, 'S': 0.089999999999999997, 'T': 0.34999999999999998},  #663
+{'I': 0.070000000000000007, '-': 0.44, 'M': 0.01, 'N': 0.029999999999999999, 'Q': 0.01, 'T': 0.040000000000000001, 'V': 0.40000000000000002},  #664
+{'-': 0.44, 'R': 0.01, 'E': 0.01, 'G': 0.54000000000000004},  #665
+{'A': 0.40999999999999998, '-': 0.44, 'P': 0.01, 'S': 0.050000000000000003, 'T': 0.059999999999999998, 'V': 0.029999999999999999},  #666
+{'A': 0.01, 'H': 0.01, '-': 0.44, 'N': 0.42999999999999999, 'P': 0.10000000000000001, 'R': 0.01},  #667
+{'H': 0.01, 'K': 0.029999999999999999, 'R': 0.52000000000000002, '-': 0.44},  #668
+{'A': 0.070000000000000007, 'I': 0.40000000000000002, 'M': 0.029999999999999999, '-': 0.44, 'L': 0.02, 'T': 0.01, 'V': 0.029999999999999999},  #669
+{'A': 0.02, 'E': 0.01, 'I': 0.040000000000000001, '-': 0.44, 'L': 0.029999999999999999, 'V': 0.46000000000000002},  #670
+{'A': 0.080000000000000002, 'H': 0.01, 'R': 0.01, '-': 0.90000000000000002},  #671
+{'A': 0.01, 'F': 0.01, 'H': 0.01, 'K': 0.01, '-': 0.44, 'L': 0.01, 'Q': 0.02, 'P': 0.46999999999999997, 'R': 0.01, 'V': 0.01},  #672
+{'A': 0.19, 'G': 0.059999999999999998, 'H': 0.01, '-': 0.44, 'L': 0.040000000000000001, 'P': 0.01, 'R': 0.029999999999999999, 'T': 0.22},  #673
+{'A': 0.01, 'G': 0.01, 'F': 0.01, 'I': 0.20999999999999999, '-': 0.45000000000000001, 'N': 0.01, 'W': 0.01, 'V': 0.28999999999999998},  #674
+{'A': 0.29999999999999999, 'P': 0.10000000000000001, 'S': 0.089999999999999997, '-': 0.45000000000000001, 'G': 0.059999999999999998},  #675
+{'F': 0.02, 'I': 0.40999999999999998, '-': 0.45000000000000001, 'M': 0.070000000000000007, 'V': 0.040000000000000001, 'Y': 0.01},  #676
+{'D': 0.01, 'G': 0.10000000000000001, '-': 0.44, 'L': 0.01, 'N': 0.01, 'P': 0.41999999999999998, 'T': 0.01},  #677
+{'A': 0.080000000000000002, 'M': 0.01, 'F': 0.01, 'H': 0.31, '-': 0.44, 'S': 0.02, 'Y': 0.13},  #678
+{'P': 0.46999999999999997, 'N': 0.080000000000000002, '-': 0.44, 'V': 0.01},  #679
+{'A': 0.089999999999999997, 'V': 0.050000000000000003, '-': 0.44, 'L': 0.40999999999999998, 'F': 0.01},  #680
+{'-': 0.44, 'G': 0.56000000000000005},  #681
+{'A': 0.02, 'E': 0.059999999999999998, 'D': 0.13, 'F': 0.01, 'K': 0.02, '-': 0.44, 'N': 0.29999999999999999, 'P': 0.01, 'S': 0.01},  #682
+{'A': 0.01, 'P': 0.55000000000000004, '-': 0.44},  #683
+{'A': 0.16, 'C': 0.01, 'E': 0.070000000000000007, 'G': 0.040000000000000001, 'M': 0.029999999999999999, 'K': 0.050000000000000003, '-': 0.44, 'L': 0.01, 'N': 0.11, 'S': 0.02, 'T': 0.040000000000000001, 'H': 0.02},  #684
+{'G': 0.01, 'I': 0.01, 'M': 0.02, 'K': 0.029999999999999999, '-': 0.54000000000000004, 'L': 0.34000000000000002, 'Q': 0.01, 'T': 0.040000000000000001},  #685
+{'E': 0.029999999999999999, 'D': 0.10000000000000001, 'G': 0.059999999999999998, 'K': 0.02, '-': 0.54000000000000004, 'L': 0.01, 'N': 0.01, 'Q': 0.01, 'P': 0.050000000000000003, 'S': 0.14999999999999999, 'T': 0.02},  #686
+{'A': 0.080000000000000002, 'E': 0.059999999999999998, 'D': 0.02, 'G': 0.01, 'H': 0.040000000000000001, 'K': 0.089999999999999997, '-': 0.54000000000000004, 'L': 0.01, 'Q': 0.02, 'P': 0.11, 'S': 0.02},  #687
+{'I': 0.01, '-': 0.98999999999999999},  #688
+{'A': 0.050000000000000003, 'E': 0.23999999999999999, 'D': 0.059999999999999998, 'G': 0.01, 'K': 0.040000000000000001, '-': 0.54000000000000004, 'Q': 0.01, 'P': 0.01, 'S': 0.01, 'R': 0.01, 'T': 0.01, 'V': 0.01},  #689
+{'A': 0.029999999999999999, 'E': 0.26000000000000001, 'D': 0.070000000000000007, 'G': 0.01, 'K': 0.01, '-': 0.56000000000000005, 'Q': 0.02, 'R': 0.029999999999999999, 'V': 0.01},  #690
+{'E': 0.34000000000000002, 'D': 0.059999999999999998, '-': 0.44, 'N': 0.080000000000000002, 'Q': 0.040000000000000001, 'S': 0.040000000000000001},  #691
+{'A': 0.01, 'D': 0.01, 'F': 0.050000000000000003, 'I': 0.01, 'K': 0.23999999999999999, '-': 0.44, 'L': 0.02, 'Q': 0.01, 'P': 0.01, 'R': 0.059999999999999998, 'T': 0.01, 'W': 0.050000000000000003, 'V': 0.050000000000000003, 'Y': 0.029999999999999999},  #692
+{'A': 0.14000000000000001, 'E': 0.12, 'G': 0.01, 'H': 0.01, 'K': 0.19, '-': 0.44, 'N': 0.01, 'Q': 0.02, 'S': 0.029999999999999999, 'R': 0.01, 'T': 0.01, 'Y': 0.01},  #693
+{'A': 0.01, 'I': 0.070000000000000007, 'M': 0.080000000000000002, '-': 0.44, 'L': 0.32000000000000001, 'N': 0.01, 'Q': 0.02, 'R': 0.01, 'T': 0.01, 'V': 0.01, 'Y': 0.02},  #694
+{'Q': 0.10000000000000001, 'H': 0.01, 'R': 0.45000000000000001, '-': 0.44},  #695
+{'E': 0.029999999999999999, 'H': 0.01, 'K': 0.070000000000000007, '-': 0.44, 'L': 0.01, 'R': 0.28000000000000003, 'T': 0.080000000000000002, 'V': 0.01, 'Y': 0.070000000000000007},  #696
+{'A': 0.070000000000000007, 'E': 0.050000000000000003, 'D': 0.01, 'G': 0.02, 'H': 0.070000000000000007, 'K': 0.14999999999999999, '-': 0.44, 'N': 0.029999999999999999, 'Q': 0.02, 'S': 0.059999999999999998, 'R': 0.070000000000000007, 'T': 0.01},  #697
+{'I': 0.20999999999999999, 'M': 0.02, '-': 0.44, 'L': 0.23999999999999999, 'R': 0.070000000000000007, 'V': 0.02},  #698
+{'A': 0.01, 'C': 0.02, 'I': 0.01, '-': 0.44, 'L': 0.080000000000000002, 'V': 0.44},  #699
+{'C': 0.01, 'E': 0.28000000000000003, 'D': 0.040000000000000001, 'G': 0.029999999999999999, 'M': 0.029999999999999999, 'K': 0.050000000000000003, 'V': 0.01, '-': 0.44, 'L': 0.040000000000000001, 'R': 0.040000000000000001, 'T': 0.02, 'H': 0.01},  #700
+{'A': 0.040000000000000001, 'D': 0.080000000000000002, 'G': 0.01, 'K': 0.28999999999999998, '-': 0.44, 'S': 0.01, 'R': 0.080000000000000002, 'T': 0.01, 'V': 0.029999999999999999, 'Y': 0.01},  #701
+{'A': 0.44, 'S': 0.059999999999999998, '-': 0.44, 'T': 0.040000000000000001, 'G': 0.02},  #702
+{'I': 0.02, 'V': 0.02, '-': 0.44, 'L': 0.51000000000000001, 'F': 0.01},  #703
+{'A': 0.01, 'E': 0.12, 'D': 0.059999999999999998, 'G': 0.01, 'I': 0.01, 'H': 0.01, 'K': 0.17999999999999999, '-': 0.44, 'N': 0.080000000000000002, 'Q': 0.040000000000000001, 'R': 0.02, 'V': 0.02},  #704
+{'A': 0.41999999999999998, 'E': 0.01, 'G': 0.01, '-': 0.44, 'M': 0.01, 'L': 0.02, 'Q': 0.059999999999999998, 'S': 0.01, 'R': 0.01, 'T': 0.01},  #705
+{'-': 0.44, 'M': 0.029999999999999999, 'L': 0.53000000000000003},  #706
+{'A': 0.059999999999999998, 'C': 0.01, 'E': 0.12, 'I': 0.02, 'H': 0.01, '-': 0.44, 'Q': 0.11, 'S': 0.01, 'T': 0.17999999999999999, 'V': 0.040000000000000001},  #707
+{'A': 0.02, 'E': 0.070000000000000007, 'G': 0.01, 'K': 0.040000000000000001, '-': 0.44, 'Q': 0.01, 'R': 0.01, 'T': 0.35999999999999999, 'V': 0.040000000000000001},  #708
+{'A': 0.040000000000000001, 'E': 0.17999999999999999, 'D': 0.070000000000000007, 'G': 0.01, 'I': 0.070000000000000007, '-': 0.44, 'K': 0.029999999999999999, 'M': 0.01, 'L': 0.01, 'Q': 0.01, 'P': 0.13},  #709
+{'E': 0.029999999999999999, 'F': 0.01, 'I': 0.13, '-': 0.45000000000000001, 'L': 0.02, 'Q': 0.01, 'P': 0.050000000000000003, 'T': 0.02, 'V': 0.28000000000000003},  #710
+{'A': 0.029999999999999999, 'E': 0.13, 'D': 0.17999999999999999, '-': 0.45000000000000001, 'L': 0.02, 'N': 0.01, 'Q': 0.01, 'P': 0.01, 'S': 0.10000000000000001, 'T': 0.059999999999999998},  #711
+{'A': 0.070000000000000007, '-': 0.92000000000000004, 'F': 0.01},  #712
+{'P': 0.01, '-': 0.90000000000000002, 'G': 0.089999999999999997},  #713
+{'A': 0.01, 'E': 0.01, 'G': 0.01, 'K': 0.059999999999999998, '-': 0.90000000000000002, 'T': 0.01},  #714
+{'I': 0.070000000000000007, '-': 0.90000000000000002, 'E': 0.01, 'L': 0.01, 'V': 0.01},  #715
+{'I': 0.02, '-': 0.90000000000000002, 'V': 0.080000000000000002},  #716
+{'Q': 0.01, 'M': 0.01, '-': 0.91000000000000003, 'E': 0.01, 'P': 0.059999999999999998},  #717
+{'P': 0.01, '-': 0.91000000000000003, 'L': 0.080000000000000002},  #718
+{'-': 0.98999999999999999, 'G': 0.01},  #719
+{'-': 0.98999999999999999, 'W': 0.01},  #720
+{'R': 0.01, '-': 0.98999999999999999},  #721
+{'-': 0.98999999999999999, 'W': 0.01},  #722
+{'R': 0.01, '-': 0.98999999999999999},  #723
+{'R': 0.01, '-': 0.98999999999999999},  #724
+{'-': 0.98999999999999999, 'E': 0.01},  #725
+{'I': 0.01, '-': 0.98999999999999999},  #726
+{'Y': 0.01, '-': 0.98999999999999999},  #727
+{'-': 0.98999999999999999, 'T': 0.01},  #728
+{'P': 0.01, '-': 0.98999999999999999},  #729
+{'P': 0.01, '-': 0.98999999999999999},  #730
+{'P': 0.01, '-': 0.98999999999999999},  #731
+{'-': 0.98999999999999999, 'D': 0.01},  #732
+{'A': 0.01, '-': 0.97999999999999998, 'W': 0.01},  #733
+{'P': 0.080000000000000002, '-': 0.90000000000000002, 'L': 0.01, 'G': 0.01},  #734
+{'E': 0.19, 'D': 0.029999999999999999, 'G': 0.14000000000000001, 'K': 0.029999999999999999, '-': 0.46000000000000002, 'Q': 0.02, 'P': 0.01, 'S': 0.01, 'T': 0.029999999999999999, 'Y': 0.080000000000000002},  #735
+{'E': 0.089999999999999997, 'H': 0.01, '-': 0.46000000000000002, 'Q': 0.37, 'P': 0.059999999999999998, 'R': 0.01},  #736
+{'G': 0.01, 'K': 0.040000000000000001, '-': 0.46000000000000002, 'T': 0.40000000000000002, 'V': 0.01, 'Y': 0.080000000000000002},  #737
+{'I': 0.070000000000000007, 'H': 0.01, 'K': 0.02, '-': 0.46000000000000002, 'L': 0.01, 'R': 0.01, 'T': 0.02, 'V': 0.40000000000000002},  #738
+{'I': 0.01, 'F': 0.38, '-': 0.59999999999999998, 'V': 0.01},  #739
+{'Q': 0.01, '-': 0.98999999999999999},  #740
+{'S': 0.01, '-': 0.98999999999999999},  #741
+{'P': 0.01, '-': 0.98999999999999999},  #742
+{'-': 0.98999999999999999, 'M': 0.01},  #743
+{'R': 0.01, '-': 0.98999999999999999},  #744
+{'-': 0.98999999999999999, 'W': 0.01},  #745
+{'S': 0.01, '-': 0.98999999999999999},  #746
+{'A': 0.01, '-': 0.98999999999999999},  #747
+{'-': 0.98999999999999999, 'G': 0.01},  #748
+{'-': 0.98999999999999999, 'E': 0.01},  #749
+{'A': 0.01, '-': 0.98999999999999999},  #750
+{'-': 0.98999999999999999, 'W': 0.01},  #751
+{'K': 0.01, '-': 0.98999999999999999},  #752
+{'-': 0.98999999999999999, 'D': 0.01},  #753
+{'-': 0.98999999999999999, 'L': 0.01},  #754
+{'-': 0.98999999999999999, 'V': 0.01},  #755
+{'-': 0.98999999999999999, 'F': 0.01},  #756
+{'-': 0.98999999999999999, 'T': 0.01},  #757
+{'P': 0.01, '-': 0.98999999999999999},  #758
+{'-': 0.98999999999999999, 'E': 0.01},  #759
+{'Q': 0.01, '-': 0.98999999999999999},  #760
+{'P': 0.01, '-': 0.98999999999999999},  #761
+{'-': 0.98999999999999999, 'W': 0.01},  #762
+{'K': 0.01, '-': 0.98999999999999999},  #763
+{'S': 0.01, '-': 0.98999999999999999},  #764
+{'-': 0.98999999999999999, 'G': 0.01},  #765
+{'-': 0.98999999999999999, 'E': 0.01},  #766
+{'-': 0.98999999999999999, 'T': 0.01},  #767
+{'-': 0.98999999999999999, 'E': 0.01},  #768
+{'Q': 0.01, '-': 0.98999999999999999},  #769
+{'-': 0.98999999999999999, 'D': 0.01},  #770
+{'-': 0.98999999999999999, 'W': 0.01},  #771
+{'-': 0.98999999999999999, 'L': 0.01},  #772
+{'R': 0.01, '-': 0.98999999999999999},  #773
+{'K': 0.01, '-': 0.98999999999999999},  #774
+{'K': 0.01, '-': 0.98999999999999999},  #775
+{'-': 0.98999999999999999, 'E': 0.01},  #776
+{'-': 0.98999999999999999, 'L': 0.01},  #777
+{'Y': 0.01, '-': 0.98999999999999999},  #778
+{'K': 0.01, '-': 0.98999999999999999},  #779
+{'K': 0.01, '-': 0.98999999999999999},  #780
+{'-': 0.98999999999999999, 'L': 0.01},  #781
+{'K': 0.01, '-': 0.98999999999999999},  #782
+{'Q': 0.01, '-': 0.98999999999999999},  #783
+{'A': 0.01, 'E': 0.080000000000000002, 'K': 0.040000000000000001, '-': 0.82999999999999996, 'P': 0.02, 'T': 0.02},  #784
+{'K': 0.01, '-': 0.97999999999999998, 'V': 0.01},  #785
+{'-': 0.98999999999999999, 'D': 0.01},  #786
+{'H': 0.01, '-': 0.98999999999999999},  #787
+{'-': 0.98999999999999999, 'D': 0.01},  #788
+{'A': 0.070000000000000007, 'E': 0.02, 'D': 0.01, 'G': 0.01, 'H': 0.01, 'K': 0.01, '-': 0.78000000000000003, 'P': 0.01, 'S': 0.02, 'R': 0.02, 'V': 0.029999999999999999, 'Y': 0.01},  #789
+{'A': 0.01, 'C': 0.029999999999999999, 'E': 0.11, 'D': 0.02, 'F': 0.01, 'I': 0.01, 'H': 0.01, 'K': 0.14999999999999999, '-': 0.51000000000000001, 'L': 0.01, 'N': 0.050000000000000003, 'Q': 0.01, 'P': 0.01, 'R': 0.01, 'T': 0.01, 'W': 0.02, 'Y': 0.02},  #790
+{'A': 0.02, 'E': 0.11, 'D': 0.10000000000000001, 'G': 0.10000000000000001, 'F': 0.089999999999999997, 'I': 0.029999999999999999, 'K': 0.029999999999999999, 'L': 0.050000000000000003, 'N': 0.02, 'Q': 0.01, 'S': 0.01, 'R': 0.01, 'T': 0.27000000000000002, 'V': 0.10000000000000001, 'Y': 0.050000000000000003},  #791
+]

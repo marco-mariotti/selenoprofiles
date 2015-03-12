@@ -1,0 +1,32 @@
+>SelM2_Thalassiosira_pseudonana [Thalassiosira pseudonana CCMP1335 (Eukaryota/Stramenopiles)]
+MFVDGQRTSDGRAGDRKQGTKQVQSPFFFNKGQPRDNSWTLPPPPPPKLEGEPTDRRQTRVDEHHRTNQSQVVSQQVASRSASYKIRGDGDVDRVTWVCRRSRPGSVGFTCPSSHVFVFSLVILD-SSAAAIHSKMLSSASRILFLLATILALTTATLHGRIESCSGUKLNKLPVLKSFLKDG-EAES-YRNVEVKYVPGKQAVLTIYEGEGEEVEGWVEKEKIVLSELETKVTVVWVLTECRFMC--------------------------------------------------------CNSAVFI
+>SelM1_Thalassiosira_pseudonana [Thalassiosira pseudonana CCMP1335 (Eukaryota/Stramenopiles)]
+MILVR-------------------------------------------------------IFP--------------------------------------------------PVLLFLSMLL-------------------------VWSDAQEQRLTGLIESCSGUALNRLPELKSFLKDLNGVDL-YKNVEVHFISGKRAVLTIFE-GGRELEKI------TLSDYNDKEKLHTLFAEKGFVKYTGVELAERRKVEAEETGSLQKTLEAQRYSLSKREQKLQMKERLKKLQTARDNYMIEAPFVEQ
+>gi|169234774|ref|NP_001108486.1| selenoprotein M precursor [Canis lupus familiaris]
+MRLPL-------------------------------------------------------PPP--------------------------------------------------PLLLLLAALAAA-VTTF-----------------RPDWNRLHGLARARVETCGGUQLNRLKEVKAFVTQDIP---LYHNLVMKHLPGADPELVLLGHHYEELERI------PLS-EMTREEINELVQELGFYRKAAPDEAVP--PEYLRAPARPA--------------------------------EGAPDRADL
+>gi|212274308|ref|NP_001085717.2| selenoprotein M [Xenopus laevis] gi|190358766|sp|Q6GP98.2|SELM_XENLA RecName: Full=Selenoprotein M_ Short=SelM_ Flags: Precursor
+MWLPL-------------------------------------------------------P-----------------------------------------------------LLLGLLQLQPI-LSY------------------QIDWNKLERINRGKVESCGGUQLNRLKEVKGFVTEDLP---LYHNLEMKHIPGADPELVLITSRYEELERI------PLS-DMKRDEINQLLKDLGFYRKSSPDAPVP--AEFKMAPARAS----------------------------------GDTKEDL
+>gi|23452027|gb|AAN32900.1| selenoprotein SelM2 [Chlamydomonas reinhardtii]
+MRALA------------------------------------------------------------------------------------------------------------LALLALA-LIAH-E-------------------------ANAKVARGEFISCPGURLNHLPEVKKFIRGDIEKDKAYENLTVNFVPGRTPELVLYDENGVEIERM------FVD-KLKYDELHTLVQSKGFKRRDPNAAAAT--TTA-TASTRRAR--------------------------AARRLLRATEETAC
+>gi|115291344|gb|ABI93178.1| selenoprotein M [Litopenaeus vannamei]
+MAKGS-------------------------------------------------------V----------------------------------------------------QLLLLLGAVF----SYT-----------------LAEELRETAIAKARVESCGGURLNRLPEVKKFIHEDIP---LFHNAKFKQIGGAPPELVLLNRFDQVVERL------PLD-KLSREECNKLMLKKGFYKKSSPEEEVP--EEYRNGPY--------------------------------------TEREEL
+>gi|67083573|gb|AAY66722.1| salivary selenoprotein M precursor [Ixodes scapularis]
+MLLHG------------------------------------------------------------------------------------------------------------FLAVLLCASF---VS-A-----------------DEKEPADKVIVKARVESCGGURLNAYPEVKKFVYDDIP---LFHNVEFKVIGGAKPEVLFLNMNDEEVERH------SLE-GRSRDECNQLLLDRGFEKKKQE-APQE--EEGP-GLF-------------------------------------ADEKAEL
+>SelM_Ostreococcus_lucimarinus [Se user]; [Ostreococcus lucimarinus (Eukaryota/Viridiplantae/Chlorophyta)]
+MTSTATTT-----------------------------------------------RTTTRRRP--------------------------------------------------ARRVVAARVVAACVALAR---------------VARGTAGEGAFARAQFQSCPGUKLNRLPEIKTFLKEVVEVGGYGERVGVTWTPGHPPSLHMQDERGNNVETA------KLTSEWTVERVETYLNERGFYRPGQE---------------------------------------------------RETARVEL
+>gi|71467677|emb|CAI44701.1| selenoprotein M [Suberites domuncula]
+MKVAV------------------------------------------------------------------------------------------------------------L-FLTLC-VSLA-I-------------------------GVGEIKKARLESCSGURLNSLPKVKRFINDHLP---DYPDLEIKYIGGADPVMVLMDAEYQEVTRV------SVI-KMSEQEIIDLLASHNIVKRSPEEAEAE--EDT--E------------------------------------PWEQDEREEL
+>SelM_Ostreococcus_tauri [Se user]; [Ostreococcus tauri (Eukaryota/Viridiplantae/Chlorophyta)]
+MTVAR-------------------------------------------------------RRS--------------------------------------------------SASFLFAFVLFL--ACAS----------------SALAESATSYARAQFQSCPGURLNRLPEIKAFIKDVVEVGKYGDKVSVLWTHGHAPTIHMQDDKGTNVESV------VLTSEWTVDQVKEYLSERGFDPIK-------------------------------------------------------QEKSEL
+>gi|156542755|ref|XP_001600851.1| PREDICTED: similar to selenoprotein M [Nasonia vitripennis]
+MKPSR------------------------------------------------------------------------------------------------------------VAVFAISAIVLS-V-LT-----------------DLAFASKGMYSRAVVESCRGCQLNRLPDVKAFILEDVP---LYDNAEFKHIQGAPPELVLYDHAEKEIERL------QIG-LLTREECNELMYEKGFKKSKPI-------------------------------------------------------KDEI
+>gi|91090266|ref|XP_970337.1| PREDICTED: similar to selenoprotein M [Tribolium castaneum]
+MKICA------------------------------------------------------------------------------------------------------------SLLVSCVAF-LA---LA-----------------SAEAANDSKIARARVESCPSCKLNRLPEVKAFIYEDLP---KYDNTEFKKIQGAPPVLLFLNDADEIVEQH------SLE-KFSRQECNNLLKSKGFNIKN----------------------------------------------------------KEL
+>gi|109093960|ref|XP_001110745.1| PREDICTED: similar to selenoprotein M precursor [Macaca mulatta]
+MTAEP-------------------------------------------------------PKG--------------------------------------------------VPHLYLEETGVM-VSDA-----------------L-----------------------VPPQVKAFVTQDIP---FYHNLVMKHLPGADPELVLLGRRYEELERI------PLS-EMTREEINALVQELGFYRKAAPDAQVP--PEYVWAPARPP--------------------------------EETSDHADL
+>gi|149047513|gb|EDM00183.1| rCG36108, isoform CRA_b [Rattus norvegicus]
+MSRES-------------------------------------------------------E--------------------------------------------------------------AL-FSNA-----------------V-----------------------VPPQVKAFVTQDIQ---LYHNLVMKHLPGADPELVLLSRNYQELERI------PLS-QMTRDEINALVQELGFYRKSAPEAKVP--PEYLWAPAKPP--------------------------------EDASDRADL
+>gi|53734006|gb|AAH83376.1| Sepm protein [Danio rerio] gi|197247189|gb|AAI64915.1| Unknown (protein for MGC:192090) [Danio rerio]
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------MREVKAFVTQDIP---LYHNLVMKHIPGADPELVLLNHYYEELDRI------PLF-EMTRAEINKLLAELGFYKKDHPEDQVP--EEFRFSPAKDSP--------------FEGRQSSTAAP-ETTE-PSDSQHTDL
+>gi|68379440|ref|XP_698695.1| PREDICTED: similar to selenoprotein M [Danio rerio]
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------MPELYNFLMERWA---LYHNLEYDSGEDKNPRLIFYNDKDEEVKVV------PVK-KMKADEISSLLDSLGFYKRSEKGEEVP--EEFKHFPL-------------------------------------RAPRDEL

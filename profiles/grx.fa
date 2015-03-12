@@ -1,0 +1,222 @@
+>gi|218440470|ref|YP_002378799.1| glutaredoxin 3 [Cyanothece sp. PCC 7424] 5.69313e-33
+---------------------------MLNLI-----------------N-------SVL-------GRH---PERIKA-NVEIYTWQTCPYCIRAKFLLWWKGVN-FTEYKI-DGD-NQARQAMAERA-NGRRTVPQIFI--NN-QHIGGCDDLYELDTKGQLDPL----LTQNPNE--------------------------VVGIG
+>gi|218440470|ref|YP_002378799.1|_1 glutaredoxin 3 [Cyanothece sp. PCC 7424] 5.69313e-33 # ARTIFICIAL_U
+---------------------------MLNLI-----------------N-------SVL-------GRH---PERIKA-NVEIYTWQTUPYCIRAKFLLWWKGVN-FTEYKI-DGD-NQARQAMAERA-NGRRTVPQIFI--NN-QHIGGCDDLYELDTKGQLDPL----LTQNPNE--------------------------VVGIG
+>gi|159028686|emb|CAO88157.1| unnamed protein product [Microcystis aeruginosa PCC 7806] 1.47468e-30
+---------------------------MLNLF-----------------N-------SLF-------GRY---NENIKA-NVEIYTWATCPYCIRAKWLLGWKGVK-YTEYKI-DGD-ESARQAMAERS-NGKRSVPQIFI--NN-EHIGGCDDLYALDDQKKLDNL----LAKC-------------------------------GTI
+>gi|284051052|ref|ZP_06381262.1| glutaredoxin 3 [Arthrospira platensis str. Paraca] 2.35232e-31
+---------------------------MLDLL-----------------N-------HIL-------GRN---PEKFKA-QVEVYSWQTCPYCIRAKLLLWWKGVD-YIDYQI-DGD-NNAREAMAQRA-NGRRTVPQIFI--NN-QHIGGCDDLYQLDSEGKLEPL----LIP--------------------------------PLS
+>Glutaredoxin__Geobacter_lovleyi_SZ Glutaredoxin, YP_001952473.1, [Se user]; [Geobacter lovleyi SZ (Bacteria/Proteobacteria/delta)]
+---------------------------MKNLLLYLLFILAMTAFCPHQAE-------AVQ-------PRTPQLLYPSSK-RIVIFVADGUGYCTKAESYFATRNIP-FESRDI-QKS-HQFYREWHDHF-NG-DIVPLIVFD-NG-RQVVDSFDPRAIKRALKVIGI----TSRN------------------------------GKKP
+>gi|170078672|ref|YP_001735310.1| glutaredoxin [Synechococcus sp. PCC 7002] 2.68984e-29
+---------------------------MFNCL-----------------K-------SLF-------GKK---ATGIHA-KVEIYTWRTCPYCIAAKILLFFKGVH-FTEYKI-DGD-EIARKKMAERA-NGKRTVPQIFI--NN-AHIGGCTDLFALEQKGELNVL----LH-----------------------------------Q
+>gi|72383383|ref|YP_292738.1| glutaredoxin, GrxC [Prochlorococcus marinus str. NATL2A] 1.55039e-30
+---------------------------MNRSI-----------------------------------------PDSGIT-TVEIYTWRFCPFCLRAKALLNEKGVQ-FTEYSI-DGD-DGARTKMSERA-GGRRTVPQIFI--NG-KSIGGCDELYELERNNELNEL----IG---------------------------------IRN
+>gi|182680212|ref|YP_001834358.1| glutaredoxin 3 [Beijerinckia indica subsp. indica ATCC 9039] 1.12945e-29
+---------------------------MSE-----------------------------------------------LP-EITIYTTQTCPYCRRAKELLTKKNLP-FTEISV-DGD-FEARERMTERA-NGRSTVPQIFF--GD-KHIGGCDDLYELHYDGKLDLL----LADLA----------------------------RTPTD
+>gi|86136800|ref|ZP_01055378.1| glutaredoxin [Roseobacter sp. MED193] 1.44944e-32
+---------------------------MAQNI-----------------D-----------------ITQ---LETRMK-SVEIYTSPLCGFCHAAKRLLNQKGVE-FSEVNV-LTN-PGRKQEMIQRA-NGGYTVPQIFI--GD-THVGGCDDLYALEQAGKLDSL----LA-----------------------------------A
+>gi|87300850|ref|ZP_01083692.1| Glutaredoxin [Synechococcus sp. WH 5701] 1.6853e-30
+---------------------------MNT-----------------------------------------------PA-KVEIYTWRFCPFCIRAKALLDRKGVA-YEEYAI-DGD-QAARGAMAQRA-DGRSSLPQIFI--ND-QGIGGCDELHSLERAGRLDPL----LQ----------------------------------GA
+>gi|254417342|ref|ZP_05031085.1| glutaredoxin 3 [Microcoleus chthonoplastes PCC 7420] 1.62998e-30
+---------------------------ME-------------------------------------------------P-KVEIYTWSRCPYCMRAKGLLNEKGIN-FTEYCI-DGD-EQAREQMAQRA-NGRRSLPQIFI--ND-HHIGGCDDLYGLELQGELDTL----LQDGA-----------------------------GASH
+>gi|158335405|ref|YP_001516577.1| glutaredoxin 3 [Acaryochloris marina MBIC11017] 4.66268e-31
+---------------------------M--------------------------------------------------A-NVEIYTWSTCPFCRRAKHLLDQKGVT-YTEYVL-DGD-ETARDAMVARGTQGRRSVPQIFI--ND-QHIGGSDALYDLEQQGKLDGL----LNSSLAG---------------ATPLKPYQRGRNISGT
+>gi|146337713|ref|YP_001202761.1| glutaredoxin 3 [Bradyrhizobium sp. ORS278] 7.50646e-29
+---------------------------MT-------------------------------------------------A-AIEIYTRPGCGYCTAAKSLLTRKNVP-FTEYDA-GKD-PNVRQQMYDRV-GPGSTFPQIFI--GK-THIGGCDDLYALDREGRLDAM----LAGD------------------------------KATS
+>gi|209883248|ref|YP_002287105.1| glutaredoxin 3 [Oligotropha carboxidovorans OM5] 2.37272e-30
+---------------------------MS-------------------------------------------------A-AVEIYTRPGCGYCSAAKSLLAQKQVA-FTEFDA-SKN-PDFRQEMLARA-NGGMTFPQIFI--DG-FHVGGCDDLYALERAGRLDPL----LNGQ------------------------------KEPT
+>gi|83644209|ref|YP_432644.1| GrxC family glutaredoxin [Hahella chejuensis KCTC 2396] 4.39942e-30
+---------------------------MAQ-----------------------------------------------FK-PVTIYTTEFCPYCIRAKRLLEAKGAS-FEEIKV-DFN-AALRQEMMQKS--GRRTVPQIWV--GE-EHVGGCDELYGLERAGTLDAL----LQSGASD-------------------------ESVSPS
+>gi|17231352|ref|NP_487900.1| glutaredoxin [Nostoc sp. PCC 7120] 4.6226e-32
+---------------------------MA-------------------------------------------------A-TVEIYTWRTCPFCIRAKNLLNNKGVE-FVEYSI-DGD-EEARDKMAQRA-NGRRSLPQIFI--ND-RHVGGCDDIHALERQGQLDEL----LASS-------------------------------TSL
+>gi|282901629|ref|ZP_06309547.1| Glutaredoxin, GrxC [Cylindrospermopsis raciborskii CS-505] 2.78113e-29
+---------------------------MT-------------------------------------------------A-KVEIYTWSACPFCISAKGLLTSKGVQ-FTEYKI-DGN-EEARRKMAIRA-NGKRSVPQIFI--ND-VHIGGCDDIHDLNRSGGLDPL----LQN--------------------------------SGD
+>gi|172035407|ref|YP_001801908.1| glutaredoxin [Cyanothece sp. ATCC 51142] 1.01276e-31
+---------------------------MA-------------------------------------------------A-NVEIYTWSTCPFCLRAKALLVKKGVD-FTEYCI-DGD-EDARDEMAQRA-NGKRSVPQIFI--ND-RHVGGCDELYDLDSTGELDSL----LEN--------------------------------SAA
+>gi|254453988|ref|ZP_05067425.1| glutaredoxin 3 [Octadecabacter antarcticus 238] 1.6155e-32
+---------------------------MTP-----------------------------------------------MA-TVEIYTTPICGFCHRAKHLLSSKGVS-YSEVNV-MLH-PSRRAEMTQRA-NGGRTVPQIFI--GG-EHIGGSDELSALERAGKLDTL----LK-----------------------------------A
+>gi|119385313|ref|YP_916369.1| glutaredoxin 3 [Paracoccus denitrificans PD1222] 1.21647e-32
+---------------------------M-------------------------------------------------MA-KIEIYTTPTCPYCIAAKSLLQKKGIT-YEETDV-SCD-PQLRIAMTQRA-GGRRTVPQIFI--DG-QHVGGSDDLHALEHRGKLDGL----LG---------------------------------LTA
+>gi|110635334|ref|YP_675542.1| glutaredoxin 3 [Mesorhizobium sp. BNC1] 3.69232e-30
+---------------------------M--------------------------------------------------A-DVTIYTRMGCGYCVAAKRLLERKGIA-YTEQDA-SFS-PELRKEMIGRA-NGRSTFPQIFI--GN-IHVGGSDDLHALEREGRLDAL----LEERD---------------------------IVGSSR
+>gi|148553482|ref|YP_001261064.1| glutaredoxin 3 [Sphingomonas wittichii RW1] 9.87728e-32
+---------------------------MDR-----------------------------------------------MP-KVEIYTKAFCPYCSRAKALLETKGVG-FEEYDI-SMG-GPKRAEMIERA-RGGSTVPQIFI--DD-RHIGGCDDMFALDRQGKLDPL----L-----------------------------------AA
+>gi|87200029|ref|YP_497286.1| glutaredoxin GrxC [Novosphingobium aromaticivorans DSM 12444] 1.29076e-29
+---------------------------MPN-----------------------------------------------MP-KVEMYTKWGCPYCFRAKQLLDGKGVS-YEEIDV-TMG-GPKKTEMLERA-PGHTTVPSIFI--DG-LHVGGSDDLAALNAQGKLDMM----L-----------------------------------GL
+>gi|170076910|ref|YP_001733548.1| GrxC family glutaredoxin [Synechococcus sp. PCC 7002] 1.63045e-29
+---------------------------M-------------------------------------------------AA-TVEIYTWSTCPFCIRAKHLLDSKQVE-YTEYCI-DGD-RQAREAMTERA-NGRSSLPQVFI--ND-QHVGGCDDLHELEYQGKLDDL----LMQ---------------------------------AA
+>gi|220910183|ref|YP_002485494.1| glutaredoxin 3 [Cyanothece sp. PCC 7425] 4.55005e-29
+---------------------------MA-------------------------------------------------A-KVEIYTWATCPFCIRAKRLLDQKGVD-YIEYGI-DGD-EPARRVMAQRA-GGRRTLPQIFI--DD-RPVGGCDDIHRLDAKGELDRL----LQ----------------------------------LN
+>gi|37523252|ref|NP_926629.1| glutaredoxin [Gloeobacter violaceus PCC 7421] 1.81567e-32
+---------------------------MN-------------------------------------------------P-KVEIYTWQFCPFCIRAKALLKQKSVA-FSEYAI-DGD-EAARSAMAERA-DGRRSVPQIFI--DG-KHIGGCDDLYALDRSGQLDPL----LV----------------------------------AS
+>gi|158340004|ref|YP_001521174.1| glutaredoxin 3 [Acaryochloris marina MBIC11017] 2.99628e-31
+---------------------------M--------------------------------------------------A-NIEIYTWSTCPFCRRAKQLLDQKGAT-YTEYQI-DGD-EAARDQMVARGTNGRRSVPQIFI--ND-QHIGGSDDLYALERQGALDKL----LGST------------------------------EVLV
+>gi|86359346|ref|YP_471238.1| glutaredoxin protein [Rhizobium etli CFN 42] 1.7713e-31
+MQGLSPSL-------YDRNTRHPSGDIM--------------------------------------------------V-PVTIYTRQFCGYCSRAKSLLEEKGVD-YVEHDA-TYS-ADLRQEMIGKS-NGRTTFPQIFI--GT-EHVGGCDDLFALDRAGKLDPM----LA-----------------------------------A
+>gi|163759884|ref|ZP_02166968.1| putative glutaredoxin [Hoeflea phototrophica DFL-43] 6.62147e-30
+MEI-----------------------MM--------------------------------------------------A-DVTLYTRQFCGFCTAAKRLLDSKNVA-YTEHDA-TFS-PELKQEMIGKA-NGRATFPQIFI--DG-LHVGGCDELHALEHAGKLDPL----LE----------------------------------GA
+>gi|239832954|ref|ZP_04681283.1| glutaredoxin 3 [Ochrobactrum intermedium LMG 3301] 2.04183e-30
+MKSFGASSGHRCRLYSG---QR-MEFFM--------------------------------------------------V-DVTIYTRPGCPYCTMAKELLTRKGVE-FNEINA-GAT-PELRAEMQARS--GRNTFPQIFV--GS-FHVGGCDDLHALEDQGKLDGL----LET-------------------------------GQLN
+>gi|144900148|emb|CAM77012.1| Glutaredoxin and related proteins [Magnetospirillum gryphiswaldense MSR-1] 4.11058e-34
+---------------------------M--------------------------------------------------A-QVEIYTTQTCPYCIRAKRLLTTKGVA-FQEYDV-SND-PELRSAMTARA-HGGRTVPQIFI--NG-EHVGGCDDLHSLDGAGELDVL----LAK--------------------------------ESA
+>gi|85374117|ref|YP_458179.1| glutaredoxin [Erythrobacter litoralis HTCC2594] 2.0942e-29
+---------------------------MSE------------------------------------------------P-KVDIYTKFGCGYCVRAKRLLDEKGVD-YEEFDI-TMG-GPKRDEMRERA-PGAMTVPQIFI--GD-THVGGSDELHALEREGKLDPL----L-----------------------------------AG
+>gi|254472205|ref|ZP_05085605.1| glutaredoxin 3 [Pseudovibrio sp. JE062] 2.71081e-31
+---------------------------M--------------------------------------------------A-QVTIYTRDMCGYCARAKRLLDEKGVD-YKEFNY-SED-PTIRKEMISKA-NGANTFPQIFI--GS-EHIGGCDDLFALERRGHLDGL----LSA---------------------------------DI
+>gi|33864327|ref|NP_895887.1| glutaredoxin [Prochlorococcus marinus str. MIT 9313] 4.66538e-29
+---------------------------M--------------------------------------------------A-KVEIYTWQSCPFCLRAKALLDRKGVS-YQEHAI-DGD-QAARAVMASRA-GGKNTLPQIFI--DD-LSIGGCDELHALEGAQKLDGL----LQG---------------------------------KV
+>gi|113955238|ref|YP_731846.1| glutaredoxin 3 [Synechococcus sp. CC9311] 3.91213e-32
+---------------------------M--------------------------------------------------A-KVEIYTWSTCPFCVRAKGLLDRKGVA-YSEVSV-DGD-EPGRDAMAARG-NGKRSVPQIFI--ND-QHVGGCDELHGLERAGKLDGL----LAG---------------------------------QA
+>gi|284050798|ref|ZP_06381008.1| glutaredoxin [Arthrospira platensis str. Paraca] 9.87728e-32
+---------------------------MT-------------------------------------------------N-SIEIYTWSSCPFCLRAKALLKRKGWE-FTEYVI-DGD-EEARDRMAVKA-NGRRSVPQVFI--NG-RHIGGCDDLHALEAQGQLDSL----LS-----------------------------------A
+>gi|162147688|ref|YP_001602149.1| glutaredoxin-3 [Gluconacetobacter diazotrophicus PAl 5] 4.21966e-30
+MITG----------------RY-SRIRMP---------------------------------------------------RIEIYTQPGCPYCVRALRLLEQKGTA-FTEIRA-LHG-TAERAEARERS-GGRTTVPQIFI--DG-RHIGGCDDIMALDRAGKLDPL----LH----------------------------------AA
+>gi|158338671|ref|YP_001519848.1| glutaredoxin 3 [Acaryochloris marina MBIC11017] 3.34053e-30
+---------------------------M-------------------------------------------------TA-KVEIYTWAACPFCIQAKQLLDSKNIN-FTEYGI-DGD-EMARSEMAERA-FGRRSLPQIFI--ND-EHIGGCDDLYDLEGQGKLDPL----LQ-----------------------------------T
+>gi|77359334|ref|YP_338909.1| glutaredoxin [Pseudoalteromonas haloplanktis TAC125] 1.21753e-29
+---------------------------MS---------------------------------------------------NVVLYTKAYCPFCQRARALLDSKGVQ-YTNFDI-GVQ-PELRDEMIAKA-GGASTVPQIFI--ND-EHIGGCDDMMAIEAQGQLDKK----LNA-------------------------------TLNA
+>gi|83859692|ref|ZP_00953212.1| glutaredoxin 3 [Oceanicaulis alexandrii HTCC2633] 1.3684e-29
+---------------------------MA---------------------------------------------------AVTIYTRPMCPYCVRAVSLLKKKGVS-FDEIDA-GFD-VKKKKEMVDRA-NGARTFPQIFI--GD-THVGGCDEMMAMENAGKLDDL----LRN-------------------------------EGAL
+>gi|254516072|ref|ZP_05128132.1| glutaredoxin 3 [gamma proteobacterium NOR5-3] 6.67888e-29
+---------------------------MS-------------------------------------------------A-EVTLYSTRFCPYCVAAKRLLDAKGVK-YVDIPV-DGD-PQLRQEMSKRA--GQRTVPQIWI--GD-EHVGGYTDLAALEQRGLLDGL----LSAA-------------------------------PNS
+>gi|170746494|ref|YP_001752754.1| glutaredoxin 3 [Methylobacterium radiotolerans JCM 2831] 2.02487e-30
+---------------------------MQ---------------------------------------------------PVTIYTTAWCPYCSAAKSLLKEKGAA-FQEIDV-ERV-QGARTAMVERA-GGRTSVPQIFI--GA-THVGGCDDLYALDRAGKLDPL----LKDT-------------------------------ADA
+>gi|83592077|ref|YP_425829.1| glutaredoxin GrxC [Rhodospirillum rubrum ATCC 11170] 4.50963e-31
+---------------------------MV---------------------------------------------------AVEIFTTPSCPYCRRAKALLGDKGVA-YREIDV-SGD-PRLREEMTRRA-GGRSTVPQIFI--DG-RALGGCDDIHALDRLGKLDGL----LSG--------------------------------SAP
+>gi|15966371|ref|NP_386724.1| glutaredoxin 3 protein [Sinorhizobium meliloti 1021] 6.14245e-30
+MET------------------------M--------------------------------------------------A-SVVIYTRQFCGYCTRAKKLLESKGVD-FTEYDA-TYA-PELRQEMIEKS-RGGRTFPQIII--ND-VPVGGCDDLHALDRAGKLDDL----LA-----------------------------------A
+>gi|17986468|ref|NP_539102.1| glutaredoxin [Brucella melitensis 16M] 2.99715e-30
+MEF-----------------------LM--------------------------------------------------V-DVIIYTRPGCPYCARAKALLARKGAE-FNEIDA-SAT-PELRAEMQERS--GRNTFPQIFI--GS-VHVGGCDDLYALEDEGKLDSL----LKT-------------------------------GKLI
+>gi|33239656|ref|NP_874598.1| glutaredoxin [Prochlorococcus marinus subsp. marinus str. CCMP1375] 3.63227e-29
+---------------------------MA---------------------------------------------------KVEIYTWQYCPFCIRAKALLDLKKID-YDEYPI-DGN-QAEREKMSIRA-KGKTTVPQIFI--NN-QSVGGCDELYALEESNQLDNL----INQ---------------------------------NK
+>gi|209965932|ref|YP_002298847.1| glutaredoxin 3 [Rhodospirillum centenum SW] 2.23746e-31
+---------------------------MP---------------------------------------------------KVEIYTSPFCPYCVRAKRLLDAKGVA-YEEIDV-MEQ-PGRRAEMTRRA-EGRTTVPQVFV--DD-RGLGGCDDIHALDREGRLDPL----LGL---------------------------------AG
+>gi|254423240|ref|ZP_05036958.1| glutaredoxin 3 [Synechococcus sp. PCC 7335] 3.48385e-29
+---------------------------MQ-------------------------------------------------P-KIEIYTWSRCPFCIRAKSLLDRKGVE-YTEYCI-DGD-EEARSKMAERA--GRRSLPQIFV--DE-RHIGGCDDIHALERKGKLDSL----LK----------------------------------AA
+>gi|239993563|ref|ZP_04714087.1| glutaredoxin 3 GrxC [Alteromonas macleodii ATCC 27126] 1.22738e-30
+---------------------------MS---------------------------------------------------KVELYTKGHCPYCHRAKALLTQKGVE-FIEYPI-DVK-PELRDEMIERA-NGGWTVPQIFI--DD-QHVGGCDDMMALEAQSKLNPM----LG----------------------------------LA
+>gi|88858427|ref|ZP_01133069.1| glutaredoxin 3 GrxC [Pseudoalteromonas tunicata D2] 1.56292e-31
+---------------------------MA-------------------------------------------------A-TVVIYTKDYCPYCIRAKALLSSKGVP-FTEFDI-GKQ-PELRDEMVAKA-NGGYTVPQIFI--GD-QHIGGCDDMMALDSQGKLDTL----L------------------------------------K
+>gi|148243349|ref|YP_001228506.1| glutaredoxin [Synechococcus sp. RCC307] 2.18215e-31
+---------------------------MA-------------------------------------------------A-SVEIYTWRACPFCIRAKDLLSRKGVS-YTDHAI-DGD-EAARDQMATKT-GGRRSVPQVFI--NG-QHVGGCDDLYALERSGQLDGL----L------------------------------------A
+>gi|114800009|ref|YP_761844.1| glutaredoxin 3 [Hyphomonas neptunium ATCC 15444] 1.52429e-31
+---------------------------MA---------------------------------------------------KVTIYTRAFCPYCTRALQVLKDKGVE-LNEIDA-GMD-PALREEMVQRS-NGGRTFPQIFV--GE-THIGGCDDMLALDRSGKLDPM----LA----------------------------------SV
+>gi|114769744|ref|ZP_01447354.1| glutaredoxin [alpha proteobacterium HTCC2255] 4.98598e-30
+---------------------------M--------------------------------------------------N-KIEIYTGNFCGFCTAAKRLLNKKGAN-FSEINI-HDN-VEKRAEMIQRS-NGGRTVPQVFI--ND-THVGGCDDLYDLENMGHLDKL----LI-----------------------------------A
+>gi|254503834|ref|ZP_05115985.1| glutaredoxin 3 [Labrenzia alexandrii DFL-11] 8.42924e-32
+---------------------------M--------------------------------------------------S-DVTIYTRQLCGFCTAAKRLLEKKGVS-FTEHDA-TFD-PKLRQEMVQKA-NGRATFPQIFI--GS-KHVGGCDDLHDLERAGKLDQL----LA-----------------------------------S
+>gi|114778950|ref|ZP_01453741.1| Glutaredoxin [Mariprofundus ferrooxydans PV-1] 1.86224e-31
+---------------------------M--------------------------------------------------N-KVEVYSGDFCPYCVRAKSLLKKKGVD-FTEYNV-QKE-SDKRIEMLDRS-NGARTIPQIFI--ND-RHVGGCDELYALEKRGELDSW----LN-----------------------------------A
+>gi|258544984|ref|ZP_05705218.1| glutaredoxin 3 [Cardiobacterium hominis ATCC 15826] 4.07997e-31
+---------------------------M--------------------------------------------------Q-AVTMYYKPTCPYCQRAHQLLTAKGVA-YEGIDI-SRE-PERREEMIARA-NGRKTVPQIFI--GD-THVGGCDDLHALEAAGKLDAL----LA-----------------------------------G
+>gi|84514888|ref|ZP_01002251.1| glutaredoxin [Loktanella vestfoldensis SKA53] 1.11942e-31
+---------------------------M--------------------------------------------------Q-TIEIYTKPTCGFCHMAKRVLTAKGVS-FTEVNI-TAQ-PEKRAEMIQRA-KGGSTVPQIFI--GG-KHIGGCDDLMALDRQGKLDGL----L-----------------------------------SA
+>gi|254420112|ref|ZP_05033836.1| glutaredoxin 3 [Brevundimonas sp. BAL3] 2.53724e-29
+---------------------------M--------------------------------------------------A-DVVIYTKPGCPYCYSAMALLKKKGAD-YTEIVA-SND-PAKKAEMVEKS-GGRMTFPQIFI--AG-NHVGGSDDIHALDREGKLDPL----L-----------------------------------AA
+>gi|260576132|ref|ZP_05844125.1| glutaredoxin 3 [Rhodobacter sp. SW2] 4.3616e-31
+---------------------------M--------------------------------------------------K-TVEIYTTPTCPYCHAAKRLLASKGVA-FKEIDV-SRD-YALREAMIARA-HGSRTVPQIFI--GG-VHVGGSDDIHDLDDEGRLDPM----L-----------------------------------AG
+>gi|15891427|ref|NP_357099.1| glutaredoxin [Agrobacterium tumefaciens str. C58] 9.79805e-31
+MTLSCV---------LPHVC--EALNNM--------------------------------------------------A-PVTIYTRDFCGYCARAKALLDMKGVD-YAEYNA-TTT-PEYRQEMIEKS--GGTTFPQIFI--NG-QHVGGCDDLHALERAGKLDAM----LA-----------------------------------G
+>gi|159046047|ref|YP_001534841.1| glutaredoxin 3 [Dinoroseobacter shibae DFL 12] 9.64149e-29
+---------------------------MQ---------------------------------------------------PVEIYTSPLCGYCHAAKKLLSQKGVS-FAETDV-WRA-PQKKPEMIERA-GGRTSVPQIFI--GA-THVGGCDELYALERAGKLDAL----LA-----------------------------------G
+>gi|117924702|ref|YP_865319.1| glutaredoxin 3 [Magnetococcus sp. MC-1] 7.62614e-32
+---------------------------MA---------------------------------------------------DITIYSTTICPFCVRAKQLFKKKGVD-FTEINL-DKQ-PDRRDEMLAKS-GGRRTVPQIFI--GD-RHVGGCDDLYELELDGELDPL----LG-----------------------------------L
+>gi|114570813|ref|YP_757493.1| glutaredoxin 3 [Maricaulis maris MCS10] 9.24218e-31
+---------------------------MT---------------------------------------------------DITIYTRPMCGYCARAVSLLKQKGVA-FTEIDA-GFD-QAKRQEMIQRS-NGGRTFPQIFI--GD-MHVGGCDDLMALERGNKLDAL----LQ-----------------------------------A
+>gi|154252189|ref|YP_001413013.1| glutaredoxin 3 [Parvibaculum lavamentivorans DS-1] 1.14746e-32
+---------------------------MA---------------------------------------------------DVTIYTTMMCPYCHRAKGLLQKKGVS-FTEVDV-GMD-ADKRQEMMKRA-HGSHTVPQIFI--GD-KHVGGCDDLYALDHAGKLDPM----LA-----------------------------------A
+>gi|197104235|ref|YP_002129612.1| glutaredoxin 3 [Phenylobacterium zucineum HLK1] 2.66672e-30
+---------------------------M--------------------------------------------------A-KVTIYTKPYCPYCIRAISLLEQKGVD-FTEIEA-AFD-PEKKAEMVQRS--GRMTFPQIFI--GE-RHIGGCDDMIALEREGKLDPL----LQ----------------------------------AA
+>gi|158425920|ref|YP_001527212.1| glutaredoxin [Azorhizobium caulinodans ORS 571] 1.69942e-30
+---------------------------MK---------------------------------------------------SIVIYTKSWCSYCHAAKELLRRKGWT-FTEIDV-TTD-PAGQQEMSKKA-GGRTSVPQIFI--GD-THVGGCDDLYALEDAGRLDAL----M-----------------------------------AA
+>gi|262277535|ref|ZP_06055328.1| glutaredoxin 3 [alpha proteobacterium HIMB114] 4.78364e-29
+---------------------------MS---------------------------------------------------KVKIYTTPYCPFCIRAKRLLIGKNVD-FEEIDL-SEE-PEKFDEMSKKS-NGARTVPQIFV--DD-THIGDCDYIHELDNKGKLDKI----L-----------------------------------GI
+>gi|115375821|ref|ZP_01463073.1| glutaredoxin 3 [Stigmatella aurantiaca DW4/3-1] 1.24839e-29
+---------------------------MK---------------------------------------------------PVKIYTTTYCGFCVRAKDLLKRKGVN-YEELDV-TGN-DEMRARLVEMS-GGQRTVPQIFI--GD-THVGGYTDLAQLDRDGQLEPM----L-----------------------------------QG
+>gi|217979789|ref|YP_002363936.1| glutaredoxin 3 [Methylocella silvestris BL2] 1.25885e-29
+---------------------------MA---------------------------------------------------QITIYTTSTCPYCIRAKALLEKKKLE-FTEISV-DGD-PKLRSELAERT--GRSSVPQVFI--GE-SHVGGCDDLYELHYDGKLEQL----IAD--------------------------------HAQ
+>gi|254429091|ref|ZP_05042798.1| glutaredoxin 3 [Alcanivorax sp. DG881] 9.71664e-31
+---------------------------MA---------------------------------------------------KVELYTTAWCPFCVRAKQLLNSKNVA-FEDTDV-DRE-PQQRAVMMQRG--GARTVPQIFI--ND-HAIGGCDELFALERAGELDAL----LGA---------------------------------GQ
+>gi|146309258|ref|YP_001189723.1| glutaredoxin 3 [Pseudomonas mendocina ymp] 1.11942e-31
+---------------------------MA---------------------------------------------------DVVIYSSDWCPYCIRAKQLLASKGVD-YQEIRV-DGQ-PAVRAEMTRKA--GRTSVPQIWI--GS-THVGGCDDLYALERAGKLDAL----LQS---------------------------------PA
+>gi|255319395|ref|ZP_05360611.1| glutaredoxin 3 [Acinetobacter radioresistens SK82] 7.13992e-29
+---------------------------MA-------------------------------------------------A-EVTIYSTTFCPYCVRAKQLLERKGVA-YKEINL-SNEAPEVRVELMQRT--NHRTVPQIFI--KD-QFIGGFDQLYALEREGKLDSL----L------------------------------------A
+>gi|89094926|ref|ZP_01167857.1| glutaredoxin [Oceanospirillum sp. MED92] 8.86968e-29
+---------------------------MQ---------------------------------------------------DVTIYTTAWCPFCIRAKMLLDHKQIP-YSEIKV-DGD-PAKRQEMTKLS--GGHTVPQIFI--GE-TPIGGCDDMFALERQGKLDEM----LN----------------------------------AS
+>gi|254293168|ref|YP_003059191.1| glutaredoxin 3 [Hirschia baltica ATCC 49814] 3.09887e-30
+---------------------------MA---------------------------------------------------KVTIYTRMMCPYCTRAVSLLKKKGVD-FEEIDA-GMD-AAKKQEMIKRS-NGGATFPQIFI--GN-EHIGGCDDMMALESKGALDVM----L------------------------------------G
+>gi|222149921|ref|YP_002550878.1| glutaredoxin 3 [Agrobacterium vitis S4] 1.32348e-29
+---------------------------M--------------------------------------------------A-SVIIYTRKYCEYCARAKALLTTKGVA-FTEVDA-TGN-AALRQEMVDKS--GRNTFPQIFI--DN-THVGGCDDLHALERAGKLDPM----LA-----------------------------------A
+>gi|146284390|ref|YP_001174543.1| glutaredoxin [Pseudomonas stutzeri A1501] 6.89755e-33
+---------------------------M--------------------------------------------------P-NVVIYTTAWCPFCIRAKALLDRKGVA-YEEIPV-DGN-PTLRAEMASKA--GRTSVPQIWI--GD-KHVGGCDELHALERAGRLDPL----LQ-----------------------------------A
+>gi|270157810|ref|ZP_06186467.1| glutaredoxin 3 [Legionella longbeachae D-4968] 5.24346e-29
+---------------------------M--------------------------------------------------A-EIIMYSTGYCPYCTRARELFKQKNTS-FTDIRV-DLN-PELREEMITKS--GRHTVPQIFI--DG-QHIGGCDELYALDAQGKLDQL----LR-----------------------------------G
+>gi|159902738|ref|YP_001550082.1| glutaredoxin [Prochlorococcus marinus str. MIT 9211] 5.41827e-31
+---------------------------MA---------------------------------------------------QVEIYTWQFCPFCIRAKNLLNKKGVD-YKEYPI-DGD-PEGRLKMSERA-GGRTTVPQIFI--NE-KGIGGCDELYALEDSHQLDSL----L------------------------------------N
+>gi|114770919|ref|ZP_01448387.1| glutaredoxin 3 GrxC [alpha proteobacterium HTCC2255] 6.19392e-30
+---------------------------MA---------------------------------------------------TVELYTKAFCPFCKHAIALLKKKGVE-FSNIDI-QVH-PELRDTMIARA-NGASTVPQIFI--ND-QHIGGCDDLFALESAGKLDAL----L------------------------------------A
+>gi|254839155|pdb|2KLX|A Chain A, Solution Structure Of Glutaredoxin From Bartonella Henselae Str. Houston 2.51616e-29
+GPG-----------------------SM--------------------------------------------------K-EIILYTRPNCPYCKRARDLLDKKGVK-YTDIDA---S-TSLRQEMVQRA-NGRNTFPQIFI--GD-YHVGGCDDLYALENKGKLDSL----LQD---------------------------------VH
+>gi|163792771|ref|ZP_02186748.1| glutaredoxin [alpha proteobacterium BAL199] 1.94269e-29
+-----------------------------------------------------------------------------MAKKIEIYTTMFCPFCHRAKALLKNKGVA-FTEYDV-GGS-SDERARMRERA-DGRHTVPQIFI--DG-VGIGGSDELAALDRQGKLDPM----LG---------------------------------LTA
+>gi|83310705|ref|YP_420969.1| glutaredoxin-like protein [Magnetospirillum magneticum AMB-1] 1.77182e-30
+-----------------------------------------------------------------------------MA-EIEIYTTDVCPYCVKAKKLFAKKGVA-YTEINV-STD-DGLRQYMTNRA-GGRRSVPQIFI--DG-VHVGGCDDLYALDKDGKLDPM----LA---------------------------------GVQ
+>gi|258637614|ref|ZP_05730363.1| glutaredoxin 3 [Pantoea sp. At-9b] 6.29814e-30
+---------------------------MA---------------------------------------------------NVEIYTKATCPYCHRAKALLNQKGVT-FQELPI-DGD-AVKREEMIQRS--GRTTVPQIFI--DA-QHIGGCDDLFALDGRQGLDPL----LQ-----------------------------------A
+>gi|56694998|ref|YP_165344.1| glutaredoxin [Ruegeria pomeroyi DSS-3] 2.12697e-33
+-----------------------------------------------------------------------------MK-PVEIYTSPLCGYCHAAKRLLDQKGIA-FTEIDV-LTN-PKRKPEMIQRA-GGRRTVPQIFI--DG-QHVGGCDDLYALEQDGKLDPM----LA----------------------------------SR
+>gi|89052787|ref|YP_508238.1| glutaredoxin GrxC [Jannaschia sp. CCS1] 1.61644e-30
+-----------------------------------------------------------------------------MA-IVTLYTSPLCGFCHAAKRMLTDKGVS-YAEIDV-AAD-PSKRQEMMSRA-NGRHTVPQIFI--GD-AHVGGYDDMAALERTGKLDPM----LS----------------------------------AD
+>gi|283823111|ref|ZP_06349912.1| glutaredoxin 3 [Rhodomicrobium vannielii ATCC 17100] 1.3684e-29
+---------------------------MQ---------------------------------------------------PVTIYTTPSCPYCRRAKALLGRKGVA-FDEIDV-S-D-RAKRAAMSDLV-GGRTSVPQIFI--GS-RHIGGCDDLHALDAKGELDPL----LQ-----------------------------------S
+>gi|119475546|ref|ZP_01615899.1| glutaredoxin 3 [marine gamma proteobacterium HTCC2143] 2.23811e-30
+---------------------------MA---------------------------------------------------DVQIYTTRFCPFCIRAKQLLDKKNVP-YNEISV-DGR-PELRSEMNSRS--GRHTVPQIWI--GD-QHIGGNDELWALDRNGNLDDL----LG-----------------------------------A
+>gi|103487274|ref|YP_616835.1| glutaredoxin GrxC [Sphingopyxis alaskensis RB2256] 1.5125e-29
+-----------------------------------------------------------------------------MA-RIEVYTKAFCPYCTRAKRLLDGKGAD-FSEIDV-TMD-RAGFDAMVARA-GGRRTVPQVFI--DD-RHVGGSDELAALDAKGELDAL----IG----------------------------------RA
+>gi|87120398|ref|ZP_01076293.1| Glutaredoxin [Marinomonas sp. MED121] 6.04255e-29
+---------------------------MS---------------------------------------------------QVTIYSSDYCPFCIRAKQLLTMKQVE-FNEINV-DGQ-SALRREMTEKS--GRTSVPQIWI--QE-HHVGGCDELFALERSGKLDAL----LS-----------------------------------Q
+>gi|241774046|ref|ZP_04771386.1| glutaredoxin 3 [Asticcacaulis excentricus CB 48] 9.09186e-30
+---------------------------MP---------------------------------------------------NIEIYTKPYCPYCERAKALLDSKGAP-YQEIVA-SND-PELRKEMNERS--GRATYPQIFI--DG-LHVGGCDDLVSLDSRGGLDPL----L-----------------------------------AS
+>gi|126730066|ref|ZP_01745878.1| Glutaredoxin, GrxC [Sagittula stellata E-37] 3.87962e-32
+-----------------------------------------------------------------------------MQ-NVEIYSSPLCGYCHAAKRLLTSKGVA-FHEINV-LEE-PARRSEMMDRA-HGRHTVPQIFV--GD-THVGGYDDLAALEREGKLDPL----LA-----------------------------------G
+>gi|114762235|ref|ZP_01441703.1| glutaredoxin [Roseovarius sp. HTCC2601] 1.05591e-31
+-----------------------------------------------------------------------------MP-AIEIYTTPICGFCHAAKRLLTQKNAE-FTEIDV-MQE-PKRRSEMTQRA-NGGRTVPQIFI--GE-THVGGCDELYALERAGKLDAL----LA-----------------------------------G
+>gi|126724617|ref|ZP_01740460.1| Glutaredoxin, GrxC [Rhodobacterales bacterium HTCC2150] 1.13825e-31
+-----------------------------------------------------------------------------MQ-QVEIYTTQLCGFCHRAKGLLKSKGVS-FTEYDV-SRD-AAKRQEMMQRA-KGGRTVPQIFI--GG-KHVGGSDELAALERGGKLDKI----L-----------------------------------KG
+>gi|94496925|ref|ZP_01303499.1| Glutaredoxin, GrxC [Sphingomonas sp. SKA58] 8.08481e-32
+-----------------------------------------------------------------------------MA-KVEIYTKAWCGYCARAKALLGDKGVA-FDEYDI-SMG-GPTRDEMLKRA-PGQTTVPQIFI--DG-QHIGGSDDLAALNRAGKLDAM----L-----------------------------------GQ
+>gi|29654811|ref|NP_820503.1| glutaredoxin [Coxiella burnetii RSA 493] 3.57112e-30
+-----------------------------------------------------------------------------MA-KIEIYTTARCPYCVRAKALLDRKGLD-YMEIRI-DEA-PEKRDEMLSRS-EGRRTVPQIFI--NG-RGIGGFDELWELEQSKKLDEL----L-----------------------------------KT
+>Glutaredoxin__Geobacter_sulfurreducens_PCA Glutaredoxin, NP_954204.1, [Se user]; [Geobacter sulfurreducens PCA (Bacteria/Proteobacteria/delta)]
+---------------------------MLVLAATVA----LTPALLHSAP-------DKP-------GRT---AESRNP-SVVIFVGEGUPYCDEVERFFTEKGIP-YTCRDI-RRD-RAAFREWRERY-GG-EIVPMVVLDGGK-KVIDGCD-IPAIERALADIRS---------------------------------------SRP
+>gi|33860739|ref|NP_892300.1| glutaredoxin [Prochlorococcus marinus subsp. pastoris str. CCMP1986] 5.93911e-31
+-----------------------------------------------------------------------------MS-KVEIYTWRFCPFCIRAKSLLEKKNIT-FTEHKI-DGD-DNARELMMERA-NGKRTVPQIFI--DD-KSIGGCDELYELEKEDKLDLL----L------------------------------------N
+>gi|58617580|ref|YP_196779.1| glutaredoxin [Ehrlichia ruminantium str. Gardel] 7.2005e-50
+---------------------------MTFIK-----------------FLY--LLSSITMISTNTWLNI---IGYAVT-KVIIYTKDFCSYCTKAKALFNRKNIP-FEEINI-TGN-STLKDEMIQKS-NGMKTLPQIFI--ND-VHIGGCDDLYRLYESGQLK-------------------------------------------L
+>gi|224826223|ref|ZP_03699325.1| glutaredoxin 3 [Lutiella nitroferrum 2002] 5.94255e-29
+-----------------------------------------------------------------------------MK-PVTMYTTAVCPYCIRAKQLLARKGVAGITEIRV-DLE-PAEREKMMSRT--GRRTVPQIYI--GD-SHVGGFDDLAALEHAGKLDVL----LA-----------------------------------D
+>gi|84500736|ref|ZP_00998985.1| glutaredoxin [Oceanicola batsensis HTCC2597] 2.43286e-30
+-----------------------------------------------------------------------------MK-PVEIYTTPICGFCSAAKRLLDGKGVD-YREIDV-MRD-REKKQEMMQRA--GRHTVPQIFI--DG-QHVGGCDELYELERAGKLDPM----LT-----------------------------------A
+>gi|56551649|ref|YP_162488.1| glutaredoxin 3 [Zymomonas mobilis subsp. mobilis ZM4] 5.33015e-30
+-----------------------------------------------------------------------------MA-HIEIYTTRVCPYCKRAKALFAEKGVS-FDEYDV-TDD-SAKRTEMIKRS--GGRTVPQIFI--DD-KHIGGCDDLVKLNSEGKLDPL----L-----------------------------------AK
+>gi|73667467|ref|YP_303483.1| glutaredoxin [Ehrlichia canis str. Jake] 2.53503e-32
+---------------------------M--------------------------------------------------T-KVIIYTKDPCPYCTKAKALFNKKNIL-FKEIDV-TNN-STLLEEMIQKS-NGMRTLPQIFI--ND-QHIGGCDDLYRLYESGKLE-------------------------------------------L
+>gi|56417123|ref|YP_154197.1| glutaredoxin 3 [Anaplasma marginale str. St. Maries] 6.61955e-31
+---------------------------M--------------------------------------------------R-EVLIYTKVPCPYCTRAKALFNKKNVP-FKEIDI-TDN-PEAMREMVERS--GRRTVPQIFI--DG-KSIGGCDDLYALYESGELE-------------------------------------------L
+>Glutaredoxin__Pelotomaculum_thermopropionicum_SI Glutaredoxin, YP_001211623.1, [Se user]; [Pelotomaculum thermopropionicum SI (Bacteria/Firmicutes/Clostridia)]
+---------------------------MSRRAA-----------------YFFLLLQTIR-------EKR---RAD-MERNITVYTTPTUPHCSHVKEFLSQKGIS-YRELNV-AED-EKAREEMLKKT--GRLAVPTITV--GN-KVVVGFNR-------SELEKL----------------------------------------LS
+>Glutaredoxin__Alkaliphilus_metalliredigens_QYMF_0 Glutaredoxin, YP_001320897.1, [Se user]; [Alkaliphilus metalliredigens QYMF (Bacteria/Firmicutes/Clostridia)]
+---------------------------MK---------------------------------------------------KVIVFTSKTUPHCRTAKEFLLSRGIM-FEEKDV-NED-PMAGAEFSRR---KLQGVPAFLI--GD-EVVVGLDK-------QRIEALLDYIVSNCEKCNVRMRIPKNKGRIRVTCPHC---SSQFIKST
+>Glutaredoxin__Moorella_thermoacetica_ATCC_39073 Glutaredoxin, YP_430628.1, [Se user]; [Moorella thermoacetica ATCC 39073 (Bacteria/Firmicutes/Clostridia)]
+---------------------------MP-------------------------------------------------EDNVIVYTTPTUPSCATVKEYLSRHGVD-YEEKDI-TTD-EQAREEMYRRT--GQTAVPTLVV--NG-QVMVGFDE-------TRLQKI----------------------------------------LH
+>Glutaredoxin__Pelotomaculum_thermopropionicum_SI_0 Glutaredoxin, YP_001212939.1, [Se user]; [Pelotomaculum thermopropionicum SI (Bacteria/Firmicutes/Clostridia)]
+---------------------------M--------------------------------------------------HDNVTVYTTLTUPHCSHVKEFLSQKGIH-YKEFNV-ADD-ERARDEMVRKT--GRLAVPTITV--GN-QVVVGFNR-------NELEKL----------------------------------------LS
+>Glutaredoxin__Alkaliphilus_oremlandii_OhILAs Glutaredoxin, YP_001513661.1, [Se user]; [Alkaliphilus oremlandii OhILAs (Bacteria/Firmicutes/Clostridia)]
+---------------------------MA--------------------------------------------------KEVIVYTSNTUPHCFTVKEFLSENNVE-FTEKNI-QTD-AAARKELMKK---GIMAVPVIQI--DE-EVVVGFDR-------DKIEEL----------------------------------------LG
+>Glutaredoxin__Alkaliphilus_metalliredigens_QYMF Glutaredoxin, YP_001319052.1, [Se user]; [Alkaliphilus metalliredigens QYMF (Bacteria/Firmicutes/Clostridia)]
+---------------------------MA--------------------------------------------------KEIIVYTSNTUPHCHTAKEFLSEKGVE-FTEKNV-QED-PSARKELMKH---KIMAVPVIQI--DG-EMIVGFDP-------DKIEG-----------------------------------------ML
+>Distant_Candidatus_Desulfococcus_oleovorans_Hxd3 Distant Glutaredoxin homolog, YP_001530714.1, [Se user]; [Candidatus Desulfococcus oleovorans Hxd3 (Bacteria/Proteobacteria/delta)]
+---------------------------MD-------------------------------------------------R-TVIIYGKHTUPFTRLAREAYAASGRT-VDYRDVAQGS-PDTLDAMLTLS-GGNRKIPVIV-D-EG-RVIIGFQ-----------------------------------------------------GRG
+>Distant_Anaeromyxobacter_sp._Fw109-5 Distant Glutaredoxin homolog, YP_001379442.1, [Se user]; [Anaeromyxobacter sp. Fw109-5 (Bacteria/Proteobacteria/delta)]
+---------------------------MS-------------------------------------------------R-GVEIYGKHGUPYTNAAREDLGARGVE-FTYHDV-KAD-PAAMKRFLALS-GGERRVPLVV-D-DQGRVSIGF------------------------------------------------------GGS

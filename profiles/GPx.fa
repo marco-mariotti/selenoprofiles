@@ -1,0 +1,552 @@
+>gi|21739125|emb|CAD38523.1| secreted glutathione peroxidase [Globodera rostochiensis]
+MISFLLI-------PFLL--FGV----------TFSVEKFK-------------------------------
+------------PKAQPKQDKYQPGPKLIDETTRWSKCKSDQNRTIYDFE--VDTL-DG----------NFT
+N-----------------------------LEKFKGQVLLVINVATFC-AYT-QQYIDFNPLIEKN---IAN
+----------GNQFSILAFPCNQFYLQEPAENH-EIMNGITYVRPGNGWKPHPRLNIY-GKLEVNGANQHPL
+YEFLKDSCPQTVP-----Q--------IGK-REELMYNPIRVNDITWNFEKFLIDSEGRPRFRFHPTAWSHG
+EV---VQKFTDQLVSE-----------------------------------------------QV-KE----
+-----VQGEVKKS
+>gi|148700720|gb|EDL32667.1| glutathione peroxidase 6, isoform CRA_c [Mus musculus]
+MAQKLWG-------SCLF--SLF----------MA-AL-A--------------------------------
+-----------QETLN-------------PQKSKVDCN-KGVTGTVYEYG--ANTI-DG---------GGFV
+N-----------------------------FQQYAGKHILFVNVASFC-GLT-ATYPELNTLQEEL---KP-
+-----------FNVTVLGFPCNQFGKQEPGKN-SEILLGLKYVRPGGGYVP--NFQLF-EKGDVNGDNEQKV
+FSFLKNSCPPTSE-----L--------FGS-PEHLFWDPMKIHDIRWNFEKFLVGPDGVPVMRWFHHTPV--
+RI---VQSDIMEYLNQTS------------------------------------------------TQ----
+-SWHLATDVLHTK
+>gi|145559053|gb|ABP73388.1| selenium-dependent glutathione peroxidase [Dreissena polymorpha]
+MRGDGVL-------SALV--SLA----------AIVGSTVG-------------------------------
+-----------SEADN-------------AIPPRQACRPPLGNQTIFDFS--IRNV-YD---------NATI
+D-----------------------------MSQFRGKLTLVVNVATYU-GLV-VQYHGLNALQTQH---GA-
+-----------DGFQVLGVPCNQFHYQEPAWNGVELTNGLKHMRPGGGFVP--NFPLT-LTTKVNGQDEHPM
+YKYLKSLCKSVYK-----K--------LY---HPILYDPVYTEDVKWNYEKFLIGPDGIPIYRYAQTVDP--
+ATDAQFLADVKEELAKLK------------------------------------------------GHTHGP
+SS-APSAHVPVVG
+>gi|221131943|ref|XP_002164274.1| PREDICTED: similar to Glutathione peroxidase 1 [Hydra magnipapillata]
+MADLISI-------SRTF--DYH----------V-I------------------------------------
+---------------------------------------AISETWFQNDS--VPNI-DGYSL----YRKDRQ
+DGRRGGGVAIYITDVFNSHEVNQFYTNLLEQVWWSNDGIESFNPNNPT-EYT-GQYRRMNELQEKY---GPL
+YAKTYHPHKPNCHIQFIGFPCNQFGHQEPAEN-FELMNTLKYVRPGYGFVP--NFPLS-GKLHVNGAYEHPI
+FTFLKNRCESPMG-----L--------IAN-RSDITWTPIRNNDISWNFQKWLISSDGHPYKRYTSRTTP--
+AM---IENDIKMLIDQCVQGNNQVSRTNQDTVLPGPLPQPQAQIPAGSPGPIPEPESNKFQKRYVHD-----
+---------GLSY
+>gi|50978980|ref|NP_001003213.1| glutathione peroxidase 5 [Canis lupus familiaris] gi|6016163|sp|O46607.1|GPX5_CANFA RecName: Full=Epididymal secretory glutathione peroxidase_ AltName: Full=Epididymis-specific glutathione peroxidase-like protein_ Short=EG
+MTAWLGA-------SYVL--PIL----------LV-SF-V--------------------------------
+-----------QTNAK-------------PEKTKMDCY-KDVKGTIYEYE--ALTL-NG---------NERI
+Q-----------------------------FKQYPRKHVLFVNVATYC-GLT-AQYPELNSLQEEL---KP-
+-----------LGLVVLGFPCNQFGKQGPGEN-SEILPGLKYVRPGRGYVP--NFQLF-EKGDVNGEKEQKV
+FTFLKLSCPHPSE-----V--------LGS-FRHISWDPVKVHDIRWNFEKFLVGPDGVPVLRWFHRTPI--
+ST---VKEDILVYLKQ--------------------------------------------------------
+---------LKMK
+>gi|121671|sp|P21765.2|GPX5_MOUSE RecName: Full=Epididymal secretory glutathione peroxidase_ AltName: Full=Epididymis-specific glutathione peroxidase-like protein_ Short=EGLP_ AltName: Full=Major androgen-regulated protein_ AltName: Full=arMEP24_ Flags: P
+MVTELRV-------FYLV--PLL----------LA-SY-V--------------------------------
+-----------QTTPR-------------PEKMKMDCY-KDVKGTIYDYE--ALSL-NG---------KEDI
+P-----------------------------FKQYRGKHVLFVNVATYC-GLT-IQYPELNALQEDL---KP-
+-----------FGLVILGFPCNQFGKQEPGDN-LEILPGLKYVRPGKGFLP--NFQLF-AKGDVNGENEQKI
+FTFLKRSCPHPSE-----T--------VVM-SKHTSWEPIKVHDIRWNFEKFLVGPDGVPVMRWFHQAPV--
+ST---VKSDIMAYLSH--------------------------------------------------------
+---------FKTI
+>gi|212549567|ref|NP_001131079.1| glutathione peroxidase 6 [Sus scrofa]
+MTPQFWA-------SCLF--SLC----------LV-GF-A--------------------------------
+-----------QLIPK-------------EQKMKMDCY-KGVTGTIYEYG--ALTL-NG---------EEYI
+P-----------------------------FKQYAGKHVLFVNVATYU-GLT-AQYPELNALQEEL---KP-
+-----------FGVVVLGFPCNQFGKQEPAKN-SEILLGLKYVRPGGGFVP--NFQLF-EKGDVNGEKEQKV
+FTFLKNSCPPTSD-----L--------LGS-SNQLFWEPMKVHDIRWNFEKFLVGPDGVPVMRWYHRASV--
+ST---VKSDIMEYLKQ--------------------------------------------------------
+---------FKSE
+>gi|212276144|ref|NP_001131027.1| glutathione peroxidase 3 (plasma) [Danio rerio]
+MGTQSNP-------WTSV--VLL----------LA--L-M--------------------------------
+-----------HKI-A-------------ALSNTQACN-SAAGDSFHNYG--AKTI-NG---------TQFI
+P-----------------------------FSHYAGKHVLVVNVATYU-GLT-FQYVELNALHEEL---RH-
+-----------LGFTILGFPCDQFGKQEPGEN-NEILSALKYVRPGNGFVP--NFQLF-EKGDVNGDGEQAL
+FTFLKNACPPVGE-----S--------FGATSNRLFWEPLKVNDIKWNFEKFLLDPDGRPVMRWFPRVNV--
+SE---VRADILKYFHQ--------------------------------------------------------
+-------LLQTAQ
+>gi|111572533|gb|ABH10623.1| selenium-dependent glutathione peroxidase [Unio tumidus]
+MAWEPSQ-------AALA---LV----------AFCGV-L--------------------------------
+-----------YFAAG--------------EEGRTKCT-NTKNHTVHDFS--FLNV-YG---------NETI
+D-----------------------------LRYYRGEVLLVVNVATYU-GLT-VQYHGSNALQGKY---RN-
+-----------DSFRVLGVPCSQFHFQEPAFTSEELMNGLKYARPGHGFVP--NFNLT-QKTEINGHKEHPL
+YTYIKSECPPARD-----R--------FV---QPILYEPIYTSDVRWNFEKFLIGRDGHPVYRYASTIDP--
+RTSQMLDADIAVEIKKTL------------------------------------------------HG----
+---HGKDIVDIVG
+>gi|19744909|ref|NP_044017.2| MC066L [Molluscum contagiosum virus] gi|190359353|sp|Q98234.2|GPX_MCV1 RecName: Full=Glutathione peroxidase_ AltName: Full=GSHPx_ Short=GPx gi|19718374|gb|AAC55194.2| MC066L [Molluscum contagiosum virus subtype 1]
+MADGSGA-------RFPRFSELC----------A-K---Y--------------------------------
+---------------------------------AAQLA-AAETRSVYAFS--ARPI-TG---------GEPV
+S-----------------------------LGFLRGRVLLIENVASLUGSTV-REYTQMNELQRRL---GA-
+-----------RGLVVLGFPCNQFGHQENAQN-AEILPSLKHVRPGNGFEP--NFMLF-EKCEVNGARAHPL
+FAFLREALPAPSDD-MSTL--------VSD-PQLIAWSPVCRNDVAWNFEKFLVGADGTPVRRYSHRCQT--
+LA---VEPDIEALLPPPA------------------------------------------------R-----
+---------GYYA
+>gi|47523090|ref|NP_999051.1| glutathione peroxidase 5 [Sus scrofa] gi|6016165|sp|O18994.1|GPX5_PIG RecName: Full=Epididymal secretory glutathione peroxidase_ AltName: Full=Epididymis-specific glutathione peroxidase-like protein_ Short=EGLP_ Flags: Precur
+MTVQLGA-------FYLF--PLF----------MA-GF-V--------------------------------
+-----------QT--N-------------SNLEKMDCY-KDVTGTIYDYD--AFTL-NG---------NEHI
+Q-----------------------------FKQYAGKHVLFVNVATYC-GLT-AQYPELNTLQEEL---KP-
+-----------FGLVVLGFPCNQFGKQEPGEN-SEILLGLKYVRPGGGYVP--NFQLF-EKGDVNGEKEQKV
+FTFLKHSCPHPSE-----L--------IGS-IGYISWEPIRVHDIRWNFEKFLVGPDGVPVMRWVHETPI--
+ST---VKSDILAYLKQ--------------------------------------------------------
+---------FKTE
+>gi|116667974|pdb|2I3Y|A Chain A, Crystal Structure Of Human Glutathione Peroxidase 5
+MHHHHHH-------SSGV--DLG----------TE-N-----------------------------------
+------------L--Y-------------FQSMKMDCH-KDEKGTIYDYE--AIAL-NK---------NEYV
+S-----------------------------FKQYVGKHILFVNVATYC-GLT-AQYPELNALQEEL---KP-
+-----------YGLVVLGFPCNQFGKQEPGDN-KEILPGLKYVRPGGGFVP--SFQLF-EKGDVNGEKEQKV
+FSFLKHSCPHPSE-----I--------LGT-FKSISWDPVKVHDIRWNFEKFLVGPDGIPVMRWSHRATV--
+SS---VKTDILAYLKQ--------------------------------------------------------
+----------FKT
+>gi|152002384|gb|ABS19600.1| selenium-dependent glutathione peroxidase [Crassostrea gigas]
+MGIGGRVLWIEADMSPLV--VSL----------LL-LPFLS-------------------------------
+------------STH--------------CGRFYSLCDKKPKDQSFYNLQ--TVDL-DG----------SNR
+T-----------------------------LHHFAGNVTLVVNVATYU-GFT-YQYHQLNAYVGE-------
+----------GSHLRVMGFPCNQFGHQEPADNATELFNGLKYVRPGSDFVP--TFDIM-GIGDVNGEKESFV
+YTYLKERCRLPDE-----A--------KFN-PHESFWKTFKIRDVVWNFEKFLVDSNGVPVLRFLSTVEP--
+MD---ILKISKLLLNDP-S-------------------------------------CNSCLETEL-QI----
+-----LESKYPKK
+>gi|544436|sp|P35666.1|GPXC_WUCBA RecName: Full=Cuticular glutathione peroxidase_ AltName: Full=Cuticular glycoprotein gp29_ AltName: Full=Major surface antigen gp29_ AltName: Full=gp30_ Flags: Precursor gi|10870|emb|CAA48880.1| glutathione peroxidase [Wu
+MSAQLLI-------LSHV--VLL----------QLIVAQLG-------------------------------
+------------PKIG-------------KQFLKPKQ-CEITNQTVYDFH--AQML-NG----------AQR
+S-----------------------------LTEYRNKVLLIVNVATYC-AYT-MQYRDFNPILGSN---SNG
+------------TLNILGFPCNQFYLQEPAENH-ELLNGLKYVRPGHGWEPHKNMHIF-GKLEVNGENDHPL
+YKFLKERCPPTVP-----V--------IGK-RHQLIYDPIGTNDVIWNFEKFLVDKKGRPRYRFHPENWVQG
+TA---VKPYIDEL-----------------------------------------------------------
+---------EREI
+>gi|1708061|sp|P52033.1|GPXC_DIRIM RecName: Full=Glutathione peroxidase_ AltName: Full=Di29_ Flags: Precursor gi|452449|gb|AAA16224.1| glutathione lipid hydroperoxidase gi|2149475|gb|AAB58573.1| glutathione peroxidase [Dirofilaria immitis] gi|2149547|gb|A
+MFIQLLI-------LSYA--ILL----------QLIATQVA-------------------------------
+------------DK---------------QLPNLTKQ-CEPTSQTIYDFH--VPTL-DG----------SEK
+S-----------------------------LAEYRGKVLLLVNVATYC-AYT-FQYNDFNPMLENN---SNG
+------------TLKILAFPCNQFLLQEPAENH-ELLNGLKYVRPGNGWEPHGNMHIF-GKVEVNGDDHHPL
+YKFLKEHCPQTVP-----I--------IGD-RHQLMYNPIGTNDIIWNFEKFLIDKKGHPRYRFHPSAWVQG
+SV---IAPFIDEL-----------------------------------------------------------
+---------EREI
+>gi|9247190|gb|AAB95647.2| glutathione peroxidase [Rattus norvegicus]
+MSAAR-------------------------------------------------------------------
+------------------------------------LS-AVAQSTVYAFS--ARPL-AR---------EEPV
+S-----------------------------LGSLRGKVLLIENVASLUGTTT-RDYTEMNDLQKRL---GP-
+-----------RGLVVLGFPCNQFGHQENGKN-EEILNSLKYVRPGGGFEP--NFTLF-EKCEVNGEKAHPL
+FTFLRNALPAPSDD-PTAL--------MTD-PKYIIWSPVSRNDISWNFEKFLVGPDGVPVRRYTRRFRT--
+ID---IEPDIEALLSKQ-------------------------------------------------------
+---------SSNP
+>gi|190359363|sp|Q0EF99.2|GPX1_CALJA RecName: Full=Glutathione peroxidase 1_ AltName: Full=GSHPx-1_ Short=GPx-1_ AltName: Full=Cellular glutathione peroxidase gi|190359364|sp|Q4AEI1.2|GPX1_CEBAP RecName: Full=Glutathione peroxidase 1_ AltName: Full=GSHPx-
+MCAAG-------------------------------------------------------------------
+------------------------------------LA-AAAAQSVYAFS--ARQL-AG---------GEPV
+S-----------------------------LGSLRCKGLLIENVASLUGTTV-RDYTQMNEPQRRL---GP-
+-----------RGLVVLGFPCNHSGHQENAKN-EEILNSLKYVRPGGGFEP--NFMLF-EKGEVNGAGAHTL
+FAFLREALPAPSDD-ATAL--------MID-PKLITWSPVCRNDVAWNFEKFLVGPDGVPLRRYSRRFQT--
+ID---IEPDIEALLSQG-------------------------------------------------------
+---------PSCA
+>gi|47499102|gb|AAT28332.1| glutathione peroxidase [Haemonchus contortus]
+MVDETTR-----------------------------------------------------------------
+----------------------------------WSQ-CKDVNQSIYDFQ--METL-QG----------QFT
+D-----------------------------LSQYKGQVLLIINVATFC-AYT-QQYTDFNPLIEKN---VNG
+------------GFTILAFPCNQFYLQEPAENH-ELMNGIMYVRPGNGWKPHQNLHIY-GKIDVNGENHHPL
+YEFLKESCPQTVE-----K--------IGK-TDELMYNPVRANDITWNFEKFLIDRQGRPRFRFHPTAWSHG
+DV---VQPFIEQLLNE-----------------------------------------------D--------
+-----PDSNALSP
+>gi|211971089|ref|NP_001130041.1| glutathione peroxidase 1 [Taeniopygia guttata]
+MAAAG-------------------------------------------------------------------
+------------------------------------AG-A-GAARLAELS--AKPL-GA---------AKPL
+S-----------------------------LGSLRGKVLLVVNVASLUGTTT-RDFLQLNELQQRY---GP-
+-----------RGLQVLGFPCNQFGHQENGTN-DEILPMLEHVRPGNGYKP--NFTMF-EKCEVNGKDAHPL
+FTFLKEALPFPHDD-PSSL--------MTN-PQYIIWSPVCRNDIAWNFEKFLIGPDGVPFKRYSRRFET--
+IK---IQDDIELLLQ---------------------------------------------------------
+----------KVA
+>gi|221307511|ref|NP_001015740.2| glutathione peroxidase 1 [Xenopus (Silurana) tropicalis]
+MRLA--------------------------------------------------------------------
+----------------------------------------MVSRTVYEFS--ARLL-SA---------GENT
+A-----------------------------LSQYKGRVLLIENVASLUGTTI-RDYTQMSRLQSMY---GP-
+-----------RGLQVLAFPCNQFGHQENSGN-QEILNILKHVRPGGGFEP--NFPLF-EKVDVNGEKEHPL
+FTFLKGQLPYPSDD-SISL--------MQD-PKSIIWSPVRRNDIAWNFEKFLIARNGVPYKRYGRRFET--
+FN---IQQDIEKLLDE--------------------------------------------------------
+----------TCE
+>gi|169636422|ref|NP_001004634.2| glutathione peroxidase 1b [Danio rerio]
+MAG---------------------------------------------------------------------
+------------------------------------------IKSFYDIT--AKTL-TG----------EEF
+K-----------------------------FSSLQGKVVLIENVASLUGTTS-RDYTQMNELHERF---AE-
+-----------KGLVVLGVPCNQFGYQENCTN-EEILLSLKYVRPGNGYEP--KFQLL-EKVDVNGKNAHPL
+FTFLKEKLPFPSDE-PMPF--------MSD-PKFIIWSPVCRNDIAWNFEKFLIGSDGVPFKRYSRRFLT--
+SG---IDGDIKKLLS---------------------------------------------------------
+----------IPK
+>gi|172046601|sp|Q9JHC0.3|GPX2_MOUSE RecName: Full=Glutathione peroxidase 2_ AltName: Full=GSHPx-2_ Short=GPx-2_ AltName: Full=Glutathione peroxidase-gastrointestinal_ AltName: Full=GSHPx-GI gi|5305216|gb|AAD41533.1|U62658_1 glutathione peroxidase [Mus mu
+MAYI--------------------------------------------------------------------
+------------------------------------------AKSFYDLS--AIGL-DG----------EKI
+D-----------------------------FNTFRGRAVLIENVASLUGTTT-RDYNQLNELQCRF----P-
+-----------RRLVVLGFPCNQFGHQENCQN-EEILNSLKYVRPGGGYQP--TFSLT-QKCDVNGQNEHPV
+FAYLKDKLPYPYDD-PFSL--------MTD-PKLIIWSPVRRSDVSWNFEKFLIGPEGEPFRRYSRSFQT--
+IN---IEPDIKRLLK---------------------------------------------------------
+----------VAI
+>gi|133779723|gb|ABO38817.1| glutathione peroxidase [Thunnus maccoyii]
+MA----------------------------------------------------------------------
+-------------------------------------------KKIYDFE--AKLL-TG----------ETF
+N-----------------------------FSTLQGKVVLIVNVASLUGTTT-RDYTQMNELHERY---AG-
+-----------KGLVILGVPCNQFGHQENCKN-EEILLSLKYVRPGNGFEP--KFQLL-EKVDVNGKNTHPL
+FAFLKQSLPSPSDE-PHTF--------LND-PTLIIWSPVCRNDVAWNFEKFLIGSDGVPFKRYSRRFLT--
+SD---IDGDIQKLLN---------------------------------------------------------
+----------QAN
+>gi|72163529|ref|XP_792563.1| PREDICTED: similar to Glutathione peroxidase 1 (GSHPx-1) (GPx-1) (Cellular glutathione peroxidase) [Strongylocentrotus purpuratus] gi|115940262|ref|XP_001195243.1| PREDICTED: similar to Glutathione peroxidase 1 (GSHPx-1) (GPx
+MLDAV-------------------------------------------------------------------
+---------------------------------------------CYDDAESLSDVAMT----------KSL
+S-----------------------------LDDYRGKVVLVVNTASFC-TYT-YQYPYFNELKNEF---GD-
+------------QLAILGFPCNQFWLQEPGVGQ-EIPNTLRYVRPGGGYEP--NFYLNEEKIDVNGPKAHPL
+FKKLKNSCPPVKM-----E--------IGD-PSNLYWSPMTIGDVTWNFNKFLLDKEGVPFKRYDSVVEP--
+LQ---LVSDIQLVVDG-----------------------------------------------DY-KTVKRP
+SR---PKYATEEL
+>gi|222875570|gb|ACM68948.1| selenium-dependent glutathione peroxidase [Macrobrachium rosenbergii]
+MSA---------------------------------------------------------------------
+------------------------------------------IKSFYELS--AKAL-SG----------ETV
+S-----------------------------FSKYKGKVILVENTAALUGTTT-RDFVQMNELKEKF---G--
+-----------DALAVLAFPCNQFGHQENNTD-EELLNTLKYVRPGNNFVP--KMEVF-GKVTVNGSEAHPI
+FKYLKERLPLPSDD-SVSF--------MND-PQCIIWKPVCRTDIAWNFEKFLIGKDGQPFKRYSKKYET--
+KN---IEEDINALL----------------------------------------------------------
+------------K
+>gi|146395067|gb|ABQ24217.1| selenium-dependent glutathione peroxidase [Corbicula fluminea]
+MKRGVAF-------GPLF--SLV----------VAV---VG-------------------------------
+-----------RSGLD--------------TPPRSSCDPSLRNETLFDYR--IRNV-YG---------NETI
+D-----------------------------LSSFRGKVTLITNVATYU-GRV-WHYHALNALQTAY---GA-
+-----------DGFQNLGVPCNLFHGQEQAHDGRELMDGLKYIRPGGGFVP--NFPLT-EKVDVNGDKQHPV
+YEYLKSVCPVPVFP----R--------IV---EPILYSPIYTEDVRWNYEKFLIGPDGRPIYRYSHTIDP--
+SSDK---Q----------------------------------------------------------------
+-----------FL
+>gi|194442588|ref|YP_002040598.1| peroxiredoxin Hyr1 [Salmonella enterica subsp. enterica serovar Newport str. SL254] gi|194401251|gb|ACF61473.1| peroxiredoxin Hyr1 [Salmonella enterica subsp. enterica serovar Newport str. SL254]
+MQN---------------------------------------------------------------------
+--------------------------------------------SLLNTH--VTTI-DG----------EVT
+T-----------------------------LEKYAGKVLLIVNVASRC-GLT-PQYEQLENIQKAW---AD-
+-----------QGFVVLGFPCNQFMGQEPGSE-EQIKTYCA-----STWGV--TFPMF-SKIDVNGDARHPL
+YQKLIAAAPTAVASEKSGF--------YE-RMVSKGRTPLYPDDILWNFEKFLVGRDGQVVQRFSPDMTP--
+EDPI-VMESIKIAL----------------------------------------------------------
+-----------AK
+>gi|197312911|gb|ACH63236.1| glutathione peroxidase [Rheum australe]
+MLRV------------------PLLRSPLAKSLNLRSLALSPYSDPIVFRQHFSCSANQFLFKQPSSIGFGN
+PRFRSDSFSLLRSLRF-------------EHSSMASAS-STDAKSVYDFV--VKDA-RG----------NDV
+D-----------------------------LSQYKGKVLLIVNVASQC-GLTNSNYTELSELYTKY---KD-
+-----------QGLEILAFPCNQFGAQEPGSN-DQIVEFAC-----TRFKA--EFPIF-DKVDVNGDKAAPI
+YKFLKSSKGGLF----------------------------G-DGIKWNFTKFLVGKDGNVVERYAPTTSP--
+SS---IEKDVKKVLG---------------------------------------------------------
+-----------VS
+>gi|117956208|gb|ABK58680.1| PHGPx isoform 2 [Clonorchis sinensis]
+MILRSLS-------PLLM--CLV-------------------------------------------------
+------------------------------------LL-RADEQSIYDFN--VTDI-DG----------KDV
+D-----------------------------MHRYSGKVCIIVNVASEUALTG-TNYVQLQALYTKY---YE-
+-----------HGLRVLAFPCNQFGGQEPGTD-AQIKEHVQ-----SAYNV--TFDLF-HKVDVNGDDAIPL
+YNYLTSKKRS----------------------------PFFIRRIEWNFVKFLVDRSGIPYDRYAPTTSP--
+ND---MLADILALL----------------------------------------------------------
+-----------GQ
+>gi|171189511|gb|ACB42236.1| glutathione peroxidase [Metapenaeus ensis] gi|171189513|gb|ACB42237.1| glutathione peroxidase [Metapenaeus ensis]
+MA----------------------------------------------------------------------
+-------------------------------------------------------L-HE---------DKRI
+P-----------------------------LSEYSGKVVLIVNLATYU-GLN-FQYHELNVLQETF----P-
+-----------EDFVITGFPCNQFALQEPAANGTELIDGLMHVRPGNGFEP--NFRLF-GKVEVNGENETPL
+YSYLKESCPSTMD-----E--------FMR-SEMLHYAPLRNRDIRWNFEKFLIAKDGKPFKRYNPMTRP--
+GE---IEADVHQLL----------------------------------------------------------
+---------EIEI
+>gi|210063459|gb|ACJ06531.1| glutathione peroxidase-like protein [Isaria tenuipes]
+MSS---------------------------------------------------------------------
+------------------------------------------ATTFYDFK--PLDK-RG----------QEV
+A-----------------------------LSDYRGKVVLIVNTASKC-GFT-GQYAGLEKIYKSVTANHP-
+-----------DDFVVLGFPCNQFGAQEPGSN-DEIQSFCQ-----VNYGV--TFPIM-QKIDVNGDKAAPL
+YEWLKGEKAGLL----------------------------GLKRIKWNFEKFLVGRDGKVVGRWASTTAP--
+ES---LEKDIVAEINK--------------------------------------------------------
+----------KAE
+>gi|160896338|ref|YP_001561920.1| glutathione peroxidase [Delftia acidovorans SPH-1] gi|160361922|gb|ABX33535.1| Glutathione peroxidase [Delftia acidovorans SPH-1]
+MNDT--------------------------------------------------------------------
+---------------------------------------AAAPRSAYDFE--ATSI-TG----------QAV
+P-----------------------------LSDYRGKVLLIVNTASAC-GFT-PQYAGLQALHEQY---GE-
+-----------RGLVMLGFPCNQFGSQEKGSE-SEIASFCD-----LNFGV--RFPLM-GKIDVNGANAHPL
+YRWLTAEAPGVL----------------------------GTKAIKWNFTKFLVGRDGQVIRRYAPQDAP--
+AK---LSTDIEAAL----------------------------------------------------------
+-----------AL
+>gi|15225103|ref|NP_180715.1| ATGPX2 (GLUTATHIONE PEROXIDASE 2)_ glutathione peroxidase [Arabidopsis thaliana] gi|20138142|sp|O04922.1|GPX2_ARATH RecName: Full=Probable glutathione peroxidase 2 gi|1946690|gb|AAB52725.1| glutathione peroxidase [Arabidopsis
+MADE--------------------------------------------------------------------
+-----------------------------------------SPKSIYDFT--VKDI-GG----------NDV
+S-----------------------------LDQYKGKTLLVVNVASKC-GLTDANYKELNVLYEKY---KE-
+-----------QGLEILAFPCNQFLGQEPGNN-EEIQQTVC-----TRFKA--EFPIF-DKVDVNGKNTAPL
+YKYLKAEKGGLL----------------------------I-DAIKWNFTKFLVSPDGKVLQRYSPRTSP--
+LQ---FEKDIQTALGQ--------------------------------------------------------
+----------ASS
+>gi|192362439|ref|YP_001981439.1| putative glutathione peroxidase [Cellvibrio japonicus Ueda107] gi|190688604|gb|ACE86282.1| putative glutathione peroxidase [Cellvibrio japonicus Ueda107]
+MTS---------------------------------------------------------------------
+--------------------------------------------PFFQFT--ADSL-AG----------QPV
+S-----------------------------LADYSGRWVLVVNTASQC-GFT-PQYAGLEQLYQKY---RD-
+-----------KGLVILGFPCNQFGGQEPGDA-SDIAQTCQ-----VNYGV--TFPMF-AKIDVNGADAHPL
+FHWLKAALPGLL----------------------------G-QSIKWNFTKFLLDPEGKPVKRFATVTKP--
+EA---IDRYLQAKIRSQH------------------------------------------------------
+-----SSTARAGE
+>gi|33597467|ref|NP_885110.1| glutathione peroxidase [Bordetella parapertussis 12822] gi|33573895|emb|CAE38210.1| glutathione peroxidase [Bordetella parapertussis]
+MN----------------------------------------------------------------------
+--------------------------------------------TMYDFS--APTI-TG----------AER
+A-----------------------------LADFRGQVALVVNVASRC-GFT-PQYSGLEELYRSY---RN-
+-----------EGFVVLGFPCNQFGRQEPGDE-AAIAQFCE-----TQYAI--SFPLF-AKIDVNGAHAHPL
+YRWLKAHKPGLL----------------------------GTRAIKWNFTKFLVGRDGLPLRRYAPAHTP--
+ES---LRHDIARACAA--------------------------------------------------------
+--------PGPTP
+>gi|120608953|ref|YP_968631.1| glutathione peroxidase [Acidovorax avenae subsp. citrulli AAC00-1] gi|120587417|gb|ABM30857.1| glutathione peroxidase [Acidovorax avenae subsp. citrulli AAC00-1]
+MT----------------------------------------------------------------------
+--------------------------------------------SAYDFD--ALQM-DG----------QAV
+P-----------------------------LRQYAGRVLLIVNTASAC-GFT-PQFAGLQELHQRY---AD-
+-----------RGLVVLGFPCNQFGRQDPGSN-GEIAAFCQ-----RNYGV--DFPMM-AKIDVNGSGAPPL
+YRWLTAEAPGLL----------------------------GTKAIKWNFTKFLIGRDGQVVRRYAPTAKP--
+AS---LAGDIEAELAR--------------------------------------------------------
+----------PAP
+>gi|119774217|ref|YP_926957.1| glutathione peroxidase [Shewanella amazonensis SB2B] gi|119766717|gb|ABL99287.1| Glutathione peroxidase [Shewanella amazonensis SB2B]
+MT----------------------------------------------------------------------
+--------------------------------------------DLYQFA--ATTI-KG----------EQQ
+P-----------------------------LANYRGKVLLIVNTASKC-GFT-PQYQGLESLYRKY---HD-
+-----------QGLEILGFPCNQFGAQEQGSE-SDIQSFCE-----LNFGV--TFPLF-AKVDVNGEQAHPL
+FTHLKQEAPGLL----------------------------GSKAIKWNFTKFLVGRDGKVRDRFAPTTDP--
+QK---LEKDIEALLNE--------------------------------------------------------
+----------AAK
+>gi|187478327|ref|YP_786351.1| glutathione peroxidase [Bordetella avium 197N] gi|115422913|emb|CAJ49441.1| glutathione peroxidase [Bordetella avium 197N]
+MT----------------------------------------------------------------------
+--------------------------------------------TFYDFS--APSL-SA----------ESI
+P-----------------------------LSQWRGQVVLVVNVASQC-GFT-PQYSGLEALYQRF---GA-
+-----------QGFTVLGFPCNQFGRQEPGDA-DEIRRFCD-----TRYGI--TFPLF-AKIDVNGGDAHPL
+FRWLKSQKPGVL----------------------------GTEVIKWNFTKFLIGRDGQVLARYAPTDAP--
+DS---LVADIEKALAA--------------------------------------------------------
+----------PAA
+>gi|68483467|ref|XP_714294.1| potential glutathione peroxidase/redox transducer [Candida albicans SC5314] gi|68484029|ref|XP_714017.1| potential glutathione peroxidase/redox transducer [Candida albicans SC5314] gi|46435541|gb|EAK94920.1| potential glutath
+MS----------------------------------------------------------------------
+--------------------------------------------DFYEFA--PNDI-KG----------TPY
+S-----------------------------FKKLQGKVVLIVNVASKC-GFT-PQYKGLQDLKQKF---AD-
+-----------QPVEILGFPCNQFGHQEPGTN-EEIEKYCR-----EYFGV--TFPVL-SKVETNGKNAEPV
+YKFLKSQKPGLL----------------------------GLHRIMWNFEKFLIDQDGNVVARFSSFTKP--
+ET---IGLRIEEMLK---------------------------------------------------------
+----------HQA
+>gi|148556976|ref|YP_001264558.1| glutathione peroxidase [Sphingomonas wittichii RW1] gi|148502166|gb|ABQ70420.1| Glutathione peroxidase [Sphingomonas wittichii RW1]
+MT----------------------------------------------------------------------
+--------------------------------------------TVYDFS--ARAI-DG----------SEV
+P-----------------------------LDRWRGKVLLIVNTASQC-GFT-PQYAGLEMLHEQL---SD-
+-----------RGLVVLGFPCNQFGGQEPGSE-AEIDAFCR-----TSYDV--RFPMF-AKVEVNGPAAHPL
+YGWLKSNARGIL----------------------------GTEGIKWNFTKFLIDRSGQVFSRYAPTTKP--
+EA---IRGEIEELL----------------------------------------------------------
+----------EDA
+>gi|119471461|ref|ZP_01613902.1| glutathione peroxidase possibly involved in repair of phospholipid hydroperoxides [Alteromonadales bacterium TW-7] gi|119445560|gb|EAW26845.1| glutathione peroxidase possibly involved in repair of phospholipid hydroperoxid
+MQ----------------------------------------------------------------------
+--------------------------------------------KFHQLS--ATSL-QG----------QPI
+S-----------------------------FDDFEGKVVLIVNTASKC-GFT-YQYASLQALHEKY---AS-
+-----------QGLVIIGFPCNQFGQQEPGDA-SQIEQGCL-----INYGV--SFLIT-DKVDVNGKNAHPV
+FRFLKSALPGFL-----------------------------TRKIKWNFTKFLIAADGIPIKRYAPFTKP--
+EK---IELTIQKALSK--------------------------------------------------------
+--------AKSTQ
+>gi|219680407|gb|EED36756.1| glutathione peroxidase [gamma proteobacterium NOR51-B]
+MG----------------------------------------------------------------------
+--------------------------------------------DIYDFS--ATTA-DG----------SDV
+N-----------------------------LADYRGKVLLIVNTASKC-GFT-PQYEGLEALRSDF---SD-
+-----------RGFEILAFPCNQFGNQEPGTE-EEIVEFCS-----LNFST--TFPLF-AKIDVNGSDAHPL
+YEHLKEQAPGVL----------------------------GTKSIKWNFTKFLVNSNGEVVKRYASKDKP--
+AS---IAKDIEALL----------------------------------------------------------
+-----------EA
+>gi|222109412|ref|YP_002551676.1| Glutathione peroxidase [Diaphorobacter sp. TPSY] gi|221728856|gb|ACM31676.1| Glutathione peroxidase [Diaphorobacter sp. TPSY]
+MT----------------------------------------------------------------------
+--------------------------------------------TAYDFD--ATRI-DG----------APQ
+P-----------------------------LSDFRGQVLLIVNTASAC-GFT-PQFTGLQALHERY---GP-
+-----------RGLVVLGFPCNQFGHQDPGSN-DAIAGFCQ-----RNYGV--QFPMM-SKIDVNGSDAHPL
+YRWLTGEAPGVL----------------------------GTKAIKWNFTKFLVGRDGQVIRRYAPQEAP--
+EK---LTVDIEAAL----------------------------------------------------------
+-----------AA
+>gi|157376430|ref|YP_001475030.1| glutathione peroxidase [Shewanella sediminis HAW-EB3] gi|157318804|gb|ABV37902.1| Glutathione peroxidase [Shewanella sediminis HAW-EB3]
+MT----------------------------------------------------------------------
+-------------------------------------------TSIYDFS--VKDI-QG----------EAV
+S-----------------------------LSQFKGKVLLIVNTASAC-GFT-PQYKSLQALYEKY---GP-
+-----------DNFVILGFPCNQFGEQESGSE-DQIQSFCE-----LNFGV--SFPLF-EKIEVNGEGAHPL
+YQYMKSSAKGIL----------------------------GSEGIKWNFTKFLIDADGKVLERYASTTKP--
+ES---IEKRIISLL----------------------------------------------------------
+------------E
+>gi|30020250|ref|NP_831881.1| glutathione peroxidase [Bacillus cereus ATCC 14579] gi|29895800|gb|AAP09082.1| Glutathione peroxidase [Bacillus cereus ATCC 14579]
+M-----------------------------------------------------------------------
+--------------------------------------------TVYDFS--AKTI-TG----------EEK
+S-----------------------------LKDYKGKALLIVNVASKC-GFT-PQYKGLQEVYDKY---KD-
+-----------QGLEILGFPCNQFGGQEPGTE-ADITSFCE-----LNYGV--NFPMF-AKVDVKGDKAHPL
+YTYMTEQAPGLL----------------------------GMKAVKWNFTKFLIGKDGKVVGRFAPQTKP--
+VD---LEVEIEKVL----------------------------------------------------------
+-----------GE
+>gi|198262109|gb|EDY86392.1| glutathione peroxidase [gamma proteobacterium HTCC5015]
+MS----------------------------------------------------------------------
+--------------------------------------------EFYTLS--ARSL-KG----------ADI
+E-----------------------------MKDYQGKVTLVVNTASKC-GFT-PQYEGLEKLHEKY---AD-
+-----------KGLAILGFPCNQFGKQEPGGS-DDISEFCQ-----LNYGV--SFPMF-EKVDVNGDQAHPV
+FQYLKEELPGTL----------------------------G-KGIKWNFTKFLLDRNGKPVKRYASTTKP--
+EK---IEADIIKLL----------------------------------------------------------
+-----------EA
+>gi|146312342|ref|YP_001177416.1| glutathione peroxidase [Enterobacter sp. 638] gi|145319218|gb|ABP61365.1| Glutathione peroxidase [Enterobacter sp. 638]
+MT----------------------------------------------------------------------
+--------------------------------------------AFYQHT--ATSL-GG----------QII
+S-----------------------------MNDYAGKVVLVVNTASLC-GFT-PQYGGLEALYKKY---AA-
+-----------QGLVVLGFPCNQFGKQEPGGA-DEIAQTCH-----INYGV--SFPMF-EKVEVNGTAAHPV
+FRYLKSELPGVL----------------------------G-GRIKWNFTKFLIGRDGKPLKRFAPITAP--
+EK---MEAAIRDAL----------------------------------------------------------
+-----------GV
+>gi|150015663|ref|YP_001307917.1| glutathione peroxidase [Clostridium beijerinckii NCIMB 8052] gi|149902128|gb|ABR32961.1| Glutathione peroxidase [Clostridium beijerinckii NCIMB 8052]
+M-----------------------------------------------------------------------
+--------------------------------------------NFYSFS--ANKM-NG----------QEV
+K-----------------------------MEEYKGKVVLIVNTASKC-GFT-PQFEELEDIYKEY---KD-
+-----------QGLEILGFPCNQFAKQDPSSN-EEINSFCK-----LNYGV--TFTMF-EKIDVNGTSAHPL
+YEFLKNKKRGLF----------------------------N-KDIKWNFTKFLVNKDGEVIGRYSPTTKP--
+SK---IKEDIINLL----------------------------------------------------------
+-----------NA
+>gi|182419669|ref|ZP_02950911.1| peroxiredoxin Hyr1 [Clostridium butyricum 5521] gi|182376483|gb|EDT74063.1| peroxiredoxin Hyr1 [Clostridium butyricum 5521]
+M-----------------------------------------------------------------------
+--------------------------------------------EFYDLS--ATKM-NG----------RKV
+S-----------------------------MEEYRGKVVLVVNTASKC-GLT-PQFTELEELYNEY---KD-
+-----------NGFEILGFPCNQFAKQDPGSN-KEIGEFCL-----RNYGV--SFTMF-EKIDVNGQNTHPI
+YKFLKNEAGGLI----------------------------G-SDIKWNFTKFLIDSEGNVIKRYSPITKP--
+SS---IKKDIYSLI----------------------------------------------------------
+------------K
+>gi|18309893|ref|NP_561827.1| glutathione peroxidase [Clostridium perfringens str. 13] gi|168204937|ref|ZP_02630942.1| glutathione peroxidase [Clostridium perfringens E str. JGS1987] gi|168212450|ref|ZP_02638075.1| glutathione peroxidase [Clostridium perf
+M-----------------------------------------------------------------------
+--------------------------------------------EIYDIS--VKDI-NG----------ENV
+S-----------------------------LERYRGKVLLIVNTASKC-GFT-KQFDGLEELYEKY---KD-
+-----------EGFEVLGFPCNQFKEQDPGSN-SEIMNFCK-----LNFGV--TFPMF-EKIDVNGENESLL
+YSYLKEQKSGMF----------------------------G-SKIKWNFTKFLVDREGNVIKRFSPQTTP--
+KS---IEKDIEELL----------------------------------------------------------
+------------A
+>gi|148257534|ref|YP_001242119.1| glutathione peroxidase [Bradyrhizobium sp. BTAi1] gi|146409707|gb|ABQ38213.1| glutathione peroxidase [Bradyrhizobium sp. BTAi1]
+MASP--------------------------------------------------------------------
+------------------------------------------TASIYDFT--AASL-TG----------EEV
+P-----------------------------LKRFAGQVLLIVNTASAC-GFT-PQYRGLEALHRAY---AD-
+-----------RGFAVLGFPCNQFGAQEPGTA-EEIGAFCS-----TKYDV--TFPLF-AKIDVNGAEAHPL
+YKFLKGEKTGLL----------------------------G-SAIKWNFTKFLVDRQGNVVSRHAPTTTP--
+EA---LKKEIEAL-----------------------------------------------------------
+------------L
+>gi|170696502|ref|ZP_02887627.1| Glutathione peroxidase [Burkholderia graminis C4D1M] gi|170138605|gb|EDT06808.1| Glutathione peroxidase [Burkholderia graminis C4D1M]
+MT----------------------------------------------------------------------
+--------------------------------------------SIYSFT--ARTL-GG----------EEV
+S-----------------------------LAQYEGKVLLIVNTASEC-GFT-PQYAGLQKLYDGY---AA-
+-----------RGLTVLGFPCNQFGKQEPGDA-AQIGSFCE-----KNYGV--TFPMF-DKIDVNGANAHPL
+FRYLTGEAPGLL----------------------------GLEGIKWNFTKFLIGRDGNVLKRYAPLTKP--
+ET---ITEDIEKL-----------------------------------------------------------
+------------L
+>gi|68165856|gb|AAY87888.1| glutathione peroxidase [Taiwanofungus camphoratus]
+MS----------------------------------------------------------------------
+--------------------------------------------SFYGLK--AELP-GG----------KTY
+D-----------------------------FEELKGKVVLIVNVASKC-GFT-PQYKGLQALYEKY---KD-
+-----------KGFVILGFPCNQFGGQEPGDD-AAIGEFCQ-----RNHGV--TFPLM-KKSDVNGDNTNEV
+YKYLKNEKAGLL----------------------------GLTRIKWNFEKFLVDKDGKVVHRWASTTSP--
+DA---IDVEVAKL-----------------------------------------------------------
+------------L
+>gi|116059366|emb|CAL55073.1| glutathione peroxidase (ISS) [Ostreococcus tauri]
+MLTQRAV-------VAPA--RLA----------R-A--RS--------------------------------
+------------RT-R-------------GLARGARAQ-TNASQTIHDFT--LKTL-GGGTREAPTE-GADL
+P-----------------------------LSQYKGKVVLINN---------------------KY---G--
+-----------DDLVILGVPCNQFGHQCYDKD-FELLNTLKYVRPGNGYEP--KFQIT-GKMTINGEDEDAF
+WTFLKRAIPYPADD-NGGRGDDFIYNTQPN-SMPLQWSPVRRSDVVWNFEKFLIGKDGKPAKRYSPKFEN--
+AN---LTADIDALI----------------------------------------------------------
+-----------KA
+>gi|56420320|ref|YP_147638.1| glutathione peroxidase [Geobacillus kaustophilus HTA426] gi|56380162|dbj|BAD76070.1| glutathione peroxidase [Geobacillus kaustophilus HTA426]
+M-----------------------------------------------------------------------
+--------------------------------------------SVYEFS--VKTI-RG----------EEQ
+P-----------------------------LSAYRGKVLLIVNTASRC-GFT-PQYKELQELYDEY---RD-
+-----------RGFVVLGFPCNQFGGQEPGTE-AEIEQFCQ-----LNYGV--TFPLF-AKVDVNGDHAHPL
+FQYLKEEAPGAL----------------------------GTKAIKWNFTKFLVDRHGRVVARFAPQTKP--
+SE---LKEDIEKL-----------------------------------------------------------
+------------L
+>gi|110835499|ref|YP_694358.1| glutathione peroxidase [Alcanivorax borkumensis SK2] gi|110648610|emb|CAL18086.1| glutathione peroxidase [Alcanivorax borkumensis SK2]
+M-----------------------------------------------------------------------
+--------------------------------------------GIYDYS--AITL-SG----------EEK
+S-----------------------------LADFQGKVLLIVNTASKC-GFT-PQYKGLEALYKTL---QP-
+-----------KGLEVLGFPCNQFGKQEPGAA-DEIGAFCE-----KNYGV--SFTMF-DKVDVNGGDAHPL
+YDFLKKEAPGVL----------------------------GSKGIKWNFTKFLVNKDGKVVKRYAPTDKP--
+EA---IQKDIEAL-----------------------------------------------------------
+------------L
+>gi|91977935|ref|YP_570594.1| glutathione peroxidase [Rhodopseudomonas palustris BisB5] gi|91684391|gb|ABE40693.1| Glutathione peroxidase [Rhodopseudomonas palustris BisB5]
+MT----------------------------------------------------------------------
+--------------------------------------------SIQDFT--AKTL-AG----------EEL
+P-----------------------------LKRFEGQVLLIVNTASAC-GFT-PQYKGLEALQKTY---GP-
+-----------RGFSVLGFPCNQFGAQESGNE-TEIAQFCS-----TNYGV--SFPMF-AKIDVNGANAHPL
+YKFLKDEKSGLL----------------------------G-SAIKWNFTKFLVDRAGHVVSRHAPTTTP--
+ES---LAKDIETL-----------------------------------------------------------
+------------L
+>gi|27381843|ref|NP_773372.1| glutathione peroxidase [Bradyrhizobium japonicum USDA 110] gi|27355012|dbj|BAC51997.1| bll6732 [Bradyrhizobium japonicum USDA 110]
+MS----------------------------------------------------------------------
+--------------------------------------------AIYDFK--ANSL-LG----------EEV
+P-----------------------------MRRFEGQVLLIVNTASKC-GFT-PQYRGLEDLYRDL---SP-
+-----------RGFAVLGFPCNQFGAQEPGQA-SEIQEFCS-----TNYDV--TFPLF-EKIDVNGANAHPL
+YEYLKRQQSGLL----------------------------G-ASIKWNFTKFLVDRAGRVIARYAPTARP--
+EG---LRQQIETL-----------------------------------------------------------
+------------L
+>gi|117618617|ref|YP_856921.1| peroxiredoxin HYR1 [Aeromonas hydrophila subsp. hydrophila ATCC 7966] gi|117560024|gb|ABK36972.1| peroxiredoxin HYR1 [Aeromonas hydrophila subsp. hydrophila ATCC 7966]
+MS----------------------------------------------------------------------
+---------------------------------------------LPDLI--LQRL-DG----------TEL
+P-----------------------------LSTLQGQVMLVVNVASRC-GFT-PQYTGLEALYREL---GP-
+-----------RGLVILGFPCDQFGHQEPGDA-EEIARFCS-----LDYPV--SFPIM-AKCEVNGEQAHPF
+YQWLKKEKPGLL----------------------------GLENVKWNFTKFLIDRDGEVVDRFAPTTKP--
+ES---LRDDILAL-----------------------------------------------------------
+------------L
+>gi|38174689|gb|AAH61262.1| Glutathione peroxidase 3 [Xenopus tropicalis]
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+-----------------------------------------------------MQYQELNALQEEL---KN-
+-----------NNFVILGFPSNQFGMQEPGRN-DEILLGLEYVRPGGKFVP--NFQLF-EKGDINGRKEQKF
+YTFLKNSCPPVGD-----N--------FGSATNRLMWEPIKVNDVKWNFEKFLVGPDGRPVKRWLPRTPV--
+AQ---VRREIMSYMKLQP------------------------------------------------GT----
+--QRLLMLGLEQK
+>gi|166796161|gb|AAI59037.1| LOC100145152 protein [Xenopus tropicalis]
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+-----------------------------------------------------RDYTQLNELQTKY----P-
+-----------RRLVVLGFPCNQFGYQENCKN-EEILNSLKYVRPGKGFVP--GFTLF-QKCDVNGKDTHSV
+FAYLKDKLPVPDND-PAAL--------ISD-PRYIVWNPVHRSDISWNFEKFLIGPEGEPFKRYNKNFQT--
+IS---IEPDIQRLLK---------------------------------------------------------
+----------LTK
+>gi|198424199|ref|XP_002121558.1| PREDICTED: similar to C11E4.1 [Ciona intestinalis]
+MR----------------------------------------------------------------------
+------------------------------------------------------------------------
+-----------------------------------SAVLLWLGVAGVVHSMV-PCYNS----TNHF---NGR
+------------NFSVLAFPCDQFHLEEPGEDS-EILNGLMYVRPGNGYVPHPKLNIF-GKIKVNGRHEHTI
+YKNVKASCPPTTL-----N--------LGS-TRNMYWNPVKSTDITWNFNKFLLDKNGVP------------
+------------------------------------------------------------------------
+------------R
+>gi|404108|dbj|BAA03864.1| plasma glutathione peroxidase [Homo sapiens]
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+----------------------------------------------------------LNALQEEL---AP-
+-----------FGLVILGFPCNQFGKQEPGEN-SEILPTLKYVRPGGGFVP--NFQLF-EKGDVNGEKEQKF
+YTFLKNSCPPTSE-----L--------LGT-SDRLFWEPMKVHDIRWNFEKFLVGPDGIPIMRWHHRTTV--
+SN---VKMDILSYMRRQA------------------------------------------------A-----
+-------LGVKRK
+>gi|156571766|gb|ABU84810.1| glutathione peroxidase [Hypophthalmichthys molitrix]
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+----------------------------------------------------------MNELHSSY---AD-
+-----------QGLVILGAPCNQFGHQENCKN-DEILKSLKYVRPGDGFEP--KSQLL-EKLEVNGENAHPL
+FVFLKEKLPQPSDD-AVSL--------MGD-PKFIIWSPVNRNDIAWNFEKFLIGPDGEPFKRYSRKFLT--
+SD---IEADIKELLK---------------------------------------------------------
+----------RTK
+>gi|11095769|gb|AAG30013.1|AF281338_1 glutathione peroxidase [Oncorhynchus mykiss]
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+----------------------------------------------------------MNELHSQY---SE-
+-----------KGLVVLGVPCNQFGHQENCKN-DEILRSLKYIRPGNGFEP--KFPLF-EKMDVNGKDAHPL
+FVYLKDKLPFPSDD-SMAL--------MSD-PKFIMWSPVCRNDVSWNFEKFLVSPDGDPYKRYSRRFLT--
+SD---IEADIKELLN---------------------------------------------------------
+-----------VK
+>gi|157767532|ref|XP_001667246.1| Hypothetical protein CBG16080 [Caenorhabditis briggsae AF16] gi|187026712|emb|CAP34284.1| Hypothetical protein CBG16080 [Caenorhabditis briggsae]
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+-------------------------------------------------------------MLERY---QAQ
+------------GLVLVAFPCNQFYLQEPAENH-ELINGLTYVRPGNGWQPHQELHVY-GKIDVNGDNHHPL
+YEFVKEACPQTVD-----K--------IGK-TEELMYNPVRTSDITWNFEKFLIDRKGQPRFRFHPTAWSHG
+EV---VTPFIEQLLA---------------------------------------------------------
+---------EPAN
+>gi|212511626|gb|EEB14547.1| glutathione peroxidase 6 precursor, putative [Pediculus humanus corporis]
+MKCLT-------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+--------------VMVRLILLKFFQQEPGGNATEILNGIRFVRPGNDFIP--SFQLC-QKSDINGKNELPM
+FTYLKAYCPTTRD-----G--------FED-TTVLFWKPLKNNDVKWNWEKFLITRKGMPYMRYDPSTEP--
+DA---IRPDIEFLL----------------------------------------------------------
+---------QNDI
+>gi|215502580|gb|EEC12074.1| glutathione peroxidase, putative [Ixodes scapularis]
+ML----------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+-----------------RDATSPLRRQEPGTR-QEILNGIKYVRPGNNYVP--NFPMF-QKIEVNGENQHPL
+YTFLKGRCTSPNP-----V--------FSP-KDKLFYSPQNNNDIRWNFEKFLVDRRGVPVKRYEPRYSP--
+DE---VARDIEVLT----------------------------------------------------------
+----------RSS
+>gi|8272574|gb|AAF74263.1| glutathione peroxidase [Bos taurus]
+MARLFRA-------SCLL--SLL----------LA-GF-I--------------------------------
+-----------PPSQG-------------QEKSKTDCH-AGVGGTIYEYG--ALTI-DG---------EEYI
+P-----------------------------FKQYAGKYILFVNVASYX-GLT-GQYVELNALQEEL------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+-----------EH

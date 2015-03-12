@@ -1,0 +1,82 @@
+3.2
+=======
+
+Technical:
+- Another modification to allow basically selp searches (many sec columns)
+
+Features:
+- Now there's no restriction on the species name; anything provided will work. No species taxonomy database is downloaded
+- Minimal update in the manual
+- Added support for external package: bSeblastian (bSECISearch)
+- modified installation script
+
+Bug fixes:
+- GFF extra field sec_position was not printed for multi-exon genes
+
+3.1a
+=======
+
+Technical:
+- In blast, sec characters are now U are not *; strangely, * give problems when many are present consecutively
+
+Features:
+- profiles upgrated
+- MMlib added various functions
+
+Bug fixes:
+- MMlib, function realign fixed another bug with U characters
+
+
+3.1
+=======
+
+Features:
+- option no_splice added (uses exonerate in protein2dna mode)
+- changed way to parse gi2go database, improves dramatically performance
+- added max_blast_hits.STRICT keyword
+- some selenoprotein profiles updated
+- manual updated
+- installer semplified
+
+Bug fixes:
+- MMlib, function realign fixed a bug when stars are present next to gaps (selenoprofiles unaffected)
+
+
+3.0d
+=======
+
+Features:
+- GFF and CDS output now include the stop codon, if found -- for predictions complete at three prime
+- you can execute selenoprofiles using a folder belonging to some other users, as long as you use another -outfolder
+
+  
+3.0c
+=======
+
+Features:
+- GFF format changed to have sec positions annotated also for homologues, and it indicates the residue format
+
+
+3.0b
+=======
+
+Bug fixes:
+- new genewise bug identified, causes inconsistencies between the alignment shown and the gff in the same file (in very rare cases, with frameshifts close to intron boundaries). Now the genewise parser detect this and discard the candidate
+
+
+3.0a
+=======
+
+Bug fixes:
+- complete at five prime bug solved; option full was not working if the prediction started with Methionine already.
+- awsi_filter bug found (AWSIw not activated properly)
+- joining exonerate hits in the same file lead to wrong .query gene attribute, was causing very rarely problems in exclude_large_introns function
+- memory of target file fo each results folder is now managed differently, with a symbolic link
+
+3.0 (1/4/2013)
+==================
+
+This version has lots of major improvements and some bug fixes over version 2.0; although the results folder structure is pretty much identical to version 2, running this version on old results may give problems. Do it only if you have to save repeating a real lot of computation. If it crashes, try with option -C. 
+The sqlite database is now located in each target subfolder of the results folder, instead than in results folder itseld, and thus contains information for a single target only.
+Among the many novelties, we mention procedures to analyze input profiles and set good defaults for filtering, based on AWSI score filtering (see new manual). It also includes new prodecures to improve the predictions. 
+

@@ -1,0 +1,1 @@
+Please cd into the selenoprofiles_3_installation folder and run:    python install_selenoprofiles.py --help

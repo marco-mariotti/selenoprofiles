@@ -1,0 +1,32 @@
+>SelK_Strongylocentrotus_purpuratus [Se user]; [Strongylocentrotus purpuratus (Eukaryota/Metazoa/Coelomata/Others)]
+M----PYL--------SQSGQVM-DSR--SPWRLSYIPELFWGAVNFISLFFRTMFSPQLTN-RGSGYTSDYRQGLTGNSS---NG---------------------------RGPGGPPAPPRRRMGGFGG-RGSGPAPPPAAGGG--UGR-
+>SelK_Leishmania_infantum_JPCM5 [Se user]; [Leishmania infantum JPCM5 (Eukaryota/Kinetoplastida)]
+M----AYI--------HN-GRVV-EKK---PFT---VRGFLLALWTALSLFAQTLFTTEPMAQVVEEHQHPAPRA-ANAAA---DGGGILGSLRAMLNRRGGGGQALGG----GGNSGWAAAVNRRGGNVHTL----PKAPISGGCASGUGR-
+>gi|187608840|sp|Q55EX3.2|SELK_DICDI RecName: Full=Selenoprotein K homolog
+MPPKPTYV--------SG-GSVT-QT-GRSKWRLSYIPEFIWGILNQITFFFSTLIGGTVEPR-RRPNNQGGG-----RRLAGFDGNG---------NV--TGGSGVGGSGPSKGPDNGS---NNRRGDMKNI----LACNSASGS---UGPK
+>gi|213511230|ref|NP_001134373.1| MODIFIED Selenoprotein K [Salmo salar] gi|209732770|gb|ACI67254.1| Selenoprotein K [Salmo salar] gi|223646274|gb|ACN09895.1| Selenoprotein K [Salmo salar] gi|223672121|gb|ACN12242.1| Selenoprotein K [Salmo salar]
+M----VYV--------AN-GQVL-DNRSQSPWRMSFLTDLFWGAVEFIGLFFQSLVQPDLTK-RGNSGS-SSA-----GYS---DG---------------------------RGPPGPP-GGRRRMGRINH--GGGPSAPPMGGGG--UGR-
+>gi|70906483|ref|NP_001020612.1| selenoprotein K [Gallus gallus]
+M----VYI--------SN-GQVL-DNRSRAPWSLSAITDFFWSIADFVVMFFQSIIQPDLRR-RGYTSS-SYL-----GQS---DG---------------------------RGPPGNP---RRRMGRINHW-GGGPSPPPMAGGG--UGR-
+>gi|207444688|ref|NP_001087951.2| selenoprotein K [Xenopus laevis] gi|190358770|sp|Q641S4.3|SELK_XENLA RecName: Full=Selenoprotein K_ Short=SelK
+M----VYI--------SN-GQVL-DGQSRSPWRLSFLTDMFWGITDFVVMFFQSIIHPNVTR-RGCQNSSSST-----RYD---DG---------------------------RGPPGHP----RRMGRINH--GSGPSAPPMAGGG-GUGR-
+>gi|149616291|ref|XP_001506545.1| MODIFIED PREDICTED: similar to LOC494630 protein [Ornithorhynchus anatinus]
+M----VYI--------SN-GHVL-NGQNRSLWSLSFIKDFFWGILDFIIMFFKSMIHPNVKR-GCRNS-SSDS-----KYD---DG---------------------------RGPPGYP---RRGMGRINH--SNGPSPPPMAGGG--UGR-
+>gi|51859039|gb|AAH81491.1| MODIFIED Zgc:103591 [Danio rerio] gi|197246989|gb|AAI64434.1| Unknown (protein for MGC:191609) [Danio rerio]
+M----VYV--------SN-GQVL-DSRSRSPWSLSFLTDFFWGAVEFIGLFFQTLVQPDLSK-DGNNSA-S-S-----RFS---DG---------------------------RGPPGFP--GRRRMGRINH--GAGPTPPPMGGGG--UGR-
+>gi|87047634|gb|ABD18450.1| MODIFIED selenoprotein K [Sus scrofa]
+M----VYI--------SN-GQAL-DSRSQSPWRLSFITDFFWGIAEFVVLFFRTLLQQDVKKRRGYGGS-SDS-----RYD---DG---------------------------RGPPGNP---PRRMGRINHL--RGPNPPPMAGG---UGR-
+>SelK_Ostreococcus_tauri [Se user]; [Ostreococcus tauri (Eukaryota/Viridiplantae/Chlorophyta)]
+M----THPWSHFRCSIDR-HRAT-PDDAHGPFS---LSGACWHLVDVADAFVRTLVIDGYAETYARGTNGLSR-----AST---AS---------------------------RAPVRRPGGGGDVRGFAN--VRTIDHSAPVGGG---UGR-
+>gi|215491294|gb|EEC00935.1| selenoprotein K, putative [Ixodes scapularis]
+M----PYI--------NERGEIL-ESK--PLWRVGTLTEFFQGLARMITLFFQTLFMLDNSN-NSRSSGSRYG----GSGS---SG---------------------------RRPPGP--PPRRRMGGFGSSVDSGTMSCPM--PGGGUG--
+>gi|198427212|ref|XP_002128715.1| MODIFIED PREDICTED: similar to selenoprotein K [Ciona intestinalis]
+M----VYV--------SA-GGIQ-SQR--SMWRVSFISESFWGLINFIVLFFKTMVQPDLTK-HGRGLQSNYS-----AKP---NG-------------------------------GDDSGPRRRMGGFK--RSTGPSPPPAAGGG--UGR-
+>SelK_Ostreococcus_lucimarinus [Se user]; [Ostreococcus lucimarinus (Eukaryota/Viridiplantae/Chlorophyta)]
+M----AYV--------AR-DGAV-AA---RPFS---LVAALWGALDVVDAFFRTLLVEGHADAYARRTT-TAR-----ATT---PG---------------------------RVAATTA-RGAAVRGFAN--VRTIDHAAPTAGG---UGR-
+>gi|159482086|ref|XP_001699104.1| selenoprotein K1 [Chlamydomonas reinhardtii] gi|23452032|gb|AAN32902.1| selenoprotein SelK1 [Chlamydomonas reinhardtii] gi|158273167|gb|EDO98959.1| selenoprotein K1 [Chlamydomonas reinhardtii]
+M----PYI--------SR-TGTVQERR--SPWRLSIVVEFFMGVWGAISTFFMTMVSPQAHEAYLK-------QQ-VKKKD---PPR-TTGGP---------------------RIA--------GLDNIGGG--GGSHLTPGCA-GGGUG--
+>SelK_Trypanosoma_cruzi [Se user]; [Trypanosoma cruzi (Eukaryota/Kinetoplastida)]
+M----PYV--------AN-GRVV-DSK---PFS---LVDFFLSILRLMWLFFATLVSSEPVSQHVQEY-----RS-TTRIV------------------------PFGG----GRSVGHA----PRGPNIHGL----PKGSLTGGCATGUG--
+>SelK_Trypanosoma_brucei [Se user]; [Trypanosoma brucei (Eukaryota/Kinetoplastida)]
+M----VYI--------EN-GRIV-EQR---GFS---LVDTFFSIVDGVCLFFQTMFSSEPPQQVVERP---VLRG-RR-------------------------GYIFGG----RRPADDH----PR-SNVHTL----PKESLTGGCASGUG--

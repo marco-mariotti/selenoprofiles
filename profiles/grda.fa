@@ -1,0 +1,122 @@
+>gi|266618921|ref|ZP_06111859.1| glycine reductase complex component A, selenocysteine-containing [Clostridium botulinum Bf] 7.70339e-56
+M----------------SLFEGKKVIIIGDRDGIPGPAIEKCIEGT-GAEVVFSSTECFVUTAAGAMDLENQKRVKTLTEKHGAENILVILGAAEGEAAGLAAETVTNGDPTFAGPLSNVQLGLRVYHAVEPEFKEEVNEEVYEEEIGMMEMVLEVDEIIEEMTDIRTEFCKF-----SD
+>gi|158319993|ref|YP_001512500.1| glycine/sarcosine/betaine reductase complex protein A [Alkaliphilus oremlandii OhILAs] 9.08919e-61
+M----------------ARFDGKKIIIIGDRDGIPGPAIEECLKGT-GAEVVFSATECFVUTAAGAMDLENQQRVKDLTEKYGADNVVVVLGAAEAEASGLAAETVTAGDPTFAGPLAGVQLGLRVYHAVEPQFKDEVDAGVYDDQVGMMEMVLDVDSIVEEMNNIRSEFSKY-----ND
+>gi|220903404|ref|YP_002478716.1| Glycine reductase [Desulfovibrio desulfuricans subsp. desulfuricans str. ATCC 27774] 3.60521e-56
+M----------------GKLTGKKLLLLGERDGVPGPAMADVFANS-GAEILFSATECFVUTAAGAMDLENQQRVKDAAEKFGGENVVVILGSSDPEGAEIYAETVTMGDPTFAGPLAGVPLGLCVYHILEPEIKEEADPAKWEEQISMMEMVLNVDALVESVRKMREANSKF-----SL
+>gi|150391324|ref|YP_001321373.1| glycine/sarcosine/betaine reductase complex protein A [Alkaliphilus metalliredigens QYMF] 3.31276e-60
+M----------------SLFDGKKVIIIGDRDGIPGPAMEECLKGT-GAEVVYSSTECFVUTAAGAMDLENQKRVMDLTEKHNAENVVVILGAAEAEAAGLAAETVTNGDPTFAGPLAGVQLGLRVYHAVEPQFKDAVNAEVYEDQIGMMEMVLEVDAIIEEMSNIRNEFGKF-----KD
+>gi|205831500|sp|P50972.3|GRDA1_EUBAC RecName: Full=Glycine/sarcosine/betaine reductase complex component A1_ AltName: Full=Selenoprotein PA 1_ AltName: Full=Thioredoxin reductase complex selenoprotein A 1 4.42727e-67
+M----------------SLFDGKKVIIIGDRDGIPGPAIAECLKGT-AAEVVYSATECFVUTAAGAMDLENQNRVKGFADQFGAENLVVLVGAAEAESAGLAAETVTAGDPTFAGPLAGVQLGLRVFHAVEPEFKDAVDSAVYDEQIGMMEMVLDVDSIIAEMKSIREQFGKF-----ND
+>gi|153932571|ref|YP_001383617.1| glycine/sarcosine/betaine reductase complex protein A [Clostridium botulinum A str. ATCC 19397] 2.95096e-56
+M----------------SLFEGKKVIIIGDRDGIPGPAIEKCIEGT-GAEVVFSSTECFVUTAAGAMDLENQKRVKTLTEKHGAENILVILGAAEGEAAGLAAETVTNGDPTFAGPLSNVQLGLRVYHAVEPEFKEEVNEEVYEEEIGMMEMVLEVDEIIEEMTDIRTEFCKF-----LD
+>gi|182637569|sp|P52216.2|GRDA_CLOLI RecName: Full=Glycine/sarcosine/betaine reductase complex component A_ AltName: Full=Selenoprotein PA_ AltName: Full=Thioredoxin reductase complex selenoprotein A 4.61588e-67
+M----------------SLFDGKKVIIIGDRDGIPGPAMAECLKGI-NVEVVYSATECFVUTAAGAMDLENQNWVKNFTDQYGAENIIVLVGAAEAESAGLAAETVTAGDPTFAGPLAGVQLGLRVFHAVEPEFKGAVDSAIYDEQIGMMEMVLDVDSIIEEMKSIRADYCKF-----ND
+>gi|205831501|sp|O32518.3|GRDA2_EUBAC RecName: Full=Glycine/sarcosine/betaine reductase complex component A2_ AltName: Full=Selenoprotein PA 2_ AltName: Full=Thioredoxin reductase complex selenoprotein A 2 1.41155e-67
+M----------------SIFDGKKVIIIGDRDGIPGPAMAECLKGT-GAEVVYSATECFVUTAAGAMDLENQNRVKSFTEQYGAENMIVLVGAAEAESAGLAAETVTAGDPTFAGPLAGVQLGLRVFHAVEPEFKDSVDSAVYDEQIGMMEMVLDVDSIIAEMKSIREQFGKY-----ND
+>gi|2274934|emb|CAA74650.1| glycine reductase A [Eubacterium acidaminophilum] 1.41155e-67
+M----------------SIFDGKKVIIIGDRDGIPGPAMAECLKGT-GAEVVYSATECFVXTAAGAMDLENQNRVKSFTEQYGAENMIVLVGAAEAESAGLAAETVTAGDPTFAGPLAGVQLGLRVFHAVEPEFKDSVDSAVYDEQIGMMEMVLDVDSIIAEMKSIREQFGKY-----ND
+>gi|42526258|ref|NP_971356.1| glycine/sarcosine/betaine reductase complex protein A [Treponema denticola ATCC 35405] 3.13604e-84
+M----------------VDLKTKKVIIIGDRDGVPGEAIKLCAESA-GAEVVYAATECFVUTSAGAMDLENQKRVKDLAEKYGPENVIVLLGGAEAESSGLACETVTVGDPTFAGPLAGVSLGLLCYHVAEPEIKSQIDPAVYEEQVSMMEMVMDVNAIIAEISEYRNKGCKF------L
+>gi|205831504|sp|P26971.4|GRDA_CLOST RecName: Full=Glycine/sarcosine/betaine reductase complex component A_ AltName: Full=Selenoprotein PA_ AltName: Full=Thioredoxin reductase complex selenoprotein A 1.80162e-60
+MS----------------RFTGKKIVIIGDRDGIPGPAIEECLKPI-DCEVIFSSTECFVUTAAGAMDLENQKRIKEATEKFGAENLVVLIGAAEAEAAGLAAETVTAGDPTFAGPLAGVELGLRVYHAVEPEFKDEVDAQIFDDQVGMMEMVLNVDEIIEEMQSIRSQFCKF-----ND
+>gi|269792747|ref|YP_003317651.1| glycine reductase complex selenoprotein A [Thermanaerovibrio acidaminovorans DSM 6589] 3.22993e-61
+MG----------------KLAGKKLILLGERDGVPGPAMEACLKDC-GAEIAFAVTECFVUTAAGAMDLQNQQRVKDIAEKFGAENVVVVLGSSDAEGAEIYAETVTAGDPTYAGPLAGVSLGLPVYHIFDPEIKSEADPAQWEEQVSMMEMVLDPEALTEAVRKMREAHSQY-----TL
+>gi|190359619|sp|Q6LH19.3|GRDA2_PHOPR RecName: Full=Glycine/sarcosine/betaine reductase complex component A2_ AltName: Full=Selenoprotein PA 2_ AltName: Full=Thioredoxin reductase complex selenoprotein A 2 1.34341e-65
+M------------------LKDKKVIILGDRDGIPGQAIEACIKSA-GAHVLFSTTECFVUTSAGAMDLENQKRIKGFAEEFGAENILIVLGGAEAEASGLACETVTNGDPTFAGPLAGVQLGLSCYHVVEPEIKNNVDADVYDEQIGMMEMVLDVDAIIAEIKGYREQFGKYVLAEAEV
+>gi|148379245|ref|YP_001253786.1| glycine reductase complex component A, selenocysteine-containing [Clostridium botulinum A str. ATCC 3502] 2.51907e-55
+M----------------SLFEGKKVIIIGDRDGIPGPAIEKCIEGT-GAEVVFSSTECFV-TAAGAMDLENQKRVKTLTEKHGAENILVILGAAEGEAAGLAAETVTNGDPTFAGPLSNVQLGLRVYHAVEPEFKEEVNEEVYEEEIGMMEMVLEVDEIIEEMTDIRTEFCKF-----LD
+>gi|190359618|sp|Q6LH20.3|GRDA1_PHOPR RecName: Full=Glycine/sarcosine/betaine reductase complex component A1_ AltName: Full=Selenoprotein PA 1_ AltName: Full=Thioredoxin reductase complex selenoprotein A 1 1.9748e-60
+MNK--------------EVFATKTAIILGDRDGIPGQAIEACIKTT-GAHVAFSTTECFVUTSAGAMDLENQKRIKALADEFGAENIIVILGGAEAEASGLACETVTTGDPTFAGPLAGVQLGLSCYHVVEDAIKEAVDPAVYEEQIGMMEMVLDVDAIKAEMQQYREEPVE-------A
+>gi|78044558|ref|YP_361189.1| glycine/sarcosine/betaine reductase complex protein A [Carboxydothermus hydrogenoformans Z-2901] 3.54144e-60
+M----------------AILAGKKVIAVGDRDGVPGPAIAECAKSA-GAEVVFATTECFVUTAAGTMDLQNQARIKELAEELGGENIVVLLGAAEPDTASLAAETVTLGDPTFAGPLAGVSLGLKVYHILEPEIKAEIDPAVYEEQAAMMEMVLDVDALAAEVSKMRKEGSK-------Y
+>gi|188585112|ref|YP_001916657.1| Betaine reductase [Natranaerobius thermophilus JW/NM-WN-LF] 2.3679e-67
+M------------------FEGKKVVILGDRDGIPGPAIEECIKTT-GAEVVYSTTECFVUTSAGAMDLENQKRVKELTDKHGPENLIVIIGGADAEGSGLATETVTNGDPTFAGPLAGVQLGLKCYHIVEPEVKEAVDSSVYEEQVEMMEMVLEVDEIIQEVKEYREKYCKF------L
+>gi|51894005|ref|YP_076696.1| glycine/sarcosine/betaine reductase complex protein A [Symbiobacterium thermophilum IAM 14863] 1.47382e-62
+M----------------E-LKGKKAIILGDRDGIPGPALEACVRSA-GAEVVFASTECFVUTSAGAMDMENQRRVKELAEKYPKEDLVVILGGAEAEASGLAAETVSNGDPAWAGPLAGVQLGLKAYHIFEPEIKEQIDPNVYEEQVSLMEMVLDVEAIVQEVRSIREKYAA-------W
+>gi|257065204|ref|YP_003144876.1| Glycine reductase complex selenoprotein A [Slackia heliotrinireducens DSM 20476] 4.85707e-64
+MS----------------ILAGKKVVVIGDRDGVPGEAISACVETA-GGEVVFSSTECFVUTAAGAMDLENQRRVKEFAEQFGPENVVVVVGASEGEAAGLAAETVEAGDPTFAGPLTGVQLGLACYHVCEPEMKEEFDEAVYEDQVGMMEMVLDVDDIIEEMTGIREDYCK-------Y
+>gi|1095437|prf||2108413A Gly reductase selenoprotein A 6.29812e-60
+-S----------------RFTGKKIVIIGDRDGIPGPAIEECLKPI-DCEVIFSSTECFVCTAAGAMDLENQKRIKEATEKFGAENLVVLIGAAEAEAAGLAAETVTAGDPTFAGPLAGVELGLRVYHAVEPEFKDEVDAQIFDDQVGMMEMVLNVDEIIEEMQSIRSQFCKF-----ND
+>gi|126699969|ref|YP_001088866.1| glycine/sarcosine/betaine reductase complex protein A [Clostridium difficile 630] 8.18093e-50
+M----------------SLLSNKKVLIIGDRDGIPGPAIEECVKTVEGAEVVFSSTECFV-TAAGAMDLENQNRVKDAADKFGAENVVILLGAAEAEAAGLAAETVTAGDPTFAGPLAGVALGLSVYHVVEEPIKSLFDESVYEDQISMMEMVLEVEEIEEEMSGIREEFCK-------F
+>gi|205831499|sp|P26970.2|GRDA_CLOPU RecName: Full=Glycine/sarcosine/betaine reductase complex component A_ AltName: Full=Selenoprotein PA_ AltName: Full=Thioredoxin reductase complex selenoprotein A 1.68627e-58
+M-----------------ILQGKKVIAIGDRDGIPGPAIEECVKSA-GAEIAFSSTECFVUTAAGAMDLEIQQKVKDAAESIGADNLVVVLGGAEAESSGLSAETVTTGDPTYAGPLAGVELGLKVYHVVEDELKAEFDEAIYEDQCGMMEMVLDVDGIKEEMNRVR------------G
+>gi|239626830|ref|ZP_04669861.1| LOW QUALITY PROTEIN: glycine/sarcosine/betaine reductase complex component A2 [Clostridiales bacterium 1_7_47_FAA] 1.0725e-36
+-------------------------------------------------------------TSAGAMDLENQKRVLKLSEEYGPENIVVLLGAAEAEAAGLAAETVTAGDPTYAGPLAGVQLGLNVYHICEDEVKAEADPAVYDEQVGMMEMVMDVPAIHEEVEKIRKDYGK-------Y
+>gi|227901788|ref|ZP_04019593.1| glycine reductase complex selenoprotein [Finegoldia magna ATCC 53516] 4.69521e-37
+---------------------------------------------------------------AGAMDLENQKRVKDFAEQYGAENVVVLLGAAEAEAAGLAAETVTAGDPTFAGPLAGVELGLLVYHVVEEECKEQFDADVYDEQVGMMEMVLDVDEIAEEMNDIRSDYCKF------L
+>gi|54303218|ref|YP_133211.1| putative glycine reductase complex selenoprotein A [Photobacterium profundum SS9] 6.43574e-43
+------------------------------------------------------------------MDLENQKRIKGFAEEFGAENILIVLGGAEAEASGLACETVTNGDPTFAGPLAGVQLGLSCYHVVEPEIKNNVDADVYDEQIGMMEMVLDVDAIIAEIKGYREQFGKYVLAEAEV
+>gi|168178689|ref|ZP_02613353.1| glycine/sarcosine/betaine reductase complex component A1 [Clostridium botulinum NCTC 2916] 1.08305e-31
+------------------------------------------------------------------MDLENQKRVKTLTEKHGAENILVILGAAEGEAAGLAAETVTNGDPTFAGPLSNVQLGLRVYHAVEPEFKEEVNEEVYEEEIGMMEMVLEVDEIIEEMTDIRTEFCKF-----LD
+>gi|260655442|ref|ZP_05860930.1| glycine reductase, A [Jonquetella anthropi E3_33 E1] 1.72461e-38
+------------------------------------------------------------------MDLQNQQRVKDVAEKYGAENVVVIFGSSDAEGAEIYAETVTNGDPTYAGPLAGVPLGLAVYDIFEEEIRAEADPAAWEENISMMEMVLDPEALAAAVKGIREQYSKF-----TL
+>gi|218550326|ref|YP_002384117.1| Putative selenoprotein A of glycine-reductase [Escherichia fergusonii ATCC 35469] 2.88887e-43
+------------------------------------------------------------------MDLENQRRVLALSEKYPPQDLIVILGGSEAEASGLACETVTNGDPTFAGPLAGVQLGLQCYHIVEDEVKQAVDTDVYQEQVGMMEMVLDVDAISREVRQYREEYCHY-----LS
+>gi|255526001|ref|ZP_05392926.1| Glycine reductase [Clostridium carboxidivorans P7] 4.38695e-41
+------------------------------------------------------------------MDLEIQQRVKDLTEKYGAENVIVIIGGAEAEASGLSAETVAAGDPTFAGPLAGIALGLGVYHAVEPEVKDEFDAAVYDEQCGMMEMVLDVDAIISEVKPIRDEYSKY-----NK
+>gi|255528246|ref|ZP_05395065.1| Glycine reductase [Clostridium carboxidivorans P7] 1.57246e-40
+------------------------------------------------------------------MDLEIQQRVIDLTSKYGAENVIVLIGGAEAEASGLSAETVAAGDPTFAGPLAGIALGLGVYHVVEPEIKDEFDAAVYDEQCGMMEMVLDVDAIISEVKPIRDEYSKY-----NK
+>gi|260655174|ref|ZP_05860662.1| glycine reductase, A [Jonquetella anthropi E3_33 E1] 3.19773e-38
+------------------------------------------------------------------MDLQNQQRVKDVAEKYGAENVVVIFGSSDAEGAEIYAETVTNGDPTYAGPLAGVPLGLAVYDIFEEEIRAEADPAAWEENISMMEMVLDPEALAAAVKGIREQYSQY-----TL
+>gi|257456026|ref|ZP_05621232.1| glycine/sarcosine/betaine reductase complex component A1 [Treponema vincentii ATCC 35580] 1.4955e-48
+------------------------------------------------------------------MDLENQKRVKDLAEKYGCENTVVLLGGAEAESSGLACETVTNGDPTFAGPLAGVSLGLLCYHVVEPEIKNQIDPKVYEEQISMMEMVLDVPAIIAEVKEYREKYCKF-----LK
+>gi|169824125|ref|YP_001691736.1| glycine reductase complex selenoprotein [Finegoldia magna ATCC 29328] 9.30937e-36
+------------------------------------------------------------------MDLENQKRVKDFAEQYGAENIVVLLGAAEAEAAGLAAETVTAGDPTFAGPLAGVELGLLVYHVVEEECKEQFDADVYDEQVGMMEMVLDVDEIAEEMNDIRSEYCKF------L
+>gi|283797367|ref|ZP_06346520.1| Glycine reductase complex selenoprotein A [Clostridium sp. M62/1] 3.11778e-39
+------------------------------------------------------------------MDLENQKRVKDFAEQYGPENVVVILGAAEGEAAGLAAETVTAGDPTFAGPLAGVQLGLTVYHICEDEIKAEVDPGVYDDQISMMEMVMDVDDIHNEMSSIRDQYCKY------L
+>gi|169824132|ref|YP_001691743.1| glycine reductase complex selenoprotein [Finegoldia magna ATCC 29328] 9.23201e-36
+------------------------------------------------------------------MDLENQKRVKDFADQYGAENIVVLLGAAEAEAAGLAAETVTAGDPTFAGPLAGVELGLLVYHVVEEECKEQFDADVYDEQVGMMEMVLDVDEIAEEMNDIRSEYCKF------L
+>gi|227874408|ref|ZP_03992590.1| glycine reductase complex selenoprotein [Oribacterium sinus F0268] 4.14046e-39
+------------------------------------------------------------------MDLENQKRVKDFADKFGPENLVVVLGAAEGEAAGLAAETVTAGDPTFAGPLTGVQLGLTVYHVCEPELKEEFDESVYEDQVSMMEMVLDVDDIVNEMNSIRSEYCKY------L
+>gi|95930156|ref|ZP_01312895.1| glycine reductase complex selenoprotein A [Desulfuromonas acetoxidans DSM 684] 1.03609e-40
+------------------------------------------------------------------MDLENQNRVKSMTEEFGGENIIVLVGAAEAESAGLAAETVSNGDPTFAGSLAGVPLGLKVYHVVEPEFKAAVPEEVYSDQIEMMEMVLDVDSIVEEMTEIRTQYCK------YL
+>gi|90410189|ref|ZP_01218206.1| Putative selenoprotein A of glycine-reductase [Photobacterium profundum 3TCK] 4.50075e-39
+------------------------------------------------------------------MDLENQKRIKALADEFGAENVIVILGGAEAEASGLACETVTTGDPTFAGPLAGVQLGLSCYHVVEDAIKEAVDPAVYEEQIGMMEMVLDVDAIKAEMQQYREEPVE-------A
+>gi|54303217|ref|YP_133210.1| putative selenoprotein A of glycine-reductase [Photobacterium profundum SS9] 3.68399e-39
+------------------------------------------------------------------MDLENQKRIKALADEFGAENIIVILGGAEAEASGLACETVTTGDPTFAGPLAGVQLGLSCYHVVEDAIKEAVDPAVYEEQIGMMEMVLDVDAIKAEMQQYREEPVE-------A
+>gi|255524730|ref|ZP_05391682.1| Sarcosine reductase [Clostridium carboxidivorans P7] 9.6919e-41
+------------------------------------------------------------------MDLEIQQRVKDLTEKHGAENVVVVIGGAEAEASGLSAETVSAGDPTFAGPLAGVELGLAVYHMVEPEIKDECDAAVYDEQCGMMEMVLDVDAIIGEVKTIREQYSK-------F
+>gi|206896543|ref|YP_002246592.1| glycine/sarcosine/betaine reductase complex component A1 (Selenoprotein PA 1) (Thioredoxinreductase complex A 1) [Coprothermobacter proteolyticus DSM 5265] 7.99954e-41
+------------------------------------------------------------------MDLEVQGRIKEIAEKYGPENVVVILGNSDPDGASIFAETVTNGDPSFAGPLAGVALGLPVYHIIEPEIKQEIDPQVYEEQVGIVEMVLDVDAITNAVKSIREQYSK-------F
+>gi|85860131|ref|YP_462333.1| glycine reductase complex selenoprotein A [Syntrophus aciditrophicus SB] 4.47372e-31
+------------------------------------------------------------------MDMEMQATIKKLVDDLGTSDLVVVIGAADAEVAQVTAETVTFGDPSFAGPLAGVSLRLPVYHILEPEVKQAIPHDIYDEQAGFLELVADTEEIGKRFKEIRGKIG-------MV
+>gi|227999747|ref|ZP_04046749.1| Glycine reductase complex selenoprotein A [Brachyspira murdochii DSM 12563] 3.59604e-36
+------------------------------------------------------------------MDLENQKRIKEFAEKFGGENIVVLFGAAEAEASGLAAETVMLGDPTYAGALANVALHLDAYHAVEPEFKEAVDPAVYDEQVGMAEMTLNVDEIIAEMKRMREENK-------NS
+>gi|170760152|ref|YP_001786649.1| glycine/sarcosine/betaine reductase complex component A1 (selenoprotein PA 1) (thioredoxinreductase complex A 1) [Clostridium botulinum A3 str. Loch Maree] 3.6904e-33
+--------------------------------------------------------------------MENQKRVKTLTEKHGAENILVILGAAEGEAAGLAAETVTNGDPTFAGPLSNVQLGLRVYHAVEPEFKEEVNEEVYDEEIGMMEMVLEVDEIIEEMTDIRTEFCKF-----SD
+>gi|282857293|ref|ZP_06266531.1| glycine/sarcosine/betaine reductase complex component A1 (Selenoprotein PA 1) (Thioredoxinreductase complex A 1) [Pyramidobacter piscolens W5455] 3.36287e-37
+--------------------------------------------------------------------MQNQQRVKDCAEKYGAENCVVIFGSSDAEGAEIYAETVTNGDPTFAGPLAGVPLGLAVYDIFDEEIRAEADPKAWEEQISMMEMVLDPEALAAAVKGIRDQYSQY-----KL
+>gi|241889323|ref|ZP_04776626.1| glycine/sarcosine/betaine reductase complex component A [Gemella haemolysans ATCC 10379] 1.05597e-32
+------------------------------------------------------------------MDLENQKRVKEAAEKFGNENVVVLLGASEAEAAGLAAETVTAGDPTFAGPLAGVALNLAVYHIVEEEIKSQIDEAIYEDQVGMMEMVLDIDEITSEMKDVRG-----------E
+>gi|262038499|ref|ZP_06011868.1| glycine/sarcosine/betaine reductase complex component A [Leptotrichia goodfellowii F0264] 1.07405e-31
+------------------------------------------------------------------MDLENQKRVKEAAEKFGNENVAVLLGASEAEAAGLAAETVTVGDPTFAGPLAGVALNLAVYHIVEEAVKEQVDPAVYEEQVGMMEMVLDVDAISEEMKEVRG-----------D
+>gi|227874409|ref|ZP_03992591.1| glycine reductase complex component A, selenocysteine-containing [Oribacterium sinus F0268] 1.20337e-13
+MTKVITIHIFKERREKMAILKGKKVIIIGDRDGVPGPAIQACVETA-GGEVVFASTECF------------------------------------------------------------------------------------------------------------------------V
+>gi|262038559|ref|ZP_06011928.1| glycine/sarcosine/betaine reductase complex component A [Leptotrichia goodfellowii F0264] 9.14263e-12
+M----------------SSLKNKKVIIIGDRDGIPGLAIEECVKTIEGTEVVFSSTECF------------------------------------------------------------------------------------------------------------------------V
+>gi|254975936|ref|ZP_05272408.1| glycine/sarcosine/betaine reductase complex protein A [Clostridium difficile QCD-66c26] 1.48292e-12
+M----------------SLLSNKKVLIIGDRDGIPGPAIEECVKTVEGAEVVFSSTECF------------------------------------------------------------------------------------------------------------------------V
+>gi|169824133|ref|YP_001691744.1| glycine reductase complex selenoprotein [Finegoldia magna ATCC 29328] 3.5921e-11
+M----------------GFLENKKVIIIGDRDGIPGLAIETCVNTVSNTEVIFSSTECF------------------------------------------------------------------------------------------------------------------------V
+>gi|169824126|ref|YP_001691737.1| glycine reductase complex selenoprotein [Finegoldia magna ATCC 29328] 5.77958e-11
+M----------------GFLENKKVIIIGDRDGIPGLAIETCVNTVPNTEVIFSSTECF------------------------------------------------------------------------------------------------------------------------V
+>gi|260655175|ref|ZP_05860663.1| glycine reductase, A [Jonquetella anthropi E3_33 E1] 7.06096e-11
+M----------------GKLAGKKLVFLGERDGVPAPAMEACFKNS-GAEVVFEATECF------------------------------------------------------------------------------------------------------------------------V
+>gi|282857294|ref|ZP_06266532.1| glycine/sarcosine/betaine reductase complex component A1 (Selenoprotein PA 1) (Thioredoxinreductase complex A 1) [Pyramidobacter piscolens W5455] 9.2219e-11
+M----------------GKLAGKKLILLGERDGVPAPAMKACFENS-GAEVVFEATECF------------------------------------------------------------------------------------------------------------------------V
+>gi|95930157|ref|ZP_01312896.1| glycine reductase, selenoprotein A [Desulfuromonas acetoxidans DSM 684] 1.66618e-13
+M----------------NMFDGKKVIIIGDRDGIPAPAVVECLKNT-GADVVFSSTECF------------------------------------------------------------------------------------------------------------------------V
+>gi|255526002|ref|ZP_05392927.1| glycine/sarcosine/betaine reductase complex protein A [Clostridium carboxidivorans P7] 3.74404e-12
+M----------------SLLEGKKIIAIGDRDGIPGPAIEECAKSA-KAEVVFASTECF------------------------------------------------------------------------------------------------------------------------V
+>gi|170759847|ref|YP_001786648.1| glycine reductase complex component A, selenocysteine-containing [Clostridium botulinum A3 str. Loch Maree] 1.14461e-13
+M----------------SLFEGKKAIIIGDRDGIPGPAIEKCIEGT-GAEVVFSSTECF------------------------------------------------------------------------------------------------------------------------V
+>gi|218550327|ref|YP_002384118.1| Glycine/sarcosine/betaine reductase complex component A (Selenoprotein PA) (Thioredoxin reductase complex selenoprotein A) (fragment) [Escherichia fergusonii ATCC 35469] 1.97207e-12
+M----------------D-LRSKKIIILGDRDGVPGPAIETCVRSA-GAEVVFSTTECF------------------------------------------------------------------------------------------------------------------------V
+>gi|257456025|ref|ZP_05621231.1| glycine/sarcosine/betaine reductase complex component A1 [Treponema vincentii ATCC 35580] 2.04007e-13
+M----------------E-LKGKKVIIIGDRDGIPGEAIKLCAETA-GAEVVYAATECF------------------------------------------------------------------------------------------------------------------------V
+>gi|255524731|ref|ZP_05391683.1| glycine/sarcosine/betaine reductase complex protein A [Clostridium carboxidivorans P7] 1.24493e-11
+M------------------LQGKKVIAVGDRDGIPGPAIEACVKSA-GAEVIFASTECF------------------------------------------------------------------------------------------------------------------------V
+>gi|206895676|ref|YP_002246591.1| glycine/sarcosine/betaine reductase complex component A1 (Selenoprotein PA 1) (Thioredoxinreductase complex A 1) [Coprothermobacter proteolyticus DSM 5265] 8.34328e-11
+M------------------LEGKKVIIVGERDGVPGPAIEECIKTA-GAEVVFSTTECS------------------------------------------------------------------------------------------------------------------------V

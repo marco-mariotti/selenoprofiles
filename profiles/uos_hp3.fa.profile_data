@@ -1,0 +1,92 @@
+# md5sum id for alignment: 43a75dae212f20a98120113a7142511e
+# Clustering seq id value: 0.27
+# Number of clusters: 1
+# Blast queries alignment:
+>BLAST_QUERY_1
+MVSAIQQGPKETHIMTSEMQCSYCKQPLEIIRAUKAVYLRCRGCGASYRPAQYKQQMIEEAERRLADCRCDRI
+>BLAST_QUERY_MASTER
+MVSAIQQGPKETHIMTSEMQCSYCKQPLEIIRAUKAVYLRCRGCGASYRPAQYKQQMIEEAERRLADCRCDRI
+# Cluster alignment n.1:
+>Unknown__Candidatus_Desulfococcus_oleovorans_Hxd3 Unknown, OS_HP3, [Se user]; [Candidatus Desulfococcus oleovorans Hxd3 (Bacteria/Proteobacteria/delta)]
+MVSALQQVPKETCIMTTEMQCLYCKGPVEIRRTUKAVYLRCRFCNASFTPEQYTQQMDEEFENRLADVRCDRI
+>Unknown__Syntrophobacter_fumaroxidans_MPOB Unknown, OS_HP3, [Se user]; [Syntrophobacter fumaroxidans MPOB (Bacteria/Proteobacteria/delta)]
+V-LPIRRGNSENHRGGSLLKCSACNQELELIRAUKQVFWRCRGCGARYRLADLKDELIDEAERELADCRVDRL
+>BLAST_QUERY_1
+MVSAIQQGPKETHIMTSEMQCSYCKQPLEIIRAUKAVYLRCRGCGASYRPAQYKQQMIEEAERRLADCRCDRI
+# Average weighted sequence identity with coverage: 0.450405382094 +- 0.00120752113162
+# Average weighted sequence identity without coverage: 0.451612903226 +- 0.0
+# Conservation map: [
+{'M': 0.5, 'V': 0.5},  #1
+{'-': 0.5, 'V': 0.5},  #2
+{'S': 0.5, 'L': 0.5},  #3
+{'A': 0.5, 'P': 0.5},  #4
+{'I': 0.5, 'L': 0.5},  #5
+{'Q': 0.5, 'R': 0.5},  #6
+{'Q': 0.5, 'R': 0.5},  #7
+{'G': 0.5, 'V': 0.5},  #8
+{'P': 0.5, 'N': 0.5},  #9
+{'K': 0.5, 'S': 0.5},  #10
+{'E': 1.0},  #11
+{'T': 0.5, 'N': 0.5},  #12
+{'H': 0.5, 'C': 0.5},  #13
+{'I': 0.5, 'R': 0.5},  #14
+{'M': 0.5, 'G': 0.5},  #15
+{'T': 0.5, 'G': 0.5},  #16
+{'S': 0.5, 'T': 0.5},  #17
+{'E': 0.5, 'L': 0.5},  #18
+{'M': 0.5, 'L': 0.5},  #19
+{'Q': 0.5, 'K': 0.5},  #20
+{'C': 1.0},  #21
+{'S': 0.5, 'L': 0.5},  #22
+{'Y': 0.5, 'A': 0.5},  #23
+{'C': 1.0},  #24
+{'K': 0.5, 'N': 0.5},  #25
+{'Q': 0.5, 'G': 0.5},  #26
+{'P': 0.5, 'E': 0.5},  #27
+{'L': 0.5, 'V': 0.5},  #28
+{'E': 1.0},  #29
+{'I': 0.5, 'L': 0.5},  #30
+{'I': 0.5, 'R': 0.5},  #31
+{'R': 1.0},  #32
+{'A': 0.5, 'T': 0.5},  #33
+{'U': 1.0},  #34
+{'K': 1.0},  #35
+{'A': 0.5, 'Q': 0.5},  #36
+{'V': 1.0},  #37
+{'Y': 0.5, 'F': 0.5},  #38
+{'L': 0.5, 'W': 0.5},  #39
+{'R': 1.0},  #40
+{'C': 1.0},  #41
+{'R': 1.0},  #42
+{'G': 0.5, 'F': 0.5},  #43
+{'C': 1.0},  #44
+{'G': 0.5, 'N': 0.5},  #45
+{'A': 1.0},  #46
+{'S': 0.5, 'R': 0.5},  #47
+{'Y': 0.5, 'F': 0.5},  #48
+{'R': 0.5, 'T': 0.5},  #49
+{'P': 0.5, 'L': 0.5},  #50
+{'A': 0.5, 'E': 0.5},  #51
+{'Q': 0.5, 'D': 0.5},  #52
+{'Y': 0.5, 'L': 0.5},  #53
+{'K': 0.5, 'T': 0.5},  #54
+{'Q': 0.5, 'D': 0.5},  #55
+{'Q': 0.5, 'E': 0.5},  #56
+{'M': 0.5, 'L': 0.5},  #57
+{'I': 0.5, 'D': 0.5},  #58
+{'E': 0.5, 'D': 0.5},  #59
+{'E': 1.0},  #60
+{'A': 0.5, 'F': 0.5},  #61
+{'E': 1.0},  #62
+{'R': 0.5, 'N': 0.5},  #63
+{'R': 0.5, 'E': 0.5},  #64
+{'L': 1.0},  #65
+{'A': 1.0},  #66
+{'D': 1.0},  #67
+{'C': 0.5, 'V': 0.5},  #68
+{'R': 1.0},  #69
+{'C': 0.5, 'V': 0.5},  #70
+{'D': 1.0},  #71
+{'R': 1.0},  #72
+{'I': 0.5, 'L': 0.5},  #73
+]

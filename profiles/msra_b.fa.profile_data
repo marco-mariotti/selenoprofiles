@@ -1,0 +1,659 @@
+# md5sum id for alignment: 53a077ebbfc3721f6ce2b8b83273705e
+# Clustering seq id value: 0.27
+# Number of clusters: 1
+# Blast queries alignment:
+>BLAST_QUERY_1
+MFF---------------------------------------------------------FLRKK--TTLPTPEEALPGRA---E-P-MPV-P-ERHFVN-GTPL-KGPFPEG-MEQAVFGMGUFWGAERLFWQL---P-GVYSTAVGYAGGYTPNPTYEEVCSGLTGHTEVVLVVFDPAVISYEELLKVFWESHDPTQGMRQGNDVGTQYRSAIYTTTPEQLAAAEASRDAYQAALTAAGY-GEITTEIA-----PA--------PPFYYAEDYHQQYL--AKN-PNGYCGLGGTGVSC------------PIGL---------------------------------------------------------------------------------------------------------------------------AAA
+>BLAST_QUERY_MASTER
+MFF---------------------------------------------------------FLRKK--TTLPTPEEALPGRA---E-P-MPV-P-ERHFVN-GTPL-KGPFPEG-MEQAVFGMGUFWGAERLFWQL---P-GVYSTAVGYAGGYTPNPTYEEVCSGLTGHTEVVLVVFDPAVISYEELLKVFWESHDPTQGMRQGNDVGTQYRSAIYTTTPEQLAAAEASRDAYQAALTAAGY-GEITTEIA-----PA--------PPFYYAEDYHQQYL--AKN-PNGYCGLGGTGVSC------------PIGL---------------------------------------------------------------------------------------------------------------------------AAA
+# Cluster alignment n.1:
+>gi|254719880|ref|ZP_05181691.1| methionine sulfoxide reductase A [Brucella sp. 83/13] 2.23443e-87
+MS------------------------------------------------------F-FDSYRKK--MQMPSKEEALPGRV---Q-P-IPT-A-AAHFVS-GHPL-KGPWPDG-MKQVLFGMGCFWGAERLFWQV---P-GVYVTAVGYAGGITPNPTYEETCTGLTGHAEVVLVVYDPKVVTLNELLALFWEEHDPTQGMRQGNDIGTTYRSVIYTFDAADRAVAEKSREAYSQALASRGL-GPVTTQIA-----DA--------PDFYYAEDYHQQYL--AKN-PDGYCGLRGTGVSC------------PILLR-ID-QGARLPVRRLGDGHIRRSLFFQFQKAVGKGVQLLGKLIDSFPLFGEDRGQFIDCLFLFRHANFQLDKTFFGRHDLIPVCVAMMELEARRHAIRASVPK----------------KIGSGAD
+>gi|169627225|ref|YP_001700874.1| peptide methionine sulfoxide reductase [Mycobacterium abscessus ATCC 19977] 1.52487e-81
+MASWVD------------N--VRDQILG-------------RI-------------E-DGLKPGK--SAIVAEDAALPGRA---T-P-IRV-S-GTHFVN-GHTT-VPPFPDG-CELAVFGEGCFWGAERGFWKL---P-GVYSTAVGYAGGYTPNPTYEEVCSGRTGHAEVVLVVFDPREVTYGQLLVQFWESHDPTQGMRQGNDRGTQYRSVIYTTSEGQAVQAAESAARYEAALADAGY-GAITTEIA-----PLNGPVGHASRTFFYAEEYHQQYL--AKN-PNGYCGLGGTSVSC------------PIGLD-VP-P------------------------------------------------------------------------------------------------------------------GGPAEA
+>gi|119505067|ref|ZP_01627143.1| methionine-S-sulfoxide reductase [marine gamma proteobacterium HTCC2080] 3.98179e-80
+MGGGSL------------NFHLKQSLLSGH------------------------MS--LFDIRRK--RALPTAETALGGRT---A-AM-SV-T-NNHVVS-GHPI-CPPFPDH-LAVAMFGMGCFWGVEKKFWQA---H-GVFTTAVGYAAGVTPNPNYKEVCSGQTGHNEVVLVVFDPEQVSYHALLSLFWEGHNPTQGMRQGNDLGTQYRSGIYCFDQDQRVAAIGSRDRYQQGLTASGF-GEITTEIC-----DA--------PIFYYAEDYHQQYL--HKN-PAGYCGLGGTGVVC------------PVGTG-VN-ES------------------------------------------------------------------------------------------------------------------LPQSG
+>gi|111225545|ref|YP_716339.1| peptide methionine sulfoxide reductase [Frankia alni ACN14a] 6.46026e-80
+MAQM------------------------------------------------------F-FGRHK--TTLPTPEEALPGRD---R-P-VFV-GDSRHTVL-GTSF-TGPFPAG-LDTAVFGLGCFWGAERAFWQV---P-GVYTTAVGYAGGSTPNPTYEEVCSGQTGHTEAVLVVFDPAKVSYAELLKVFWEGHDPTQGMRQGNDVGTQYRSAIYTTSDAQAAAADASRDGFEKVLQGAGY-GPITTEIA-----PA--------GPFYLAEEYHQQYLSDAKN-PYGYCGLGGTGLSC------------PVGVA-GV-GAD--------------------------------------------------------------------------------------------------------------REGSAGVA
+>gi|134096725|ref|YP_001102386.1| peptide methionine sulfoxide reductase [Saccharopolyspora erythraea NRRL 2338] 4.77716e-85
+MALFG-----------------------------------------------------DPFSSHK--VRMVEPGDALAGRS---T-P-MPV-S-EWHAVHPDRRI-VPPFPEG-LATAVVGMGCFWGAERTFWRT---E-GVWSTAVGYAGGYTPNPTYEEVCSGLTGHTEAVLVVFDPKVISYEQVLKVFWENHDPTQGMRQGNDVGTQYRSAIYYADDQQRQIAEASRDQFQAALTAAGH-GTVSTELA-----PL--------RDFYYAETYHQQYLSDAKN-PNGYCGIGGTGVSC------------PVGLA------------------------------------------------------------------------------------------------------------------------MPGDS
+>gi|148545616|ref|YP_001265718.1| methionine sulfoxide reductase A [Pseudomonas putida F1] 2.11011e-83
+MPAKAQ-----------------------TPTPL-----------NK-HR-GTAMVLRSEILVNK--NVMPTAEQALPGRD---T-P-MSL-P-EFHYVFKDTPL-LGPFFEGAIDFAIFGLGCFWGAERRFWQR---E-GVVSTVVGYAGGFTPHPTYEEVCSGLTGHTEVVLVVFDKDKVSYRELLAMFWELHNPTQGMRQGNDIGTQYRSAIYCTSPEQLEQAKASRDAFQAELSKAGF-GEITTEID-----QA--------PTVYFAEAYHQQYL--AKN-PDGYCGIGGTGVCL------------PPSL---------------------------------------------------------------------------------------------------------------------------QGN
+>gi|282865252|ref|ZP_06274304.1| peptide methionine sulfoxide reductase [Streptomyces sp. ACTE] 7.45558e-75
+MF----------------------------------------------------------LTRRT--PQLPTPQEALRGRP---V-PEFPV-P-SRHTVL-GNAL-TGPYPQG-LEVADFALGCFWGAERKFWQT---E-GVWTTLVGYQGGYTENPTYEETCSGLTGHTEAVRVVFDPTVVSYAELLKLFWESHNPTQGFRQGNDVGTQYRSALYTHSPEQAEAAAASREAFQKVLTGAGL-GEITTEIL-----PAE------GRTFWPAEAYHQQYL--DKN-PDGYCGIGGTGATLESPSETNWGRACPTGIAPA--P-------------------------------------------------------------------------------------------------------------------KAAEK
+>gi|81300746|ref|YP_400954.1| peptide methionine sulfoxide reductase [Synechococcus elongatus PCC 7942] 2.4345e-79
+MF--------------------------------------------------------G-LFGKK--TGLPTPEEALPGRA---Q-A-MLV-P-AKHFVL-GTPL-DGPFPVG-IQLALFGNGCFWGTEKQFWQL---P-GVYSTAVGYAGGLTPNPNYREVCSGMTGHNEVVRVAYDPDRISYADLLKAFWESHDPTQGMGQGPDRGTQYRSGIYCYTPEQKQIALASQAAYQAVLKAKGY-GAITTEII-----DA--------PTFYFAEEYHQQYL--DKPGSRPYCGAQPTGADL------------PHPNQ-WNLPTE--------------------------------------------------------------------------------------------LQ--SHLTAHPEVWSKNFAECPVVPH
+>gi|284050517|ref|ZP_06380727.1| methionine sulfoxide reductase A [Arthrospira platensis str. Paraca] 1.72467e-88
+MTLKCK-----------------------VTL-------------RQ-NP-QNIMV--LFGFGKK--KSLPQPEEALPGRD---R-V-MSV-P-DRHYIN-GNPL-KPPFPEG-MEQAVFGLGCFWGAERKFWQQ---Q-GVFSTAVGYAGGYTKNPTYEEVCSGMTGHTEVVLVVFDPQVISYADLLKLFWESHNPTQGMRQGNDTGTQYRSAIYTYSDEHQRQALASRDRYQQALSAASY-GEITTEIA-----PA--------KEFYYAEAYHQQYL--GKN-PNGYCGLGGTGVGC------------PAMT--------------------------------------------------------------------------------------------------------------------------ETSV
+>gi|262197602|ref|YP_003268811.1| peptide methionine sulfoxide reductase [Haliangium ochraceum DSM 14365] 9.54289e-87
+MLSR------------------------------------------------------MIFAARK--SKMPAPDEALPGRQ---T-P-MHI-T-NQHFVH-GTPL-QPPFPDR-LESAYFAMGCFWGAERYFWKI---P-GVYSTAVGYAAGYTPNPSYEEVCSGRTGHNEVVLVIFDPEIVSYERLLQAFWENHDPTQGMRQGNDVGTQYRSGIYTTSVAQKQAAEESRTAFQRALDQVGY-GAITTEIL-----EA--------PSFYYAEDYHQQYL--AKN-PNGYCGIGGTGVSC------------PIGVG-S-----------------------------------------------------------------------------------------------------------------------HSAQ
+>gi|269923161|ref|ZP_06172064.1| peptide methionine sulfoxide reductase [Brevundimonas subvibrioides ATCC 15264] 3.50828e-85
+MGVMSF------------LS--------R--------------------------I--LSIMSSK--TTLPTAQTALPGRS---T-PL-PT-D-EVHFVS-GRPL-KGPHPEG-FQTAIFGMGCFWGVERKFWSV---P-GVWVTSVGYSGGITPNPTYEETCTGLTGQTEVVQVVFNPDEISYAELLKTFWEGHDPTQGMRQGNDIGSTYRSAIYYLDEDQRQQAEASRDAYQAALTAAGR-GTITTEIT-----QA--------GPYYFAEGYHQGYL--AKN-PNGYCGIGGTGVVC------------PIGVG--------------------------------------------------------------------------------------------------------------------------VDA
+>gi|148259423|ref|YP_001233550.1| peptide methionine sulfoxide reductase [Acidiphilium cryptum JF-5] 1.69662e-87
+MTLVDQ-----------------------I---------------------------RAIMSAMK--TRMPTAGEALPGRA---T-P-MPI-P-EFHYVS-GARL-AEPYPPG-SEVAIFGLGCFWGAERKFWQA---P-GVLVTAVGYAGGFTPNPTYEEVCSGRTGHAEVVLVVFDPRAISYQNLLKLFWENHDPTQGMRQGGDIGTQYRSAIYALSDEQLRLAELSRDAYQNVLSEAGF-GRITTEIL-----PA--------PTFFFAEAYHQQYL--AKN-PDGYCGLGGTGVTC------------PAGV--------------------------------------------------------------------------------------------------------------------------MPAD
+>gi|22298428|ref|NP_681675.1| methionine sulfoxide reductase A [Thermosynechococcus elongatus BP-1] 3.11879e-88
+MGFFG-------------------------------------------------------FKNKK--LTMPSPSEALPGRA---E-P-MPV-P-KAHLVN-GHPL-TPPYPEG-MELAMFGMGCFWGAERKFWQV---P-GVYVTAVGYAGGYTPNPTYEEVCTGMTGHNEVVRVVFDPQIVSYEELLKVFWENHDPTQGMRQGNDVGTQYRSGIYYYSPEQKALAEASRDRYQAALTAAGY-GTITTEIL-----PA--------PEFYFAEPYHQQYL--QRN-VNGYCGLGGTKVPY------------ELMGA-T--P-------------------------------------------------------------------------------------------------------------------AFRGD
+>gi|22298428|ref|NP_681675.1|_1 methionine sulfoxide reductase A [Thermosynechococcus elongatus BP-1] 3.11879e-88 # ARTIFICIAL_U
+MGFFG-------------------------------------------------------FKNKK--LTMPSPSEALPGRA---E-P-MPV-P-KAHLVN-GHPL-TPPYPEG-MELAMFGMGUFWGAERKFWQV---P-GVYVTAVGYAGGYTPNPTYEEVCTGMTGHNEVVRVVFDPQIVSYEELLKVFWENHDPTQGMRQGNDVGTQYRSGIYYYSPEQKALAEASRDRYQAALTAAGY-GTITTEIL-----PA--------PEFYFAEPYHQQYL--QRN-VNGYCGLGGTKVPY------------ELMGA-T--P-------------------------------------------------------------------------------------------------------------------AFRGD
+>gi|90419745|ref|ZP_01227654.1| peptide methionine sulfoxide reductase msrA [Aurantimonas manganoxydans SI85-9A1] 1.51089e-84
+MYIL-------------------------------------------------------DMFSKK--MKLPGAEDALPGRD---A-PI-ET-A-ETHFVN-GEAL-KGPFADG-LETAIFGMGCFWGVERKFWQL---P-GVVVTAAGYAAGTTPNPTYQEVCTGQTGHNEVVLVVFDPSKISYEALLKTFWEGHDPTQGMRQGNDMGTQYRSGIYLTSEDQRAAAEASKAAYQKALTAAGHKGTITTEIR-----PA--------GEFYYAEGYHQQYL--AKN-PSGYCGVGGTGVSC------------PVGLG-A-----------------------------------------------------------------------------------------------------------------------EAAQ
+>gi|84497861|ref|ZP_00996658.1| methionine sulfoxide reductase A [Janibacter sp. HTCC2649] 8.37211e-78
+MF----------------------------------------------------------GSRAK--TTLPTAAEALPGRE---TRPF-TV-P-TTHEVL-GTPL-EGPWPEG-TQVLYVAMGCFWGAERIFWKL---P-GVVTTAAGYIGGFTPNPTYEETCTGRTGHAEAVLVAYDPTRTTPELLLKAFWENHDPTQGNRQGNDIGTAYRSAIFWTTPEQEAAARSTREAFQGELTRVNA-GEITTQFS-----PAD-----EVGPFWYAEDYHQQYL--HKN-PNGYCNHGPNGLTC------------PIGVA-NL-PAQ--------------------------------------------------------------------------------------------TD-------------------IVPPA
+>gi|17229167|ref|NP_485715.1| methionine sulfoxide reductase A [Nostoc sp. PCC 7120] 9.86962e-86
+MA--------------------------------------------------------LFGFGKK--LALPTPEKALPGRA---Q-I-MPV-P-ANHYVN-KNPL-KPPFPDG-FEKALFGLGCFWGAERKFWQQ---Q-GVYSTAVGYAAGFTPNPTYDEVCTGLTGHNEVVLVVFDPKVISYTQLLKVFWESHNPTQGMRQGNDVGTQYRSGIYVYSEAQKQLAEASRDAYQQALSSAGY-EKITTEIL-----DA--------PEFYYAEAYHQQYL--AKN-PNGYCGLGGTNVAC------------PVGVF----E-------------------------------------------------------------------------------------------------------------------SSANG
+>gi|271962171|ref|YP_003336367.1| Peptide-methionine (S)-S-oxide reductase [Streptosporangium roseum DSM 43021] 8.21687e-85
+MG--------------------------------------------------------WLFGKDK--TSMVSPENALPGRD---T-GM-AV-P-ARHAVL-DAPL-APPYPEG-SEIADFGLGCFWGAERKFWQT---P-GVVSTSVGYAGGYTRNPTYEEVCSGQTGHTEVVRVVFDPSKVSYEELLRVFWEAHDPTQGMRQGNDVGTQYRSAVHFHSPEQEKSALTSRDAYQKVLTESGY-GKITTEIV-----PA--------GDYFFAEDYHQQYL--FKN-PGGYCGIGGTNVKLGDPSE---WAACQTGLV-------------------------------------------------------------------------------------------------------------------------PTEE
+>gi|118589621|ref|ZP_01547026.1| peptide methionine sulfoxide reductase [Stappia aggregata IAM 12614] 9.30969e-86
+MSFM-------------------------------------------------------TMLTKK--FSLPAKDEALPGRA---E-A-IRP-A-EPHFVN-GRPL-AGPYPDN-MKTLVVGMGCFWGAERLFWQL---P-GVYVTAVGYAGGYTPNPTYHETCTGRTGHTEVVLVVYDPAEISLGELLKVFWENHDPTQGMRQGNDTGTQYRSAIYVKDGGDLAQAEQSRQAYQAALKAGGVTSSITTEIR-----EL--------DSFYFAEDYHQQYL--AKN-PAGYCGIGGTGVSC------------PVGLG--------------------------------------------------------------------------------------------------------------------------QTA
+>gi|226303655|ref|YP_002763613.1| peptide methionine sulfoxide reductase MsrA [Rhodococcus erythropolis PR4] 4.73884e-84
+MSWYDD--------------------------------------------------I-LGRASAK--STLIAPEDALPGRE---Q-K-MPV-P-TAHYVN-GHPL-TPPFPAE-LQTVVVGMGCFWGAEKEFWQL---P-GVYTTAAGYAGGFTPNPTYEETCSGRTGHTEVVLVVFDPAVISYEQILAHFWENHDPTQGMRQGNDQGSQYRSAIFTTSAEQEEIAHASAVAFGERLAEAGYG-AITTEIG-----PL--------RDFFYAEDYHQQYL--AKN-PGGYCPVHATGVSC------------PVGLL-RQ-DQ---------------------------------------------------------------------------------------------VPAQT--------------DILPPSE
+>gi|77464129|ref|YP_353633.1| peptide methionine sulfoxide reductase [Rhodobacter sphaeroides 2.4.1] 1.51089e-84
+MF--------------------------------------------------------LL-NRKK--SEMVSAAEALPGRP---D-PI-PT-A-ETHFLS-GLPL-KSPVPAG-MAEAVFGMGCFWGVERKFWQV---PEGVWLTMVGYAGGYTPNPTYEEVCSGRTGHTEAVRVIYDPSVVSYAMLLKLFWENHDPTQGMRQGNDSGTQYRSAIYTYGPEQAEAARASATAYQGALSAAGR-GRITTEIL-----PA--------PPFYFAEAYHQQYL--AKN-PAGYCGVGGTGVSC------------PIGTG-VG-A-------------------------------------------------------------------------------------------------------------------ASPAR
+>gi|269128597|ref|YP_003301967.1| peptide methionine sulfoxide reductase [Thermomonospora curvata DSM 43183] 1.64141e-86
+MFGIF-------------------------------------------------------NTAFK--TEMVPADKALPGRD---T-P-MPV-P-PAHEVL-GTPL-APPYPEG-SEIADFALGCFWGAERTFWQV---P-GVITTAVGYQGGYTPNPTYEEVCSGLTGHAEAVRVVYDPAKVTYERLLRVFWESHDPTQGMRQGNDIGTQYRSAIYTHSEAQRKAAEASREAYQKALTAAGH-GTITTEIA-----PA--------GPFYFAEPYHQQYLSDAKN-PNGYCGLGGTGVSC------------PVGIA--------------------------------------------------------------------------------------------------------------------------PAE
+>gi|254284053|ref|ZP_04959021.1| methionine-S-sulfoxide reductase [gamma proteobacterium NOR51-B] 4.82697e-78
+MN--------------------------------------------------------LFDLRKK--HAIPSPEKALPGRD---E-PV-EI-T-GQHAVL-GTPM-LPPFPEG-YQRAVFAMGCFWGVERRFWQL---E-GVYTTAVGYAGGQTPNPTYREVCSGLTGHTEVFLVVFDPTIITYEQLLECFWENHNPTQGMRQGNDYGTQYRSAIYCTDSDQLSAAQASRDQYQSALSAKGF-GDITTEIM-----EA--------PPFYYAEDYHQQYL--HKN-PGGYCGVGGTGVTC------------AIGTG-V-----------------------------------------------------------------------------------------------------------------------AAEA
+>gi|53802840|ref|YP_115368.1| peptide methionine sulfoxide reductase [Methylococcus capsulatus str. Bath] 6.79191e-80
+MWF----------------------------------------------------------KSAG--SALPDPHDALPGRA---T-P-LQV-T-ETHFVH-GRRI-RPPFPSG-TARAFFGMGCFWGAERRFWTL---P-GVYSTAVGYAGGSTPNPTYDEVCTGRTGHAEVVLVVYEPDKVGFDALLQVFWTSHDPTQGMRQGNDVGTQYRSVIFATTPEQLQWALVSRDAYERALERAGR-GGITTEIR-----MA--------PDFYYAESYHQQYL--AQH-PNGYCGLRGTGVEC------------PPFRI-EQ--------------------------------------------------------------------------------------------------------------------SRADPI
+>gi|266628269|ref|ZP_06121193.1| peptide methionine sulfoxide reductase [Caulobacter segnis ATCC 21756] 4.57798e-88
+ML----------------------------------------------------------SLKKT--LEMPTVDTALPGRA---E-PI-PT-A-ETHFVN-GHAL-KGPYPDG-LETAIFAMGCFWGVERIFWKI---P-GVYVTAAGYAGGITPNPTYEETCTGRTGHTEVVLVVFDPKVVTYEALLKTFWENHDPTQGMRQGGDIGTQYRSGIYVTNDAQAAAAVESKEAYQQALSAKGL-GDITTEIA-----AA--------GPFYFAEDYHQQYL--AKN-PNGYCGIGGTGVVC------------PIGLG-VP-GG---------------------------------------------------------------------------------------------VP-------------------GGVEA
+>gi|257054165|ref|YP_003131997.1| methionine-S-sulfoxide reductase [Saccharomonospora viridis DSM 43017] 5.36598e-87
+MVLF---------------------------------------------------------GRSK--TQLVSADEALPGRA---E-A-LAT-P-DLHAVFPDRRI-KPPFPEG-MRTAVFGLGCFWGAERLFWQT---P-GVYSTAVGYSGGYTPNPTYEEVCTSLTGHAEVVLVVFDPQQVSYESLLKVFWEGHDPTQGMRQGNDIGTQYRSAIYYANDEQLKAAESSREAFQKALSAAGY-GEITTEIA-----PL--------REFYYAEDYHQQYL--YKV-PHGYCGIGGTGVSC------------PVGTG------------------------------------------------------------------------------------------------------------------------VSGSE
+>gi|280960475|ref|ZP_06235049.1| peptide methionine sulfoxide reductase [Frankia sp. EuI1c] 4.78409e-80
+ML----------------------------------------------------------FGRRA--ATMVSPEQALPGHE---R-RLYGV-P-ERHAVL-GTPL-EGPFPEG-LAVAVFGLGCFWGAERKFWET---P-GVYSTAVGYAGGFSPNPTYEETCSGQTGHTEAVQVVYDPAQVSYDKLLSVFWESHDPTQGMRQGNDVGSQYRSAIYTYSDEQAAAAARGRDAYQQRLTAAGH-GEITTEIA-----PA--------GPFYYAEDYHQQYL--HKV-PNGYCGLGGTGVSC------------PVGLA-------------------------------------------------------------------------------------------------------------------------AAEG
+>gi|239832691|ref|ZP_04681020.1| methionine-S-sulfoxide reductase [Ochrobactrum intermedium LMG 3301] 1.68399e-84
+METMS---------------------------------------------------F-LDSYRKK--MQMPSTDEALPGRA---A-P-IPT-A-ATHFVN-GRPL-KGPWPED-YKQVLFGMGCFWGAERLFWQV---P-GVYVTAVGYAGGVTPNPTYEETCTGLTGHAEVVLVVYDPKVVSLDELLTLFWEEHDPTQGMRQGNDIGTTYRSVIYTFDKADRDVAEKSRENYTQALAARAL-GPITTEIE-----DA--------PEFYYAEDYHQQYL--AKN-PNGYCGLRGTGVSC------------PIP----------------------------------------------------------------------------------------------------------------------------LAQ
+>gi|159043648|ref|YP_001532442.1| peptide methionine sulfoxide reductase [Dinoroseobacter shibae DFL 12] 5.05861e-89
+MF--------------------------------------------------------FM-SRKK--AEMVRAEDALPGRA---A-AI-PT-A-DTHFLS-GRPL-TLSVPEG-MEVAMFGMGCFWGVERMFWKL---E-GVWLTMVGYAGGFTQNPTYQEVCTGQTGHNEVVRVVYDPKVISYETLLQVFWEGHDPTQGMRQGNDVGTQYRSGIYTTTEAQAQAAQDSRAAYADQLRKAGF-GAITTEIV-----PA--------PSFYFAEDYHQQYL--AKN-PNGYCGIGGTGVSC------------PIGTG-I-----------------------------------------------------------------------------------------------------------------------AQAG
+>gi|149917293|ref|ZP_01905792.1| peptide methionine sulfoxide reductase [Plesiocystis pacifica SIR-1] 1.57434e-86
+MLPAMF-------------------------------------------------R--FLTDPRK--LELIAADEALPGRE---Q-AI-AV-P-EVHFIN-GNRL-VPPFPEG-LELAVFAMGCFWGAERKFWQL---E-GVYSTSVGYAGGYTKNPTYREVCSGQTGHTEVVQVVFDAAKIRYERLLKVFWESHDPTQGMRQGNDVGTQYRSAIYTYSDAQLAQAQASRSEFQAALLGSGY-GEITTEIR-----AA--------PPYYYAEDYHQQYL--GKN-PNGYCGLGGTGVSC------------PTGL----------------------------------------------------------------------------------------------------------------------------DT
+>gi|209964138|ref|YP_002297053.1| Peptide methionine-S-sulfoxide reductase MsrA, putative [Rhodospirillum centenum SW] 2.59501e-89
+MG--------------------------------------------------------L-FRSPR--QNLPTAADALPGRA---E-P-LPV-G-NIHAVN-GHPL-KPPFPAG-LETAVFGMGCFWGVERKFWQV---P-GVYSTAAGYAGGPTPNPTYEEVCTGRTGHAEVVLVVYDPATVSYAELLKVFWENHDPTQGMRQGNDVGTQYRSAIYATTPEQLRLAEASRDSYASRLKAQGY-GAVTTEIR-----EA--------PAFYYAEDYHQQYL--HKK-PWGYCGLGGTGVSC------------PLPTG-------------------------------------------------------------------------------------------------------------------------VAAD
+>gi|170740417|ref|YP_001769072.1| peptide methionine sulfoxide reductase [Methylobacterium sp. 4-46] 3.6916e-82
+MLF----------------------------------------------------------FRKR--AEMPAPDQILPGRP---T-PL-PT-A-ERHFVN-GRAL-KGPYPEG-IETALFGLGCFWGAERKFWQLG--D-GIWVTAVGYAAGTTPNPTYEEVCTGLTGHNEVVLVAYDPAVLPFGQLLRTFWESHDPTQGMRQGNDVGTQYRSGLYVSDPERRAEAEASRDAYAQALRAKGF-GSITTEIR-----DP--------GPFYFAEAYHQQYL--AKN-PAGYCGLGGTGVAC------------PVGTG-V----------------------------------------------------------------------------------------------------------------------RSAAE
+>gi|146305609|ref|YP_001186074.1| peptide methionine sulfoxide reductase [Pseudomonas mendocina ymp] 1.11215e-76
+MVLR------------------------------------------------------SQILAHK--LALPTAEQALPGRA---E-P-LPV-A-QQHHVN-GNPI-KPPFPAP-MQQAVFGLGCFWGAERRFWQQ---P-GVFSTAVGYAGGFTPNPTYEEVCSGLTGHTEVVLVVFDPQQTSFDALLKVFWEAHNPTQGMRQGNDQGTQYRSAIYCQDHAQLEAALASQARFQAELDKAGL-GSITTEIC-----EA--------PIFYYAETYHQQYL--AKN-PGGYCGLGGTGVCL------------PPE----------------------------------------------------------------------------------------------------------------------------PAA
+>gi|254479970|ref|ZP_05093218.1| Peptide methionine sulfoxide reductase superfamily protein [marine gamma proteobacterium HTCC2148] 6.44904e-86
+MQICLN------------SG--------AE------------------------MT--LFDIRKK--RAIPTTETALPGRP---E-AI-PV-P-ASHYVN-GNTL-AGPFPEG-LQYAVFGMGCFWGVERMFWQL---P-GVYSTAAGYAAGVTPNPTYQEVCSGRTGHNEVVQVVYDPAKISYQQLLQTFWEGHNPTQGMRQGNDMGTQYRSGIYTFSDEQLELAQNSKLEFQGAISKAGY-GEITTEIL-----PA--------PEFYYAEDYHQQYL--AKN-VNGYCGLGGIGVSC------------PVG-----------------------------------------------------------------------------------------------------------------------------VI
+>gi|283822021|ref|ZP_06348831.1| peptide methionine sulfoxide reductase [Rhodomicrobium vannielii ATCC 17100] 3.48418e-80
+MFS----------------------------------------------------------FSKK--TKMPDAATALPGRD---A-PI-PT-T-DTNIVN-GAAL-KPPYPEG-SEIAIFGLGCFWGAERRFWQI---P-GVIVTAVGYAGGFTPNPTYEEVCSGRTGHTEAVLVVFDPKKVSYGELLKAFWESHNPTQGMRQGNDVGTQYRSAIYTTNDEQEREALASKEAYQQALSAKGH-GAITTEIA-----PA--------GEFYFAEGYHQQYL--AKN-PGGYCGLGGTGVSC------------PVGIG-E-----------------------------------------------------------------------------------------------------------------------TSPA
+>gi|77165545|ref|YP_344070.1| methionine sulfoxide reductase A [Nitrosococcus oceani ATCC 19707] 5.99464e-79
+MF----------------------------------------------------------KIHPK--IEIPAAEEALPGRA---E-K-MPV-P-QQHYVN-GHPL-TPPFPEG-MEQALFGMGCFWGAERKFWQT---E-GVYTSAVGYAGGHTPNPTYEQVCTGMTGHTEAVRVVYDPKIISYPSLLKIFWESHDPTQGMRQGNDVGTQYRSAIYTYNNAQKTAAEASRKNYEKNLQEAGY-APITTEIG-----PA--------PEFYYAESYHQQYL--AKN-PGGYCGLGGTGVVC------------PTQIE------------------------------------------------------------------------------------------------------------------------RNLSE
+>gi|110636305|ref|YP_676513.1| methionine sulfoxide reductase A [Mesorhizobium sp. BNC1] 1.48761e-80
+MF------------------------------------------------------F-Q-TSEKK--LRLPSPQEALPGRP---Q-P-IAT-A-EHHFVN-GRPL-KGPYPEG-AEQVLFGMGCFWGAERLFWQM---E-GVWVTAVGFAGGLTPNPTYRETTTGLTGHAEVVLVVYDPKVVSFSALLKVFWESHDPTQGMRQGNDVGTTYRSVIYATTDAQLHEAEASRDAYEKALRGAGR-DRVTTEID-----RA--------PTFFFAEEEHQQYL--AKN-PGGYCGLQGTGVAC------------PMPG--------------------------------------------------------------------------------------------------------------------------ASVQ
+>gi|72163077|ref|YP_290734.1| methionine sulfoxide reductase A [Thermobifida fusca YX] 3.6263e-86
+MFG-----------------------------------------------------------FVK--TDMVDPAKALPGRD---T-P-MPV-P-ERHEVL-GTPL-APPYPEH-AQLADFGMGCFWGVERIFWRLGAEN-GIITTAAGYAGGYTPNPTYEEVCTGRTGHAEVVRVVFDPERISYTDLLKVFWENHDPTQGMRQGNDVGTQYRSIILYHNEEQRAAAEASRDAFQPVLTRMGY-GPITTEIV-----PA--------TPFYFAEPYHQQYLSEAKN-PHGYCGVSGTGATC------------PVGVA-------------------------------------------------------------------------------------------------------------------------RTSG
+>gi|254404879|ref|ZP_05019811.1| methionine sulfoxide reductase [Streptomyces sviceus ATCC 29083] 1.91183e-78
+MF----------------------------------------------------------G--RT--PVLPTAEQALKGRS---E-PAFTV-P-DRHTVL-GTPL-LGPYPEG-YQIADFGLGCFWGAERKFWQL---PAGVWTTLVGYQGGHTENPVYEEVCSGLTGHTEAVRVVFDPALISYERLLKTFWESHNPTQGFRQGNDVGTQYRSAIHTHTPEQAAAAEASRTAYQRALTASGHRGTITTEIL-----PAQ------GRTFYPAESYHQQYL--DKN-PAGYCGTGGTGVSC------------PIGVA-------------------------------------------------------------------------------------------------------------------------KADG
+>gi|255671649|gb|ACU26410.1| peptide methionine sulfoxide reductase [uncultured bacterium HF186_25m_30B18] 7.57885e-76
+MFF----------------------------------------------------------SRRP--MTIPPASECLPGRD---Q-A-VAV-A-PKNIVT-QNPM-VGPFGDQ-LEVILVGMGCFWGAERLFYSL---P-GVWTTAVGYAAGHTPNPTYEEVCTGLTGHNEVVLIVFDPSVLSNEALIAHFWENHDPTQGMRQGMDRGTQYRSGLYVTTPSQRAEALESKARYEARLASAGF-GPITTEIL-----DA--------PTLYYAEDYHQQYL--HKN-PSGYCGIGGTGISC------------PIGLN--------------------------------------------------------------------------------------------------------------------------PEG
+>gi|154246435|ref|YP_001417393.1| peptide methionine sulfoxide reductase [Xanthobacter autotrophicus Py2] 1.78683e-81
+MFW----------------------------------------------------------LKKS--LDLPTKADALPGRS---T-PV-PT-A-ETHFVN-GHAL-KGPYPAG-FETAVFALGCFWGAERKFWQT---P-GVWATAVGYVAGITENPTYEEVCSGRTGHTEAVLVVYDPKAVSYDELVRLFFESHDPTQGMRQGNDVGTQYRSGIYVTNAGQRVAAEAAKAAYEPALKAKGF-GPITTEIA-----EL--------GPFYFAEGYHQQYL--AKN-PAGYCGLGGTGVSC------------PIGTG-------------------------------------------------------------------------------------------------------------------------VAAQ
+>gi|88705939|ref|ZP_01103647.1| Peptide methionine sulfoxide reductase msrA [Congregibacter litoralis KT71] 1.83371e-78
+MK--------------------------------------------------------LFELRKK--HALPTADSALPGRD---T-PM-AV-A-ERHHVL-DAPL-RGPFPEH-LEQVVFGMGCFWGVERIFWQL---D-GVYTTAAGYAGGHTANPSYEEVCSGRTGHTEAVLVVFDPERVSLDELLRQFWEGHDPTQGMRQGNDLGTQYRSAIYASDTAQLGVARDSLKTFQEQLKTAGY-GDITTEVE-----MA--------GPFYYAEDYHQQYL--SKN-PGGYCGLGGTGVSC------------PIGL---------------------------------------------------------------------------------------------------------------------------DVA
+>gi|220936314|ref|YP_002515213.1| peptide methionine sulfoxide reductase [Thioalkalivibrio sp. HL-EbGR7] 4.91104e-76
+MF----------------------------------------------------------GFLKS--VEMPRPEEALPGRA---E-AM-PV-P-ERHAVL-GTPL-TPPWPEG-MAESVFGLGCFWGAEKTFWKL---P-GVYTTAVGYAAGYTPNPTYREVCTGRTGHNEVVRVVYDPAKIRFAELLKVFWESHDPTQGMRQGNDVGTQYRSGIYVTDPAGRAEAEASKAAYGAALAARGL-GPITTEIL-----DA--------PPFYYAEDYHQQYL--AKN-PGGYCGLGGTGVPC------------PGWEP------------------------------------------------------------------------------------------------------------------------ADARA
+>gi|269794148|ref|YP_003313603.1| methionine-S-sulfoxide reductase [Sanguibacter keddieii DSM 10542] 2.37845e-73
+MFGS------------------------------------------------------LFGSSLK--TTMVTPERALSGRP---E-PTYSV-P-STHTVL-GTPL-AGPWPEG-TRVIYLGLGCFWGAEKEFWQL---P-GVVTTAVGYQGGFTQNPSYEEVCTAMTGHTEAVLVAYDPSVVTDTEILRMFWESHDPTQGFRQGNDVGTQYRSAVYWTTPEQEVAAKTTFDVFQKNLAARGF-GQITTDLR-----SAE-----AAGPFYYAEGYHQQYL--DKN-PSGYCPVHSTGVAC------------QP-----------------------------------------------------------------------------------------------------------------------------ADA
+>gi|108756918|ref|YP_635173.1| methionine-S-sulfoxide reductase [Myxococcus xanthus DK 1622] 1.83318e-79
+MF--------------------------------------------------------F-NPTKK--LRIPTPEEALPGRS---D-VM-PV-P-EKHEVL-GTPI-KGPVPEG-LEEVYFGLGCFWGAERKFYQT---P-GVYSTAVGYAGGPTPNPTYREVCSGLTGHNEVVRVVFDPKKVSFEQLLRVFWESHDPTQGMRQGNDVGTQYRSGIYFTSEAQQRAAVASRDAYQKALAARGF-DAITTELL-----PA--------PPFYFAEDYHQQYL--EKN-PGGYCGLGGTGVSC------------PVGV--------------------------------------------------------------------------------------------------------------------------GVNA
+>gi|152995879|ref|YP_001340714.1| peptide methionine sulfoxide reductase [Marinomonas sp. MWYL1] 2.07579e-82
+MPSNI------------------------------------------------------EAILKK--SAIPAEADALPGRS---T-PL-KI-S-GIHAVN-NEPF-VRSEKPN-ESEIILGMGCFWGAERKLWNT---P-GVIVTSVGYAGGFTSNPTYEEVCSGQTGHSEVVQVVFDTSIISLEGVLKVFWENHDPTQGMRQGNDIGSQYRSVIYTTNDKDMAIVEASKAAFQKELISAGH-GMITTEIE-----PL--------DTYYFAEEYHQQYL--HKN-PNGYCGLAGTGVSC------------PIG----------------------------------------------------------------------------------------------------------------------------LAV
+>gi|114568707|ref|YP_755387.1| peptide methionine sulfoxide reductase [Maricaulis maris MCS10] 5.03114e-79
+MS----------------------------------------------------------DPIWK--SRIIPAEQALPGRA---D-A-LSP-T-TSHAIT-GREI-KADTPEG-MQEIFLGLGCFWGAERLFWET---D-GVWHTAVGYGGGTTPNPTYQETCSGATGHAELVRVVFDPEMLSLDQVLKIFWEGHDPTQGMRQGNDRGTQYRSAIYATTPEQLVAAHDAAARYQAELDGAGL-GTITTEIV-----KA--------GPFYYAEDEHQQYL--ARN-PSGYCGIGGTGVVC------------PIGR--------------------------------------------------------------------------------------------------------------------------HAPT
+>gi|194364462|ref|YP_002027072.1| peptide methionine sulfoxide reductase [Stenotrophomonas maltophilia R551-3] 1.10004e-85
+MLGIGQ------------G------------------------------------I--LGIGAFK--QRLPRPEEALPGRD---Q-P-LPLHS-NQHFVN-SHPL-KDRF-AG-LQQIRFALGCFWGAERKFWTE---P-GVYSTSVGYAGGITPNPTYEEVCSGLTGHTEVVQVVFDPAVVSLERLLQLFWESHDPTQGMRQGNDTGTQYRSAIHATDEAQYAAALASREAYQAQLDAAGY-GPITTEIVY----PA--------PEYYYAEDYHQQYL--AKN-PNGYCGIGGTGVSC------------PIGLD-V-----------------------------------------------------------------------------------------------------------------------EAPR
+>gi|23006560|ref|ZP_00048823.1| COG0225: Peptide methionine sulfoxide reductase [Magnetospirillum magnetotacticum MS-1] 4.4075e-75
+MNSIFD-------------------------------------------------A--IFGSSGK--TTMIAPEDALPGRQ---S-PVLQA-P-RPHTVL-GTSI-TGPWPEG-TRVLYLAMGCFWGAEEIFWQV---P-GVVSTAVGYMGGTTPNPTYEEACTARTGHTETALVAYDPTKVSEEELLKIFWERHDPTQGYRQGNDVGTQYRSAVYWTTPEQGQAVRETAARYSAVLEAKGY-DPVTTEMR-----PAA-----EAGPFYYAEDYHQQYL--DKN-PNGYRCHATTGVPF------------P------------------------------------------------------------------------------------------------------------------------------SAA
+>gi|260576662|ref|ZP_05844649.1| peptide methionine sulfoxide reductase [Rhodobacter sp. SW2] 3.951e-78
+MF--------------------------------------------------------GF-GAKK--TAMVAAGDALPGRA---Q-PM-PV-T-EPHFIS-GLPL-KSPVPAG-MQVAMFGMGCFWGVERKFWQV---P-GVWLTMVGYAGGFTPNPTYKETCTQLTGHNEVVRVIFDPAQVSYAQLLKLFWEGHDPTQGMRQGNDVGSTYRSGIYVFDAAQMAAAEASKAAYQAALTAAGR-GAITTEIV-----AA--------PVFYYAEDYHQQYL--AKN-PNGYCGIGGTGVTC------------PIGL----------------------------------------------------------------------------------------------------------------------------GV
+>gi|255263291|ref|ZP_05342633.1| peptide-methionine (S)-S-oxide reductase [Thalassiobium sp. R2A62] 2.1284e-82
+MM--------------------------------------------------------LF-QRKK--TEMVSKTDAVAGSS---D-VI-AL-P-ETHFVN-GNPM-TLGLPDG-MEQAMFGMGCFWGVERMFWTL---D-GVYSTMVGYAGGYTENATYEQVCTGKTGHNEVVRVIYDPAVISYDQLLQVFWEGHDPTMGMRQGNDMGTQYRSGIYAYTNAQQDAAQTSKVAFQPRLDTAGF-GPITTEIT-----DV--------PVFFVAEAYHQQYL--AKN-PAGYCGIGGTGVTC------------PIGV----------------------------------------------------------------------------------------------------------------------------GA
+>gi|217979416|ref|YP_002363563.1| peptide methionine sulfoxide reductase [Methylocella silvestris BL2] 6.45652e-82
+MF------------------------------------------------------------RKL--LTLPSAADALPGRS---E-PT-KT-A-ERHFVN-GRPI-SPPFPEG-VETALFGFGCFWGAERKFWQLD--E-GIYTTAVGYAGGVTPNPTYEEVCSGLTGHNEVVLVAFDPKRISYATLLKSFWESHDPTQGMRQGNDVGTQYRSGVYVADATQRATAEASRDAFSRALARKGY-GPITTEII-----DR--------PAFYYAEGYHQQYL--AKN-PNGYCGVCGTGVSC------------PIGIS--------------------------------------------------------------------------------------------------------------------------VAA
+>gi|114771197|ref|ZP_01448617.1| methionine sulfoxide reductase A [alpha proteobacterium HTCC2255] 1.10323e-75
+MF----------------------------------------------------------FTKRP--VEIPNSKNALPGRD---Y-E-IET-A-SKHFVL-NTPI-KGPLPEG-FAEAMFGMGCFWGVERIFWNI---E-GVWTTAVGYAAGHTPNATYEEVCSGMTGHNEVVYVVFDKSIISFESLLKVFWEGHNPTQGMRQGNDQGTQYRSGIYCYDVDQRMASFASKNLYQQRLDLNNI-GTITSEIL-----DA--------PEFFYAETYHQQYL--AKN-PDGYCGIGGTGISC------------PIGV----------------------------------------------------------------------------------------------------------------------------DA
+>gi|114797543|ref|YP_762150.1| methionine-S-sulfoxide reductase [Hyphomonas neptunium ATCC 15444] 8.49573e-85
+MLF----------------------------------------------------------MKKN--LDLPTAETALKGRS---I-AI-PT-A-DTHFVF-GRPL-NAPPPEG-IETAIFGLGCFWGAERIFWKT---P-GVWLTRVGYAGGITPNPTYEEVCSGRTGHTEIVEVQFDPKEVSFAALVKLFLESHDPTQGMRQGNDIGTQYRSAIYFRSPEQEATARQMITEYEKALAASGHREKVTSEVK-----PL--------DTLYLAEDYHQQYL--AKN-PNGYCGIGGTGVSC------------PLP----------------------------------------------------------------------------------------------------------------------------QTA
+>gi|84683504|ref|ZP_01011407.1| Peptide methionine sulfoxide reductase [Rhodobacterales bacterium HTCC2654] 1.20438e-89
+MF--------------------------------------------------------GF--FKD--PEMVTAADALPGRD---H-AI-PT-A-DEHAVF-GRPL-TMDVPEG-MEVAIFAMGCYWGVERKFWQV---P-GVWLTMVGNAGGHTPNPTYEEVCTGRTGHAEAVRVVYDPKQVSYEELLQVFWEGHDPTQGMRQGNDRGTQYRSAIYAVNDAQLAAAKASRERFQPRLSKAGY-GKITTDIE-----MA--------GPFYWAEDYHQQYL--HKH-PNGYCGLGGTGVTC------------PVGT----------------------------------------------------------------------------------------------------------------------------DA
+>gi|146284168|ref|YP_001174321.1| peptide methionine sulfoxide reductase [Pseudomonas stutzeri A1501] 7.69522e-81
+MATHGR-----------------------WCA-FAAGLPFCSLGLSYRPPIEARMSLRSQILVNK--QALPTAEQALPGRS---T-A-MPV-P-PAHHVN-GNPL-QPPFPAG-LQQAVFGMGCFWGAERRFWEQ---P-GVWTTAVGYAGGITPNPTYDEVCSGLTGHTEAVLVVFDPKVIDYETLLRIFWEAHNPTQGMRQGNDVGSQYRSAIYCMDAQQRSAAEASRERFQQRLSQAGF-AQITTEIA-----DA--------PPFYYAEAYHQQYL--AKN-PGGYCGLGGTGVCM------------P--------------------------------------------------------------------------------------------------------------------------------D
+>gi|159036517|ref|YP_001535770.1| peptide methionine sulfoxide reductase [Salinispora arenicola CNS-205] 3.09556e-85
+MFL----------------------------------------------------------RRMK--AELINPEQALPGRP---I-A-MPV-A-DRHEVLG-TPL-AGPFPEG-TQVAVFGMGCFWGAERLFWTL---P-GVLTTSVGYAGGYTPNPSYEEVCSGRTGHAEVVQVRYDPTKIAYEDLLKVFWENHDPTQGMRQGNDVGTQYRSAIYTTTEEQLTAAQASRDAFAPVVARAGK-GEITTEIG-----PL--------GDYYFAEDYHQQYLAPTKN-PGGYCNHGPNGLSC------------PVGVA-------------------------------------------------------------------------------------------------------------------------RTTG
+>gi|284033523|ref|YP_003383454.1| peptide methionine sulfoxide reductase [Kribbella flavida DSM 17836] 7.39578e-74
+MS----------------------------------------------------------FFKRN--TALVEPAAALPGRS---E-PAYSV-P-ADNIVL-GTPQ-TAPAPEG-YAEVWFGTGCFWGTEEIFWQQ---P-GVYTTAVGYAGGYTPNPSYEEVCTGGTGHTEAVRVVYDPTQTTFTALLKVFWETHDPTQGMRQGNDLGSQYRSAVYYTTDEQRQEVERTRDLYAPVIAARGY-DAITTEIA-----PA--------STFYYAEAYHQQYL--AKN-PNGYRCHSNTGVPF------------PA-----------------------------------------------------------------------------------------------------------------------------DEI
+>gi|15963963|ref|NP_384316.1| methionine sulfoxide reductase A [Sinorhizobium meliloti 1021] 5.19586e-83
+MF------------------------------------------------------L-IDMFNKK--TILPDAATALPGRE---E-E-IPT-A-TTHFVS-GRPL-QGPYPEG-MKKVLFGMGCFWGAERLLWEI---P-GVYVTAAGYSGGLTPNPTYQETTTGLTGHTEVVLVVYDPAKVSLQRLLKTFFEEHDPTQGMRQGNDVGTTYRSAIYVYDEEQLAEANAARNAFQKALRVYNHDREITTEIA-----KA--------GPFYFAEDYHQQYL--AKN-PDGYCGLRGTGVSC------------PI------------------------------------------------------------------------------------------------------------------------------GA
+>gi|20455083|sp|Q8VS50.1|MSRA_XANCH RecName: Full=Peptide methionine sulfoxide reductase msrA_ Short=Protein-methionine-S-oxide reductase_ AltName: Full=Peptide-methionine (S)-S-oxide reductase_ Short=Peptide Met(O) reductase 1.31222e-81
+MLG---------------------------------------------------------IGAFK--QRMPRPGEALPGRE---Q-A-LPL-H-NTHLVN-GHPL-RGEFT-G-LAQVQFGLGCFWGAERKFWNV---P-GVYTTAVGYAGGQTPNATYSEVCSGQTGHTEAVLVVFDEQAVSFAQLLRTFWESHDPTQGMQQGNDVGTQYRSAIYCTTQAQYDAALASRDAYQQQLTASGY-GDITTEIRF----PA--------PTFYYAEDDHQQYL--AKH-PNGYCGLGGTGVSC------------PIGL----------------------------------------------------------------------------------------------------------------------------DA
+>gi|71898515|ref|ZP_00680686.1| Peptide methionine sulfoxide reductase [Xylella fastidiosa Ann-1] 1.99386e-77
+MVM---------------------------------------------------------TIEAL--KHLGRVDQSRVGRT---E-P-LPL-D-NRHYVN-GHPL-CDAFP-G-LALIQFGLGCFWGAERLFWQL---P-GVFSTAAGYAGGGVPYPTYREVCSGETGHAEVVLVVYDHTVISFEQLLQTFWESHDPTQGMRQGNDIGTQYRSVIHCTTSEQYAAASASREVYQQQLNTAGY-TAITTEILH----PA--------PPFYYAENEHQQYL--AKH-PNGYCGLGGTGVTC------------AIRL----------------------------------------------------------------------------------------------------------------------------QV
+>gi|255335333|ref|ZP_05376246.1| peptide methionine sulfoxide reductase [Hyphomicrobium denitrificans ATCC 51888] 2.62892e-73
+MFA-----------------------------------------------------------KSR--AAMPTPETALRGRS---A-PILPA-S-AEHYLF-SRPL-HGPYPEG-LEVAIFGLGCFWGAERLFWQLG--D-GIWITAVGYAGGFTENPTYEEVCSGHSGHTEVVVVVYDPKVLPYERLLKTFWEAHDPTQGFRQGNDVGTQYRSAIYTTTPGQLEAARASEQAYAKAIAAKGY-GPITTEIK-----SA--------GPVYLAEDYHQQYL--AKV-PHGYCGLAGTGVTC------------PS-----------------------------------------------------------------------------------------------------------------------------PNA
+>gi|159184170|ref|NP_353160.2| methionine sulfoxide reductase A [Agrobacterium tumefaciens str. C58] 1.89265e-84
+MFLF-------------------------------------------------------DTLSKK--TTMPTEETALPGRE---E-A-LAV-P-ETHFVN-GRPL-KGPYPDG-LEIIYLGMGCFWGAERLFWKT---P-GVWVTAVGYAGGFTRNPTYHETTTGQTGHAEVVKVVYDPAVISLSGLLKIFFEEHDPTQGMRQGNDVGTTYRSAIYATTEGQLQQAQKARDAFQQALDEAGHGHAITTEIG-----PL--------ETFYYAEDYHQQYL--AKN-PGGYCGLRGTGVSC------------NI-------------------------------------------------------------------------------------------------------------------------------G
+>gi|90021507|ref|YP_527334.1| protein-methionine-S-oxide reductase [Saccharophagus degradans 2-40] 1.12082e-78
+MSLFY-------------------------------------------------------AKPEK--AKMPTEKTALKGRN---V-P-IET-A-AEHFVS-GMPL-APPYPSN-MQQCVFGLGCFWGAERKFWQL---P-GVYVTAVGYSAGFTPNPTYEEVCSGSTGHNEVVLVVYNPSQVSFKKLLAVFWESHNPTQGMRQGNDLGTQYRSGVYVYSDEQAEQAEHSKQVVQAMLTEKGY-GEITTEII-----KA--------KEFYFAEAYHQQYL--AKN-PNGYCGLGGTGIVV------------PC-------------------------------------------------------------------------------------------------------------------------------D
+>gi|254230046|ref|ZP_04923445.1| methionine-S-sulfoxide reductase [Vibrio sp. Ex25] 4.65771e-86
+ML-------------------------------------------------------------NK--QTLISIEDALPGRD---Q-PM-QV-E-DHHFVN-KSNL-KAPLEPH-QQQILLGMGCFWGAERVFWQL---D-GVISTSVGYAGGYTPNPTYEEVCTGKTGHTEVVRVVFDERVISLEKLLAVFWEKHDPTQGMRQGNDLGTQYRSAIYTYSAKQQESAEKSKLLYQQALQEELR-ANITTEIQ-----PA--------GPYYFAETYHQQYL--AKN-PDGYCGIGGTGVCF------------PPS----------------------------------------------------------------------------------------------------------------------------LQS
+>gi|121727464|ref|ZP_01680592.1| peptide methionine sulfoxide reductase [Vibrio cholerae V52] 1.16553e-87
+ML-------------------------------------------------------------DK--QTMVTAHNALPGRT---T-AM-SI-D-DTHFVN-GSSI-TAAPQSG-QQQILIGMGCFWGAERLFWQL---D-GVISTSVGYSGGFTPNPTYEEVCSGKTGHTEVVRVIFDPERLPLTELLRAFWERHDPTQGMRQGNDRGTQYRSAIYTFNGDQREIAEASKAAYQALLTAQHR-PSITTEIL-----PA--------GAYYFAETYHQQYL--AKN-PNGYCGLGGTGVCF------------PPH----------------------------------------------------------------------------------------------------------------------------STL
+>gi|119715219|ref|YP_922184.1| peptide methionine sulfoxide reductase [Nocardioides sp. JS614] 3.49024e-74
+MF----------------------------------------------------------L-TRK--AQLVTPDQALPGRS---E-RTFAL-P-ERHRVL-DAPVFTEEIPAG-YEVALFGLGCFWGAEEIYWQV---P-GVWSTSVGYAGGTTPNPSYEEVCTGATNHTEAVRIVFDPARVSFADLVKTFFEVHDPTQGFRQGNDVGTQYRSAIYFTTPEQERVARELTEVYGAELRRRRL-GDVTTEIR-----EA--------PTYYYAEDVHQQYL--AKN-PNGYRCHANTGIKF------------PE------------------------------------------------------------------------------------------------------------------------------TA
+>gi|262275084|ref|ZP_06052895.1| peptide methionine sulfoxide reductase MsrA [Grimontia hollisae CIP 101886] 2.87329e-83
+MLS-----------------------------------------------------------NKK--QLSITAEQALPDRS---E-EI-IP-A-EPHAVN-GSLL-SKTVPAN-QTQILLGMGCFWGAERLFWAL---D-GVISTSVGYSGGFTVNPTYKDVCTAQTGHTEVVQVVYDPARISLKAILTHFWQSHDPTQGMRQGNDVGTQYRSAIYFFDETQKQAALASRDAYQVALKDAGNPAGITTEIA-----PA--------GPYYFAETYHQQYL--EKN-PNGYCGIGGTGVCL------------PP-----------------------------------------------------------------------------------------------------------------------------WER
+>gi|83645059|ref|YP_433494.1| peptide methionine sulfoxide reductase [Hahella chejuensis KCTC 2396] 5.65455e-79
+MFGSH------------------------------------------------------S--QDK--ASMPAREQALPGRA---E-PM-EI-E-GEHFVF-GVDM-RGPFPAQ-MQTAVFGLGCFWGAERLFWKQ---E-GVYSTCVGYAGGYTPNPTYKEVCTGQTGHAEVVQVVFDPAVISYKKLLKLFWENHDPTQGMRQGNDVGSQYRSAIYYANDEQKQLAEASKAEFQQSLHDVNR-GAITTEIT-----PA--------PEFYFAETYHQQYL--AKN-PGGYCGLGGTGACL------------A------------------------------------------------------------------------------------------------------------------------------SAD
+>gi|26251124|ref|NP_757164.1| methionine sulfoxide reductase A [Escherichia coli CFT073] 1.26005e-122
+MCANTPLVTTLTPMTDFRE------------------------------------SD-TMSLFDK--KHLVSPADALPGRN---T-P-MPV-A-TLHAVN-GHSM-T-NVPDG-MEIAIFAMGCFWGVERLFWQL---P-GVYSTAAVYTGGYTPNPTYREVCSGDTGHAEAVRIVYDPSVISYEQLLQVFWENHDPAQGMRQGNDHGTQYRSAIYPLTPEQDAAARASLERFQAAMLAADDDRRITTEIA-----N--------ATPFYYAEDDHQQYL--HKN-PYGYCGIGGIGVCL------------PP------------------------------------------------------------------------------------------------------------------------------EA
+>gi|149910302|ref|ZP_01898946.1| methionine sulfoxide reductase A [Moritella sp. PE36] 1.85176e-73
+MFF---------------------------------------------------------A-KNK--STMVSKSDALPDNP---T-A-IPV-D-ALHYVS-ATNM-VPPFVAQ-HQVCYFAMGCFWGAERLFWSV---P-GVVTTAVGYQGGYTVHPHYQQVCTGQTGHTESVLVVFDPEVISYTELLILFWENHQSTQGMRQGADQGTQYRSALYCTSAQQLSEAKASAVHYQQALVDGGSDDTITTEID-----LA--------APFYYAEADHQQYL--AKN-PQGYCGIGGSGICY------------P-------------------------------------------------------------------------------------------------------------------------------GN
+>gi|167948019|ref|ZP_02535093.1| methionine-S-sulfoxide reductase [Endoriftia persephone 'Hot96_1+Hot96_2'] 1.47397e-83
+MF----------------------------------------------------------GLGRK--TVMPEPEEALPGRR---E-A-MAV-A-DNHFVL-GNPL-RGPFPEG-LEFAMFGLGCFWGAERRFWEL---P-GVFSSAVGYAAGYTPNPSYEEVCSGMTGHNEVVRLVFAPAELRYQKLLKCFWESHDPTQGMRQGNDLGTQYRSGIYTYSEAQQQLAEASRRVYQNALSQTGG-RPITTEII-----AA--------PNFYFAEAYHQQYL--AKN-PNGYCGLGGTGVSF------------P-------------------------------------------------------------------------------------------------------------------------------RR
+>gi|37528374|ref|NP_931719.1| methionine sulfoxide reductase A [Photorhabdus luminescens subsp. laumondii TTO1] 2.16234e-85
+MPT---------------------------------------------------------S-ANK--SLSIDPHSALPGRT---E-P-LKV-S-PNHAVT-DHTI-E-PVPEN-MEVAYFGMGCFWGVERLFWQQ---P-DIYTTSAGYSGGTTANPTYEEICSGLTGHAEVVRIVYDPAKNSYENLLKLFWENHDPAQGMRQGGDIGSQYRSAIYTVSPQQHELALASREHFQKAMQQQSDNRPITTEIT-----E--------AGPFYFAEDYHQQYL--FKN-PEGYCGLGGIGVCL------------PKM----------------------------------------------------------------------------------------------------------------------------NEN
+>gi|284046186|ref|YP_003396526.1| peptide methionine sulfoxide reductase [Conexibacter woesei DSM 14684] 8.42514e-85
+MRF----------------------------------------------------------LTRK--TDMVDAERALSGRD---V-A-IPV-P-AKHEVLG-TPL-QPPFPDG-YERAIFGLGCFWGAERVFWQA---P-GVYTTAVGYAGGFTENPTYEEVCSAQTGHTEAVLVVFDPARTSYDELLKLFWENHDPTQGMRQGNDVGTQYRSAIYWTSEEQHKQALASREMFQSQLQQSGY-GEITTEIA-----AE--------RPFYYAEDYHQQYLA--KN-PDGYCGLGGTGVSC------------PIGL---------------------------------------------------------------------------------------------------------------------------AAS
+>gi|90411969|ref|ZP_01219977.1| putative peptide methionine sulfoxide reductase [Photobacterium profundum 3TCK] 3.8202e-79
+MSS------------------------------------------------------------NK--HNLIAPETALIGRA---T-SI-TP-S-LPHAVN-GTIL-NDEKPNN-YSEIIIGMGCFWGAERLFWNQ---P-GIYSTAVGYSGGFTPNPTYEEVCSGKTGHSEVVRIIYDPLIISLEQILTLFWESHNPTQGMQQGNDIGTQYRSVIYTTTPNQLTYAQHSRQCYQQSLEQQQLESLITTEIE-----PA--------GTFYFAEDYHQQYL--AKN-PNGYCGLGGTGVCF------------IP-------------------------------------------------------------------------------------------------------------------------------L
+>gi|238792991|ref|ZP_04636620.1| Peptide methionine sulfoxide reductase msrA [Yersinia intermedia ATCC 29909] 5.42691e-93
+MEPIL------------------------------------------------------VQNFDK--TTVIDAANALPGRL---T-P-MPV-A-TLHVVN-GHSM-T-HVPEG-MEVAIFAMGCFWGVERLFWQQ---P-GVYSTAAGYCGGFTPNPTYHEVCSGRTAHTEAVRVVFDPAIISYKQLLQIFWENHDPAQGMRQGGDVGTQYRSAIYVLTPEQQMQAQESQALFQQAMEQAGDRRVITSEVA-----V--------ALPFYYAEDDHQQYL--HKN-PHGYCGLGGIGVCM------------PP------------------------------------------------------------------------------------------------------------------------------NL
+>gi|241775161|ref|ZP_04772451.1| peptide methionine sulfoxide reductase [Asticcacaulis excentricus CB 48] 1.75777e-80
+MFG------------------------------------------------------------SK--TRLISREDALPGRA---E-V-LPT-D-TTHAVL-GTPL-KGPFPEG-TETVVFAMGCFWGVERLFWQQ---A-GVYTTAAGYIGGYTPNPTYREVCTGQTGHTEGVLVVYDPTKLSFEALLKLFWERHDPTQGMRQGNDVGTQYRSAIFTTTEAQYEAALKSRDAFEAALSAKRL-GPITSEIF-----GPD-----SDQPFYYAEDYHQGYL--EKN-PEGYCGLKGTGVTC------------A--------------------------------------------------------------------------------------------------------------------------------I
+>gi|218710695|ref|YP_002418316.1| methionine sulfoxide reductase A [Vibrio splendidus LGP32] 1.48632e-83
+ML-------------------------------------------------------------NK--QQLVSAATALPGNA---D-PI-RI-S-ERHFVN-HTDL-LNAPTGS-QQEVLLGMGCFWGAERLFWQL---N-GVISTSVGYAGGYTINPTYEQVCSGQTGHTEVVRIIFDSEQTSLAQVLETFWERHDPTQGMRQGNDLGTQYRSAIYTFSEEQQTIAEHSKREYQRAMTESLG-NEITTEVL-----PA--------GKYFFAETYHQQYL--AKN-PNGYCGLGGTGVCF------------PP-------------------------------------------------------------------------------------------------------------------------------Q
+>gi|119478495|ref|ZP_01618457.1| methionine sulfoxide reductase A [marine gamma proteobacterium HTCC2143] 3.45223e-83
+MSLFSG----------------------------------------------------F-GKEHK--LQMPEQSSALPGRD---E-A-MIV-L-DKHYVN-GNPL-KGPFPEG-LQQAFFGFGCFWGAERKFWQQ---Q-GVYTTAVGYAAGITPNPGYEEVCSGLTGHNEVVLVVFDPSIVSYQQLLNLFWESHNPTQGMRQGNDVGTQYRSGIYCTDDNQRATAEQSLQSYQGRLSAAGY-PAVTTEIL-----PV--------PTFYYAEDYHQQYL--AKN-PNGYCGIGGTGVSC---------------------------------------------------------------------------------------------------------------------------------------------S
+>gi|237784743|ref|YP_002905448.1| Peptide methionine sulfoxide reductase [Corynebacterium kroppenstedtii DSM 44385] 6.52573e-74
+MGFLF------------------------------------------------------G--TRPTPTSIVNREDALPGRD---E-PILPH-P-APHTVL-GTPI-DGPWKDG-QRSVVVGLGCFWGAEKLFWQI---D-GVESTAVGYAGGYTPNPTYREVCTGRTGHAETVRVIYDPQEVSFEDLIRTFFEAHDPTQGFRQGNDVGTQYRSVIYAQTDDEVQKAREIAESFSHSLADAGY-GGITTDISLLSDTPT--------KTMYLAEDEHQQYL--DKN-PNGYCPVHSTGVAC---------------------------------------------------------------------------------------------------------------------------------------------R
+>gi|268592855|ref|ZP_06127076.1| methionine sulfoxide reductase A [Providencia rettgeri DSM 1131] 4.61901e-86
+MPF---------------------------------------------------------N---K--FHSASIAQPLPGRA---T-A-MTY-S-PYHALN-HHSI-E-IIPKN-MEIAYFAMGCFWGVERLFWQQ---A-GVYSTSAGYCGGVTPNPTYEEVCSGRTGHAEAVRVVFDPQVISYSQLLTLFWENHDPAQGMRQGNDMGSQYRSAIYTVSDEQDQQAMETLQAYQNAMKAQHDSRAITTEIA-----P--------LDTFYFAEDYHQQYL--YKN-PNGYCGLGGIGICL------------PPS----------------------------------------------------------------------------------------------------------------------------LNK
+>gi|92113989|ref|YP_573917.1| peptide methionine sulfoxide reductase [Chromohalobacter salexigens DSM 3043] 2.62435e-79
+MWP-----------------------------------------------------------HES--LELPTPATALEGRD---T-P-IRI-S-GVHYVN-GRTM-LPPFPEE-YEEIVLGLGCFWGAERLFWEM---P-GVYVTAVGYAGGQTPNPTYEETCTGRTGHAEVVRVIFDPTEIGLPELLRAFWEAHDPTQGMRQGNDIGTQYRSVIYTTNELQRPLVDKSLQEYDQALQQQGMG-NVTTEVA-----PL--------DAFYYAEEYHQQYL--AKN-PAGYCGLKGTGVAC------------PV-------------------------------------------------------------------------------------------------------------------------------T
+>gi|262188257|ref|ZP_06047594.1| protein-methionine-S-oxide reductase [Aeromicrobium marinum DSM 15272] 1.77301e-79
+MIF----------------------------------------------------------PFKK--TDLPTADDALKGRA---ERP-HRV-G-DRHLVT-GNPI-ESDVPDG-FEVVVVGLGCFWGEEKTFWEL---P-GVWSTSVGYAGGFTPHPTYEEVCSGRTGHAEVVRVVFDPAVLPFSEVLRTFWENHDPTQGMRQGNDRGSQYRSVLFTTTDEQQAAAEESRERYQERMTAAGY-GKITTQIA-----PL--------GDYYYAEEYHQQYL--VKN-PFGYCPLHATGVTY---------------------------------------------------------------------------------------------------------------------------------------------G
+>gi|192361568|ref|YP_001982508.1| protein-methionine-S-oxide reductase [Cellvibrio japonicus Ueda107] 5.52116e-75
+MLF----------------------------------------------------------NTTK--MIMPTREQALPGRA---E-P-ILV-D-DRHAVK-LVSI-KPPFPVG-MEQIILGLGCFWGAERKFWQQ---P-GVYTTAVGYSAGYTPNPTYEEVCSGLTGHNEVVLVVFDPEQVSLGQLLKVFWEAHNPTQGMRQGNDRGTQYRSGIYYFTEAQRELAEATRRDYQSALNENGL-GEITTEIL-----PA--------SEFYYAETYHQQYL--HKN-PGGYCGLGGTGVCL---------------------------------------------------------------------------------------------------------------------------------------------G
+>gi|90416029|ref|ZP_01223962.1| Peptide methionine sulfoxide reductase [marine gamma proteobacterium HTCC2207] 5.84815e-78
+MF--------------------------------------------------------------R--LNLPTADQALPGRE---T-A-MQI-S-NRNFIN-GQPL-QPPFADG-LSTLVFGMGCFWGAERRFWQQ---A-GVVTTAVGYAGGATPNPTYEEACSGLTGHSEVVLVVFDPAQISFEQLLTVFWESHDPTQGMRQGNDQGSQYRSVIYCDTEAQLAQTMASAETVQGQLTALGF-GEITTEIR-----MA--------PTFYYAEEYHQQYL--AKN-PGGYCGLRGTGISC------------A--------------------------------------------------------------------------------------------------------------------------------I
+>gi|117929105|ref|YP_873656.1| peptide methionine sulfoxide reductase [Acidothermus cellulolyticus 11B] 1.51352e-78
+MG--------------------------------------------------------I--L-----RPLPTLDQALPGRN---ERA-FTL-S-GRHAVL-GTPI-EPPFPEH-TQRAVFALGCFWGAERIFWRL---P-GVYTTAAGYCGGFTPHPTYEEVCTGLTGHAESVLVVVDPAIVSYAELVKVFFEAHDPTQGMRQGNDIGTQYRSVIFVADAGQRAAAERIREQYASTLGRAGF-GPVTTEIA-----NA--------GPFYYAEEYHQQYL--HKN-PSGYCGLQGTGVSC------------P-----------------------------------------------------------------------------------------------------------------------------LSSA
+>gi|238918395|ref|YP_002931909.1| Peptide methionine-S-oxide reductase, putative [Edwardsiella ictaluri 93-146] 2.25576e-83
+MHH---------------------------------------------------------HNSST--PAPFTPAQALPGRT---Q-A-MSL-S-GKHALN-GHDM-Y-AIPAG-MEEALFAMGCFWGVERLFWQQ---P-GIYSTAAGYSGGLTPNPTYREVCSGQTGHAETVRVVFDPSLIRYDDLLRLFWQHHDPAQGMRQGNDVGTQYRSALFPVTSQQMQAAQASHTRFAQAMHQVGDLRPISTEIR-----A--------AGPFYYAEEEHQQYL--HKH-PHGYCGVGGIGVCL------------P--------------------------------------------------------------------------------------------------------------------------------D
+>gi|144899475|emb|CAM76339.1| peptide methionine sulfoxide reductase [Magnetospirillum gryphiswaldense MSR-1] 3.98526e-77
+MF----------------------------------------------------------A-SAK--TTMPDPRQALPGRD---R-V-MPV-P-DRHLVL-GRPL-LPPFPAS-CQSMLVGMGCFWGAERRLWSL---P-GVWVTAVGYAGGFTPNPTYEEVCSGRTGHNEVVQVVFDPVELPLAVLLRVFWESHDPTQGMRQGNDVGTQYRSGLYVTDAEMRQTALDSRQAYGAKLAAAGL-GAITTEII-----DA--------PAFYYAEAYHQQYL--ARN-PNGYCGLAGTGISC---------------------------------------------------------------------------------------------------------------------------------------------G
+>gi|254294802|ref|YP_003060825.1| peptide methionine sulfoxide reductase [Hirschia baltica ATCC 49814] 5.4235e-79
+MT----------------------------------------------------------IL-DK--SQLVSKENALPGRD---Q-E-LAT-A-QTHFLS-GAAI-KADIPTG-FGEIYLGLGCFWGAERRFWET---E-GVYVTSVGYQGGYTPNPTYEEVCSGLTGHTEIVHVVFDPSIITLEGILKVFWEAHDPTQGMRQGNDLGTQYRSAIYAVNEADLERVNASKAAYQAALNKAGRGGAITTEIS-----LA--------GPYYYAETYHQQYL--AKN-PSGYCGLKGTGVAC---------------------------------------------------------------------------------------------------------------------------------------------I
+>gi|209694033|ref|YP_002261961.1| peptide methionine sulfoxide reductase MSRA [Aliivibrio salmonicida LFI1238] 4.1241e-74
+MVIY-------------------------------------------------------S--FYRVAQGKCLLNYSVKGCDMTME-KH-TV-Q-PLHFIS-QHDI-E-SIPTG-CEQILFGMGCFWGTERLFWKL---T-GVYSTAVGYSGGKTKIPTYKDVCSGSTDHVEVVKVVFNPALISLEELLHSFWQTHNPTQGMRQGNDIGTQYRSVIYTYDKNQQEIATHTKKQYQHALSQQGIEEPITTEIT-----PA--------NDFYFAEEYHQQYL--AKN-PNGYCGLSGTGVCF---------------------------------------------------------------------------------------------------------------------------------------------L
+>gi|40062618|gb|AAR37547.1| peptide methionine sulfoxide reductase [uncultured marine bacterium 311] 3.57353e-79
+MSLI-------------------------------------------------------DLVNKK--SILPSSSEALPGRT---E-E-IEV-P-SEHFIK-GTPL-KGPFPQT-YEMAIFGMGCFWGVERKFWET---D-GVYTTAVGYSGGLTPNPTYREVCTGFTGQNETVLVVYDPSKITFEELLIIFWEQHDPTQGMQQGNDVGTQYRSGVYCLSENQKNSALETKDRYQQLLSDKGY-GPITTEIV-----Q--------AGEFYYAEHYHQQYL--AKN-PDGYCGVDGTGIKL---------------------------------------------------------------------------------------------------------------------------------------------S
+>gi|269104841|ref|ZP_06157537.1| peptide methionine sulfoxide reductase MsrA [Photobacterium damselae subsp. damselae CIP 102761] 1.95802e-82
+MLN------------------------------------------------------------DK--QIKIDASNALAGRK---N-SI-IP-P-THHYVL-KTPL-D-TVPNH-CDFIILGMGCFWGAERLFWQV---D-GVYSTAVGYSGGYTENPTYQEVCSGQTGHAEVVKIVFDPTVVSLEQLLALFWEKHNPTQGMRQGNDIGPQYRSVIYTHSSEQELAAISSRNRYQQALTKMGDDHLITTEIE-----PA--------STFYFAEEYHQQYL--AKN-PDGYCGLGGLSVCF-------------P-------------------------------------------------------------------------------------------------------------------------------Q
+>gi|197287201|ref|YP_002153073.1| peptide methionine sulfoxide reductase [Proteus mirabilis HI4320] 1.02901e-85
+MEF---------------------------------------------------------T-LQ---HKAYHPEHAVIGST---T-P-LEI-S-ANHAVN-GHSI-R-EIPEN-MQIAYFAMGCFWGVERLFWQQ---P-GVYSTSAGYSGGVTENPTYEQVCQGRTGHAEVVRVVFDPTLISYQQLLAIFWENHDPSQGMRQGNDIGSQYRSAIYTLTPEQYAQAIESKQRYQQAINSEGAHKEITTEIQ-----P--------AGPFYFAEDYHQQYL--FKN-PQGYCGLGGIGICF------------PP------------------------------------------------------------------------------------------------------------------------------AN
+>gi|260772139|ref|ZP_05881056.1| peptide methionine sulfoxide reductase MsrA [Vibrio metschnikovii CIP 69.14] 2.71106e-82
+ML-------------------------------------------------------------NK--SSLISADQALPGRA---T-PI-EF-E-DKHFIH-HTPL-SSKPSAG-QEQLLIGMGCFWGAERLFWRL---D-GVVSTSVGYAGGFTPNPTYQEVCTGKTGHAEVVRVIYDPKVLPLRTLLQAFWENHDPTQGMRQGNDLGTQYRSVIYTYTDEQQTLAEQSRAEYQALLSEHHK-TEITTEIT-----PA--------GAYYFAESSHQQYL--AKN-PQGYCGLGGTGVCF---------------------------------------------------------------------------------------------------------------------------------------------L
+>gi|88797907|ref|ZP_01113495.1| peptide methionine sulfoxide reductase [Reinekea sp. MED297] 1.41415e-82
+M-------------------------------------------------------------SRN--IEMPTPEQTLPGRS---T-PM-SL-S-FAHAVL-PVDM-R-DVPDG-CRVIWLGLGCFWGAERLFWEL---P-GVVNTAVGYAGGETSNPTYEEVCSGLTGHAEIVQVVYDPSKVSLETVLKTFWEAHDPTQGMRQGNDIGTQYRSAIYAD-DNQLETVRRSLEAYQAQLSKQGK-GSITTEIA-----SV--------PPFYYAEQYHQQYL--HKN-PQGYCGLKGTGVVC------------P--------------------------------------------------------------------------------------------------------------------------------I
+>gi|145299509|ref|YP_001142350.1| peptide methionine sulfoxide reductase [Aeromonas salmonicida subsp. salmonicida A449] 1.86079e-85
+M------------------------------------------------------------------EQIISPADALPGRR---D-A-MVI-G-QQHAVN-GHPT-QGPWPEE-MAVAWFGMGCFWGVERLFWQQ---P-GVYSTAAGYQGGVTQNPTYKEVCSGLTGHAETVQVVFDPSVISYAALLKLFWEQHDPAQGMRQGGDVGTQYRSVIFYGDETQQVIAQQSLAAYQQAMMASGDSRAITTRIL-----P--------LAPFYYAEDYHQQYL--EKN-PEGYCGLGGIGFCL------------PPS----------------------------------------------------------------------------------------------------------------------------LNR
+>gi|94500335|ref|ZP_01306868.1| Peptide methionine sulfoxide reductase [Oceanobacter sp. RED65] 9.09799e-79
+M--------------------------------------------------------------GK--QDMISREQALPGRE---E-K-MPV-V-NKHQVF-GRSM-VGPWPTH-AKKAYFAMGCFWGAERLFWQQ---E-GVYCTAVGYMGGYTPNPTYQEVCSGDTGHTETVMVVYNQEVTDYWTLLESFWENHDPTQGMRQGNDTGTQYRSAIFWEDDMQKVLAERSRNLYQDELKKAGI-GEITTEIN-----KA--------REFYFAEDEHQQYL--HKV-PNGYCGLKGTGVTC---------------------------------------------------------------------------------------------------------------------------------------------V
+>gi|149190568|ref|ZP_01868837.1| methionine sulfoxide reductase A [Vibrio shilonii AK1] 1.15023e-75
+M--------------------------------------------------------------RK--TEMISADQALPGRD---H-AI-AK-M-EPHFIN-QSDL-NASLQEH-QQSVVIGLGCFWGAERVFWQL---D-GVVSTSVGYAGGYTPNPTYEEVCSGNTGHTEVVRVVFDSRITSLTDILKVFWEKHDPTQGMRQGNDIGTQYRSAIYVDDEQQLLTAQQTQQQYQQAL---GD-TSITTEIA-----LL--------NHYYLAEVYHQQYL--AKN-PNGYCGIGGTGVCF------------PP-------------------------------------------------------------------------------------------------------------------------------Q
+>gi|195940913|ref|ZP_03086295.1| methionine sulfoxide reductase A [Escherichia coli O157:H7 str. EC4024] 4.45497e-83
+CI-------------------------------------------------------------TG--TQHPYASGNLTRR---------------------KQPF-HDKRSDG-MEIALFAMGCFWGVERLFWQL---P-GVYSTAAGYTGGYTPNPTYREVCSGETGHAEAVRVVYDPSVISYEQLLQVFWENHDPAQGMRQGNDHGTQYRSAIYPLTPEQEAAAHASLTRFQEAMQAAGDKRQVTTEIA-----T--------AKPFYYAEDDHQQYL--HKN-PYGYCGIGGIGVCL------------PP-----------------------------------------------------------------------------------------------------------------------------QQA
+>gi|269838283|ref|YP_003320511.1| peptide methionine sulfoxide reductase [Sphaerobacter thermophilus DSM 20745] 1.08498e-75
+MWF----------------------------------------------------------HRTP--STLIAPEEALPGRD---R-PAFAI-P-SHHAVLG-TPI-QPPFPEG-LETAVFALGCFWGAERLFWRI---D-GVYTTAVGYTGGFTPHPTYEEVCTGRTGHAEAVLVVFDPAKVSYESLVRTFFEEHDPTQGMRQGNDIGTQYRSAIFYADDRQRRIAEGMRAAYQVALRQAGYHEEITTEIA-----PL--------GPFYYAEEYHQQYLH--KV-PCG--------------------------------------------------------------------------------------------------------------------------------------------------------C
+>gi|197333977|ref|YP_002155089.1| peptide-methionine (S)-S-oxide reductase [Vibrio fischeri MJ11] 2.11623e-73
+MTTK-------------------------------------------------------Q---------------------------P-TS-P-PLHFIS-QRNL-E-FIPPN-FEQIFFGMGCFWGAERLFWQL---E-GVYSTAVGYCGGATSHPTYKEVCTGTTNHTEVVKIIFDPTIISLDTLLHSFWQKHDPTEGMRQGNDIGSQYRSAIYTTSKEQLETAKQTQQQYQAALQKQGIMRAITTEVV-----PA--------QTFYFAEEYHQQYL--AKN-PDGYCGLKGTGVCF---------------------------------------------------------------------------------------------------------------------------------------------I
+>BLAST_QUERY_1
+MFF---------------------------------------------------------FLRKK--TTLPTPEEALPGRA---E-P-MPV-P-ERHFVN-GTPL-KGPFPEG-MEQAVFGMGUFWGAERLFWQL---P-GVYSTAVGYAGGYTPNPTYEEVCSGLTGHTEVVLVVFDPAVISYEELLKVFWESHDPTQGMRQGNDVGTQYRSAIYTTTPEQLAAAEASRDAYQAALTAAGY-GEITTEIA-----PA--------PPFYYAEDYHQQYL--AKN-PNGYCGLGGTGVSC------------PIGL---------------------------------------------------------------------------------------------------------------------------AAA
+# Average weighted sequence identity with coverage: 0.813353296483 +- 0.0396606044345
+# Average weighted sequence identity without coverage: 0.816025464348 +- 0.0365157417979
+# Conservation map: [
+{'C': 0.0099009900990099011, 'M': 0.99009900990099009},  #1
+{'A': 0.049504950495049507, 'M': 0.0099009900990099011, 'C': 0.0099009900990099011, 'E': 0.029702970297029702, 'G': 0.079207920792079209, 'F': 0.30693069306930693, 'I': 0.019801980198019802, 'H': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.039603960396039604, 'L': 0.14851485148514851, 'N': 0.019801980198019802, 'Q': 0.0099009900990099011, 'P': 0.039603960396039604, 'S': 0.089108910891089105, 'R': 0.0099009900990099011, 'T': 0.039603960396039604, 'W': 0.029702970297029702, 'V': 0.039603960396039604, 'Y': 0.0099009900990099011},  #2
+{'A': 0.029702970297029702, 'G': 0.079207920792079209, 'F': 0.14851485148514851, 'I': 0.029702970297029702, 'H': 0.0099009900990099011, '-': 0.40594059405940597, 'M': 0.0099009900990099011, 'L': 0.099009900990099015, 'N': 0.0099009900990099011, 'Q': 0.0099009900990099011, 'P': 0.029702970297029702, 'S': 0.069306930693069313, 'T': 0.039603960396039604, 'W': 0.019801980198019802, 'V': 0.0099009900990099011},  #3
+{'A': 0.0099009900990099011, 'C': 0.0099009900990099011, 'G': 0.0099009900990099011, 'F': 0.069306930693069313, 'I': 0.049504950495049507, 'M': 0.039603960396039604, 'K': 0.029702970297029702, 'V': 0.0099009900990099011, '-': 0.65346534653465349, 'L': 0.019801980198019802, 'N': 0.019801980198019802, 'S': 0.019801980198019802, 'R': 0.019801980198019802, 'W': 0.0099009900990099011, 'H': 0.0099009900990099011, 'Y': 0.019801980198019802},  #4
+{'A': 0.0099009900990099011, 'C': 0.0099009900990099011, 'D': 0.019801980198019802, 'G': 0.049504950495049507, 'F': 0.029702970297029702, 'I': 0.0099009900990099011, '-': 0.76237623762376239, 'V': 0.0099009900990099011, 'M': 0.0099009900990099011, 'L': 0.019801980198019802, 'S': 0.039603960396039604, 'T': 0.0099009900990099011, 'H': 0.0099009900990099011, 'Y': 0.0099009900990099011},  #5
+{'D': 0.029702970297029702, 'G': 0.0099009900990099011, 'F': 0.019801980198019802, 'K': 0.0099009900990099011, '-': 0.86138613861386137, 'L': 0.0099009900990099011, 'N': 0.0099009900990099011, 'Q': 0.029702970297029702, 'P': 0.0099009900990099011, 'R': 0.0099009900990099011},  #6
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #7
+{'-': 0.99009900990099009, 'V': 0.0099009900990099011},  #8
+{'-': 0.99009900990099009, 'T': 0.0099009900990099011},  #9
+{'-': 0.99009900990099009, 'T': 0.0099009900990099011},  #10
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #11
+{'-': 0.99009900990099009, 'T': 0.0099009900990099011},  #12
+{'P': 0.0099009900990099011, '-': 0.99009900990099009},  #13
+{'-': 0.99009900990099009, 'M': 0.0099009900990099011},  #14
+{'-': 0.99009900990099009, 'T': 0.0099009900990099011},  #15
+{'-': 0.99009900990099009, 'D': 0.0099009900990099011},  #16
+{'-': 0.99009900990099009, 'F': 0.0099009900990099011},  #17
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #18
+{'E': 0.0099009900990099011, 'G': 0.0099009900990099011, '-': 0.94059405940594054, 'L': 0.0099009900990099011, 'N': 0.019801980198019802, 'S': 0.0099009900990099011},  #19
+{'S': 0.0099009900990099011, '-': 0.97029702970297027, 'G': 0.0099009900990099011, 'F': 0.0099009900990099011},  #20
+{'H': 0.0099009900990099011, '-': 0.99009900990099009},  #21
+{'-': 0.98019801980198018, 'L': 0.0099009900990099011, 'V': 0.0099009900990099011},  #22
+{'K': 0.0099009900990099011, 'R': 0.0099009900990099011, '-': 0.98019801980198018},  #23
+{'Q': 0.0099009900990099011, '-': 0.98019801980198018, 'D': 0.0099009900990099011},  #24
+{'Q': 0.0099009900990099011, 'S': 0.0099009900990099011, '-': 0.98019801980198018},  #25
+{'I': 0.0099009900990099011, '-': 0.98019801980198018, 'L': 0.0099009900990099011},  #26
+{'-': 0.98019801980198018, 'L': 0.019801980198019802},  #27
+{'S': 0.0099009900990099011, '-': 0.98019801980198018, 'G': 0.0099009900990099011},  #28
+{'A': 0.0099009900990099011, 'R': 0.0099009900990099011, '-': 0.97029702970297027, 'G': 0.0099009900990099011},  #29
+{'E': 0.0099009900990099011, 'I': 0.0099009900990099011, 'H': 0.0099009900990099011, '-': 0.94059405940594054, 'T': 0.0099009900990099011, 'W': 0.0099009900990099011, 'V': 0.0099009900990099011},  #30
+{'P': 0.0099009900990099011, 'C': 0.0099009900990099011, '-': 0.97029702970297027, 'T': 0.0099009900990099011},  #31
+{'A': 0.0099009900990099011, '-': 0.97029702970297027, 'T': 0.0099009900990099011, 'L': 0.0099009900990099011},  #32
+{'P': 0.0099009900990099011, '-': 0.99009900990099009},  #33
+{'-': 0.98019801980198018, 'L': 0.0099009900990099011, 'F': 0.0099009900990099011},  #34
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #35
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #36
+{'-': 0.99009900990099009, 'G': 0.0099009900990099011},  #37
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #38
+{'P': 0.0099009900990099011, '-': 0.99009900990099009},  #39
+{'-': 0.99009900990099009, 'F': 0.0099009900990099011},  #40
+{'C': 0.0099009900990099011, '-': 0.99009900990099009},  #41
+{'S': 0.0099009900990099011, 'R': 0.0099009900990099011, '-': 0.98019801980198018},  #42
+{'I': 0.0099009900990099011, '-': 0.98019801980198018, 'L': 0.0099009900990099011},  #43
+{'-': 0.99009900990099009, 'G': 0.0099009900990099011},  #44
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #45
+{'S': 0.0099009900990099011, 'R': 0.0099009900990099011, '-': 0.97029702970297027, 'N': 0.0099009900990099011},  #46
+{'Q': 0.0099009900990099011, 'Y': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.97029702970297027},  #47
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #48
+{'H': 0.0099009900990099011, 'N': 0.0099009900990099011, '-': 0.97029702970297027, 'P': 0.0099009900990099011},  #49
+{'P': 0.019801980198019802, 'R': 0.0099009900990099011, '-': 0.97029702970297027},  #50
+{'I': 0.0099009900990099011, '-': 0.99009900990099009},  #51
+{'Q': 0.0099009900990099011, '-': 0.97029702970297027, 'E': 0.0099009900990099011, 'G': 0.0099009900990099011},  #52
+{'A': 0.0099009900990099011, '-': 0.97029702970297027, 'T': 0.0099009900990099011, 'N': 0.0099009900990099011},  #53
+{'A': 0.0099009900990099011, 'I': 0.0099009900990099011, 'R': 0.0099009900990099011, '-': 0.97029702970297027},  #54
+{'-': 0.95049504950495045, 'M': 0.049504950495049507},  #55
+{'A': 0.0099009900990099011, 'I': 0.019801980198019802, '-': 0.90099009900990101, 'S': 0.029702970297029702, 'R': 0.0099009900990099011, 'T': 0.0099009900990099011, 'V': 0.019801980198019802},  #56
+{'E': 0.0099009900990099011, 'D': 0.0099009900990099011, 'F': 0.029702970297029702, 'I': 0.0099009900990099011, '-': 0.91089108910891092, 'L': 0.029702970297029702},  #57
+{'R': 0.029702970297029702, '-': 0.97029702970297027},  #58
+{'A': 0.0099009900990099011, 'D': 0.019801980198019802, 'G': 0.029702970297029702, 'F': 0.059405940594059403, 'I': 0.029702970297029702, '-': 0.64356435643564358, 'M': 0.0099009900990099011, 'L': 0.13861386138613863, 'Q': 0.0099009900990099011, 'S': 0.029702970297029702, 'T': 0.0099009900990099011, 'W': 0.0099009900990099011},  #59
+{'E': 0.019801980198019802, 'D': 0.059405940594059403, 'G': 0.039603960396039604, 'F': 0.10891089108910891, 'I': 0.019801980198019802, '-': 0.61386138613861385, 'M': 0.019801980198019802, 'L': 0.029702970297029702, 'Q': 0.029702970297029702, 'P': 0.0099009900990099011, 'S': 0.029702970297029702, 'T': 0.0099009900990099011, 'V': 0.0099009900990099011},  #60
+{'A': 0.039603960396039604, 'E': 0.0099009900990099011, 'D': 0.039603960396039604, 'G': 0.089108910891089105, 'F': 0.099009900990099015, 'I': 0.069306930693069313, 'M': 0.039603960396039604, 'K': 0.0099009900990099011, '-': 0.39603960396039606, 'L': 0.049504950495049507, 'N': 0.029702970297029702, 'Q': 0.0099009900990099011, 'S': 0.049504950495049507, 'R': 0.0099009900990099011, 'T': 0.049504950495049507, 'H': 0.0099009900990099011},  #61
+{'A': 0.019801980198019802, 'D': 0.0099009900990099011, 'G': 0.069306930693069313, 'F': 0.089108910891089105, 'I': 0.049504950495049507, 'M': 0.019801980198019802, 'K': 0.059405940594059403, 'V': 0.0099009900990099011, '-': 0.29702970297029702, 'L': 0.13861386138613863, 'N': 0.039603960396039604, 'Q': 0.0099009900990099011, 'P': 0.029702970297029702, 'S': 0.079207920792079209, 'R': 0.019801980198019802, 'T': 0.029702970297029702, 'H': 0.0099009900990099011, 'Y': 0.019801980198019802},  #62
+{'A': 0.079207920792079209, 'E': 0.029702970297029702, 'G': 0.039603960396039604, 'F': 0.059405940594059403, 'I': 0.0099009900990099011, 'H': 0.019801980198019802, 'K': 0.079207920792079209, '-': 0.16831683168316833, 'L': 0.029702970297029702, 'N': 0.049504950495049507, 'Q': 0.0099009900990099011, 'P': 0.029702970297029702, 'S': 0.12871287128712872, 'R': 0.18811881188118812, 'T': 0.059405940594059403, 'V': 0.019801980198019802},  #63
+{'A': 0.049504950495049507, 'M': 0.019801980198019802, 'E': 0.019801980198019802, 'D': 0.069306930693069313, 'G': 0.029702970297029702, 'F': 0.029702970297029702, 'H': 0.039603960396039604, 'K': 0.31683168316831684, '-': 0.049504950495049507, 'L': 0.0099009900990099011, 'N': 0.079207920792079209, 'Q': 0.0099009900990099011, 'P': 0.019801980198019802, 'S': 0.049504950495049507, 'R': 0.14851485148514851, 'T': 0.029702970297029702, 'W': 0.0099009900990099011, 'V': 0.0099009900990099011, 'Y': 0.0099009900990099011},  #64
+{'A': 0.0099009900990099011, 'D': 0.0099009900990099011, 'G': 0.019801980198019802, 'K': 0.71287128712871284, '-': 0.039603960396039604, 'L': 0.019801980198019802, 'N': 0.029702970297029702, 'P': 0.039603960396039604, 'S': 0.029702970297029702, 'R': 0.049504950495049507, 'T': 0.039603960396039604},  #65
+{'-': 0.98019801980198018, 'T': 0.0099009900990099011, 'V': 0.0099009900990099011},  #66
+{'A': 0.0099009900990099011, 'P': 0.0099009900990099011, '-': 0.98019801980198018},  #67
+{'A': 0.079207920792079209, 'M': 0.049504950495049507, 'E': 0.0099009900990099011, 'F': 0.019801980198019802, 'I': 0.019801980198019802, 'H': 0.039603960396039604, 'K': 0.029702970297029702, '-': 0.0099009900990099011, 'L': 0.13861386138613863, 'N': 0.0099009900990099011, 'Q': 0.10891089108910891, 'P': 0.039603960396039604, 'S': 0.12871287128712872, 'R': 0.029702970297029702, 'T': 0.25742574257425743, 'V': 0.029702970297029702},  #68
+{'A': 0.13861386138613863, 'E': 0.14851485148514851, 'D': 0.059405940594059403, 'G': 0.019801980198019802, 'I': 0.039603960396039604, 'H': 0.029702970297029702, 'K': 0.049504950495049507, '-': 0.0099009900990099011, 'L': 0.019801980198019802, 'N': 0.029702970297029702, 'Q': 0.099009900990099015, 'P': 0.0099009900990099011, 'S': 0.059405940594059403, 'R': 0.079207920792079209, 'T': 0.17821782178217821, 'V': 0.029702970297029702},  #69
+{'A': 0.0099009900990099011, 'I': 0.10891089108910891, 'M': 0.37623762376237624, 'K': 0.019801980198019802, 'V': 0.0099009900990099011, '-': 0.0099009900990099011, 'L': 0.41584158415841582, 'P': 0.0099009900990099011, 'S': 0.029702970297029702, 'H': 0.0099009900990099011},  #70
+{'A': 0.0099009900990099011, 'C': 0.0099009900990099011, 'G': 0.0099009900990099011, 'F': 0.0099009900990099011, 'I': 0.16831683168316833, '-': 0.0099009900990099011, 'P': 0.5544554455445545, 'V': 0.21782178217821782, 'Y': 0.0099009900990099011},  #71
+{'A': 0.12871287128712872, 'E': 0.039603960396039604, 'D': 0.089108910891089105, 'G': 0.0099009900990099011, 'H': 0.0099009900990099011, '-': 0.0099009900990099011, 'L': 0.0099009900990099011, 'N': 0.029702970297029702, 'Q': 0.0099009900990099011, 'P': 0.029702970297029702, 'S': 0.23762376237623761, 'R': 0.049504950495049507, 'T': 0.33663366336633666, 'Y': 0.0099009900990099011},  #72
+{'A': 0.35643564356435642, 'E': 0.039603960396039604, 'I': 0.019801980198019802, 'K': 0.059405940594059403, '-': 0.0099009900990099011, 'L': 0.019801980198019802, 'Q': 0.0099009900990099011, 'P': 0.37623762376237624, 'S': 0.019801980198019802, 'R': 0.049504950495049507, 'T': 0.019801980198019802, 'V': 0.019801980198019802},  #73
+{'A': 0.17821782178217821, 'E': 0.41584158415841582, 'D': 0.16831683168316833, 'G': 0.039603960396039604, 'H': 0.029702970297029702, 'K': 0.019801980198019802, '-': 0.0099009900990099011, 'N': 0.0099009900990099011, 'Q': 0.029702970297029702, 'S': 0.079207920792079209, 'R': 0.0099009900990099011, 'T': 0.0099009900990099011},  #74
+{'A': 0.019801980198019802, 'E': 0.24752475247524752, 'D': 0.19801980198019803, 'G': 0.0099009900990099011, 'H': 0.0099009900990099011, 'K': 0.039603960396039604, '-': 0.0099009900990099011, 'N': 0.059405940594059403, 'Q': 0.21782178217821782, 'S': 0.029702970297029702, 'R': 0.019801980198019802, 'T': 0.12871287128712872, 'Y': 0.0099009900990099011},  #75
+{'A': 0.92079207920792083, 'C': 0.0099009900990099011, 'I': 0.0099009900990099011, '-': 0.0099009900990099011, 'N': 0.0099009900990099011, 'P': 0.0099009900990099011, 'S': 0.019801980198019802, 'T': 0.0099009900990099011},  #76
+{'R': 0.0099009900990099011, '-': 0.0099009900990099011, 'L': 0.95049504950495045, 'V': 0.029702970297029702},  #77
+{'A': 0.029702970297029702, 'E': 0.0099009900990099011, 'G': 0.0099009900990099011, 'I': 0.019801980198019802, 'K': 0.049504950495049507, '-': 0.0099009900990099011, 'P': 0.81188118811881194, 'S': 0.019801980198019802, 'R': 0.019801980198019802, 'T': 0.0099009900990099011, 'V': 0.0099009900990099011},  #78
+{'R': 0.0099009900990099011, '-': 0.0099009900990099011, 'D': 0.019801980198019802, 'G': 0.96039603960396036},  #79
+{'C': 0.0099009900990099011, 'H': 0.0099009900990099011, '-': 0.0099009900990099011, 'N': 0.019801980198019802, 'S': 0.019801980198019802, 'R': 0.93069306930693074},  #80
+{'A': 0.25742574257425743, 'E': 0.089108910891089105, 'D': 0.23762376237623761, 'K': 0.0099009900990099011, '-': 0.019801980198019802, 'L': 0.0099009900990099011, 'N': 0.029702970297029702, 'Q': 0.019801980198019802, 'P': 0.079207920792079209, 'S': 0.14851485148514851, 'R': 0.019801980198019802, 'T': 0.069306930693069313, 'V': 0.0099009900990099011},  #81
+{'-': 0.99009900990099009, 'M': 0.0099009900990099011},  #82
+{'-': 0.99009900990099009, 'T': 0.0099009900990099011},  #83
+{'-': 0.99009900990099009, 'M': 0.0099009900990099011},  #84
+{'A': 0.059405940594059403, 'E': 0.31683168316831684, 'D': 0.059405940594059403, 'I': 0.019801980198019802, 'H': 0.019801980198019802, '-': 0.019801980198019802, 'N': 0.0099009900990099011, 'Q': 0.12871287128712872, 'S': 0.0099009900990099011, 'R': 0.049504950495049507, 'T': 0.26732673267326734, 'V': 0.029702970297029702, 'Y': 0.0099009900990099011},  #85
+{'R': 0.029702970297029702, '-': 0.97029702970297027},  #86
+{'A': 0.26732673267326734, 'E': 0.049504950495049507, 'G': 0.0099009900990099011, 'I': 0.0099009900990099011, 'K': 0.039603960396039604, '-': 0.019801980198019802, 'P': 0.51485148514851486, 'S': 0.019801980198019802, 'R': 0.019801980198019802, 'V': 0.049504950495049507},  #87
+{'A': 0.029702970297029702, 'E': 0.0099009900990099011, 'F': 0.0099009900990099011, 'I': 0.17821782178217821, '-': 0.5544554455445545, 'V': 0.029702970297029702, 'M': 0.099009900990099015, 'L': 0.039603960396039604, 'P': 0.0099009900990099011, 'T': 0.029702970297029702, 'H': 0.0099009900990099011},  #88
+{'F': 0.049504950495049507, 'I': 0.12871287128712872, '-': 0.35643564356435642, 'V': 0.019801980198019802, 'M': 0.24752475247524752, 'L': 0.15841584158415842, 'H': 0.0099009900990099011, 'Y': 0.029702970297029702},  #89
+{'A': 0.12871287128712872, 'E': 0.079207920792079209, 'G': 0.0099009900990099011, 'F': 0.0099009900990099011, 'I': 0.029702970297029702, 'H': 0.0099009900990099011, 'K': 0.029702970297029702, '-': 0.0099009900990099011, 'L': 0.019801980198019802, 'Q': 0.039603960396039604, 'P': 0.41584158415841582, 'S': 0.089108910891089105, 'R': 0.049504950495049507, 'T': 0.069306930693069313, 'V': 0.0099009900990099011},  #90
+{'A': 0.019801980198019802, 'F': 0.0099009900990099011, 'I': 0.11881188118811881, 'H': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.0099009900990099011, 'L': 0.089108910891089105, 'P': 0.049504950495049507, 'S': 0.0099009900990099011, 'T': 0.19801980198019803, 'V': 0.46534653465346537, 'Y': 0.0099009900990099011},  #91
+{'H': 0.0099009900990099011, '-': 0.99009900990099009},  #92
+{'A': 0.24752475247524752, 'M': 0.0099009900990099011, 'E': 0.029702970297029702, 'D': 0.059405940594059403, 'G': 0.039603960396039604, 'H': 0.0099009900990099011, '-': 0.0099009900990099011, 'L': 0.0099009900990099011, 'Q': 0.0099009900990099011, 'P': 0.34653465346534651, 'S': 0.14851485148514851, 'T': 0.069306930693069313, 'V': 0.0099009900990099011},  #93
+{'-': 0.99009900990099009, 'D': 0.0099009900990099011},  #94
+{'A': 0.12871287128712872, 'E': 0.25742574257425743, 'D': 0.15841584158415842, 'G': 0.069306930693069313, 'F': 0.0099009900990099011, 'K': 0.019801980198019802, '-': 0.0099009900990099011, 'L': 0.0099009900990099011, 'N': 0.079207920792079209, 'Q': 0.039603960396039604, 'P': 0.069306930693069313, 'S': 0.059405940594059403, 'R': 0.0099009900990099011, 'T': 0.079207920792079209},  #95
+{'A': 0.069306930693069313, 'E': 0.049504950495049507, 'D': 0.0099009900990099011, 'F': 0.019801980198019802, 'I': 0.019801980198019802, 'H': 0.039603960396039604, 'K': 0.089108910891089105, '-': 0.0099009900990099011, 'L': 0.059405940594059403, 'N': 0.049504950495049507, 'Q': 0.059405940594059403, 'P': 0.069306930693069313, 'S': 0.019801980198019802, 'R': 0.19801980198019803, 'T': 0.18811881188118812, 'W': 0.0099009900990099011, 'V': 0.029702970297029702, 'Y': 0.0099009900990099011},  #96
+{'H': 0.95049504950495045, '-': 0.0099009900990099011, 'N': 0.039603960396039604},  #97
+{'A': 0.22772277227722773, 'E': 0.059405940594059403, 'F': 0.36633663366336633, 'I': 0.029702970297029702, 'H': 0.029702970297029702, '-': 0.0099009900990099011, 'L': 0.049504950495049507, 'Q': 0.0099009900990099011, 'R': 0.0099009900990099011, 'T': 0.059405940594059403, 'V': 0.019801980198019802, 'Y': 0.12871287128712872},  #98
+{'I': 0.099009900990099015, '-': 0.0099009900990099011, 'L': 0.059405940594059403, 'V': 0.83168316831683164},  #99
+{'F': 0.069306930693069313, 'H': 0.039603960396039604, 'K': 0.019801980198019802, '-': 0.0099009900990099011, 'L': 0.27722772277227725, 'N': 0.41584158415841582, 'S': 0.12871287128712872, 'T': 0.039603960396039604},  #100
+{'P': 0.019801980198019802, 'K': 0.0099009900990099011, '-': 0.94059405940594054, 'G': 0.029702970297029702},  #101
+{'A': 0.0099009900990099011, 'D': 0.069306930693069313, 'G': 0.72277227722772275, 'H': 0.029702970297029702, 'K': 0.039603960396039604, '-': 0.029702970297029702, 'L': 0.0099009900990099011, 'N': 0.019801980198019802, 'Q': 0.039603960396039604, 'P': 0.0099009900990099011, 'S': 0.019801980198019802},  #102
+{'A': 0.059405940594059403, 'E': 0.019801980198019802, 'H': 0.20792079207920791, 'M': 0.0099009900990099011, 'L': 0.019801980198019802, 'N': 0.11881188118811881, 'Q': 0.019801980198019802, 'S': 0.039603960396039604, 'R': 0.19801980198019803, 'T': 0.27722772277227725, 'V': 0.029702970297029702},  #103
+{'A': 0.069306930693069313, 'E': 0.0099009900990099011, 'D': 0.059405940594059403, 'I': 0.0099009900990099011, 'L': 0.0099009900990099011, 'N': 0.029702970297029702, 'P': 0.63366336633663367, 'S': 0.089108910891089105, 'R': 0.049504950495049507, 'T': 0.039603960396039604},  #104
+{'F': 0.029702970297029702, 'I': 0.20792079207920791, 'M': 0.10891089108910891, 'L': 0.61386138613861385, 'Q': 0.0099009900990099011, 'T': 0.019801980198019802, 'V': 0.0099009900990099011},  #105
+{'-': 0.99009900990099009, 'F': 0.0099009900990099011},  #106
+{'A': 0.089108910891089105, 'C': 0.019801980198019802, 'E': 0.079207920792079209, 'D': 0.029702970297029702, 'H': 0.019801980198019802, 'K': 0.26732673267326734, 'L': 0.059405940594059403, 'N': 0.029702970297029702, 'Q': 0.069306930693069313, 'S': 0.029702970297029702, 'R': 0.069306930693069313, 'T': 0.15841584158415842, 'V': 0.069306930693069313, 'Y': 0.0099009900990099011},  #107
+{'A': 0.069306930693069313, 'E': 0.019801980198019802, 'D': 0.039603960396039604, 'G': 0.35643564356435642, 'M': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.099009900990099015, 'L': 0.019801980198019802, 'N': 0.0099009900990099011, 'P': 0.31683168316831684, 'S': 0.039603960396039604, 'R': 0.0099009900990099011},  #108
+{'A': 0.039603960396039604, 'E': 0.039603960396039604, 'D': 0.049504950495049507, 'G': 0.0099009900990099011, 'F': 0.0099009900990099011, 'I': 0.0099009900990099011, 'H': 0.0099009900990099011, 'K': 0.019801980198019802, 'N': 0.0099009900990099011, 'P': 0.73267326732673266, 'S': 0.039603960396039604, 'R': 0.0099009900990099011, 'T': 0.019801980198019802},  #109
+{'A': 0.0099009900990099011, 'E': 0.0099009900990099011, 'F': 0.40594059405940597, 'I': 0.069306930693069313, 'H': 0.0099009900990099011, 'K': 0.0099009900990099011, 'L': 0.039603960396039604, 'P': 0.039603960396039604, 'R': 0.0099009900990099011, 'T': 0.0099009900990099011, 'W': 0.089108910891089105, 'V': 0.11881188118811881, 'Y': 0.17821782178217821},  #110
+{'A': 0.019801980198019802, 'E': 0.0099009900990099011, 'G': 0.0099009900990099011, 'F': 0.0099009900990099011, 'K': 0.019801980198019802, '-': 0.0099009900990099011, 'Q': 0.019801980198019802, 'P': 0.85148514851485146, 'S': 0.019801980198019802, 'T': 0.019801980198019802, 'V': 0.0099009900990099011},  #111
+{'A': 0.15841584158415842, 'E': 0.46534653465346537, 'D': 0.17821782178217821, 'G': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.019801980198019802, 'N': 0.019801980198019802, 'Q': 0.019801980198019802, 'P': 0.039603960396039604, 'S': 0.029702970297029702, 'T': 0.029702970297029702, 'V': 0.019801980198019802},  #112
+{'E': 0.029702970297029702, 'D': 0.0099009900990099011, 'G': 0.71287128712871284, 'H': 0.079207920792079209, 'N': 0.089108910891089105, 'Q': 0.029702970297029702, 'P': 0.0099009900990099011, 'S': 0.019801980198019802, 'R': 0.0099009900990099011, 'T': 0.0099009900990099011},  #113
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #114
+{'A': 0.029702970297029702, 'C': 0.049504950495049507, 'E': 0.0099009900990099011, 'F': 0.069306930693069313, 'I': 0.039603960396039604, 'H': 0.0099009900990099011, 'M': 0.26732673267326734, 'L': 0.24752475247524752, 'Q': 0.069306930693069313, 'S': 0.039603960396039604, 'T': 0.069306930693069313, 'V': 0.0099009900990099011, 'Y': 0.089108910891089105},  #115
+{'A': 0.10891089108910891, 'E': 0.46534653465346537, 'D': 0.029702970297029702, 'G': 0.0099009900990099011, 'K': 0.049504950495049507, 'Q': 0.24752475247524752, 'S': 0.029702970297029702, 'R': 0.049504950495049507, 'T': 0.0099009900990099011},  #116
+{'E': 0.11881188118811881, 'F': 0.029702970297029702, 'I': 0.089108910891089105, 'K': 0.029702970297029702, 'M': 0.0099009900990099011, 'L': 0.069306930693069313, 'Q': 0.19801980198019803, 'S': 0.039603960396039604, 'R': 0.039603960396039604, 'T': 0.16831683168316833, 'V': 0.19801980198019803, 'Y': 0.0099009900990099011},  #117
+{'A': 0.59405940594059403, 'C': 0.019801980198019802, 'I': 0.17821782178217821, 'M': 0.0099009900990099011, 'L': 0.049504950495049507, 'S': 0.0099009900990099011, 'V': 0.13861386138613863},  #118
+{'D': 0.049504950495049507, 'F': 0.039603960396039604, 'I': 0.16831683168316833, 'M': 0.079207920792079209, 'L': 0.19801980198019803, 'Q': 0.019801980198019802, 'R': 0.0099009900990099011, 'W': 0.029702970297029702, 'V': 0.28712871287128711, 'Y': 0.11881188118811881},  #119
+{'I': 0.039603960396039604, 'F': 0.75247524752475248, 'L': 0.12871287128712872, 'V': 0.079207920792079209},  #120
+{'A': 0.21782178217821782, 'G': 0.78217821782178221},  #121
+{'E': 0.0099009900990099011, 'F': 0.019801980198019802, 'M': 0.57425742574257421, 'L': 0.37623762376237624, 'N': 0.0099009900990099011, 'T': 0.0099009900990099011},  #122
+{'G': 1.0},  #123
+{'C': 0.99009900990099009, 'U': 0.0099009900990099011},  #124
+{'Y': 0.0099009900990099011, 'F': 0.99009900990099009},  #125
+{'W': 1.0},  #126
+{'G': 1.0},  #127
+{'A': 0.71287128712871284, 'E': 0.0099009900990099011, 'T': 0.029702970297029702, 'V': 0.24752475247524752},  #128
+{'E': 1.0},  #129
+{'K': 0.069306930693069313, 'R': 0.90099009900990101, 'E': 0.029702970297029702},  #130
+{'A': 0.0099009900990099011, 'E': 0.019801980198019802, 'G': 0.0099009900990099011, 'I': 0.099009900990099015, 'K': 0.28712871287128711, 'M': 0.029702970297029702, 'L': 0.35643564356435642, 'Q': 0.0099009900990099011, 'R': 0.099009900990099015, 'T': 0.039603960396039604, 'V': 0.029702970297029702, 'Y': 0.0099009900990099011},  #131
+{'Y': 0.0099009900990099011, 'L': 0.029702970297029702, 'F': 0.96039603960396036},  #132
+{'Y': 0.019801980198019802, 'W': 0.98019801980198018},  #133
+{'A': 0.0099009900990099011, 'E': 0.099009900990099015, 'K': 0.099009900990099015, 'N': 0.039603960396039604, 'Q': 0.62376237623762376, 'S': 0.039603960396039604, 'R': 0.049504950495049507, 'T': 0.039603960396039604},  #134
+{'A': 0.029702970297029702, 'E': 0.0099009900990099011, 'I': 0.069306930693069313, 'M': 0.019801980198019802, 'L': 0.38613861386138615, 'Q': 0.17821782178217821, 'R': 0.0099009900990099011, 'T': 0.13861386138613863, 'V': 0.15841584158415842},  #135
+{'-': 0.96039603960396036, 'D': 0.0099009900990099011, 'G': 0.029702970297029702},  #136
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #137
+{'-': 0.99009900990099009, 'E': 0.0099009900990099011},  #138
+{'A': 0.029702970297029702, 'E': 0.13861386138613863, 'D': 0.13861386138613863, 'H': 0.0099009900990099011, 'N': 0.019801980198019802, 'Q': 0.029702970297029702, 'P': 0.62376237623762376, 'T': 0.0099009900990099011},  #139
+{'A': 0.0099009900990099011, '-': 0.98019801980198018, 'E': 0.0099009900990099011},  #140
+{'D': 0.0099009900990099011, 'G': 0.99009900990099009},  #141
+{'I': 0.069306930693069313, 'V': 0.93069306930693074},  #142
+{'E': 0.0099009900990099011, 'F': 0.049504950495049507, 'I': 0.079207920792079209, 'L': 0.019801980198019802, 'W': 0.20792079207920791, 'V': 0.10891089108910891, 'Y': 0.52475247524752477},  #143
+{'A': 0.0099009900990099011, 'C': 0.0099009900990099011, 'I': 0.0099009900990099011, 'H': 0.0099009900990099011, 'L': 0.049504950495049507, 'N': 0.0099009900990099011, 'S': 0.41584158415841582, 'T': 0.29702970297029702, 'V': 0.18811881188118812},  #144
+{'S': 0.019801980198019802, 'T': 0.98019801980198018},  #145
+{'A': 0.72277227722772275, 'C': 0.0099009900990099011, 'M': 0.049504950495049507, 'L': 0.019801980198019802, 'S': 0.17821782178217821, 'R': 0.0099009900990099011, 'V': 0.0099009900990099011},  #146
+{'A': 0.19801980198019803, 'V': 0.80198019801980203},  #147
+{'G': 0.99009900990099009, 'V': 0.0099009900990099011},  #148
+{'Y': 0.98019801980198018, 'F': 0.0099009900990099011, 'N': 0.0099009900990099011},  #149
+{'A': 0.6633663366336634, 'C': 0.039603960396039604, 'G': 0.0099009900990099011, 'I': 0.019801980198019802, 'M': 0.019801980198019802, 'Q': 0.069306930693069313, 'S': 0.13861386138613863, 'T': 0.029702970297029702, 'V': 0.0099009900990099011},  #150
+{'A': 0.13861386138613863, 'G': 0.86138613861386137},  #151
+{'G': 1.0},  #152
+{'A': 0.019801980198019802, 'E': 0.0099009900990099011, 'G': 0.0099009900990099011, 'F': 0.24752475247524752, 'I': 0.079207920792079209, 'H': 0.059405940594059403, 'K': 0.0099009900990099011, 'L': 0.049504950495049507, 'Q': 0.029702970297029702, 'P': 0.019801980198019802, 'S': 0.019801980198019802, 'T': 0.059405940594059403, 'V': 0.069306930693069313, 'Y': 0.31683168316831684},  #153
+{'S': 0.0099009900990099011, 'T': 0.98019801980198018, 'V': 0.0099009900990099011},  #154
+{'A': 0.019801980198019802, 'E': 0.079207920792079209, 'I': 0.0099009900990099011, 'K': 0.029702970297029702, 'Q': 0.029702970297029702, 'P': 0.76237623762376239, 'S': 0.029702970297029702, 'R': 0.019801980198019802, 'V': 0.019801980198019802},  #155
+{'Y': 0.0099009900990099011, 'H': 0.059405940594059403, 'I': 0.0099009900990099011, 'N': 0.92079207920792083},  #156
+{'A': 0.029702970297029702, 'P': 0.97029702970297027},  #157
+{'G': 0.0099009900990099011, 'H': 0.0099009900990099011, 'N': 0.019801980198019802, 'S': 0.069306930693069313, 'T': 0.88118811881188119, 'V': 0.0099009900990099011},  #158
+{'Y': 1.0},  #159
+{'E': 0.64356435643564358, 'D': 0.029702970297029702, 'H': 0.029702970297029702, 'K': 0.069306930693069313, 'Q': 0.089108910891089105, 'S': 0.0099009900990099011, 'R': 0.12871287128712872},  #160
+{'Q': 0.049504950495049507, 'E': 0.93069306930693074, 'D': 0.019801980198019802},  #161
+{'A': 0.019801980198019802, 'I': 0.0099009900990099011, 'T': 0.14851485148514851, 'V': 0.82178217821782173},  #162
+{'C': 0.97029702970297027, 'T': 0.029702970297029702},  #163
+{'Q': 0.0099009900990099011, 'S': 0.58415841584158412, 'T': 0.40594059405940597},  #164
+{'A': 0.039603960396039604, 'Q': 0.0099009900990099011, 'S': 0.0099009900990099011, 'G': 0.94059405940594054},  #165
+{'A': 0.019801980198019802, 'E': 0.019801980198019802, 'D': 0.019801980198019802, 'G': 0.0099009900990099011, 'F': 0.0099009900990099011, 'H': 0.0099009900990099011, 'K': 0.049504950495049507, 'M': 0.079207920792079209, 'L': 0.28712871287128711, 'N': 0.0099009900990099011, 'Q': 0.17821782178217821, 'S': 0.019801980198019802, 'R': 0.27722772277227725, 'T': 0.0099009900990099011},  #166
+{'S': 0.0099009900990099011, 'T': 0.99009900990099009},  #167
+{'A': 0.0099009900990099011, 'D': 0.0099009900990099011, 'G': 0.96039603960396036, 'N': 0.019801980198019802},  #168
+{'Q': 0.019801980198019802, 'H': 0.98019801980198018},  #169
+{'A': 0.31683168316831684, 'S': 0.029702970297029702, 'N': 0.22772277227722773, 'T': 0.41584158415841582, 'V': 0.0099009900990099011},  #170
+{'E': 1.0},  #171
+{'A': 0.23762376237623761, 'G': 0.0099009900990099011, 'I': 0.029702970297029702, 'L': 0.0099009900990099011, 'S': 0.019801980198019802, 'T': 0.059405940594059403, 'V': 0.63366336633663367},  #172
+{'A': 0.0099009900990099011, 'V': 0.98019801980198018, 'F': 0.0099009900990099011},  #173
+{'E': 0.0099009900990099011, 'H': 0.0099009900990099011, 'K': 0.039603960396039604, 'M': 0.0099009900990099011, 'L': 0.43564356435643564, 'Q': 0.11881188118811881, 'R': 0.35643564356435642, 'V': 0.0099009900990099011, 'Y': 0.0099009900990099011},  #174
+{'I': 0.079207920792079209, 'L': 0.0099009900990099011, 'V': 0.91089108910891092},  #175
+{'A': 0.059405940594059403, 'I': 0.10891089108910891, 'R': 0.0099009900990099011, 'Q': 0.0099009900990099011, 'V': 0.81188118811881194},  #176
+{'Y': 0.38613861386138615, 'F': 0.60396039603960394, 'V': 0.0099009900990099011},  #177
+{'A': 0.0099009900990099011, 'E': 0.0099009900990099011, 'D': 0.94059405940594054, 'N': 0.039603960396039604},  #178
+{'A': 0.0099009900990099011, 'E': 0.019801980198019802, 'H': 0.0099009900990099011, 'K': 0.019801980198019802, 'Q': 0.0099009900990099011, 'P': 0.90099009900990101, 'S': 0.019801980198019802, 'T': 0.0099009900990099011},  #179
+{'A': 0.27722772277227725, 'E': 0.099009900990099015, 'D': 0.039603960396039604, 'K': 0.16831683168316833, 'L': 0.0099009900990099011, 'Q': 0.079207920792079209, 'S': 0.15841584158415842, 'R': 0.039603960396039604, 'T': 0.11881188118811881, 'V': 0.0099009900990099011},  #180
+{'A': 0.029702970297029702, 'E': 0.079207920792079209, 'I': 0.13861386138613863, 'K': 0.18811881188118812, 'M': 0.0099009900990099011, 'L': 0.039603960396039604, 'Q': 0.10891089108910891, 'R': 0.089108910891089105, 'T': 0.0099009900990099011, 'V': 0.30693069306930693},  #181
+{'I': 0.42574257425742573, 'V': 0.39603960396039606, 'T': 0.069306930693069313, 'L': 0.099009900990099015, 'N': 0.0099009900990099011},  #182
+{'A': 0.0099009900990099011, 'D': 0.019801980198019802, 'G': 0.019801980198019802, 'P': 0.059405940594059403, 'S': 0.75247524752475248, 'R': 0.039603960396039604, 'T': 0.099009900990099015},  #183
+{'E': 0.0099009900990099011, 'D': 0.0099009900990099011, 'F': 0.17821782178217821, 'L': 0.23762376237623761, 'N': 0.0099009900990099011, 'P': 0.0099009900990099011, 'Y': 0.54455445544554459},  #184
+{'A': 0.16831683168316833, 'E': 0.39603960396039606, 'D': 0.10891089108910891, 'G': 0.049504950495049507, 'H': 0.0099009900990099011, 'K': 0.039603960396039604, 'N': 0.0099009900990099011, 'Q': 0.059405940594059403, 'P': 0.019801980198019802, 'S': 0.039603960396039604, 'R': 0.019801980198019802, 'T': 0.069306930693069313, 'W': 0.0099009900990099011},  #185
+{'A': 0.11881188118811881, 'E': 0.25742574257425743, 'D': 0.079207920792079209, 'G': 0.029702970297029702, 'K': 0.049504950495049507, 'M': 0.0099009900990099011, 'L': 0.0099009900990099011, 'N': 0.019801980198019802, 'Q': 0.23762376237623761, 'S': 0.039603960396039604, 'R': 0.069306930693069313, 'T': 0.069306930693069313, 'V': 0.0099009900990099011},  #186
+{'I': 0.059405940594059403, 'L': 0.88118811881188119, 'V': 0.059405940594059403},  #187
+{'I': 0.019801980198019802, 'L': 0.93069306930693074, 'V': 0.049504950495049507},  #188
+{'A': 0.079207920792079209, 'E': 0.029702970297029702, 'I': 0.019801980198019802, 'H': 0.019801980198019802, 'K': 0.48514851485148514, 'N': 0.0099009900990099011, 'Q': 0.11881188118811881, 'S': 0.019801980198019802, 'R': 0.15841584158415842, 'T': 0.049504950495049507, 'V': 0.0099009900990099011},  #189
+{'A': 0.069306930693069313, 'C': 0.019801980198019802, 'I': 0.079207920792079209, 'H': 0.029702970297029702, 'M': 0.019801980198019802, 'L': 0.21782178217821782, 'Q': 0.019801980198019802, 'S': 0.039603960396039604, 'T': 0.15841584158415842, 'V': 0.34653465346534651},  #190
+{'F': 1.0},  #191
+{'L': 0.0099009900990099011, 'W': 0.92079207920792083, 'F': 0.069306930693069313},  #192
+{'Q': 0.039603960396039604, 'E': 0.95049504950495045, 'T': 0.0099009900990099011},  #193
+{'A': 0.099009900990099015, 'E': 0.049504950495049507, 'G': 0.12871287128712872, 'H': 0.0099009900990099011, 'K': 0.039603960396039604, 'L': 0.0099009900990099011, 'N': 0.27722772277227725, 'Q': 0.019801980198019802, 'S': 0.29702970297029702, 'R': 0.039603960396039604, 'T': 0.019801980198019802, 'V': 0.0099009900990099011},  #194
+{'H': 1.0},  #195
+{'Q': 0.0099009900990099011, 'D': 0.81188118811881194, 'N': 0.17821782178217821},  #196
+{'P': 0.99009900990099009, 'S': 0.0099009900990099011},  #197
+{'A': 0.069306930693069313, 'S': 0.0099009900990099011, 'T': 0.92079207920792083},  #198
+{'Q': 0.98019801980198018, 'M': 0.0099009900990099011, 'E': 0.0099009900990099011},  #199
+{'G': 1.0},  #200
+{'Y': 0.0099009900990099011, 'F': 0.059405940594059403, 'M': 0.92079207920792083, 'N': 0.0099009900990099011},  #201
+{'Q': 0.029702970297029702, 'R': 0.96039603960396036, 'G': 0.0099009900990099011},  #202
+{'Q': 1.0},  #203
+{'G': 1.0},  #204
+{'A': 0.0099009900990099011, 'P': 0.0099009900990099011, 'M': 0.0099009900990099011, 'G': 0.049504950495049507, 'N': 0.92079207920792083},  #205
+{'D': 1.0},  #206
+{'I': 0.22772277227722773, 'H': 0.019801980198019802, 'M': 0.039603960396039604, 'L': 0.089108910891089105, 'Q': 0.049504950495049507, 'S': 0.0099009900990099011, 'R': 0.079207920792079209, 'T': 0.039603960396039604, 'V': 0.43564356435643564, 'Y': 0.0099009900990099011},  #207
+{'G': 1.0},  #208
+{'P': 0.0099009900990099011, 'S': 0.13861386138613863, 'T': 0.85148514851485146},  #209
+{'Q': 0.92079207920792083, 'A': 0.0099009900990099011, 'T': 0.069306930693069313},  #210
+{'Y': 1.0},  #211
+{'R': 1.0},  #212
+{'S': 1.0},  #213
+{'A': 0.57425742574257421, 'I': 0.0099009900990099011, 'G': 0.24752475247524752, 'V': 0.16831683168316833},  #214
+{'I': 0.86138613861386137, 'L': 0.069306930693069313, 'V': 0.069306930693069313},  #215
+{'Y': 0.85148514851485146, 'H': 0.039603960396039604, 'L': 0.0099009900990099011, 'F': 0.099009900990099015},  #216
+{'A': 0.12871287128712872, 'C': 0.12871287128712872, 'F': 0.049504950495049507, 'L': 0.0099009900990099011, 'P': 0.029702970297029702, 'T': 0.34653465346534651, 'W': 0.049504950495049507, 'V': 0.14851485148514851, 'Y': 0.10891089108910891},  #217
+{'A': 0.059405940594059403, 'E': 0.0099009900990099011, 'D': 0.029702970297029702, 'G': 0.0099009900990099011, 'F': 0.089108910891089105, 'H': 0.059405940594059403, 'K': 0.0099009900990099011, 'M': 0.0099009900990099011, 'L': 0.069306930693069313, 'Q': 0.019801980198019802, 'S': 0.019801980198019802, 'R': 0.0099009900990099011, 'T': 0.38613861386138615, 'V': 0.049504950495049507, 'Y': 0.16831683168316833},  #218
+{'D': 0.25742574257425743, 'G': 0.0099009900990099011, '-': 0.0099009900990099011, 'N': 0.11881188118811881, 'S': 0.29702970297029702, 'T': 0.30693069306930693},  #219
+{'A': 0.099009900990099015, 'E': 0.23762376237623761, 'D': 0.23762376237623761, 'G': 0.019801980198019802, 'H': 0.0099009900990099011, 'K': 0.029702970297029702, 'N': 0.019801980198019802, 'Q': 0.019801980198019802, 'P': 0.25742574257425743, 'S': 0.039603960396039604, 'T': 0.0099009900990099011, 'V': 0.019801980198019802},  #220
+{'A': 0.24752475247524752, 'E': 0.42574257425742573, 'D': 0.069306930693069313, 'G': 0.059405940594059403, 'K': 0.019801980198019802, 'M': 0.0099009900990099011, 'L': 0.0099009900990099011, 'N': 0.049504950495049507, 'Q': 0.059405940594059403, 'S': 0.0099009900990099011, 'R': 0.0099009900990099011, 'T': 0.029702970297029702},  #221
+{'E': 0.0099009900990099011, 'D': 0.049504950495049507, 'G': 0.0099009900990099011, 'H': 0.0099009900990099011, 'M': 0.0099009900990099011, 'Q': 0.90099009900990101, 'R': 0.0099009900990099011},  #222
+{'A': 0.089108910891089105, 'E': 0.089108910891089105, 'D': 0.019801980198019802, 'G': 0.0099009900990099011, 'H': 0.019801980198019802, 'K': 0.099009900990099015, 'M': 0.029702970297029702, 'L': 0.24752475247524752, 'Q': 0.10891089108910891, 'R': 0.22772277227722773, 'V': 0.0099009900990099011, 'Y': 0.049504950495049507},  #223
+{'A': 0.29702970297029702, 'E': 0.16831683168316833, 'D': 0.029702970297029702, 'G': 0.0099009900990099011, 'H': 0.0099009900990099011, 'K': 0.039603960396039604, 'M': 0.019801980198019802, 'L': 0.019801980198019802, 'N': 0.0099009900990099011, 'Q': 0.16831683168316833, 'P': 0.0099009900990099011, 'S': 0.029702970297029702, 'R': 0.069306930693069313, 'T': 0.049504950495049507, 'V': 0.069306930693069313},  #224
+{'A': 0.39603960396039606, 'E': 0.079207920792079209, 'I': 0.089108910891089105, 'K': 0.0099009900990099011, 'L': 0.12871287128712872, 'Q': 0.12871287128712872, 'S': 0.029702970297029702, 'R': 0.0099009900990099011, 'T': 0.069306930693069313, 'W': 0.0099009900990099011, 'V': 0.039603960396039604, 'Y': 0.0099009900990099011},  #225
+{'A': 0.92079207920792083, 'S': 0.0099009900990099011, 'T': 0.0099009900990099011, 'V': 0.059405940594059403},  #226
+{'A': 0.029702970297029702, 'E': 0.38613861386138615, 'D': 0.019801980198019802, 'F': 0.0099009900990099011, 'I': 0.029702970297029702, 'H': 0.029702970297029702, 'K': 0.049504950495049507, 'M': 0.019801980198019802, 'L': 0.14851485148514851, 'N': 0.019801980198019802, 'Q': 0.11881188118811881, 'S': 0.0099009900990099011, 'R': 0.099009900990099015, 'T': 0.0099009900990099011, 'V': 0.019801980198019802},  #227
+{'A': 0.51485148514851486, 'E': 0.11881188118811881, 'D': 0.039603960396039604, 'G': 0.019801980198019802, 'H': 0.039603960396039604, 'K': 0.059405940594059403, 'L': 0.0099009900990099011, 'N': 0.0099009900990099011, 'Q': 0.069306930693069313, 'S': 0.029702970297029702, 'R': 0.049504950495049507, 'T': 0.029702970297029702, 'V': 0.0099009900990099011},  #228
+{'A': 0.039603960396039604, 'G': 0.0099009900990099011, 'I': 0.019801980198019802, 'M': 0.019801980198019802, 'L': 0.0099009900990099011, 'S': 0.80198019801980203, 'T': 0.099009900990099015},  #229
+{'A': 0.079207920792079209, 'E': 0.0099009900990099011, 'F': 0.0099009900990099011, 'I': 0.0099009900990099011, 'H': 0.0099009900990099011, 'K': 0.19801980198019803, 'L': 0.079207920792079209, 'Q': 0.049504950495049507, 'R': 0.54455445544554459, 'T': 0.0099009900990099011},  #230
+{'A': 0.18811881188118812, 'E': 0.20792079207920791, 'D': 0.27722772277227725, 'K': 0.029702970297029702, 'L': 0.019801980198019802, 'N': 0.039603960396039604, 'Q': 0.10891089108910891, 'S': 0.0099009900990099011, 'R': 0.029702970297029702, 'T': 0.059405940594059403, 'V': 0.029702970297029702},  #231
+{'A': 0.46534653465346537, 'C': 0.0099009900990099011, 'E': 0.069306930693069313, 'D': 0.0099009900990099011, 'G': 0.0099009900990099011, 'H': 0.019801980198019802, 'M': 0.0099009900990099011, 'L': 0.049504950495049507, 'N': 0.019801980198019802, 'Q': 0.059405940594059403, 'S': 0.029702970297029702, 'R': 0.17821782178217821, 'T': 0.019801980198019802, 'V': 0.049504950495049507},  #232
+{'Y': 0.67326732673267331, 'F': 0.30693069306930693, 'V': 0.019801980198019802},  #233
+{'A': 0.079207920792079209, 'E': 0.089108910891089105, 'D': 0.0099009900990099011, 'G': 0.039603960396039604, 'Q': 0.73267326732673266, 'S': 0.039603960396039604, 'T': 0.0099009900990099011},  #234
+{'A': 0.25742574257425743, 'E': 0.039603960396039604, 'D': 0.019801980198019802, 'G': 0.049504950495049507, 'H': 0.019801980198019802, 'K': 0.14851485148514851, 'N': 0.029702970297029702, 'Q': 0.25742574257425743, 'P': 0.059405940594059403, 'S': 0.049504950495049507, 'R': 0.049504950495049507, 'V': 0.019801980198019802},  #235
+{'A': 0.54455445544554459, 'E': 0.069306930693069313, 'G': 0.0099009900990099011, 'K': 0.0099009900990099011, 'M': 0.0099009900990099011, 'L': 0.029702970297029702, 'N': 0.019801980198019802, 'Q': 0.079207920792079209, 'S': 0.029702970297029702, 'R': 0.099009900990099015, 'T': 0.0099009900990099011, 'V': 0.089108910891089105},  #236
+{'I': 0.039603960396039604, 'M': 0.089108910891089105, 'L': 0.86138613861386137, 'V': 0.0099009900990099011},  #237
+{'A': 0.14851485148514851, 'M': 0.0099009900990099011, 'E': 0.039603960396039604, 'D': 0.069306930693069313, 'G': 0.0099009900990099011, 'I': 0.0099009900990099011, 'H': 0.019801980198019802, 'K': 0.079207920792079209, '-': 0.0099009900990099011, 'L': 0.019801980198019802, 'N': 0.039603960396039604, 'Q': 0.079207920792079209, 'S': 0.18811881188118812, 'R': 0.059405940594059403, 'T': 0.20792079207920791, 'V': 0.0099009900990099011},  #238
+{'A': 0.40594059405940597, 'E': 0.099009900990099015, 'D': 0.059405940594059403, 'G': 0.049504950495049507, 'K': 0.099009900990099015, '-': 0.0099009900990099011, 'L': 0.0099009900990099011, 'Q': 0.10891089108910891, 'S': 0.049504950495049507, 'R': 0.069306930693069313, 'T': 0.029702970297029702, 'V': 0.0099009900990099011},  #239
+{'A': 0.46534653465346537, 'M': 0.019801980198019802, 'E': 0.019801980198019802, 'G': 0.019801980198019802, 'H': 0.0099009900990099011, 'K': 0.11881188118811881, '-': 0.0099009900990099011, 'L': 0.0099009900990099011, 'N': 0.019801980198019802, 'Q': 0.089108910891089105, 'S': 0.089108910891089105, 'R': 0.069306930693069313, 'T': 0.0099009900990099011, 'V': 0.039603960396039604, 'Y': 0.0099009900990099011},  #240
+{'A': 0.0099009900990099011, 'D': 0.0099009900990099011, 'G': 0.84158415841584155, 'H': 0.029702970297029702, 'L': 0.019801980198019802, 'N': 0.039603960396039604, 'Q': 0.0099009900990099011, 'S': 0.019801980198019802, 'R': 0.019801980198019802},  #241
+{'A': 0.019801980198019802, 'D': 0.089108910891089105, 'G': 0.019801980198019802, 'F': 0.13861386138613863, 'I': 0.039603960396039604, 'H': 0.099009900990099015, 'K': 0.029702970297029702, 'M': 0.0099009900990099011, 'L': 0.11881188118811881, 'N': 0.0099009900990099011, 'S': 0.0099009900990099011, 'R': 0.089108910891089105, 'V': 0.0099009900990099011, 'Y': 0.31683168316831684},  #242
+{'E': 0.019801980198019802, 'D': 0.039603960396039604, 'G': 0.039603960396039604, 'H': 0.019801980198019802, 'K': 0.019801980198019802, '-': 0.76237623762376239, 'M': 0.0099009900990099011, 'L': 0.0099009900990099011, 'N': 0.0099009900990099011, 'P': 0.0099009900990099011, 'S': 0.019801980198019802, 'R': 0.029702970297029702, 'T': 0.0099009900990099011},  #243
+{'A': 0.039603960396039604, 'E': 0.039603960396039604, 'D': 0.049504950495049507, 'G': 0.64356435643564358, 'H': 0.019801980198019802, 'K': 0.0099009900990099011, '-': 0.019801980198019802, 'N': 0.0099009900990099011, 'P': 0.019801980198019802, 'S': 0.019801980198019802, 'R': 0.099009900990099015, 'T': 0.029702970297029702},  #244
+{'A': 0.18811881188118812, 'E': 0.19801980198019803, 'D': 0.049504950495049507, 'G': 0.029702970297029702, 'K': 0.049504950495049507, 'M': 0.0099009900990099011, 'L': 0.019801980198019802, 'N': 0.019801980198019802, 'Q': 0.029702970297029702, 'P': 0.19801980198019803, 'S': 0.059405940594059403, 'R': 0.039603960396039604, 'T': 0.099009900990099015, 'V': 0.0099009900990099011},  #245
+{'I': 0.8910891089108911, 'V': 0.10891089108910891},  #246
+{'S': 0.019801980198019802, 'T': 0.98019801980198018},  #247
+{'S': 0.039603960396039604, 'T': 0.96039603960396036},  #248
+{'Q': 0.029702970297029702, 'R': 0.0099009900990099011, 'E': 0.93069306930693074, 'D': 0.029702970297029702},  #249
+{'I': 0.8910891089108911, 'F': 0.0099009900990099011, 'M': 0.0099009900990099011, 'L': 0.029702970297029702, 'V': 0.059405940594059403},  #250
+{'A': 0.25742574257425743, 'C': 0.019801980198019802, 'E': 0.059405940594059403, 'D': 0.029702970297029702, 'G': 0.039603960396039604, 'F': 0.0099009900990099011, 'I': 0.049504950495049507, 'K': 0.019801980198019802, 'M': 0.0099009900990099011, 'L': 0.18811881188118812, 'N': 0.0099009900990099011, 'Q': 0.019801980198019802, 'S': 0.029702970297029702, 'R': 0.11881188118811881, 'T': 0.059405940594059403, 'V': 0.079207920792079209},  #251
+{'Y': 0.0099009900990099011, 'H': 0.0099009900990099011, '-': 0.96039603960396036, 'L': 0.0099009900990099011, 'F': 0.0099009900990099011},  #252
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #253
+{'S': 0.0099009900990099011, '-': 0.99009900990099009},  #254
+{'-': 0.99009900990099009, 'D': 0.0099009900990099011},  #255
+{'-': 0.99009900990099009, 'T': 0.0099009900990099011},  #256
+{'A': 0.059405940594059403, 'E': 0.079207920792079209, 'D': 0.12871287128712872, 'G': 0.0099009900990099011, 'K': 0.039603960396039604, 'M': 0.039603960396039604, 'L': 0.029702970297029702, 'N': 0.019801980198019802, 'Q': 0.029702970297029702, 'P': 0.50495049504950495, 'S': 0.029702970297029702, 'R': 0.0099009900990099011, 'T': 0.0099009900990099011, 'V': 0.0099009900990099011},  #257
+{'A': 0.69306930693069302, 'E': 0.0099009900990099011, '-': 0.089108910891089105, 'L': 0.13861386138613863, 'P': 0.019801980198019802, 'R': 0.0099009900990099011, 'T': 0.0099009900990099011, 'V': 0.029702970297029702},  #258
+{'A': 0.0099009900990099011, 'E': 0.019801980198019802, 'D': 0.019801980198019802, '-': 0.93069306930693074, 'N': 0.0099009900990099011, 'Q': 0.0099009900990099011},  #259
+{'-': 0.99009900990099009, 'G': 0.0099009900990099011},  #260
+{'P': 0.0099009900990099011, '-': 0.99009900990099009},  #261
+{'-': 0.99009900990099009, 'V': 0.0099009900990099011},  #262
+{'-': 0.99009900990099009, 'G': 0.0099009900990099011},  #263
+{'H': 0.0099009900990099011, '-': 0.99009900990099009},  #264
+{'A': 0.019801980198019802, '-': 0.95049504950495045, 'S': 0.0099009900990099011, 'E': 0.019801980198019802},  #265
+{'A': 0.089108910891089105, 'D': 0.0099009900990099011, 'G': 0.019801980198019802, '-': 0.84158415841584155, 'L': 0.019801980198019802, 'S': 0.0099009900990099011, 'V': 0.0099009900990099011},  #266
+{'A': 0.019801980198019802, 'E': 0.0099009900990099011, 'D': 0.049504950495049507, 'G': 0.32673267326732675, 'K': 0.039603960396039604, 'L': 0.0099009900990099011, 'N': 0.019801980198019802, 'Q': 0.019801980198019802, 'P': 0.37623762376237624, 'S': 0.029702970297029702, 'R': 0.079207920792079209, 'T': 0.019801980198019802},  #267
+{'A': 0.059405940594059403, 'E': 0.16831683168316833, 'D': 0.079207920792079209, 'I': 0.019801980198019802, 'H': 0.0099009900990099011, 'K': 0.0099009900990099011, 'N': 0.0099009900990099011, 'P': 0.38613861386138615, 'S': 0.029702970297029702, 'T': 0.20792079207920791, 'V': 0.019801980198019802},  #268
+{'Y': 0.14851485148514851, 'F': 0.80198019801980203, 'M': 0.0099009900990099011, 'L': 0.019801980198019802, 'V': 0.019801980198019802},  #269
+{'Y': 0.90099009900990101, 'W': 0.019801980198019802, 'F': 0.079207920792079209},  #270
+{'F': 0.36633663366336633, 'L': 0.049504950495049507, 'P': 0.019801980198019802, 'W': 0.0099009900990099011, 'V': 0.0099009900990099011, 'Y': 0.54455445544554459},  #271
+{'A': 1.0},  #272
+{'E': 1.0},  #273
+{'A': 0.13861386138613863, 'E': 0.13861386138613863, 'D': 0.44554455445544555, 'G': 0.059405940594059403, 'H': 0.0099009900990099011, 'N': 0.0099009900990099011, 'Q': 0.0099009900990099011, 'P': 0.039603960396039604, 'S': 0.039603960396039604, 'T': 0.099009900990099015, 'V': 0.0099009900990099011},  #274
+{'Y': 0.87128712871287128, 'S': 0.0099009900990099011, 'E': 0.059405940594059403, 'D': 0.049504950495049507, 'V': 0.0099009900990099011},  #275
+{'H': 1.0},  #276
+{'Q': 1.0},  #277
+{'Q': 0.98019801980198018, 'G': 0.019801980198019802},  #278
+{'Y': 1.0},  #279
+{'L': 1.0},  #280
+{'A': 0.019801980198019802, 'H': 0.0099009900990099011, 'S': 0.039603960396039604, '-': 0.93069306930693074},  #281
+{'-': 0.95049504950495045, 'E': 0.0099009900990099011, 'D': 0.029702970297029702, 'P': 0.0099009900990099011},  #282
+{'A': 0.60396039603960394, 'E': 0.039603960396039604, 'D': 0.059405940594059403, 'G': 0.019801980198019802, 'F': 0.029702970297029702, 'H': 0.15841584158415842, '-': 0.019801980198019802, 'Q': 0.019801980198019802, 'S': 0.0099009900990099011, 'T': 0.0099009900990099011, 'V': 0.0099009900990099011, 'Y': 0.019801980198019802},  #283
+{'Q': 0.0099009900990099011, 'K': 0.95049504950495045, 'R': 0.039603960396039604},  #284
+{'P': 0.0099009900990099011, 'K': 0.0099009900990099011, 'N': 0.88118811881188119, 'H': 0.049504950495049507, 'V': 0.049504950495049507},  #285
+{'-': 0.99009900990099009, 'G': 0.0099009900990099011},  #286
+{'P': 0.96039603960396036, 'S': 0.0099009900990099011, 'V': 0.029702970297029702},  #287
+{'A': 0.079207920792079209, 'C': 0.0099009900990099011, 'E': 0.029702970297029702, 'D': 0.10891089108910891, 'G': 0.15841584158415842, 'F': 0.0099009900990099011, 'H': 0.049504950495049507, 'N': 0.40594059405940597, 'Q': 0.039603960396039604, 'S': 0.059405940594059403, 'R': 0.0099009900990099011, 'W': 0.0099009900990099011, 'Y': 0.029702970297029702},  #288
+{'P': 0.0099009900990099011, 'G': 0.99009900990099009},  #289
+{'Y': 0.99009900990099009, '-': 0.0099009900990099011},  #290
+{'C': 0.96039603960396036, 'R': 0.029702970297029702, '-': 0.0099009900990099011},  #291
+{'P': 0.039603960396039604, 'C': 0.029702970297029702, '-': 0.0099009900990099011, 'G': 0.90099009900990101, 'N': 0.019801980198019802},  #292
+{'A': 0.0099009900990099011, 'I': 0.23762376237623761, 'H': 0.049504950495049507, '-': 0.0099009900990099011, 'L': 0.58415841584158412, 'T': 0.0099009900990099011, 'V': 0.099009900990099015},  #293
+{'A': 0.049504950495049507, 'C': 0.0099009900990099011, 'D': 0.0099009900990099011, 'G': 0.70297029702970293, 'H': 0.039603960396039604, 'K': 0.059405940594059403, '-': 0.0099009900990099011, 'Q': 0.029702970297029702, 'S': 0.029702970297029702, 'R': 0.059405940594059403},  #294
+{'A': 0.019801980198019802, 'G': 0.8910891089108911, '-': 0.0099009900990099011, 'N': 0.019801980198019802, 'P': 0.029702970297029702, 'S': 0.019801980198019802, 'T': 0.0099009900990099011},  #295
+{'I': 0.089108910891089105, '-': 0.0099009900990099011, 'L': 0.0099009900990099011, 'N': 0.019801980198019802, 'S': 0.0099009900990099011, 'T': 0.86138613861386137},  #296
+{'S': 0.019801980198019802, '-': 0.0099009900990099011, 'K': 0.019801980198019802, 'G': 0.93069306930693074, 'N': 0.019801980198019802},  #297
+{'A': 0.039603960396039604, 'F': 0.0099009900990099011, 'I': 0.099009900990099015, '-': 0.0099009900990099011, 'L': 0.029702970297029702, 'V': 0.81188118811881194},  #298
+{'A': 0.069306930693069313, 'C': 0.23762376237623761, 'E': 0.0099009900990099011, 'D': 0.0099009900990099011, 'G': 0.0099009900990099011, 'K': 0.029702970297029702, '-': 0.0099009900990099011, 'P': 0.049504950495049507, 'S': 0.37623762376237624, 'T': 0.12871287128712872, 'V': 0.069306930693069313},  #299
+{'C': 0.63366336633663367, 'F': 0.13861386138613863, '-': 0.0099009900990099011, 'M': 0.019801980198019802, 'L': 0.14851485148514851, 'V': 0.0099009900990099011, 'Y': 0.039603960396039604},  #300
+{'-': 0.98019801980198018, 'E': 0.0099009900990099011, 'G': 0.0099009900990099011},  #301
+{'S': 0.0099009900990099011, '-': 0.98019801980198018, 'D': 0.0099009900990099011},  #302
+{'P': 0.019801980198019802, '-': 0.98019801980198018},  #303
+{'S': 0.019801980198019802, '-': 0.98019801980198018},  #304
+{'-': 0.98019801980198018, 'E': 0.019801980198019802},  #305
+{'-': 0.99009900990099009, 'T': 0.0099009900990099011},  #306
+{'-': 0.99009900990099009, 'N': 0.0099009900990099011},  #307
+{'-': 0.99009900990099009, 'W': 0.0099009900990099011},  #308
+{'-': 0.98019801980198018, 'G': 0.0099009900990099011, 'W': 0.0099009900990099011},  #309
+{'A': 0.0099009900990099011, 'R': 0.0099009900990099011, '-': 0.98019801980198018},  #310
+{'A': 0.019801980198019802, '-': 0.98019801980198018},  #311
+{'C': 0.019801980198019802, '-': 0.98019801980198018},  #312
+{'A': 0.049504950495049507, 'E': 0.019801980198019802, 'I': 0.0099009900990099011, '-': 0.12871287128712872, 'N': 0.0099009900990099011, 'Q': 0.019801980198019802, 'P': 0.76237623762376239},  #313
+{'A': 0.029702970297029702, 'M': 0.0099009900990099011, 'C': 0.0099009900990099011, 'E': 0.0099009900990099011, 'G': 0.0099009900990099011, 'I': 0.25742574257425743, 'H': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.21782178217821782, 'L': 0.039603960396039604, 'P': 0.16831683168316833, 'S': 0.0099009900990099011, 'T': 0.039603960396039604, 'V': 0.17821782178217821},  #314
+{'E': 0.0099009900990099011, 'G': 0.41584158415841582, 'F': 0.0099009900990099011, 'M': 0.039603960396039604, '-': 0.38613861386138615, 'L': 0.0099009900990099011, 'Q': 0.0099009900990099011, 'P': 0.049504950495049507, 'S': 0.039603960396039604, 'R': 0.0099009900990099011, 'W': 0.0099009900990099011, 'H': 0.0099009900990099011},  #315
+{'E': 0.0099009900990099011, 'G': 0.029702970297029702, 'I': 0.049504950495049507, '-': 0.48514851485148514, 'L': 0.17821782178217821, 'N': 0.0099009900990099011, 'R': 0.019801980198019802, 'T': 0.099009900990099015, 'V': 0.11881188118811881},  #316
+{'A': 0.10891089108910891, 'E': 0.0099009900990099011, 'D': 0.019801980198019802, 'G': 0.13861386138613863, 'F': 0.0099009900990099011, 'I': 0.0099009900990099011, '-': 0.63366336633663367, 'L': 0.0099009900990099011, 'N': 0.0099009900990099011, 'Q': 0.0099009900990099011, 'P': 0.0099009900990099011, 'S': 0.0099009900990099011, 'R': 0.0099009900990099011, 'V': 0.0099009900990099011},  #317
+{'P': 0.0099009900990099011, '-': 0.99009900990099009},  #318
+{'A': 0.019801980198019802, 'E': 0.019801980198019802, 'G': 0.0099009900990099011, 'I': 0.019801980198019802, '-': 0.80198019801980203, 'N': 0.0099009900990099011, 'S': 0.0099009900990099011, 'R': 0.0099009900990099011, 'T': 0.019801980198019802, 'W': 0.0099009900990099011, 'V': 0.069306930693069313},  #319
+{'D': 0.0099009900990099011, 'G': 0.0099009900990099011, '-': 0.90099009900990101, 'L': 0.0099009900990099011, 'N': 0.019801980198019802, 'Q': 0.019801980198019802, 'P': 0.019801980198019802, 'V': 0.0099009900990099011},  #320
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #321
+{'A': 0.0099009900990099011, 'E': 0.019801980198019802, 'D': 0.0099009900990099011, 'G': 0.019801980198019802, '-': 0.87128712871287128, 'Q': 0.0099009900990099011, 'P': 0.059405940594059403},  #322
+{'A': 0.019801980198019802, 'G': 0.019801980198019802, '-': 0.93069306930693074, 'Q': 0.0099009900990099011, 'S': 0.0099009900990099011, 'T': 0.0099009900990099011},  #323
+{'A': 0.0099009900990099011, 'Q': 0.0099009900990099011, '-': 0.96039603960396036, 'E': 0.0099009900990099011, 'D': 0.0099009900990099011},  #324
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #325
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #326
+{'P': 0.0099009900990099011, '-': 0.99009900990099009},  #327
+{'-': 0.99009900990099009, 'V': 0.0099009900990099011},  #328
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #329
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #330
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #331
+{'-': 0.99009900990099009, 'G': 0.0099009900990099011},  #332
+{'-': 0.99009900990099009, 'D': 0.0099009900990099011},  #333
+{'-': 0.99009900990099009, 'G': 0.0099009900990099011},  #334
+{'H': 0.0099009900990099011, '-': 0.99009900990099009},  #335
+{'I': 0.0099009900990099011, '-': 0.99009900990099009},  #336
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #337
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #338
+{'S': 0.0099009900990099011, '-': 0.99009900990099009},  #339
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #340
+{'-': 0.99009900990099009, 'F': 0.0099009900990099011},  #341
+{'-': 0.99009900990099009, 'F': 0.0099009900990099011},  #342
+{'Q': 0.0099009900990099011, '-': 0.99009900990099009},  #343
+{'-': 0.99009900990099009, 'F': 0.0099009900990099011},  #344
+{'Q': 0.0099009900990099011, '-': 0.99009900990099009},  #345
+{'K': 0.0099009900990099011, '-': 0.99009900990099009},  #346
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #347
+{'-': 0.99009900990099009, 'V': 0.0099009900990099011},  #348
+{'-': 0.99009900990099009, 'G': 0.0099009900990099011},  #349
+{'K': 0.0099009900990099011, '-': 0.99009900990099009},  #350
+{'-': 0.99009900990099009, 'G': 0.0099009900990099011},  #351
+{'-': 0.99009900990099009, 'V': 0.0099009900990099011},  #352
+{'Q': 0.0099009900990099011, '-': 0.99009900990099009},  #353
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #354
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #355
+{'-': 0.99009900990099009, 'G': 0.0099009900990099011},  #356
+{'K': 0.0099009900990099011, '-': 0.99009900990099009},  #357
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #358
+{'I': 0.0099009900990099011, '-': 0.99009900990099009},  #359
+{'-': 0.99009900990099009, 'D': 0.0099009900990099011},  #360
+{'S': 0.0099009900990099011, '-': 0.99009900990099009},  #361
+{'-': 0.99009900990099009, 'F': 0.0099009900990099011},  #362
+{'P': 0.0099009900990099011, '-': 0.99009900990099009},  #363
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #364
+{'-': 0.99009900990099009, 'F': 0.0099009900990099011},  #365
+{'-': 0.99009900990099009, 'G': 0.0099009900990099011},  #366
+{'E': 0.0099009900990099011, '-': 0.99009900990099009},  #367
+{'-': 0.99009900990099009, 'D': 0.0099009900990099011},  #368
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #369
+{'-': 0.99009900990099009, 'G': 0.0099009900990099011},  #370
+{'Q': 0.0099009900990099011, '-': 0.99009900990099009},  #371
+{'-': 0.99009900990099009, 'F': 0.0099009900990099011},  #372
+{'I': 0.0099009900990099011, '-': 0.99009900990099009},  #373
+{'-': 0.99009900990099009, 'D': 0.0099009900990099011},  #374
+{'C': 0.0099009900990099011, '-': 0.99009900990099009},  #375
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #376
+{'-': 0.99009900990099009, 'F': 0.0099009900990099011},  #377
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #378
+{'-': 0.99009900990099009, 'F': 0.0099009900990099011},  #379
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #380
+{'H': 0.0099009900990099011, '-': 0.99009900990099009},  #381
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #382
+{'-': 0.99009900990099009, 'N': 0.0099009900990099011},  #383
+{'-': 0.99009900990099009, 'F': 0.0099009900990099011},  #384
+{'Q': 0.0099009900990099011, '-': 0.99009900990099009},  #385
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #386
+{'-': 0.99009900990099009, 'D': 0.0099009900990099011},  #387
+{'K': 0.0099009900990099011, '-': 0.99009900990099009},  #388
+{'-': 0.99009900990099009, 'T': 0.0099009900990099011},  #389
+{'-': 0.99009900990099009, 'F': 0.0099009900990099011},  #390
+{'-': 0.99009900990099009, 'F': 0.0099009900990099011},  #391
+{'-': 0.99009900990099009, 'G': 0.0099009900990099011},  #392
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #393
+{'H': 0.0099009900990099011, '-': 0.99009900990099009},  #394
+{'-': 0.99009900990099009, 'D': 0.0099009900990099011},  #395
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #396
+{'I': 0.0099009900990099011, '-': 0.99009900990099009},  #397
+{'P': 0.0099009900990099011, '-': 0.99009900990099009},  #398
+{'-': 0.99009900990099009, 'V': 0.0099009900990099011},  #399
+{'C': 0.0099009900990099011, '-': 0.99009900990099009},  #400
+{'-': 0.99009900990099009, 'V': 0.0099009900990099011},  #401
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #402
+{'M': 0.0099009900990099011, '-': 0.99009900990099009},  #403
+{'M': 0.0099009900990099011, '-': 0.99009900990099009},  #404
+{'E': 0.0099009900990099011, '-': 0.99009900990099009},  #405
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #406
+{'E': 0.0099009900990099011, '-': 0.99009900990099009},  #407
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #408
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #409
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #410
+{'H': 0.0099009900990099011, '-': 0.99009900990099009},  #411
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #412
+{'I': 0.0099009900990099011, '-': 0.99009900990099009},  #413
+{'R': 0.0099009900990099011, '-': 0.99009900990099009},  #414
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #415
+{'S': 0.0099009900990099011, '-': 0.99009900990099009},  #416
+{'V': 0.029702970297029702, '-': 0.95049504950495045, 'L': 0.0099009900990099011, 'T': 0.0099009900990099011},  #417
+{'Q': 0.0099009900990099011, 'P': 0.029702970297029702, '-': 0.95049504950495045, 'D': 0.0099009900990099011},  #418
+{'A': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.98019801980198018},  #419
+{'Q': 0.0099009900990099011, '-': 0.99009900990099009},  #420
+{'S': 0.0099009900990099011, '-': 0.98019801980198018, 'T': 0.0099009900990099011},  #421
+{'H': 0.0099009900990099011, '-': 0.99009900990099009},  #422
+{'-': 0.99009900990099009, 'L': 0.0099009900990099011},  #423
+{'-': 0.99009900990099009, 'T': 0.0099009900990099011},  #424
+{'A': 0.0099009900990099011, '-': 0.99009900990099009},  #425
+{'H': 0.0099009900990099011, '-': 0.99009900990099009},  #426
+{'P': 0.0099009900990099011, '-': 0.99009900990099009},  #427
+{'-': 0.99009900990099009, 'E': 0.0099009900990099011},  #428
+{'-': 0.99009900990099009, 'V': 0.0099009900990099011},  #429
+{'-': 0.99009900990099009, 'W': 0.0099009900990099011},  #430
+{'S': 0.0099009900990099011, '-': 0.99009900990099009},  #431
+{'K': 0.0099009900990099011, '-': 0.99009900990099009},  #432
+{'-': 0.99009900990099009, 'N': 0.0099009900990099011},  #433
+{'-': 0.99009900990099009, 'F': 0.0099009900990099011},  #434
+{'A': 0.0099009900990099011, 'R': 0.0099009900990099011, '-': 0.98019801980198018},  #435
+{'-': 0.96039603960396036, 'K': 0.0099009900990099011, 'E': 0.019801980198019802, 'D': 0.0099009900990099011},  #436
+{'I': 0.019801980198019802, 'C': 0.0099009900990099011, '-': 0.94059405940594054, 'S': 0.0099009900990099011, 'G': 0.019801980198019802},  #437
+{'A': 0.039603960396039604, 'G': 0.029702970297029702, 'I': 0.0099009900990099011, 'M': 0.0099009900990099011, 'K': 0.0099009900990099011, '-': 0.81188118811881194, 'L': 0.019801980198019802, 'P': 0.0099009900990099011, 'S': 0.019801980198019802, 'R': 0.029702970297029702, 'V': 0.0099009900990099011},  #438
+{'A': 0.069306930693069313, 'E': 0.029702970297029702, 'D': 0.0099009900990099011, 'G': 0.019801980198019802, 'F': 0.019801980198019802, 'H': 0.019801980198019802, 'K': 0.0099009900990099011, '-': 0.62376237623762376, 'M': 0.0099009900990099011, 'L': 0.0099009900990099011, 'N': 0.0099009900990099011, 'P': 0.049504950495049507, 'S': 0.049504950495049507, 'R': 0.019801980198019802, 'T': 0.0099009900990099011, 'V': 0.039603960396039604},  #439
+{'A': 0.14851485148514851, 'D': 0.029702970297029702, 'G': 0.039603960396039604, '-': 0.38613861386138615, 'L': 0.059405940594059403, 'N': 0.0099009900990099011, 'Q': 0.059405940594059403, 'P': 0.079207920792079209, 'S': 0.069306930693069313, 'R': 0.019801980198019802, 'T': 0.039603960396039604, 'W': 0.0099009900990099011, 'V': 0.049504950495049507},  #440
+{'A': 0.17821782178217821, 'E': 0.10891089108910891, 'D': 0.079207920792079209, 'G': 0.069306930693069313, '-': 0.23762376237623761, 'N': 0.059405940594059403, 'Q': 0.029702970297029702, 'P': 0.059405940594059403, 'S': 0.069306930693069313, 'R': 0.019801980198019802, 'T': 0.049504950495049507, 'V': 0.039603960396039604},  #441
+{'A': 0.25742574257425743, 'C': 0.0099009900990099011, 'E': 0.059405940594059403, 'D': 0.089108910891089105, 'G': 0.11881188118811881, 'I': 0.079207920792079209, 'H': 0.0099009900990099011, 'K': 0.019801980198019802, 'L': 0.049504950495049507, 'N': 0.039603960396039604, 'Q': 0.079207920792079209, 'S': 0.049504950495049507, 'R': 0.059405940594059403, 'T': 0.029702970297029702, 'V': 0.049504950495049507},  #442
+]
