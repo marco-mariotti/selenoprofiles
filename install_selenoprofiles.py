@@ -43,7 +43,7 @@ class notracebackexception(Exception):
 
 try:  
   from MMlib import *
-  def_opt={ 'temp':'/tmp/', 'no_nr':0, 'no_go':0,  'SS':0, 'bSS'0, 'nrdb':0, 'formatted_nrdb':0,  'dont_update':0, 'godb':0, 'gomap':0, 'min':0, 'n_cpus':1, 'full':0, 'update':0 }
+  def_opt={ 'temp':'/tmp/', 'no_nr':0, 'no_go':0,  'SS':0, 'bSS':0, 'nrdb':0, 'formatted_nrdb':0,  'dont_update':0, 'godb':0, 'gomap':0, 'min':0, 'n_cpus':1, 'full':0, 'update':0 }
   opt=command_line(def_opt, help_msg, '' )
 
   if opt['formatted_nrdb'] and not opt['nrdb']: 
