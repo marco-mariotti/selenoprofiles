@@ -1,8 +1,8 @@
-#!/soft/bin/python -u
+#!/usr/bin/python -u
 __author__  = "Marco Mariotti"
 __email__   = "marco.mariotti@crg.eu"
 __licence__ = "GPLv3"
-__version__ = "3.2"
+__version__ = "3.2a"
 global temp_folder; global split_folder
 from string import *
 import sys
@@ -33,7 +33,7 @@ usage:          Selenoprofiles  results_folder  target_file  -s "species name"  
 
 As ARG of -p, you must provide one or more profiles (comma separated, if multiple).  Arguments can be filenames (aligned fasta files) or profile names. If they are profile names, files called like profile_name.fa or profile_name.fasta must be present in the profiles folder defined in your main configuration file. Profile alignments are normally built with default options: a profile_name.fa.config file containing the profile settings is created. See script selenoprofiles_build_profile.py to build a profile with non-default options.
 
-The following routines are normally executed only if the results files are not found. You can force their execution specifying either the short or long option. Forcing a routine forces also the execution of all subsequent steps. Note that this may cause certain files to be overwritten, but they are never deleted.
+The following routines are normally executed only if their output files are not found. You can force their execution specifying either the short or long option. Forcing a routine forces also the execution of all subsequent steps. Note that this may cause certain files to be overwritten, but none will be deleted.
 
 -B || -blast          Run blast and filtering of its output. All next steps are for each blast hit (merged by colinearity)
 -E || -exonerate      Run cyclic_exonerate
@@ -54,16 +54,15 @@ To see the default active options, see your main configuration file.
 Additionally, if a least one prediction is output, a fasta alignment called PROFILE.ali is created: this contains the sequences of the profile along with all predictions for this family in this target. 
 
 A few other options:
--no_splice || -N   for use on RNA sequences or bacterial genomes. Genewise is not available in this mode
+-no_splice || -N   for use on RNA sequences or bacterial genomes. Genewise is desactivated in this mode
 -test              prints the slave programs and modules available in this selenoprofiles installation, then quits
--temp  +           temporary folder. A folder with random name is created here, used and deleted at the end of the computation
 -print_opt         print currently active options
 -h full            display full list of options and of accessory programs
 
-Please refer to the manual, available at http://genome.crg.es/~mmariotti/selenoprofiles_manual.pdf
+Please refer to the manual, available at http://big.crg.cat/services/selenoprofiles
 If selenoprofiles has been useful for your research, please cite:  
-Mariotti M, Guigo R. - Selenoprofiles: profile-based scanning of eukaryotic genome sequences for selenoprotein genes.
-Bioinformatics. 2010 Nov 1;26(21):2656-63. Epub 2010 Sep 21."""
+Mariotti M, Guigo R. Selenoprofiles: profile-based scanning of eukaryotic genome sequences for selenoprotein genes.
+Bioinformatics. 2010 Nov 1;26(21):2656-63."""
 full_help="""
 ####### Full list of other options #######
 Options with + require an argument. Options can be specified either in command line with syntax -option value or in the configuration file as option = value. If no argument is required for an option, in the configuration file you must use value=1.  To deactivate an option which is active by default, use -option 0.
@@ -71,12 +70,13 @@ Options with + require an argument. Options can be specified either in command l
 ## system and global configuration
 -bin_folder       +     folder where the executables run by selenoprofiles are searched
 -profiles_folder  +     folder where the profile alignments are searched
+-temp             +     temporary folder. A folder with random name is created here, used and deleted at the end of the computation
 -save_chromosomes       active by default. Selenoprofiles tries to recycle the single-sequence fasta files extracted from the genome, to minimize computation. These files are kept in a subfolder of the folder specified with -temp. Turn off to save disk space
 -no_colors              disable printing in colors to atty terminals. Put "no_colors=1" in your configuration file to set this as default
 -GO_obo_file      +     path to the gene_ontology_ext.obo file used in GO tools-based filtering (see manual)
 
 ## prediction programs
--dont_exonerate         do not run exonerate. Not recommended
+-dont_exonerate         do not run exonerate. Not recommended. 
 -dont_genewise          do not run genewise.  Use to reduce the time required for computation
 -genewise_to_be_sure    active by default. When exonerate produce no output or its prediction does not overlap the seed blast hit, genewise is run, seeded using the blast hits coordinates. Turn off this option not to run genewise in these cases, to reduce the time required for computation
 -no_blast               do not allow choosing a blast prediction (over a genewise or exonerate prediction). Use this if an accurate splice site prediction is crucial for you
@@ -209,7 +209,7 @@ def load(config_filename='/users/rg/mmariotti/scripts/selenoprofiles_3.config', 
     for k in def_opt: 
       if args.has_key(k):  opt[k]=args[k]
       else: opt[k]=def_opt[k]
-  else:      opt=command_line(def_opt, help_msg, ['r','t'], synonyms=command_line_synonyms, tolerated_regexp=['ACTION.*'], strict=1, advanced={'full':full_help} );   #### reading options from command line
+  else:      opt=command_line(def_opt, help_msg, ['r','t'], synonyms=command_line_synonyms, tolerated_regexp=['ACTION.*'], strict= notracebackException, advanced={'full':full_help} );   #### reading options from command line
   set_MMlib_var('opt', opt);
   sleep_time=opt['sleep_time']
   max_attempts_database=opt['max_attempts_database']

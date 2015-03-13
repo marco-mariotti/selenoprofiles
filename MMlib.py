@@ -298,7 +298,10 @@ def command_line(default_opt, command_line_help='Command line usage:...', defaul
     special_options=['h', 'print_opt', 'print_option', 'print_options', 'config', 'bin_folder', '__synonyms__']
     for k in opt:
       if not default_opt.has_key(k) and not nowarning and not k in special_options and not k in opt.synonyms() and not  match_any_word(k, tolerated_regexp, ignore_case=0) :
-        if strict: raise Exception, "command_line ERROR the option "+k+" is not present among the possible options. run with -print_opt to see the current option configuration"
+        if strict!=0:
+          if issubclass(strict, Exception): e=strict
+          else:                             e=Exception
+          raise e, "command_line ERROR the option "+k+" is not present among the possible options. run with -print_opt to see the current option configuration"
         printerr('WARNING possible typo: the option '+k+' is not present among the possible options. run with -print_opt to see the current option configuration\n')
 
     opt=fill_option(default_opt, opt, dont_add_to_argv)

@@ -141,8 +141,8 @@ try:
         program_bin=b[1].split('\n')[0]
         if not os.path.isfile(installation_directory+program):
           print 'Linking '+program+' in '+bin_folder+' ... '
-          bash('rm '+bin_folder+program)
-          bbash('ln -fs '+program_bin+' '+bin_folder)
+          bash('rm '+bin_folder+program) #deleting if necessary
+          bbash('ln -fs '+program_bin+' '+bin_folder) #linking
 
   if error_msg:    raise notracebackexception, error_msg
       
@@ -246,7 +246,7 @@ try:
       print "File found: "+libraries_folder+'gene_ontology_ext.obo'
 
   selenoprofiles_programs=["MMlib.py","selenoprofiles_3.py", "selenoprofiles_3.config", "test_selenoprofiles.py",  "blaster_parser.g", "selenoprofiles_build_profile.py", 'selenoprofiles_join_alignments.py', 'selenoprofiles_database.py', 'selenoprofiles_tree_drawer.py']
-  words_to_replace={'/users/rg/mmariotti/bin':bin_folder[:-1], '/users/rg/mmariotti/scripts':installation_directory[:-1],  '/users/rg/mmariotti/libraries':libraries_folder[:-1], '/home/mmariotti/temp':temp_directory[:-1], '/users/rg/mmariotti/selenoprofiles/trunk/profiles':installation_directory+'profiles', '/users/rg/mmariotti/Databases/nr.fa':libraries_folder+'nr.fa',  ' -a 7 ':' -a '+str(opt['n_cpus'])+' '}
+  words_to_replace={'/users/rg/mmariotti/bin':bin_folder[:-1], '/users/rg/mmariotti/scripts':installation_directory[:-1],  '/users/rg/mmariotti/libraries':libraries_folder[:-1], '/users/rg/mmariotti/temp':temp_directory[:-1], '/users/rg/mmariotti/selenoprofiles/trunk/profiles':installation_directory+'profiles', '/users/rg/mmariotti/Databases/nr.fa':libraries_folder+'nr.fa',  ' -a 7 ':' -a '+str(opt['n_cpus'])+' '}
 
   ### SECISearch3
   if opt['SS']:
