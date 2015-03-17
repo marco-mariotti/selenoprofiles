@@ -1773,7 +1773,9 @@ class alignment:
     if not remove_empty_seqs: a.remove_empty_seqs()
     a.reset_derived_data()
     if not inplace:  return a
-    else:          self.__dict__=deepcopy(a.__dict__); 
+    else:          
+      self.__dict__=deepcopy(a.__dict__); 
+      return sorted(positions_to_remove.keys())
 
   def consensus_sequence(self, threshold=0.0, sec_char='', exclude={}):
     """This function computes a consensus sequences taking into account all sequences in the alignment (apart from the titles in the input hash exclude). Not all the columns are taken into account: only those having at maximum \
