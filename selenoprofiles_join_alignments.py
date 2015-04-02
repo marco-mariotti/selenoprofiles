@@ -1,4 +1,4 @@
-#!/soft/bin/python -u
+#!/usr/bin/python -u
 from string import *
 import sys
 from commands import *
@@ -41,7 +41,7 @@ Options can be specified to decide which alignments to search for. All options r
 
 command_line_synonyms={'p':'fam', 'p_list':'fam_list', 'P':'fam', 'profile':'fam', 's':'species', 's_list':'species_list', 't':'target', 't_list':'target_list'}
 
-def_opt= {'temp':'/home/mmariotti/temp', 
+def_opt= {'temp':'/users/rg/mmariotti/temp', 
 'i':0, 'f':0, 'ds':0,
 'o':'',
 'v':0, 'Q':0, 

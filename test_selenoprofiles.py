@@ -1,4 +1,4 @@
-#!/soft/bin/python -u
+#!/usr/bin/python -u
 from string import *
 import sys
 import commands 

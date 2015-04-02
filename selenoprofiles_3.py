@@ -3150,12 +3150,12 @@ class p2ghit(gene):
     comment=''
     sec_pos_features=[]
     u_pos_in_ali_list=self.alignment.all_positions_of('U')
-    for u_pos_in_ali in  u_pos_in_ali_list:
+    for sec_index, u_pos_in_ali in  enumerate(u_pos_in_ali_list):
       homologue_residue_pos= self.alignment.position_in_seq( 't', u_pos_in_ali+1  )  #0-based to 1-based
       if homologue_residue_pos:  #exluding super-rare case in which sec is in the ali but as a Nterm tail
         residue_type=      self.protein()[homologue_residue_pos-1] 
         first_pos_codon=    self.subseq(   (homologue_residue_pos-1)*3 + 1 , 1 , minimal=True).exons[0][0]  #first pos of codon for hom residue
-        sec_pos_features.append(  [first_pos_codon, "sec_position:"+str(first_pos_codon)+'-'+residue_type  ]   )
+        sec_pos_features.append(  [first_pos_codon, "sec_position."+str(sec_index+1)+":"+str(first_pos_codon)+'-'+residue_type  ]   )
       
     if self.is_complete_at_three_prime():
       if   self.strand=='+':  g.extend(right=3, inplace=True)
@@ -3275,7 +3275,7 @@ class p2ghit(gene):
           #searching for the go associated to these gis
           gi_go_associations_hash={} #key: gi ; value: list of GO code strings e.g, "GO:0055114"
           gi_go_associations_string= bbash("gawk -v id_file="+gi_list_file+""" -F"\\t" 'BEGIN{ while ((getline idline < id_file)>0){ GI_INPUT[idline]=1 } } { split($1, GI, "; "); split("", gi_match); for (i=1; i<=length(GI); i++){ if (GI[i] in GI_INPUT) { gi_match[GI[i]]=1}   }; o=""; for (g in gi_match) o="; " g; if (o)  print substr(o, 3) "\\t" $2  }' """+self.profile.gi2go_db_filename(), dont_die=1)
-          print [gi_go_associations_string]
+          #print [gi_go_associations_string]
           if gi_go_associations_string:
             for line in gi_go_associations_string.split('\n'):
               for gi_code in line.split('\t')[0].split('; '): #more than one gi can be present in a line
@@ -5046,6 +5046,7 @@ class secis(p2g_feature):
     return o
   def summary(self):
     o='-SECIS: '+self.id+'     grade:'+self.grade+'\n'
+    o+=' Chromosome:'+self.chromosome+' Strand:'+self.strand+'\n'
     o+=' Positions:'+self.positions_summary()+' '
     d=self.distance_from_cds() 
     if d: o+='    CDS-Distance:'+str(d)+' '
@@ -5059,6 +5060,7 @@ class secis(p2g_feature):
   __str__=  summary
   __repr__= summary
   output=summary
+
   def distance_from_sec_uga(self):
     """ Return the distance from the (last) sec uga (not counting predicted introns) """
     try: 

@@ -1,4 +1,4 @@
-#!/soft/bin/python -u
+#!/usr/bin/python -u
 from string import *
 import sys
 from commands import *
@@ -68,7 +68,7 @@ def set_selenoprofiles_tree_drawer_var(varname, value):
 
 command_line_synonyms={}
 
-def_opt= {'temp':'/home/mmariotti/temp', 'common':0, 'no_id':0, 'add':0, 'sp_add':0,
+def_opt= {'temp':'/users/rg/mmariotti/temp', 'common':0, 'no_id':0, 'add':0, 'sp_add':0,
 't':'/users/rg/mmariotti/Genomes/.tree', 'prompt':0,
 'm':0,
 's':'', 'f':'', 'out':'',
@@ -276,7 +276,10 @@ class limited_p2ghit(gene):
   """This class is analog to p2ghit, but lacks some of its data. """
   def load_from_header(self, header):
     gene.load_from_header(self, header)
-    if 'species:' in header:        species_name= unmask_characters(replace_chars(header.split('species:')[1].split()[0], '_', ' '))
+    if 'species:' in header:        
+      tline=header.split('species:')[1]
+      if tline.startswith('"'): species_name= tline[1:].split('"')[0]
+      else:                     species_name= tline.split()[0]
     elif len(self.id.split('.'))>=5:     species_name= unmask_characters(replace_chars(self.id.split('.')[3], '_', ' '))       
     self.species= species(  species_name  )
     #self.program= header.split('prediction_program:')[1].split()[0]

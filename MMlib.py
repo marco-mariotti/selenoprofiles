@@ -30,7 +30,7 @@ except:
     a=average(ilist)
     return   sqrt(  sum(   [pow( v-a, 2)  for v in ilist]  )/len(ilist)  )
 
-def set_local_folders(temp='/home/mmariotti/temp'):
+def set_local_folders(temp='/users/rg/mmariotti/temp'):
   """ Used in ipython to quickly set the environment for fetching chromosomes and stuff"""
   try: assert is_directory(opt['temp'])
   except:  opt['temp']=temp
@@ -62,7 +62,7 @@ def phylome_connector():
 def bash(command, print_it=0):
   """Utility to run bash commands. a tuple (exit_status, message) is returned, where message includes both std input and stderr. If argument print_it==1 or the variable print_commands is defined in MMlib, the command is printed before execution. If variable bin_folder is defined in MMlib, this folder is added to bash $PATH before running the command. """
   if 'print_commands' in globals() and print_commands: print_it=1
-  if print_it:    print command
+  if print_it:    write(command, 1)
   if 'bin_folder' in globals(): 
     if not bin_folder  == os.environ['PATH'].split(':')[0]:      os.environ['PATH']=str(bin_folder)+':'+os.environ['PATH']
   b1, b2= commands.getstatusoutput(command)
@@ -72,7 +72,7 @@ def bbash(command, print_it=0, dont_die=0):
   """Utility to run bash commands. A string is returned, where including both std input and stderr. If the exit status of the command is different than 0, it is assumed something went wrong, so an exception is raised indicating the command and the output. If argument dont_die==1, no exception is raised and output is returned as normal.
    If argument print_it==1 or the variable print_commands is defined in MMlib, the command is printed before execution. If variable bin_folder is defined in MMlib, this folder is added to bash $PATH before running the command. """
   if 'print_commands' in globals() and print_commands: print_it=1
-  if print_it:    print command
+  if print_it:    write(command, 1)
   cmnd=command
   if 'bin_folder' in globals(): 
     if not bin_folder  == os.environ['PATH'].split(':')[0]:      os.environ['PATH']=str(bin_folder)+':'+os.environ['PATH']
@@ -93,7 +93,7 @@ def bash_pipe(cmnd, print_it=0, return_popen=0, stdin=None):
   if 'print_commands' in globals() and print_commands: print_it=1
   if 'bin_folder' in globals(): 
     if not bin_folder  == os.environ['PATH'].split(':')[0]:      os.environ['PATH']=str(bin_folder)+':'+os.environ['PATH']    
-  if print_it: print cmnd
+  if print_it: write(cmnd, 1)
   s=subprocess.Popen(cmnd.split(), stdout=subprocess.PIPE, stdin=stdin, env=os.environ)
   if return_popen: return s
   else:    return s.stdout
@@ -130,16 +130,13 @@ def random_folder(parent_folder='', dont_create_it=0):
   else:
     return 'some_error_creating_random_folder.hopefully_there_is_noooo_file_named_like_this_when_you_try_to_delete_it'
 
-temp_folder=random_folder('/home/mmariotti/temp', 1)
-split_folder=Folder('/home/mmariotti/temp')
+temp_folder=random_folder('/users/rg/mmariotti/temp', 1)
+split_folder=Folder('/users/rg/mmariotti/temp')
 
-def set_MMlib_var(varname, value):
-  globals()[varname]=value
-def get_MMlib_var(varname):
-  return globals()[varname]
+def set_MMlib_var(varname, value):  globals()[varname]=value
+def get_MMlib_var(varname):         return globals()[varname]
 
-def is_significant(pvalue):
-  return pvalue<opt['alpha']
+def is_significant(pvalue):         return pvalue<opt['alpha']
 
 printed_rchar=0
 
@@ -299,8 +296,8 @@ def command_line(default_opt, command_line_help='Command line usage:...', defaul
     for k in opt:
       if not default_opt.has_key(k) and not nowarning and not k in special_options and not k in opt.synonyms() and not  match_any_word(k, tolerated_regexp, ignore_case=0) :
         if strict!=0:
-          if issubclass(strict, Exception): e=strict
-          else:                             e=Exception
+          if type(strict) in [int, bool]: e=Exception
+          elif issubclass(strict, Exception): e=strict
           raise e, "command_line ERROR the option "+k+" is not present among the possible options. run with -print_opt to see the current option configuration"
         printerr('WARNING possible typo: the option '+k+' is not present among the possible options. run with -print_opt to see the current option configuration\n')
 
@@ -317,24 +314,74 @@ def command_line(default_opt, command_line_help='Command line usage:...', defaul
 
     #printing options to screen in case we have -print_opt
     if not silent and( opt.has_key('print_opt') or opt.has_key('print_options') or opt.has_key('print_option') ):
-      print "| ACTIVE OPTIONS:"
+      write( "| ACTIVE OPTIONS:", 1)
       keys=opt.keys()
       keys.sort()
       for k in keys:
         a="| "+str(k)
         write( a+' '*(30-len(a))+': '+str(opt[k]), 1)
-      print
+      write('', 1)
     #printing help message in case we have -h or --help
     if not silent and  (len(sys.argv)<2 or opt.has_key('h') ) :
-      print command_line_help
+      write(command_line_help, 1)
       if advanced and opt['h'] in advanced: 
-        print advanced[opt['h']]
+        write(advanced[opt['h']], 1)
       if not dont_die:
         sys.exit()
         
     return opt
 
 uniq_id=id
+
+def lineage_string_to_abstract(lineage):
+  """ lineage is a string which is usually returned by this program. This function condensate it keeping the most interesting classes. """
+  splt=lineage.split('; ')
+  if "Bacteria; " in lineage  :    return 'B; '+join(splt[2:min(5, len(splt))], '; ')
+  elif 'Archaea; ' in lineage :    return 'A; '+join(splt[2:min(5, len(splt))], '; ')
+  elif 'Eukaryota; ' in lineage:   
+    out='E; '
+    if 'Metazoa; ' in lineage:
+      out+='M; '
+      if 'Deuterostomia; ' in lineage:
+        out+='Deuterostomia; '
+        if 'Vertebrata; ' in lineage:
+          out+='Vertebrata; '      
+          if 'Mammalia; ' in lineage:           out+='Mammalia; '
+          elif 'Sauropsida; ' in lineage:       out+='Sauropsida; '
+          elif 'Amphibia; ' in lineage:         out+='Amphibia; '
+          elif 'Actinopterygii; ' in lineage:   out+='Actinopterygii; '
+          elif 'Chondrichthyes; ' in lineage:   out+='Chondrichthyes; '
+        elif 'Tunicata; ' in lineage:          
+          out+='Tunicata; '
+          if 'Ascidiacea; ' in lineage:           out+='Ascidiacea; '         
+        elif 'Branchiostomidae; ' in lineage:  out+='Branchiostomidae; '
+        elif 'Echinodermata; ' in lineage:     out+='Echinodermata; '
+      elif 'Protostomia; ' in lineage:
+        out+='Protostomia; '
+        if  'Arthropoda; ' in lineage:      
+          out+='Arthropoda; '
+          if 'Insecta; ' in lineage:        out+='Insecta; '
+          elif 'Crustacea; ' in lineage:    out+='Crustacea; '
+          elif 'Myrapoda; ' in lineage:     out+='Myrapoda; '
+          elif 'Arachnida; ' in lineage:     out+='Arachnida; '
+          elif 'Merostomata; ' in lineage:     out+='Merostomata; '
+        elif 'Nematoda; ' in lineage:     out+='Nematoda; '
+        elif 'Mollusca; ' in lineage:           
+          out+='Mollusca; '
+          if 'Gastropoda; ' in lineage: out+='Gastropoda; '
+          elif 'Bivalvia; ' in lineage: out+='Bivalvia; '
+        elif 'Annelida; ' in lineage:           out+='Annelida; '
+        else:      out+=     lineage.split('Protostomia; ')[1].split(';')[0]+'; '
+      else: #basal metazoan
+        if 'Cnidaria; ' in lineage:        out+='Cnidaria; '
+        elif 'Porifera; ' in lineage:      out+='Porifera; '          
+        elif 'Ctenophora; ' in lineage:    out+='Ctenophora; '
+        elif 'Placozoa; ' in lineage:      out+='Placozoa; '
+        elif 'Platyhelminthes; ' in lineage: out+='Platyhelminthes; '
+
+    else:      out+= join(splt[2:min(4, len(splt))], '; ')+'; '
+    return out[:-2]
+  else:      return join(splt[0:min(4, len(splt))], '; ')
 
 
 def get_species_fullname(species_name):
@@ -529,8 +576,7 @@ class e_v:
         return or_equal
       else:
         if self.value== "!" or other_e_v.value== "!":
-          print "ERROR in evalue class! can't compare the two evalues: "+self.string+' AND '+other_e_v.string
-          raise ValueError
+          raise ValueError, "ERROR in evalue class! can't compare the two evalues: "+self.string+' AND '+other_e_v.string
         else:
           if or_equal:
             return self.value <= other_e_v.value
@@ -881,7 +927,7 @@ def configuration_file(filename, just_these_keys={}):
  
   Example of configuration file format:
 
-  temp= /home/mmariotti/temp
+  temp= /tmp/
   profiles_folder = /users/rg/mmariotti/profiles
   keep_blast=1
 
@@ -1516,18 +1562,21 @@ class alignment:
   def remove_useless_gaps(self):
     """if all sequences have a '-' in a certain position, it's removed from all sequences
     """
-    nseqs=self.nseq()
-    pos=0
     if not self.diz:      return
-    n_columns_removed=0
-    while  pos!=self.length():
-        if self.is_gap_column(pos):
-          n_columns_removed+=1
-          for prot in self.diz:
-              self.diz[prot]=self.diz[prot][:pos]+self.diz[prot][pos+1:]
-        else: pos+=1
-    if n_columns_removed: self.reset_derived_data()
-    return n_columns_removed
+    columns_removed={}
+    for  pos in range( self.length() ):
+      if self.is_gap_column(pos):        columns_removed[pos]=1  #annotating: we have to remove this
+      pos+=1
+    old_length=self.length()
+    for title in self.titles():
+      old_seq=self.seq_of(title)
+      new_seq=''
+      for  pos in range(  old_length  ):
+        if not pos in columns_removed:         new_seq += old_seq[pos]
+      self.set_sequence(title, new_seq)
+    if columns_removed: self.reset_derived_data()
+    return sorted(columns_removed.keys())
+
   remove_empty_columns=remove_useless_gaps
 
   def add(self, protname, seq, index=None):
@@ -2355,7 +2404,7 @@ If a master alignment is provided, the conservation threshold is checked with th
     if not inplace:
       return a
 
-  def find_desert_columns(self, max_non_gaps=1, length_clusters=2, only_titles=[]):
+  def find_desert_columns(self, max_non_gaps=1, length_clusters=2, only_titles=[], join_neighbours=0):
     """ This functions parse the alignment looking for columns in which a single sequence has something different from a gap. Contiguos desert columns are grouped, and those whose length is > than length_clusters are returned. They are returned in the format: [[pos1, length1], [pos2, lenght2], ... ]   positions are 0-based!
 max_non_gaps determines how many seqs can have a non gap in the columns returned. If it is a integer, it is taken as the maximum n of seqs, while if it is a float it is intended as a proportion over the total number of seqs (rounded by excess! careful this is to put the min value to 1 instead than to 0).
 If only_titles is specified, it is necessary that the columns to realign have non-gaps only for these titles.
@@ -2381,11 +2430,27 @@ If only_titles is specified, it is necessary that the columns to realign have no
           n_last_columns_matching=0
       if n_last_columns_matching >= length_clusters:
         out.append([pos-n_last_columns_matching+1, n_last_columns_matching])
+
+    ## joining neighbours
+    if join_neighbours:
+      removed_indexes=[]
+      for region_index  in range(len(out[:-1])):
+        start_region, length_region=out[region_index]
+        end_region=start_region+length_region-1
+        next_start, next_length=out[region_index+1]
+        next_end=  next_start+next_length-1
+        if next_start-end_region -1  <= join_neighbours:
+        #updating the next one to include the current one. marking the next one to be removed afterwards
+          removed_indexes.append(region_index)
+          out[region_index+1]= [  start_region, next_end-start_region+1 ]
+      for i in removed_indexes[::-1]: out.pop(i)
+    #printerr(out, 1)  #DEBUG debug
+
     return out
   
   def shrink(self, only_titles=[]):
     """ This functions detects the desert columns clusters in the alignment and realigns them"""
-    desert_columns=self.find_desert_columns(1, 2, only_titles=only_titles)
+    desert_columns=self.find_desert_columns(1, 2, only_titles=only_titles, join_neighbours=2)
     self.realign_columns(input_list=desert_columns)
     self.reset_derived_data()
     
@@ -3915,16 +3980,18 @@ Last field overrides the id and the comment arguments """
     out=''
     for start, end in self.exons:
       add_sec_pos=''
+      #################
+      ### deprecated
       if sec_pos:   ##### note: this was added for selenoprofiles, but it is not used anymore
         sec_positions_list=[] 
         if self.sec_pos:        sec_positions_list=self.sec_pos    # self.sec_pos is not used anymore. All the necessary information is already in the aminoacid sequence in the alignment attribute. So, I built a method available for p2ghit gene class that returns a position list as the self.sec_pos list was.
         else:                   
           try: sec_positions_list=self.sec_positions_list()
           except: pass
-        for sec_position in sec_positions_list:
+        for sec_position in sec_positions_list:   ### deprecated
           if sec_position>= start and sec_position<= end:
             add_sec_pos+='Sec_position:'+str(sec_position)+' '
-      
+      #################      
       if position_features:
         for pos, what_to_write in position_features:
           if pos>= start and pos<= end:
@@ -4918,17 +4985,103 @@ class infernalhit(gene):
     return ">"+self.header()+'\n'+seq+'\n'+ss
 
 class parse_infernal(parser):
-  """ Parse a cmsearch output (infernal rna search package) and return infernalhit objects at each next() call"""
+  """ Parse a cmsearch output (infernal rna search package) and return infernalhit objects at each next() call.
+  It tries to identify the infernal version by parsing the first commented lines and look for something like: # INFERNAL 1.1.1 (July 2014)
+  If your output does not have this, you can force version with this:
+  the_parser = parse_infernal(  your_file )
+  the_parser.infernal_version= '1.1' #for example
+  for hit in the_parser:   #now this should work if version is correct
+    #do stuff with hit
+"""
   def load(self, filename=''):
-    if not filename:
-      filename=self.file.name
+    if not filename:      filename=self.file.name
     check_file_presence(filename, 'filename')
     self.file=open(filename, 'r')
-    self.last_line=self.file.readline()
     self.current_cm='unknown'
     self.current_chromosome='unknown'
-
+    self.infernal_version=None
+    self.last_line=self.file.readline()
+    while self.last_line and self.last_line.startswith('# '):
+      if self.last_line.startswith('# INFERNAL '):        self.infernal_version=self.last_line.split()[2][:3]
+      self.last_line=self.file.readline()
+      
   def parse_next(self):
+    if    self.infernal_version == '1.0': return self.parse_next_ver1_0()
+    elif  self.infernal_version == '1.1': return self.parse_next_ver1_1()
+    else: raise Exception, "ERROR infernal version not recognized or supported: "+str(self.infernal_version)
+
+  def parse_next_ver1_1(self):
+    while self.last_line and not self.last_line.startswith('>>'):
+      self.last_line=self.file.readline()
+    if self.last_line.rstrip() and self.last_line.startswith('>>'):
+      self.current_chromosome=self.last_line.rstrip().split()[1]
+      self.last_line=self.file.readline()
+      hit_lines = []
+      while self.last_line and not self.last_line.startswith('>>'):
+        hit_lines.append( self.last_line.rstrip() )
+        self.last_line=self.file.readline()
+    elif not self.last_line.rstrip(): self.stop()
+        
+    g=infernalhit()
+    g.chromosome=self.current_chromosome
+    scores = hit_lines[2].rstrip().split()
+    g.evalue =     e_v(scores[2])
+    g.score =    float(scores[3])
+    query_start =  int(scores[6])
+    query_end =    int(scores[7])
+    target_start = int(scores[9])
+    target_end =   int(scores[10])
+    g.strand =         scores[11]
+    if '-' in g.strand:
+      target_start, target_end = target_end, target_start
+    g.add_exon(target_start, target_end)
+    query_seq=''; target_seq=''
+    while hit_lines:
+      current_line = hit_lines[0]
+      if current_line.endswith('CS'):
+        g.ss += hit_lines[0].split()[0].rstrip('CS')
+        self.current_cm = hit_lines[1].split()[0]
+        query_seq += ' '.join( hit_lines[1].split()[2:-1] )
+        target_seq += ' '.join( hit_lines[3].split()[2:-1] )
+        del hit_lines[0:4]
+      del hit_lines[0]      
+
+    g.query.chromosome = self.current_cm
+    g.query.strand='+'
+    g.query.add_exon(query_start, query_end)
+
+    # some hits may be truncated at both sides
+    # can not complete sequence with Xs because infernal output does not include length of the model
+    # these hits will be completed by remove_Xs method
+#    if scores[8] == '..': g.fill_both_ends = True
+#    else:                 g.fill_both_ends = False
+
+    while "*" in query_seq:
+
+      pos_insert=query_seq.find('*')
+      insert_length_target=  int( target_seq.split('[')[1].split(']')[0].strip()  )
+      insert_length_query= int( query_seq.split('[')[1].split(']')[0].strip() )
+
+      if scores[8].startswith('~'):
+        scores[8]=''
+        query_seq = insert_length_query*'x' + query_seq[pos_insert+1:]
+        target_seq = insert_length_query*'-' + target_seq[pos_insert+1:]
+        g.ss = '~'*max([insert_length_query, insert_length_target]) + g.ss.lstrip('~')
+
+      else:
+        query_seq = query_seq.split('*')[0]+ insert_length_query*'x'+"-"* (insert_length_target-insert_length_query)   + join( query_seq.split('*')[2:], '*'  )
+        target_seq=target_seq.split('*')[0]+insert_length_target*'x'+"-"*(insert_length_query-insert_length_target)   + join( target_seq.split('*')[2:], '*'  )
+        l_ss_gap=0
+        while len(g.ss)>pos_insert+l_ss_gap and g.ss[pos_insert+l_ss_gap]=='~': l_ss_gap+=1
+        g.ss = g.ss[:pos_insert]+'~'*max([insert_length_query, insert_length_target])+g.ss[pos_insert+l_ss_gap:]
+
+    g.alignment.add('q', replace(query_seq, '.', '-'))
+    g.alignment.add('t', replace(target_seq, '.', '-'))
+
+    return g
+
+
+  def parse_next_ver1_0(self):
     while self.last_line and not self.last_line.startswith('>') and not self.last_line.startswith('CM:') and not self.last_line.strip().startswith('Query') :      self.last_line=self.file.readline()
     if self.last_line.startswith('CM'): self.current_cm= self.last_line.rstrip().split('CM: ')[1]
 

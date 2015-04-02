@@ -1,4 +1,4 @@
-#!/soft/bin/python -u
+#!/usr/bin/python -u
 from string import *
 import sys
 from commands import *
@@ -33,7 +33,7 @@ Usage:    selenoprofiles_database.py      some_path/results.sqlite   [options]
 
 command_line_synonyms={}
 
-def_opt= { 'temp':'/home/mmariotti/temp', 
+def_opt= { 'temp':'/users/rg/mmariotti/temp', 
 'i':0, 'p':0,
 'clean':0, 'list':0, 'remove_overlaps':0, 'remove':None, 'remove_list':0, 
 'sp_config': '/users/rg/mmariotti/scripts/selenoprofiles_3.config',
