@@ -1,6 +1,8 @@
-Current
+3.2a
 =======
-github branching dev
+Bug fixes
+- coding sequence of joined exonerate hits was redundant. possible error in output
+
 
 3.2
 =======

@@ -1707,13 +1707,13 @@ def merge_p2g_hits_by_colinearity_post_function_exonerate_hits(upstream_g, downs
   for i in upstream_g, downstream_g:
     if i.__class__.__name__ == 'superexoneratehit':
       for exonerate_h in i.merged:        
-#        write('appending hits in s.e. '+str(i.id)+' : '+str(exonerate_h.id)+ '  to out gene: '+str(out_g.id ), 1)
+        #write('appending hits in s.e. '+str(i.id)+' : '+str(exonerate_h.id)+ '  to out gene: '+str(out_g.id ), 1)
         out_g.merged.append(exonerate_h)
-        
     else:                           
-#      write('appending hit e.   '+str(i.id)+'   to out gene: '+str(out_g.id ), 1)
+      #write('appending hit e.   '+str(i.id)+'   to out gene: '+str(out_g.id ), 1)
       out_g.merged.append(i)  
   out_g.reset_derived_data() #the cds of this must be computed again. That will happen automatically next time .cds() is called
+
   return out_g
 
 ############################################# OTHER FUNCTIONS ##################################################################
@@ -4409,7 +4409,7 @@ class superexoneratehit(exoneratehit):
     fake_ali=alignment()   #building fake alignment just to pass the full query sequence to merge_p2g_hits_by_colinearity function
     if not all(all_exonerate_hits_in_file): return 'output with gff bug'
     fake_ali.add(all_exonerate_hits_in_file[0].query.chromosome, replace_chars(query_full_sequence, '*', 'U')   ) 
-    if merge_multiple:
+    if merge_multiple:        
       merge_p2g_hits_by_colinearity(all_exonerate_hits_in_file, inplace=True, post_function=merge_p2g_hits_by_colinearity_post_function_exonerate_hits,  sequence_collection=fake_ali)
     for exonerate_or_superexoneratehit in sorted(all_exonerate_hits_in_file, key=lambda e:e.score, reverse=True):
       #navigating the exonerate hits in the merged list, taking first the best scoring ones. We will stop when we find the first one overlapping the seed.
@@ -4426,11 +4426,13 @@ class superexoneratehit(exoneratehit):
   
   def cds(self, **keyargs): #**keyargs are not used. but we accept them to allow compatibility with the cds function in the upper class p2ghit 
     """ This returns the coding sequence of the entire prediction. Frameshifts nucleotide are excluded so that the translation of the cds is always equal to the predicted protein sequence"""
-    if self.merged:
-      out=''
-      for e in self.merged: out+=p2ghit.cds(self)
-      return out        
-    else: return p2ghit.cds(self)
+    #if self.merged:
+    #  out=''
+    #  for e in self.merged: 
+    #    out+=p2ghit.cds(self)
+    #  return out        
+    #else: 
+    return p2ghit.cds(self)
 
 class parse_exonerate(parser):
   """ Parse an exonerate file and returns a exoneratehit object for each prediction inside. 
@@ -5196,7 +5198,7 @@ def Secisearch3(p2g, three_prime_length=-1, silent=False, full=False):
 def bSecisearch(p2g, silent=False, full=False):
   """ Performs a complete bsecisearch searche with bseblastian (crash if not installed). Parse secis and restore their coordinates cosindering their parent gene so that they are absolute. Add the secis to the .features list of the p2g object. If silent!=True, it prints a message for every bSECIS found.    """
   #cutting 3' UTR
-  cds_seq= p2g.cds(); prot_seq=p2g.protein()
+  cds_seq= p2g.cds(); prot_seq=p2g.protein()  
   sec_ugas=[]  #pos codon based, 0 based
   for codon_index in range( len(cds_seq)/3 ):
     if prot_seq[codon_index]=='U': # and cds_seq[codon_index*3:codon_index*3+3]   =='TGA'

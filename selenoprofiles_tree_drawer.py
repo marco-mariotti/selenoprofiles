@@ -396,7 +396,10 @@ def main():
     t=PhyloTree()
 
   tree_style = TreeStyle()  
-  if opt['C']:   tree_style.mode='c'
+  if opt['C']:   
+    tree_style.mode='c'
+    #tree_style.scale *= 10
+    tree_style.allow_face_overlap = True
   else:          tree_style.mode='r'
   tree_style.branch_vertical_margin = 12
   tree_style.draw_aligned_faces_as_table = True
@@ -461,6 +464,7 @@ def main():
           node=t&species_name
           node.is_used=1
 
+          if not node.is_leaf(): raise Exception, "ERROR species: "+species_name+" is not a leaf in the input tree!"
           if not node.columns.has_key(family): node.columns[family]=[]
           node.columns[family].append( x )
 
