@@ -148,7 +148,7 @@ def main(args={}):
 
     def next_attempt(fam):
       for target in target_list:
-        file_attempt=working_directory+target+'/output/'+fam+'.ali'
+        file_attempt=target+'/output/'+fam+'.ali'
         if opt['suffix']:    file_attempt=target+'/output/'+fam+'.'+opt['suffix']+'.ali' #using suffix  
         yield file_attempt
 
