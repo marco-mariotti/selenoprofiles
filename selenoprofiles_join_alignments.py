@@ -1,4 +1,4 @@
-#!/usr/bin/python -u
+#!/soft/bin/python -u
 from string import *
 import sys
 from commands import *
@@ -41,7 +41,7 @@ Options can be specified to decide which alignments to search for. All options r
 
 command_line_synonyms={'p':'fam', 'p_list':'fam_list', 'P':'fam', 'profile':'fam', 's':'species', 's_list':'species_list', 't':'target', 't_list':'target_list'}
 
-def_opt= {'temp':'/users/rg/mmariotti/temp', 
+def_opt= {'temp':'/home/mmariotti/temp', 
 'i':0, 'f':0, 'ds':0,
 'o':'',
 'v':0, 'Q':0, 
@@ -148,7 +148,7 @@ def main(args={}):
 
     def next_attempt(fam):
       for target in target_list:
-        file_attempt=working_directory+target+'/output/'+fam+'.ali'
+        file_attempt=target+'/output/'+fam+'.ali'
         if opt['suffix']:    file_attempt=target+'/output/'+fam+'.'+opt['suffix']+'.ali' #using suffix  
         yield file_attempt
 
