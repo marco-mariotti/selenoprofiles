@@ -1,8 +1,12 @@
+3.2b
+=======
+Bug fixes
+- fixed problems with selp searches (many sec columns)
+
 3.2a
 =======
 Bug fixes
 - coding sequence of joined exonerate hits was redundant. possible error in output
-
 
 3.2
 =======

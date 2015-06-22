@@ -1331,7 +1331,7 @@ class alignment:
 
   def load_stockholm(self, filename):
     """Loads a stockholm file into the alignment. ss is stored into attribute .ss if present, same thing for .rf """
-    self.order=[]; self.diz={}
+    self.order=[]; self.diz={}; self.ss=''; self.rf=''
     fileh=open(filename, 'r')
     line=fileh.readline()
     while line and (line[0]=='#' or not line.split()):     line=fileh.readline()      
@@ -1347,7 +1347,10 @@ class alignment:
     while line and  line!='//\n':
       if line.startswith('#=GC SS_cons'): self.ss+=line.split()[-1]
       elif line.startswith('#=GC RF'): self.rf+=line.split()[-1]
-      elif line.split():        self.set_sequence(  line.split()[0], self.seq_of(line.split()[0])+ line.split()[1]     )
+      elif line.split():        
+        if self.has_title( line.split()[0]  ):
+          self.set_sequence(  line.split()[0], self.seq_of(line.split()[0])+ line.split()[1]     )
+        else: self.add( line.split()[0],  line.split()[1] )
       line=fileh.readline()
     fileh.close()
     if line!='//\n': raise Exception, "ERROR loading stockholm file "+filename+' : \\ was not found at the end of file'
@@ -2450,7 +2453,7 @@ If only_titles is specified, it is necessary that the columns to realign have no
   
   def shrink(self, only_titles=[]):
     """ This functions detects the desert columns clusters in the alignment and realigns them"""
-    desert_columns=self.find_desert_columns(1, 2, only_titles=only_titles, join_neighbours=2)
+    desert_columns=self.find_desert_columns(1, 2, only_titles=only_titles) #, join_neighbours=2)
     self.realign_columns(input_list=desert_columns)
     self.reset_derived_data()
     
@@ -4260,7 +4263,8 @@ def load_all_genes(gff_file, tag='cds', get_id='', add=None, is_sorted=False, **
     id2lines_list={}
     for line in cfile:        
       line=line.strip()
-      if not line[0]=="#" and tag=='*' or lower(line.split('\t')[2]) == lower(tag):
+      #print [line]
+      if not line[0]=="#" and (tag=='*' or lower(line.split('\t')[2]) == lower(tag) ):
         the_id=uniqid_function(line)
         if not id2lines_list.has_key(the_id): id2lines_list[the_id]=''
         id2lines_list[the_id]+=line +'\n'

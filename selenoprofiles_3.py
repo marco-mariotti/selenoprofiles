@@ -2,7 +2,7 @@
 __author__  = "Marco Mariotti"
 __email__   = "marco.mariotti@crg.eu"
 __licence__ = "GPLv3"
-__version__ = "3.2a"
+__version__ = "3.2b"
 global temp_folder; global split_folder
 from string import *
 import sys
@@ -1370,7 +1370,7 @@ def cyclic_exonerate(profile_ali, target_file, outfile='', seed='', extension=30
     if not profile.queries: profile.queries=range(profile.nseq())
 
   for title in profile.titles():
-    seq= profile.fix_query_seq(  profile.seq_of(title, sec_columns='*')  )    
+    seq= profile.fix_multiple_secs(  profile.seq_of(title, sec_columns='*')  )    
     profile.set_sequence(title, seq)
 
   #initializing
@@ -1458,7 +1458,7 @@ def genewise(profile_ali, target_file, outfile='', seed='', extension=15000, gen
   #replacing the input profile with a copy which change in all sequences all aminoacids in sec columns with U (in exonerate, it is *)
   profile=profile_ali.copy()
   for title in profile.titles():
-    seq= profile.fix_query_seq( profile.seq_of(title, sec_columns='U') )
+    seq= profile.fix_multiple_secs( profile.seq_of(title, sec_columns='U') )
     profile.set_sequence(title, seq)
 
   #determining genewise options: the ones specified for the profile override the ones specified as arguments of the genewise function
@@ -1479,7 +1479,7 @@ def genewise(profile_ali, target_file, outfile='', seed='', extension=15000, gen
     complete_query_title=profile.fill_title(seed.query.chromosome)
     current_alignment.add(complete_query_title, seed.alignment.seq_of('q'))
     current_alignment.add('target', seed.alignment.seq_of('t'))
-    current_alignment.fill_sides(profile, inplace=True) # correcting for modified U (the blast query may not have U but it is put in all sec columns, so than the sequence read may be different than this)  
+    current_alignment.fill_sides(profile, inplace=True, wild_chars='UX*') # correcting for modified U (the blast query may not have U but it is put in all sec columns, so than the sequence read may be different than this)  
     profile_plus_prediction= profile.transfer_alignment(current_alignment)
     query_name = choose_query_from_profile_plus_prediction(profile_plus_prediction, profile, target_name='target')    
     seed_type='blast_'
@@ -2237,7 +2237,7 @@ NOTE that in the first, third and fourth cases, those titles for which at least 
         #nonetheless  since we'd miss the ones that are not Us in this subcluster but that are U in the main cluster we do also:
         for sec_pos in self.sec_pos():          
           if not self.is_gap_column(sec_pos):          q_seq= q_seq[:sec_pos] + 'U' + q_seq[sec_pos+1:]
-        q_seq= self.fix_query_seq(q_seq)
+        q_seq= self.fix_multiple_secs(q_seq)
 
         ali.add(q_title, q_seq)
         for parameter in profile_alignment.psitblastn_relative_options:          exec('ali.'+parameter+'=self.'+parameter)
@@ -2378,12 +2378,11 @@ NOTE that in the first, third and fourth cases, those titles for which at least 
       seq=self.seq_of(last_title)
       for sec_pos in self.sec_pos():
         seq=seq[:sec_pos] + sec_char + seq[sec_pos+1:]
-    else:    
-      seq=self.consensus_sequence( threshold=self.max_column_gaps_for_blast_query_value(), sec_char=sec_char )                
-    seq= self.fix_query_seq( seq )
+    else:      seq=self.consensus_sequence( threshold=self.max_column_gaps_for_blast_query_value(), sec_char=sec_char )                
+    seq= self.fix_multiple_secs( seq )
     return seq
 
-  def fix_query_seq(self, seq):
+  def fix_multiple_secs(self, seq):
     """ Bugfix to avoid consecutive U or *, which makes blastall explode"""    
     seq_no_gap=replace(seq, '-', '')
     index=0; index_no_gap=-1

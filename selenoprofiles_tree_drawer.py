@@ -258,7 +258,7 @@ class GeneFace(faces.Face):
 
 def is_selenoprofiles_title( title ):
   """ Returns True if it is a selenoprofiles2 title, False if not """
-  if 'chromosome:' in title and 'strand:' in title and  'positions:' in title: return True
+  if 'chromosome:' in title and 'strand:' in title and  'positions:' in title and title.split()[0].count('.') in [4, 2]: return True
   return False
 
 class gene_attribute(object):
@@ -281,6 +281,7 @@ class limited_p2ghit(gene):
       if tline.startswith('"'): species_name= tline[1:].split('"')[0]
       else:                     species_name= tline.split()[0]
     elif len(self.id.split('.'))>=5:     species_name= unmask_characters(replace_chars(self.id.split('.')[3], '_', ' '))       
+    else: species_name='None'
     self.species= species(  species_name  )
     #self.program= header.split('prediction_program:')[1].split()[0]
     self.label  =         self.id.split('.')[2]
