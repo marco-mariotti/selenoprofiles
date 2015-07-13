@@ -183,9 +183,8 @@ def main(args={}):
           obj=another_db_cursor.fetchone()[0]
           upstream_length, downstream_length, seq=  obj.split(':')
           upstream_length, downstream_length= int(upstream_length), int(downstream_length)
-          else:
-            cds_sequence=seq[  upstream_length:   upstream_length+ len(nogap(alignment_target))*3   ]
-            write( fasta(nogap( cds_sequence  )), 1)
+          cds_sequence=seq[  upstream_length:   upstream_length+ len(nogap(alignment_target))*3   ]
+          write( fasta(nogap( cds_sequence  )), 1)
       if opt['gff']: 
         g=gene();         g.load_from_header(  fasta_header )
         write(g.gff(program="selenoprofiles_"+program), 1 )  
