@@ -1,11 +1,18 @@
+3.2c
+=======
+Features:
+- selenoprofiles_database.py now allows to join different databases and also to run the remove_redundancy procedure without running selenoprofiles.
+- MMlib several functions expanded/improved (e.g. extend_orf added)
+
+
 3.2b
 =======
-Bug fixes
+Bug fixes:
 - fixed problems with selp searches (many sec columns)
 
 3.2a
 =======
-Bug fixes
+Bug fixes:
 - coding sequence of joined exonerate hits was redundant. possible error in output
 
 3.2

@@ -462,7 +462,7 @@ def main():
             node.columns={} #indexed with family name
             node=t&species_name    
         try:
-          node=t&species_name
+          node= [ n     for n in t.search_nodes(name=species_name)  if n.is_leaf() ][0]
           node.is_used=1
 
           if not node.is_leaf(): raise Exception, "ERROR species: "+species_name+" is not a leaf in the input tree!"
@@ -470,7 +470,7 @@ def main():
           node.columns[family].append( x )
 
 
-        except ValueError: 
+        except IndexError: 
 #          print species_name
 #          raise
           if not opt['g']:        raise Exception, "ERROR can't find a node in the tree for species: "+species_name

@@ -2,7 +2,7 @@
 __author__  = "Marco Mariotti"
 __email__   = "marco.mariotti@crg.eu"
 __licence__ = "GPLv3"
-__version__ = "3.2b"
+__version__ = "3.2c"
 global temp_folder; global split_folder
 from string import *
 import sys
