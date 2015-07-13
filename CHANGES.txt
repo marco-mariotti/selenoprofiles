@@ -3,7 +3,7 @@
 Features:
 - selenoprofiles_database.py now allows to join different databases and also to run the remove_redundancy procedure without running selenoprofiles.
 - MMlib several functions expanded/improved (e.g. extend_orf added)
-
+- manual update expanding the guide to parallelization
 
 3.2b
 =======
