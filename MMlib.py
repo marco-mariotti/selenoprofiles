@@ -5117,7 +5117,7 @@ class parse_infernal(parser):
         hit_lines.append( self.last_line.rstrip() )
         self.last_line=self.file.readline()
     elif not self.last_line.rstrip(): self.stop()
-        
+
     g=infernalhit()
     g.chromosome=self.current_chromosome
     scores = hit_lines[2].rstrip().split()
@@ -5128,6 +5128,7 @@ class parse_infernal(parser):
     target_start = int(scores[9])
     target_end =   int(scores[10])
     g.strand =         scores[11]
+    hand_rf = ''
     if '-' in g.strand:
       target_start, target_end = target_end, target_start
     g.add_exon(target_start, target_end)
@@ -5139,43 +5140,40 @@ class parse_infernal(parser):
         self.current_cm = hit_lines[1].split()[0]
         query_seq += ' '.join( hit_lines[1].split()[2:-1] )
         target_seq += ' '.join( hit_lines[3].split()[2:-1] )
-        del hit_lines[0:4]
-      del hit_lines[0]      
+        del hit_lines[0:5]
+        if hit_lines[0].endswith('RF'):
+          hand_rf += ' '.join( hit_lines[0].split()[0:-1] )
+          del hit_lines[0]
+      del hit_lines[0]
 
     g.query.chromosome = self.current_cm
     g.query.strand='+'
     g.query.add_exon(query_start, query_end)
 
-    # some hits may be truncated at both sides
-    # can not complete sequence with Xs because infernal output does not include length of the model
-    # these hits will be completed by remove_Xs method
-#    if scores[8] == '..': g.fill_both_ends = True
-#    else:                 g.fill_both_ends = False
-
     while "*" in query_seq:
-
       pos_insert=query_seq.find('*')
       insert_length_target=  int( target_seq.split('[')[1].split(']')[0].strip()  )
       insert_length_query= int( query_seq.split('[')[1].split(']')[0].strip() )
-
       if scores[8].startswith('~'):
         scores[8]=''
         query_seq = insert_length_query*'x' + query_seq[pos_insert+1:]
         target_seq = insert_length_query*'-' + target_seq[pos_insert+1:]
         g.ss = '~'*max([insert_length_query, insert_length_target]) + g.ss.lstrip('~')
-
+        if hand_rf:
+          hand_rf = '~'*max([insert_length_query, insert_length_target]) + hand_rf
       else:
         query_seq = query_seq.split('*')[0]+ insert_length_query*'x'+"-"* (insert_length_target-insert_length_query)   + join( query_seq.split('*')[2:], '*'  )
         target_seq=target_seq.split('*')[0]+insert_length_target*'x'+"-"*(insert_length_query-insert_length_target)   + join( target_seq.split('*')[2:], '*'  )
         l_ss_gap=0
         while len(g.ss)>pos_insert+l_ss_gap and g.ss[pos_insert+l_ss_gap]=='~': l_ss_gap+=1
         g.ss = g.ss[:pos_insert]+'~'*max([insert_length_query, insert_length_target])+g.ss[pos_insert+l_ss_gap:]
+        if hand_rf:
+          hand_rf = hand_rf[:pos_insert]+'~'*max([insert_length_query, insert_length_target])+hand_rf[pos_insert+l_ss_gap:]
 
     g.alignment.add('q', replace(query_seq, '.', '-'))
     g.alignment.add('t', replace(target_seq, '.', '-'))
-
+    g.hand_rf = hand_rf
     return g
-
 
   def parse_next_ver1_0(self):
     while self.last_line and not self.last_line.startswith('>') and not self.last_line.startswith('CM:') and not self.last_line.strip().startswith('Query') :      self.last_line=self.file.readline()
