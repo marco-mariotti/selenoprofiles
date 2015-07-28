@@ -559,52 +559,33 @@ class e_v:
       elif self.value>=1:
         return len(str(self.value).split('.')[0])-1
 
-
-
   def is_minor_than(self, other_e_v, or_equal=0):
-
     if type(other_e_v).__name__ in ["str",'int','float']:     #converting if necessary
       other_e_v=e_v(str(other_e_v))
-
-
-    if self.exponent() < other_e_v.exponent():
-      return True
-    elif self.exponent() > other_e_v.exponent():
-      return False
+    if self.exponent() < other_e_v.exponent():      return True
+    elif self.exponent() > other_e_v.exponent():    return False
     else:
-      if self.string == other_e_v.string:
-        return or_equal
+      if self.string == other_e_v.string:        return or_equal
       else:
         if self.value== "!" or other_e_v.value== "!":
           raise ValueError, "ERROR in evalue class! can't compare the two evalues: "+self.string+' AND '+other_e_v.string
         else:
-          if or_equal:
-            return self.value <= other_e_v.value
-          else:
-            return self.value < other_e_v.value
-
+          if or_equal:        return self.value <= other_e_v.value
+          else:              return self.value < other_e_v.value
 
   def __lt__(self, other):    return self.is_minor_than(other)
   def __le__(self, other):    return self.is_minor_than(other, or_equal=1)
   def __gt__(self, other):    return not self.is_minor_than(other, or_equal=1)
   def __ge__(self, other):    return not self.is_minor_than(other)
 
-  def __repr__(self):
-    return self.string
-  def __str__(self):
-    return self.string
+  def __repr__(self):    return self.string
+  def __str__(self):     return self.string
   
-  def __float__(self):
-    return self.value
-
-  def __int__(self):
-    return int(self.value)
+  def __float__(self):   return self.value
+  def __int__(self):     return int(self.value)
     
-  def __eq__(self, other):
-    if self.value=='!' and 'string' in dir(other) and 'value' in dir(other) and other.value=='!':
-      return self.string==other.string
-    else:
-      return float(self)==other
+  def __eq__(self, other):    return self.is_minor_than(other, or_equal=1) and not self.is_minor_than(other)
+
 def shortcut_log(evalue):
   """ utility for evalues e_v ... defining the log(0) as 200, since I think blast is not computing evalues < than e-200"""
   try:
@@ -1331,7 +1312,7 @@ class alignment:
 
   def load_stockholm(self, filename):
     """Loads a stockholm file into the alignment. ss is stored into attribute .ss if present, same thing for .rf """
-    self.order=[]; self.diz={}
+    self.order=[]; self.diz={}; self.ss=''; self.rf=''
     fileh=open(filename, 'r')
     line=fileh.readline()
     while line and (line[0]=='#' or not line.split()):     line=fileh.readline()      
@@ -1347,7 +1328,10 @@ class alignment:
     while line and  line!='//\n':
       if line.startswith('#=GC SS_cons'): self.ss+=line.split()[-1]
       elif line.startswith('#=GC RF'): self.rf+=line.split()[-1]
-      elif line.split():        self.set_sequence(  line.split()[0], self.seq_of(line.split()[0])+ line.split()[1]     )
+      elif line.split():        
+        if self.has_title( line.split()[0]  ):
+          self.set_sequence(  line.split()[0], self.seq_of(line.split()[0])+ line.split()[1]     )
+        else: self.add( line.split()[0],  line.split()[1] )
       line=fileh.readline()
     fileh.close()
     if line!='//\n': raise Exception, "ERROR loading stockholm file "+filename+' : \\ was not found at the end of file'
@@ -1355,6 +1339,10 @@ class alignment:
 
   def load_cmalign_out(self, filename):
     """ load an alignment from a cmalign out. this is almost identical to a stockholm format, but with 1 line which disrupts it (I think it's a bug); it also set the cm_name attribute to the name of cm found in cmalignout file"""
+    try: 
+      self.load_stockholm(filename)
+      return
+    except: pass
     fileh=open(filename); tempfileh=open(temp_folder+'temp_cmalign_out.stk', 'w')
     line=fileh.readline()
     while line and not line.startswith('# cm name'):           line=fileh.readline()    
@@ -2450,7 +2438,7 @@ If only_titles is specified, it is necessary that the columns to realign have no
   
   def shrink(self, only_titles=[]):
     """ This functions detects the desert columns clusters in the alignment and realigns them"""
-    desert_columns=self.find_desert_columns(1, 2, only_titles=only_titles, join_neighbours=2)
+    desert_columns=self.find_desert_columns(1, 2, only_titles=only_titles) #, join_neighbours=2)
     self.realign_columns(input_list=desert_columns)
     self.reset_derived_data()
     
@@ -3650,11 +3638,12 @@ merge_genes(gene_list)       merge a list of genes to remove redundancy. It has 
     else:
       return o
 
-  def subseq(self, start_subseq, length_subseq, minimal=False, newclass=None):
+  def subseq(self, start_subseq, length_subseq=None, minimal=False, newclass=None):
     """ This function returns a gene object obtained cutting a subseq of the self object. If the a single exon do not contain the whole length, the returned object will have more than one exon.  
         NB start_subseq is 1 based.    """
     if not minimal: out_gene=self.copy(newclass=newclass); out_gene.exons=[]
     else:           out_gene=gene(chromosome=self.chromosome, strand=self.strand, target=self.target)
+    if length_subseq is None: length_subseq = self.length() - start_subseq + 1 
 
     first_exon_index, length_of_previous_exons = 0, 0
     while first_exon_index<len(self.exons) and self[first_exon_index][1] - self[first_exon_index][0]+1 +length_of_previous_exons   <=  start_subseq-1 : #exiting this loop, the start of secis is included in this exon
@@ -3749,10 +3738,7 @@ merge_genes(gene_list)       merge a list of genes to remove redundancy. It has 
       else:                  new_g.strand='-'      
       for start, end in self.exons:
         new_g.add_exon(    subseq_end - end +1,   subseq_end - start +1    )
-
     return new_g      
-
-      
 
   def downstream(self, distance, region_length, **keyargs):
     """return a gene object with the region downstream this gene. vars: distance, region_length. distance=0 means the region is right downstream - starting from the very next base. Using a negative distance value, you will obtain a partial overlap with this gene (e.g. distance=-3 and region length=6 will return a gene object with the last codon of this gene plus the next codon)
@@ -3760,8 +3746,8 @@ merge_genes(gene_list)       merge a list of genes to remove redundancy. It has 
     """
     g=gene(strand=self.strand, chromosome=self.chromosome, target=self.target)
     if self.exons:
-      if self.strand=='+':          g.add_exon(self.exons[-1][1]+1+distance, self.exons[-1][1]+1+distance+region_length-1)        
-      elif self.strand=='-':        g.add_exon( self.exons[-1][0]-1-distance-region_length+1, self.exons[-1][0]-1-distance)        
+      if self.strand=='+':          g.add_exon(self.exons[-1][1]+1+distance, self.exons[-1][1]+1+distance+region_length-1)  
+      elif self.strand=='-':        g.add_exon( self.exons[-1][0]-1-distance-region_length+1, self.exons[-1][0]-1-distance)   
     for k in keyargs:      g[k]=keyargs[k]
     if not g.id:      g.id=str(uniq_id(g))
     return g
@@ -3799,8 +3785,15 @@ merge_genes(gene_list)       merge a list of genes to remove redundancy. It has 
     """ see is upstream of"""
     return other_g.is_upstream_of(self, max_overlap=max_overlap)
 
-  def extend(self, left=0, right=0, minimal=False, inplace=False):
-    """ This function returns a copy of the self gene object with extended boundaries. The new coordinates could be out of the allowed range... it is suggested to run check_boundaries right after. If inplace==True, the gene is modified inplace and not returned"""
+  def extend(self, left=0, right=0, inplace=False, minimal=False, down=None, up=None):
+    """ This function returns a copy of the self gene object with extended boundaries. The new coordinates could be out of the allowed range... it is suggested to run check_boundaries right after. If inplace==True, the gene is modified inplace and not returned. If down or up are specified, the direction of the extension depends on the strand
+"""
+    if not down is None or not up is None:
+      if down is None: down=0
+      if up   is None: up=0
+      if   self.strand=='+':  return self.extend(left=up, right=down, inplace=inplace, minimal=minimal)
+      elif self.strand=='-':  return self.extend(left=down, right=up, inplace=inplace, minimal=minimal)
+
     if not self.exons: raise Exception, "gene->extend ERROR can't extend an empty gene! no exons were found for "+str(self.id)
     if inplace:     g=self 
     elif  minimal:  
@@ -3820,7 +3813,6 @@ merge_genes(gene_list)       merge a list of genes to remove redundancy. It has 
     This must be provided as an argument, otherwise this fact is not checked.
     Illegal exons are removed when they are totally illegal, or set to legal positions when at least a small region of it is legal. A string message with the removed exon is returned if any was removed.
     Returns 0 if nothing has changed, 1 if some positions were changed, a string with details if some entire exons were removed
-
     """    
     modified=0
     to_remove={} #keep the indices of the exons which are out of bound
@@ -4041,9 +4033,91 @@ Last field overrides the id and the comment arguments """
     return out[:-1]
 
 
+  def extend_orf(self, chromosome_length=None, stops={'TGA':1, 'TAG':1, 'TAA':1}, starts={'ATG':1}, up=True, down=True, get_seq=lambda x:replace(upper(x.fasta_sequence()[1]),'U','T'),  extension_parameter=1000, keep_seq=False):
+    """ Extend a gene both upstream and downstream so that the first codon will be a start (the most upstream one without including a stop), and the last codon will be a stop. It returns a tuple like   (nt_extended_upstream, nt_extended_downstream), how much was extended in the two directions.
+You must provide chromosome_length, which is the length of the sequence to which self.chromosome points to; this is used to check if during the extension, this boundary is passed. You can avoid providing this only in the case in which the variable chromosome_lengths is defined in MMlib and has self.chromosome as key. 
+The allowed Starts and Stops can be provided as argument, in the form of any iterable (checked with "in"; use hashes for max speed). If you want to extend upstream to the next stop regardless of start codon, use starts={}
+The arguments up and down (True by default) control the direction in which the extension is attempted (upstream and/or downstream).
+The argument get_seq tells how the sequence of the gene object should be retrieved. There are at least two possibilities: 
+- lambda x:x.fasta_sequence()[1]     #default; the .target attribute of the gene object must be defined, and the split_folder variable must be available in MMlib (see set_local_folders)
+- lambda x:x.fast_sequence()         #faster but more memory intensive; to call this, the full target sequence database must be loaded in memory with function load_sequence_db
+The argument extension_parameter tells how big are the chunks of sequence retrieved at once; this parameter is applied to both sides of     
+The argument keep_seq, if True, sets the sequence of the new object as its .seq attribute before returning it.
+   """
+    if chromosome_length is None: 
+      try:    chromosome_length=chromosome_lengths[self.chromosome]
+      except: raise Exception, "extend_orf ERROR you must provide chromosome_length as argument; this may be skipped if chromosome_lengths is defined in MMlib and has self.chromosome as key. But this chromosome was not found: "  +str(self.chromosome)
+    if not hasattr(self, 'original_bounds'): self.original_bounds=self.boundaries()
+    allowed_letters='ATGC'
+      ### extending and getting sequence. Doing it at once to avoid calling get_seq multiple times.
+    big_extended_g= self.extend(right=extension_parameter, left=extension_parameter, inplace=False)
+    big_extended_g.check_boundaries(chromosome_length)
+    down= down and big_extended_g.downstream(0, 1).boundaries()[0] != self.downstream(0, 1).boundaries()[0] 
+    up=   up   and big_extended_g.upstream(0, 1).boundaries()[0]   != self.upstream(0, 1).boundaries()[0] 
+    big_extended_seq= upper( get_seq(big_extended_g) )
+    if self.strand=='+':        
+      offset= self.boundaries()[0]-big_extended_g.boundaries()[0]
+      extended_out_downstream=  ( big_extended_g.boundaries()[1] - self.boundaries()[1] ) != extension_parameter
+    elif self.strand=='-':      
+      offset= big_extended_g.boundaries()[1]-self.boundaries()[1]
+      extended_out_downstream=  (  self.boundaries()[0] - big_extended_g.boundaries()[0] ) != extension_parameter
+    extended_out_upstream=    offset!= extension_parameter
+      #seq_g= big_extended_seq [offset:offset+  self.length() ]
 
+    if up or down:
+      last_codon=big_extended_seq [offset+self.length()-3:offset+self.length() ]
+      while down and not last_codon in stops:  #  last codon is not stop codon: keep extending. out of boundaries or weird sequence cause it to break
+        ## going downstream
+        codon_downstream= big_extended_seq [offset+  self.length(): offset+self.length()+3]
+        ### forcing to stop if letters are not standard (e.g. Ns)
+        if not all ( [c in allowed_letters for c in codon_downstream] ):     down=False; break
+        if len(codon_downstream)!=3:                                         break
+        self.extend(down=3, inplace=True)
+        last_codon=codon_downstream
 
-    
+      ## first we extend up to the stop, then we subseq
+      first_codon = big_extended_seq [offset:offset+3]
+      while up and not first_codon in stops:
+        codon_upstream= big_extended_seq [offset-3:offset]
+        if not all ( [c in allowed_letters for c in codon_upstream] ):     up=False; break
+        if len(codon_upstream)!=3:                                         break
+        self.extend(up=3, inplace=True)
+        offset-=3
+        first_codon=codon_upstream
+      
+      rerun_up=False;       rerun_down=False
+      if down and not last_codon in stops and not extended_out_downstream  \
+            and  abs(big_extended_g.downstream(0, 1).boundaries()[0] - self.downstream(0, 1).boundaries()[0]) <3:         rerun_down=True    ## we extended to the limit
+      if up and not first_codon in stops and  not extended_out_upstream    \
+            and abs(big_extended_g.upstream(0, 1).boundaries()[0] - self.upstream(0, 1).boundaries()[0]) <3:              
+         rerun_up=True    ## we extended to the limit
+      if rerun_up or rerun_down:
+        #print self
+#        print "rerun", rerun_up, rerun_down
+        return self.extend_orf(chromosome_length, stops=stops, starts=starts, get_seq=get_seq, up=rerun_up, down=rerun_down, extension_parameter=extension_parameter, keep_seq=keep_seq)
+
+      ### cut to first start
+    if starts:
+        first_start=None
+        for codon_index in range(self.length()/3): 
+          codon= big_extended_seq [ offset+codon_index*3:offset+codon_index*3+3 ]
+          if codon in starts: first_start=codon_index; break
+        if not first_start is None: 
+          if   self.strand=='+':       actually_reducing=  self.boundaries()[0]+first_start*3 > self.original_bounds[0] 
+          elif self.strand=='-':       actually_reducing=  self.boundaries()[1]-first_start*3 < self.original_bounds[1] 
+          if not actually_reducing:    ## cutting here
+            new_coords_g=self.subseq( first_start*3 + 1 ) 
+            offset+=first_start*3
+            self.exons=list(new_coords_g.exons)
+          elif up: ## we went up to the closest stop but found no Methionine in this upstream extension. Let's go back to the original 5' boundary 
+            if   self.strand=='+':       offset+=self.original_bounds[0]-self.exons[0][0]; self.exons[0][0]=self.original_bounds[0]
+            elif self.strand=='-':       offset+=self.exons[0][1]-self.original_bounds[1]; self.exons[0][1]=self.original_bounds[1]
+    if keep_seq: self.seq= big_extended_seq [offset:offset+  self.length() ]
+    if   self.strand=='+':      extended_up = self.original_bounds[0] - self.boundaries()[0];  extended_down = self.boundaries()[1] - self.original_bounds[1]  
+    elif self.strand=='-':      extended_up = self.boundaries()[1] - self.original_bounds[1];  extended_down = self.original_bounds[0] - self.boundaries()[0]
+    del self.original_bounds
+    return extended_up, extended_down
+
   def header(self, no_id=False, no_species=False, no_target=False, no_chromosome=False, no_strand=False, compress=False, max_exons_uncompressed=5, **other_fields):
     """ This returns a header with all information about the gene... it can be used as a one line description. 
       As keyed arguments, you can provide attributes of the gene that you want to be included in the header. Example, if the gene X has a .program attribute with value "blast", you can call the function X.header(program=1) and the string " program:blast " will be included in the header, at the end.
@@ -4260,7 +4334,8 @@ def load_all_genes(gff_file, tag='cds', get_id='', add=None, is_sorted=False, **
     id2lines_list={}
     for line in cfile:        
       line=line.strip()
-      if not line[0]=="#" and tag=='*' or lower(line.split('\t')[2]) == lower(tag):
+      #print [line]
+      if not line[0]=="#" and (tag=='*' or lower(line.split('\t')[2]) == lower(tag) ):
         the_id=uniqid_function(line)
         if not id2lines_list.has_key(the_id): id2lines_list[the_id]=''
         id2lines_list[the_id]+=line +'\n'
@@ -4961,6 +5036,14 @@ class infernalhit(gene):
       new_seq_query=self.alignment.seq_of('q')[:x_range_start]+rf_subseq+self.alignment.seq_of('q')[x_range_end+1:]
       self.alignment.set_sequence('q',        new_seq_query       )
       return self.remove_Xs()
+
+  def get_pairs(self, unaligned=False):
+    """returns the list of pairs in the target, as 0 based positions in the alignment (or in the target sequence if unaligned=True) """
+    pairs_in_model = ss_pairs( self.ss )
+    out=[ [first, second]   for first, second in pairs_in_model  if not ( self.alignment.seq_of('t') [first] == '-' or self.alignment.seq_of('t') [second] == '-' ) ]
+    if unaligned: out=[  [self.alignment.position_in_seq('t', first+1)-1, self.alignment.position_in_seq('t', second+1)-1]       for first, second in out ]
+    return out
+      
     
   def sequence(self):
     return upper(nogap(self.alignment.seq_of('t')))
@@ -4974,7 +5057,6 @@ class infernalhit(gene):
       if    char in '<([{': ss+='('
       elif  char in '>)]}': ss+=')'
       else: ss+='.'
-
     seq=upper(self.alignment.seq_of('t'))
     find_index=seq.find('-')
     while find_index!=-1:
@@ -4983,6 +5065,20 @@ class infernalhit(gene):
       ss=press[:find_index]+ss[find_index+1:]
       find_index=seq.find('-')
     return ">"+self.header()+'\n'+seq+'\n'+ss
+
+def ss_pairs(ss_string):
+    """ Given a string with secondary structure  -- in which pairs are represented by any parenthesis ([{<  -- returns a list of tuples with 0 based positions of each pair, from 5' to 3'"""
+    height = 0;     stem = {};     pairs = []; #    pos_rf=0;     pos_t=0
+    for pos, ss_char in enumerate(ss_string):
+        if ss_char in '([{<':
+            stem[ height ] = pos
+            height += 1
+        elif ss_char in ')]}>' and height > 0:
+            height -= 1
+            if height < 0: break
+            paired_pos = stem[height]
+            pairs.append( (paired_pos, pos) )
+    return sorted(pairs, key = lambda x: x[0])
 
 class parse_infernal(parser):
   """ Parse a cmsearch output (infernal rna search package) and return infernalhit objects at each next() call.
@@ -5021,7 +5117,7 @@ class parse_infernal(parser):
         hit_lines.append( self.last_line.rstrip() )
         self.last_line=self.file.readline()
     elif not self.last_line.rstrip(): self.stop()
-        
+
     g=infernalhit()
     g.chromosome=self.current_chromosome
     scores = hit_lines[2].rstrip().split()
@@ -5032,6 +5128,7 @@ class parse_infernal(parser):
     target_start = int(scores[9])
     target_end =   int(scores[10])
     g.strand =         scores[11]
+    hand_rf = ''
     if '-' in g.strand:
       target_start, target_end = target_end, target_start
     g.add_exon(target_start, target_end)
@@ -5043,43 +5140,40 @@ class parse_infernal(parser):
         self.current_cm = hit_lines[1].split()[0]
         query_seq += ' '.join( hit_lines[1].split()[2:-1] )
         target_seq += ' '.join( hit_lines[3].split()[2:-1] )
-        del hit_lines[0:4]
-      del hit_lines[0]      
+        del hit_lines[0:5]
+        if hit_lines[0].endswith('RF'):
+          hand_rf += ' '.join( hit_lines[0].split()[0:-1] )
+          del hit_lines[0]
+      del hit_lines[0]
 
     g.query.chromosome = self.current_cm
     g.query.strand='+'
     g.query.add_exon(query_start, query_end)
 
-    # some hits may be truncated at both sides
-    # can not complete sequence with Xs because infernal output does not include length of the model
-    # these hits will be completed by remove_Xs method
-#    if scores[8] == '..': g.fill_both_ends = True
-#    else:                 g.fill_both_ends = False
-
     while "*" in query_seq:
-
       pos_insert=query_seq.find('*')
       insert_length_target=  int( target_seq.split('[')[1].split(']')[0].strip()  )
       insert_length_query= int( query_seq.split('[')[1].split(']')[0].strip() )
-
       if scores[8].startswith('~'):
         scores[8]=''
         query_seq = insert_length_query*'x' + query_seq[pos_insert+1:]
         target_seq = insert_length_query*'-' + target_seq[pos_insert+1:]
         g.ss = '~'*max([insert_length_query, insert_length_target]) + g.ss.lstrip('~')
-
+        if hand_rf:
+          hand_rf = '~'*max([insert_length_query, insert_length_target]) + hand_rf
       else:
         query_seq = query_seq.split('*')[0]+ insert_length_query*'x'+"-"* (insert_length_target-insert_length_query)   + join( query_seq.split('*')[2:], '*'  )
         target_seq=target_seq.split('*')[0]+insert_length_target*'x'+"-"*(insert_length_query-insert_length_target)   + join( target_seq.split('*')[2:], '*'  )
         l_ss_gap=0
         while len(g.ss)>pos_insert+l_ss_gap and g.ss[pos_insert+l_ss_gap]=='~': l_ss_gap+=1
         g.ss = g.ss[:pos_insert]+'~'*max([insert_length_query, insert_length_target])+g.ss[pos_insert+l_ss_gap:]
+        if hand_rf:
+          hand_rf = hand_rf[:pos_insert]+'~'*max([insert_length_query, insert_length_target])+hand_rf[pos_insert+l_ss_gap:]
 
     g.alignment.add('q', replace(query_seq, '.', '-'))
     g.alignment.add('t', replace(target_seq, '.', '-'))
-
+    g.hand_rf = hand_rf
     return g
-
 
   def parse_next_ver1_0(self):
     while self.last_line and not self.last_line.startswith('>') and not self.last_line.startswith('CM:') and not self.last_line.strip().startswith('Query') :      self.last_line=self.file.readline()
@@ -5964,3 +6058,34 @@ def interactive_mode(vars=None, message="welcome to the shell" ):
       return shell.interact
 
 
+def load_chromosome_lengths(chromosome_length_file, max_chars=0, exception_raised=Exception):
+  """Utility to load chromosome lenghts from a fastalength output file and also set it as a MMlib variable; also performing controls on the file """
+  global chromosome_lengths; chromosome_lengths={}
+  for line in open(chromosome_length_file, 'r'):     
+    fasta_identifier = line.split()[1]
+    length=int(line.split()[0])
+    if chromosome_lengths.has_key(fasta_identifier): 
+      bash('rm '+chromosome_length_file)
+      raise exception_raised, "ERROR the target file has a duplicate fasta identifier! ("+line.split()[1]+') Please modify it and rerun. Note: remove the .index and *.fa.n* blast formatting files after changing the target file'
+    if length==0: 
+      bash('rm '+chromosome_length_file)
+      raise exception_raised, "ERROR the target file has a length zero entry! ("+line.split()[1]+') Please modify it and rerun. Note: remove the .index and *.fa.n* blast formatting files after changing the target file'
+    if is_number(fasta_identifier) and fasta_identifier[0]=='0':
+      bash('rm '+chromosome_length_file)
+      raise exception_raised, "ERROR the target file has a numeric fasta identifier starting with zero!  ("+line.split()[1]+') This would cause an unexpected blast behavior. Please modify this or these ids and rerun. Note: remove the .index and *.fa.n* blast formatting files after changing the target file'
+    if ':subseq(' in fasta_identifier: 
+      bash('rm '+chromosome_length_file)
+      raise  exception_raised, "ERROR with fasta header: "+fasta_identifier+' ; this was generated by fastasubseq and will cause unexpected behavior of this program, since it is using fastasubseq itself to cut sequences. Please clean the titles in your target file from ":subseq(" tags. Note: remove the .index and *.fa.n* blast formatting files after changing the target file '
+    if max_chars and   len(fasta_identifier)>max_chars: 
+      bash('rm '+chromosome_length_file)
+      raise  exception_raised, "ERROR with fasta header: "+fasta_identifier+' is too long. The maximum length for a fasta identifier (first word of the title) is '+str(max_chars)+' characters. Please clean the titles in your target file. Note: remove the .index and *.fa.n* blast formatting files after changing the target file'
+    if '/' in fasta_identifier:
+      bash('rm '+chromosome_length_file)
+      raise  exception_raised, "ERROR with fasta header: "+fasta_identifier+' has forbidden character: "/" \nPlease clean the titles in your target file. Note: remove the .index and *.fa.n* blast formatting files after changing the target file'
+
+    chromosome_lengths[fasta_identifier]=length
+  set_MMlib_var('chromosome_lengths', chromosome_lengths)
+
+def get_chromosome_lengths():
+  global chromosome_lengths
+  return chromosome_lengths
