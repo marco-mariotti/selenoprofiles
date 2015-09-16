@@ -2,7 +2,7 @@
 __author__  = "Marco Mariotti"
 __email__   = "marco.mariotti@crg.eu"
 __licence__ = "GPLv3"
-__version__ = "3.2c"
+__version__ = "3.2d"
 global temp_folder; global split_folder
 from string import *
 import sys
@@ -1617,15 +1617,15 @@ def assign_label_non_selenoprotein_families(p2g_hit):
   return 'homologue'
 
 ############################################# MERGE FUNCTIONS ##################################################################
-def merge_p2g_hits_by_colinearity(p2g_list, inplace=True, already_sorted=False, max_overlap_in_target=0, max_overlap_in_query=6, max_distance_in_target=10000, max_distance_in_query=None, post_function=None,  sequence_collection=None, get_sequence=None): 
+def merge_p2g_hits_by_colinearity(p2g_list, inplace=True, already_sorted=False, max_overlap_in_target=0, max_overlap_in_query=6, max_distance_in_target=10000, max_distance_in_query=None, post_function=None,  sequence_collection=None, get_sequence=None, no_seq=False): 
   """ Input can be any iterable of gene objects having a query attribute which is a gene itself. examples: [super]blasthit, exonerate, genewise classes.
   
   The post_function, if defined,  is used to add attributes from the colinear objects to the new one. The function must take 3 arguments (gene objects or subclasses): the upstream gene object, the downstream one, the resulting one, and return a single gene object which will overwrite the resulting object.
-
-  When portions of the query are missing, one or more "x" are inserted to fill the gap.  
-  If you provide a sequence_collection, the method seq_of will be used to obtain the missing sequence in the query. The target is filled just with gaps.
-  for the same purpose, you may use any get_sequence function which given a fasta title, returns the sequence
-    
+  By default the .alignment is modified to include the sequence of the joined p2g hits.
+    When portions of the query are missing, one or more "x" are inserted to fill the gap.  
+    If you provide a sequence_collection, the method seq_of will be used to obtain the missing sequence in the query. The target is filled just with gaps.
+    For the same purpose, you may use instead any get_sequence function which given a fasta title, returns the sequence.
+  To ignore the .alignment attribute (when loading from tab blast files), use no_seq=True    
   """  
   if inplace:    worklist=p2g_list
   else:          worklist=list(p2g_list)
@@ -1634,6 +1634,7 @@ def merge_p2g_hits_by_colinearity(p2g_list, inplace=True, already_sorted=False, 
   full_seq_query=None
   while index<len(worklist):
     this=worklist[index-1]  ;     next=worklist[index]  
+#    print [this], [next], index
     if this.chromosome == next.chromosome and this.strand == next.strand:
       if this.strand=='-':         this, next= next, this
       distance_in_target= this.is_upstream_of(next, max_overlap=max_overlap_in_target)
@@ -1642,37 +1643,39 @@ def merge_p2g_hits_by_colinearity(p2g_list, inplace=True, already_sorted=False, 
         
         new_one=this.union_with(next);                    new_one.id=this.id
         new_one.query=this.query.union_with(next.query);  new_one.query.id=this.query.id
-        if distance_in_query>0: 
-          seq_target= this.alignment.seq_of('t')+(distance_in_query-1)*'-'+next.alignment.seq_of('t')
-          
-          if  sequence_collection is None and get_sequence is None:               seq_query=  this.alignment.seq_of('q')+(distance_in_query-1)*'x'+next.alignment.seq_of('q')
-          else:
-            if full_seq_query is None:
-              try: 
-                if not sequence_collection is None:                get_sequence= lambda x:nogap(sequence_collection.seq_of(x))
-                full_seq_query= get_sequence( this.query.chromosome )
-              except: printerr('merge_p2g_hits_by_colinearity ERROR can\'t obtain the sequence of: '+this.query.chromosome ); raise
-            seq_query=  this.alignment.seq_of('q')+   full_seq_query[this.query.boundaries()[1]:next.query.boundaries()[0]-1]  +next.alignment.seq_of('q')
-        else:
-        
-          distance_in_query_corrected_with_gaps_in_q =  distance_in_query; p=0; gaps_encountered_query=0; gaps_encountered_target=0
-          ali_positions_to_remove=0; 
-          
-          for position in range( next.alignment.length() ):
-            if next.alignment.seq_of('q')[position] == '-':               gaps_encountered_query+=1
-            if position-gaps_encountered_query==-distance_in_query: # we find the right position
-              first_position_of_ali_to_keep=position #0 based 
-              break
-            if next.alignment.seq_of('t')[position] == '-':               gaps_encountered_target+=1
-        
-          seq_query=  this.alignment.seq_of('q')+next.alignment.seq_of('q')[first_position_of_ali_to_keep:]
-          seq_target= this.alignment.seq_of('t')+next.alignment.seq_of('t')[first_position_of_ali_to_keep:]
-          
-          if distance_in_query<0: # we corrected the alignment sequence. We have to correct the gff (the numbers inside .exons ) as well
-            to_remove= next.subseq( 1, (first_position_of_ali_to_keep-gaps_encountered_target)*3)
-            new_one=new_one.subtracted_of(to_remove)
+        if not no_seq:
+          if distance_in_query>0: 
+            seq_target= this.alignment.seq_of('t')+(distance_in_query-1)*'-'+next.alignment.seq_of('t')
 
-        new_one.alignment=alignment(); new_one.alignment.add('q', seq_query); new_one.alignment.add('t', seq_target)
+            if  sequence_collection is None and get_sequence is None:               seq_query=  this.alignment.seq_of('q')+(distance_in_query-1)*'x'+next.alignment.seq_of('q')
+            else:
+              if full_seq_query is None:
+                try: 
+                  if not sequence_collection is None:                get_sequence= lambda x:nogap(sequence_collection.seq_of(x))
+                  full_seq_query= get_sequence( this.query.chromosome )
+                except: printerr('merge_p2g_hits_by_colinearity ERROR can\'t obtain the sequence of: '+this.query.chromosome ); raise
+              seq_query=  this.alignment.seq_of('q')+   full_seq_query[this.query.boundaries()[1]:next.query.boundaries()[0]-1]  +next.alignment.seq_of('q')
+          else:
+
+            distance_in_query_corrected_with_gaps_in_q =  distance_in_query; p=0; gaps_encountered_query=0; gaps_encountered_target=0
+            ali_positions_to_remove=0; 
+
+            for position in range( next.alignment.length() ):
+              if next.alignment.seq_of('q')[position] == '-':               gaps_encountered_query+=1
+              if position-gaps_encountered_query==-distance_in_query: # we find the right position
+                first_position_of_ali_to_keep=position #0 based 
+                break
+              if next.alignment.seq_of('t')[position] == '-':               gaps_encountered_target+=1
+
+            seq_query=  this.alignment.seq_of('q')+next.alignment.seq_of('q')[first_position_of_ali_to_keep:]
+            seq_target= this.alignment.seq_of('t')+next.alignment.seq_of('t')[first_position_of_ali_to_keep:]
+
+            if distance_in_query<0: # we corrected the alignment sequence. We have to correct the gff (the numbers inside .exons ) as well
+              to_remove= next.subseq( 1, (first_position_of_ali_to_keep-gaps_encountered_target)*3)
+              new_one=new_one.subtracted_of(to_remove)
+
+          new_one.alignment=alignment(); new_one.alignment.add('q', seq_query); new_one.alignment.add('t', seq_target)
+
         #replacing current ones in list with new one.
         if post_function:           new_one=post_function(this, next, new_one)
         worklist[index-1:index+1]=[new_one]

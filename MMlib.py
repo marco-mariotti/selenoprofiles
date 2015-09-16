@@ -31,7 +31,7 @@ except:
     return   sqrt(  sum(   [pow( v-a, 2)  for v in ilist]  )/len(ilist)  )
 
 def set_local_folders(temp='/users/rg/mmariotti/temp'):
-  """ Used in ipython to quickly set the environment for fetching chromosomes and stuff"""
+  """ Used in ipython to quickly set the environment for fetching chromosomes and other stuff that required temp files"""
   try: assert is_directory(opt['temp'])
   except:  opt['temp']=temp
   temp_folder=Folder(random_folder(opt['temp'])); test_writeable_folder(temp_folder, 'temp_folder'); set_MMlib_var('temp_folder', temp_folder)                                      
@@ -98,15 +98,22 @@ def bash_pipe(cmnd, print_it=0, return_popen=0, stdin=None):
   if return_popen: return s
   else:    return s.stdout
 
+def md5_executable():
+  b=bash('echo | md5sum')
+  if not b[0]: return 'md5sum'  ## command found, no error
+  b=bash('echo | md5')
+  if not b[0]: return 'md5'  ## command found, no error
+  else: raise Exception, "ERROR neither md5sum  or  md5  found on this system!" 
+
 def checksum(ffile, is_text=False):
-  """ Returns the checksum for the file in input"""
+  """ Returns the checksum for the file in input """  
   if is_text:
-    pipe=bash_pipe('md5sum ', return_popen=1, stdin='PIPE')
+    pipe=bash_pipe(md5_executable()+' ', return_popen=1, stdin='PIPE')
     print >> pipe.stdin,  ffile
     pipe.stdin.close()
     m=    pipe.stdout.readline().split()[0]
   else:
-    m=bbash('md5sum '+ffile).split()[0] 
+    m=bbash(md5_executable()+' '+ffile).split()[0] 
   return m
 
     
@@ -121,7 +128,7 @@ def Folder(string):
 def random_folder(parent_folder='', dont_create_it=0):
   if parent_folder:
     parent_folder = Folder(parent_folder) #checking or creating parent folder. IF CRASHED: do you have writing privileges here?
-  a=parent_folder+ bash("date +%F%T%N | md5sum | cut -c 1-32")[1] #creating a random named folder inside the parent folder
+  a=parent_folder+ bash("date +%F%T%N | "+md5_executable()+" | cut -c 1-32")[1] #creating a random named folder inside the parent folder
   if dont_create_it:
     return a+'/'
   a=Folder(a)
@@ -3149,7 +3156,7 @@ def formatdb(target_file, is_protein=False, silent=0):
   if not silent:    printerr("attempting to format database: "+target_file+" (will crash if you don't have permissions) ", 1 )
   test_writeable_folder(temp_folder, 'temp_folder'); test_writeable_folder( directory_name(target_file)  )
   temp_folder_for_formatting= temp_folder+'formatting_database'
-  bbash('mkdir '+temp_folder_for_formatting+' && cd '+temp_folder_for_formatting+' && ln -s '+abspath(target_file)+' .  &&  formatdb -i '+base_filename(target_file)+' -o T -p '+{False:'F', True:'T'}[bool(is_protein)]+' && mv '+base_filename(target_file)+'.* '+directory_name(target_file))
+  bbash('mkdir '+temp_folder_for_formatting+' && cd '+temp_folder_for_formatting+' && ln -s '+abspath(target_file)+' .  &&  formatdb -i '+base_filename(target_file)+' -o T -p '+{False:'F', True:'T'}[bool(is_protein)]+' && mv '+base_filename(target_file)+'.* '+directory_name(abspath(target_file)))
 
 def fastafetch(split_folder, chromosome, target_genome, verbose=0, chars_not_allowed=[':']):
   """fecthing chromosome routine. File are fetched to a file named after the fasta title. chars_not_allowed is an iterable with characters which cannot appear in the output filename  """
@@ -3331,6 +3338,13 @@ def load_sequence_db(fasta_file, title_function=None):
   for title, seq in parse_fasta(fasta_file):
     title_id= title_function(title)
     sequence_db [title_id] = seq      
+
+def get_sequence_db(title=None):
+  if title is None: return sequence_db
+  else:             
+    try:    return sequence_db[title]
+    except KeyError:  raise Exception, "MMlib - sequence_db ERROR cannot find a sequence with this title in memory {0}".format(title)
+  
 
 
 class gene(object):
@@ -3956,6 +3970,39 @@ Lastly, if you defined an id which is not SUM or LONGEST, it becomes the id of r
       g.add_exon(intron_start, intron_end)
     return g          
        
+  def bed(self, exon_index=None, show_id=True, strand=True, score=False, other_fields=[], sep='\t'):
+    """Generic function to produce a bed from a gene object. E.g. default: (spacers are tab):
+chr4  9236903   9236953   BE_0001  0   +
+chr4  49110668  49110718  BE_0001  0   +
+By default (exon_index==None) this includes one line for each (start,end) in self.exons. If you provide a 0-based exon_index, it gives  a single line for that certain exon.
+By default (show_id==True) the name in the bed out (fourth field) is printed and it is self.id; provide a string argument to show_id to print this as name instead. Provide show_id=False to show_id to show minimal bed (e.g. "chr4  9236903   9236953"). In this case, all following args are ignored.
+  If strand is False, then only the first 4 fields in bed are printed, (minimal bed + name/id).    
+  If strand is True (default), at least the first 6 fields in bed are printed (up to strand including score), with score set to 0 unless provided as argument score.
+    If strand==True, then other_fields can be provided, so each item in this list is converted to string and added at every line.
+By default output is tab-separated; use sep==' ' to produced space separated
+"""
+    out=''
+    if exon_index is None: considered_exons=self.exons
+    else:                  
+      try:   considered_exons=self.exons[exon_index]
+      except IndexError: raise Exception,"gene->bed ERROR exon index is invalid! {0} Gene: {1}".format(exon_index, self.header())
+    for start, end in considered_exons: 
+      out+='\n{1}{0}{2}{0}{3}'.format(sep, self.chromosome, start, end)
+      if not show_id:        break
+      elif show_id==True:    out+='{0}{1}'.format(sep, self.id)
+      else:                  out+='{0}{1}'.format(sep, show_id)        
+      if strand and not score: score=True
+      if not score:         break
+      else:                 
+        if score==True: score=0
+        out+='{0}{1}'.format(sep, score)      
+      if not strand:         break
+      else:                  out+='{0}{1}'.format(sep, self.strand)
+
+      for the_field in other_fields: out+='{0}{1}'.format(sep, the_field)
+    return out[bool(out):]
+    
+
   def gff(self, tag='', is_gtf=False, comment='', program='', sec_pos=False, id=None, score=None, position_features=[], last_field=None):
     """Generic function to produce a gff from a gene object. The options control the open fields. sec_pos was used for selenoprofiles < 3.1; position_features is required for >= 3.1. it is thought to add (one or few) single position features as comment in the same line of the exon they belong to. format: [[position, what_to_write], ... ]  
 Last field overrides the id and the comment arguments """
@@ -4276,8 +4323,9 @@ def get_gff_format(gff_file):
   if gff_format:    return gff_format
   else:             raise Exception, "ERROR unknown gff format for file: "+gff_file
 
+
 def load_all_genes(gff_file, tag='cds', get_id='', add=None, is_sorted=False, **load_gff_args):
-  """ load and returns all genes from a gff files, determining which line belong to which gene using the function get_id, given as input.
+  """ load and returns all genes from a gff file, determining which line belong to which gene using the function get_id, given as input.
   This function must take a line as input and return its id, which is the same for lines describing the same gene object to be loaded. If not provided, it uses defaults function which depend on the extension of the file loaded
   Argument add can be provided: a function that takes the string of gff lines and the gene object, and may manipulate the gene object reading information from the lines.
   Normally the function makes no assumptions on the distribution of the lines belonging to the same entry (gene) in the file. If the file is sorted (the lines of the same gene entry are consecutive) you can specify is_sorted=True to make the function faster and less memory expensive.
@@ -4288,13 +4336,30 @@ def load_all_genes(gff_file, tag='cds', get_id='', add=None, is_sorted=False, **
   if 'uniqid_function' in load_gff_args:    
     uniqid_function=load_gff_args['uniqid_function']
     del load_gff_args['uniqid_function']
-  else:                                     uniqid_function=get_id
+  else:                                     uniqid_function=get_id  ### default
 
   if not uniqid_function:    uniqid_function=uniq_idfunctions_hash[get_gff_format(gff_file)]
   genes=[]
   cfile=open(gff_file, 'r')
 
-  if is_sorted: 
+  if not is_sorted: 
+    #more memory expensive, but handles better any gff
+    id2lines_list={}
+    for line in cfile:        
+      line=line.strip()      #;print [line]
+      if not line[0]=="#" and (tag=='*' or lower(line.split('\t')[2]) == lower(tag) ):
+        the_id=uniqid_function(line)
+        if not id2lines_list.has_key(the_id): id2lines_list[the_id]=''
+        id2lines_list[the_id]+=line +'\n'
+    for the_id in sorted( id2lines_list.keys() ):
+      gff_lines= id2lines_list[the_id]
+      g=gene()
+      g.load_gff( gff_lines, tag, **load_gff_args) 
+      g.id=the_id
+      if not add is None:  add(gff_lines, g)
+      genes.append(g)            
+
+  else: 
     ### old code. not proud. and:   it can't work if the lines referring to the same entry are not consecutive
     current_id=''
     new_id=None
@@ -4313,9 +4378,7 @@ def load_all_genes(gff_file, tag='cds', get_id='', add=None, is_sorted=False, **
                 if not add is None:  add(gff_lines, g)
                 genes.append(g)
                 gff_lines=''
-
               current_id=new_id
-
             gff_lines+=cline
       except Exception, e:
         print "ERROR loading gff  line: "+cline+" ### "+str(e)
@@ -4329,40 +4392,26 @@ def load_all_genes(gff_file, tag='cds', get_id='', add=None, is_sorted=False, **
       if not add is None:  add(gff_lines, g)
       genes.append(g)
 
-  else: 
-    #more memory expensive, but handles better any gff
-    id2lines_list={}
-    for line in cfile:        
-      line=line.strip()
-      #print [line]
-      if not line[0]=="#" and (tag=='*' or lower(line.split('\t')[2]) == lower(tag) ):
-        the_id=uniqid_function(line)
-        if not id2lines_list.has_key(the_id): id2lines_list[the_id]=''
-        id2lines_list[the_id]+=line +'\n'
-
-    for the_id in sorted( id2lines_list.keys() ):
-      gff_lines= id2lines_list[the_id]
-      g=gene()
-      g.load_gff( gff_lines, tag, **load_gff_args) 
-      g.id=the_id
-      if not add is None:  add(gff_lines, g)
-      genes.append(g)            
-
   cfile.close()
   return genes
   
-def order_genes_to_merge(x, y):
+
+def order_genes_for_strand_chr_pos(x, y):
   """Order fucntion for genes: by strand, chromosome, positions start
   """
   if x.strand!=y.strand:            return (x.strand+' '+y.strand).index('+')-1
   if x.chromosome!=y.chromosome:    return cmp(x.chromosome, y.chromosome)  
   else:                             return cmp(x.boundaries()[0], y.boundaries()[0])
+order_genes_to_merge=order_genes_for_strand_chr_pos
 
 def order_genes_for_chr_strand_pos(x, y):
   if x.chromosome!=y.chromosome:    return cmp(x.chromosome, y.chromosome)  
   if x.strand!=y.strand:            return (x.strand+' '+y.strand).index('+')-1
   else:                             return cmp(x.boundaries()[0], y.boundaries()[0])
-  
+
+def order_genes_for_chr_pos(x, y):
+  if x.chromosome!=y.chromosome:    return cmp(x.chromosome, y.chromosome)  
+  else:                             return cmp(x.boundaries()[0], y.boundaries()[0])
   
 try:   
   from pygraph.classes.graph import graph
@@ -4399,8 +4448,141 @@ Cluster minimal size is two. output list is sorted to have biggest clusters firs
       if min_size>=3:         out = [v for v in out if len(v)>=min_size]
       if sort:                out.sort(key=len)
       return out
-
+ 
 except: pass
+
+def bedtools_intersect(gene_list, strand=True, options={}): ## implicit:{'s':True} if strand==True
+  """ Open a temp file preparing the input to bedtool intersect, runs it and returns a filehandler on the result. The file is provided to bedtools both as input A and input B, to compute all against all overlaps. Basic commadnline executed: #bedtool intersect -a ALL_GENES.fa -b ALL_GENES.fa  -wa -wb
+  Options are passed as key of the dict options. When the value to a key is boolean True, that option has no argument. In any other case, the value is converted to string.
+  E.g. bedtools_intersect(gene_list,  strand=True, options={'sorted':True, 'f':0.5 }  --> bedtool intersect -a ALL_GENES.fa -b ALL_GENES.fa  -wa -wb   -f 0.5 -sorted -s
+  in output each gene is identified by its index in the list, e.g. chr4  9236903   9236953   11  0   +   chr4  9236903   9236944   12  0   + ### 11 and 12 are the ids
+"""
+  global temp_folder;   temp_overlap_file= temp_folder+'gene_overlap_file.bed'
+  test_writeable_folder(temp_folder, 'temp folder ! Not defined maybe? [Use set_local_folders(temp_folder)]' )
+  temp_overlap_file_h= open(temp_overlap_file, 'w')
+  for g_index, g in  enumerate(gene_list):     print >> temp_overlap_file_h, g.bed( show_id = str(g_index), strand=strand )
+  temp_overlap_file_h.close()  
+  bedtools_intersect_command= "bedtools intersect {1} -wa -wb -a {0} -b {0} ".format(temp_overlap_file, {True:'-s', False:''}[bool(strand)])
+  for k in options.keys():     
+    bedtools_intersect_command+='-'+str(k)+' '
+    if not options[k]==True:   bedtools_intersect_command+=str(options[k])+' '
+#  print bedtools_intersect_command
+  try:   bp=   bash_pipe(bedtools_intersect_command, return_popen=True)
+  except IOError: 
+    #raise Exception, 
+    printerr("bedtools_intersect ERROR bedtools not installed??", 1)
+    raise
+  return bp #bbash(bedtools_intersect_command)
+#  return bp    
+
+
+def gene_clusters(gene_list, strand=True):
+  """ Use bedtools intersect (temp_folder from MMib is used. See function set_local_folders) to compute overlaps between the genes.
+  Returns two dictionaries: gene2cluster, cluster2genes
+  where cluster is a numeric index (not consecutives)
+"""
+  geneid2cluster_index={}; cluster_index=1; cluster_index2geneids={}
+  geneid2gene={}; 
+  for g_index, g in enumerate(gene_list):    geneid2gene[str(g_index)]=g
+  bp=bedtools_intersect(gene_list, strand=strand)
+  for line in bp.stdout:
+#    print line
+    splt=line.rstrip().split('\t')
+    id_left = splt[3]; id_right= splt[9]
+    if   id_left != id_right:
+      if   (  not id_left in geneid2cluster_index )  and  ( not id_right in geneid2cluster_index ):  #new cluster
+        cluster_index2geneids [cluster_index] = [id_left, id_right]
+        geneid2cluster_index[id_left]=cluster_index;              geneid2cluster_index[id_right]=cluster_index
+        cluster_index+=1
+#        print '1 creating with ids: ',id_left, id_right, ' the cluster ', cluster_index-1
+      elif (  id_left in geneid2cluster_index     )  and  ( not id_right in geneid2cluster_index ):
+        cluster_index2geneids [ geneid2cluster_index[id_left] ].append( id_right )
+        geneid2cluster_index[id_right]=   geneid2cluster_index[id_left]
+#        print '2 moving id: '+id_right+' to cluster ', cluster_index
+      elif ( not id_left in geneid2cluster_index  )  and  ( id_right in geneid2cluster_index ):
+        cluster_index2geneids [ geneid2cluster_index[id_right] ].append( id_left )
+        geneid2cluster_index[id_left]=    geneid2cluster_index[id_right]
+#        print '3 moving id: '+id_left+' to cluster ', cluster_index
+      elif geneid2cluster_index[id_left] != geneid2cluster_index[id_right]    : #not id_left in geneid2cluster_index  and  not id_right in geneid2cluster_index   is implicit
+        #putting those in cluster of id_right into the cluster in id_left, unless the reverse is more efficient
+        if len( cluster_index2geneids [ geneid2cluster_index[id_right] ] )  > len( cluster_index2geneids [ geneid2cluster_index[id_left] ] ): id_left, id_right = id_right, id_left
+#        print '4 LEFT:', id_left,  'c:', geneid2cluster_index[id_left],  'RIGHT:',  id_right, 'c:', geneid2cluster_index[id_right]
+
+        cluster_index_to_remove = geneid2cluster_index[id_right]
+        for gid in cluster_index2geneids [ geneid2cluster_index[id_right] ]:   
+#          print '4 moving id: '+gid, 'from cluster', cluster_index_to_remove, ' to cluster ', geneid2cluster_index[id_left]
+          geneid2cluster_index[ gid ] =  geneid2cluster_index[id_left]
+        cluster_index2geneids[  geneid2cluster_index[id_left]  ].extend(   cluster_index2geneids[  cluster_index_to_remove  ]   )
+#        print '4 removing cluster', cluster_index_to_remove
+        del cluster_index2geneids[  cluster_index_to_remove  ]
+
+  # producing dictionaries that can be used in output
+  gene2cluster={}; cluster2genes={}
+  for gid in geneid2gene:
+    g=geneid2gene[gid]
+    if gid in geneid2cluster_index:    gene2cluster[ g ] = geneid2cluster_index[gid]
+    else:                              gene2cluster[ g ] = cluster_index; cluster_index+=1
+    if not gene2cluster[ g ] in cluster2genes: cluster2genes[ gene2cluster[ g ] ]= []
+    cluster2genes[   gene2cluster[ g ]   ].append(g)
+  return gene2cluster, cluster2genes
+
+
+def remove_overlapping_gene_clusters(gene_list,  scoring=len,  cmp_fn=None, phase=False, strand=True, out_removed_genes=[], remember_overlaps=False, verbose=False, fix_ties=True):
+  """ Returns a reduced version of the list in input, removing genes that overlaps.
+  When two genes overlap, a score is assigned to each gene to decide which to keep -- similarly to the key argument to sort, you can provide a function as argument of scoring. by default, it's the gene lenght. Alternatively, you can use cmp_fn in a similar fashion to cmp in sort. It must accept two gene arguments, and return -1 if you want to keep the first argument, +1 if you want to keep the last one.  
+  Important: when you use cmp_fn, take care of ties! don't let python decide, or your results may not be reproducible. when scoring is chosen, this is avoided with a trick here, which adds very small quantities (max 0.001) to the scores of each gene object which depend on their ids. 
+  So, when using scoring, use integer scores or anyway make that in no case two gene objects must differ for more than 0.001!
+  When you have complex overlap structures, this is what happens: 
+  -clusters of overlapping genes are built. In this cluster though, you may have pairs of genes not overlapping, but overlapping to something that overlaps the other (or even more far fetched than that) --> e.g g1 overlaps g2 ;   g2 overlaps g3;    [ g3 do not overlap g1] --> a cluster is [g1, g2, g3]
+  -for each cluster, initially the best scoring gene is taken (this will be output), and all things really overlapping with it are thrown away. The procedure is repeated until no gene is left in this cluster. 
+  This will ensure that you have no overlaps in the output genes, and neither that you will take off genes without having something really overlapping with it in output 
+  The list out_removed_genes may be used to collect the genes removed from the input list. To use it, initialize an empty list variable, then pass it as this argument: 
+    # e.g.
+    a_list=[]
+    remove_overlapping_genes(gene_list, out_removed_genes=a_list)
+    # now a_list contains the gene removed.
+  When you use the out_removed_genes argument, you may want to know the correspondance between the genes removed and the ones kept, without recomputing overlaps. If you use remember_overlaps=True, the attribute .overlapping will be added to the removed genes; this is a link to the gene kept (which is present in the output, returned list)   """
+  outlist=[]
+  #overlaps_graph= genes_overlap(gene_list, phase=phase, strand=strand)
+  #clusters= overlaps_graph.overlap_clusters(min_size=1)
+  gene2cluster, cluster2genes = gene_clusters( gene_list )
+
+  for cluster_id  in cluster2genes.keys():
+    cluster= cluster2genes[cluster_id]
+    #cluster is a gene list 
+    ## we do the following:  we take the best scoring gene, we put this in the outlist, we throw away everything that overlaps with it, and we repeat until we finished the cluster
+    while cluster:
+      if cmp_fn:     
+        cluster.sort(cmp=cmp_fn)
+      else:          
+        #I'm not giving directly scoring to sort because this may lead to different results in different runs, because of ties ( only if fix_ties is true           )
+        hash_obj_to_score={}
+        for obj in cluster:
+          score=scoring(obj)
+          if fix_ties:   score+= string_hashed_to_number( str(obj.id),  0.001 )
+          hash_obj_to_score[obj]= score
+          #print obj,  score
+        cluster.sort(key= lambda x:hash_obj_to_score[x], reverse=True)           
+
+      best_gene=  cluster[0]
+      genes_not_overlapping_best_gene=[]
+      outlist.append(best_gene)
+      for g in cluster: 
+        if g!=best_gene:
+          if not best_gene.overlaps_with(g, phase=phase, strand=strand):
+            ## gene that we're keeping for next cycle
+            genes_not_overlapping_best_gene.append(g)
+          else:  
+            ## genes that we're throwing away
+            if remember_overlaps:              g.overlapping= best_gene
+            if verbose: printerr('removing: '+g.id+'  --> keeping: '+best_gene.id, 1)
+            out_removed_genes.append(g)
+      cluster=     genes_not_overlapping_best_gene
+  return outlist
+
+
+#gs=load_all_genes('/users/rg/mmariotti/Archaea/ivan_dotu/aSeblastian/janna_all_methods.knownsp.output.all_secis.gff', tag='secis')
+#get_gene_overlaps(gs)
   
 def genes_overlap(gene_list, phase=False, strand=True):
   try:    overlaps_graph= gene_overlap_graph()
@@ -5000,9 +5182,11 @@ class infernalhit(gene):
     if e!='None': self.evalue = e_v(e)
     self.alignment.add('q', splt[7] );     self.alignment.add('t', splt[8] );    self.ss = splt[9]     
 
-  def remove_Xs(self):
+  def remove_Xs(self, gene_seq=None):
     """This function is for the infernal hits which contain insertions, kept as Xs in the virtual infernalhit object. When run, it interrogates the target file specified in .target and recovers the missing sequence. """
     if not self.target: raise Exception, "infernalhit -> remove_Xs ERROR the .target attribute is not defined"
+
+    if not gene_seq is None: gene_seq= replace( lower( gene_seq  ), 't', 'u')
     if "x" in self.alignment.seq_of('t'):
       gaps_target=0
       for pos in range(self.alignment.length()):
@@ -5015,8 +5199,12 @@ class infernalhit(gene):
           x_range_end   = p-1
           break
       x_range = self.subseq( x_range_start-gaps_target+1, x_range_end-x_range_start+1  )
-      subseq_from_target= replace( lower( x_range.fasta_sequence()[1]), 't', 'u')
-      if len(subseq_from_target)!=x_range.length(): raise Exception, "infernalhit->remove_Xs ERROR fetching the sequence of Xs for this hit:"+str(self)
+      if gene_seq is None:        
+        subseq_from_target= replace( lower( x_range.fasta_sequence()[1]), 't', 'u')
+      else:                       subseq_from_target=  gene_seq [x_range_start-gaps_target:x_range_end+1-gaps_target] 
+      if len(subseq_from_target)!=x_range.length(): 
+        raise Exception, "infernalhit->remove_Xs ERROR the sequence fetched for this hit has wrong length: subseq from target: {0}  range analyzed: {1} ".format(len(subseq_from_target), x_range.length())
+
       new_seq_target = self.alignment.seq_of('t')[:x_range_start]+subseq_from_target+self.alignment.seq_of('t')[x_range_end+1:]
       self.alignment.set_sequence('t',        new_seq_target       )
       return self.remove_Xs()
@@ -5141,10 +5329,10 @@ class parse_infernal(parser):
         query_seq += ' '.join( hit_lines[1].split()[2:-1] )
         target_seq += ' '.join( hit_lines[3].split()[2:-1] )
         del hit_lines[0:5]
-        if hit_lines[0].endswith('RF'):
+        if hit_lines and  hit_lines[0].endswith('RF'):
           hand_rf += ' '.join( hit_lines[0].split()[0:-1] )
           del hit_lines[0]
-      del hit_lines[0]
+      if hit_lines: del hit_lines[0]
 
     g.query.chromosome = self.current_cm
     g.query.strand='+'

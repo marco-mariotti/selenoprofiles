@@ -1,3 +1,12 @@
+3.2d
+=======
+Features:
+- MMlib several functions expanded/improved (e.g. gene->bed, remove_overlapping_gene_clusters)
+
+Bug fixes:
+- fixed problems in MMlib -> infernalhit -> remove_Xs
+- solved problems with md5sum called differently in Mac OS X
+
 3.2c
 =======
 Features:

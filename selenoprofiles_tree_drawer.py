@@ -71,7 +71,7 @@ command_line_synonyms={}
 def_opt= {'temp':'/users/rg/mmariotti/temp', 'common':0, 'no_id':0, 'add':0, 'sp_add':0,
 't':'/users/rg/mmariotti/Genomes/.tree', 'prompt':0,
 'm':0,
-'s':'', 'f':'', 'out':'',
+'s':'','out':'',
 'a':0, 'C':0, 'c':0, 'explicit_labels':'selenocysteine,cysteine,homologue',
 'I':0, 
 'F':0, 'e':0, 'g':0, 'T':0,'f':0,
@@ -296,7 +296,12 @@ class limited_p2ghit(gene):
       if feature_name+':' in header:
         tt=header.split(feature_name+':')[1]
         if tt and not tt[0] in ' \n': 
-          self.graphical_features[feature_name]=[float(n) for n in tt.split()[0].split(',')]
+          self.graphical_features[feature_name]=[]
+          for block in tt.split()[0].split(','):
+            if '-' in block:    n, leng = map(int, block.split('-'))
+            else:               n= int(block); leng=1
+            self.graphical_features[feature_name].append(b, leng)
+          #float(n) 
     self.additional_features=[]
     
   def summary(self):    return gene.summary(self, other_fields=['program', 'label', 'profile_name'])
