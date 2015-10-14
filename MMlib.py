@@ -1513,8 +1513,7 @@ class alignment:
 
   def remove(self, protname, dontremoveuselessgaps=False):
     del self.diz[protname]    
-    if self.ss.has_key(protname):
-        del self.ss[protname]
+    if type(self.ss) == dict and self.ss.has_key(protname):       del self.ss[protname]
     self.reset_derived_data()
     for i in range(len(self.order)):
       if self.order[i]==protname:
@@ -3520,8 +3519,9 @@ merge_genes(gene_list)       merge a list of genes to remove redundancy. It has 
     """can accept as input direclty text, or path to a file, or a file handler; tag=* means any tag
     If check_sec_pos==True (default), then "Sec_position:" (as present in selenoprofiles gffs) are read from the gff input and this information is stored into the .sec_pos attribute.
     If keep_program==True (not default), a .program attribute is used to keep the program field of the gff being loaded (2nd field)
-    If parse_keywords==True (not default), the 9th field of the gff is searched for expressions like:   SOMEKEY:VALUE ; for each one found, a .SOMEKEY attribute is created and assigned to VALUE, taking care of converting VALUE to the appropriate type (string, number, float). A .keywords attribute is created to keep the list of attribute names added this way.
+    If parse_keywords==True (not default), the 9th field of the gff is searched for expressions like:   SOMEKEY:VALUE ; for each one found, a .SOMEKEY attribute is created and assigned to VALUE, taking care of converting VALUE to the appropriate type (string, number, float). A .keywords attribute is created to keep the list of attribute names added this way. You may specify another separator instead of ":" as argument of parse_keywords, as long as just one will be found per text block.
     """
+    if parse_keywords==True: parse_keywords=':'
     if type(gff_file)==str and os.path.isfile(gff_file):
       gff_lines=open(gff_file, 'r').readlines()
       self.id=gff_file
@@ -3550,10 +3550,10 @@ merge_genes(gene_list)       merge a list of genes to remove redundancy. It has 
             if parse_keywords and len(splt)>8:
               commentsplt=splt[8].split()
               for word_index, word in enumerate(commentsplt):
-                if word.count(':')==1:
-                  keyword=word.split(':')[0]
-                  if word.endswith(':'):  value=option_value(commentsplt[word_index+1])
-                  else:                   value=option_value(word.split(':')[1])
+                if word.count( parse_keywords  )==1:
+                  keyword=word.split(parse_keywords)[0]
+                  if word.endswith(parse_keywords):  value=option_value(commentsplt[word_index+1])
+                  else:                   value=option_value(word.split(parse_keywords)[1])
                   self[keyword]=value
                   if not hasattr(self, 'keywords'): self['keywords']=[]
                   self['keywords'].append(keyword)
@@ -5328,10 +5328,14 @@ class parse_infernal(parser):
         self.current_cm = hit_lines[1].split()[0]
         query_seq += ' '.join( hit_lines[1].split()[2:-1] )
         target_seq += ' '.join( hit_lines[3].split()[2:-1] )
-        del hit_lines[0:5]
-        if hit_lines and  hit_lines[0].endswith('RF'):
-          hand_rf += ' '.join( hit_lines[0].split()[0:-1] )
-          del hit_lines[0]
+        ##  new, thanks to didac:
+        del hit_lines[0:4]
+        for next_line in hit_lines:
+          if next_line.endswith('RF'):
+            hand_rf += ' '.join( next_line.split()[0:-1] )
+            break
+        del hit_lines[0:]
+        ##
       if hit_lines: del hit_lines[0]
 
     g.query.chromosome = self.current_cm
