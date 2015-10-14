@@ -2,7 +2,7 @@
 __author__  = "Marco Mariotti"
 __email__   = "marco.mariotti@crg.eu"
 __licence__ = "GPLv3"
-__version__ = "3.2d"
+__version__ = "3.2e"
 global temp_folder; global split_folder
 from string import *
 import sys
@@ -1501,10 +1501,9 @@ def genewise(profile_ali, target_file, outfile='', seed='', extension=15000, gen
   # preparing target
   current_range=seed.boundaries_gene().extend(left=extension, right=extension)
   current_range.check_boundaries( chromosome_length )
-  current_range.fasta_sequence(to_file=target_filename, chromosome_file=chromosome_file, title='fasta_title') #negative strand is already fastarevcomp'ed
+  current_range.fasta_sequence(to_file=target_filename, chromosome_file=chromosome_file, title='gw_target') #negative strand is already fastarevcomp'ed
 
-  
-  header='#'+seed_type+'seeded; Target_range:'+seed.boundaries_gene().header(no_species=True)+'\n#profile_alignment: '+profile.name+' ; query_name: '+query_name+' ; query_full_seq: '+query_full_sequence
+  header='#'+seed_type+'seeded; Target_range:'+seed.boundaries_gene().header(no_species=True)+'\n#profile_alignment: '+profile.name+' ; query_name: '+query_name+' ; query_full_seq: '+query_full_sequence+' ; target_for_this_genewise_run: '+current_range.fasta_title()
   write_to_file(header, tempout_filename)
   report=''
   
@@ -4679,6 +4678,8 @@ class parse_genewise(parser):
       full_query_name= line.split('; query_name: ')[1].split(';')[0]
       full_query_sequence=line.split('; query_full_seq: ')[1].split()[0]
       profile_name=del_white(line.split('profile_alignment: ')[1].split(';')[0])
+      if ' ; target_for_this_genewise_run: ' in line:   ### this is the norm; but we keep the 'if' for compatibility
+        range_fasta_title=line.rstrip().split('; target_for_this_genewise_run: ')[1].split(';')[0]
       line=cfile.readline()
     while line and line!="See WWW help for more info\n":       line=cfile.readline()
     if not line:       raise Exception, "parse_genewise: some error occured parsing " +self.file.name+' ; empty file.'
@@ -4777,6 +4778,9 @@ class parse_genewise(parser):
       d.error_message='gff not valid. WARNING this is a bug of genewise'
       return d
     # restoring absolute coordinates
+    if target=='gw_target':   ## this is the norm from version 3.2e
+      target=range_fasta_title
+
     if '[positions:' in target:
       subseq_gene=gene()
       subseq_gene.load_from_fasta_title(target)

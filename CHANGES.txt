@@ -1,3 +1,9 @@
+3.2e
+=======
+Features:
+- MMlib several functions expanded/improved   (e.g. flexible load_all_genes features load)
+- better compatibility with diverse linux systems (workaround for a genewise memory bug for long target name; "&>" operator is not used
+
 3.2d
 =======
 Features:
