@@ -3515,11 +3515,12 @@ merge_genes(gene_list)       merge a list of genes to remove redundancy. It has 
     return self.phases[exon_index]
     
   
-  def load_gff(self, gff_file, tag='cds', check_sec_pos=True, keep_program=False, parse_keywords=False, keep_tag=False):
+  def load_gff(self, gff_file, tag='cds', check_sec_pos=True, keep_program=False, parse_keywords=False, keep_tag=False, process_line=None):
     """can accept as input direclty text, or path to a file, or a file handler; tag=* means any tag
     If check_sec_pos==True (default), then "Sec_position:" (as present in selenoprofiles gffs) are read from the gff input and this information is stored into the .sec_pos attribute.
     If keep_program==True (not default), a .program attribute is used to keep the program field of the gff being loaded (2nd field)
     If parse_keywords==True (not default), the 9th field of the gff is searched for expressions like:   SOMEKEY:VALUE ; for each one found, a .SOMEKEY attribute is created and assigned to VALUE, taking care of converting VALUE to the appropriate type (string, number, float). A .keywords attribute is created to keep the list of attribute names added this way. You may specify another separator instead of ":" as argument of parse_keywords, as long as just one will be found per text block.
+    For maximum flexibility, you have the process_line keyword. You can provide a function that accepts two arguments: a list of the fields (the result of line.split('\t' on the current line)  and  the self gene object being filled. In this way you can keep any other attribute in the line you're interested into.
     """
     if parse_keywords==True: parse_keywords=':'
     if type(gff_file)==str and os.path.isfile(gff_file):
@@ -3558,8 +3559,10 @@ merge_genes(gene_list)       merge a list of genes to remove redundancy. It has 
                   if not hasattr(self, 'keywords'): self['keywords']=[]
                   self['keywords'].append(keyword)
 
-            if keep_program:                 self['program']=line.split('\t')[1]
-            if keep_tag:                     self['tag']=line.split('\t')[2]
+            if keep_program:                 self['program']=splt[1]
+            if keep_tag:                     self['tag']=splt[2]
+            if not process_line is None:     process_line(splt, self)
+
     except Exception, e:                     raise Exception, "ERROR loading gff: "+str(gff_file)+' '+str(e)
   load=load_gff
   
@@ -4488,7 +4491,9 @@ def gene_clusters(gene_list, strand=True):
   for line in bp.stdout:
 #    print line
     splt=line.rstrip().split('\t')
-    id_left = splt[3]; id_right= splt[9]
+    if strand:    id_left = splt[3]; id_right= splt[9]
+    else:         id_left = splt[3]; id_right= splt[7]
+
     if   id_left != id_right:
       if   (  not id_left in geneid2cluster_index )  and  ( not id_right in geneid2cluster_index ):  #new cluster
         cluster_index2geneids [cluster_index] = [id_left, id_right]
@@ -4545,7 +4550,7 @@ def remove_overlapping_gene_clusters(gene_list,  scoring=len,  cmp_fn=None, phas
   outlist=[]
   #overlaps_graph= genes_overlap(gene_list, phase=phase, strand=strand)
   #clusters= overlaps_graph.overlap_clusters(min_size=1)
-  gene2cluster, cluster2genes = gene_clusters( gene_list )
+  gene2cluster, cluster2genes = gene_clusters( gene_list, strand=strand )
 
   for cluster_id  in cluster2genes.keys():
     cluster= cluster2genes[cluster_id]
