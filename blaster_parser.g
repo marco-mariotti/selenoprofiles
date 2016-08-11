@@ -1,4 +1,4 @@
-#! /usr/bin/gawk -f 
+#!/usr/bin/gawk -f 
 # normal output: (separated by space); names of target and query are normally just the first word of it
 
 #target_name target_start target_end strand query_name query_start query_end target_aligned_seq query_aligned_seq evalue bit_score
