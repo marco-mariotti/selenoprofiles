@@ -2570,7 +2570,7 @@ class overriding_cursor(Cursor):
       except OperationalError:
         printerr('Cannot execute the command, the database is locked. I\'m waiting to see if it unlocks... max attempts remaining: '+str( max_attempts_database-attempts+1), 1)
         time.sleep(sleep_time)
-    if not success:       notracebackException, "ERROR locked database"
+    if not success:      raise notracebackException, "ERROR locked database"
     else:                return out
 
 class selenoprofiles_db(sqlite.Connection):
@@ -4334,6 +4334,29 @@ class superblasthit(blasthit):
     o+='#'*chars_header
     return o
 
+class parse_blast_tab(parser):
+  """ Read blast hits (without .alignment)"""
+  def parse_next(self):
+    if not self.last_line: self.stop()
+    splt=self.last_line.split('\t')
+    #target
+    s, e, strand = int(splt[8]), int(splt[9]), '+' 
+    if s > e: strand='-'; s,e=e,s
+    g=blasthit(); g.chromosome=splt[1]; g.strand=strand  ## will return g
+    g.alignment=None; #alignment(); g.alignment.add('q', 'X'); g.alignment.add('t', 'X');
+    g.add_exon(  s, e  )
+    #query
+    s, e, strand = int(splt[6]), int(splt[7]), '+' 
+    if s > e: strand='-'; s,e=e,s
+    g.query.chromosome= splt[0]
+    g.query.strand=strand; g.query.add_exon(s, e)
+    g.evalue=e_v( splt[10] )
+    g.bits=float( splt[11] )
+    g.identity=float(splt[2])
+
+    self.last_line=self.file.readline()        
+    return g
+
 class parse_blaster(parser):
   """ Parse a blaster_parser output file, which was used to scan a blast output. blasthit instances are returned on each next() call. Define dont_keep_ali=1 when calling the parser to ignore the alignments in the blast output."""
   def parse_next(self):
@@ -5214,16 +5237,28 @@ def bSecisearch(p2g, silent=False, full=False):
     pos_start_subsequence =   sec_ugas[0]*3  +1   -5     ## 1 based, nt based
     pos_end_subsequence   =   sec_ugas[-1]*3  +1   +2 +100    ## 1 based, nt based. Including 100 nts after the UGA codon 
     length_subsequence    =   pos_end_subsequence - pos_start_subsequence +1 
-    subseq=p2g.subsequence( pos_start_subsequence, length_subsequence)
-    
+
     constrained_start   = max([pos_start_subsequence, 1])
-    available_length_in_p2g = p2g.length() - constrained_start + 1 
+    available_length_in_p2g = p2g.length() - constrained_start + 1
     constrained_length = min ([available_length_in_p2g, length_subsequence])
     subseq_gene_obj =p2g.subseq( constrained_start, constrained_length, minimal=True )
     remainder_up  = constrained_start  -  pos_start_subsequence
-    remainder_down= length_subsequence -  constrained_length 
+    remainder_down= length_subsequence -  constrained_length
     if   subseq_gene_obj.strand=='+':     subseq_gene_obj.extend(left=remainder_up,   right=remainder_down, inplace=True)
     elif subseq_gene_obj.strand=='-':     subseq_gene_obj.extend(left=remainder_down, right=remainder_up, inplace=True)
+
+    chromosome_length= get_MMlib_var('chromosome_lengths')[p2g.chromosome]
+    prev_boundaries=subseq_gene_obj.boundaries()
+    if subseq_gene_obj.check_boundaries(chromosome_length):  #this checks and modify inplace                                                                     
+      # out of bounds                                                                                                                                            
+      if p2g.strand=='+':
+        pos_start_subsequence+=  subseq_gene_obj.boundaries()[0] - prev_boundaries[0]
+        length_subsequence-=     (prev_boundaries[1]-subseq_gene_obj.boundaries()[1] +subseq_gene_obj.boundaries()[0]-prev_boundaries[0] )
+      elif p2g.strand=='-':
+        pos_start_subsequence+=  prev_boundaries[1] - subseq_gene_obj.boundaries()[1]
+        length_subsequence-=     (subseq_gene_obj.boundaries()[0] - prev_boundaries[0] +prev_boundaries[1] - subseq_gene_obj.boundaries()[1])
+
+    subseq=p2g.subsequence( pos_start_subsequence, length_subsequence)
     
     target_temp_file=temp_folder+'sequence_for_bsecisearch.fa'
     write_to_file(">region_from:"+str(p2g.id)+' '+subseq_gene_obj.header(no_id=True) +'\n'+subseq,      target_temp_file )
