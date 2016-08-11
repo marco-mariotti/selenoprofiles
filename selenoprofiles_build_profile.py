@@ -1,4 +1,4 @@
-#!/soft/bin/python -u
+#!/usr/bin/python -u
 from string import *
 import sys
 from commands import *
@@ -39,7 +39,7 @@ usage:     selenoprofiles_build_profile.py    family.fa   [-attribute "value"] [
 
 command_line_synonyms={}
 
-def_opt= {'temp':'/home/mmariotti/temp', 
+def_opt= {'temp':'/users/rg/mmariotti/temp', 
 'i':0, 'o':0, 'v':0, 'Q':0, 'c':0, 'o':'', 'r':'', 't':'', 'GO':0, 'go':0, 'C':0, 'p':0, 'd':0, 'out':0, 'sp_config': '/users/rg/mmariotti/scripts/selenoprofiles_3.config'
 }
 

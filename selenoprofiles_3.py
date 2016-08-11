@@ -1,8 +1,8 @@
-#!/soft/bin/python -u
+#!/usr/bin/python -u
 __author__  = "Marco Mariotti"
 __email__   = "marco.mariotti@crg.eu"
 __licence__ = "GPLv3"
-__version__ = "3.2"
+__version__ = "3.3"
 global temp_folder; global split_folder
 from string import *
 import sys
@@ -33,7 +33,7 @@ usage:          Selenoprofiles  results_folder  target_file  -s "species name"  
 
 As ARG of -p, you must provide one or more profiles (comma separated, if multiple).  Arguments can be filenames (aligned fasta files) or profile names. If they are profile names, files called like profile_name.fa or profile_name.fasta must be present in the profiles folder defined in your main configuration file. Profile alignments are normally built with default options: a profile_name.fa.config file containing the profile settings is created. See script selenoprofiles_build_profile.py to build a profile with non-default options.
 
-The following routines are normally executed only if the results files are not found. You can force their execution specifying either the short or long option. Forcing a routine forces also the execution of all subsequent steps. Note that this may cause certain files to be overwritten, but they are never deleted.
+The following routines are normally executed only if their output files are not found. You can force their execution specifying either the short or long option. Forcing a routine forces also the execution of all subsequent steps. Note that this may cause certain files to be overwritten, but none will be deleted.
 
 -B || -blast          Run blast and filtering of its output. All next steps are for each blast hit (merged by colinearity)
 -E || -exonerate      Run cyclic_exonerate
@@ -54,16 +54,15 @@ To see the default active options, see your main configuration file.
 Additionally, if a least one prediction is output, a fasta alignment called PROFILE.ali is created: this contains the sequences of the profile along with all predictions for this family in this target. 
 
 A few other options:
--no_splice || -N   for use on RNA sequences or bacterial genomes. Genewise is not available in this mode
+-no_splice || -N   for use on RNA sequences or bacterial genomes. Genewise is desactivated in this mode
 -test              prints the slave programs and modules available in this selenoprofiles installation, then quits
--temp  +           temporary folder. A folder with random name is created here, used and deleted at the end of the computation
 -print_opt         print currently active options
 -h full            display full list of options and of accessory programs
 
-Please refer to the manual, available at http://genome.crg.es/~mmariotti/selenoprofiles_manual.pdf
+Please refer to the manual, available at http://big.crg.cat/services/selenoprofiles
 If selenoprofiles has been useful for your research, please cite:  
-Mariotti M, Guigo R. - Selenoprofiles: profile-based scanning of eukaryotic genome sequences for selenoprotein genes.
-Bioinformatics. 2010 Nov 1;26(21):2656-63. Epub 2010 Sep 21."""
+Mariotti M, Guigo R. Selenoprofiles: profile-based scanning of eukaryotic genome sequences for selenoprotein genes.
+Bioinformatics. 2010 Nov 1;26(21):2656-63."""
 full_help="""
 ####### Full list of other options #######
 Options with + require an argument. Options can be specified either in command line with syntax -option value or in the configuration file as option = value. If no argument is required for an option, in the configuration file you must use value=1.  To deactivate an option which is active by default, use -option 0.
@@ -71,12 +70,13 @@ Options with + require an argument. Options can be specified either in command l
 ## system and global configuration
 -bin_folder       +     folder where the executables run by selenoprofiles are searched
 -profiles_folder  +     folder where the profile alignments are searched
+-temp             +     temporary folder. A folder with random name is created here, used and deleted at the end of the computation
 -save_chromosomes       active by default. Selenoprofiles tries to recycle the single-sequence fasta files extracted from the genome, to minimize computation. These files are kept in a subfolder of the folder specified with -temp. Turn off to save disk space
 -no_colors              disable printing in colors to atty terminals. Put "no_colors=1" in your configuration file to set this as default
 -GO_obo_file      +     path to the gene_ontology_ext.obo file used in GO tools-based filtering (see manual)
 
 ## prediction programs
--dont_exonerate         do not run exonerate. Not recommended
+-dont_exonerate         do not run exonerate. Not recommended. 
 -dont_genewise          do not run genewise.  Use to reduce the time required for computation
 -genewise_to_be_sure    active by default. When exonerate produce no output or its prediction does not overlap the seed blast hit, genewise is run, seeded using the blast hits coordinates. Turn off this option not to run genewise in these cases, to reduce the time required for computation
 -no_blast               do not allow choosing a blast prediction (over a genewise or exonerate prediction). Use this if an accurate splice site prediction is crucial for you
@@ -209,7 +209,7 @@ def load(config_filename='/users/rg/mmariotti/scripts/selenoprofiles_3.config', 
     for k in def_opt: 
       if args.has_key(k):  opt[k]=args[k]
       else: opt[k]=def_opt[k]
-  else:      opt=command_line(def_opt, help_msg, ['r','t'], synonyms=command_line_synonyms, tolerated_regexp=['ACTION.*'], strict=1, advanced={'full':full_help} );   #### reading options from command line
+  else:      opt=command_line(def_opt, help_msg, ['r','t'], synonyms=command_line_synonyms, tolerated_regexp=['ACTION.*'], strict= notracebackException, advanced={'full':full_help} );   #### reading options from command line
   set_MMlib_var('opt', opt);
   sleep_time=opt['sleep_time']
   max_attempts_database=opt['max_attempts_database']
@@ -1370,7 +1370,7 @@ def cyclic_exonerate(profile_ali, target_file, outfile='', seed='', extension=30
     if not profile.queries: profile.queries=range(profile.nseq())
 
   for title in profile.titles():
-    seq= profile.fix_query_seq(  profile.seq_of(title, sec_columns='*')  )    
+    seq= profile.fix_multiple_secs(  profile.seq_of(title, sec_columns='*')  )    
     profile.set_sequence(title, seq)
 
   #initializing
@@ -1458,7 +1458,7 @@ def genewise(profile_ali, target_file, outfile='', seed='', extension=15000, gen
   #replacing the input profile with a copy which change in all sequences all aminoacids in sec columns with U (in exonerate, it is *)
   profile=profile_ali.copy()
   for title in profile.titles():
-    seq= profile.fix_query_seq( profile.seq_of(title, sec_columns='U') )
+    seq= profile.fix_multiple_secs( profile.seq_of(title, sec_columns='U') )
     profile.set_sequence(title, seq)
 
   #determining genewise options: the ones specified for the profile override the ones specified as arguments of the genewise function
@@ -1479,7 +1479,7 @@ def genewise(profile_ali, target_file, outfile='', seed='', extension=15000, gen
     complete_query_title=profile.fill_title(seed.query.chromosome)
     current_alignment.add(complete_query_title, seed.alignment.seq_of('q'))
     current_alignment.add('target', seed.alignment.seq_of('t'))
-    current_alignment.fill_sides(profile, inplace=True) # correcting for modified U (the blast query may not have U but it is put in all sec columns, so than the sequence read may be different than this)  
+    current_alignment.fill_sides(profile, inplace=True, wild_chars='UX*') # correcting for modified U (the blast query may not have U but it is put in all sec columns, so than the sequence read may be different than this)  
     profile_plus_prediction= profile.transfer_alignment(current_alignment)
     query_name = choose_query_from_profile_plus_prediction(profile_plus_prediction, profile, target_name='target')    
     seed_type='blast_'
@@ -1501,10 +1501,9 @@ def genewise(profile_ali, target_file, outfile='', seed='', extension=15000, gen
   # preparing target
   current_range=seed.boundaries_gene().extend(left=extension, right=extension)
   current_range.check_boundaries( chromosome_length )
-  current_range.fasta_sequence(to_file=target_filename, chromosome_file=chromosome_file, title='fasta_title') #negative strand is already fastarevcomp'ed
+  current_range.fasta_sequence(to_file=target_filename, chromosome_file=chromosome_file, title='gw_target') #negative strand is already fastarevcomp'ed
 
-  
-  header='#'+seed_type+'seeded; Target_range:'+seed.boundaries_gene().header(no_species=True)+'\n#profile_alignment: '+profile.name+' ; query_name: '+query_name+' ; query_full_seq: '+query_full_sequence
+  header='#'+seed_type+'seeded; Target_range:'+seed.boundaries_gene().header(no_species=True)+'\n#profile_alignment: '+profile.name+' ; query_name: '+query_name+' ; query_full_seq: '+query_full_sequence+' ; target_for_this_genewise_run: '+current_range.fasta_title()
   write_to_file(header, tempout_filename)
   report=''
   
@@ -1617,15 +1616,15 @@ def assign_label_non_selenoprotein_families(p2g_hit):
   return 'homologue'
 
 ############################################# MERGE FUNCTIONS ##################################################################
-def merge_p2g_hits_by_colinearity(p2g_list, inplace=True, already_sorted=False, max_overlap_in_target=0, max_overlap_in_query=6, max_distance_in_target=10000, max_distance_in_query=None, post_function=None,  sequence_collection=None, get_sequence=None): 
+def merge_p2g_hits_by_colinearity(p2g_list, inplace=True, already_sorted=False, max_overlap_in_target=0, max_overlap_in_query=6, max_distance_in_target=10000, max_distance_in_query=None, post_function=None,  sequence_collection=None, get_sequence=None, no_seq=False): 
   """ Input can be any iterable of gene objects having a query attribute which is a gene itself. examples: [super]blasthit, exonerate, genewise classes.
   
   The post_function, if defined,  is used to add attributes from the colinear objects to the new one. The function must take 3 arguments (gene objects or subclasses): the upstream gene object, the downstream one, the resulting one, and return a single gene object which will overwrite the resulting object.
-
-  When portions of the query are missing, one or more "x" are inserted to fill the gap.  
-  If you provide a sequence_collection, the method seq_of will be used to obtain the missing sequence in the query. The target is filled just with gaps.
-  for the same purpose, you may use any get_sequence function which given a fasta title, returns the sequence
-    
+  By default the .alignment is modified to include the sequence of the joined p2g hits.
+    When portions of the query are missing, one or more "x" are inserted to fill the gap.  
+    If you provide a sequence_collection, the method seq_of will be used to obtain the missing sequence in the query. The target is filled just with gaps.
+    For the same purpose, you may use instead any get_sequence function which given a fasta title, returns the sequence.
+  To ignore the .alignment attribute (when loading from tab blast files), use no_seq=True    
   """  
   if inplace:    worklist=p2g_list
   else:          worklist=list(p2g_list)
@@ -1634,6 +1633,7 @@ def merge_p2g_hits_by_colinearity(p2g_list, inplace=True, already_sorted=False, 
   full_seq_query=None
   while index<len(worklist):
     this=worklist[index-1]  ;     next=worklist[index]  
+#    print [this], [next], index
     if this.chromosome == next.chromosome and this.strand == next.strand:
       if this.strand=='-':         this, next= next, this
       distance_in_target= this.is_upstream_of(next, max_overlap=max_overlap_in_target)
@@ -1642,37 +1642,39 @@ def merge_p2g_hits_by_colinearity(p2g_list, inplace=True, already_sorted=False, 
         
         new_one=this.union_with(next);                    new_one.id=this.id
         new_one.query=this.query.union_with(next.query);  new_one.query.id=this.query.id
-        if distance_in_query>0: 
-          seq_target= this.alignment.seq_of('t')+(distance_in_query-1)*'-'+next.alignment.seq_of('t')
-          
-          if  sequence_collection is None and get_sequence is None:               seq_query=  this.alignment.seq_of('q')+(distance_in_query-1)*'x'+next.alignment.seq_of('q')
-          else:
-            if full_seq_query is None:
-              try: 
-                if not sequence_collection is None:                get_sequence= lambda x:nogap(sequence_collection.seq_of(x))
-                full_seq_query= get_sequence( this.query.chromosome )
-              except: printerr('merge_p2g_hits_by_colinearity ERROR can\'t obtain the sequence of: '+this.query.chromosome ); raise
-            seq_query=  this.alignment.seq_of('q')+   full_seq_query[this.query.boundaries()[1]:next.query.boundaries()[0]-1]  +next.alignment.seq_of('q')
-        else:
-        
-          distance_in_query_corrected_with_gaps_in_q =  distance_in_query; p=0; gaps_encountered_query=0; gaps_encountered_target=0
-          ali_positions_to_remove=0; 
-          
-          for position in range( next.alignment.length() ):
-            if next.alignment.seq_of('q')[position] == '-':               gaps_encountered_query+=1
-            if position-gaps_encountered_query==-distance_in_query: # we find the right position
-              first_position_of_ali_to_keep=position #0 based 
-              break
-            if next.alignment.seq_of('t')[position] == '-':               gaps_encountered_target+=1
-        
-          seq_query=  this.alignment.seq_of('q')+next.alignment.seq_of('q')[first_position_of_ali_to_keep:]
-          seq_target= this.alignment.seq_of('t')+next.alignment.seq_of('t')[first_position_of_ali_to_keep:]
-          
-          if distance_in_query<0: # we corrected the alignment sequence. We have to correct the gff (the numbers inside .exons ) as well
-            to_remove= next.subseq( 1, (first_position_of_ali_to_keep-gaps_encountered_target)*3)
-            new_one=new_one.subtracted_of(to_remove)
+        if not no_seq:
+          if distance_in_query>0: 
+            seq_target= this.alignment.seq_of('t')+(distance_in_query-1)*'-'+next.alignment.seq_of('t')
 
-        new_one.alignment=alignment(); new_one.alignment.add('q', seq_query); new_one.alignment.add('t', seq_target)
+            if  sequence_collection is None and get_sequence is None:               seq_query=  this.alignment.seq_of('q')+(distance_in_query-1)*'x'+next.alignment.seq_of('q')
+            else:
+              if full_seq_query is None:
+                try: 
+                  if not sequence_collection is None:                get_sequence= lambda x:nogap(sequence_collection.seq_of(x))
+                  full_seq_query= get_sequence( this.query.chromosome )
+                except: printerr('merge_p2g_hits_by_colinearity ERROR can\'t obtain the sequence of: '+this.query.chromosome ); raise
+              seq_query=  this.alignment.seq_of('q')+   full_seq_query[this.query.boundaries()[1]:next.query.boundaries()[0]-1]  +next.alignment.seq_of('q')
+          else:
+
+            distance_in_query_corrected_with_gaps_in_q =  distance_in_query; p=0; gaps_encountered_query=0; gaps_encountered_target=0
+            ali_positions_to_remove=0; 
+
+            for position in range( next.alignment.length() ):
+              if next.alignment.seq_of('q')[position] == '-':               gaps_encountered_query+=1
+              if position-gaps_encountered_query==-distance_in_query: # we find the right position
+                first_position_of_ali_to_keep=position #0 based 
+                break
+              if next.alignment.seq_of('t')[position] == '-':               gaps_encountered_target+=1
+
+            seq_query=  this.alignment.seq_of('q')+next.alignment.seq_of('q')[first_position_of_ali_to_keep:]
+            seq_target= this.alignment.seq_of('t')+next.alignment.seq_of('t')[first_position_of_ali_to_keep:]
+
+            if distance_in_query<0: # we corrected the alignment sequence. We have to correct the gff (the numbers inside .exons ) as well
+              to_remove= next.subseq( 1, (first_position_of_ali_to_keep-gaps_encountered_target)*3)
+              new_one=new_one.subtracted_of(to_remove)
+
+          new_one.alignment=alignment(); new_one.alignment.add('q', seq_query); new_one.alignment.add('t', seq_target)
+
         #replacing current ones in list with new one.
         if post_function:           new_one=post_function(this, next, new_one)
         worklist[index-1:index+1]=[new_one]
@@ -1707,13 +1709,13 @@ def merge_p2g_hits_by_colinearity_post_function_exonerate_hits(upstream_g, downs
   for i in upstream_g, downstream_g:
     if i.__class__.__name__ == 'superexoneratehit':
       for exonerate_h in i.merged:        
-#        write('appending hits in s.e. '+str(i.id)+' : '+str(exonerate_h.id)+ '  to out gene: '+str(out_g.id ), 1)
+        #write('appending hits in s.e. '+str(i.id)+' : '+str(exonerate_h.id)+ '  to out gene: '+str(out_g.id ), 1)
         out_g.merged.append(exonerate_h)
-        
     else:                           
-#      write('appending hit e.   '+str(i.id)+'   to out gene: '+str(out_g.id ), 1)
+      #write('appending hit e.   '+str(i.id)+'   to out gene: '+str(out_g.id ), 1)
       out_g.merged.append(i)  
   out_g.reset_derived_data() #the cds of this must be computed again. That will happen automatically next time .cds() is called
+
   return out_g
 
 ############################################# OTHER FUNCTIONS ##################################################################
@@ -2237,7 +2239,7 @@ NOTE that in the first, third and fourth cases, those titles for which at least 
         #nonetheless  since we'd miss the ones that are not Us in this subcluster but that are U in the main cluster we do also:
         for sec_pos in self.sec_pos():          
           if not self.is_gap_column(sec_pos):          q_seq= q_seq[:sec_pos] + 'U' + q_seq[sec_pos+1:]
-        q_seq= self.fix_query_seq(q_seq)
+        q_seq= self.fix_multiple_secs(q_seq)
 
         ali.add(q_title, q_seq)
         for parameter in profile_alignment.psitblastn_relative_options:          exec('ali.'+parameter+'=self.'+parameter)
@@ -2378,12 +2380,11 @@ NOTE that in the first, third and fourth cases, those titles for which at least 
       seq=self.seq_of(last_title)
       for sec_pos in self.sec_pos():
         seq=seq[:sec_pos] + sec_char + seq[sec_pos+1:]
-    else:    
-      seq=self.consensus_sequence( threshold=self.max_column_gaps_for_blast_query_value(), sec_char=sec_char )                
-    seq= self.fix_query_seq( seq )
+    else:      seq=self.consensus_sequence( threshold=self.max_column_gaps_for_blast_query_value(), sec_char=sec_char )                
+    seq= self.fix_multiple_secs( seq )
     return seq
 
-  def fix_query_seq(self, seq):
+  def fix_multiple_secs(self, seq):
     """ Bugfix to avoid consecutive U or *, which makes blastall explode"""    
     seq_no_gap=replace(seq, '-', '')
     index=0; index_no_gap=-1
@@ -2569,7 +2570,7 @@ class overriding_cursor(Cursor):
       except OperationalError:
         printerr('Cannot execute the command, the database is locked. I\'m waiting to see if it unlocks... max attempts remaining: '+str( max_attempts_database-attempts+1), 1)
         time.sleep(sleep_time)
-    if not success:       notracebackException, "ERROR locked database"
+    if not success:      raise notracebackException, "ERROR locked database"
     else:                return out
 
 class selenoprofiles_db(sqlite.Connection):
@@ -3150,12 +3151,12 @@ class p2ghit(gene):
     comment=''
     sec_pos_features=[]
     u_pos_in_ali_list=self.alignment.all_positions_of('U')
-    for u_pos_in_ali in  u_pos_in_ali_list:
+    for sec_index, u_pos_in_ali in  enumerate(u_pos_in_ali_list):
       homologue_residue_pos= self.alignment.position_in_seq( 't', u_pos_in_ali+1  )  #0-based to 1-based
       if homologue_residue_pos:  #exluding super-rare case in which sec is in the ali but as a Nterm tail
         residue_type=      self.protein()[homologue_residue_pos-1] 
         first_pos_codon=    self.subseq(   (homologue_residue_pos-1)*3 + 1 , 1 , minimal=True).exons[0][0]  #first pos of codon for hom residue
-        sec_pos_features.append(  [first_pos_codon, "sec_position:"+str(first_pos_codon)+'-'+residue_type  ]   )
+        sec_pos_features.append(  [first_pos_codon, "sec_position."+str(sec_index+1)+":"+str(first_pos_codon)+'-'+residue_type  ]   )
       
     if self.is_complete_at_three_prime():
       if   self.strand=='+':  g.extend(right=3, inplace=True)
@@ -3275,7 +3276,7 @@ class p2ghit(gene):
           #searching for the go associated to these gis
           gi_go_associations_hash={} #key: gi ; value: list of GO code strings e.g, "GO:0055114"
           gi_go_associations_string= bbash("gawk -v id_file="+gi_list_file+""" -F"\\t" 'BEGIN{ while ((getline idline < id_file)>0){ GI_INPUT[idline]=1 } } { split($1, GI, "; "); split("", gi_match); for (i=1; i<=length(GI); i++){ if (GI[i] in GI_INPUT) { gi_match[GI[i]]=1}   }; o=""; for (g in gi_match) o="; " g; if (o)  print substr(o, 3) "\\t" $2  }' """+self.profile.gi2go_db_filename(), dont_die=1)
-          print [gi_go_associations_string]
+          #print [gi_go_associations_string]
           if gi_go_associations_string:
             for line in gi_go_associations_string.split('\n'):
               for gi_code in line.split('\t')[0].split('; '): #more than one gi can be present in a line
@@ -4333,6 +4334,29 @@ class superblasthit(blasthit):
     o+='#'*chars_header
     return o
 
+class parse_blast_tab(parser):
+  """ Read blast hits (without .alignment)"""
+  def parse_next(self):
+    if not self.last_line: self.stop()
+    splt=self.last_line.split('\t')
+    #target
+    s, e, strand = int(splt[8]), int(splt[9]), '+' 
+    if s > e: strand='-'; s,e=e,s
+    g=blasthit(); g.chromosome=splt[1]; g.strand=strand  ## will return g
+    g.alignment=None; #alignment(); g.alignment.add('q', 'X'); g.alignment.add('t', 'X');
+    g.add_exon(  s, e  )
+    #query
+    s, e, strand = int(splt[6]), int(splt[7]), '+' 
+    if s > e: strand='-'; s,e=e,s
+    g.query.chromosome= splt[0]
+    g.query.strand=strand; g.query.add_exon(s, e)
+    g.evalue=e_v( splt[10] )
+    g.bits=float( splt[11] )
+    g.identity=float(splt[2])
+
+    self.last_line=self.file.readline()        
+    return g
+
 class parse_blaster(parser):
   """ Parse a blaster_parser output file, which was used to scan a blast output. blasthit instances are returned on each next() call. Define dont_keep_ali=1 when calling the parser to ignore the alignments in the blast output."""
   def parse_next(self):
@@ -4409,7 +4433,7 @@ class superexoneratehit(exoneratehit):
     fake_ali=alignment()   #building fake alignment just to pass the full query sequence to merge_p2g_hits_by_colinearity function
     if not all(all_exonerate_hits_in_file): return 'output with gff bug'
     fake_ali.add(all_exonerate_hits_in_file[0].query.chromosome, replace_chars(query_full_sequence, '*', 'U')   ) 
-    if merge_multiple:
+    if merge_multiple:        
       merge_p2g_hits_by_colinearity(all_exonerate_hits_in_file, inplace=True, post_function=merge_p2g_hits_by_colinearity_post_function_exonerate_hits,  sequence_collection=fake_ali)
     for exonerate_or_superexoneratehit in sorted(all_exonerate_hits_in_file, key=lambda e:e.score, reverse=True):
       #navigating the exonerate hits in the merged list, taking first the best scoring ones. We will stop when we find the first one overlapping the seed.
@@ -4426,11 +4450,13 @@ class superexoneratehit(exoneratehit):
   
   def cds(self, **keyargs): #**keyargs are not used. but we accept them to allow compatibility with the cds function in the upper class p2ghit 
     """ This returns the coding sequence of the entire prediction. Frameshifts nucleotide are excluded so that the translation of the cds is always equal to the predicted protein sequence"""
-    if self.merged:
-      out=''
-      for e in self.merged: out+=p2ghit.cds(self)
-      return out        
-    else: return p2ghit.cds(self)
+    #if self.merged:
+    #  out=''
+    #  for e in self.merged: 
+    #    out+=p2ghit.cds(self)
+    #  return out        
+    #else: 
+    return p2ghit.cds(self)
 
 class parse_exonerate(parser):
   """ Parse an exonerate file and returns a exoneratehit object for each prediction inside. 
@@ -4675,6 +4701,8 @@ class parse_genewise(parser):
       full_query_name= line.split('; query_name: ')[1].split(';')[0]
       full_query_sequence=line.split('; query_full_seq: ')[1].split()[0]
       profile_name=del_white(line.split('profile_alignment: ')[1].split(';')[0])
+      if ' ; target_for_this_genewise_run: ' in line:   ### this is the norm; but we keep the 'if' for compatibility
+        range_fasta_title=line.rstrip().split('; target_for_this_genewise_run: ')[1].split(';')[0]
       line=cfile.readline()
     while line and line!="See WWW help for more info\n":       line=cfile.readline()
     if not line:       raise Exception, "parse_genewise: some error occured parsing " +self.file.name+' ; empty file.'
@@ -4773,6 +4801,9 @@ class parse_genewise(parser):
       d.error_message='gff not valid. WARNING this is a bug of genewise'
       return d
     # restoring absolute coordinates
+    if target=='gw_target':   ## this is the norm from version 3.2e
+      target=range_fasta_title
+
     if '[positions:' in target:
       subseq_gene=gene()
       subseq_gene.load_from_fasta_title(target)
@@ -5046,6 +5077,7 @@ class secis(p2g_feature):
     return o
   def summary(self):
     o='-SECIS: '+self.id+'     grade:'+self.grade+'\n'
+    o+=' Chromosome:'+self.chromosome+' Strand:'+self.strand+'\n'
     o+=' Positions:'+self.positions_summary()+' '
     d=self.distance_from_cds() 
     if d: o+='    CDS-Distance:'+str(d)+' '
@@ -5059,6 +5091,7 @@ class secis(p2g_feature):
   __str__=  summary
   __repr__= summary
   output=summary
+
   def distance_from_sec_uga(self):
     """ Return the distance from the (last) sec uga (not counting predicted introns) """
     try: 
@@ -5194,7 +5227,7 @@ def Secisearch3(p2g, three_prime_length=-1, silent=False, full=False):
 def bSecisearch(p2g, silent=False, full=False):
   """ Performs a complete bsecisearch searche with bseblastian (crash if not installed). Parse secis and restore their coordinates cosindering their parent gene so that they are absolute. Add the secis to the .features list of the p2g object. If silent!=True, it prints a message for every bSECIS found.    """
   #cutting 3' UTR
-  cds_seq= p2g.cds(); prot_seq=p2g.protein()
+  cds_seq= p2g.cds(); prot_seq=p2g.protein()  
   sec_ugas=[]  #pos codon based, 0 based
   for codon_index in range( len(cds_seq)/3 ):
     if prot_seq[codon_index]=='U': # and cds_seq[codon_index*3:codon_index*3+3]   =='TGA'
@@ -5204,16 +5237,28 @@ def bSecisearch(p2g, silent=False, full=False):
     pos_start_subsequence =   sec_ugas[0]*3  +1   -5     ## 1 based, nt based
     pos_end_subsequence   =   sec_ugas[-1]*3  +1   +2 +100    ## 1 based, nt based. Including 100 nts after the UGA codon 
     length_subsequence    =   pos_end_subsequence - pos_start_subsequence +1 
-    subseq=p2g.subsequence( pos_start_subsequence, length_subsequence)
-    
+
     constrained_start   = max([pos_start_subsequence, 1])
-    available_length_in_p2g = p2g.length() - constrained_start + 1 
+    available_length_in_p2g = p2g.length() - constrained_start + 1
     constrained_length = min ([available_length_in_p2g, length_subsequence])
     subseq_gene_obj =p2g.subseq( constrained_start, constrained_length, minimal=True )
     remainder_up  = constrained_start  -  pos_start_subsequence
-    remainder_down= length_subsequence -  constrained_length 
+    remainder_down= length_subsequence -  constrained_length
     if   subseq_gene_obj.strand=='+':     subseq_gene_obj.extend(left=remainder_up,   right=remainder_down, inplace=True)
     elif subseq_gene_obj.strand=='-':     subseq_gene_obj.extend(left=remainder_down, right=remainder_up, inplace=True)
+
+    chromosome_length= get_MMlib_var('chromosome_lengths')[p2g.chromosome]
+    prev_boundaries=subseq_gene_obj.boundaries()
+    if subseq_gene_obj.check_boundaries(chromosome_length):  #this checks and modify inplace                                                                     
+      # out of bounds                                                                                                                                            
+      if p2g.strand=='+':
+        pos_start_subsequence+=  subseq_gene_obj.boundaries()[0] - prev_boundaries[0]
+        length_subsequence-=     (prev_boundaries[1]-subseq_gene_obj.boundaries()[1] +subseq_gene_obj.boundaries()[0]-prev_boundaries[0] )
+      elif p2g.strand=='-':
+        pos_start_subsequence+=  prev_boundaries[1] - subseq_gene_obj.boundaries()[1]
+        length_subsequence-=     (subseq_gene_obj.boundaries()[0] - prev_boundaries[0] +prev_boundaries[1] - subseq_gene_obj.boundaries()[1])
+
+    subseq=p2g.subsequence( pos_start_subsequence, length_subsequence)
     
     target_temp_file=temp_folder+'sequence_for_bsecisearch.fa'
     write_to_file(">region_from:"+str(p2g.id)+' '+subseq_gene_obj.header(no_id=True) +'\n'+subseq,      target_temp_file )

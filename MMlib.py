@@ -30,12 +30,17 @@ except:
     a=average(ilist)
     return   sqrt(  sum(   [pow( v-a, 2)  for v in ilist]  )/len(ilist)  )
 
+def set_temp_folder(folder):  set_MMlib_var('temp_folder', folder)
+def set_split_folder(folder): set_MMlib_var('split_folder', folder)
+def get_temp_folder():        return get_MMlib_var('temp_folder')
+def get_split_folder():       return get_MMlib_var('split_folder')
+ 
 def set_local_folders(temp='/users/rg/mmariotti/temp'):
   """ Used in ipython to quickly set the environment for fetching chromosomes and other stuff that required temp files"""
   try: assert is_directory(opt['temp'])
   except:  opt['temp']=temp
-  temp_folder=Folder(random_folder(opt['temp'])); test_writeable_folder(temp_folder, 'temp_folder'); set_MMlib_var('temp_folder', temp_folder)                                      
-  split_folder=Folder(opt['temp']);               test_writeable_folder(split_folder); set_MMlib_var('split_folder', split_folder)                                              
+  temp_folder=Folder(random_folder(opt['temp'])); test_writeable_folder(temp_folder, 'temp_folder'); set_temp_folder(temp_folder)        
+  split_folder=Folder(opt['temp']);               test_writeable_folder(split_folder); set_split_folder(split_folder)                                              
 
 def mute(also_stderr=False):
   """ Turns off any output to stdout (to stderr as well if option is True). To go back to normal , use unmute()"""
@@ -190,14 +195,16 @@ def is_number(string, mode='int'):
 def is_option(s):
         return (s[0]=='-' and contain_chars(s[1:]))
 def option_value(value):
-        """value=string; returns value changed into the appropriate type.
-        """
-        if  is_number(value):                      return int(value)
-        elif is_number(value, 'float'):            return float(value)
-        else:
-            if value and value[0]==value[-1] and value[0] in ['"', "'"] and len(value)>=2:
-              value=value[1:-1]
-            return value
+  """value=string; returns value changed into the appropriate type.
+  """
+#  if value.startswith('[') and value.endswith(']'):     
+#    write(value, 1, how='yellow')
+#    return [option_value(x) for x in value[1:-1].split(', ') ]
+  if  is_number(value):                      return int(value)
+  elif is_number(value, 'float'):            return float(value)
+  else:
+    if value and value[0]==value[-1] and value[0] in ['"', "'"] and len(value)>=2:   value=value[1:-1]
+  return value
 
 def update_opt(new_opt, current_opt):  
   """sometimes it is useful to read options from command line, then manipulate them before using them. In this case, it is worth doing to update the opt object and sys.argv.
@@ -1220,13 +1227,65 @@ def transfer_alignment(group_align_or_diz, global_align_or_diz, neutral_chars='U
 
 
 class simmetrical_hash(dict):
-	""" ........... """
+	""" ........... old and bad implementation; see symmetrical_dict instead """
 	def get(self, k1, k2):
 		try:		  	return self[k1][k2]
 		except:			return self[k2][k1]
 symmetrical_hash=simmetrical_hash		
-	
 
+
+class symmetrical_dict(dict):
+  """ Symmetrical dictionary. Usage:
+
+  h=symmetrical_dict()
+  h['a']['b']= 'something'     # this and     h['b']['a']='something'    have the same effect
+  
+  print h['a']['b']  --> 'something'
+  print h['b']['a']  --> 'something'
+  print h['a']['x']  --> None          # NOTE THIS!
+  
+  h.has_keys('a', 'c') -> False     
+  """
+  
+  #def get_value(self, a, b):           a, b=sorted([a, b]);    return self[a][b] if a in self and b in self[a] else None
+  # def set_value(self, a, b, value):    
+  #     a, b=sorted([a, b]);    
+  #     if not a in self:        self[a]=self.subdict(parent=self, mainkey=a)
+  #     self[a][b]=value
+  
+  def __getitem__(self, key):
+    if not key in self:      self[key]=self.subdict(parent=self, mainkey=key)
+    return dict.__getitem__(self, key)
+
+  class subdict(dict):
+    def __init__(self, parent, mainkey, *args, **kargs):
+      dict.__init__(self)
+      dict.__setitem__(self, '__parent__',  parent )
+      dict.__setitem__(self, '__mainkey__', mainkey)
+            
+    def __getitem__(self, key):
+      if key < dict.__getitem__( self, '__mainkey__' ): 
+        return dict.__getitem__(      #parent dict--> get the right subdict  #                        # index it with the mainkey of this subdict #
+                                              dict.__getitem__(   dict.__getitem__(self, '__parent__'), key),     dict.__getitem__(self, '__mainkey__')  )
+      else:                         return dict.__getitem__(self, key)   if key in self else None
+    def __setitem__(self, key, value):
+      if key=='__parent__' or key=='__mainkey__':    
+        dict.__setitem__(self, key, value)
+      elif key < dict.__getitem__(self, '__mainkey__'): 
+        dict.__getitem__(self, '__parent__')[key][dict.__getitem__(self, '__mainkey__')] = value
+      else:          
+        dict.__setitem__(self, key, value) 
+	
+  def has_keys(self, a, b):
+    if b<a: a,b=b,a
+    return  dict.has_key(self, a) and b in self[a]
+
+  def all_keys(self):
+    out=set(dict.keys(self))
+    for x in dict.keys(self):    
+      for x in dict.keys( dict.__getitem__(self, x) ):
+        if x!='__mainkey__' and x!='__parent__': out.add(x)
+    return list(out)
 
 class AliError(Exception):
   def __init__(self, value):
@@ -1513,8 +1572,7 @@ class alignment:
 
   def remove(self, protname, dontremoveuselessgaps=False):
     del self.diz[protname]    
-    if self.ss.has_key(protname):
-        del self.ss[protname]
+    if type(self.ss) == dict and self.ss.has_key(protname):       del self.ss[protname]
     self.reset_derived_data()
     for i in range(len(self.order)):
       if self.order[i]==protname:
@@ -2763,7 +2821,7 @@ If only_titles is specified, it is necessary that the columns to realign have no
     for out_t, other_ts in out_titles:
       for discarded_t in other_ts: 
         correspondance_hash[discarded_t]=out_t
-        if not silent:          write('REMOVED: '+ discarded_t.split()[0].ljust(40)+' -> KEPT: '+out_t.split()[0], 1)
+        if not silent:          write('REMOVED: '+ discarded_t.split()[0]+' >KEPT: '+out_t.split()[0], 1)
 
     if inplace:
       out_titles_h={}
@@ -2917,7 +2975,7 @@ def getfastaaln(cfile,order=1): #clustalW format
   seq=''
   ord_list=[]    #[ [title1, seq1], [title2, seq2] ... ]
   diz={}      #{ title: seq   }
-  while not line or line[0]=='#' or 'CLUSTAL FORMAT' in line:
+  while not line or line[0]=='#' or line.startswith('CLUSTAL'):
                 line=cfile.readline()
             
 #        while not finished:
@@ -3170,6 +3228,7 @@ def fastafetch(split_folder, chromosome, target_genome, verbose=0, chars_not_all
   temp_filename=temp_folder+'fetching_chromosome.fa'
   if is_file(final_filename):    'file already there'
   else:  
+    #printerr('*** '+fastaindex(target_genome), 1)
     cmnd='fastafetch '+target_genome+' '+fastaindex(target_genome)+' "' +chromosome +'" > "'+  temp_filename+'"' 
     service( '  ...fetching chromosome: '+chromosome )
 #    debug(cmnd)
@@ -3516,12 +3575,14 @@ merge_genes(gene_list)       merge a list of genes to remove redundancy. It has 
     return self.phases[exon_index]
     
   
-  def load_gff(self, gff_file, tag='cds', check_sec_pos=True, keep_program=False, parse_keywords=False, keep_tag=False):
+  def load_gff(self, gff_file, tag='cds', check_sec_pos=True, keep_program=False, parse_keywords=False, keep_tag=False, process_line=None):
     """can accept as input direclty text, or path to a file, or a file handler; tag=* means any tag
     If check_sec_pos==True (default), then "Sec_position:" (as present in selenoprofiles gffs) are read from the gff input and this information is stored into the .sec_pos attribute.
     If keep_program==True (not default), a .program attribute is used to keep the program field of the gff being loaded (2nd field)
-    If parse_keywords==True (not default), the 9th field of the gff is searched for expressions like:   SOMEKEY:VALUE ; for each one found, a .SOMEKEY attribute is created and assigned to VALUE, taking care of converting VALUE to the appropriate type (string, number, float). A .keywords attribute is created to keep the list of attribute names added this way.
+    If parse_keywords==True (not default), the 9th field of the gff is searched for expressions like:   SOMEKEY:VALUE ; for each one found, a .SOMEKEY attribute is created and assigned to VALUE, taking care of converting VALUE to the appropriate type (string, number, float). A .keywords attribute is created to keep the list of attribute names added this way. You may specify another separator instead of ":" as argument of parse_keywords, as long as just one will be found per text block.
+    For maximum flexibility, you have the process_line keyword. You can provide a function that accepts two arguments: a list of the fields (the result of line.split('\t' on the current line)  and  the self gene object being filled. In this way you can keep any other attribute in the line you're interested into.
     """
+    if parse_keywords==True: parse_keywords=':'
     if type(gff_file)==str and os.path.isfile(gff_file):
       gff_lines=open(gff_file, 'r').readlines()
       self.id=gff_file
@@ -3550,16 +3611,18 @@ merge_genes(gene_list)       merge a list of genes to remove redundancy. It has 
             if parse_keywords and len(splt)>8:
               commentsplt=splt[8].split()
               for word_index, word in enumerate(commentsplt):
-                if word.count(':')==1:
-                  keyword=word.split(':')[0]
-                  if word.endswith(':'):  value=option_value(commentsplt[word_index+1])
-                  else:                   value=option_value(word.split(':')[1])
+                if word.count( parse_keywords  )==1:
+                  keyword=word.split(parse_keywords)[0]
+                  if word.endswith(parse_keywords):  value=option_value(commentsplt[word_index+1])
+                  else:                   value=option_value(word.split(parse_keywords)[1])
                   self[keyword]=value
                   if not hasattr(self, 'keywords'): self['keywords']=[]
                   self['keywords'].append(keyword)
 
-            if keep_program:                 self['program']=line.split('\t')[1]
-            if keep_tag:                     self['tag']=line.split('\t')[2]
+            if keep_program:                 self['program']=splt[1]
+            if keep_tag:                     self['tag']=splt[2]
+            if not process_line is None:     process_line(splt, self)
+
     except Exception, e:                     raise Exception, "ERROR loading gff: "+str(gff_file)+' '+str(e)
   load=load_gff
   
@@ -4274,6 +4337,7 @@ The argument keep_seq, if True, sets the sequence of the new object as its .seq 
     else:      chrom_file=fastafetch(split_folder, self.chromosome, target)
     if not to_file:      file_out=temp_folder+'gene_fasta_seq'
     else:                file_out=to_file
+
     bbash('>'+file_out)      
 
     if title=='fasta_title':             title=self.fasta_title()
@@ -4488,7 +4552,8 @@ def gene_clusters(gene_list, strand=True):
   for line in bp.stdout:
 #    print line
     splt=line.rstrip().split('\t')
-    id_left = splt[3]; id_right= splt[9]
+    if strand:    id_left = splt[3]; id_right= splt[9]
+    else:         id_left = splt[3]; id_right= splt[7]
     if   id_left != id_right:
       if   (  not id_left in geneid2cluster_index )  and  ( not id_right in geneid2cluster_index ):  #new cluster
         cluster_index2geneids [cluster_index] = [id_left, id_right]
@@ -4527,7 +4592,7 @@ def gene_clusters(gene_list, strand=True):
   return gene2cluster, cluster2genes
 
 
-def remove_overlapping_gene_clusters(gene_list,  scoring=len,  cmp_fn=None, phase=False, strand=True, out_removed_genes=[], remember_overlaps=False, verbose=False, fix_ties=True):
+def remove_overlapping_gene_clusters(gene_list,  scoring=len,  cmp_fn=None, phase=False, strand=True, out_removed_genes=[], remember_overlaps=False, verbose=False, fix_ties=True,  overlap_fn=None  ):
   """ Returns a reduced version of the list in input, removing genes that overlaps.
   When two genes overlap, a score is assigned to each gene to decide which to keep -- similarly to the key argument to sort, you can provide a function as argument of scoring. by default, it's the gene lenght. Alternatively, you can use cmp_fn in a similar fashion to cmp in sort. It must accept two gene arguments, and return -1 if you want to keep the first argument, +1 if you want to keep the last one.  
   Important: when you use cmp_fn, take care of ties! don't let python decide, or your results may not be reproducible. when scoring is chosen, this is avoided with a trick here, which adds very small quantities (max 0.001) to the scores of each gene object which depend on their ids. 
@@ -4541,11 +4606,13 @@ def remove_overlapping_gene_clusters(gene_list,  scoring=len,  cmp_fn=None, phas
     a_list=[]
     remove_overlapping_genes(gene_list, out_removed_genes=a_list)
     # now a_list contains the gene removed.
-  When you use the out_removed_genes argument, you may want to know the correspondance between the genes removed and the ones kept, without recomputing overlaps. If you use remember_overlaps=True, the attribute .overlapping will be added to the removed genes; this is a link to the gene kept (which is present in the output, returned list)   """
+  When you use the out_removed_genes argument, you may want to know the correspondance between the genes removed and the ones kept, without recomputing overlaps. If you use remember_overlaps=True, the attribute .overlapping will be added to the removed genes; this is a link to the gene kept (which is present in the output, returned list)
+   Normally the overlaps between any two genes is checked through two steps; first, the bedintersect tool, which can take into account the strand or not (depending on the argument of strand); second, the gene.overlaps_with function, which can take into account also the phase (frame). You can replace this second check with any given function providing it as argument of overlap_fn; this must take two gene arguments, and return True or False. If overlap_fn is provided, then the phase argument is ignored.
+   """
   outlist=[]
   #overlaps_graph= genes_overlap(gene_list, phase=phase, strand=strand)
   #clusters= overlaps_graph.overlap_clusters(min_size=1)
-  gene2cluster, cluster2genes = gene_clusters( gene_list )
+  gene2cluster, cluster2genes = gene_clusters( gene_list, strand=strand )
 
   for cluster_id  in cluster2genes.keys():
     cluster= cluster2genes[cluster_id]
@@ -4569,7 +4636,8 @@ def remove_overlapping_gene_clusters(gene_list,  scoring=len,  cmp_fn=None, phas
       outlist.append(best_gene)
       for g in cluster: 
         if g!=best_gene:
-          if not best_gene.overlaps_with(g, phase=phase, strand=strand):
+          they_overlap = best_gene.overlaps_with(g, phase=phase, strand=strand) if overlap_fn is None else  overlap_fn(best_gene, g)
+          if not they_overlap: 
             ## gene that we're keeping for next cycle
             genes_not_overlapping_best_gene.append(g)
           else:  
@@ -4589,7 +4657,8 @@ def genes_overlap(gene_list, phase=False, strand=True):
   except NameError:  raise ImportError, "ERROR pygraph modules not installed! can't initialize subclass gene_overlap_graph "
   list_no_empty=[g for g in gene_list if g]
   overlaps_graph.add_nodes(list_no_empty)
-  ordered_gene_list= sorted(   list_no_empty, cmp=order_genes_for_chr_strand_pos )  
+  #ordered_gene_list= sorted(   list_no_empty, cmp=order_genes_for_chr_strand_pos )     ### old: doesn't work if strand==False
+  ordered_gene_list= sorted(   list_no_empty, cmp=order_genes_for_chr_pos )  
   for index1, g1 in enumerate(ordered_gene_list):
     right_boundary_g1=g1.boundaries()[1]
     index2=index1+1
@@ -4932,6 +5001,7 @@ class parse_sam(parser):
 #class parse_gff(parser):
 #  def parse_next(self):
 
+
 class rnazhit(object):
   """ This class read input from RNAz output as channeled by the program rnazWindows.pl run on clustalw format nucleotide alignments """
 
@@ -5207,7 +5277,7 @@ class infernalhit(gene):
 
       new_seq_target = self.alignment.seq_of('t')[:x_range_start]+subseq_from_target+self.alignment.seq_of('t')[x_range_end+1:]
       self.alignment.set_sequence('t',        new_seq_target       )
-      return self.remove_Xs()
+      return self.remove_Xs(gene_seq=gene_seq)
     if "x" in self.alignment.seq_of('q') and not self.cmali is None:
       gaps_query=0
       for pos in range(self.alignment.length()):
@@ -5223,7 +5293,7 @@ class infernalhit(gene):
       rf_subseq= rf_no_insertions[pos_in_rf:pos_in_rf+x_range_end-x_range_start+1]
       new_seq_query=self.alignment.seq_of('q')[:x_range_start]+rf_subseq+self.alignment.seq_of('q')[x_range_end+1:]
       self.alignment.set_sequence('q',        new_seq_query       )
-      return self.remove_Xs()
+      return self.remove_Xs(gene_seq=gene_seq)
 
   def get_pairs(self, unaligned=False):
     """returns the list of pairs in the target, as 0 based positions in the alignment (or in the target sequence if unaligned=True) """
@@ -5328,10 +5398,14 @@ class parse_infernal(parser):
         self.current_cm = hit_lines[1].split()[0]
         query_seq += ' '.join( hit_lines[1].split()[2:-1] )
         target_seq += ' '.join( hit_lines[3].split()[2:-1] )
-        del hit_lines[0:5]
-        if hit_lines and  hit_lines[0].endswith('RF'):
-          hand_rf += ' '.join( hit_lines[0].split()[0:-1] )
-          del hit_lines[0]
+        ##  new, thanks to didac:
+        del hit_lines[0:4]
+        for next_line in hit_lines:
+          if next_line.endswith('RF'):
+            hand_rf += ' '.join( next_line.split()[0:-1] )
+            break
+        del hit_lines[0:]
+        ##
       if hit_lines: del hit_lines[0]
 
     g.query.chromosome = self.current_cm
@@ -6277,3 +6351,41 @@ def load_chromosome_lengths(chromosome_length_file, max_chars=0, exception_raise
 def get_chromosome_lengths():
   global chromosome_lengths
   return chromosome_lengths
+
+def RNAplot(seq, ss, fileout, label='', options=''):
+  """Produce a structure plot with RNAplot into fileout. 
+  Standard postscript file is converted to specified format (from extension) if not .ps  (imagemagik suite required) 
+  Label, if provided, adds a text label below the structure
+"""
+  global temp_folder
+  bbash( 'cd {temp}; echo ">title\n{seq}\n{ss}" | RNAplot {opts} '.format(temp=temp_folder, seq=seq, ss=ss, opts=options) )
+  expected_file=temp_folder+'title_ss.ps'
+  output_extension = fileout.split('.')[-1]
+  if output_extension=='ps' and not label:
+    bbash('mv {ps} {out}'.format(ps=expected_file, out=fileout))
+  else:
+    labelbit='' if not label else '-label "{lab}"'.format(lab=label)
+    bbash( 'montage -geometry +1+1 -density 150 {labelbit} {ps} {out}'.format(ps=expected_file, out=fileout, labelbit=labelbit) )
+
+def RNAfold(seq, constraints=None, img=None, options='', title=None, rnaplot_options=''):
+  """Runs RNAfold to predict the secondary structure of this sequence. 
+  Optionally can produce an image (multiple extensions accepted);
+  It can accept fold constraints; possible characters:   (.)    ;
+ Returns:  [secondary structure, free energy]
+  Secondary structure reported will have the length of the input sequence (without gaps, if any)"""
+  seq=nogap(seq)
+  if constraints: 
+    accepted_chars={'|':0, 'x':0, '<':0, '>':0, '(':0, ')':0, '.':0}
+    if not len(constraints)==len(seq): 
+      raise Exception, 'RNAfold ERROR lenght of sequence and of constraints must be the same!  Seq.length: {s}  Constraints: {c}'.format(s=len(seq), c=len(constraints))
+    if not all([c in accepted_chars  for c in constraints] ): 
+      raise Exception, 'RNAfold ERROR illegal characters in constraints. Provided: {c}'.format(c=constraints)
+
+  add='' if not constraints else '\n'+constraints
+  if constraints: options+=' -C '
+  rnafold_out=bbash( 'echo ">title\n{seq}{add}" | RNAfold --noPS {opts} '.format(temp=temp_folder, seq=seq, add=add, opts=options) )
+  free_energy=    float(rnafold_out.split('(')[-1][:-1] )
+  ss=  rnafold_out.split('\n')[-1].split( ' (')[0]
+  label='{tit}E= {e}'.format(tit=title+'\n' if title else '', e=free_energy)
+  if not img is None: RNAplot(seq, ss, fileout=img, label=label, options=rnaplot_options)
+  return [free_energy, ss]

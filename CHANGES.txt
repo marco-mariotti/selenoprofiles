@@ -1,3 +1,35 @@
+3.3
+=======
+Features:
+- MMlib several functions expanded/improved   (e.g. flexible load_all_genes features load)
+- better compatibility with diverse linux systems (workaround for a genewise memory bug for long target name; "&>" operator is not used
+
+3.2d
+=======
+Features:
+- MMlib several functions expanded/improved (e.g. gene->bed, remove_overlapping_gene_clusters)
+
+Bug fixes:
+- fixed problems in MMlib -> infernalhit -> remove_Xs
+- solved problems with md5sum called differently in Mac OS X
+
+3.2c
+=======
+Features:
+- selenoprofiles_database.py now allows to join different databases and also to run the remove_redundancy procedure without running selenoprofiles.
+- MMlib several functions expanded/improved (e.g. extend_orf added)
+- manual update expanding the guide to parallelization
+
+3.2b
+=======
+Bug fixes:
+- fixed problems with selp searches (many sec columns)
+
+3.2a
+=======
+Bug fixes:
+- coding sequence of joined exonerate hits was redundant. possible error in output
+
 3.2
 =======
 

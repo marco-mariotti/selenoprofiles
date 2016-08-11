@@ -1,4 +1,4 @@
-#!/soft/bin/python -u
+#!/usr/bin/python -u
 from string import *
 import sys
 import commands 
@@ -10,8 +10,6 @@ help_msg="""Simple program to test selenoprofiles. A couple of fasta files inclu
 -b                        path to the Selenoprofiles executable. If not provided, it is determined with a "which" command
 -print_opt                print currently active options
 -h OR --help              print this help and exit
-
-
 """
 
 
@@ -46,7 +44,7 @@ def main(args={}):
     b=bash('which Selenoprofiles')
     if not b[0]:  selenoprofiles_bin = b[1]
     else:     
-      b=bash('which selenoprofiles_2.py')
+      b=bash('which selenoprofiles_3.py')
       if not b[0]:  selenoprofiles_bin = b[1]
       else:         raise notracebackException, "ERROR selenoprofiles was not found! Please provide the executable with option -b "
     if not selenoprofiles_bin or not is_file(selenoprofiles_bin):
@@ -56,13 +54,13 @@ def main(args={}):
   sequence_file='test_sequences.fa'
 
   if not is_file(sequence_file):
-    raise notracebackException, "ERROR cannot run tests: test_sequences.fa was not found!"
+    raise notracebackException, "ERROR cannot run tests: test_sequences.fa was not found! Please run this script in selenoprofiles_3 installation directory"
 
   print "Starting tests..."
 
   ## running first test 
   print '\n## Test 1:   SelR profile (should take ~1 min or less)' 
-  b=  bash ('Selenoprofiles '+  results_folder +' '+sequence_file+' -s "Homo sapiens" -P SelR -B -output_p2g  &> log_test1', 1)
+  b=  bash (selenoprofiles_bin+' '+  results_folder +' '+sequence_file+' -s "Homo sapiens" -P SelR -B -output_p2g  > log_test1 2>&1', 1)
   if b[0]:  raise notracebackException, "Selenoprofiles ERROR: test failed. see error below, or in log_test1\n\n"+b[1]
   
   b=bash('grep ERROR log_test1')
@@ -78,7 +76,7 @@ def main(args={}):
 
   ## running second test 
   print '\n## Test 2:   DI profile (should take ~1 min or less)' 
-  b=  bash ('Selenoprofiles '+  results_folder +' '+sequence_file+' -s "Homo sapiens" -P DI -B -output_p2g &> log_test2', 1)
+  b=  bash (selenoprofiles_bin+' '+  results_folder +' '+sequence_file+' -s "Homo sapiens" -P DI -B -output_p2g > log_test2 2>&1', 1)
   if b[0]:  raise notracebackException, "Selenoprofiles ERROR: test failed. see error below, or in log_test2\n\n"+b[1]
 
   b=bash('grep ERROR log_test2')
@@ -94,7 +92,7 @@ def main(args={}):
 
   ## running third test 
   print '\n## Test 3:   SPS profile (should take ~3 min or less)' 
-  b=  bash ('Selenoprofiles '+  results_folder +' '+sequence_file+' -s "Homo sapiens" -P SPS -B -output_p2g &> log_test3', 1)
+  b=  bash (selenoprofiles_bin+' '+  results_folder +' '+sequence_file+' -s "Homo sapiens" -P SPS -B -output_p2g > log_test3 2>&1', 1)
   gb= bash('grep ERROR log_test3')
   if not gb[0]:     raise notracebackException, "ERROR the tag_score system is not installed: you need the NR protein database in your system. You can safely ignore this if you're not going to use tag_score based filtering, and neither the built-in profiles (it is necessary for selenoprotein search). See complete error below:\n\n"+gb[1]
   elif b[0]:         raise notracebackException, 'unknown ERROR: please inspect log_test3'    
@@ -103,7 +101,7 @@ def main(args={}):
 
   ## running fourth test 
   print '\n## Test 4:   GPx profile (should take ~3 min or less)' 
-  b=  bash ('Selenoprofiles '+  results_folder +' '+sequence_file+' -s "Homo sapiens" -P GPx -B -output_p2g &> log_test4', 1)
+  b=  bash (selenoprofiles_bin+' '+  results_folder +' '+sequence_file+' -s "Homo sapiens" -P GPx -B -output_p2g > log_test4 2>&1', 1)
   gb= bash('grep ERROR log_test4')
   if not gb[0]:     raise notracebackException, "ERROR gene_ontology utilities are not installed. You can safely ignore this if you're not going to use gene_ontology based filtering, and neither the built-in profiles (it is necessary for selenoprotein search). See complete error below:\n\n"+gb[1]
   elif b[0]:         raise notracebackException, 'unknown ERROR: please inspect log_test4'

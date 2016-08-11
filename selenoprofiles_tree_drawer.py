@@ -1,4 +1,4 @@
-#!/soft/bin/python -u
+#!/usr/bin/python -u
 from string import *
 import sys
 from commands import *
@@ -68,10 +68,10 @@ def set_selenoprofiles_tree_drawer_var(varname, value):
 
 command_line_synonyms={}
 
-def_opt= {'temp':'/home/mmariotti/temp', 'common':0, 'no_id':0, 'add':0, 'sp_add':0,
+def_opt= {'temp':'/users/rg/mmariotti/temp', 'common':0, 'no_id':0, 'add':0, 'sp_add':0,
 't':'/users/rg/mmariotti/Genomes/.tree', 'prompt':0,
 'm':0,
-'s':'', 'f':'', 'out':'',
+'s':'','out':'',
 'a':0, 'C':0, 'c':0, 'explicit_labels':'selenocysteine,cysteine,homologue',
 'I':0, 
 'F':0, 'e':0, 'g':0, 'T':0,'f':0,
@@ -258,7 +258,7 @@ class GeneFace(faces.Face):
 
 def is_selenoprofiles_title( title ):
   """ Returns True if it is a selenoprofiles2 title, False if not """
-  if 'chromosome:' in title and 'strand:' in title and  'positions:' in title: return True
+  if 'chromosome:' in title and 'strand:' in title and  'positions:' in title and title.split()[0].count('.') in [4, 2]: return True
   return False
 
 class gene_attribute(object):
@@ -276,8 +276,12 @@ class limited_p2ghit(gene):
   """This class is analog to p2ghit, but lacks some of its data. """
   def load_from_header(self, header):
     gene.load_from_header(self, header)
-    if 'species:' in header:        species_name= unmask_characters(replace_chars(header.split('species:')[1].split()[0], '_', ' '))
+    if 'species:' in header:        
+      tline=header.split('species:')[1]
+      if tline.startswith('"'): species_name= tline[1:].split('"')[0]
+      else:                     species_name= tline.split()[0]
     elif len(self.id.split('.'))>=5:     species_name= unmask_characters(replace_chars(self.id.split('.')[3], '_', ' '))       
+    else: species_name='None'
     self.species= species(  species_name  )
     #self.program= header.split('prediction_program:')[1].split()[0]
     self.label  =         self.id.split('.')[2]
@@ -292,7 +296,12 @@ class limited_p2ghit(gene):
       if feature_name+':' in header:
         tt=header.split(feature_name+':')[1]
         if tt and not tt[0] in ' \n': 
-          self.graphical_features[feature_name]=[float(n) for n in tt.split()[0].split(',')]
+          self.graphical_features[feature_name]=[]
+          for block in tt.split()[0].split(','):
+            if '-' in block:    n, leng = map(int, block.split('-'))
+            else:               n= int(block); leng=1
+            self.graphical_features[feature_name].append(b, leng)
+          #float(n) 
     self.additional_features=[]
     
   def summary(self):    return gene.summary(self, other_fields=['program', 'label', 'profile_name'])
@@ -393,7 +402,10 @@ def main():
     t=PhyloTree()
 
   tree_style = TreeStyle()  
-  if opt['C']:   tree_style.mode='c'
+  if opt['C']:   
+    tree_style.mode='c'
+    #tree_style.scale *= 10
+    tree_style.allow_face_overlap = True
   else:          tree_style.mode='r'
   tree_style.branch_vertical_margin = 12
   tree_style.draw_aligned_faces_as_table = True
@@ -455,14 +467,15 @@ def main():
             node.columns={} #indexed with family name
             node=t&species_name    
         try:
-          node=t&species_name
+          node= [ n     for n in t.search_nodes(name=species_name)  if n.is_leaf() ][0]
           node.is_used=1
 
+          if not node.is_leaf(): raise Exception, "ERROR species: "+species_name+" is not a leaf in the input tree!"
           if not node.columns.has_key(family): node.columns[family]=[]
           node.columns[family].append( x )
 
 
-        except ValueError: 
+        except IndexError: 
 #          print species_name
 #          raise
           if not opt['g']:        raise Exception, "ERROR can't find a node in the tree for species: "+species_name
