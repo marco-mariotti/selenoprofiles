@@ -25,7 +25,7 @@ $ python  install_selenoprofiles.py -full
 This installation requires the NCBI nr protein database, and two gene ontology related files. The installation script will attempt to fetch them through internet. If you have them already on your system, you can link them with the following options:
 -nrdb               path to the "nr" fasta file as downloaded (and uncompressed) from ftp://ftp.ncbi.nih.gov/blast/db/FASTA/nr.gz 
 -formatted_nrdb     path to the formatted files produced by formatdb on the nr file. This option is useful only if these files are in a location different from the one provided with -nrdb. The common prefix should be provided; e.g. if formatted files are called like /path/nr.00.phd /path/nr.00.phi ... /path/nr.04.psq, you have to provide just /path/nr 
--godb               path to the gene_ontology_ext.obo file as downloaded from http://www.geneontology.org/GO.downloads.ontology.shtml
+-godb               path to the gene_ontology_ext.obo file as downloaded from http://www.geneontology.org/ontology/obo_format_1_2/
 -gomap              path to the idmapping_GI_GO.tab file as downloaded from http://genome.crg.es/~mmariotti/idmapping_GI_GO.tab.gz 
 
 ## Updating: 
