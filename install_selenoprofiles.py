@@ -22,11 +22,11 @@ $ python  install_selenoprofiles.py -min
 ## Complete installation:  
 This allows to use more advanced forms of filtering (tag-score and go-score), which are required to search for the selenoprotein and Sec machinery profiles that come with selenoprofiles. Run:
 $ python  install_selenoprofiles.py -full
-This installation requires the NCBI nr protein database, and two gene ontology related files. The installation script will attempt to fetch them through internet. If you have them already on your system, you can link them with the following options:
--nrdb               path to the "nr" fasta file as downloaded (and uncompressed) from ftp://ftp.ncbi.nih.gov/blast/db/FASTA/nr.gz 
--formatted_nrdb     path to the formatted files produced by formatdb on the nr file. This option is useful only if these files are in a location different from the one provided with -nrdb. The common prefix should be provided; e.g. if formatted files are called like /path/nr.00.phd /path/nr.00.phi ... /path/nr.04.psq, you have to provide just /path/nr 
+This installation requires the Uniref50 protein database by Uniprot, and two gene ontology related files. The installation script will attempt to fetch them through internet. If you have them already on your system, you can link them with the following options:
+-db               path to the uniref50 fasta file as downloaded (and uncompressed) from ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/uniref/uniref50/
+-formatted_db     path to the formatted files produced by formatdb on the db file. This option is useful only if these files are in a location different from the one provided with -db. The common prefix should be provided; e.g. if formatted files are called like /path/uniref50.fasta.00.phr /path/uniref50.fasta.00.phr.00.phi etc, you have to provide just /path/uniref50.fasta
 -godb               path to the gene_ontology_ext.obo file as downloaded from http://www.geneontology.org/ontology/obo_format_1_2/
--gomap              path to the idmapping_GI_GO.tab file as downloaded from http://genome.crg.es/~mmariotti/idmapping_GI_GO.tab.gz 
+-gomap              path to the idmapping_uniref_GO.tab file; each line is like: ID1; ID2 -tab- GO:0002; GO:0003  We provide this file always updated to the latest uniref release at  http://genome.crg.es/~mmariotti/idmapping_uniref_GO.tab.gz 
 
 ## Updating: 
 If a prior Selenoprofiles installation is detected ("selenoprofiles_3" or "Selenoprofiles" are searched in your PATH variable), the script will ask whether you want to update it. If you want to avoid updating, add option -dont_update to the command line. To force updating without prompt, use -update. In any case, please use -min or -full depending on your type of installation. 
@@ -43,15 +43,15 @@ class notracebackexception(Exception):
 
 try:  
   from MMlib import *
-  def_opt={ 'temp':'/tmp/', 'no_nr':0, 'no_go':0,  'SS':0, 'bSS':0, 'nrdb':0, 'formatted_nrdb':0,  'dont_update':0, 'godb':0, 'gomap':0, 'min':0, 'n_cpus':1, 'full':0, 'update':0 }
+  def_opt={ 'temp':'/tmp/', 'no_db':0, 'no_go':0,  'SS':0, 'bSS':0, 'db':0, 'formatted_db':0,  'dont_update':0, 'godb':0, 'gomap':0, 'min':0, 'n_cpus':1, 'full':0, 'update':0 }
   opt=command_line(def_opt, help_msg, '' )
 
-  if opt['formatted_nrdb'] and not opt['nrdb']: 
-    print "ERROR option -formatted_nrdb must be used together with option -nrdb"
+  if opt['formatted_db'] and not opt['db']: 
+    print "ERROR option -formatted_db must be used together with option -db"
     sys.exit(8)
 
   if opt['min']:   
-    opt['no_nr']=1; opt['no_go']=1
+    opt['no_db']=1; opt['no_go']=1
     installation_type='min'
   elif opt['full']: 
     installation_type='full'
@@ -149,49 +149,49 @@ try:
   ### fetching files that will be used by selenoprofiles
   libraries_folder=Folder(installation_directory+'libraries')
 
-  #checking/downloading nr
-  if not opt['no_nr']:
-    if not is_file(libraries_folder+'nr.fa'):
-      if not opt['nrdb']:
-        answer= raw_input('You did not specify the path to the nr database on your computer using option -nrdb. This will cause this script to try and download it through internet at the ncbi ftp site. The nr database is large (>3Gb) so this may take a long time. We recommend to avoid this if the nr database is already present on your computer.\nAre you sure to continue and start downloading nr? (Y/N)   ')
+  #checking/downloading uniref
+  if not opt['no_db']:
+    if not is_file(libraries_folder+'uniref50.fasta'):
+      if not opt['db']:
+        answer= raw_input('You did not specify the path to the uniref database on your computer with option -db. This will cause this script to try and download it through internet. The database is large (>3Gb) so this may take a long time. We recommend to avoid this if the database is already present on your computer.\nAre you sure to continue and start downloading uniref50? (Y/N)   ')
         if upper(answer) in ['YES', 'Y']:
-          print 'Fetching nr database from ncbi (~3Gb compressed). This may take a long time ... '
+          print 'Fetching uniref50 database from uniprot (~3Gb compressed). This may take a long time ... '
           b=['','']
           try:
-            b=bash('cd '+wget_folder+'; wget ftp://ftp.ncbi.nih.gov/blast/db/FASTA/nr.gz && mv nr.gz '+libraries_folder);  assert not b[0]
-          except: raise notracebackexception, "ERROR fetching nr database from ftp://ftp.ncbi.nih.gov/blast/db/FASTA/nr.gz : "+b[1]+'\n\nPlease download it manually and provide the nr fasta file to this installation script with -nrdb ; if otherwise you want to skip the installation of the nr database use option -no_nr (or perform a minimal installation with -min)'
-          print 'Uncompressing nr.gz ...'
-          bbash('gunzip '+libraries_folder+'nr.gz')
-          bash ('mv '+libraries_folder+'nr '+libraries_folder+'nr.fa ')
+            b=bash('cd '+wget_folder+'; wget ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/uniref/uniref50/uniref50.fasta.gz  && mv uniref50.fasta.gz '+libraries_folder);  assert not b[0]
+          except: raise notracebackexception, "ERROR fetching uniref50 database from ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/uniref/uniref50/uniref50.fasta.gz : "+b[1]+'\n\nPlease download it manually and provide the fasta file to this installation script with -db ; if otherwise you want to skip the installation of the database, perform a minimal installation with -min'
+          print 'Uncompressing uniref50.fasta.gz ...'
+          bbash('gunzip '+libraries_folder+'uniref50.fasta.gz')
+          bash ('mv '+libraries_folder+'uniref50.fasta '+libraries_folder+'uniref50.fasta ')
         else: raise notracebackexception, "Installation aborted"
       else:
-        print 'Linking '+abspath(opt['nrdb'])+' in '+libraries_folder+' ...'
-        bbash('ln -fs '+abspath(opt['nrdb'])+' '+libraries_folder+'nr.fa')
+        print 'Linking '+abspath(opt['db'])+' in '+libraries_folder+' ...'
+        bbash('ln -fs '+abspath(opt['db'])+' '+libraries_folder+'uniref50.fasta')
         #checking for the formatted files produced by formatdb. If they are present, they are linked so they won't be produced
-        if not opt['formatted_nrdb']: opt['formatted_nrdb']=opt['nrdb']
-        b=bash('ls -1 '+opt['formatted_nrdb']+'.*p[A-z][A-z] '+opt['formatted_nrdb']+'.*pal')
+        if not opt['formatted_db']: opt['formatted_db']=opt['db']
+        b=bash('ls -1 '+opt['formatted_db']+'.*p[A-z][A-z] '+opt['formatted_db']+'.*pal')
         if not b[0]: #found
           for ffile in b[1].split('\n'):
             #ffile name example:   /db/seq/databases/nr_uncompressed/nr.fa.02.psq
-            link_name=  'nr.fa.'+   join( ffile.split('.')[-2:], '.')
-            if ffile.endswith('pal'):               link_name=  'nr.fa.pal'
+            link_name=  'uniref50.fasta.'+   join( ffile.split('.')[-2:], '.')
+            if ffile.endswith('pal'):               link_name=  'uniref50.fasta.pal'
             bbash('ln -fs '+abspath(ffile)+' '+libraries_folder+link_name)
         #checking for the index file produced by fastaindex    ## if not found, it will be produced on the first use.
-        for name_attempt in  [  opt['nrdb']+'.index', join(opt['nrdb'].split('.')[:-1], '.')+'.index']:
+        for name_attempt in  [  opt['db']+'.index', join(opt['db'].split('.')[:-1], '.')+'.index']:
           if is_file(name_attempt):
             print "Index file found: "+name_attempt
-            bbash('ln -fs '+abspath(name_attempt)+' '+libraries_folder+'nr.index')
+            bbash('ln -fs '+abspath(name_attempt)+' '+libraries_folder+'uniref50.index')
             break
     else:
-      print "File found: "+libraries_folder+'nr.fa'
+      print "File found: "+libraries_folder+'uniref50.fasta'
 
     #check/produce formatted file on nr
-    if not is_file(libraries_folder+'nr.index'): #index file is not already present
-      print "Running fastaindex on the nr file in "+libraries_folder+'nr ...'
-      bbash('fastaindex '+libraries_folder+'nr.fa '+libraries_folder+'nr.index')
-    if bash('ls -1 '+libraries_folder+'nr.*p[A-z][A-z]')[0]: #formatted files are not already present
-      print "Running formatdb (with options -p T -o T) on the nr file in "+libraries_folder+'nr ...'
-      bbash('formatdb -i '+libraries_folder+'nr.fa -o T -p T')
+    if not is_file(libraries_folder+'uniref50.index'): #index file is not already present
+      print "Running fastaindex on the uniref50 file in "+libraries_folder+'uniref50.fasta ...'
+      bbash('fastaindex '+libraries_folder+'uniref50.fasta '+libraries_folder+'uniref50.index')
+    if bash('ls -1 '+libraries_folder+'uniref50.fasta.*p[A-z][A-z]')[0]: #formatted files are not already present
+      print "Running formatdb (with options -p T -o T) on the uniref50 file in "+libraries_folder+'uniref50.fasta ...'
+      bbash('formatdb -i '+libraries_folder+'uniref50.fasta -o T -p T')
 
   """ deprecated from version 3.2
   ## ncbi taxonomy database
@@ -215,29 +215,29 @@ try:
 
   # gi -> go codes file
   if not opt['no_go']:
-    if not is_file(libraries_folder+'idmapping_GI_GO.tab'):
+    if not is_file(libraries_folder+'idmapping_uniref_GO.tab'):
       if not opt['gomap']:
-        print "Fetching file with GO annotations for protein gi codes from http://genome.crg.es/~mmariotti/idmapping_GI_GO.tab.gz ..."
+        print "Fetching file with GO annotations for protein codes from http://genome.crg.es/~mmariotti/idmapping_uniref_GO.tab.gz ..."
         b=['', '']
         try:
-          b=bash('cd '+wget_folder+'; wget http://genome.crg.es/~mmariotti/idmapping_GI_GO.tab.gz && mv idmapping_GI_GO.tab.gz '+libraries_folder); assert not b[0]
+          b=bash('cd '+wget_folder+'; wget http://genome.crg.es/~mmariotti/idmapping_uniref_GO.tab.gz && mv idmapping_uniref_GO.tab.gz '+libraries_folder); assert not b[0]
         except: 
-          raise notracebackexception, "ERROR fetching http://genome.crg.es/~mmariotti/idmapping_GI_GO.tab : "+b[1]+'\n\nPlease download it manually and put it in '+libraries_folder+' ; if otherwise you want to skip the installation of the GO tools, run with option -no_go  (or use minimal installation with -min)'
-        bbash('gunzip '+libraries_folder+'idmapping_GI_GO.tab.gz')
-        check_file_presence(libraries_folder+'idmapping_GI_GO.tab', 'idmapping_GI_GO.tab file')
+          raise notracebackexception, "ERROR fetching http://genome.crg.es/~mmariotti/idmapping_uniref_GO.tab : "+b[1]+'\n\nPlease download it manually and put it in '+libraries_folder+' ; if otherwise you want to skip the installation of the GO tools, use minimal installation with -min'
+        bbash('gunzip '+libraries_folder+'idmapping_uniref_GO.tab.gz')
+        check_file_presence(libraries_folder+'idmapping_uniref_GO.tab', 'idmapping_uniref_GO.tab file')
       else:
-        check_file_presence(opt['gomap'], 'GI->GO mapping file provided with -gomap')
+        check_file_presence(opt['gomap'], 'ID->GO mapping file provided with -gomap')
         print "Linking "+abspath(opt['gomap'])+' in '+libraries_folder+' ...'
         bbash('ln -s '+abspath(opt['gomap'])+' '+libraries_folder)
     else:
-      print "File found: "+libraries_folder+'idmapping_GI_GO.tab'
+      print "File found: "+libraries_folder+'idmapping_uniref_GO.tab'
     if not is_file(libraries_folder+'gene_ontology_ext.obo'):
       if not opt['godb']:
         print "Fetching the complete GO database as obo file from: http://www.geneontology.org/ontology/obo_format_1_2/gene_ontology_ext.obo ..."
         b=['', '']
         try: 
           b=bash('cd '+wget_folder+'; wget http://www.geneontology.org/ontology/obo_format_1_2/gene_ontology_ext.obo && mv gene_ontology_ext.obo '+libraries_folder); assert not b[0]
-        except: raise notracebackexception, "ERROR fetching //www.geneontology.org/ontology/obo_format_1_2/gene_ontology_ext.obo : "+b[1]+'\n\nPlease download it manually and put it in '+libraries_folder+' ; if otherwise you want to skip the installation of the GO tools, run with option -no_go  (or use minimal installation with -min)'
+        except: raise notracebackexception, "ERROR fetching //www.geneontology.org/ontology/obo_format_1_2/gene_ontology_ext.obo : "+b[1]+'\n\nPlease download it manually and put it in '+libraries_folder+' ; if otherwise you want to skip the installation of the GO tools, use minimal installation with -min'
       else:
         check_file_presence(opt['godb'], 'GO obo file provided with -godb')      
         print "Linking "+abspath(opt['godb'])+' in '+libraries_folder+' ...'
@@ -246,7 +246,7 @@ try:
       print "File found: "+libraries_folder+'gene_ontology_ext.obo'
 
   selenoprofiles_programs=["MMlib.py","selenoprofiles_3.py", "selenoprofiles_3.config", "test_selenoprofiles.py",  "blaster_parser.g", "selenoprofiles_build_profile.py", 'selenoprofiles_join_alignments.py', 'selenoprofiles_database.py', 'selenoprofiles_tree_drawer.py']
-  words_to_replace={'/users/rg/mmariotti/bin':bin_folder[:-1], '/users/rg/mmariotti/scripts':installation_directory[:-1],  '/users/rg/mmariotti/libraries':libraries_folder[:-1], '/users/rg/mmariotti/temp':temp_directory[:-1], '/users/rg/mmariotti/selenoprofiles/trunk/profiles':installation_directory+'profiles', '/users/rg/mmariotti/Databases/nr.fa':libraries_folder+'nr.fa',  ' -a 7 ':' -a '+str(opt['n_cpus'])+' '}
+  words_to_replace={'/users/rg/mmariotti/bin':bin_folder[:-1], '/users/rg/mmariotti/scripts':installation_directory[:-1],  '/users/rg/mmariotti/libraries':libraries_folder[:-1], '/users/rg/mmariotti/temp':temp_directory[:-1], '/users/rg/mmariotti/selenoprofiles/trunk/profiles':installation_directory+'profiles', '/users/rg/mmariotti/Databases/uniref50.fasta':libraries_folder+'uniref50.fasta',  ' -a 7 ':' -a '+str(opt['n_cpus'])+' '}
 
   ### SECISearch3
   if opt['SS']:

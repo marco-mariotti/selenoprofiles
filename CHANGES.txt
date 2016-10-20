@@ -1,3 +1,7 @@
+3.4
+=======
+- GO and tag scores are now based on Uniref50 instead of NCBI NR
+
 3.3
 =======
 Features:

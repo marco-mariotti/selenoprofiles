@@ -2,7 +2,7 @@
 __author__  = "Marco Mariotti"
 __email__   = "marco.mariotti@crg.eu"
 __licence__ = "GPLv3"
-__version__ = "3.3"
+__version__ = "3.4"
 global temp_folder; global split_folder
 from string import *
 import sys
@@ -155,7 +155,7 @@ If you want to use the same value for many profiles, then you should set attribu
 .tag_db                path to the fasta file used as database for the tag blast procedures, used when tag_score and go_score methods are invoked. Normally the same nr database can be used for all profiles but you may differentiate them to speed up or improve the process
 .tag_blast_options     command line options used when running tag blast (blastp agains tag_db) for this profile
 .go_terms              list of GO terms (as "GO:XXXXXXX" strings) used by the go_score method, for gene ontology/tag blast based filtering (see manual). e.g. ['GO:0004364']
-.gi2go_db              path to the file mapping the GO terms to the proteins in the tag_db. Used for go_score 
+.uniref2go_db          path to the file mapping the GO terms to the proteins in the tag_db. Used for go_score 
 .blast_options/exonerate_options/genewise_options         command line options used when running psitblastn/exonerate/genewise for this profile
 
 ####### Accessory programs #######
@@ -279,10 +279,10 @@ def load(config_filename='/users/rg/mmariotti/scripts/selenoprofiles_3.config', 
     write(' obofile     (GO structure)   : ')
     if is_file(opt['GO_obo_file']):                 write('found', 1)
     else:                                           write('NOT FOUND! you cannot use method go_score() for filtering. This precludes the use of the built-in selenoprotein profiles', 1)
-    write(' gi2go db    (GO annotation)  : ')
-    if  is_file( keywords ['gi2go_db']['DEFAULT'] ):  write('found', 1)
-    else:                                           write('NOT FOUND! You cannot use methods go_score(), unless you defined a different gi2go_db attribute for that profile. This precludes the use of the built-in selenoprotein profiles', 1)
-    write(' nr database (tag/GO blast)   : ')
+    write(' uniref2go db    (GO annotation)  : ')
+    if  is_file( keywords ['uniref2go_db']['DEFAULT'] ):  write('found', 1)
+    else:                                           write('NOT FOUND! You cannot use methods go_score(), unless you defined a different uniref2go_db attribute for that profile. This precludes the use of the built-in selenoprotein profiles', 1)
+    write(' uniref database (tag/GO blast)   : ')
     if  is_file( keywords ['tag_db']['DEFAULT'] ):  write('found', 1)
     else:                                           write('NOT FOUND! You cannot use methods tag_score() and go_score(), unless you defined a different tag_db attribute for that profile. This precludes the use of the built-in selenoprotein profiles', 1)
     write(' Pylab  (interactive graphs)  : ')
@@ -1886,7 +1886,7 @@ class profile_alignment(alignment):
   .max_columns_gaps     -> maximum percent of gaps allowed in a column to be included in the consensus query computed for psitblastn searches
   .max_blast_hits       -> maximum number of blast hits allowed for this profile
   """
-  parameters=['blast_filtering', 'p2g_filtering', 'p2g_refiltering',  'blast_options', 'exonerate_options', 'genewise_options', 'tag_db', 'tag_blast_options', 'neutral_tags', 'gi2go_db', 'clustering_seqid', 'max_column_gaps', 'max_blast_hits', 'tags']
+  parameters=['blast_filtering', 'p2g_filtering', 'p2g_refiltering',  'blast_options', 'exonerate_options', 'genewise_options', 'tag_db', 'tag_blast_options', 'neutral_tags', 'uniref2go_db', 'clustering_seqid', 'max_column_gaps', 'max_blast_hits', 'tags']
   psitblastn_relative_options=['blast_filtering','blast_options','clustering_seqid', 'max_column_gaps', 'max_blast_hits']
 
   def __init__(self, filename='', **build_options):
@@ -2450,12 +2450,12 @@ NOTE that in the first, third and fourth cases, those titles for which at least 
     if not is_file(possible_keyword): raise notracebackException, "tag_db_filename ERROR "+possible_keyword+' not found'
     return possible_keyword
 
-  def gi2go_db_filename(self):
-    """ Returns the gi2go database for this profile. This includes translating a keyword, if the database is specified as keyword and not as a complete path. It also checks if the file exists and raises and exception if it doesn't """
-    possible_keyword=self.gi2go_db
-    if not self.gi2go_db: possible_keyword='DEFAULT'
-    if keywords['gi2go_db'].has_key(possible_keyword): possible_keyword= keywords['gi2go_db'][possible_keyword]
-    if not is_file(possible_keyword): raise notracebackException, "gi2go_db_filename ERROR "+possible_keyword+' not found'
+  def uniref2go_db_filename(self):
+    """ Returns the uniref2go database for this profile. This includes translating a keyword, if the database is specified as keyword and not as a complete path. It also checks if the file exists and raises and exception if it doesn't """
+    possible_keyword=self.uniref2go_db
+    if not self.uniref2go_db: possible_keyword='DEFAULT'
+    if keywords['uniref2go_db'].has_key(possible_keyword): possible_keyword= keywords['uniref2go_db'][possible_keyword]
+    if not is_file(possible_keyword): raise notracebackException, "uniref2go_db_filename ERROR "+possible_keyword+' not found'
     return possible_keyword
   
   def blast_options_dict(self):
@@ -3227,7 +3227,7 @@ class p2ghit(gene):
     return sec_pos
 
   def tag_score(self, silent=False, max_n_titles=0, neutral=False, verbose=False):
-    """ This function computes the tag score specific to this prediction, which is computed by running blastp with the predicted protein sequence against a reference database, typically nr, and parsing the results using profile-defined tags.
+    """ This function computes the tag score specific to this prediction, which is computed by running blastp with the predicted protein sequence against a reference database, typically uniref, and parsing the results using profile-defined tags.
     Blast is run only if necessary (output file not present) using function blast_against_tag_db (see below).
     For each blast hit, the full title of the subject and its evalue are considered.
     Initially the title is run a set of neutral tags. If any of these are matching, this blast hit is not considered for the final score. Then, the set of positive tags (profile defined tags) are tried to match. If any of these match, a positive score is assigned to this blast hit. If not, a negative score is assigned. The absolute value of the score attributed is the negative logarithm of the evalue.
@@ -3253,7 +3253,7 @@ class p2ghit(gene):
     return self.tag_score_data
   
   def go_score(self, silent=False, max_n_titles=0, verbose=False, terms=[]):
-    """ This function computes the GO (gene ontology) score of this prediction, which si computed running blast with the predicted protein sequence against a reference database, typically nr, and parsing the results using a set of user-defined GO terms associated to this family.
+    """ This function computes the GO (gene ontology) score of this prediction, which si computed running blast with the predicted protein sequence against a reference database, typically uniref, and parsing the results using a set of user-defined GO terms associated to this family.
     Blast is run only if necessary (output file not present) using function blast_against_tag_db (see below).
     For each blast hit, the full title of the subject and its evalue are considered; if the protein has no functional GO term, it is treated as neutral, i.e., it is assigned a score of 0.
     If it has some, then the profile-GO are matched with those of this protein (and with the parents of those annotated for this protein). If any is found, the title is assigned a positive a score, while if it hasn't any, a negative score is assigned.
@@ -3262,35 +3262,34 @@ class p2ghit(gene):
     if self.go_score_data is None:
       if not terms: terms= self.profile.go_terms
       if terms:       
-        if not is_file(self.profile.gi2go_db_filename()):  raise notracebackException, 'selenoprofiles-> go_score ERROR gi2go database file not found: '+self.profile.gi2go_db_filename()+'  This file is necessary to call the method go_score. See installation script.'
+        if not is_file(self.profile.uniref2go_db_filename()):  raise notracebackException, 'selenoprofiles-> go_score ERROR uniref2go database file not found: '+self.profile.uniref2go_db_filename()+'  This file is necessary to call the method go_score. See installation script.'
         tag_blast_outfile= self.blast_against_tag_db(silent=silent)
         names_and_evalues= parse_blast_subject_and_evalues(tag_blast_outfile)
         if not names_and_evalues:   total_score=0
         else:
           if max_n_titles==0:      max_n_titles=len(names_and_evalues)
-          #writing gi of the blast titles found in nr in a temporary file
-          gi_list=[]      
-          for name, evalue in names_and_evalues[:max_n_titles]:        gi_list.append(  name.split('|')[1] )
-          gi_list_file=temp_folder+'gi_list'
-          write_to_file( join(gi_list, '\n'), gi_list_file )
-          #searching for the go associated to these gis
-          gi_go_associations_hash={} #key: gi ; value: list of GO code strings e.g, "GO:0055114"
-          gi_go_associations_string= bbash("gawk -v id_file="+gi_list_file+""" -F"\\t" 'BEGIN{ while ((getline idline < id_file)>0){ GI_INPUT[idline]=1 } } { split($1, GI, "; "); split("", gi_match); for (i=1; i<=length(GI); i++){ if (GI[i] in GI_INPUT) { gi_match[GI[i]]=1}   }; o=""; for (g in gi_match) o="; " g; if (o)  print substr(o, 3) "\\t" $2  }' """+self.profile.gi2go_db_filename(), dont_die=1)
-          #print [gi_go_associations_string]
-          if gi_go_associations_string:
-            for line in gi_go_associations_string.split('\n'):
-              for gi_code in line.split('\t')[0].split('; '): #more than one gi can be present in a line
+          #writing ids of the blast titles found in nr in a temporary file
+          id_list=[]      
+          for name, evalue in names_and_evalues[:max_n_titles]:        id_list.append(  name.split()[0]  )
+          id_list_file=temp_folder+'id_list'
+          write_to_file( join(id_list, '\n'), id_list_file )
+          #searching for the go associated to these ids
+          id_go_associations_hash={} #key: id; value: list of GO code strings e.g, "GO:0055114"
+          id_go_associations_string= bbash("gawk -v id_file="+id_list_file+""" -F"\\t" 'BEGIN{ while ((getline idline < id_file)>0){ GI_INPUT[idline]=1 } } { split($1, GI, "; "); split("", gi_match); for (i=1; i<=length(GI); i++){ if (GI[i] in GI_INPUT) { gi_match[GI[i]]=1}   }; o=""; for (g in gi_match) o=o"; " g; if (o)  print substr(o, 3) "\\t" $2  }' """+self.profile.uniref2go_db_filename(), dont_die=1)
+          if id_go_associations_string:
+            for line in id_go_associations_string.split('\n'):
+              for id_code in line.split('\t')[0].split('; '): #more than one id can be present in a line
                 try:
-                  gi_go_associations_hash[gi_code]=line.split('\t')[1].split('; ')
+                  id_go_associations_hash[id_code]=line.split('\t')[1].split('; ')
                 except:
                   printerr('WARNING go_score error parsing line: '+line, 1)
           total_score=0
           for name, evalue in names_and_evalues[:max_n_titles]:        
-            gi_code=name.split('|')[1]
+            id_code=name.split()[0]
             go_list_for_this_title=[]
-            if not gi_go_associations_hash.has_key(gi_code):           score_this_title=0
+            if not id_go_associations_hash.has_key(id_code):           score_this_title=0
             else:
-              go_list_for_this_title=gi_go_associations_hash[gi_code]
+              go_list_for_this_title=id_go_associations_hash[id_code]
               #checking if any of the GO terms for this family is found in the GOs for this blast title
               found_go=False;               any_molecular_function_annotated=False
               for go_for_this_title in go_list_for_this_title:

@@ -5,8 +5,9 @@ from commands import *
 sys.path.insert(0, "/users/rg/mmariotti/libraries/")
 sys.path.append('/users/rg/mmariotti/scripts')
 sys.path.append('/users/rg/mmariotti/selenoprofiles/trunk')
+
 from MMlib import *
-from selenoprofiles_3 import profile_alignment,   get_selenoprofiles_var,   load
+from selenoprofiles_3 import profile_alignment,   get_selenoprofiles_var,   load, parse_blast
 
 
 help_msg="""This program is an utility from selenoprofiles3, that build a selenoprofiles profile from an input fasta alignment. Options are specified on the command line. 
@@ -16,7 +17,7 @@ usage:     selenoprofiles_build_profile.py    family.fa   [-attribute "value"] [
 
 ### Options:
 -o                output file. Extension .fa or .fasta is suggested. The .config file created will take the name from the output file specified. 
--go               prints GO terms found in input sequences and exits. Fasta titles from ncbi/nr starting with gi codes like gi|195013479| are accepted
+-go               prints GO terms found in input sequences. It runs a blast search against Uniref50 
 -GO               set the GO terms in the profile. This is not recommended unless you check them first
 
 -l  ARG           as argument you must provide a .config file previously computed for this profile alignment. This option allows to load all profile configurations and replace only those provided in command line
@@ -77,7 +78,8 @@ def main(args={}):
   if opt['go'] or opt['GO']:
     try:        import annotations.GO.Parsers.oboparser as oboparser 
     except:     raise Exception, "ERROR the gene ontology utilities must be installed to use option -go or -GO! Please see selenoprofiles installation script."
-    gi2go_db=              selenoprofiles_config['gi2go_db.DEFAULT'] 
+    uniref2go_db=          selenoprofiles_config['uniref2go_db.DEFAULT'] 
+    uniref_db=             selenoprofiles_config['tag_db.DEFAULT'] 
     GO_obo_file=           selenoprofiles_config['GO_obo_file']      
   ####  
  
@@ -137,30 +139,42 @@ def main(args={}):
     gene_ontology = parserO.parse()
     gene_ontology.define_annotations_level(silent=1)
   
-    #putting in a file the gis for the profile proteins
-    gi_list_file=temp_folder+'gi_list_file'
+    representative_seqs =  temp_folder+'representative_seqs.fa'    
     a=alignment(input_file)
-    gi_codes_list=[]
-    for title in a.titles():
-      try:          gi_code=title.split('gi|')[1].split('|')[0]
-      except:       printerr('GO utility WARNING skipping title! cannot determine gi code for: >'+title, 1); break
-      gi_codes_list.append(gi_code)
-    write_to_file(join(gi_codes_list, '\n'), gi_list_file )
+    repre_titles = a.titles()
+    random.shuffle(repre_titles)
+    repre_titles=repre_titles[:5]
+    write_to_file(  join( [">"+t+'\n'+nogap(a.seq_of(t)) for t in repre_titles], '\n'),   representative_seqs)
+
+    blast_out =  input_file+'.blast_uniref'
+    temp_blast = temp_folder+'blast_uniref'
+    blast_cmnd = 'blastall -i {i} -o {o} -d {d} -b 50 -v 50 -p blastp -F "m S" -f 999  -e 1e-10 -M BLOSUM80 -G 9 -E 2; mv {o} {f}'.format(i=representative_seqs, o=temp_blast, d=uniref_db, f=blast_out)
+    if not is_file(blast_out): 
+      print 'Running blastp of 5 random sequences in your alignment against Uniref50 ...'
+      bbash(blast_cmnd)
+
+    #putting in a file the id for the profile proteins
+    id_list_file=temp_folder+'id_list_file'
+    id_codes_list=[bh.chromosome.split()[0]  for bh in parse_blast(blast_out)]
+    write_to_file( join(id_codes_list, '\n'),  id_list_file)
 
     #determining gi_GO associations
-    gi_go_associations_hash={}
-    gi_go_associations_string= bbash('grep -w -f ' + gi_list_file +' '+gi2go_db, dont_die=1)
-    if gi_go_associations_string:
-      for line in gi_go_associations_string.split('\n'):
-        for gi_code in line.split('\t')[0].split('; '): #more than one gi can be present in a line
-          gi_go_associations_hash[gi_code]=[]
+    print 'Obtaining GO of the sequences matched by blast ...'
+    id_go_associations_hash={}
+    id_go_associations_string= bbash("gawk -v id_file="+id_list_file+""" -F"\\t" 'BEGIN{ while ((getline idline < id_file)>0){ GI_INPUT[idline]=1 } } { split($1, GI, "; "); split("", gi_match); for (i=1; i<=length(GI); i++){ if (GI[i] in GI_INPUT) { gi_match[GI[i]]=1}   }; o=""; for (g in gi_match) o=o"; " g; if (o)  print substr(o, 3) "\\t" $2  }' """+uniref2go_db, dont_die=1)
+
+    if id_go_associations_string:
+      for line in id_go_associations_string.split('\n'):
+        for id_code in line.split('\t')[0].split('; '): #more than one gi can be present in a line
+          id_go_associations_hash[id_code]=[]
           for go_term in line.split('\t')[1].split('; '):
             #keeping only those for molecular function
-            if 'GO:0003674' in gene_ontology.get_all_parents_ids(go_term):    gi_go_associations_hash[gi_code].append(go_term)
+            #if 'GO:0003674' in gene_ontology.get_all_parents_ids(go_term):      ## done by construction of the id2go file
+              id_go_associations_hash[id_code].append(go_term)
 
     # counting how many times each GO is found
     go_count_hash={}
-    for go_list in gi_go_associations_hash.values():
+    for go_list in id_go_associations_hash.values():
       for go_code in go_list:
         if not go_count_hash.has_key(go_code): go_count_hash[go_code]=0
         go_count_hash[go_code]+=1
@@ -183,7 +197,7 @@ def main(args={}):
       go_to_count_file=temp_folder+'go_to_count_file'
       write_to_file( join([go_code]+child_go_terms_list, '\n'), go_to_count_file) 
 
-      count_this_go_and_children=  int(bbash('grep -c -w -f '+go_to_count_file+' '+gi2go_db, dont_die=1))
+      count_this_go_and_children=  int(bbash('grep -c -w -f '+go_to_count_file+' '+uniref2go_db, dont_die=1))
       print go_term_obj.id.ljust(15)+str(go_count_hash[go_code]).ljust(10)+str(count_this_go_and_children).ljust(14)+go_term_obj.name
 
     # removing those which have a parent considered
