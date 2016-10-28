@@ -9,13 +9,13 @@ from selenoprofiles_3 import p2ghit, blasthit, exoneratehit, genewisehit
 
 try:  
   from PyQt4 import QtCore, QtGui
-  from ete2 import *
+  from ete3 import *
 except: 
-  printerr('ERROR PyQt4 and ete2 must be installed to use this program!', 1)
+  printerr('ERROR PyQt4 and ete3 must be installed to use this program!', 1)
   raise 
 
 
-help_msg="""This program serves to draw the distribution of selenoprofiles results on a species tree. It uses ete2.
+help_msg="""This program serves to draw the distribution of selenoprofiles results on a species tree. It uses ETE3.
 
 usage:
 
