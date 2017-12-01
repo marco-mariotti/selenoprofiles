@@ -17,10 +17,12 @@ AA_LETT_STRICT='ACDEFGHIKLMNPQRSTVWY'
 RNA_LETT='ACGU'
 three_letter_codon_diz={ 'Ala':'A' ,  'Cys':'C' ,  'Asp':'D' ,  'Glu':'E' ,  'Phe':'F' ,  'Gly':'G' ,  'His':'H' ,  'Ile':'I' ,  'Lys':'K' ,  'Leu':'L' ,  'Met':'M' ,  'Asn':'N' ,  'Pro':'P' ,  'Gln':'Q' ,  'Arg':'R' ,  'Ser':'S' ,  'Thr':'T' ,  'Val':'V' ,  'Trp':'W' ,  'Tyr':'Y', '***':'*', 'Unk':'X' , '<->':'-', '---':'-','Asx':'B', 'SeC':'U', 'Zed':'Z', 'SeC(e)':'U' }
 one_to_three_letter_codon_diz={ 'A':'Ala' ,  'C':'Cys' ,  'D':'Asp' ,  'E':'Glu' ,  'F':'Phe' ,  'G':'Gly' ,  'H':'His' ,  'I':'Ile' ,  'K':'Lys' ,  'L':'Leu' ,  'M':'Met' ,  'N':'Asn' ,  'P':'Pro' ,  'Q':'Gln' ,  'R':'Arg' ,  'S':'Ser' ,  'T':'Thr' ,  'V':'Val' ,  'W':'Trp' ,  'Y':'Tyr', '*':'***', 'X':'Unk' , '-':'---' , 'B':'Asx' }
-STOP_CODONS=    ['UAA', 'UAG', 'UGA', 'URA'] 
-STOP_CODONS_DNA=['TAA', 'TAG', 'TGA', 'TRA']
+STOP_CODONS=    ['UAA', 'UAG', 'UGA', 'URA', 'UAR'] 
+STOP_CODONS_DNA=['TAA', 'TAG', 'TGA', 'TRA', 'TAR']
 one_letter_to_three_letter_aa_diz={'A':'alanine', 
 'R':'arginine', 'N':'asparagine','D':'aspartic_acid','C':'cysteine','E':'glutamic_acid','Q':'glutamine','G':'glycine','H':'histidine','I':'isoleucine','L':'leucine','K':'lysine','M':'methionine','F':'phenylalanine','P':'proline','S':'serine','T':'threonine','W':'tryptophan','Y':'tyrosine','V':'valine','U':'selenocysteine'}
+
+
 
 try: from numpy import average, std as std_deviation
 except: 
@@ -35,7 +37,7 @@ def set_split_folder(folder): set_MMlib_var('split_folder', folder)
 def get_temp_folder():        return get_MMlib_var('temp_folder')
 def get_split_folder():       return get_MMlib_var('split_folder')
  
-def set_local_folders(temp='/users/rg/mmariotti/temp'):
+def set_local_folders(temp='/tmp'):
   """ Used in ipython to quickly set the environment for fetching chromosomes and other stuff that required temp files"""
   try: assert is_directory(opt['temp'])
   except:  opt['temp']=temp
@@ -142,8 +144,8 @@ def random_folder(parent_folder='', dont_create_it=0):
   else:
     return 'some_error_creating_random_folder.hopefully_there_is_noooo_file_named_like_this_when_you_try_to_delete_it'
 
-temp_folder=random_folder('/users/rg/mmariotti/temp', 1)
-split_folder=Folder('/users/rg/mmariotti/temp')
+temp_folder=random_folder('/tmp', 1)
+split_folder=Folder('/tmp')
 
 def set_MMlib_var(varname, value):  globals()[varname]=value
 def get_MMlib_var(varname):         return globals()[varname]
@@ -152,27 +154,64 @@ def is_significant(pvalue):         return pvalue<opt['alpha']
 
 printed_rchar=0
 
-trans={};
-trans ['GCA'] = "A";     trans ['GCC'] = "A";     trans ['GCG'] = "A";     trans ['GCT'] = "A";     trans ['TGC'] = "C";     trans ['TGT'] = "C";
-trans ['GAC'] = "D";     trans ['GAT'] = "D";     trans ['GAA'] = "E";     trans ['GAG'] = "E";     trans ['TTC'] = "F";     trans ['TTT'] = "F"; 
-trans ['GGA'] = "G";     trans ['GGC'] = "G";     trans ['GGG'] = "G";     trans ['GGT'] = "G";     trans ['CAC'] = "H";     trans ['CAT'] = "H";  
-trans ['ATA'] = "I";     trans ['ATC'] = "I";     trans ['ATT'] = "I";     trans ['AAA'] = "K";     trans ['AAG'] = "K";     trans ['TTA'] = "L";   
-trans ['TTG'] = "L";     trans ['CTA'] = "L";     trans ['CTC'] = "L";     trans ['CTG'] = "L";     trans ['CTT'] = "L";     trans ['ATG'] = "M";   
-trans ['AAC'] = "N";     trans ['AAT'] = "N";     trans ['CCA'] = "P";     trans ['CCC'] = "P";     trans ['CCG'] = "P";     trans ['CCT'] = "P";  
-trans ['CAA'] = "Q";     trans ['CAG'] = "Q";     trans ['AGA'] = "R";     trans ['AGG'] = "R";     trans ['CGA'] = "R";     trans ['CGC'] = "R";  
-trans ['CGG'] = "R";     trans ['CGT'] = "R";     trans ['AGC'] = "S";     trans ['AGT'] = "S";     trans ['TCA'] = "S";     trans ['TCC'] = "S";  
-trans ['TCG'] = "S";     trans ['TCT'] = "S";     trans ['ACA'] = "T";     trans ['ACC'] = "T";     trans ['ACG'] = "T";     trans ['ACT'] = "T";  
-trans ['GTA'] = "V";     trans ['GTC'] = "V";     trans ['GTG'] = "V";     trans ['GTT'] = "V";     trans ['TGG'] = "W";     trans ['TAC'] = "Y";   
-trans ['TAT'] = "Y";    # trans ['taa'] = "!";     trans ['tag'] = "#";     trans ['tga'] = "@";
-trans ['TAA'] = "*";     trans ['TAG'] = "*";     trans ['TGA'] = "*";
-trans ['---'] = "-";
+# trans={};
+# trans ['GCA'] = "A";     trans ['GCC'] = "A";     trans ['GCG'] = "A";     trans ['GCT'] = "A";     trans ['TGC'] = "C";     trans ['TGT'] = "C";
+# trans ['GAC'] = "D";     trans ['GAT'] = "D";     trans ['GAA'] = "E";     trans ['GAG'] = "E";     trans ['TTC'] = "F";     trans ['TTT'] = "F"; 
+# trans ['GGA'] = "G";     trans ['GGC'] = "G";     trans ['GGG'] = "G";     trans ['GGT'] = "G";     trans ['CAC'] = "H";     trans ['CAT'] = "H";  
+# trans ['ATA'] = "I";     trans ['ATC'] = "I";     trans ['ATT'] = "I";     trans ['AAA'] = "K";     trans ['AAG'] = "K";     trans ['TTA'] = "L";   
+# trans ['TTG'] = "L";     trans ['CTA'] = "L";     trans ['CTC'] = "L";     trans ['CTG'] = "L";     trans ['CTT'] = "L";     trans ['ATG'] = "M";   
+# trans ['AAC'] = "N";     trans ['AAT'] = "N";     trans ['CCA'] = "P";     trans ['CCC'] = "P";     trans ['CCG'] = "P";     trans ['CCT'] = "P";  
+# trans ['CAA'] = "Q";     trans ['CAG'] = "Q";     trans ['AGA'] = "R";     trans ['AGG'] = "R";     trans ['CGA'] = "R";     trans ['CGC'] = "R";  
+# trans ['CGG'] = "R";     trans ['CGT'] = "R";     trans ['AGC'] = "S";     trans ['AGT'] = "S";     trans ['TCA'] = "S";     trans ['TCC'] = "S";  
+# trans ['TCG'] = "S";     trans ['TCT'] = "S";     trans ['ACA'] = "T";     trans ['ACC'] = "T";     trans ['ACG'] = "T";     trans ['ACT'] = "T";  
+# trans ['GTA'] = "V";     trans ['GTC'] = "V";     trans ['GTG'] = "V";     trans ['GTT'] = "V";     trans ['TGG'] = "W";     trans ['TAC'] = "Y";   
+# trans ['TAT'] = "Y";    # trans ['taa'] = "!";     trans ['tag'] = "#";     trans ['tga'] = "@";
+# trans ['TAA'] = "*";     trans ['TAG'] = "*";     trans ['TGA'] = "*";
+# trans ['---'] = "-";
+## std: FFLLSSSSYY**CC*WLLLLPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEEGGGG
+
+# build alternative genetic code translation tables based on NCBI codes
+genetic_codes={}
+genetic_codes_AAs={    1:'FFLLSSSSYY**CC*WLLLLPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEEGGGG',
+                       2:'FFLLSSSSYY**CCWWLLLLPPPPHHQQRRRRIIMMTTTTNNKKSS**VVVVAAAADDEEGGGG',
+                       3:'FFLLSSSSYY**CCWWTTTTPPPPHHQQRRRRIIMMTTTTNNKKSSRRVVVVAAAADDEEGGGG',
+                       4:'FFLLSSSSYY**CCWWLLLLPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEEGGGG',
+                       5:'FFLLSSSSYY**CCWWLLLLPPPPHHQQRRRRIIMMTTTTNNKKSSSSVVVVAAAADDEEGGGG',
+                       6:'FFLLSSSSYYQQCC*WLLLLPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEEGGGG',
+                       9:'FFLLSSSSYY**CCWWLLLLPPPPHHQQRRRRIIIMTTTTNNNKSSSSVVVVAAAADDEEGGGG',
+                      10:'FFLLSSSSYY**CCCWLLLLPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEEGGGG',
+                      11:'FFLLSSSSYY**CC*WLLLLPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEEGGGG',
+                      12:'FFLLSSSSYY**CC*WLLLSPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEEGGGG',
+                      13:'FFLLSSSSYY**CCWWLLLLPPPPHHQQRRRRIIMMTTTTNNKKSSGGVVVVAAAADDEEGGGG',
+                      14:'FFLLSSSSYYY*CCWWLLLLPPPPHHQQRRRRIIIMTTTTNNNKSSSSVVVVAAAADDEEGGGG',
+                      16:'FFLLSSSSYY*LCC*WLLLLPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEEGGGG',
+                      21:'FFLLSSSSYY**CCWWLLLLPPPPHHQQRRRRIIMMTTTTNNNKSSSSVVVVAAAADDEEGGGG',
+                      22:'FFLLSS*SYY*LCC*WLLLLPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEEGGGG',
+                      23:'FF*LSSSSYY**CC*WLLLLPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEEGGGG',
+                      24:'FFLLSSSSYY**CCWWLLLLPPPPHHQQRRRRIIIMTTTTNNKKSSSKVVVVAAAADDEEGGGG',
+                      25:'FFLLSSSSYY**CCGWLLLLPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEEGGGG',
+                      26:'FFLLSSSSYY**CC*WLLLAPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEEGGGG',
+                      27:'FFLLSSSSYYQQCCWWLLLAPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEEGGGG',
+                      28:'FFLLSSSSYYQQCCWWLLLAPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEEGGGG',
+                      29:'FFLLSSSSYYYYCC*WLLLAPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEEGGGG',
+                      30:'FFLLSSSSYYEECC*WLLLAPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEEGGGG',
+                      31:'FFLLSSSSYYEECCWWLLLLPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEEGGGG'}
+for gc_code in genetic_codes_AAs:
+  i=-1
+  genetic_codes[gc_code]={'---':'-'}
+  for a in 'TCAG':
+    for b in 'TCAG':
+      for c in 'TCAG':
+        i+=1
+        genetic_codes[gc_code][ a+b+c ]=genetic_codes_AAs[gc_code][i]
+trans=genetic_codes[1]
 
 retrotrans={}
 for codon in trans:  retrotrans.setdefault( trans[codon], []  ).append(codon)
 for aa in retrotrans: retrotrans[aa].sort()
 
-species_code_file="/users/rg/mmariotti/libraries/species_codes.tab"
-genome_config="/users/rg/mmariotti/libraries/genome.config"
+species_code_file="/home/mmariotti/software/selenoprofiles/libraries/species_codes.tab"
+genome_config="/home/mmariotti/software/selenoprofiles/libraries/genome.config"
 
 def contain_chars(string, to_check=uppercase+lowercase):
         for char in string:
@@ -202,6 +241,7 @@ def option_value(value):
 #    return [option_value(x) for x in value[1:-1].split(', ') ]
   if  is_number(value):                      return int(value)
   elif is_number(value, 'float'):            return float(value)
+  elif value=='None':                        return None
   else:
     if value and value[0]==value[-1] and value[0] in ['"', "'"] and len(value)>=2:   value=value[1:-1]
   return value
@@ -436,7 +476,7 @@ def second_max(alist):
   return current_second_max
       
 blosum62_matrix={}
-def load_blosum(from_file="/users/rg/mmariotti/libraries/BLOSUM62sel"):
+def load_blosum(from_file="/home/mmariotti/software/selenoprofiles/libraries/BLOSUM62sel"):
   try: assert blosum62_matrix
   except:
   #ncbi format
@@ -510,17 +550,37 @@ def find_all(substring, sstring):
     if sstring[pos:pos+l]==substring: out.append(pos)
   return out
 
+default_genetic_code=1
+def set_genetic_code(code):      
+  """ Set the default translation table to this code; Input is numerical, follows NCBI standards (e.g. 1 is standard, 6 is ciliate).
+  This affects later calls of transl(seq)  """
+  return set_MMlib_var('default_genetic_code', code)
 
-def transl(cds_seq, include_selenocysteine='', gaps_to=''):
-  '''translate a nucleotide sequence in aminoacids. if you want to inlu
+def get_genetic_code():          
+  """ Get the default translation table code; numerical, follows NCBI standards"""
+  return get_MMlib_var('default_genetic_code')
+
+def get_genetic_code_table(code=None):    
+  """ Returns a dictionary codon->aminoacid for the given code (numerical, NCBI standard)
+  If code is not provided, the default set in MMlib is used"""
+  if code is None:   code=get_genetic_code()
+  return genetic_codes[code]
+
+def transl(cds_seq, include_selenocysteine=False, gaps_to=None, code=None):
+  '''translate a nucleotide sequence in aminoacids.
+  Use code=X to give a integer identifying the genetic code to be used, as NCBI codes (see https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi)
+  Use include_selenocysteine=1 to use U for TGA or UGA
+  Use gaps_to to force a certain char for gaps codons (---); normally translated as -
   '''
+  if code is None: code=default_genetic_code
   out=''
   i=0
+  codon_table=genetic_codes[code]
   while i < len(cds_seq):
     codon= replace_chars(upper(cds_seq[i:i+3]), 'U', 'T')
     if include_selenocysteine and codon=='TGA':      out+='U' 
-    elif gaps_to and codon=='---':                    out+='-'
-    elif trans.has_key(codon):                       out+=trans[codon]
+    elif gaps_to and codon=='---':                   out+=gaps_to
+    elif codon_table.has_key(codon):                 out+=codon_table[codon]
     else:                                            out+='X'
     i+=3
   return out
@@ -733,13 +793,14 @@ def float_generalized(stringg):
     if stringg[0]=='e':
       return float('1'+stringg)
 def replace_chars(astring, chars_list, replace_to_this=''):
-  out=''
-  for c in astring:
-    if not c in chars_list:
-      out+=c
-    else:
-      out+=replace_to_this
-  return out
+  return ''.join([c if not c in chars_list else  replace_to_this      for c in astring])
+  # out=''
+  # for c in astring:
+  #   if not c in chars_list:
+  #     out+=c
+  #   else:
+  #     out+=replace_to_this
+  # return out
 
 def debug(msg):
 #  if opt.has_key('v') and opt['v']:
@@ -2839,7 +2900,7 @@ If only_titles is specified, it is necessary that the columns to realign have no
       return o      
     
 
-  def build_tree(self,    folder=None,  tree_class=None,  trimal_options=' -phylip -gt 0.1 -cons 33.33 ', phylogeny_options= '-c /users/rg/mmariotti/libraries/salva_pipeline.config.for_selenoprofiles'    ):
+  def build_tree(self,    folder=None,  tree_class=None,  trimal_options=' -phylip -gt 0.1 -cons 33.33 ', phylogeny_options= '-c /home/mmariotti/software/selenoprofiles/libraries/salva_pipeline.config.for_selenoprofiles'    ):
     """ Uses Salva pipeline to build a tree. Note: use only for amino acid sequences.
     A folder dedicated to compute the phylogeny is created  (folder argument -- done in temp folder if not provided).
     it the tree_class argument is not defined (as default), the path to newick tree file computed is returned. Otherwise, one may provide a tree class (such as ete2.Tree), and this will be initialised with the mentioned tree file     """
@@ -2981,7 +3042,7 @@ def getfastaaln(cfile,order=1): #clustalW format
 #        while not finished:
   cont_seq=0
   while line:
-    while line!='\n' and line:
+    while line!='\n' and line.strip() and not line.strip()[0] in '*.:':
       title= join(line.split()[:-1], ' ')
       if  title and  line.split()[0]!='cons':
 #        print [line]
@@ -4411,7 +4472,7 @@ def load_all_genes(gff_file, tag='cds', get_id='', add=None, is_sorted=False, **
     id2lines_list={}
     for line in cfile:        
       line=line.strip()      #;print [line]
-      if not line[0]=="#" and (tag=='*' or lower(line.split('\t')[2]) == lower(tag) ):
+      if line and not line[0]=="#" and (tag=='*' or lower(line.split('\t')[2]) == lower(tag) ):
         the_id=uniqid_function(line)
         if not id2lines_list.has_key(the_id): id2lines_list[the_id]=''
         id2lines_list[the_id]+=line +'\n'
@@ -4966,12 +5027,13 @@ class parser(object):
     raise Exception, "ERROR the generic parser class has no parse_next method: you must define it in the metaclass"
 
 class parse_fasta(parser):
+  remove_chars=set(['\n', '\r', '\t', ' '])
   def parse_next(self):
     title=del_white(self.last_line[1:-1])
     seq=''
     self.last_line=self.file.readline()
     while self.last_line and  self.last_line[0]!='>':
-      seq+=replace_chars(self.last_line, ' \n\r\t', '')
+      seq+=replace_chars(self.last_line, self.remove_chars, '')
       self.last_line=self.file.readline()
     return title, seq    
 
@@ -5939,6 +6001,8 @@ def sankoff(tree, node2seqFn=None, matrix=None):
               break
   return node2ancestral
 
+
+codon2sitecount={}  #{ codon: [sites]  }  #sites as with split_nonsense=True
 def count_sites(cds, silent=False, split_nonsense=False):
   """Counts the number of possible  Syn and nonsyn sites for a input nucletoide coding sequence. 
   As a single site can be partly non-syn and partly syn, the numbers returned are float (always mutiple of one third)
@@ -5947,12 +6011,13 @@ def count_sites(cds, silent=False, split_nonsense=False):
   Returns [nonSyn, Syn,  CpG_nonSyn, CpG_syn]
   if nonsense==True, nonsense (stop) mutations are differentiated from nonsyn mutations. the function instead returns [ nonSyn, Syn, NonSense,  CpG_nonSyn, CpG_syn, CpG_nonsense ] 
   """   
+  global codon2sitecount
   cds=replace(upper(nogap(cds)), 'U', 'T')
   syn=0    ;  nonsyn=0   # these will result to be three times as much the actual values: I dive them as the very last step!
   cpg_syn=0 ; cpg_nonsyn=0
   nonsense=0;   cpg_nonsense=0
   #noncpg_syn=0 ; noncpg_nonsyn=0
-  
+
   if len(cds)%3!=0: raise Exception, "count_sites ERROR the sequence must be composed of codons (length multiple of 3)"
   for i_codon in range(len(cds)/3):
     ## cycling codons
@@ -5961,28 +6026,46 @@ def count_sites(cds, silent=False, split_nonsense=False):
       if not silent:        printerr('count sites WARNING skipping codon n.'+str(i_codon+1)+' : '+codon, 1)
       continue
 
-    for i_within_codon in range(3):
-      ## cycling each position
-      nt= codon[i_within_codon]
-      i_cds=i_codon*3+i_within_codon
-      syn_changes_this_pos=0; nonsense_this_pos=0
-      for alt_nt in 'ACTG':
-        if alt_nt==nt: continue
-        alt_codon=   codon[:i_within_codon]+alt_nt+codon[i_within_codon+1:]
-        if transl(alt_codon)==transl(codon):          
-          syn_changes_this_pos+=1
-        elif "*" in transl(alt_codon) +transl(codon): nonsense_this_pos+=1
+    if codon in codon2sitecount:      n,s,x,cn,cs,cx=codon2sitecount[codon]
+    else:
+      n,s,x,cn,cs,cx=0,0,0,0,0,0
 
-      is_cpg= (   nt == 'G' and (  (  i_cds+1<len(cds)  and   cds[i_cds+1] =='C' )  or (i_cds!=0 and cds[i_cds-1] =='C' )    )     ) or \
-            (   nt == 'C' and (  (  i_cds+1<len(cds)  and   cds[i_cds+1] =='G' )  or (i_cds!=0 and cds[i_cds-1] =='G' )    )     )        # # G and the next or previous is C OR #C and the
-      
-      syn+=  syn_changes_this_pos
-      nonsyn+= (3-syn_changes_this_pos-nonsense_this_pos)
-      nonsense+=nonsense_this_pos
-      if is_cpg:    
-        cpg_syn+=  syn_changes_this_pos
-        cpg_nonsyn+= (3-syn_changes_this_pos-nonsense_this_pos)
-        cpg_nonsense+= nonsense_this_pos
+      for i_within_codon in range(3):
+        ## cycling each position
+        nt= codon[i_within_codon]
+        i_cds=i_codon*3+i_within_codon
+        syn_changes_this_pos=0; nonsense_this_pos=0
+        for alt_nt in 'ACTG':
+          if alt_nt==nt: continue
+          alt_codon=   codon[:i_within_codon]+alt_nt+codon[i_within_codon+1:]
+          if transl(alt_codon)==transl(codon):          
+            syn_changes_this_pos+=1
+          elif "*" in transl(alt_codon) +transl(codon): nonsense_this_pos+=1
+
+        is_cpg= (   nt == 'G' and (  (  i_cds+1<len(cds)  and   cds[i_cds+1] =='C' )  or (i_cds!=0 and cds[i_cds-1] =='C' )    )     ) or \
+              (   nt == 'C' and (  (  i_cds+1<len(cds)  and   cds[i_cds+1] =='G' )  or (i_cds!=0 and cds[i_cds-1] =='G' )    )     )        # # G and the next or previous is C OR #C and the
+
+        s+=syn_changes_this_pos      
+        n+=(3-syn_changes_this_pos-nonsense_this_pos)
+        x+=nonsense_this_pos
+        #syn+=    s
+        #nonsyn+= n 
+        #nonsense+=nonsense_this_pos
+        if is_cpg:    
+          cs+=  syn_changes_this_pos
+          cn+= (3-syn_changes_this_pos-nonsense_this_pos)
+          cx+= nonsense_this_pos
+          # cpg_syn+=  syn_changes_this_pos
+          # cpg_nonsyn+= (3-syn_changes_this_pos-nonsense_this_pos)
+          # cpg_nonsense+= nonsense_this_pos
+      codon2sitecount[codon]=n,s,x,cn,cs,cx
+    syn+=s
+    nonsyn+=n
+    nonsense+=x
+    cpg_syn+=cs
+    cpg_nonsyn+=cn
+    cpg_nonsense+=cx
+
       #else:
       #  noncpg_syn+=  syn_changes_this_pos
       #  noncpg_nonsyn+= (3-syn_changes_this_pos)        
@@ -6389,3 +6472,4 @@ def RNAfold(seq, constraints=None, img=None, options='', title=None, rnaplot_opt
   label='{tit}E= {e}'.format(tit=title+'\n' if title else '', e=free_energy)
   if not img is None: RNAplot(seq, ss, fileout=img, label=label, options=rnaplot_options)
   return [free_energy, ss]
+

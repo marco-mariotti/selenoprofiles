@@ -1,3 +1,12 @@
+3.5
+=======
+Features:
+- non-standard codon tables are now supported with option -genetic_code
+- profile parameters can be now modified on the command line too; e.g. -clustering_seqid.DEFAULT 0.5
+
+Bug fixes:
+- selenoprofiles_join_alignments.py fixed to deal with target names containing dots
+
 3.4
 =======
 - GO and tag scores are now based on Uniref50 instead of NCBI NR

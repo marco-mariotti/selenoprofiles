@@ -8,33 +8,46 @@ from MMlib import *
 #from profiles_classes import *
 
 help_msg="""This program reads working directories of selenoprofiles and join the output profile alignments for the various species/targets found in the directory.
-Usage:
 
-selenoprofiles_join_alignments.py  -d selenoprofiles_results_folder   -o output_folder    -p profiles
+With no options, the program assumes we are in a working directory and tries to find alignments for all builtin families in all subdirectories (i.e. for all targets).
+Options can be specified to decide which alignments to search for. All options require arguments except -D
 
-"profiles" is a list of  comma-separated profile names, e.g. SelK,SelP
- if not provided, the program searches for .ali files
- if provided, you can restrict the list of  species/targets
--t        list of comma separated targets, each one in the form species_name.target_name
--s        list of species name, comma separated
+-d        selenoprofiles result directory
+-o        output directory
+
+##### options to determine input profile alignments
+-i        file with list of .ali files to parse, one per line. If this is active, none of the next six options described should be active
+
+-p        list of comma separated profile names that the program will search for   #e.g. sps,SelK,SelP
+-p_list   file with a list of profile names, one per line. Overrides -p
+
+-t        list of comma separated targets. Each one must be in the form species_name.target_name, exactly as the folder name created by selenoprofiles.
+-t_list   file with list of targets, one per line. Overrides -t
+
+# If any of the 2 previous options is specified, the list of target is determined and these will be the only subfolders where the program looks for alignments. If instead any of the 2 next options are specified, the species list is determined, which means that any target associated to a desired species will be accepted.
+
+-s        list of species name, comma separated. Careful! species names containing commas will not be read correctly: use -species_list instead.
+-s_list   file with list of species, one per line. Overrides -species
+
+-suffix   suffix of alignments searched. By default, this programs searches for alignments named like family.ali; with this option, it will look for files name like family.suffix.ali; The suffix will be used also for the files in output
 
 ##### other options  
--f          do no transfer the alignments: generate an unaligned fasta file with all predictions and the profile sequences
--i          file with list of .ali files to parse. Overrides -d and -p
--ds         do not attempt to shrink alignment at the end by realigning columns with lots of gaps with mafft
--suffix     suffix of alignments searched: instead of family.ali, looks for family.suffix.ali; suffix is used also for output files
--debug      debug mode; print file attempts
--p_list  | -s_list  | -t_list       = like -p | -s | -t, but read the list from a file, one per line
+-D              don't change the names of selenoprofiles predictions. Normally the species name is added to allow discriminating between results on different species.
+-debug          debug mode; print file attempts
+-f              do no transfer the alignments: generate an unaligned fasta file with all predictions and the profile sequences
+-ds             do not attempt to shrink the alignment at the end. Normally, this procedure detects the columns which are misaligned due to the transfering alignment procedures, and attempts to refine these regions using mafft
+-sp_config      path to selenoprofiles config file. This is used only to get the default list of profiles, and is used only if no option is active among -p, -p_list, -target, -target
 -h OR --help    print this help and exit """
 
 command_line_synonyms={'p':'fam', 'p_list':'fam_list', 'P':'fam', 'profile':'fam', 's':'species', 's_list':'species_list', 't':'target', 't_list':'target_list'}
 
-def_opt= {'temp':'/home/mmariotti/temp', 
+def_opt= { #'temp':'/home/mmariotti/temp', 
 'i':0, 'f':0, 'ds':0,
 'o':'',
 'v':0, 'Q':0, 
 'fam':'', 'fam_list':'', 
 'species':'', 'species_list':'', 
+'sp_config': '/users/rg/mmariotti/scripts/selenoprofiles_3.config',
 'target':'', 'target_list':'', 'd':'', 'suffix':'' , 'debug':0,
 }
 
@@ -52,8 +65,35 @@ def main(args={}):
   if not args: opt=command_line(def_opt, help_msg, 'do', synonyms=command_line_synonyms )
   else:  opt=args
   set_MMlib_var('opt', opt)
- 
+  #global temp_folder; temp_folder=Folder(random_folder(opt['temp'])); test_writeable_folder(temp_folder, 'temp_folder'); set_MMlib_var('temp_folder', temp_folder)
+  #global split_folder;    split_folder=Folder(opt['temp']);               test_writeable_folder(split_folder); set_MMlib_var('split_folder', split_folder) 
   #checking input
+  
+  try: 
+    ### reading default list of profiles from selenoprofiles main configuration file
+    sp_config_hash= configuration_file(opt['sp_config'])
+    families_sets={}
+    if sp_config_hash.has_key('families_set'):
+      for k in sp_config_hash['families_set']:
+        families_sets[ k ] = [del_white(word) for word in sp_config_hash['families_set'][k].split(',')]
+    profile_names=sp_config_hash['profile'].split(',')
+    index_profile=0
+    while any ([families_sets.has_key(p) for p in profile_names]):
+      this_profile=profile_names[index_profile]
+      while families_sets.has_key(this_profile):
+        profile_names[index_profile:index_profile+1]= families_sets[this_profile]
+        this_profile=profile_names[index_profile]
+      index_profile+=1
+    # removing redundancy in profiles names
+    profiles_names_length=len(profile_names)
+    for i in range(profiles_names_length-1, -1, -1):
+      profile_name=profile_names[i]
+      if profile_name in profile_names[:i]:
+        profile_names.pop(i)  
+    default_families_list=profile_names
+  except: 
+    printerr('WARNING could not determine default list of profiles from configuration file: '+str(opt['sp_config'])+' ;  this is not a problem if the list of profiles is specified on the command line', 1)
+
   working_directory='./' 
   if opt['d']: 
     check_directory_presence(opt['d'], 'working directory')
@@ -64,16 +104,7 @@ def main(args={}):
     output_folder=Folder(opt['o'])
     test_writeable_folder(output_folder, 'output folder')
     
-  i_handler=None
-  if not opt['i'] and not opt['fam'] and not opt['fam_list']:
-    find_cmnd="""find $(find """+working_directory+""" -mindepth 2  -maxdepth 2 -type d -name "output" )  -name "*.ali" """
-    print 'Profile list not specified; searching all those in: '+working_directory
-    i_handler=bbash(find_cmnd).split('\n')
-    if i_handler==['']: i_handler=[]
-  elif opt['i']:
-    i_handler=open(opt['i'])
-
-  if not i_handler:
+  if not opt['i']:
     #determining families
     families_list=[]
     if opt['fam_list']:
@@ -81,6 +112,8 @@ def main(args={}):
       for f in open(opt['fam_list'], 'r').readlines():
         if f[:-1]:      families_list.append(f[:-1])
     elif opt['fam']:     families_list=opt['fam'].split(',')
+    else:
+      families_list= default_families_list
     
     #determining targets, either by specified targets name or species name, or just trying all subfolders
     target_list=[]; species_list=[]
@@ -121,7 +154,7 @@ def main(args={}):
 
   else:
     fams_list={}
-    for line in i_handler:
+    for line in open(opt['i']):
       afile=line.rstrip()
       if is_file(afile):
         fams_list.setdefault(base_filename(afile).split('.')[0], []).append(afile)
@@ -133,7 +166,6 @@ def main(args={}):
         yield f
 
   ################### file list (attempts) is now defined. loading alignments and transferring them to get a joined ali
-  something_found=False
   for fam in families_list:
     joined_ali=False
     for file_attempt in next_attempt(fam):
@@ -148,7 +180,7 @@ def main(args={}):
             g=gene(); g.load_from_header(title)
 
             if g.species:      
-              new_title=g.id+'.'+replace_chars(mask_characters(g.species), ' ', '_') +'.'+join(base_filename(g.target).split('.')[:-1], '.')
+              new_title=g.id+'.'+replace_chars(mask_characters(g.species), ' ', '_') +'.'+join(base_filename(g.target).split('.')[:-1], '_')
             else: new_title=title
             dont_print_until_double_commas=False
             for i in title.split()[1:]:
@@ -175,9 +207,6 @@ def main(args={}):
       if not opt['f'] and not opt['ds']:   joined_ali.shrink()
       print 'WRITING ---------> '+outfile
       joined_ali.display(outfile)
-      something_found=True
-
-  if not something_found: print '... nothing was found. See -help'
 
 #######################################################################################################################################
 
@@ -198,3 +227,4 @@ if __name__ == "__main__":
   except Exception:
     close_program()
     raise 
+

@@ -54,7 +54,8 @@ To see the default active options, see your main configuration file.
 Additionally, if a least one prediction is output, a fasta alignment called PROFILE.ali is created: this contains the sequences of the profile along with all predictions for this family in this target. 
 
 A few other options:
--no_splice || -N   for use on RNA sequences or bacterial genomes. Genewise is desactivated in this mode
+-no_splice || -N   for use on RNA sequences or bacterial genomes. Genewise is deactivated in this mode
+-genetic_code  +   use a non-standard genetic code; see NCBI codes; implies -tblastn (see -help full)
 -test              prints the slave programs and modules available in this selenoprofiles installation, then quits
 -print_opt         print currently active options
 -h full            display full list of options and of accessory programs
@@ -80,6 +81,7 @@ Options with + require an argument. Options can be specified either in command l
 -dont_genewise          do not run genewise.  Use to reduce the time required for computation
 -genewise_to_be_sure    active by default. When exonerate produce no output or its prediction does not overlap the seed blast hit, genewise is run, seeded using the blast hits coordinates. Turn off this option not to run genewise in these cases, to reduce the time required for computation
 -no_blast               do not allow choosing a blast prediction (over a genewise or exonerate prediction). Use this if an accurate splice site prediction is crucial for you
+-tblastn                use simple tblastn (single query) instead of psitblastn (profile based PSSM)
 -exonerate_extension      +    nt lenght of extension used on both sides by the cyclic exonerate procedure (see paper or manual)
 -genewise_extension       +    nt length of extension used on both sides when running genewise on gene boundaries defined by exonerate 
 -genewise_tbs_extension   +    nt length of extension used on both sides when running genewise blast hits for which exonerate produced no output (only if option -genewise_to_be_sure is active)
@@ -175,7 +177,7 @@ def load(config_filename='/users/rg/mmariotti/scripts/selenoprofiles_3.config', 
   for i in range(len(sys.argv)):
     if sys.argv[i] == "-config":     config_filename=sys.argv[i+1]
   command_line_synonyms={'B':'blast', 'E':'exonerate','G':'genewise','C':'choose', 'F':'filter',  'O':'output', 'P':'profile', 'S':'species', 's':'species', 'p':'profile', 'D':'database', 'no_splicing':'no_splice', 'N':'no_splice'}
-  non_config_options=['t', 'v', 'name', 'blast', 'exonerate', 'genewise', 'filter', 'choose', 'output', 'fam_list', 'print_commands', 'species', 'dont_exonerate', 'dont_genewise', 'debug', 'log', 'state', 'filtered_blast_file', 'output_filter', 'add', 'clean', 'fasta_add', 'outfolder', 'five_prime_length', 'database', 'no_blast', 'stop', 'no_merge', 'no_db', 'merge', 'test', 'no_splice']
+  non_config_options=['t', 'v', 'name', 'blast', 'exonerate', 'genewise', 'filter', 'choose', 'output', 'fam_list', 'print_commands', 'species', 'dont_exonerate', 'dont_genewise', 'debug', 'log', 'state', 'filtered_blast_file', 'output_filter', 'add', 'clean', 'fasta_add', 'outfolder', 'five_prime_length', 'database', 'no_blast', 'stop', 'no_merge', 'no_db', 'merge', 'test', 'no_splice', 'genetic_code', 'tblastn']
   for keyword in allowed_output_formats: non_config_options.extend(['output_'+keyword+'_file', 'output_'+keyword])
   # reading configuration file
   def_opt= configuration_file(config_filename)
@@ -187,11 +189,16 @@ def load(config_filename='/users/rg/mmariotti/scripts/selenoprofiles_3.config', 
     for k in def_opt['families_set']:
       families_sets[ k ] = [del_white(word) for word in def_opt['families_set'][k].split(',')]
   # setting filtering defaults or keywords functions. here, we define dynamically functions in this environment, reading their text representation (python code) from the configuration file
+  
+  for x in [x for x in def_opt   if '.' in x]:    del def_opt[x]  
+  
   keywords={}; keywords_text={}  
   for category in profile_alignment.parameters:
     keywords[category]={}
     if not def_opt.has_key(category): raise notracebackException, "ERROR configuration file lacks default value for "+category+'  (example:  '+category+'.DEFAULT = value ) '
     keywords_text[category]=def_opt[category]
+    #write((category, def_opt[category]), 1, how='green')
+
     for kword in def_opt[category]: # one is surely DEFAULT, then more can be defined. 
       function_text=def_opt[category][kword]
       if 'filtering' in category:       function_text='lambda x:'+function_text
@@ -200,6 +207,8 @@ def load(config_filename='/users/rg/mmariotti/scripts/selenoprofiles_3.config', 
       except:
         printerr("selenoprofiles ERROR can't assign function "+str(function_text)+' to keyword '+str(kword)+' in category '+str(category), 1)
         raise       
+  
+
   #preparing to read command line options     
   for i in non_config_options: 
     if not i in def_opt:  def_opt[i]=0
@@ -209,7 +218,26 @@ def load(config_filename='/users/rg/mmariotti/scripts/selenoprofiles_3.config', 
     for k in def_opt: 
       if args.has_key(k):  opt[k]=args[k]
       else: opt[k]=def_opt[k]
-  else:      opt=command_line(def_opt, help_msg, ['r','t'], synonyms=command_line_synonyms, tolerated_regexp=['ACTION.*'], strict= notracebackException, advanced={'full':full_help} );   #### reading options from command line
+  else:      opt=command_line(def_opt, help_msg, ['r','t'], synonyms=command_line_synonyms, tolerated_regexp=['ACTION.*']+[p+'.*' for p in profile_alignment.parameters], strict= notracebackException, advanced={'full':full_help} );   #### reading options from command line
+  
+  # allowing to specify profile parameters on the command line
+  for x in opt:
+    if '.' in x:
+      category=x[:x.find('.')]
+      kword=   x[x.find('.')+1:]
+      value=opt[x]
+      #write( (category, kword, value), 1, how='red')
+      keywords_text[category][kword]=str(value)
+      #write((category, kword, value), 1, how='magenta')
+      #write(keywords_text[category], 1, how='green')
+      function_text=value
+      if 'filtering' in category:       function_text='lambda x:'+function_text
+      elif 'options' in category or '_db' in category:       function_text='"""'+function_text+'"""'
+      try:        exec('keywords[category][kword]='+str(function_text))
+      except:
+        printerr("selenoprofiles ERROR can't assign function "+str(function_text)+' to keyword '+str(kword)+' in category '+str(category), 1)
+        raise            
+
   set_MMlib_var('opt', opt);
   sleep_time=opt['sleep_time']
   max_attempts_database=opt['max_attempts_database']
@@ -224,6 +252,20 @@ def load(config_filename='/users/rg/mmariotti/scripts/selenoprofiles_3.config', 
   test_writeable_folder(split_folder, 'split_folder'); set_MMlib_var('split_folder', split_folder)
   bin_folder=Folder(opt['bin_folder']);     set_MMlib_var('bin_folder', bin_folder)
   profiles_folder=Folder(opt['profiles_folder']);      check_directory_presence(profiles_folder, 'profiles_folder', notracebackException)
+
+  if opt['genetic_code']:
+    set_genetic_code(opt['genetic_code'])
+    opt['tblastn']=1
+    if not opt['dont_exonerate']:
+      exonerate_version=float(bash('exonerate --version')[1].split('\n')[0].split()[-1][:3])
+      if exonerate_version<2.4: 
+        raise notracebackException, "ERROR exonerate version detected: {}\nAlternative genetic codes are bugged in exonerate versions <2.4!\nPlease download and install exonerate version 2.4.0 if you want to use -genetic_code".format(exonerate_version)
+
+    for  k  in  keywords['blast_options']:        keywords['blast_options'][k]+=    ' -D '+str(opt['genetic_code'])
+    for  k  in  keywords['exonerate_options']:    keywords['exonerate_options'][k]+=' --geneticcode '+str(opt['genetic_code'])
+    for  k  in  keywords['genewise_options']:     keywords['genewise_options'][k]=keywords['genewise_options'][k].format(GENETIC_CODE=opt['genetic_code'])
+  else: 
+    for  k  in  keywords['genewise_options']:     keywords['genewise_options'][k]=keywords['genewise_options'][k].format(GENETIC_CODE=1)
 
   ###############
   ### test routine 
@@ -587,7 +629,7 @@ def load(config_filename='/users/rg/mmariotti/scripts/selenoprofiles_3.config', 
   if not actions:  summary+='| None\n'
   other_options=''
   for k in opt: 
-    if not k in {'__synonyms__':1, 't':1, 'r':1, 'species':1, 'temp':1, 'config':1, 'profile':1} and not k.startswith('ACTION') and (not k.startswith('output_') or k.endswith('_file')) and (k!='state' or opt[k]!='kept') and opt[k]!=def_opt[k]:
+    if not k in {'__synonyms__':1, 't':1, 'r':1, 'species':1, 'temp':1, 'config':1, 'profile':1} and not k.startswith('ACTION') and (not k.startswith('output_') or k.endswith('_file')) and (k!='state' or opt[k]!='kept') and (not k in def_opt or opt[k]!=def_opt[k]):
       other_options+='\n| '+k+': '+str(opt[k])+''
   if other_options: summary+='|\n##########      Routines and other non-default options:'+other_options+'\n'
   summary+='|\n##########      Output options:   '
@@ -690,6 +732,8 @@ def main():
         ## BLAST
         blast_parsers=[]
         write('\n'); write('BLAST:', how=terminal_colors['routine']); write(' psitblastn of profile '+family+' --> '+blast_folder_profile_subfolder+' ', 1)
+        #### change for tblastn
+
         for cluster_index in range( profile_ali.n_clusters() ): #index is 0 based
           
           blast_outfile=       blast_folder_profile_subfolder+family+'.psitblastn.'+str(cluster_index+1)
@@ -711,7 +755,10 @@ def main():
             write(  ('cluster'+str(cluster_index+1)).ljust(15)+(' ('+str(cluster_profile_ali.nseq()-1)+' seq'+ 's'*int(cluster_profile_ali.nseq()>2) +')').ljust(24) )
             if opt['blast'] or not is_file(blast_outfile) or not is_valid_blast_output(blast_outfile):
               write(' R> '+blast_outfile, 1)
-              blast_parsers.append( psitblastn(cluster_profile_ali, target_file, outfile=blast_outfile, blast_options=blast_options) )
+              if not opt['tblastn']:
+                blast_parsers.append( psitblastn(cluster_profile_ali, target_file, outfile=blast_outfile, blast_options=blast_options) )
+              else: 
+                blast_parsers.append( multi_tblastn(cluster_profile_ali, target_file, outfile=blast_outfile, blast_options=blast_options) )
             else:
               write(' L> '+blast_outfile, 1)
               blast_parsers.append( parse_blast(blast_outfile) )
@@ -1325,6 +1372,23 @@ def tblastn(ss_profile, target_file, outfile='', blast_options={}):
   if b[0]: raise notracebackException, "ERROR blastall not found! Please install it"
   blastall_bin= dereference( b[1] )
   bbash(blastall_bin+' -p tblastn  -d '+target_file+' -i '+ss_profile.filename+' -I  '+join(['-'+k+' '+str(blast_options_used[k]) for k in blast_options_used], ' ')+' > '+temp_folder+'tblastn_out')
+  bbash('mv '+temp_folder+'tblastn_out '+outfile)
+  if not is_valid_blast_output(outfile): raise notracebackException, "tblastn ERROR the blast output "+outfile+" doesn't seem complete, although blast exit status was not an error! check the options used"
+  return parse_blast(outfile)
+
+
+def multi_tblastn(ms_profile, target_file, outfile='', blast_options={}):
+  """ This function runs a tblastn with a multiple sequence profile compressed to a single consensus query sequence, on the target and store results on outfile (if indicated) or in a temporary file, and returns a blast_parser to the results.
+      Blast options are read first from blast_options and then from the profile alignment (latter overriding the former).
+  """  
+  blast_options_used=blast_options.copy()
+  profile_blast_options=ms_profile.blast_options_dict()
+  for option_name in profile_blast_options:     blast_options_used[option_name]=profile_blast_options[option_name]
+  if not outfile:                  outfile=fileid_for_temp_folder(ms_profile.filename)+'_BLAST_'+fileid_for_temp_folder(target_file)
+  b=bash('which blastall')
+  if b[0]: raise notracebackException, "ERROR blastall not found! Please install it"
+  blastall_bin= dereference( b[1] )
+  bbash(blastall_bin+' -p tblastn  -d '+target_file+' -i '+ms_profile.blast_query_file()+' -I  '+join(['-'+k+' '+str(blast_options_used[k]) for k in blast_options_used], ' ')+' > '+temp_folder+'tblastn_out')
   bbash('mv '+temp_folder+'tblastn_out '+outfile)
   if not is_valid_blast_output(outfile): raise notracebackException, "tblastn ERROR the blast output "+outfile+" doesn't seem complete, although blast exit status was not an error! check the options used"
   return parse_blast(outfile)
@@ -2108,6 +2172,7 @@ NOTE that in the first, third and fourth cases, those titles for which at least 
       if seqid_value != round(self.clustering_seqid_value(), 3):      
         printerr('WARNING The value of clustering_seqid changed, recomputing the clusters for profile: '+self.name, 1)
         self.clusters()
+        line=fh.readline() 
         while not line.startswith('# Average weighted sequence identity with coverage:'):               line=fh.readline() #setting filehandler in the right place
       else:
         useless_line=fh.readline(); useless_line=fh.readline();
@@ -2473,11 +2538,14 @@ NOTE that in the first, third and fourth cases, those titles for which at least 
     out={}
     while options_string:
       try:
-        option_name    = options_string.split('-')[1].split()[0]
+        ## fixing this code after years. Boy this code looks primitive. Putting a bad looking patch.
+        s=options_string.find('-')+1
+        assert s
+        e=s+options_string[s:].find(' ')
+        option_name    = options_string[s:e] #.split('-')[1].split()[0]
         options_string = options_string.split('-'+option_name)[1]
         if options_string.split('-')[0][-1]==' ':       value = del_white( options_string.split('-')[0]   ) 
-        else:                                           value=options_string.split()[0]  
-        
+        else:                                           value=options_string.split()[0]          
         options_string = join(options_string.split(value)[1:], value).strip()
         out[option_name]=value
       except: raise notracebackException, 'selenoprofiles ERROR parsing '+category+' options: '+str(options_string)
@@ -3989,8 +4057,11 @@ class p2ghit(gene):
         self.reset_derived_data()
         return self.exclude_large_introns(max_intron_length=max_intron_length, silent=silent) #rerunning function to remove other large introns, if present. not finishing the loop though
         
-  def complete_at_three_prime(self, max_extension=10, max_query_unaligned=30, silent=False):
+  def complete_at_three_prime(self, max_extension=10, max_query_unaligned=30, stops=None, silent=False):
     """ function to modify inplace the prediction to try adding some sequence at the 3' to the coding sequence prediction, if the number of aminoacids that would be added is <= max_extension, and if there's no strange character (anything different from ACGT); also, there must be at the most max_query_left aminoacids unaligned on the right side of the query   """
+    if stops is None: 
+      codon_table=get_genetic_code_table()      
+      stops=set([codon  for codon in codon_table if codon_table[codon]=='*'  ])
     q_bounds=self.query.boundaries(); q_length=len(nogap(self.profile.seq_of(self.query_full_name())));    
     if q_length - q_bounds[1] >max_query_unaligned: return 
     tp= self.three_prime(length=max_extension*3+3)
@@ -4001,7 +4072,7 @@ class p2ghit(gene):
     for codon_index in range(0, len(three_prime_seq)/3):
       codon= upper(three_prime_seq [codon_index*3:codon_index*3+3])
       if not all([ lett in 'ACGT'  for lett in codon] ):     return 
-      if codon in ['TGA', 'TAA', 'TAG']:
+      if codon in stops:
         ### ALRIGHT!
         if codon_index!=0:  
           aa_extension=    transl(three_prime_seq[:codon_index*3])
@@ -4013,9 +4084,13 @@ class p2ghit(gene):
           self.reset_derived_data() 
         return
 
-  def complete_at_five_prime(self, max_extension=15, max_query_unaligned=30, full=False, silent=False):
+  def complete_at_five_prime(self, max_extension=15, max_query_unaligned=30, full=False, stops=None, starts=None,  silent=False):
     """function to modify inplace the prediction to try adding some coding sequence at the 5', until the first methionine. This is done only if the extension is <= max_extension, and if there's no strange character (anything different from ACGT), and no stop codon is found before Met, and if there's at the most max_query_left aminoacid unaligned on the left side of the query. 
     If full==True, the function choose the leftmost possible ATG instead of the first one  """
+    if stops is None: 
+      codon_table=get_genetic_code_table()      
+      stops=set([codon  for codon in codon_table if codon_table[codon]=='*'  ])
+    if starts is None: starts=set(['ATG'])
     q_bounds=self.query.boundaries() #q_length=len(nogap(self.profile.seq_of(self.query_full_name())));    
     if self.protein()[0]=='M' and not full: return 
     if q_bounds[0] > max_query_unaligned: return 
@@ -4027,8 +4102,8 @@ class p2ghit(gene):
     for codon_index in range(0, len(five_prime_seq)/3)[::-1]:   ## reading backwards    12, 11, 10, .., 0
       codon= upper(five_prime_seq [codon_index*3:codon_index*3+3])
       if not all([ lett in 'ACGT'  for lett in codon] ):     break
-      if codon in ['TGA', 'TAA', 'TAG']:                     break
-      if codon == 'ATG':
+      if codon in stops:                     break
+      if codon in starts:
         atg_found=True ; best_codon_index=codon_index
         if not full: break 
     if atg_found:     
@@ -4037,7 +4112,7 @@ class p2ghit(gene):
       self.alignment.set_sequence( 'q',  '-'*len(aa_extension)+self.alignment.seq_of('q') )
       if    self.strand=='+':            self.exons[0]=  [  self.exons[0][0]- len(aa_extension)*3,  self.exons[0][1]                      ]
       elif  self.strand=='-':            self.exons[0]=  [  self.exons[0][0],                       self.exons[0][1]+ len(aa_extension)*3 ]
-      if not silent:   write((self.profile.name+'.'+self.id+' ['+self.prediction_program()+'] ').ljust(22) +' completed prediction at 5\' until the next upstream ATG, '+str(len(aa_extension))+' codons added', 1)
+      if not silent:   write((self.profile.name+'.'+self.id+' ['+self.prediction_program()+'] ').ljust(22) +' completed prediction at 5\' until the next upstream start, '+str(len(aa_extension))+' codons added', 1)
       self.reset_derived_data()       
       return 
 
@@ -4568,6 +4643,7 @@ class parse_exonerate(parser):
         else:        raise Exception, 'ERROR no gff ouput in the exonerated file; please run exonerate with --showtargetgff option'
         while line and line !='-- completed exonerate analysis\n' and line !='C4 Alignment:\n':          line=cfile.readline()  
         #replacing Sec-TGAs with U.. replacing also all * in query with U
+        
         for pos in range(len(ali_query_seq)):
           if ali_query_seq[pos]=='*':
             ali_query_seq=ali_query_seq[:pos]+'U'+ali_query_seq[pos+1:]
@@ -5353,4 +5429,5 @@ if __name__ == "__main__":
     close_program()  
   except:
     close_program()
+
 
