@@ -2,7 +2,7 @@
 __author__  = "Marco Mariotti"
 __email__   = "marco.mariotti@crg.eu"
 __licence__ = "GPLv3"
-__version__ = "3.5"
+__version__ = "3.5a"
 global temp_folder; global split_folder
 from string import *
 import sys
@@ -4821,7 +4821,12 @@ class parse_genewise(parser):
     line=cfile.readline();     line=cfile.readline()
     ### now on the sum line like: Bits   Query         start end Target      start end   idels introns   ##NOT THE HEADINGS, THE ACTUAL LINE
     found=False  
-    if line:
+    if line =='//\n':
+      d=genewisehit()
+      d.error_message='empty genewise'
+      self.last_line=None ## to stop iteration
+      return d      
+    elif line:
       splitted=line.split()
       score=splitted[0]
       query=splitted[1]
