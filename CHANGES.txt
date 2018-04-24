@@ -1,3 +1,8 @@
+3.5b
+=======
+Features:
+- Improved profile alignments (and filtering procedures) for SecS, pstk, SBP2, SelH, SelU
+
 3.5a
 =======
 Bug fixes:
