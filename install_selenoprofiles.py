@@ -3,6 +3,7 @@ __author__  = "Marco Mariotti"
 __email__   = "marco.mariotti@crg.eu"
 __licence__ = "GPLv3"
 
+gi2go_file="http://public-docs.crg.es/rguigo/Data/epalumbo/idmapping_uniref_GO.tab.gz"
 help_msg="""This is the Selenoprofiles3 installation script. Please move the Selenoprofiles installation folder to its final destination, then cd into it and run this script with the option specified below. Before installing, take care to have installed and available in bash the following executables:
 . python (2.6 <= Version < 3.0), gawk
 . blastall, blastpgp, formatdb    (NCBI blastall package)
@@ -26,7 +27,7 @@ This installation requires the Uniref50 protein database by Uniprot, and two gen
 -db               path to the uniref50 fasta file as downloaded (and uncompressed) from ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/uniref/uniref50/
 -formatted_db     path to the formatted files produced by formatdb on the db file. This option is useful only if these files are in a location different from the one provided with -db. The common prefix should be provided; e.g. if formatted files are called like /path/uniref50.fasta.00.phr /path/uniref50.fasta.00.phr.00.phi etc, you have to provide just /path/uniref50.fasta
 -godb               path to the gene_ontology_ext.obo file as downloaded from http://www.geneontology.org/ontology/obo_format_1_2/
--gomap              path to the idmapping_uniref_GO.tab file; each line is like: ID1; ID2 -tab- GO:0002; GO:0003  We provide this file always updated to the latest uniref release at  http://genome.crg.es/~mmariotti/idmapping_uniref_GO.tab.gz 
+-gomap              path to the idmapping_uniref_GO.tab file; each line is like: ID1; ID2 -tab- GO:0002; GO:0003  We provide this file always updated to the latest uniref release at  {gi2go}
 
 ## Updating: 
 If a prior Selenoprofiles installation is detected ("selenoprofiles_3" or "Selenoprofiles" are searched in your PATH variable), the script will ask whether you want to update it. If you want to avoid updating, add option -dont_update to the command line. To force updating without prompt, use -update. In any case, please use -min or -full depending on your type of installation. 
@@ -36,7 +37,7 @@ If a prior Selenoprofiles installation is detected ("selenoprofiles_3" or "Selen
 -SS                 use this option if SECISearch3 is installed in your system, and it will be activated in Selenoprofiles. SECISearch3 is not distributed yet, but is available on request. However, for simplicity we recommend to run Selenoprofiles without installing SECISearch3, and then search the three prime sequences of candidates using the webserver at http://seblastian.crg.es/
 -bSS                same for bSECISearch (bSeblastian), a tool under development for bacterial selenoproteins 
 
-If you encounter any problem during installation, contact marco.mariotti at crg.es"""
+If you encounter any problem during installation, contact marco.mariotti at crg.es""".format(gi2go=gi2go_file)
 
 class notracebackexception(Exception):
   """ to raise exceptions without printing the usual verbose -tree like report (see end of script)"""
@@ -217,12 +218,12 @@ try:
   if not opt['no_go']:
     if not is_file(libraries_folder+'idmapping_uniref_GO.tab'):
       if not opt['gomap']:
-        print "Fetching file with GO annotations for protein codes from http://genome.crg.es/~mmariotti/idmapping_uniref_GO.tab.gz ..."
+        print "Fetching file with GO annotations for protein codes from {} ...".format(gi2go_file)
         b=['', '']
         try:
-          b=bash('cd '+wget_folder+'; wget http://genome.crg.es/~mmariotti/idmapping_uniref_GO.tab.gz && mv idmapping_uniref_GO.tab.gz '+libraries_folder); assert not b[0]
+          b=bash('cd '+wget_folder+'; wget {} && mv idmapping_uniref_GO.tab.gz  {}'.format(gi2go_file, libraries_folder)); assert not b[0]
         except: 
-          raise notracebackexception, "ERROR fetching http://genome.crg.es/~mmariotti/idmapping_uniref_GO.tab : "+b[1]+'\n\nPlease download it manually and put it in '+libraries_folder+' ; if otherwise you want to skip the installation of the GO tools, use minimal installation with -min'
+          raise notracebackexception, "ERROR fetching {gi2go} : {out}\n\nPlease download it manually and put it in {lib} ; if otherwise you want to skip the installation of the GO tools, use minimal installation with -min".format(lib=libraries_folder, gi2go=gi2go_file, out=b[1])
         bbash('gunzip '+libraries_folder+'idmapping_uniref_GO.tab.gz')
         check_file_presence(libraries_folder+'idmapping_uniref_GO.tab', 'idmapping_uniref_GO.tab file')
       else:
