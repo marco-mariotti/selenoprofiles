@@ -9,8 +9,8 @@ import sys
 import traceback
 from types import MethodType
 from commands import *
-sys.path.insert(0, "/home/mmariotti/TERA1/software/selenoprofiles/libraries/") #sys.path.insert(0, "/users/rg/mmariotti/libraries/")
-sys.path.insert(0, '/home/mmariotti/TERA1/software/selenoprofiles') #sys.path.append('/users/rg/mmariotti/scripts')
+sys.path.insert(0, "/users/rg/mmariotti/libraries/")
+sys.path.append('/users/rg/mmariotti/scripts')
 from MMlib import *
 try:        import annotations.GO.Parsers.oboparser as oboparser
 except:     sys.exc_clear()
@@ -171,8 +171,7 @@ selenoprofiles_tree_drawer.py         for graphical output of the predicted gene
 terminal_colors={'routine':'blue', 'database':'magenta', 'profile':'green'}
 set_MMlib_var('colored_keywords', {'ERROR':'red,underscore', 'WARNING':'red'})
 
-#def load(config_filename='/users/rg/mmariotti/scripts/selenoprofiles_3.config', args={}):
-def load(config_filename='/home/mmariotti/TERA1/software/selenoprofiles/selenoprofiles_3.config', args={}):
+def load(config_filename='/users/rg/mmariotti/scripts/selenoprofiles_3.config', args={}):
   """Load all global variables later used, reading configuration file and command line options. """  
   ### initialising command line options and initialising file / objects lists . opt is a dictionary the all the command_line options. (0: False 1:True in case of boolean values). The -config FILE option allows to specify a different configuration file.  Every option in the configuration file is read, then eventually replaced by the correspondant command line option.
   for i in range(len(sys.argv)):
