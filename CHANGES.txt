@@ -1,3 +1,12 @@
+3.6
+=======
+Features:
+- Updated program to improve prediction of proteins with multiple Sec residues
+- Updated profile for SelenoP (SelP)
+
+Bug fixes:
+- Installation had problems because some external resources dropped services. Now installation was made dependent on gladyshevlab.org
+
 3.5b
 =======
 Features:

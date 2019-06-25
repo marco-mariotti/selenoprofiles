@@ -3,7 +3,8 @@ __author__  = "Marco Mariotti"
 __email__   = "marco.mariotti@crg.eu"
 __licence__ = "GPLv3"
 
-gi2go_file="http://public-docs.crg.es/rguigo/Data/epalumbo/idmapping_uniref_GO.tab.gz"
+gi2go_file="http://gladyshevlab.org/idmapping_uniref_GO.tab.gz"
+obofile="http://gladyshevlab.org/gene_ontology_ext.obo" #"http://www.geneontology.org/ontology/obo_format_1_2/gene_ontology_ext.obo"
 help_msg="""This is the Selenoprofiles3 installation script. Please move the Selenoprofiles installation folder to its final destination, then cd into it and run this script with the option specified below. Before installing, take care to have installed and available in bash the following executables:
 . python (2.6 <= Version < 3.0), gawk
 . blastall, blastpgp, formatdb    (NCBI blastall package)
@@ -11,7 +12,7 @@ help_msg="""This is the Selenoprofiles3 installation script. Please move the Sel
 . genewise   (wise2 package)
 . mafft
 
-For help on installing these programs, check page: http://big.crg.cat/news/20110616/installing_programs_and_modules_needed_by_selenoprofiles
+For help on installing these programs, check page: https://genome.crg.cat/news/20110616/installing_programs_and_modules_needed_by_selenoprofiles/
 The installation script will check that the slave programs used by selenoprofiles are installed. The command "which" will be used determine which executables to use, and they will be linked inside a bin/ folder in the installation folder. If you want to use executables which are not those returned by a "which" command, the best option is to change the PATH bash variable temporarly so "which" will point to the desired executable, and run the installation. Afterwards, you may return to your original PATH settings.
 This installation script will set up most variables in the selenoprofiles configuration file. One important option is the temporary folder used:
 -temp               temporary folder later used by selenoprofiles (default: /tmp)
@@ -234,11 +235,11 @@ try:
       print "File found: "+libraries_folder+'idmapping_uniref_GO.tab'
     if not is_file(libraries_folder+'gene_ontology_ext.obo'):
       if not opt['godb']:
-        print "Fetching the complete GO database as obo file from: http://www.geneontology.org/ontology/obo_format_1_2/gene_ontology_ext.obo ..."
+        print "Fetching the complete GO database as obo file from: {}  ...".format(obofile)
         b=['', '']
         try: 
-          b=bash('cd '+wget_folder+'; wget http://www.geneontology.org/ontology/obo_format_1_2/gene_ontology_ext.obo && mv gene_ontology_ext.obo '+libraries_folder); assert not b[0]
-        except: raise notracebackexception, "ERROR fetching //www.geneontology.org/ontology/obo_format_1_2/gene_ontology_ext.obo : "+b[1]+'\n\nPlease download it manually and put it in '+libraries_folder+' ; if otherwise you want to skip the installation of the GO tools, use minimal installation with -min'
+          b=bash('cd '+wget_folder+'; wget {obofile} && mv gene_ontology_ext.obo {lib}'.format(obofile=obofile, lib=libraries_folder)); assert not b[0]
+        except: raise notracebackexception, "ERROR fetching {} : {} \n\nPlease download it manually and put it in {}\nIf otherwise you want to skip the installation of the GO tools, use minimal installation with -min".format(obofile, b[1], libraries_folder)
       else:
         check_file_presence(opt['godb'], 'GO obo file provided with -godb')      
         print "Linking "+abspath(opt['godb'])+' in '+libraries_folder+' ...'
@@ -315,7 +316,7 @@ try:
     bbash('ln -fs '+os.path.abspath(installation_directory)+'/selenoprofiles_3.py  '+os.path.abspath(installation_directory)+'/Selenoprofiles' )
     print '-- Update complete in folder '+installation_directory+' . You can delete this folder ('+bbash('pwd')+') . You can now run '+os.path.abspath(installation_directory)+'/Selenoprofiles' 
     
-  print "\nYou may want to run test_selenoprofiles.py now. This programs needs the executable Selenoprofiles to be available in your path.\nIf the test fails, please check http://big.crg.cat/news/20110616/installing_programs_and_modules_needed_by_selenoprofiles or contact us"
+  print "\nYou may want to run test_selenoprofiles.py now. This programs needs the executable Selenoprofiles to be available in your path.\nIf the test fails, please check https://genome.crg.cat/news/20110616/installing_programs_and_modules_needed_by_selenoprofiles/ or contact us"
   bash('rm -r '+wget_folder)  
 
 except notracebackexception:

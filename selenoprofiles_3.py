@@ -2,15 +2,15 @@
 __author__  = "Marco Mariotti"
 __email__   = "marco.mariotti@crg.eu"
 __licence__ = "GPLv3"
-__version__ = "3.5b"
+__version__ = "3.6"
 global temp_folder; global split_folder
 from string import *
 import sys
 import traceback
 from types import MethodType
 from commands import *
-sys.path.insert(0, "/users/rg/mmariotti/libraries/")
-sys.path.append('/users/rg/mmariotti/scripts')
+sys.path.insert(0, "/home/mmariotti/TERA1/software/selenoprofiles/libraries/") #sys.path.insert(0, "/users/rg/mmariotti/libraries/")
+sys.path.insert(0, '/home/mmariotti/TERA1/software/selenoprofiles') #sys.path.append('/users/rg/mmariotti/scripts')
 from MMlib import *
 try:        import annotations.GO.Parsers.oboparser as oboparser
 except:     sys.exc_clear()
@@ -171,7 +171,8 @@ selenoprofiles_tree_drawer.py         for graphical output of the predicted gene
 terminal_colors={'routine':'blue', 'database':'magenta', 'profile':'green'}
 set_MMlib_var('colored_keywords', {'ERROR':'red,underscore', 'WARNING':'red'})
 
-def load(config_filename='/users/rg/mmariotti/scripts/selenoprofiles_3.config', args={}):
+#def load(config_filename='/users/rg/mmariotti/scripts/selenoprofiles_3.config', args={}):
+def load(config_filename='/home/mmariotti/TERA1/software/selenoprofiles/selenoprofiles_3.config', args={}):
   """Load all global variables later used, reading configuration file and command line options. """  
   ### initialising command line options and initialising file / objects lists . opt is a dictionary the all the command_line options. (0: False 1:True in case of boolean values). The -config FILE option allows to specify a different configuration file.  Every option in the configuration file is read, then eventually replaced by the correspondant command line option.
   for i in range(len(sys.argv)):
@@ -197,7 +198,6 @@ def load(config_filename='/users/rg/mmariotti/scripts/selenoprofiles_3.config', 
     keywords[category]={}
     if not def_opt.has_key(category): raise notracebackException, "ERROR configuration file lacks default value for "+category+'  (example:  '+category+'.DEFAULT = value ) '
     keywords_text[category]=def_opt[category]
-    #write((category, def_opt[category]), 1, how='green')
 
     for kword in def_opt[category]: # one is surely DEFAULT, then more can be defined. 
       function_text=def_opt[category][kword]
@@ -226,10 +226,7 @@ def load(config_filename='/users/rg/mmariotti/scripts/selenoprofiles_3.config', 
       category=x[:x.find('.')]
       kword=   x[x.find('.')+1:]
       value=opt[x]
-      #write( (category, kword, value), 1, how='red')
       keywords_text[category][kword]=str(value)
-      #write((category, kword, value), 1, how='magenta')
-      #write(keywords_text[category], 1, how='green')
       function_text=value
       if 'filtering' in category:       function_text='lambda x:'+function_text
       elif 'options' in category or '_db' in category:       function_text='"""'+function_text+'"""'
@@ -2204,6 +2201,7 @@ NOTE that in the first, third and fourth cases, those titles for which at least 
             self.clusters_data.append(profile_alignment())
             title=''; seq=''          
         for ali in self.clusters_data:
+          ali.parent_profile=self
           for parameter in profile_alignment.psitblastn_relative_options:          exec('ali.'+parameter+'=self.'+parameter)
           ali.name=self.name+'.'+str(cluster_index+1)
 
@@ -2288,22 +2286,28 @@ NOTE that in the first, third and fourth cases, those titles for which at least 
     if to_file:      write_to_file(out[:-1], to_file) 
     else:            return out
 
+
+  def is_cluster_subalignment(self):    return not bool(self.filename)
+  
   def clusters(self):
     """ Returns the list of alignments after clustering, already processed adding the blast query """
-    if not self.clusters_data:
+    if not self.clusters_data:      
       self.clusters_data=self.clustering(self.clustering_seqid_value(), reclustering=True, dont_remove_empty_columns=True, outclass=profile_alignment)
 
+      threshold=self.max_column_gaps_for_blast_query_value()
+      conservation_map_data=self.conservation_map() 
+      
       self.blast_queries_data=alignment()
       for cluster_index, ali in enumerate(self.clusters_data):
-        ##debug        
-        #ali.display(temp_folder+'cluster'+str(cluster_index+1)+'.fa')
-        #raw_input(temp_folder+'cluster'+str(cluster_index+1)+'.fa')
+        ali.parent_profile=self
 
         q_title = 'BLAST_QUERY_'+str(cluster_index+1)
         q_seq   = ali.blast_query_seq(sec_char='U') #like .consensus_sequence( self.max_column_gaps_for_blast_query_value() ) 
         #nonetheless  since we'd miss the ones that are not Us in this subcluster but that are U in the main cluster we do also:
-        for sec_pos in self.sec_pos():          
-          if not self.is_gap_column(sec_pos):          q_seq= q_seq[:sec_pos] + 'U' + q_seq[sec_pos+1:]
+        for sec_pos in self.sec_pos():
+          if conservation_map_data[sec_pos].setdefault('-', 0.0) <= threshold:
+          #if not self.is_gap_column(sec_pos):
+            q_seq= q_seq[:sec_pos] + 'U' + q_seq[sec_pos+1:]
         q_seq= self.fix_multiple_secs(q_seq)
 
         ali.add(q_title, q_seq)
@@ -2312,7 +2316,7 @@ NOTE that in the first, third and fourth cases, those titles for which at least 
         ali.remove_useless_gaps()
         self.blast_queries_data.add(q_title, q_seq)
       self.blast_queries_data.add('BLAST_QUERY_MASTER', self.blast_master_sequence(self.blast_queries_data) )
-      #self.save_clusters_data()
+      self.save_clusters_data() ############### check! debug! 2019
     return self.clusters_data
 
   def clusters_relative_positions(self): 
@@ -2327,6 +2331,7 @@ NOTE that in the first, third and fourth cases, those titles for which at least 
   def blast_master_sequence(self, blast_queries_alignment):
     """ Compute the blast master sequence from the various blast queries of the different clusters. This function is used both when the clusters are computed or loaded from a .cluster file. """
     blast_master_seq=''
+    
     for pos in range( blast_queries_alignment.length()  ):
       if blast_queries_alignment.is_gap_column(pos): blast_master_seq+='-'
       else: 
@@ -2441,14 +2446,36 @@ NOTE that in the first, third and fourth cases, those titles for which at least 
     
     """
     last_title= self.titles()[-1]
+    threshold=self.max_column_gaps_for_blast_query_value()
     if last_title.startswith('BLAST_QUERY'): 
       seq=self.seq_of(last_title)
+      conservation_map_data=self.conservation_map() 
       for sec_pos in self.sec_pos():
-        seq=seq[:sec_pos] + sec_char + seq[sec_pos+1:]
-    else:      seq=self.consensus_sequence( threshold=self.max_column_gaps_for_blast_query_value(), sec_char=sec_char )                
+        if conservation_map_data[sec_pos].setdefault('-', 0.0) <= threshold:
+          seq=seq[:sec_pos] + sec_char + seq[sec_pos+1:]
+    else:      seq=self.consensus_sequence( threshold=threshold, sec_char=sec_char )
+    #write('running blast_query_seq  maxgaps={} -> seq:\n{}'.format(threshold, seq), 1)
     seq= self.fix_multiple_secs( seq )
     return seq
 
+  def consensus_sequence(self, threshold=0.0, sec_char=''): #, exclude={}):
+    """MODIFIED FROM MMLIB to avoid sec_char in almost desert columns.
+  This function computes a consensus sequences taking into account all sequences in the alignment (apart from the titles in the input hash exclude). Not all the columns are taken into account: only those having at maximum "threshold" gaps (in proportion). 
+If sec_char is set to a non-False value, any column containing a "U" will return a sec_char, PROVIDED IT PASS THE THRESHOLD OF gaps in this column. 
+If a master alignment is provided, the conservation threshold is checked with this alignment instead of with self. This provided that the master alignment must have column numbering identical to self.
+"""
+    seq=''
+    conservation_map_data=self.conservation_map() #exclude=exclude)
+    for pos in range(self.length()):
+     # looking at the conservation profile at this position. sorting the aminoacid (or gap character) according to their representation in this column
+      sorted_keys=sorted(conservation_map_data[pos].keys(), key=conservation_map_data[pos].get, reverse=True)
+      if   conservation_map_data[pos].setdefault('-', 0.0) > threshold:            seq+='-'
+      elif sec_char and 'U' in sorted_keys:                                        seq+=sec_char
+      elif sorted_keys[0]=='-':                                                    seq+=sorted_keys[1]
+      else:                                                                        seq+=sorted_keys[0]       
+    #write(('run consensus seq', threshold, seq), 1, how='green')
+    return  seq
+  
   def fix_multiple_secs(self, seq):
     """ Bugfix to avoid consecutive U or *, which makes blastall explode"""    
     seq_no_gap=replace(seq, '-', '')
@@ -2533,6 +2560,7 @@ NOTE that in the first, third and fourth cases, those titles for which at least 
 
   def options_dict(self, category):
     """ Utility to run blast_options_dict, exonerate_options_dict or any other with the same logic"""
+    if self.is_cluster_subalignment(): return self.parent_profile.options_dict(category)
     if keywords[category+'_options'].has_key(self.__dict__[category+'_options']):       options_string=keywords[category+'_options'][self.__dict__[category+'_options']]
     else:                                                                       options_string=self[category+'_options']
     out={}
@@ -2556,13 +2584,14 @@ NOTE that in the first, third and fourth cases, those titles for which at least 
     return self.options_non_str(category='clustering_seqid', istype=float)
   def max_column_gaps_for_blast_query_value(self):
     """ This takes the attribute self.max_column_gaps and translates it into something that can be used right away (it changes the potential label into a value)"""
-    return self.options_non_str(category='max_column_gaps', istype=float)
+    return self.options_non_str(category='max_column_gaps', istype=float) 
   def max_blast_hits_number_value(self):
     """ This takes the attribute self.max_blast_hits and translates it into something that can be used right away (it changes the potential label into a value)"""
     return self.options_non_str(category='max_blast_hits', istype=int)
 
   def options_non_str(self, category, istype):
     """ generalized function to return a number"""
+    if self.is_cluster_subalignment(): return self.parent_profile.options_non_str(category, istype)
     if type(self.__dict__[category]) ==str:
       if keywords[category].has_key(self.__dict__[category]):        return keywords[category][self.__dict__[category]]
       else:  raise notracebackException, "selenoprofiles ERROR can't find keyword "+self.__dict__[category]+' for parameter: '+category
@@ -2601,14 +2630,12 @@ NOTE that in the first, third and fourth cases, those titles for which at least 
 
   __repr__=summary
   
-  """
   ## debug
-  def add(self, title, seq):
-    if title.startswith('BLAST_'): 
-      write('adding '+title+' '+seq, 1)
-      #raise Exception, '...'
-    alignment.add(self, title, seq)
-  """    
+  # def add(self, title, seq):
+  #   if title.startswith('BLAST_'): 
+  #     #write('adding '+title+', seq:\n'+seq, 1)
+  #     #raise Exception, '...'
+  #   alignment.add(self, title, seq)
 #    """ Extend the normal add function, it can control if the sequence introduced is a query"""
 #    alignment.add(self, title, seq)
 #    self.queries.append(len(self.titles())-1) 
@@ -5434,5 +5461,6 @@ if __name__ == "__main__":
     close_program()  
   except:
     close_program()
+
 
 
