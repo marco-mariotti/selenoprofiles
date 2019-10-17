@@ -4,6 +4,9 @@ Selenoprofiles is a pipeline for profile-based protein finding in genomes. It ru
 
 For installation instructions, please run:      python install_selenoprofiles.py --help
 
+For its practical use, see the included manual (selenoprofiles_manual.pdf) or the latest publication (Santesmasses et al, 2018) below.
+
+
 Citation:
 Mariotti M, Guigó R (2010) Selenoprofiles: profile-based scanning of eukaryotic genome sequences for selenoprotein genes. Bioinformatics. 26(21):2656-63. 
 
