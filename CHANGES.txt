@@ -1,3 +1,8 @@
+3.6a
+=======
+Bug fixes:
+- Bug that prevented custom profiles being built
+
 3.6
 =======
 Features:

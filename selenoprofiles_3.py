@@ -2,7 +2,7 @@
 __author__  = "Marco Mariotti"
 __email__   = "marco.mariotti@crg.eu"
 __licence__ = "GPLv3"
-__version__ = "3.6"
+__version__ = "3.6a"
 global temp_folder; global split_folder
 from string import *
 import sys
@@ -2315,7 +2315,7 @@ NOTE that in the first, third and fourth cases, those titles for which at least 
         ali.remove_useless_gaps()
         self.blast_queries_data.add(q_title, q_seq)
       self.blast_queries_data.add('BLAST_QUERY_MASTER', self.blast_master_sequence(self.blast_queries_data) )
-      self.save_clusters_data() ############### check! debug! 2019
+      #self.save_clusters_data() ############### 
     return self.clusters_data
 
   def clusters_relative_positions(self): 
