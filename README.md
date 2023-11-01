@@ -1,7 +1,6 @@
-## NOTE this package is deprecated. Use this instead:
-## https://github.com/marco-mariotti/selenoprofiles4
+## NOTE this software is deprecated. Use its latest version: https://github.com/marco-mariotti/selenoprofiles4
 
-# selenoprofiles
+# selenoprofiles v3
 
 Selenoprofiles is a pipeline for profile-based protein finding in genomes. It runs internally blast, exonerate and genewise. It is suitable also (but not only) for prediction of selenoproteins. See page: https://genome.crg.es/software/selenoprofiles/
 
